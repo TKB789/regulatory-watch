@@ -182,16 +182,21 @@ def truncate(text: str, n: int = 400) -> str:
     return text[: n - 1].rsplit(" ", 1)[0] + "…"
 
 
-def fetch_one(feed_cfg: dict) -> list:
-    """Fetch a single feed and return a list of normalised items."""
+def fetch_one(feed_cfg: dict) -> dict:
+    """
+    Fetch a single feed.
+    Returns dict with: items (list), status ('ok'|'error'|'empty'), reason (str|None).
+    """
     print(f"  → {feed_cfg['agency']:6s} {feed_cfg['name']}", flush=True)
     items = []
     try:
         parsed = feedparser.parse(feed_cfg["url"])
         if parsed.bozo and not parsed.entries:
-            print(f"    ✗ feed error: {parsed.bozo_exception}", flush=True)
-            return []
+            reason = str(parsed.bozo_exception)[:120]
+            print(f"    ✗ feed error: {reason}", flush=True)
+            return {"items": [], "status": "error", "reason": reason}
 
+        total_entries = len(parsed.entries)
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = clean_html(entry.get("title", ""))
             summary = clean_html(entry.get("summary", entry.get("description", "")))
@@ -213,25 +218,36 @@ def fetch_one(feed_cfg: dict) -> list:
                 "category": feed_cfg["category"],
                 "source": feed_cfg["name"],
             })
+
+        if not items:
+            reason = (f"0 device-related items (of {total_entries} total)"
+                      if total_entries else "feed returned 0 entries")
+            print(f"    ⚠ {reason}", flush=True)
+            return {"items": [], "status": "empty", "reason": reason}
+
         print(f"    ✓ {len(items)} item(s)", flush=True)
+        return {"items": items, "status": "ok", "reason": None}
     except Exception as e:
         print(f"    ✗ exception: {e}", flush=True)
-    return items
+        return {"items": [], "status": "error", "reason": str(e)[:120]}
 
 
 def main():
     print(f"Fetching {len(FEEDS)} feed(s)…", flush=True)
     all_items = []
-    failed_feeds = []
+    failed_feeds = []  # feeds that errored
+    empty_feeds = []   # feeds that returned no device-relevant items (not an error)
     for cfg in FEEDS:
         try:
-            results = fetch_one(cfg)
-            all_items.extend(results)
-            if not results:
-                failed_feeds.append(cfg["name"])
+            result = fetch_one(cfg)
+            all_items.extend(result["items"])
+            if result["status"] == "error":
+                failed_feeds.append({"name": cfg["name"], "reason": result["reason"]})
+            elif result["status"] == "empty":
+                empty_feeds.append({"name": cfg["name"], "reason": result["reason"]})
         except Exception as e:
             print(f"    ✗ unhandled exception in {cfg['name']}: {e}", flush=True)
-            failed_feeds.append(cfg["name"])
+            failed_feeds.append({"name": cfg["name"], "reason": str(e)[:120]})
         time.sleep(0.5)  # be polite
 
     # Sort newest first, cap total
@@ -241,11 +257,10 @@ def main():
     out_path = Path(__file__).parent.parent / "data" / "feed.json"
     out_path.parent.mkdir(exist_ok=True)
 
-    # If we got NO items at all, preserve the existing feed.json (don't overwrite with empty).
     if not all_items and out_path.exists():
         print(
             f"\n⚠ All {len(FEEDS)} feeds returned 0 items. "
-            f"Preserving existing feed.json. Failed: {failed_feeds}",
+            f"Preserving existing feed.json. Failed: {[f['name'] for f in failed_feeds]}",
             flush=True,
         )
         return
@@ -255,13 +270,14 @@ def main():
         "item_count": len(all_items),
         "feed_count": len(FEEDS),
         "failed_feeds": failed_feeds,
+        "empty_feeds": empty_feeds,
         "items": all_items,
     }
 
     out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     print(
         f"\nWrote {len(all_items)} item(s) → {out_path} "
-        f"({len(failed_feeds)} feed(s) returned nothing)",
+        f"({len(failed_feeds)} feed(s) errored, {len(empty_feeds)} returned no device-relevant items)",
         flush=True,
     )
 
