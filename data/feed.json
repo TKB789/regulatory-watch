@@ -1,248 +1,640 @@
 {
-  "generated_at": "2026-04-30T20:00:00+00:00",
-  "item_count": 23,
-  "feed_count": 8,
-  "_note": "Sample data with verified working URLs to the most relevant section of each agency's site. Once the GitHub Action runs, this is replaced with live RSS data where every link is the actual article URL.",
+  "generated_at": "2026-05-01T23:36:40.246544+00:00",
+  "item_count": 61,
+  "feed_count": 12,
+  "failed_feeds": [
+    {
+      "name": "FDA Medical Device Recalls",
+      "reason": "<unknown>:2:590: mismatched tag"
+    },
+    {
+      "name": "FDA Medical Device Safety",
+      "reason": "<unknown>:2:590: mismatched tag"
+    },
+    {
+      "name": "Health Canada recalls & safety alerts",
+      "reason": "<unknown>:10:14: not well-formed (invalid token)"
+    },
+    {
+      "name": "TGA news & alerts",
+      "reason": "The read operation timed out"
+    },
+    {
+      "name": "European Commission — Health news",
+      "reason": "<unknown>:44:76: not well-formed (invalid token)"
+    }
+  ],
+  "empty_feeds": [],
   "items": [
     {
-      "title": "Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions",
-      "summary": "FDA finalizes guidance establishing Secure Product Development Framework requirements and SBOM expectations for premarket submissions.",
-      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
-      "published": "2026-04-30T14:00:00+00:00",
+      "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
+      "summary": "FDA is announcing that it issued a “safe to proceed” letter to Revolution Medicines, allowing the sponsor to initiate an expanded access treatment protocol (EAP) for its experimental pancreatic cancer drug, daraxonrasib.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-permits-expanded-access-investigational-pancreatic-cancer-drug",
+      "published": "2026-05-01T15:49:59+00:00",
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
-      "source": "FDA Guidance Documents Database"
+      "source": "FDA Press Announcements"
     },
     {
-      "title": "Class I Recall: Infusion Pump Firmware Defect May Cause Overdelivery",
-      "summary": "Manufacturer initiates voluntary correction following 14 reported events including 2 deaths. Firmware patch staged for global deployment.",
-      "link": "https://www.fda.gov/medical-devices/medical-device-recalls",
-      "published": "2026-04-30T10:30:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "source": "FDA Medical Device Recalls"
-    },
-    {
-      "title": "MDCG 2026-3: Updated Borderline & Classification Manual",
-      "summary": "New chapters on AI-driven clinical decision support, digital therapeutics, and substances administered via medical devices. Reclassifications affect Annex VIII Rule 11 software products.",
-      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
-      "published": "2026-04-29T09:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "source": "MDCG Guidance Documents"
-    },
-    {
-      "title": "Federal Register: Proposed Rule on Reusable Device Reprocessing Validation Standards",
-      "summary": "CDRH-led NPRM tightening reprocessing validation expectations for reusable surgical instruments. 60-day comment period.",
-      "link": "https://www.federalregister.gov/agencies/food-and-drug-administration",
-      "published": "2026-04-28T13:15:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "source": "Federal Register — FDA"
-    },
-    {
-      "title": "PMDA Notification: UDI Implementation Phase 3",
-      "summary": "Phase 3 of Japan's Unique Device Identification rollout now covers Class II non-implantable devices. Manufacturers and authorized representatives must update GS1 registrations by 1 October 2026.",
-      "link": "https://www.pmda.go.jp/english/review-services/regulatory-info/0003.html",
-      "published": "2026-04-27T08:00:00+00:00",
-      "agency": "PMDA",
-      "region": "Japan",
-      "category": "postmarket",
-      "source": "PMDA Regulatory Information"
-    },
-    {
-      "title": "UK Medical Devices Post-market Surveillance Regulations 2025 Now in Force",
-      "summary": "PSURs, periodic safety updates, and serious incident reporting timelines have been formally aligned with EU MDR Article 87.",
-      "link": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
-      "published": "2026-04-26T00:00:00+00:00",
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-05-01T15:05:36+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
-      "source": "MHRA"
+      "source": "MHRA news & alerts"
     },
     {
-      "title": "Health Canada Recall: Surgical Mesh — Sterile Barrier Failure",
-      "summary": "Three lots affected. Distributor-level correction underway. No patient harm reported to date.",
-      "link": "https://recalls-rappels.canada.ca/en",
-      "published": "2026-04-25T15:30:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "source": "Health Canada Recalls Database"
-    },
-    {
-      "title": "Health Canada Consultation: Medical Device Establishment Licence Modernization",
-      "summary": "Consultation opens on a streamlined MDEL framework with risk-based inspection tiers harmonised with FDA Establishment Registration.",
-      "link": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices.html",
-      "published": "2026-04-25T11:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "guidance",
-      "source": "Health Canada — Medical Devices"
-    },
-    {
-      "title": "TGA Consultation: Reclassification of Spinal Implantable Devices",
-      "summary": "Australia proposes aligning with EU classification approach for spinal implants, moving most products to Class III. 90-day comment period.",
-      "link": "https://consultations.tga.gov.au/",
-      "published": "2026-04-23T09:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "guidance",
-      "source": "TGA Consultations Hub"
-    },
-    {
-      "title": "FDA 510(k) Clearances: 17 De Novo Grants and 312 510(k) Clearances Posted",
-      "summary": "Notable: first AI-enabled cardiac MRI quantification tool with autonomous-mode labeling; novel bioresorbable scaffold for peripheral vasculature.",
-      "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm",
-      "published": "2026-04-21T16:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "premarket",
-      "source": "FDA 510(k) Premarket Notification Database"
-    },
-    {
-      "title": "Draft Guidance: Real-World Data for Premarket Decisions",
-      "summary": "CDRH proposes expanded acceptance criteria for real-world evidence in 510(k) and De Novo submissions. 60-day comment window.",
-      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents",
-      "published": "2026-04-20T12:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "source": "FDA Guidance Documents Database"
-    },
-    {
-      "title": "FDA Class I Recall: Implantable Defibrillator Lead — Fracture Risk",
-      "summary": "Prospective surveillance flags above-expected fracture rate in subset of leads manufactured between 2023–2024. Physicians advised to monitor patients.",
-      "link": "https://www.fda.gov/medical-devices/medical-device-recalls",
-      "published": "2026-04-19T14:30:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "source": "FDA Medical Device Recalls"
-    },
-    {
-      "title": "PMA Approval: Multi-Target Liquid Biopsy Companion Diagnostic",
-      "summary": "First PMA approval for multi-target liquid biopsy companion diagnostic across solid tumors. Class III clearance with post-approval study commitments.",
-      "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm",
-      "published": "2026-04-19T10:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "premarket",
-      "source": "FDA PMA Database"
-    },
-    {
-      "title": "MDCG 2026-2: Clinical Evaluation Equivalence Pathways",
-      "summary": "Updated criteria for technical, biological, and clinical equivalence demonstrations under Article 61. References to third-country market data permitted under defined conditions.",
-      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
-      "published": "2026-04-18T08:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "source": "MDCG Guidance Documents"
-    },
-    {
-      "title": "New Notified Body Designation Under MDR — TÜV SÜD Czech",
-      "summary": "NANDO database adds another MDR-designated NB. Now 56 active notified bodies for MDR; 12 for IVDR.",
-      "link": "https://ec.europa.eu/growth/tools-databases/nando/index.cfm",
-      "published": "2026-04-17T11:30:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "premarket",
-      "source": "NANDO — Notified Body Database"
-    },
-    {
-      "title": "EUDAMED Module 6 (Vigilance) Mandatory Activation Notice",
-      "summary": "Vigilance and post-market module switches from voluntary to mandatory use on 11 May. All MIRs, FSCAs, and PSURs to be filed via EUDAMED from that date.",
-      "link": "https://ec.europa.eu/tools/eudamed/",
-      "published": "2026-04-16T09:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "postmarket",
-      "source": "EUDAMED"
-    },
-    {
-      "title": "Draft Guidance: Predetermined Change Control Plans for AI/ML Devices",
-      "summary": "Companion document to the AI/ML PCCP final rule. Walks through example PCCPs, expected modification protocols, and impact assessments. Comments due in 90 days.",
-      "link": "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-and-machine-learning-aiml-enabled-medical-devices",
-      "published": "2026-04-15T13:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "source": "FDA AI/ML-Enabled Medical Devices"
-    },
-    {
-      "title": "PMDA Updates Marketing Authorization Holder Requirements",
-      "summary": "Revised MAH responsibilities for Class III/IV devices, with new emphasis on local clinical liaison and post-launch surveillance reporting cadence.",
-      "link": "https://www.pmda.go.jp/english/review-services/regulatory-info/0003.html",
-      "published": "2026-04-14T08:00:00+00:00",
-      "agency": "PMDA",
-      "region": "Japan",
-      "category": "premarket",
-      "source": "PMDA Regulatory Information"
-    },
-    {
-      "title": "FDA eMDR Submission System — Schema Update for Software Malfunction Reporting",
-      "summary": "New required fields for software-related malfunction reporting. Manufacturers should update gateway integrations before 1 May.",
-      "link": "https://www.fda.gov/industry/about-esg",
-      "published": "2026-04-13T15:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "source": "FDA Electronic Submissions Gateway"
-    },
-    {
-      "title": "MHRA Consultation: Future UK Regulatory Regime — Core Statutory Instrument",
-      "summary": "Foundational consultation for UK's post-Brexit medical device framework. Covers classification, conformity assessment routes, UKCA marking timeline. Closes 28 June.",
-      "link": "https://www.gov.uk/government/consultations",
-      "published": "2026-04-12T10:00:00+00:00",
+      "title": "MHRA approves Linerixibat (Lynavoy) for the treatment of itch due to biliary tract disease",
+      "summary": "As with all medicines, we will continue to closely monitor the safety and effectiveness of linerixibat as it is used more widely.",
+      "link": "https://www.gov.uk/government/news/mhra-approves-linerixibat-lynavoy-for-the-treatment-of-itch-due-to-biliary-tract-disease",
+      "published": "2026-05-01T13:26:42+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
-      "category": "guidance",
-      "source": "UK Government Consultations"
-    },
-    {
-      "title": "TGA Adverse Event Reporting Timeline Reminder",
-      "summary": "Reminder of statutory reporting clocks: 2-day, 10-day, and 30-day pathways depending on event severity. Trend reporting now required for systematic issues.",
-      "link": "https://www.tga.gov.au/safety",
-      "published": "2026-04-10T09:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
       "category": "postmarket",
-      "source": "TGA Safety"
+      "source": "MHRA news & alerts"
     },
     {
-      "title": "Health Canada Vigilance Reporting Annual Summary 2025",
-      "summary": "Aggregate report of medical device incidents reported in 2025. Notable upticks in software-related events; flat trend in implantable failures.",
-      "link": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/medical-device-problem-reporting.html",
-      "published": "2026-04-07T11:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "postmarket",
-      "source": "Health Canada — Medical Device Problem Reporting"
-    },
-    {
-      "title": "MDCG Q&A on Trend Reporting Under Article 88",
-      "summary": "Clarifies what constitutes a 'statistically significant increase' and provides example calculations. Manufacturers should update PMS procedures.",
-      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
-      "published": "2026-04-05T08:30:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "postmarket",
-      "source": "MDCG Guidance Documents"
-    },
-    {
-      "title": "Federal Register: AI/ML PCCP Lifecycle Management — Final Rule",
-      "summary": "Codifies predetermined change control plans for algorithm-driven devices. Effective 180 days after publication.",
-      "link": "https://www.federalregister.gov/agencies/food-and-drug-administration",
-      "published": "2026-04-02T09:00:00+00:00",
+      "title": "Obesity and Drug Dosing: Clinical Pharmacology Considerations; Request for Comments",
+      "summary": "The Food and Drug Administration (FDA) is establishing a public docket entitled &quot;Obesity and Drug Dosing: Clinical Pharmacology Considerations.&quot; The Agency is soliciting input from interested persons on assessing the effect of obesity on drug pharmacokinetics and pharmacodynamics during drug (including biological product) development. These assessments could potentially inform whether obesity impacts the safety and effectiveness of the drug and dosing recommendations for obese…",
+      "link": "https://www.federalregister.gov/documents/2026/05/01/2026-08521/obesity-and-drug-dosing-clinical-pharmacology-considerations-request-for-comments",
+      "published": "2026-05-01T00:00:00+00:00",
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
-      "source": "Federal Register — FDA"
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Exemptions From Premarket Notification: Certain Class II Devices; Request for Comments",
+      "summary": "The Food and Drug Administration (FDA) is announcing its intent to exempt from premarket notification requirements certain class II clinical toxicology test system devices. FDA is publishing this notice and requesting public comment in accordance with procedures established by the 21st Century Cures Act. This notice does not represent FDA's final determination with respect to the devices included in this document. FDA will review any comments submitted within the 60-day comment period and will…",
+      "link": "https://www.federalregister.gov/documents/2026/05/01/2026-08499/medical-devices-exemptions-from-premarket-notification-certain-class-ii-devices-request-for-comments",
+      "published": "2026-05-01T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; General and Plastic Surgery Devices; Classification of the Phototherapy Device for Reducing the Appearance of Acute Post-Surgical Incisions",
+      "summary": "The Food and Drug Administration (FDA) is classifying the phototherapy device for reducing the appearance of acute post-surgical incisions into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the phototherapy device for reducing the appearance of acute post-surgical incisions. We are taking this action because we have determined that classifying the device into class II…",
+      "link": "https://www.federalregister.gov/documents/2026/05/01/2026-08497/medical-devices-general-and-plastic-surgery-devices-classification-of-the-phototherapy-device-for",
+      "published": "2026-05-01T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "FDA Approves First Non-Antipsychotic Drug to Treat Agitation Associated with Dementia",
+      "summary": "The U.S. Food and Drug Administration today approved an expanded use for Auvelity (dextromethorphan hydrobromide and bupropion hydrochloride) extended-release tablets to treat agitation associated with dementia due to Alzheimer’s disease in adults.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-non-antipsychotic-drug-treat-agitation-associated-dementia",
+      "published": "2026-04-30T18:52:35+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Proposes to Exclude Semaglutide, Tirzepatide, and Liraglutide on 503B Bulks List",
+      "summary": "FDA is proposing to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list, finding no clinical need for outsourcing facilities to compound these drugs from bulk substances.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list",
+      "published": "2026-04-30T13:18:42+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Guidance: The Innovative Devices Access Pathway (IDAP)",
+      "summary": "The Innovative Devices Access Pathway (IDAP) pilot is designed to accelerate the development of innovative medical devices that meet an unmet clinical need in the NHS and support their integration into the UK market.",
+      "link": "https://www.gov.uk/government/publications/the-innovative-devices-access-pathway-idap",
+      "published": "2026-04-30T11:11:16+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Insulin Pump Recall: Insulet Removes Certain Omnipod 5 Pods",
+      "summary": "Omnipod Pods may not deliver insulin as intended due to a tear in the internal tubing.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/insulin-pump-recall-insulet-removes-certain-omnipod-5-pods",
+      "published": "2026-04-30T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Medical Devices; Cardiovascular Devices; Classification of the Laser-Powered Inferior Vena Cava Filter Retrieval Catheter",
+      "summary": "The Food and Drug Administration (FDA) is classifying the laser-powered inferior vena cava filter retrieval catheter into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the laser-powered inferior vena cava filter retrieval catheter. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08426/medical-devices-cardiovascular-devices-classification-of-the-laser-powered-inferior-vena-cava-filter",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Neurological Devices; Classification of the Brain Temperature Measurement System",
+      "summary": "The Food and Drug Administration (FDA) is classifying the brain temperature measurement system into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the brain temperature measurement system. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08425/medical-devices-neurological-devices-classification-of-the-brain-temperature-measurement-system",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Radiology Devices; Classification of the Radiation Therapy Marking Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the radiation therapy marking device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the radiation therapy marking device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08424/medical-devices-radiology-devices-classification-of-the-radiation-therapy-marking-device",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Good Laboratory Practice Requirements for Nonclinical Laboratory Studies",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08371/agency-information-collection-activities-proposed-collection-comment-request-good-laboratory",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "MHRA hires top global tech talent to transform systems behind regulation of medicines and medical devices",
+      "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) is pleased to announce the appointment of Jason Bonander as its new Chief Digital and Technology Officer (CDTO).",
+      "link": "https://www.gov.uk/government/news/mhra-hires-top-global-tech-talent-to-transform-systems-behind-regulation-of-medicines-and-medical-devices",
+      "published": "2026-04-29T14:06:40+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA Safety Roundup: April 2026",
+      "summary": "Summary of the latest safety advice for medicines and medical device users",
+      "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-april-2026",
+      "published": "2026-04-29T13:02:41+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA Safety Roundup: April 2026",
+      "summary": "Summary of the latest safety advice for medicines and medical device users",
+      "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-april-2026",
+      "published": "2026-04-29T13:02:41+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Good laboratory practice (GLP) for safety tests on chemicals",
+      "summary": "Keep up to date with the latest information from the UK GLP monitoring authority.",
+      "link": "https://www.gov.uk/guidance/good-laboratory-practice-glp-for-safety-tests-on-chemicals",
+      "published": "2026-04-29T13:01:48+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "FDA Releases Results from Largest-Ever Testing of Infant Formula in the U.S.",
+      "summary": "FDA announces results from the largest and most rigorous examination ever conducted focused on chemical contaminants in infant formula available on the U.S. market.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-releases-results-largest-ever-testing-infant-formula-us",
+      "published": "2026-04-29T12:56:22+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request for Information",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is issuing this request for information to solicit input on a proposed pilot program to assess how artificial intelligence (AI)-enabled technologies can improve efficiency, speed, and quality of decision- making in early phase clinical trials. Early-phase clinical trials represent a critical bottleneck in drug development, often characterized by high uncertainty, limited patient populations, and inefficient decision- making processes. This…",
+      "link": "https://www.federalregister.gov/documents/2026/04/29/2026-08281/ai-enabled-optimization-of-early-phase-clinical-trials-pilot-program-request-for-information",
+      "published": "2026-04-29T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "FDA Announces Major Steps to Implement Real-Time Clinical Trials",
+      "summary": "The U.S. Food and Drug Administration today announced two major steps as part of an initiative to advance the implementation of real-time clinical trials (RTCT).",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-announces-major-steps-implement-real-time-clinical-trials",
+      "published": "2026-04-28T17:33:24+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Precautionary recall of antidepressant medication due to manufacturing error",
+      "summary": "The MHRA has advised healthcare professionals to stop supplying the affected batch of Sertraline 100mg and return all remaining stock to their suppliers.",
+      "link": "https://www.gov.uk/government/news/precautionaryrecall-of-antidepressant-medication-due-to-manufacturing-error",
+      "published": "2026-04-28T11:03:06+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Clinical investigations for medical devices",
+      "summary": "How to notify the MHRA of your intention to carry out a clinical investigation for medical devices.",
+      "link": "https://www.gov.uk/guidance/notify-mhra-about-a-clinical-investigation-for-a-medical-device",
+      "published": "2026-04-28T10:49:20+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22",
+      "summary": "Amarox Limited is recalling one batch of Sertraline 100 mg film-coated tablets as a precautionary measure due to an error at the manufacturing site.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
+      "published": "2026-04-28T10:00:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22",
+      "summary": "Amarox Limited is recalling one batch of Sertraline 100 mg film-coated tablets as a precautionary measure due to an error at the manufacturing site.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
+      "published": "2026-04-28T10:00:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "B. Braun Medical, Inc. Issues Voluntary Nationwide Recall of Lactated Ringer’s Injection, 1L, E7500 Due to the Presence of Particulate Matter in Solution",
+      "summary": "For Immediate Release - BETHLEHEM, PA – APRIL 28, 2026 – B. Braun Medical Inc. is voluntarily recalling two lots of Lactated Ringer’s Injection, E7500, 1L, to the hospital/healthcare facility level. The product has been found to have particulate matter in solution.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-lactated-ringers-injection-1l-e7500-due",
+      "published": "2026-04-28T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Thoracic Stent Graft Issue from Bolton Medical",
+      "summary": "Affected grafts may not unclasp from the delivery system, which may require conversion to open surgical repair and can result in patient death",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-thoracic-stent-graft-issue-bolton-medical",
+      "published": "2026-04-28T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Blood Glucose Monitor Recall: Trividia Health Issues Correction for TRUE METRIX Blood Glucose Monitoring Systems",
+      "summary": "Trividia recommends that device users who receive an E-5 error code and are experiencing symptoms of high glucose should seek medical care immediately.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/blood-glucose-monitor-recall-trividia-health-issues-correction-true-metrix-blood-glucose-monitoring",
+      "published": "2026-04-28T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Risks of Using TRUE METRIX Blood Glucose Monitoring Systems by Trividia Health: FDA Safety Communication",
+      "summary": "FDA alerts of risks with use TRUE METRIX Blood Glucose Monitoring Systems by Trividia Health.",
+      "link": "http://www.fda.gov/medical-devices/safety-communications/risks-using-true-metrix-blood-glucose-monitoring-systems-trividia-health-fda-safety-communication",
+      "published": "2026-04-28T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Class 3 Medicines Recall: Omega Pharma Ltd, Napralief 250mg Gastro-Resistant Tablets, EL(26)A/21",
+      "summary": "Omega Pharma Ltd is recalling specific batches of Napralief 250mg Gastro-Resistant Tablets due to missing text in Section 2 and Section 3 of the Patient Information Leaflet (PIL) and on the Carton in packs of Napralief 250mg…",
+      "link": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-omega-pharma-ltd-napralief-250mg-gastro-resistant-tablets-el-26-a-slash-21",
+      "published": "2026-04-24T14:22:20+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "FDA Accelerates Action on Treatments for Serious Mental Illness Following Executive Order",
+      "summary": "On April 18, President Trump issued an Executive Order directing the U.S. Department of Health and Human Services (HHS) to accelerate access to treatments for patients with serious mental illness, including devastating, complex, and treatment-resistant conditions.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-accelerates-action-treatments-serious-mental-illness-following-executive-order",
+      "published": "2026-04-24T13:16:06+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Early Alert: Automated Compounding System Issue from Omnicell",
+      "summary": "Certain labels used with i.V.Station automated compounding systems may not be detected, leading to mislabeled sterile filled syringes",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-automated-compounding-system-issue-omnicell",
+      "published": "2026-04-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Arrow International Removes Dialysis Catheter Kits Containing Merit Medical Splittable Sheath Introducers",
+      "summary": "Arrow International is removing dialysis catheter kits containing recalled Merit Medical Splittable Sheath Introducers",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-arrow-international-removes-dialysis-catheter-kits-containing-merit-medical-splittable",
+      "published": "2026-04-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss Under National Priority Voucher Program",
+      "summary": "The U.S. Food and Drug Administration today approved Otarmeni (lunsotogene parvec-cwha), the first-ever dual adeno-associated virus (AAV) vector-based gene therapy.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
+      "published": "2026-04-23T19:25:59+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "CMS and FDA Announce RAPID Coverage Pathway to Accelerate Patient Access to Life-Changing Medical Devices",
+      "summary": "CMS and FDA announce the Regulatory Alignment for Predictable and Immediate Device (RAPID) coverage pathway, a new pathway designed to expedite access to certain FDA-designated Class II and Class III Breakthrough Devices for people with Medicare.",
+      "link": "http://www.fda.gov/news-events/press-announcements/cms-and-fda-announce-rapid-coverage-pathway-accelerate-patient-access-life-changing-medical-devices",
+      "published": "2026-04-23T12:50:46+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Early Alert: Convenience Kit Issue from Aligned Medical Solutions",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-aligned-medical-solutions",
+      "published": "2026-04-23T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Cranial Drill Recall: Integra LifeSciences Recalls Codman Disposable Perforators Due to Risk of Device Disassembly",
+      "summary": "Certain Codman Disposable Perforators may disassemble during or after use, increasing the risk of brain injury, hemorrhage, or prolonged surgery.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/cranial-drill-recall-integra-lifesciences-recalls-codman-disposable-perforators-due-risk-device",
+      "published": "2026-04-23T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Insulin Pump Correction: Tandem Diabetes Care Issues Correction for Tandem Mobi Insulin Pumps",
+      "summary": "Tandem is correcting Mobi insulin pumps operating on affected software versions (7.6.0.1, 7.6.0.3, and 7.7.0.1) which may incorrectly detect a motor issue.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/insulin-pump-correction-tandem-diabetes-care-issues-correction-tandem-mobi-insulin-pumps",
+      "published": "2026-04-22T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "FDA Achieves Year 1 Goals in Reducing Animal Testing in Drug Development",
+      "summary": "Since publishing roadmap last April, agency has successfully launched several key initiatives to replace animal testing with better alternatives",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-achieves-year-1-goals-reducing-animal-testing-drug-development",
+      "published": "2026-04-20T15:12:37+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 10mg capsules, EL(26)A/19",
+      "summary": "Crescent Pharma Limited is recalling one batch of Ramipril 10mg Capsules as a precautionary measure due to a potential error at the manufacturing site.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-crescent-pharma-limited-ramipril-10mg-capsules-el-26-a-slash-19",
+      "published": "2026-04-20T12:06:09+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Windstone Medical Packaging dba Aligned Medical Solutions Issues Nationwide Recall of Namic Angiographic Rotating Adapter 10CC Control Syringe Placed into the Following Kits; AMS6908E Angio Pack, and AMS6908F Angio Pack",
+      "summary": "On April 02, 2026, Aligned Medical Solutions, Billings, MT, initiated a nationwide recall of two convenience kits that contain the Medline Namic Angiographic Rotating Adapter(RA) 10CC Syringe. Associated kits are AMS6908E Angio Pack and AMS6908F Angio Pack.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/windstone-medical-packaging-dba-aligned-medical-solutions-issues-nationwide-recall-namic",
+      "published": "2026-04-20T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "FDA Takes Step Forward on Testosterone Therapy for Men",
+      "summary": "FDA is taking an initial step to advance treatment options for men’s health by encouraging sponsors of approved testosterone replacement therapy products to contact FDA for information if they are interested in pursuing a potential new indication for low libido in men with idiopathic hypogonadism.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-takes-step-forward-testosterone-therapy-men",
+      "published": "2026-04-16T15:24:16+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Early Alert: Convenience Kit Issue from American Contract Systems",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-american-contract-systems",
+      "published": "2026-04-16T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Convenience Kit Issue from Medical Action Industries",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-medical-action-industries",
+      "published": "2026-04-16T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Ventilator Tubing Correction: Percussionaire Corporation Updates Use Instructions for Phasitron In-Line Valve",
+      "summary": "Percussionaire Corporation issues updated instructions for ventilator tubes due to design defect that could cause hypoventilation, respiratory failure",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/ventilator-tubing-correction-percussionaire-corporation-updates-use-instructions-phasitron-line",
+      "published": "2026-04-15T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Reconstruction Prosthesis Correction: Stryker Updates Use Instructions for Patient-Fitted TMJ Implants",
+      "summary": "Stryker is updating use instructions for TMJ Unilateral and Bilateral Implants due to a discrepancy in the positioning of the screw hole.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/reconstruction-prosthesis-correction-stryker-updates-use-instructions-patient-fitted-tmj-implants",
+      "published": "2026-04-15T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
+      "summary": "The U.S. Food and Drug Administration today issued a draft guidance for sponsors seeking approval of human gene therapy products involving genome editing technologies.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-issues-draft-guidance-genome-editing-safety-standards-advance-gene-therapy-development",
+      "published": "2026-04-14T13:00:05+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Reminds More Than 2,200 Sponsors and Researchers to Disclose Trial Results",
+      "summary": "The U.S. Food and Drug Administration has reminded more than 2,200 medical product companies and researchers of the requirements to submit certain clinical trial results information to ClinicalTrials.gov.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-reminds-more-2200-sponsors-and-researchers-disclose-trial-results",
+      "published": "2026-04-13T15:54:23+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Technical Framework for Artificial Intelligence Life Cycle Management",
+      "summary": "Technical Framework for Artificial Intelligence Life Cycle Management",
+      "link": "https://www.imdrf.org/consultations/technical-framework-artificial-intelligence-life-cycle-management",
+      "published": "2026-04-08T05:13:44+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Consultations"
+    },
+    {
+      "title": "FDA Approves First New Molecular Entity Under National Priority Voucher Program",
+      "summary": "The U.S. Food and Drug Administration today approved Foundayo (orforglipron) marking the fifth approval under the Commissioner's National Priority Voucher (CNPV) pilot program.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program",
+      "published": "2026-04-01T15:23:52+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "MHRA Safety Roundup: March 2026",
+      "summary": "Summary of the latest safety advice for medicines and medical device users",
+      "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-march-2026",
+      "published": "2026-03-31T13:01:53+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Bio Products Laboratory Limited, Rabies, Human normal Immunoglobulin 500IU solution for Injection, EL(26)A/18",
+      "summary": "Bio Products Laboratory Limited is recalling one batch of Human Rabies Immunoglobulin following a stability failure for this batch. The batch has shown a reduction in potency of the Human Rabies immunoglobulin.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-bio-products-laboratory-limited-rabies-human-normal-immunoglobulin-500iu-solution-for-injection-el-26-a-slash-18",
+      "published": "2026-03-30T09:16:08+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "FDA Approves First Gene Therapy for Severe Leukocyte Adhesion Deficiency Type I",
+      "summary": "The U.S. Food and Drug Administration today approved Kresladi (marnetegragene autotemcel), the first gene therapy for the treatment of severe Leukocyte Adhesion Deficiency Type I (LAD-I).",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-severe-leukocyte-adhesion-deficiency-type-i",
+      "published": "2026-03-26T22:47:15+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Approves Drug to Treat Neurologic Manifestations of Hunter Syndrome",
+      "summary": "The U.S. Food and Drug Administration approved Avlayah (tividenofusp alfa-eknm) to treat certain individuals with Hunter syndrome (Mucopolysaccharidosis type II or MPS II).",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-drug-treat-neurologic-manifestations-hunter-syndrome",
+      "published": "2026-03-25T15:24:47+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Clinical Evidence for IVD Medical Devices – Definitions and Principles of Performance Evaluation",
+      "summary": "Clinical Evidence for IVD Medical Devices – Definitions and Principles of Performance Evaluation",
+      "link": "https://www.imdrf.org/consultations/clinical-evidence-ivd-medical-devices-definitions-and-principles-performance-evaluation",
+      "published": "2026-02-26T03:39:07+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Consultations"
+    },
+    {
+      "title": "Adverse Event Terminology",
+      "summary": "Harmonize terminology for reporting adverse events related to medical devices, and further harmonize adverse event reporting datasets to improve signal detection.",
+      "link": "https://www.imdrf.org/working-groups/adverse-event-terminology",
+      "published": "2025-06-10T23:24:14+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Working Groups"
+    },
+    {
+      "title": "Clinical Evidence for In Vitro Diagnostic Medical Devices",
+      "summary": "A working group on Clinical evidence for in vitro diagnostic (IVD) medical devices",
+      "link": "https://www.imdrf.org/working-groups/clinical-evidence-vitro-diagnostic-medical-devices",
+      "published": "2024-10-21T23:00:00+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Working Groups"
+    },
+    {
+      "title": "Quality Management Systems",
+      "summary": "Ensure alignment of IMDRF QMS and risk management documents with current international standards",
+      "link": "https://www.imdrf.org/working-groups/quality-management-systems",
+      "published": "2023-07-03T01:19:24+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Working Groups"
+    },
+    {
+      "title": "Artificial Intelligence/Machine Learning-enabled",
+      "summary": "Seeking to harmonize internationally, principles to help promote the development of safe and effective AI/ML enabled medical devices",
+      "link": "https://www.imdrf.org/working-groups/artificial-intelligencemachine-learning-enabled",
+      "published": "2023-07-02T22:42:22+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Working Groups"
+    },
+    {
+      "title": "Software as a Medical Device",
+      "summary": "Promote consistency in regulatory assessment for Software as a Medical Device to reach patients more efficiently.",
+      "link": "https://www.imdrf.org/working-groups/software-medical-device",
+      "published": "2022-06-28T00:47:55+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Working Groups"
+    },
+    {
+      "title": "Good Regulatory Review Practices",
+      "summary": "Develop good review practices for pre-market reviews and evaluations.",
+      "link": "https://www.imdrf.org/working-groups/good-regulatory-review-practices",
+      "published": "2021-07-19T23:45:07+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "source": "IMDRF Working Groups"
     }
   ]
 }
