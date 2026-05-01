@@ -72,14 +72,6 @@ FEEDS = [
         "name": "Federal Register — FDA documents",
         "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions[agencies][]=food-and-drug-administration&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[type][]=NOTICE",
     },
-    # --- AccessGUDID (UDI database — daily UDI publications) ---
-    {
-        "agency": "FDA",
-        "region": "United States",
-        "category": "premarket",
-        "name": "AccessGUDID — UDI Database (daily)",
-        "url": "https://accessgudid.nlm.nih.gov/download.rss?files=daily",
-    },
     # --- IMDRF: international harmonization (covers all major regulators) ---
     {
         "agency": "IMDRF",
