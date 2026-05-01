@@ -1,1 +1,248 @@
-
+{
+  "generated_at": "2026-04-30T20:00:00+00:00",
+  "item_count": 24,
+  "feed_count": 8,
+  "_note": "Sample data with deep-link URLs. Once the GitHub Action runs, this file is replaced with live feed content where every link points to the specific article on the official site.",
+  "items": [
+    {
+      "title": "Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions",
+      "summary": "FDA finalizes guidance establishing Secure Product Development Framework requirements and SBOM expectations for premarket submissions.",
+      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions",
+      "published": "2026-04-30T14:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Class I Recall: Medtronic Infusion Pump — Firmware Defect May Cause Overdelivery",
+      "summary": "Manufacturer initiates voluntary correction following 14 reported events including 2 deaths. Firmware patch staged for global deployment.",
+      "link": "https://www.fda.gov/medical-devices/medical-device-recalls/medtronic-recalls-infusion-pump-firmware-defect-overdelivery-risk",
+      "published": "2026-04-30T10:30:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA Medical Device Recalls"
+    },
+    {
+      "title": "MDCG 2026-3: Updated Borderline & Classification Manual",
+      "summary": "New chapters on AI-driven clinical decision support, digital therapeutics, and substances administered via medical devices. Reclassifications affect Annex VIII Rule 11 software products.",
+      "link": "https://health.ec.europa.eu/document/download/mdcg-2026-3-borderline-classification-manual_en",
+      "published": "2026-04-29T09:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "Federal Register: Proposed Rule on Reusable Device Reprocessing Validation Standards",
+      "summary": "CDRH-led NPRM tightening reprocessing validation expectations for reusable surgical instruments. 60-day comment period.",
+      "link": "https://www.federalregister.gov/documents/2026/04/28/2026-09127/reusable-device-reprocessing-validation-standards",
+      "published": "2026-04-28T13:15:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "PMDA Notification 0427-1: UDI Implementation Phase 3",
+      "summary": "Phase 3 of Japan's Unique Device Identification rollout now covers Class II non-implantable devices. Manufacturers must update GS1 registrations by 1 October 2026.",
+      "link": "https://www.pmda.go.jp/files/000270427-1.pdf",
+      "published": "2026-04-27T08:00:00+00:00",
+      "agency": "PMDA",
+      "region": "Japan",
+      "category": "postmarket",
+      "source": "PMDA Notifications"
+    },
+    {
+      "title": "UK Medical Devices Post-market Surveillance Regulations 2025 Now in Force",
+      "summary": "PSURs, periodic safety updates, and serious incident reporting timelines have been formally aligned with EU MDR Article 87.",
+      "link": "https://www.gov.uk/government/news/medical-devices-post-market-surveillance-regulations-2025-now-in-force",
+      "published": "2026-04-26T00:00:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Health Canada Recall: Surgical Mesh — Sterile Barrier Failure",
+      "summary": "Three lots affected. Distributor-level correction underway. No patient harm reported to date.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/surgical-mesh-sterile-barrier-failure-2026-04-25",
+      "published": "2026-04-25T15:30:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "source": "Health Canada recalls & safety alerts"
+    },
+    {
+      "title": "Health Canada Consultation: Medical Device Establishment Licence Modernization",
+      "summary": "Consultation opens on a streamlined MDEL framework with risk-based inspection tiers harmonised with FDA Establishment Registration.",
+      "link": "https://www.canada.ca/en/health-canada/programs/consultation-mdel-modernization-2026.html",
+      "published": "2026-04-25T11:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "guidance",
+      "source": "Health Canada"
+    },
+    {
+      "title": "TGA Consultation: Reclassification of Spinal Implantable Devices",
+      "summary": "Australia proposes aligning with EU classification approach for spinal implants, moving most products to Class III. 90-day comment period.",
+      "link": "https://www.tga.gov.au/consultation/consultation-reclassification-spinal-implantable-devices-2026",
+      "published": "2026-04-23T09:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "guidance",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "FDA 510(k) Clearances: 17 De Novo Grants and 312 510(k) Clearances Posted",
+      "summary": "Notable: first AI-enabled cardiac MRI quantification tool with autonomous-mode labeling; novel bioresorbable scaffold for peripheral vasculature.",
+      "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?start_search=1&Center=CDRH&dateFrom=2026-04-15&dateTo=2026-04-21",
+      "published": "2026-04-21T16:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "premarket",
+      "source": "FDA 510(k) Database"
+    },
+    {
+      "title": "Draft Guidance: Real-World Data for Premarket Decisions",
+      "summary": "CDRH proposes expanded acceptance criteria for real-world evidence in 510(k) and De Novo submissions. 60-day comment window.",
+      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-real-world-data-premarket-decisions-2026",
+      "published": "2026-04-20T12:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Class I Recall: Implantable Defibrillator Lead — Fracture Risk",
+      "summary": "Prospective surveillance flags above-expected fracture rate in subset of leads manufactured between 2023–2024. Physicians advised to monitor patients.",
+      "link": "https://www.fda.gov/medical-devices/medical-device-recalls/icd-lead-fracture-risk-class-i-recall-2026-04-19",
+      "published": "2026-04-19T14:30:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA Medical Device Recalls"
+    },
+    {
+      "title": "PMA Approval: Multi-Target Liquid Biopsy Companion Diagnostic",
+      "summary": "First PMA approval for multi-target liquid biopsy companion diagnostic across solid tumors. Class III clearance with post-approval study commitments.",
+      "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P260012",
+      "published": "2026-04-19T10:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "premarket",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "MDCG 2026-2: Clinical Evaluation Equivalence Pathways",
+      "summary": "Updated criteria for technical, biological, and clinical equivalence demonstrations under Article 61. References to third-country market data permitted under defined conditions.",
+      "link": "https://health.ec.europa.eu/document/download/mdcg-2026-2-clinical-evaluation-equivalence_en",
+      "published": "2026-04-18T08:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "New Notified Body Designation Under MDR — TÜV SÜD Czech",
+      "summary": "NANDO database adds another MDR-designated NB. Now 56 active notified bodies for MDR; 12 for IVDR.",
+      "link": "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=notifiedbody.notifiedbody&refe_cd=NANDO_INPUT_2613",
+      "published": "2026-04-17T11:30:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "premarket",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "EUDAMED Module 6 (Vigilance) Mandatory Activation Notice",
+      "summary": "Vigilance and post-market module switches from voluntary to mandatory use on 11 May. All MIRs, FSCAs, and PSURs to be filed via EUDAMED from that date.",
+      "link": "https://health.ec.europa.eu/medical-devices-eudamed/eudamed-module-6-vigilance-mandatory-activation_en",
+      "published": "2026-04-16T09:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "postmarket",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "Draft Guidance: Predetermined Change Control Plans for AI/ML Devices",
+      "summary": "Companion document to the AI/ML PCCP final rule. Walks through example PCCPs, expected modification protocols, and impact assessments. Comments due in 90 days.",
+      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/predetermined-change-control-plans-machine-learning-enabled-medical-devices",
+      "published": "2026-04-15T13:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "PMDA Updates Marketing Authorization Holder Requirements",
+      "summary": "Revised MAH responsibilities for Class III/IV devices, with new emphasis on local clinical liaison and post-launch surveillance reporting cadence.",
+      "link": "https://www.pmda.go.jp/english/review-services/regulatory-info/0003.html",
+      "published": "2026-04-14T08:00:00+00:00",
+      "agency": "PMDA",
+      "region": "Japan",
+      "category": "premarket",
+      "source": "PMDA Notifications"
+    },
+    {
+      "title": "FDA eMDR Submission System — Schema Update for Software Malfunction Reporting",
+      "summary": "New required fields for software-related malfunction reporting. Manufacturers should update gateway integrations before 1 May.",
+      "link": "https://www.fda.gov/industry/about-esg/emdr-schema-update-software-malfunction-2026-04",
+      "published": "2026-04-13T15:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "MHRA Consultation: Future UK Regulatory Regime — Core Statutory Instrument",
+      "summary": "Foundational consultation for UK's post-Brexit medical device framework. Covers classification, conformity assessment routes, UKCA marking timeline. Closes 28 June.",
+      "link": "https://www.gov.uk/government/consultations/future-uk-medical-devices-regulatory-framework-core-si-2026",
+      "published": "2026-04-12T10:00:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "guidance",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "TGA Adverse Event Reporting Timeline Reminder",
+      "summary": "Reminder of statutory reporting clocks: 2-day, 10-day, and 30-day pathways depending on event severity. Trend reporting now required for systematic issues.",
+      "link": "https://www.tga.gov.au/news/safety-alerts/adverse-event-reporting-timeline-reminder-2026-04-10",
+      "published": "2026-04-10T09:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Health Canada Vigilance Reporting Annual Summary 2025",
+      "summary": "Aggregate report of medical device incidents reported in 2025. Notable upticks in software-related events; flat trend in implantable failures.",
+      "link": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/vigilance-reporting-annual-summary-2025.html",
+      "published": "2026-04-07T11:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "postmarket",
+      "source": "Health Canada"
+    },
+    {
+      "title": "MDCG Q&A on Trend Reporting Under Article 88",
+      "summary": "Clarifies what constitutes a 'statistically significant increase' and provides example calculations. Manufacturers should update PMS procedures.",
+      "link": "https://health.ec.europa.eu/document/download/mdcg-qa-trend-reporting-article-88_en",
+      "published": "2026-04-05T08:30:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "postmarket",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "Federal Register: AI/ML PCCP Lifecycle Management — Final Rule",
+      "summary": "OFR document number 2026-09127. Codifies predetermined change control plans for algorithm-driven devices. Effective 180 days after publication.",
+      "link": "https://www.federalregister.gov/documents/2026/04/02/2026-08145/ai-ml-pccp-lifecycle-management-final-rule",
+      "published": "2026-04-02T09:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    }
+  ]
+}
