@@ -1,8 +1,18 @@
 {
-  "generated_at": "2026-05-01T15:46:35.557013+00:00",
+  "generated_at": "2026-05-01T16:03:10.560639+00:00",
   "item_count": 29,
   "feed_count": 8,
   "items": [
+    {
+      "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
+      "summary": "FDA is announcing that it issued a “safe to proceed” letter to Revolution Medicines, allowing the sponsor to initiate an expanded access treatment protocol (EAP) for its experimental pancreatic cancer drug, daraxonrasib.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-permits-expanded-access-investigational-pancreatic-cancer-drug",
+      "published": "2026-05-01T15:49:59+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
     {
       "title": "Decision: Medical devices given exceptional use authorisations",
       "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
@@ -278,16 +288,6 @@
       "summary": "The U.S. Food and Drug Administration approved Avlayah (tividenofusp alfa-eknm) to treat certain individuals with Hunter syndrome (Mucopolysaccharidosis type II or MPS II).",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-drug-treat-neurologic-manifestations-hunter-syndrome",
       "published": "2026-03-25T15:24:47+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "FDA Schedules Public Meeting on the Commissioner’s National Priority Voucher Pilot Program",
-      "summary": "As part of the U.S. Food and Drug Administration’s continuous quality improvement efforts, the agency today published a Federal Register Notice seeking public comment on the Commissioner’s National Priority Voucher pilot program.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-schedules-public-meeting-commissioners-national-priority-voucher-pilot-program",
-      "published": "2026-03-20T13:09:38+00:00",
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
