@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T23:15:03.899864+00:00",
-  "item_count": 65,
-  "feed_count": 13,
+  "generated_at": "2026-05-01T23:22:20.844771+00:00",
+  "item_count": 61,
+  "feed_count": 12,
   "failed_feeds": [
     "FDA Medical Device Recalls",
     "FDA Medical Device Safety",
@@ -29,16 +29,6 @@
       "region": "United Kingdom",
       "category": "postmarket",
       "source": "MHRA news & alerts"
-    },
-    {
-      "title": "gudid_daily_update_20260501.zip",
-      "summary": "Daily download file for May 01, 2026, contains 7758 Device Identifier Records. Link: https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260501.zip",
-      "link": "https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260501.zip",
-      "published": "2026-05-01T13:53:30+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "premarket",
-      "source": "AccessGUDID — UDI Database (daily)"
     },
     {
       "title": "MHRA approves Linerixibat (Lynavoy) for the treatment of itch due to biliary tract disease",
@@ -89,16 +79,6 @@
       "region": "United States",
       "category": "guidance",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "gudid_daily_update_20260430.zip",
-      "summary": "Daily download file for Apr 30, 2026, contains 2754 Device Identifier Records. Link: https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260430.zip",
-      "link": "https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260430.zip",
-      "published": "2026-04-30T15:37:04+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "premarket",
-      "source": "AccessGUDID — UDI Database (daily)"
     },
     {
       "title": "FDA Proposes to Exclude Semaglutide, Tirzepatide, and Liraglutide on 503B Bulks List",
@@ -181,16 +161,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "gudid_daily_update_20260429.zip",
-      "summary": "Daily download file for Apr 29, 2026, contains 3274 Device Identifier Records. Link: https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260429.zip",
-      "link": "https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260429.zip",
-      "published": "2026-04-29T13:37:02+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "premarket",
-      "source": "AccessGUDID — UDI Database (daily)"
-    },
-    {
       "title": "MHRA Safety Roundup: April 2026",
       "summary": "Summary of the latest safety advice for medicines and medical device users",
       "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-april-2026",
@@ -249,16 +219,6 @@
       "region": "United States",
       "category": "guidance",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "gudid_daily_update_20260428.zip",
-      "summary": "Daily download file for Apr 28, 2026, contains 4245 Device Identifier Records. Link: https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260428.zip",
-      "link": "https://accessgudid.nlm.nih.gov/release_files/download/gudid_daily_update_20260428.zip",
-      "published": "2026-04-28T13:22:17+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "premarket",
-      "source": "AccessGUDID — UDI Database (daily)"
     },
     {
       "title": "Precautionary recall of antidepressant medication due to manufacturing error",
