@@ -1,7 +1,6 @@
 name: Fetch regulatory feeds
 
 # Runs the feed fetcher every 30 minutes and commits the result.
-# Also runs on push (so you can deploy immediately) and manually.
 on:
   schedule:
     - cron: "*/30 * * * *"
@@ -18,6 +17,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -29,6 +29,7 @@ jobs:
         run: pip install feedparser
 
       - name: Fetch feeds
+        continue-on-error: true
         run: python scripts/fetch_feeds.py
 
       - name: Commit updated feed.json
@@ -40,5 +41,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: refresh feed [skip ci]"
+            # Pull any concurrent changes before pushing (handles race conditions)
+            git pull --rebase origin main
             git push
           fi
