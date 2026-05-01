@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>REGULATORY WATCH — Medical Device Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #0c0a07;
+    --paper: #f4f0e6;
+    --paper-2: #ebe5d4;
+    --rule: #1a1612;
+    --accent: #b8341c;
+    --accent-2: #2d4a1f;
+    --amber: #b8691a;
+    --muted: #4a4339;
+    --high: #b8341c;
+    --med: #b8691a;
+    --low: #2d4a1f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #f4f0e6 !important;
+    color: #0c0a07 !important;
+    font-family: 'Inter Tight', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background-color: #f4f0e6 !important;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(184,52,28,0.04), transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(45,74,31,0.04), transparent 40%) !important;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  .grain {
+    position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: 0.4;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* PAGE SHELL — defeats app-level dark mode injection */
+  .page-shell {
+    background: #f4f0e6;
+    color: #0c0a07;
+    min-height: 100vh;
+  }
+  .page-shell h1, .page-shell h2, .page-shell h3, .page-shell h4, .page-shell h5, .page-shell p, .page-shell span, .page-shell div, .page-shell article, .page-shell aside, .page-shell main, .page-shell section {
+    color: inherit;
+  }
+
+  /* MASTHEAD */
+  .masthead {
+    border-bottom: 1px solid var(--rule);
+    padding: 12px 24px 10px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 16px;
+    background: #f4f0e6;
+    color: #0c0a07;
+    position: sticky; top: 0; z-index: 50;
+  }
+  .mast-left, .mast-right {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .mast-right { text-align: right; }
+  .mast-left strong, .mast-right strong { color: var(--ink); font-weight: 700; }
+  .pulse {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent-2); margin-right: 5px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 26px;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    text-align: center;
+    font-style: italic;
+  }
+  .logo .amp { color: var(--accent); font-style: normal; }
+  .tagline {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 8px;
+    letter-spacing: 0.25em;
+    text-align: center;
+    margin-top: 3px;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+
+  /* TAB NAV — sticky below masthead */
+  .tab-nav {
+    position: sticky;
+    top: 56px;
+    z-index: 49;
+    background: #0c0a07;
+    border-bottom: 1px solid var(--rule);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tab-nav::-webkit-scrollbar { display: none; }
+  .tab-nav-inner {
+    display: flex;
+    gap: 0;
+    padding: 0 16px;
+    min-width: max-content;
+  }
+  .tab-btn {
+    background: transparent;
+    border: none;
+    color: #a39788;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 14px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+    font-weight: 500;
+  }
+  .tab-btn:hover { color: #f4f0e6; }
+  .tab-btn.active {
+    color: #f4f0e6;
+    border-bottom-color: var(--accent);
+  }
+  .tab-btn .count {
+    display: inline-block;
+    margin-left: 5px;
+    background: rgba(184,52,28,0.25);
+    color: #f4a18a;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 9.5px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  .tab-btn.active .count {
+    background: var(--accent);
+    color: #f4f0e6;
+  }
+
+  /* TAB SECTIONS */
+  .tab-section { display: none; }
+  .tab-section.active { display: block; animation: fadeIn 0.3s; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* SECTION HEADER (replaces big lead) */
+  .section-header {
+    padding: 28px 0 18px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 24px;
+  }
+  .section-header .kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--accent); font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .section-header h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 800; font-size: 38px;
+    letter-spacing: -0.025em;
+    line-height: 1; font-style: italic;
+    margin-bottom: 6px;
+  }
+  .section-header h1 em { color: var(--accent); }
+  .section-header .desc {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 15px; line-height: 1.5;
+    color: #1a1612;
+    max-width: 640px;
+  }
+
+  /* SECTION RULE */
+  .section-rule {
+    display: flex; align-items: center; gap: 12px;
+    padding: 0 32px; margin: 24px 0 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase;
+    color: var(--muted);
+  }
+  .section-rule::after { content: ''; flex: 1; height: 1px; background: var(--rule); opacity: 0.3; }
+  .section-rule .num { color: var(--accent); font-weight: 700; }
+
+  /* TICKER */
+  .ticker-wrap {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    background: var(--ink);
+    color: var(--paper);
+    overflow: hidden;
+    padding: 8px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+  }
+  .ticker {
+    display: flex; gap: 48px; animation: scroll 60s linear infinite; white-space: nowrap;
+  }
+  .ticker span.tick-tag {
+    color: var(--amber); font-weight: 700; margin-right: 8px;
+  }
+  .ticker span.tick-tag.red { color: #f47261; }
+  .ticker span.tick-tag.green { color: #8db978; }
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* MAIN GRID */
+  .container { padding: 0 32px 80px; max-width: 1600px; margin: 0 auto; }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 2.4fr 1fr;
+    gap: 40px;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+
+  /* LEAD STORY */
+  .lead-kicker {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700; margin-bottom: 12px;
+  }
+  .lead-headline {
+    font-family: 'Fraunces', serif;
+    font-weight: 800; font-size: 52px; line-height: 0.98;
+    letter-spacing: -0.025em; margin-bottom: 14px;
+  }
+  .lead-headline em { color: var(--accent); font-style: italic; }
+  .lead-deck {
+    font-family: 'Fraunces', serif;
+    font-weight: 400; font-size: 19px; line-height: 1.5;
+    color: #1a1612; margin-bottom: 18px; max-width: 640px;
+  }
+  .lead-meta {
+    display: flex; gap: 18px; align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px; color: var(--muted);
+    border-top: 1px solid var(--rule); padding-top: 12px;
+  }
+  .lead-meta strong { color: var(--ink); }
+  .src-badge {
+    display: inline-block; padding: 2px 7px; border: 1px solid var(--rule);
+    background: var(--paper-2); font-weight: 600; color: var(--ink);
+  }
+
+  /* AT-A-GLANCE BOX */
+  .glance-box {
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 20px;
+    position: relative;
+  }
+  .glance-box::before {
+    content: 'AT A GLANCE';
+    position: absolute; top: -8px; left: 14px;
+    background: var(--paper-2); padding: 0 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px; letter-spacing: 0.25em; color: var(--muted);
+  }
+  .glance-stat {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding: 10px 0; border-bottom: 1px dotted var(--rule);
+  }
+  .glance-stat:last-child { border-bottom: none; }
+  .glance-stat .label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  .glance-stat .val {
+    font-family: 'Fraunces', serif;
+    font-weight: 800; font-size: 26px;
+    letter-spacing: -0.02em;
+  }
+  .glance-stat .delta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; margin-left: 6px;
+  }
+  .delta.up { color: var(--accent); }
+  .delta.dn { color: var(--accent-2); }
+
+  /* CONTROL BAR */
+  .controls {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    padding: 14px 0; border-bottom: 1px solid var(--rule); margin-bottom: 24px;
+  }
+  .filter-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px; letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    padding: 7px 12px;
+    cursor: pointer;
+    transition: all 0.12s;
+    color: var(--ink);
+  }
+  .filter-btn:hover { background: var(--ink); color: var(--paper); }
+  .filter-btn.active { background: var(--ink); color: var(--paper); }
+  .search-wrap {
+    flex: 1; min-width: 200px;
+    border: 1px solid var(--rule); background: var(--paper);
+    display: flex; align-items: center; padding: 0 12px;
+  }
+  .search-wrap input {
+    flex: 1; border: none; background: transparent; padding: 8px 0;
+    font-family: 'Inter Tight', sans-serif; font-size: 13px; outline: none;
+    color: var(--ink);
+  }
+  .search-wrap span {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    color: var(--muted); letter-spacing: 0.1em;
+  }
+
+  /* THREE-COL FEED */
+  .feed-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; }
+
+  /* MAIN COLUMN — UPDATES */
+  .update-card {
+    border-bottom: 1px solid var(--rule);
+    padding: 22px 0;
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 18px;
+    align-items: start;
+    transition: background 0.15s;
+  }
+  .update-card:first-child { padding-top: 0; }
+  .update-card:hover { background: rgba(255,255,255,0.4); margin: 0 -16px; padding: 22px 16px; }
+  .update-card:hover:first-child { padding-top: 16px; }
+  .upd-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px; line-height: 1.4;
+    color: var(--muted); letter-spacing: 0.05em;
+  }
+  .upd-date .day { display: block; font-family: 'Fraunces', serif; font-size: 32px; font-weight: 800; color: var(--ink); line-height: 0.9; letter-spacing: -0.03em; }
+  .upd-date .mo { display: block; margin-top: 4px; text-transform: uppercase; }
+  .upd-body .agency-line {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 6px;
+    display: flex; gap: 8px; align-items: center;
+  }
+  .agency-tag { background: var(--ink); color: var(--paper); padding: 2px 6px; font-weight: 700; }
+  .agency-tag.fda { background: #1a3a6b; }
+  .agency-tag.ema { background: #003d6e; }
+  .agency-tag.mhra { background: #4a1a5b; }
+  .agency-tag.pmda { background: #8b2a2a; }
+  .agency-tag.hc { background: #b8341c; }
+  .agency-tag.tga { background: #1a5b3a; }
+  .agency-tag.nmpa { background: #8b1a1a; }
+  .agency-tag.cdsco { background: #c47a1c; }
+  .agency-tag.anvisa { background: #1a6b4a; }
+  .agency-tag.fr { background: #2d4a1f; }
+  .upd-body h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600; font-size: 22px; line-height: 1.15;
+    letter-spacing: -0.015em; margin-bottom: 8px;
+  }
+  .upd-body p {
+    font-family: 'Fraunces', serif; font-weight: 400;
+    font-size: 15px; line-height: 1.55; color: #1a1612; max-width: 640px;
+  }
+  .upd-body .meta {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    color: var(--muted); display: flex; gap: 14px; flex-wrap: wrap;
+  }
+  .upd-body .meta a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
+  .upd-body .meta a:hover { background: var(--accent); color: var(--paper); }
+  .upd-body .meta a.readmore {
+    color: var(--ink); border-bottom: 1px solid var(--ink);
+    font-weight: 700;
+  }
+  .upd-body .meta a.readmore:hover { background: var(--ink); color: var(--paper); }
+  .priority {
+    width: 4px; align-self: stretch; min-height: 60px;
+  }
+  .priority.high { background: var(--high); }
+  .priority.med { background: var(--med); }
+  .priority.low { background: var(--low); }
+
+  /* SIDE COLUMNS */
+  .col-title {
+    font-family: 'Fraunces', serif; font-style: italic;
+    font-weight: 800; font-size: 26px; letter-spacing: -0.02em;
+    border-bottom: 2px solid var(--rule); padding-bottom: 8px; margin-bottom: 16px;
+  }
+  .col-title .accent { color: var(--accent); }
+
+  /* FED REGISTER (pre-publication) */
+  .prepub-item {
+    padding: 14px 0; border-bottom: 1px dotted var(--rule);
+    position: relative; padding-left: 18px;
+  }
+  .prepub-item::before {
+    content: ''; position: absolute; left: 0; top: 18px;
+    width: 8px; height: 8px; background: var(--amber); border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(212,131,28,0.2);
+  }
+  .prepub-item .pp-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--amber); font-weight: 700;
+  }
+  .prepub-item h4 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600; font-size: 15px; line-height: 1.25;
+    margin: 4px 0 6px; letter-spacing: -0.01em;
+  }
+  .prepub-item .pp-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; color: var(--muted);
+  }
+  .prepub-item .pp-eff {
+    color: var(--accent); font-weight: 700;
+  }
+
+  /* CALENDAR */
+  .cal-item {
+    display: grid; grid-template-columns: 56px 1fr; gap: 12px;
+    padding: 12px 0; border-bottom: 1px dotted var(--rule);
+  }
+  .cal-date {
+    text-align: center;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    padding: 4px 0;
+  }
+  .cal-date .d {
+    font-family: 'Fraunces', serif; font-weight: 800;
+    font-size: 22px; line-height: 1; display: block;
+  }
+  .cal-date .m {
+    font-family: 'JetBrains Mono', monospace; font-size: 9px;
+    letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted);
+  }
+  .cal-date.urgent { background: var(--ink); color: var(--paper); }
+  .cal-date.urgent .m { color: var(--amber); }
+  .cal-body h5 {
+    font-family: 'Fraunces', serif; font-weight: 600;
+    font-size: 14px; line-height: 1.2; margin-bottom: 4px;
+  }
+  .cal-body .cal-meta {
+    font-family: 'JetBrains Mono', monospace; font-size: 9.5px;
+    color: var(--muted); letter-spacing: 0.05em;
+  }
+
+  /* RECALLS BAR */
+  .recall-section {
+    border-top: 3px double var(--rule); margin-top: 40px; padding-top: 32px;
+  }
+  .recall-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .recall-card {
+    border: 1px solid var(--rule); background: var(--paper);
+    padding: 16px; position: relative;
+  }
+  .recall-card.class-i { border-left: 4px solid var(--high); }
+  .recall-card.class-ii { border-left: 4px solid var(--med); }
+  .recall-card.class-iii { border-left: 4px solid var(--low); }
+  .recall-class {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.2em; font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .recall-card.class-i .recall-class { color: var(--high); }
+  .recall-card.class-ii .recall-class { color: var(--med); }
+  .recall-card.class-iii .recall-class { color: var(--low); }
+  .recall-card h4 {
+    font-family: 'Fraunces', serif; font-weight: 600;
+    font-size: 16px; line-height: 1.25; margin-bottom: 6px;
+  }
+  .recall-card p {
+    font-family: 'Fraunces', serif; font-weight: 400;
+    font-size: 13.5px; line-height: 1.45; color: #1a1612;
+  }
+  .recall-card .recall-meta {
+    margin-top: 10px; padding-top: 10px;
+    border-top: 1px dotted var(--rule);
+    font-family: 'JetBrains Mono', monospace; font-size: 9.5px;
+    color: var(--muted); letter-spacing: 0.05em;
+  }
+
+  /* AGENCY MAP STRIP */
+  .agency-strip {
+    margin-top: 40px; padding: 24px;
+    background: var(--ink); color: var(--paper);
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 1px;
+    border: 1px solid var(--rule);
+  }
+  .agency-cell {
+    background: var(--ink); padding: 14px; text-align: center;
+    border: 1px solid #2a241d;
+    transition: background 0.15s;
+    cursor: pointer;
+  }
+  .agency-cell:hover { background: #1a1612; }
+  .agency-cell .flag {
+    font-family: 'Fraunces', serif; font-style: italic;
+    font-size: 11px; color: var(--amber); letter-spacing: 0.1em;
+    text-transform: uppercase; margin-bottom: 4px;
+  }
+  .agency-cell .acro {
+    font-family: 'Fraunces', serif; font-weight: 800;
+    font-size: 22px; letter-spacing: -0.02em; line-height: 1;
+  }
+  .agency-cell .stat {
+    font-family: 'JetBrains Mono', monospace; font-size: 9.5px;
+    color: #a39788; margin-top: 8px; letter-spacing: 0.05em;
+  }
+  .agency-cell .stat .live { color: #8db978; }
+
+  /* MODAL */
+  .modal {
+    position: fixed; inset: 0; background: rgba(12,10,7,0.7);
+    display: none; align-items: center; justify-content: center;
+    z-index: 200; padding: 40px;
+  }
+  .modal.active { display: flex; }
+  .modal-card {
+    background: var(--paper); max-width: 720px; width: 100%;
+    max-height: 80vh; overflow-y: auto;
+    padding: 36px; border: 1px solid var(--rule);
+    position: relative;
+  }
+  .modal-close {
+    position: absolute; top: 16px; right: 16px;
+    background: none; border: 1px solid var(--rule);
+    width: 32px; height: 32px; cursor: pointer;
+    font-family: 'JetBrains Mono', monospace; font-size: 14px;
+  }
+  .modal h2 {
+    font-family: 'Fraunces', serif; font-weight: 800; font-size: 36px;
+    letter-spacing: -0.025em; line-height: 1; margin-bottom: 8px; font-style: italic;
+  }
+  .modal h2 .accent { color: var(--accent); }
+  .modal-meta {
+    font-family: 'JetBrains Mono', monospace; font-size: 10px;
+    letter-spacing: 0.1em; color: var(--muted); margin-bottom: 18px;
+    border-bottom: 1px solid var(--rule); padding-bottom: 14px;
+  }
+  .modal-body p {
+    font-family: 'Fraunces', serif; font-size: 15px; line-height: 1.6;
+    color: #1a1612; margin-bottom: 14px;
+  }
+  .modal-link {
+    display: inline-block; margin-top: 12px;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px;
+    background: var(--ink); color: var(--paper);
+    padding: 10px 16px; text-decoration: none; letter-spacing: 0.1em;
+  }
+  .modal-tags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin: 0 0 18px;
+  }
+  .modal-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px; letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  .modal-section {
+    margin-bottom: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px dotted var(--rule);
+  }
+  .modal-section:last-of-type { border-bottom: none; }
+  .modal-section h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted); font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .modal-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 24px;
+  }
+  .modal-grid > div {
+    display: flex; flex-direction: column;
+  }
+  .ml-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px; letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 2px;
+  }
+  .ml-val {
+    font-family: 'Fraunces', serif;
+    font-size: 14px; font-weight: 600;
+    color: var(--ink);
+  }
+  .ml-high { color: var(--accent); }
+  .ml-med { color: var(--amber); }
+  .ml-low { color: var(--accent-2); }
+  .modal-related {
+    margin-top: 24px;
+    padding: 18px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+  }
+  .modal-related h4 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted); margin-bottom: 12px;
+  }
+  .modal-related ul { list-style: none; padding: 0; margin: 0; }
+  .modal-related li {
+    padding: 10px 0;
+    border-bottom: 1px dotted var(--rule);
+    cursor: pointer;
+    transition: padding-left 0.15s;
+  }
+  .modal-related li:last-child { border-bottom: none; }
+  .modal-related li:hover { padding-left: 6px; }
+  .modal-related li strong {
+    display: block;
+    font-family: 'Fraunces', serif;
+    font-weight: 600; font-size: 14px;
+    line-height: 1.3;
+    color: var(--ink);
+    margin: 4px 0 2px;
+  }
+  .modal-related li .rel-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px; color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+
+  /* FOOTER */
+  footer {
+    margin-top: 60px; padding: 32px;
+    border-top: 3px double var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px; color: var(--muted);
+    letter-spacing: 0.1em; line-height: 1.6;
+    display: flex; justify-content: space-between;
+  }
+
+  @media (max-width: 1100px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .feed-grid { grid-template-columns: 1fr; }
+    .lead-headline { font-size: 38px; }
+    .recall-grid { grid-template-columns: 1fr; }
+    .agency-strip { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .masthead {
+      grid-template-columns: auto 1fr auto;
+      text-align: left;
+      padding: 10px 14px;
+      gap: 10px;
+    }
+    .mast-right { text-align: right; }
+    .logo { font-size: 22px; }
+    .tagline { display: none; }
+    .mast-left, .mast-right { font-size: 8.5px; }
+    .tab-nav { top: 44px; }
+    .tab-btn { font-size: 10.5px; padding: 12px 12px; }
+    .container { padding: 0 14px 40px; }
+    .update-card { grid-template-columns: 50px 1fr; }
+    .priority { display: none; }
+    .section-header { padding: 20px 0 14px; }
+    .section-header h1 { font-size: 30px; }
+    .section-header .desc { font-size: 14px; }
+    .lead-headline { font-size: 32px; }
+    .lead-deck { font-size: 16px; font-weight: 500; color: #0c0a07; }
+    .upd-body p { font-size: 14px; font-weight: 500; color: #0c0a07; }
+    .upd-body h3 { font-size: 19px; }
+    .recall-card p { font-size: 14px; font-weight: 500; }
+    .modal-body p { font-size: 15px; font-weight: 500; }
+    .glance-stat .val { font-size: 22px; }
+    .controls { padding: 10px 0; gap: 6px; }
+    .filter-btn { font-size: 9.5px; padding: 6px 9px; }
+  }
+
+  /* fade-in */
+  .fade-in { opacity: 0; transform: translateY(8px); animation: fade 0.6s forwards; }
+  .fade-in:nth-child(1) { animation-delay: 0.05s; }
+  .fade-in:nth-child(2) { animation-delay: 0.12s; }
+  .fade-in:nth-child(3) { animation-delay: 0.19s; }
+  .fade-in:nth-child(4) { animation-delay: 0.26s; }
+  .fade-in:nth-child(5) { animation-delay: 0.33s; }
+  .fade-in:nth-child(6) { animation-delay: 0.40s; }
+  .fade-in:nth-child(7) { animation-delay: 0.47s; }
+  @keyframes fade { to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<div class="page-shell">
+
+<!-- MASTHEAD (compact) -->
+<header class="masthead">
+  <div class="mast-left">
+    <div><span class="pulse"></span><strong>LIVE</strong> · 14 agencies</div>
+    <div id="datestamp">—</div>
+  </div>
+  <div>
+    <div class="logo"><em>Regulatory</em><span class="amp">·</span><em>Watch</em></div>
+    <div class="tagline">Medical Device Intelligence</div>
+  </div>
+  <div class="mast-right">
+    <div id="clock">—</div>
+    <div><strong>UPDATED</strong> <span id="last-updated">—</span></div>
+  </div>
+</header>
+
+<!-- TAB NAV -->
+<nav class="tab-nav">
+  <div class="tab-nav-inner">
+    <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
+    <button class="tab-btn" data-tab="premarket">Pre-Market <span class="count">14</span></button>
+    <button class="tab-btn" data-tab="postmarket">Post-Market <span class="count">11</span></button>
+    <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">8</span></button>
+    <button class="tab-btn" data-tab="prepub">Pre-Publication <span class="count">5</span></button>
+    <button class="tab-btn" data-tab="recalls">Recalls <span class="count">6</span></button>
+    <button class="tab-btn" data-tab="calendar">Calendar</button>
+    <button class="tab-btn" data-tab="agencies">Agencies</button>
+    <button class="tab-btn" data-tab="archive">Archive</button>
+  </div>
+</nav>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker" id="ticker"></div>
+</div>
+
+<div class="container">
+
+  <!-- ===== DASHBOARD TAB ===== -->
+  <div class="tab-section active" id="tab-dashboard">
+    <div class="hero-grid" style="margin-top: 24px;">
+      <article>
+        <div class="lead-kicker">▌ Breaking · FDA · CDRH</div>
+        <h1 class="lead-headline">FDA Issues <em>Final Rule</em> on AI/ML-Enabled Device Lifecycle Management</h1>
+        <p class="lead-deck">The agency's long-awaited framework for "predetermined change control plans" formalizes how manufacturers may modify algorithm-driven devices without filing new 510(k) submissions. Industry has 18 months to align existing PCCP commitments with the final guidance.</p>
+        <div class="lead-meta">
+          <span class="src-badge">FEDERAL REGISTER</span>
+          <span><strong>Published:</strong> 2 hours ago</span>
+          <span><strong>Effective:</strong> 180 days</span>
+        </div>
+      </article>
+      <aside class="glance-box">
+        <div class="glance-stat"><div><div class="label">Active Alerts</div><div class="val">47<span class="delta up">▲ 12</span></div></div></div>
+        <div class="glance-stat"><div><div class="label">New This Week</div><div class="val">128<span class="delta up">▲ 23%</span></div></div></div>
+        <div class="glance-stat"><div><div class="label">Comment Periods Open</div><div class="val">19</div></div></div>
+        <div class="glance-stat"><div><div class="label">Class I Recalls (30d)</div><div class="val">6<span class="delta dn">▼ 2</span></div></div></div>
+        <div class="glance-stat"><div><div class="label">Effective Dates Q3</div><div class="val">31</div></div></div>
+      </aside>
+    </div>
+
+    <div class="section-rule" style="padding: 0;"><span class="num">§</span> <span>Latest Across All Categories</span></div>
+    <div id="updates-dashboard"></div>
+  </div>
+
+  <!-- ===== PRE-MARKET TAB ===== -->
+  <div class="tab-section" id="tab-premarket">
+    <div class="section-header">
+      <div class="kicker">▌ Category</div>
+      <h1>Pre-<em>Market</em></h1>
+      <p class="desc">Submissions, clearances, classifications, and pre-submission activity. Includes 510(k), De Novo, PMA, IDE, EU Notified Body designations, and pre-market classification updates across all monitored agencies.</p>
+    </div>
+    <div class="controls">
+      <button class="filter-btn active" data-filter="all" data-scope="premarket">All</button>
+      <button class="filter-btn" data-filter="fda" data-scope="premarket">FDA</button>
+      <button class="filter-btn" data-filter="ema" data-scope="premarket">EMA / EU</button>
+      <button class="filter-btn" data-filter="mhra" data-scope="premarket">MHRA</button>
+      <button class="filter-btn" data-filter="pmda" data-scope="premarket">PMDA</button>
+      <button class="filter-btn" data-filter="nmpa" data-scope="premarket">NMPA</button>
+      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Filter…" data-search="premarket"></div>
+    </div>
+    <div id="updates-premarket"></div>
+  </div>
+
+  <!-- ===== POST-MARKET TAB ===== -->
+  <div class="tab-section" id="tab-postmarket">
+    <div class="section-header">
+      <div class="kicker">▌ Category</div>
+      <h1>Post-<em>Market</em></h1>
+      <p class="desc">Surveillance, vigilance, PSURs, periodic safety reports, and field safety actions. Covers MDR Article 87, FDA MDR/eMDR, MHRA PMS regulations, EU vigilance, and equivalent reporting frameworks worldwide.</p>
+    </div>
+    <div class="controls">
+      <button class="filter-btn active" data-filter="all" data-scope="postmarket">All</button>
+      <button class="filter-btn" data-filter="fda" data-scope="postmarket">FDA</button>
+      <button class="filter-btn" data-filter="ema" data-scope="postmarket">EMA / EU</button>
+      <button class="filter-btn" data-filter="mhra" data-scope="postmarket">MHRA</button>
+      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Filter…" data-search="postmarket"></div>
+    </div>
+    <div id="updates-postmarket"></div>
+  </div>
+
+  <!-- ===== GUIDANCE TAB ===== -->
+  <div class="tab-section" id="tab-guidance">
+    <div class="section-header">
+      <div class="kicker">▌ Category</div>
+      <h1><em>Guidance</em> Documents</h1>
+      <p class="desc">Draft and final guidance documents, technical standards adoptions, MDCG papers, and equivalent regulatory interpretive guidance from all monitored authorities. Includes open comment periods and recently finalized policies.</p>
+    </div>
+    <div class="controls">
+      <button class="filter-btn active" data-filter="all" data-scope="guidance">All</button>
+      <button class="filter-btn" data-filter="draft" data-scope="guidance">Draft</button>
+      <button class="filter-btn" data-filter="final" data-scope="guidance">Final</button>
+      <button class="filter-btn" data-filter="comment-open" data-scope="guidance">Comments Open</button>
+      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Filter…" data-search="guidance"></div>
+    </div>
+    <div id="updates-guidance"></div>
+  </div>
+
+  <!-- ===== PRE-PUBLICATION TAB ===== -->
+  <div class="tab-section" id="tab-prepub">
+    <div class="section-header">
+      <div class="kicker">▌ Early-Warning</div>
+      <h1>Pre-<em>Publication</em></h1>
+      <p class="desc">Documents on public inspection at the Federal Register, OJEU forthcoming items, and draft instruments not yet officially published. These are the leading indicators — what's coming before it formally appears.</p>
+    </div>
+    <div id="prepub-full"></div>
+  </div>
+
+  <!-- ===== RECALLS TAB ===== -->
+  <div class="tab-section" id="tab-recalls">
+    <div class="section-header">
+      <div class="kicker">▌ Safety</div>
+      <h1>Recalls & <em>Safety Comms</em></h1>
+      <p class="desc">Active Class I, II, and III recalls plus safety communications, field corrective actions, and Dear Doctor letters from FDA, MHRA, EU vigilance, and global regulators.</p>
+    </div>
+    <div class="recall-grid" id="recalls-full"></div>
+  </div>
+
+  <!-- ===== CALENDAR TAB ===== -->
+  <div class="tab-section" id="tab-calendar">
+    <div class="section-header">
+      <div class="kicker">▌ Schedule</div>
+      <h1><em>Effective</em> Dates</h1>
+      <p class="desc">Upcoming compliance deadlines, transition cutoffs, mandatory enforcement dates, and consultation closing dates. Items in dark are within 14 days.</p>
+    </div>
+    <div id="calendar-full"></div>
+  </div>
+
+  <!-- ===== AGENCIES TAB ===== -->
+  <div class="tab-section" id="tab-agencies">
+    <div class="section-header">
+      <div class="kicker">▌ Sources</div>
+      <h1>Agency <em>Status</em></h1>
+      <p class="desc">Live status of all monitored regulatory authorities. Tap any agency to view its dedicated feed.</p>
+    </div>
+    <div class="agency-strip" id="agencies-full"></div>
+  </div>
+
+  <!-- ===== ARCHIVE TAB ===== -->
+  <div class="tab-section" id="tab-archive">
+    <div class="section-header">
+      <div class="kicker">▌ Archive</div>
+      <h1>Full <em>Archive</em></h1>
+      <p class="desc">Every regulatory item ever indexed by Regulatory·Watch. Search, filter, and read older updates that have rolled off the main feed.</p>
+    </div>
+    <div class="controls">
+      <button class="filter-btn active" data-filter="all" data-scope="archive">All</button>
+      <button class="filter-btn" data-filter="premarket" data-scope="archive">Pre-Market</button>
+      <button class="filter-btn" data-filter="postmarket" data-scope="archive">Post-Market</button>
+      <button class="filter-btn" data-filter="guidance" data-scope="archive">Guidance</button>
+      <button class="filter-btn" data-filter="recall" data-scope="archive">Recalls</button>
+      <button class="filter-btn" data-filter="prepub" data-scope="archive">Pre-Pub</button>
+      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Search archive…" data-search="archive"></div>
+    </div>
+    <div id="updates-archive"></div>
+  </div>
+
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-card">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<footer>
+  <div>REGULATORY·WATCH &nbsp; · &nbsp; A medical device intelligence dashboard</div>
+  <div>Data sources: FDA · EMA · MHRA · PMDA · HC · TGA · NMPA · CDSCO · ANVISA · MFDS · MoH-IL · SFDA · Swissmedic · Federal Register</div>
+</footer>
+
+</div>
+<!-- /page-shell -->
+
+<script>
+const SAMPLE_FEED = {
+  "generated_at": "2026-04-30T20:00:00+00:00",
+  "item_count": 24,
+  "feed_count": 8,
+  "_note": "Sample data with deep-link URLs. Once the GitHub Action runs, this file is replaced with live feed content where every link points to the specific article on the official site.",
+  "items": [
+    {
+      "title": "Cybersecurity in Medical Devices: Quality System Considerations and Content of Premarket Submissions",
+      "summary": "FDA finalizes guidance establishing Secure Product Development Framework requirements and SBOM expectations for premarket submissions.",
+      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cybersecurity-medical-devices-quality-system-considerations-and-content-premarket-submissions",
+      "published": "2026-04-30T14:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Class I Recall: Medtronic Infusion Pump — Firmware Defect May Cause Overdelivery",
+      "summary": "Manufacturer initiates voluntary correction following 14 reported events including 2 deaths. Firmware patch staged for global deployment.",
+      "link": "https://www.fda.gov/medical-devices/medical-device-recalls/medtronic-recalls-infusion-pump-firmware-defect-overdelivery-risk",
+      "published": "2026-04-30T10:30:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA Medical Device Recalls"
+    },
+    {
+      "title": "MDCG 2026-3: Updated Borderline & Classification Manual",
+      "summary": "New chapters on AI-driven clinical decision support, digital therapeutics, and substances administered via medical devices. Reclassifications affect Annex VIII Rule 11 software products.",
+      "link": "https://health.ec.europa.eu/document/download/mdcg-2026-3-borderline-classification-manual_en",
+      "published": "2026-04-29T09:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "Federal Register: Proposed Rule on Reusable Device Reprocessing Validation Standards",
+      "summary": "CDRH-led NPRM tightening reprocessing validation expectations for reusable surgical instruments. 60-day comment period.",
+      "link": "https://www.federalregister.gov/documents/2026/04/28/2026-09127/reusable-device-reprocessing-validation-standards",
+      "published": "2026-04-28T13:15:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "PMDA Notification 0427-1: UDI Implementation Phase 3",
+      "summary": "Phase 3 of Japan's Unique Device Identification rollout now covers Class II non-implantable devices. Manufacturers must update GS1 registrations by 1 October 2026.",
+      "link": "https://www.pmda.go.jp/files/000270427-1.pdf",
+      "published": "2026-04-27T08:00:00+00:00",
+      "agency": "PMDA",
+      "region": "Japan",
+      "category": "postmarket",
+      "source": "PMDA Notifications"
+    },
+    {
+      "title": "UK Medical Devices Post-market Surveillance Regulations 2025 Now in Force",
+      "summary": "PSURs, periodic safety updates, and serious incident reporting timelines have been formally aligned with EU MDR Article 87.",
+      "link": "https://www.gov.uk/government/news/medical-devices-post-market-surveillance-regulations-2025-now-in-force",
+      "published": "2026-04-26T00:00:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Health Canada Recall: Surgical Mesh — Sterile Barrier Failure",
+      "summary": "Three lots affected. Distributor-level correction underway. No patient harm reported to date.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/surgical-mesh-sterile-barrier-failure-2026-04-25",
+      "published": "2026-04-25T15:30:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "source": "Health Canada recalls & safety alerts"
+    },
+    {
+      "title": "Health Canada Consultation: Medical Device Establishment Licence Modernization",
+      "summary": "Consultation opens on a streamlined MDEL framework with risk-based inspection tiers harmonised with FDA Establishment Registration.",
+      "link": "https://www.canada.ca/en/health-canada/programs/consultation-mdel-modernization-2026.html",
+      "published": "2026-04-25T11:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "guidance",
+      "source": "Health Canada"
+    },
+    {
+      "title": "TGA Consultation: Reclassification of Spinal Implantable Devices",
+      "summary": "Australia proposes aligning with EU classification approach for spinal implants, moving most products to Class III. 90-day comment period.",
+      "link": "https://www.tga.gov.au/consultation/consultation-reclassification-spinal-implantable-devices-2026",
+      "published": "2026-04-23T09:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "guidance",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "FDA 510(k) Clearances: 17 De Novo Grants and 312 510(k) Clearances Posted",
+      "summary": "Notable: first AI-enabled cardiac MRI quantification tool with autonomous-mode labeling; novel bioresorbable scaffold for peripheral vasculature.",
+      "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?start_search=1&Center=CDRH&dateFrom=2026-04-15&dateTo=2026-04-21",
+      "published": "2026-04-21T16:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "premarket",
+      "source": "FDA 510(k) Database"
+    },
+    {
+      "title": "Draft Guidance: Real-World Data for Premarket Decisions",
+      "summary": "CDRH proposes expanded acceptance criteria for real-world evidence in 510(k) and De Novo submissions. 60-day comment window.",
+      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/draft-guidance-real-world-data-premarket-decisions-2026",
+      "published": "2026-04-20T12:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Class I Recall: Implantable Defibrillator Lead — Fracture Risk",
+      "summary": "Prospective surveillance flags above-expected fracture rate in subset of leads manufactured between 2023–2024. Physicians advised to monitor patients.",
+      "link": "https://www.fda.gov/medical-devices/medical-device-recalls/icd-lead-fracture-risk-class-i-recall-2026-04-19",
+      "published": "2026-04-19T14:30:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "source": "FDA Medical Device Recalls"
+    },
+    {
+      "title": "PMA Approval: Multi-Target Liquid Biopsy Companion Diagnostic",
+      "summary": "First PMA approval for multi-target liquid biopsy companion diagnostic across solid tumors. Class III clearance with post-approval study commitments.",
+      "link": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P260012",
+      "published": "2026-04-19T10:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "premarket",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "MDCG 2026-2: Clinical Evaluation Equivalence Pathways",
+      "summary": "Updated criteria for technical, biological, and clinical equivalence demonstrations under Article 61. References to third-country market data permitted under defined conditions.",
+      "link": "https://health.ec.europa.eu/document/download/mdcg-2026-2-clinical-evaluation-equivalence_en",
+      "published": "2026-04-18T08:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "New Notified Body Designation Under MDR — TÜV SÜD Czech",
+      "summary": "NANDO database adds another MDR-designated NB. Now 56 active notified bodies for MDR; 12 for IVDR.",
+      "link": "https://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=notifiedbody.notifiedbody&refe_cd=NANDO_INPUT_2613",
+      "published": "2026-04-17T11:30:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "premarket",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "EUDAMED Module 6 (Vigilance) Mandatory Activation Notice",
+      "summary": "Vigilance and post-market module switches from voluntary to mandatory use on 11 May. All MIRs, FSCAs, and PSURs to be filed via EUDAMED from that date.",
+      "link": "https://health.ec.europa.eu/medical-devices-eudamed/eudamed-module-6-vigilance-mandatory-activation_en",
+      "published": "2026-04-16T09:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "postmarket",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "Draft Guidance: Predetermined Change Control Plans for AI/ML Devices",
+      "summary": "Companion document to the AI/ML PCCP final rule. Walks through example PCCPs, expected modification protocols, and impact assessments. Comments due in 90 days.",
+      "link": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/predetermined-change-control-plans-machine-learning-enabled-medical-devices",
+      "published": "2026-04-15T13:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "PMDA Updates Marketing Authorization Holder Requirements",
+      "summary": "Revised MAH responsibilities for Class III/IV devices, with new emphasis on local clinical liaison and post-launch surveillance reporting cadence.",
+      "link": "https://www.pmda.go.jp/english/review-services/regulatory-info/0003.html",
+      "published": "2026-04-14T08:00:00+00:00",
+      "agency": "PMDA",
+      "region": "Japan",
+      "category": "premarket",
+      "source": "PMDA Notifications"
+    },
+    {
+      "title": "FDA eMDR Submission System — Schema Update for Software Malfunction Reporting",
+      "summary": "New required fields for software-related malfunction reporting. Manufacturers should update gateway integrations before 1 May.",
+      "link": "https://www.fda.gov/industry/about-esg/emdr-schema-update-software-malfunction-2026-04",
+      "published": "2026-04-13T15:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "MHRA Consultation: Future UK Regulatory Regime — Core Statutory Instrument",
+      "summary": "Foundational consultation for UK's post-Brexit medical device framework. Covers classification, conformity assessment routes, UKCA marking timeline. Closes 28 June.",
+      "link": "https://www.gov.uk/government/consultations/future-uk-medical-devices-regulatory-framework-core-si-2026",
+      "published": "2026-04-12T10:00:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "guidance",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "TGA Adverse Event Reporting Timeline Reminder",
+      "summary": "Reminder of statutory reporting clocks: 2-day, 10-day, and 30-day pathways depending on event severity. Trend reporting now required for systematic issues.",
+      "link": "https://www.tga.gov.au/news/safety-alerts/adverse-event-reporting-timeline-reminder-2026-04-10",
+      "published": "2026-04-10T09:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Health Canada Vigilance Reporting Annual Summary 2025",
+      "summary": "Aggregate report of medical device incidents reported in 2025. Notable upticks in software-related events; flat trend in implantable failures.",
+      "link": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/vigilance-reporting-annual-summary-2025.html",
+      "published": "2026-04-07T11:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "postmarket",
+      "source": "Health Canada"
+    },
+    {
+      "title": "MDCG Q&A on Trend Reporting Under Article 88",
+      "summary": "Clarifies what constitutes a 'statistically significant increase' and provides example calculations. Manufacturers should update PMS procedures.",
+      "link": "https://health.ec.europa.eu/document/download/mdcg-qa-trend-reporting-article-88_en",
+      "published": "2026-04-05T08:30:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "postmarket",
+      "source": "European Commission — Health news"
+    },
+    {
+      "title": "Federal Register: AI/ML PCCP Lifecycle Management — Final Rule",
+      "summary": "OFR document number 2026-09127. Codifies predetermined change control plans for algorithm-driven devices. Effective 180 days after publication.",
+      "link": "https://www.federalregister.gov/documents/2026/04/02/2026-08145/ai-ml-pccp-lifecycle-management-final-rule",
+      "published": "2026-04-02T09:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "source": "Federal Register — FDA documents"
+    }
+  ]
+};
+
+// ============= LOAD LIVE FEED =============
+// We try to fetch data/feed.json, generated by the GitHub Action.
+// If it fails (e.g., file:// preview), we fall back to the hardcoded `updates`.
+
+const AGENCY_REGION = {
+  FDA: 'United States', FR: 'United States',
+  EMA: 'European Union',
+  MHRA: 'United Kingdom',
+  PMDA: 'Japan',
+  HC: 'Canada',
+  TGA: 'Australia',
+  NMPA: 'China',
+  CDSCO: 'India',
+  ANVISA: 'Brazil',
+  MFDS: 'South Korea',
+};
+
+function isoToParts(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return { date: '—', mo: '—', full: '—', sortKey: 0 };
+  return {
+    date: String(d.getUTCDate()).padStart(2, '0'),
+    mo: d.toLocaleString('en-US', { month: 'short', year: '2-digit', timeZone: 'UTC' }).toUpperCase(),
+    full: d.toLocaleDateString('en-US', { weekday: 'short', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }),
+    sortKey: d.getTime(),
+  };
+}
+
+function priorityOf(item) {
+  const t = (item.title + ' ' + item.summary).toLowerCase();
+  if (t.includes('class i recall') || t.includes('death') || t.includes('final rule') || t.includes('mandatory') || t.includes('in force')) return 'high';
+  if (t.includes('draft') || t.includes('consultation') || t.includes('proposed')) return 'med';
+  return 'low';
+}
+
+function tagsOf(item) {
+  const t = (item.title + ' ' + item.summary).toLowerCase();
+  const tags = [];
+  if (t.includes('510(k)')) tags.push('510(k)');
+  if (t.includes('de novo')) tags.push('De Novo');
+  if (t.includes('pma')) tags.push('PMA');
+  if (t.includes('ai') || t.includes('ml') || t.includes('algorithm')) tags.push('AI/ML');
+  if (t.includes('cybersecurity') || t.includes('sbom')) tags.push('Cybersecurity');
+  if (t.includes('software') || t.includes('samd')) tags.push('Software');
+  if (t.includes('udi')) tags.push('UDI');
+  if (t.includes('mdr') || t.includes('mdcg')) tags.push('EU MDR');
+  if (t.includes('ivd') || t.includes('diagnostic')) tags.push('IVD');
+  if (t.includes('recall')) tags.push('Recall');
+  if (t.includes('vigilance') || t.includes('psur') || t.includes('pms')) tags.push('PMS');
+  if (t.includes('comment') || t.includes('consultation')) tags.push('Comments');
+  if (t.includes('classification')) tags.push('Classification');
+  return tags.length ? tags : ['Update'];
+}
+
+// Normalise a raw feed.json item into the card shape this UI expects
+function normalise(raw) {
+  const parts = isoToParts(raw.published);
+  return {
+    title: raw.title,
+    summary: raw.summary,
+    src: raw.source || raw.agency,
+    url: raw.link,
+    agency: raw.agency,
+    region: raw.region || AGENCY_REGION[raw.agency] || '',
+    category: raw.category || 'guidance',
+    docType: raw.docType || (
+      /draft|consultation|comment/i.test(raw.title + ' ' + raw.summary) ? 'comment-open' :
+      /final/i.test(raw.title) ? 'final' : ''
+    ),
+    priority: priorityOf(raw),
+    tags: tagsOf(raw),
+    date: parts.date,
+    mo: parts.mo,
+    fullDate: parts.full,
+    sortKey: parts.sortKey,
+    published: raw.published,
+  };
+}
+
+let LIVE_ITEMS = [];          // all items from feed.json
+let DATA_GENERATED_AT = null; // timestamp of last fetch
+
+async function loadFeed() {
+  try {
+    const res = await fetch('data/feed.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('feed.json not found');
+    const data = await res.json();
+    LIVE_ITEMS = (data.items || []).map(normalise);
+    DATA_GENERATED_AT = data.generated_at;
+    return true;
+  } catch (e) {
+    console.warn('Live feed unavailable, using sample data.', e);
+    return false;
+  }
+}
+
+// ============= RENDER HELPERS =============
+function buildUpdateCard(u, i) {
+  const el = document.createElement('article');
+  el.className = 'update-card fade-in';
+  el.dataset.agency = u.agency.toLowerCase();
+  el.dataset.category = u.category;
+  el.dataset.doctype = u.docType || '';
+  el.dataset.idx = i;
+  el.innerHTML = `
+    <div class="upd-date"><span class="day">${u.date}</span><span class="mo">${u.mo}</span></div>
+    <div class="upd-body">
+      <div class="agency-line">
+        <span class="agency-tag ${u.agency.toLowerCase()}">${u.agency}</span>
+        <span>${u.tags.join(' · ')}</span>
+      </div>
+      <h3>${u.title}</h3>
+      <p>${u.summary}</p>
+      <div class="meta">
+        <span>${u.region ? u.region + ' · ' : ''}<strong>${u.src}</strong></span>
+        <a href="${u.url}" target="_blank" rel="noopener">Read on official site ↗</a>
+      </div>
+    </div>
+    <div class="priority ${u.priority}"></div>
+  `;
+  el.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A') return;
+    openModal(u);
+  });
+  return el;
+}
+
+// ============= RENDER ALL =============
+function renderAll() {
+  const items = LIVE_ITEMS.length ? LIVE_ITEMS : [];
+
+  // DASHBOARD — top 8 newest mixed
+  const dashEl = document.getElementById('updates-dashboard');
+  dashEl.innerHTML = '';
+  [...items].sort((a,b) => b.sortKey - a.sortKey).slice(0, 8).forEach((u,i) => {
+    dashEl.appendChild(buildUpdateCard(u, i));
+  });
+
+  // CATEGORIES
+  ['premarket', 'postmarket', 'guidance'].forEach(cat => {
+    const container = document.getElementById('updates-' + cat);
+    container.innerHTML = '';
+    const filtered = items.filter(u => u.category === cat).sort((a,b) => b.sortKey - a.sortKey);
+    if (!filtered.length) {
+      container.innerHTML = '<p style="font-family:Fraunces,serif; font-style:italic; color:#4a4339; padding: 20px 0;">No items currently indexed in this category.</p>';
+    } else {
+      filtered.forEach((u,i) => container.appendChild(buildUpdateCard(u, i)));
+    }
+    // Update tab count
+    const btn = document.querySelector(`.tab-btn[data-tab="${cat}"] .count`);
+    if (btn) btn.textContent = filtered.length;
+  });
+
+  // PRE-PUB — items with category 'prepub' from live data
+  const prepubEl = document.getElementById('prepub-full');
+  prepubEl.innerHTML = '';
+  const prepubItems = items.filter(u => u.category === 'prepub').sort((a,b) => b.sortKey - a.sortKey);
+  if (!prepubItems.length) {
+    prepubEl.innerHTML = '<p style="font-family:Fraunces,serif; font-style:italic; color:#4a4339;">No pre-publication items right now.</p>';
+  } else {
+    prepubItems.forEach(p => {
+      const el = document.createElement('div');
+      el.className = 'prepub-item';
+      el.style.cursor = 'pointer';
+      el.innerHTML = `
+        <div class="pp-tag">${p.agency} · Pre-Publication</div>
+        <h4>${p.title}</h4>
+        <p style="font-family:'Fraunces',serif; font-size:14px; line-height:1.5; color:#1a1612; margin:6px 0 8px; max-width:640px;">${p.summary}</p>
+        <div class="pp-meta">${p.fullDate} · <span class="pp-eff">${p.src}</span></div>
+      `;
+      el.addEventListener('click', () => openModal(p));
+      prepubEl.appendChild(el);
+    });
+  }
+  const prepubCountBtn = document.querySelector('.tab-btn[data-tab="prepub"] .count');
+  if (prepubCountBtn) prepubCountBtn.textContent = prepubItems.length;
+
+  // RECALLS
+  const recallEl = document.getElementById('recalls-full');
+  recallEl.innerHTML = '';
+  const recallItems = items.filter(u => u.category === 'recall').sort((a,b) => b.sortKey - a.sortKey);
+  if (!recallItems.length) {
+    recallEl.innerHTML = '<p style="font-family:Fraunces,serif; font-style:italic; color:#4a4339;">No recalls currently indexed.</p>';
+  } else {
+    recallItems.forEach(r => {
+      const t = (r.title + ' ' + r.summary).toLowerCase();
+      const cls = t.includes('class i ') || t.includes('death') ? 'class-i' :
+                  t.includes('class ii') ? 'class-ii' : 'class-iii';
+      const label = cls === 'class-i' ? 'Class I Recall' : cls === 'class-ii' ? 'Class II Recall' : 'Class III Recall';
+      const el = document.createElement('div');
+      el.className = `recall-card ${cls}`;
+      el.style.cursor = 'pointer';
+      el.innerHTML = `
+        <div class="recall-class">▌ ${label.toUpperCase()}</div>
+        <h4>${r.title}</h4>
+        <p>${r.summary}</p>
+        <div class="recall-meta">${r.agency} · ${r.fullDate}</div>
+      `;
+      el.addEventListener('click', () => openModal(r));
+      recallEl.appendChild(el);
+    });
+  }
+  const recallCountBtn = document.querySelector('.tab-btn[data-tab="recalls"] .count');
+  if (recallCountBtn) recallCountBtn.textContent = recallItems.length;
+
+  // ARCHIVE — everything
+  const archiveEl = document.getElementById('updates-archive');
+  archiveEl.innerHTML = '';
+  [...items].sort((a,b) => b.sortKey - a.sortKey).forEach((u,i) => {
+    archiveEl.appendChild(buildUpdateCard(u, i));
+  });
+
+  // Last-updated stamp
+  if (DATA_GENERATED_AT) {
+    const d = new Date(DATA_GENERATED_AT);
+    const stamp = d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    document.getElementById('last-updated').textContent = stamp;
+  } else {
+    document.getElementById('last-updated').textContent = 'sample';
+  }
+}
+
+// ============= STATIC SECTIONS (calendar, agencies) =============
+const calendar = [
+  { d: '04', m: 'MAY', urgent: true, title: 'AI/ML PCCP Final Rule effective', meta: 'FDA · 21 CFR 820.30 amendments' },
+  { d: '11', m: 'MAY', urgent: true, title: 'EUDAMED Module 6 mandatory use', meta: 'EU MDR · vigilance reporting' },
+  { d: '15', m: 'MAY', title: 'eSTAR mandatory for all De Novo', meta: 'FDA · electronic submission' },
+  { d: '01', m: 'JUN', title: 'UK PMS Statutory Instrument enforcement', meta: 'MHRA · post-market surveillance' },
+  { d: '15', m: 'JUN', title: 'India Phase IV licensing deadline', meta: 'CDSCO · Class A/B devices' },
+  { d: '28', m: 'JUN', title: 'MHRA core SI consultation closes', meta: 'gov.uk · UK future regime' },
+  { d: '01', m: 'JUL', title: 'Switzerland MRA expiry — IVDR pathway', meta: 'Swissmedic · CH-REP requirements' },
+  { d: '01', m: 'OCT', title: 'Japan UDI Phase 3 deadline', meta: 'PMDA · Class II non-implantables' },
+  { d: '31', m: 'DEC', title: 'EU MDR legacy device transition close', meta: 'EU MDR · Article 120(3) sunset' },
+];
+
+const calEl = document.getElementById('calendar-full');
+calendar.forEach(c => {
+  const el = document.createElement('div');
+  el.className = 'cal-item';
+  el.innerHTML = `
+    <div class="cal-date ${c.urgent ? 'urgent' : ''}">
+      <span class="d">${c.d}</span>
+      <span class="m">${c.m}</span>
+    </div>
+    <div class="cal-body">
+      <h5>${c.title}</h5>
+      <div class="cal-meta">${c.meta}</div>
+    </div>
+  `;
+  calEl.appendChild(el);
+});
+
+const agencies = [
+  { flag: 'United States', acro: 'FDA' },
+  { flag: 'European Union', acro: 'EMA' },
+  { flag: 'United Kingdom', acro: 'MHRA' },
+  { flag: 'Japan', acro: 'PMDA' },
+  { flag: 'Canada', acro: 'HC' },
+  { flag: 'Australia', acro: 'TGA' },
+  { flag: 'China', acro: 'NMPA' },
+  { flag: 'India', acro: 'CDSCO' },
+  { flag: 'Brazil', acro: 'ANVISA' },
+  { flag: 'South Korea', acro: 'MFDS' },
+];
+
+const agencyEl = document.getElementById('agencies-full');
+agencies.forEach(a => {
+  const el = document.createElement('div');
+  el.className = 'agency-cell';
+  // Count items per agency from live data
+  const count = LIVE_ITEMS.filter(u => u.agency === a.acro).length;
+  el.innerHTML = `
+    <div class="flag">${a.flag}</div>
+    <div class="acro">${a.acro}</div>
+    <div class="stat"><span class="live">●</span> Live · <span class="agency-count" data-acro="${a.acro}">${count}</span> indexed</div>
+  `;
+  el.addEventListener('click', () => {
+    // Switch to archive and filter to this agency via search
+    document.querySelector('.tab-btn[data-tab="archive"]').click();
+    const search = document.querySelector('input[data-search="archive"]');
+    if (search) {
+      search.value = a.acro;
+      search.dispatchEvent(new Event('input'));
+    }
+  });
+  agencyEl.appendChild(el);
+});
+
+function refreshAgencyCounts() {
+  document.querySelectorAll('.agency-count').forEach(el => {
+    const acro = el.dataset.acro;
+    el.textContent = LIVE_ITEMS.filter(u => u.agency === acro).length;
+  });
+}
+
+// ============= TICKER (built from live data) =============
+function buildTicker() {
+  const tickerEl = document.getElementById('ticker');
+  const items = LIVE_ITEMS.length ? LIVE_ITEMS.slice(0, 8) : [];
+  if (!items.length) {
+    tickerEl.innerHTML = '<span><span class="tick-tag">LIVE</span>Awaiting first feed refresh…</span>';
+    return;
+  }
+  const html = items.map(u => {
+    const tagClass = u.priority === 'high' ? 'red' : u.priority === 'low' ? 'green' : '';
+    return `<span><span class="tick-tag ${tagClass}">${u.agency}</span>${u.title}</span>`;
+  }).join('');
+  tickerEl.innerHTML = html + html; // repeat for seamless scroll
+}
+
+// ============= CLOCK =============
+function updateClock() {
+  const now = new Date();
+  document.getElementById('datestamp').textContent = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }).toUpperCase();
+  const t = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'America/New_York' });
+  const tLondon = now.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Europe/London' });
+  document.getElementById('clock').innerHTML = `<strong>${t}</strong>ET · <strong>${tLondon}</strong>LON`;
+}
+updateClock(); setInterval(updateClock, 30000);
+
+// ============= TAB SWITCHING =============
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+    const target = document.getElementById('tab-' + tab);
+    if (target) target.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+
+// ============= FILTERS (scoped per tab) =============
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const scope = btn.dataset.scope;
+    document.querySelectorAll(`.filter-btn[data-scope="${scope}"]`).forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    const container = document.getElementById('updates-' + scope);
+    if (!container) return;
+    container.querySelectorAll('.update-card').forEach(card => {
+      if (f === 'all') { card.style.display = ''; return; }
+      // Archive can filter by category
+      if (scope === 'archive' && ['premarket','postmarket','guidance','recall','prepub'].includes(f)) {
+        card.style.display = card.dataset.category === f ? '' : 'none';
+        return;
+      }
+      // doctype filters
+      if (['draft','final','comment-open'].includes(f)) {
+        card.style.display = card.dataset.doctype === f ? '' : 'none';
+        return;
+      }
+      // agency filters
+      card.style.display = card.dataset.agency === f.toLowerCase() ? '' : 'none';
+    });
+  });
+});
+
+// ============= SEARCH (scoped per tab) =============
+document.querySelectorAll('input[data-search]').forEach(input => {
+  input.addEventListener('input', e => {
+    const scope = input.dataset.search;
+    const q = e.target.value.toLowerCase();
+    const container = document.getElementById('updates-' + scope);
+    if (!container) return;
+    container.querySelectorAll('.update-card').forEach(card => {
+      const txt = card.textContent.toLowerCase();
+      card.style.display = txt.includes(q) ? '' : 'none';
+    });
+  });
+});
+
+// ============= MODAL — RICH ARTICLE DETAIL =============
+function openModal(u) {
+  const c = document.getElementById('modal-content');
+  // Find related items: same agency or category, excluding this one
+  const related = LIVE_ITEMS
+    .filter(x => x !== u && (x.agency === u.agency || x.category === u.category))
+    .slice(0, 4);
+
+  const relatedHTML = related.length ? `
+    <div class="modal-related">
+      <h4>Related items</h4>
+      <ul>
+        ${related.map(r => `
+          <li data-link="${encodeURIComponent(JSON.stringify({title: r.title}))}">
+            <span class="agency-tag ${r.agency.toLowerCase()}" style="display:inline-block; padding:1px 6px; font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.1em;">${r.agency}</span>
+            <strong>${r.title}</strong>
+            <span class="rel-date">${r.fullDate}</span>
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  ` : '';
+
+  c.innerHTML = `
+    <div class="modal-meta">
+      <span class="agency-tag ${u.agency.toLowerCase()}" style="display:inline-block; padding: 2px 7px;">${u.agency}</span>
+      &nbsp; ${u.region || ''} · ${u.fullDate}
+    </div>
+    <h2>${u.title}</h2>
+    <div class="modal-tags">
+      ${u.tags.map(t => `<span class="modal-tag">${t}</span>`).join('')}
+    </div>
+    <div class="modal-body">
+      <div class="modal-section">
+        <h4>Summary</h4>
+        <p>${u.summary}</p>
+      </div>
+      <div class="modal-section modal-grid">
+        <div><span class="ml-label">Source</span><span class="ml-val">${u.src}</span></div>
+        <div><span class="ml-label">Agency</span><span class="ml-val">${u.agency}</span></div>
+        <div><span class="ml-label">Region</span><span class="ml-val">${u.region || '—'}</span></div>
+        <div><span class="ml-label">Category</span><span class="ml-val">${u.category}</span></div>
+        <div><span class="ml-label">Published</span><span class="ml-val">${u.fullDate}</span></div>
+        <div><span class="ml-label">Priority</span><span class="ml-val ml-${u.priority}">${u.priority.toUpperCase()}</span></div>
+      </div>
+      <div class="modal-section">
+        <h4>What this means</h4>
+        <p>This item was indexed from the official <strong>${u.src}</strong> feed. The full text, formal numbering, comment-period status, and any superseded versions are available at the source link below.</p>
+      </div>
+      <a class="modal-link" href="${u.url}" target="_blank" rel="noopener">▌ Read full text on official site ↗</a>
+      ${relatedHTML}
+    </div>
+  `;
+  // Wire up related-item clicks
+  c.querySelectorAll('.modal-related li').forEach((li, idx) => {
+    li.addEventListener('click', () => openModal(related[idx]));
+  });
+  document.getElementById('modal').classList.add('active');
+  document.getElementById('modal').scrollTop = 0;
+}
+function closeModal() { document.getElementById('modal').classList.remove('active'); }
+document.getElementById('modal').addEventListener('click', (e) => {
+  if (e.target.id === 'modal') closeModal();
+});
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+// ============= BOOTSTRAP =============
+(async function init() {
+  const ok = await loadFeed();
+  if (!ok) {
+    // Fall back to inlined sample data so the dashboard works offline / file://
+    LIVE_ITEMS = (SAMPLE_FEED.items || []).map(normalise);
+    DATA_GENERATED_AT = SAMPLE_FEED.generated_at;
+  }
+  renderAll();
+  refreshAgencyCounts();
+  buildTicker();
+})();
+</script>
+</body>
+</html>
