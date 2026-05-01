@@ -134,14 +134,6 @@ FEEDS = [
         "name": "European Commission — Health news",
         "url": "https://health.ec.europa.eu/rss_en",
     },
-    # --- Saudi Arabia (SFDA) — see https://www.sfda.gov.sa for RSS link ---
-    {
-        "agency": "SFDA",
-        "region": "Saudi Arabia",
-        "category": "postmarket",
-        "name": "Saudi FDA — Medical Devices news",
-        "url": "https://www.sfda.gov.sa/en/rss.xml",
-    },
 ]
 
 # Keywords that suggest a Federal Register / news item is medical-device-related.
@@ -249,16 +241,6 @@ def main():
             print(f"    ✗ unhandled exception in {cfg['name']}: {e}", flush=True)
             failed_feeds.append(cfg["name"])
         time.sleep(0.5)  # be polite
-
-    # Also pull from HTML scrapers (best-effort, never crashes the run)
-    try:
-        from scrape_sites import fetch_all_scraped
-        print(f"\nRunning HTML scrapers…", flush=True)
-        scraped = fetch_all_scraped()
-        all_items.extend(scraped)
-        print(f"  → scrapers contributed {len(scraped)} item(s)", flush=True)
-    except Exception as e:
-        print(f"  ✗ scraper module failed to load: {e}", flush=True)
 
     # Sort newest first, cap total
     all_items.sort(key=lambda x: x["published"], reverse=True)
