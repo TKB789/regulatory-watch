@@ -1356,6 +1356,19 @@ function tagsOf(item) {
   return tags.length ? tags : ['Update'];
 }
 
+function cleanUrl(url) {
+  if (!url) return '';
+  let u = url.toString().trim();
+  // Force https for known-broken http subdomains
+  if (u.startsWith('http://www.fda.gov')) u = u.replace('http://www.fda.gov', 'https://www.fda.gov');
+  if (u.startsWith('http://www.federalregister.gov')) u = u.replace('http://', 'https://');
+  if (u.startsWith('http://www.gov.uk')) u = u.replace('http://', 'https://');
+  if (u.startsWith('http://recalls-rappels.canada.ca')) u = u.replace('http://', 'https://');
+  // Strip trailing #fragments that sometimes 404
+  u = u.replace(/#.*$/, '');
+  return u;
+}
+
 // Normalise a raw feed.json item into the card shape this UI expects
 function normalise(raw) {
   if (!raw || typeof raw !== 'object') return null;
@@ -1368,7 +1381,7 @@ function normalise(raw) {
     title,
     summary,
     src: (raw.source || agency).toString(),
-    url: (raw.link || '').toString(),
+    url: cleanUrl(raw.link),
     agency,
     region: (raw.region || AGENCY_REGION[agency] || '').toString(),
     category: (raw.category || 'guidance').toString(),
@@ -1731,16 +1744,16 @@ calendar.forEach(c => {
 });
 
 const agencies = [
-  { flag: 'United States', acro: 'FDA' },
-  { flag: 'European Union', acro: 'EMA' },
-  { flag: 'United Kingdom', acro: 'MHRA' },
-  { flag: 'Japan', acro: 'PMDA' },
-  { flag: 'Canada', acro: 'HC' },
-  { flag: 'Australia', acro: 'TGA' },
-  { flag: 'China', acro: 'NMPA' },
-  { flag: 'India', acro: 'CDSCO' },
-  { flag: 'Brazil', acro: 'ANVISA' },
-  { flag: 'South Korea', acro: 'MFDS' },
+  { flag: 'United States', acro: 'FDA',    url: 'https://www.fda.gov/medical-devices' },
+  { flag: 'European Union', acro: 'EMA',   url: 'https://health.ec.europa.eu/medical-devices-sector_en' },
+  { flag: 'United Kingdom', acro: 'MHRA',  url: 'https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency' },
+  { flag: 'Japan',          acro: 'PMDA',  url: 'https://www.pmda.go.jp/english/' },
+  { flag: 'Canada',         acro: 'HC',    url: 'https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices.html' },
+  { flag: 'Australia',      acro: 'TGA',   url: 'https://www.tga.gov.au/products/medical-devices' },
+  { flag: 'China',          acro: 'NMPA',  url: 'https://english.nmpa.gov.cn/' },
+  { flag: 'India',          acro: 'CDSCO', url: 'https://cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/' },
+  { flag: 'Brazil',         acro: 'ANVISA',url: 'https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude' },
+  { flag: 'South Korea',    acro: 'MFDS',  url: 'https://www.mfds.go.kr/eng/index.do' },
 ];
 
 const agencyEl = document.getElementById('agencies-full');
@@ -1753,15 +1766,10 @@ agencies.forEach(a => {
     <div class="flag">${a.flag}</div>
     <div class="acro">${a.acro}</div>
     <div class="stat"><span class="live">●</span> Live · <span class="agency-count" data-acro="${a.acro}">${count}</span> indexed</div>
+    <div style="margin-top:8px; font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.1em; color:#a39788;">Open official site ↗</div>
   `;
   el.addEventListener('click', () => {
-    // Switch to archive and filter to this agency via search
-    document.querySelector('.tab-btn[data-tab="archive"]').click();
-    const search = document.querySelector('input[data-search="archive"]');
-    if (search) {
-      search.value = a.acro;
-      search.dispatchEvent(new Event('input'));
-    }
+    if (a.url) window.open(a.url, '_blank', 'noopener');
   });
   agencyEl.appendChild(el);
 });
