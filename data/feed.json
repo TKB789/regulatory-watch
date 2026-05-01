@@ -1,14 +1,30 @@
 {
-  "generated_at": "2026-05-01T23:22:20.844771+00:00",
+  "generated_at": "2026-05-01T23:35:13.738279+00:00",
   "item_count": 61,
   "feed_count": 12,
   "failed_feeds": [
-    "FDA Medical Device Recalls",
-    "FDA Medical Device Safety",
-    "Health Canada recalls & safety alerts",
-    "TGA news & alerts",
-    "European Commission — Health news"
+    {
+      "name": "FDA Medical Device Recalls",
+      "reason": "<unknown>:2:590: mismatched tag"
+    },
+    {
+      "name": "FDA Medical Device Safety",
+      "reason": "<unknown>:2:590: mismatched tag"
+    },
+    {
+      "name": "Health Canada recalls & safety alerts",
+      "reason": "<unknown>:10:14: not well-formed (invalid token)"
+    },
+    {
+      "name": "TGA news & alerts",
+      "reason": "The read operation timed out"
+    },
+    {
+      "name": "European Commission — Health news",
+      "reason": "<unknown>:44:76: not well-formed (invalid token)"
+    }
   ],
+  "empty_feeds": [],
   "items": [
     {
       "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
