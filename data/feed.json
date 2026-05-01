@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T22:10:08.635911+00:00",
-  "item_count": 77,
-  "feed_count": 14,
+  "generated_at": "2026-05-01T23:11:52.106797+00:00",
+  "item_count": 65,
+  "feed_count": 13,
   "failed_feeds": [
     "FDA Medical Device Recalls",
     "FDA Medical Device Safety",
@@ -10,26 +10,6 @@
     "European Commission — Health news"
   ],
   "items": [
-    {
-      "title": "Adverse Drug Reactionrelated Notifications",
-      "summary": "Home Notifications Adverse Drug Reaction related Notifications Adverse Drug Reaction related Notifications S.no Drug Name ADR Detected Release Date Download Pdf Pdf Size 1 Doxycycline Restlessness, Anxiety, Irritability, Nervousness, and Dizziness 2026-Feb-17 562 KB 2 Carbimazole Agranulocytosis 2026-Feb-17 518 KB 3 Covishield SRP Syndrome GBS 2023-Feb-03 387 KB 4 Covaxin SRP Syndrome GBS 2023-Feb-03 339 KB 5 Chloroquine SJS-TEN 2020-Jan-30 66 KB 6 Lamivudine Hearing Loss 2020-Jan-13 62 KB 7…",
-      "link": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Adverse-Drug-Reaction-related-Notifications/",
-      "published": "2026-05-01T22:10:07.373290+00:00",
-      "agency": "CDSCO",
-      "region": "India",
-      "category": "postmarket",
-      "source": "CDSCO Notifications (scraped)"
-    },
-    {
-      "title": "Gazette Notifications",
-      "summary": "98(E)_Draft Notification regarding amendment in NDCT Rules, 2019 for Omit the requirements of granting of Provisional Certificate for registration of ethics committee. 97(E)_Draft Notification regarding submission of post approval changes in NDCT, Rules 2019 2026-Feb-02 1176 KB 11 2026.01.28 G.S.R. 52(E) Exemption of Import of Oxytocin reference standards from Prohibition 2020-Jan-27 668 KB 180 2019.12.27 S.O.4671(E)_Extention of Effective date of S.O.",
-      "link": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Gazette-Notifications/",
-      "published": "2026-05-01T22:10:05.128174+00:00",
-      "agency": "CDSCO",
-      "region": "India",
-      "category": "postmarket",
-      "source": "CDSCO Notifications (scraped)"
-    },
     {
       "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
       "summary": "FDA is announcing that it issued a “safe to proceed” letter to Revolution Medicines, allowing the sponsor to initiate an expanded access treatment protocol (EAP) for its experimental pancreatic cancer drug, daraxonrasib.",
@@ -131,16 +111,6 @@
       "source": "FDA Press Announcements"
     },
     {
-      "title": "\"الغذاء والدواء\" تُكمل استعداداتها لخدمة ضيوف الرحمن في موسم الحج",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/news/5521862",
-      "published": "2026-04-30T12:45:29+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
       "title": "Guidance: The Innovative Devices Access Pathway (IDAP)",
       "summary": "The Innovative Devices Access Pathway (IDAP) pilot is designed to accelerate the development of innovative medical devices that meet an unmet clinical need in the NHS and support their integration into the UK market.",
       "link": "https://www.gov.uk/government/publications/the-innovative-devices-access-pathway-idap",
@@ -149,16 +119,6 @@
       "region": "United Kingdom",
       "category": "postmarket",
       "source": "MHRA news & alerts"
-    },
-    {
-      "title": "نظرة عامة على الزيارات التفتيشية لمصانع الأدوية وأبرز الملاحظات المرصودة",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/workshop/5521859",
-      "published": "2026-04-30T09:08:24+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
     },
     {
       "title": "Insulin Pump Recall: Insulet Removes Certain Omnipod 5 Pods",
@@ -271,16 +231,6 @@
       "source": "FDA Press Announcements"
     },
     {
-      "title": "السعودية للشحن والهيئة العامة للغذاء والدواء تعلنان عن مبادرة تسهيلات على خدمات الشحن الجوي",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/news/5521858",
-      "published": "2026-04-29T12:04:12+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
       "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request for Information",
       "summary": "The Food and Drug Administration (FDA or the Agency) is issuing this request for information to solicit input on a proposed pilot program to assess how artificial intelligence (AI)-enabled technologies can improve efficiency, speed, and quality of decision- making in early phase clinical trials. Early-phase clinical trials represent a critical bottleneck in drug development, often characterized by high uncertainty, limited patient populations, and inefficient decision- making processes. This…",
       "link": "https://www.federalregister.gov/documents/2026/04/29/2026-08281/ai-enabled-optimization-of-early-phase-clinical-trials-pilot-program-request-for-information",
@@ -389,76 +339,6 @@
       "region": "United States",
       "category": "recall",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "\"الرئيس التنفيذي\" لـ\"الغذاء والدواء\" يزور منشآت نيوزيلندية متخصصة في إنتاج اللحوم ويطّلع على إجراءات الذبح الحلال",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/news/5521857",
-      "published": "2026-04-27T11:32:57+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
-      "title": "ATROPINE SULFATE OPHTHALMIC SOLUTION",
-      "summary": "The Saudi Food and Drug Authority: Resting full body weight on the Padded Swing Away Armrest of some wheelchairs models may cause injuries admin Mon, 07/08/2019 - 11:13 ​ The Saudi food and drug authority would like to alert all consumers from the possibility of injury when the Padded Swing Away Armrest is used to rest full body weight on some models of wheelchairs manufactured by Sunrise Medical. Reports of injury have been received by the manufacturer, when the Padded Swing Away Armrest on…",
-      "link": "http://www.sfda.gov.sa/en/node/5521855",
-      "published": "2026-04-26T08:41:50+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
-      "title": "Acyclovir",
-      "summary": "The Saudi Food and Drug Authority: Resting full body weight on the Padded Swing Away Armrest of some wheelchairs models may cause injuries admin Mon, 07/08/2019 - 11:13 ​ The Saudi food and drug authority would like to alert all consumers from the possibility of injury when the Padded Swing Away Armrest is used to rest full body weight on some models of wheelchairs manufactured by Sunrise Medical. Reports of injury have been received by the manufacturer, when the Padded Swing Away Armrest on…",
-      "link": "http://www.sfda.gov.sa/en/node/5521854",
-      "published": "2026-04-26T08:39:39+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
-      "title": "ماسیتینتان / تادالافیل",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/node/5521853",
-      "published": "2026-04-26T08:36:52+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
-      "title": "أليمتوزوماب",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/node/5521852",
-      "published": "2026-04-26T08:30:54+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
-      "title": "Long-term Characterization of GORE® TAG® Conformable Thoracic Stent Graft with ACTIVE CONTROL System Performance",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/node/5521851",
-      "published": "2026-04-26T08:11:53+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
-    },
-    {
-      "title": "Continuous Glucose Monitoring By DExcom iN PEople Followed for Type 2 DIabeTes on Insulin Therapy in the Kingdom of Saudi Arabia: The “BENEFIT-KSA” Study",
-      "summary": "SFDA Reports 18% Growth in Licensed Factories and Warehouses During 2025 KFYousef Mon, 01/26/2026 - 17:28 The Saudi Food and Drug Authority (SFDA) recorded significant growth in the number of licensed factories and warehouses during 2025, achieving a 18% increase compared to 2024. This growth reflects the ongoing development of the regulatory environment, the empowerment of the industrial sector, and the expansion of investment support within the SFDA’s scope of work. According to official…",
-      "link": "http://www.sfda.gov.sa/ar/node/5521850",
-      "published": "2026-04-26T08:11:18+00:00",
-      "agency": "SFDA",
-      "region": "Saudi Arabia",
-      "category": "postmarket",
-      "source": "Saudi FDA — Medical Devices news"
     },
     {
       "title": "Class 3 Medicines Recall: Omega Pharma Ltd, Napralief 250mg Gastro-Resistant Tablets, EL(26)A/21",
