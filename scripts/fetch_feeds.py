@@ -8,6 +8,7 @@ Run by GitHub Actions on a schedule. Free, no API keys needed.
 
 import json
 import re
+import socket
 import sys
 import time
 from datetime import datetime, timezone
@@ -15,6 +16,10 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import feedparser  # pip install feedparser
+
+# Hard timeout for any single network request (seconds).
+# Without this, a slow feed can hang the entire workflow.
+socket.setdefaulttimeout(15)
 
 # ---------------------------------------------------------------------------
 # FEED CONFIG
@@ -28,7 +33,7 @@ import feedparser  # pip install feedparser
 # ---------------------------------------------------------------------------
 
 FEEDS = [
-    # --- US FDA ---
+    # --- US FDA: Medical Devices specific ---
     {
         "agency": "FDA",
         "region": "United States",
@@ -46,6 +51,15 @@ FEEDS = [
     {
         "agency": "FDA",
         "region": "United States",
+        "category": "recall",
+        "name": "FDA MedWatch Safety Alerts",
+        # MedWatch covers all human medical products (devices, drugs, biologics)
+        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+    },
+    # --- US FDA: broader feeds (filtered to device topics by keyword) ---
+    {
+        "agency": "FDA",
+        "region": "United States",
         "category": "guidance",
         "name": "FDA Press Announcements",
         "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
@@ -56,8 +70,30 @@ FEEDS = [
         "region": "United States",
         "category": "prepub",
         "name": "Federal Register — FDA documents",
-        # Federal Register has a great public API. This URL filters for FDA documents.
         "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions[agencies][]=food-and-drug-administration&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[type][]=NOTICE",
+    },
+    # --- AccessGUDID (UDI database — daily UDI publications) ---
+    {
+        "agency": "FDA",
+        "region": "United States",
+        "category": "premarket",
+        "name": "AccessGUDID — UDI Database (daily)",
+        "url": "https://accessgudid.nlm.nih.gov/download.rss?files=daily",
+    },
+    # --- IMDRF: international harmonization (covers all major regulators) ---
+    {
+        "agency": "IMDRF",
+        "region": "International",
+        "category": "guidance",
+        "name": "IMDRF Working Groups",
+        "url": "https://www.imdrf.org/working-groups.xml",
+    },
+    {
+        "agency": "IMDRF",
+        "region": "International",
+        "category": "guidance",
+        "name": "IMDRF Consultations",
+        "url": "https://www.imdrf.org/consultations.xml",
     },
     # --- MHRA (UK) ---
     {
@@ -66,6 +102,13 @@ FEEDS = [
         "category": "postmarket",
         "name": "MHRA news & alerts",
         "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom",
+    },
+    {
+        "agency": "MHRA",
+        "region": "United Kingdom",
+        "category": "recall",
+        "name": "UK Drug & Medical Device Alerts",
+        "url": "https://www.gov.uk/drug-device-alerts.atom",
     },
     # --- Health Canada ---
     {
@@ -91,16 +134,26 @@ FEEDS = [
         "name": "European Commission — Health news",
         "url": "https://health.ec.europa.eu/rss_en",
     },
+    # --- Saudi Arabia (SFDA) — see https://www.sfda.gov.sa for RSS link ---
+    {
+        "agency": "SFDA",
+        "region": "Saudi Arabia",
+        "category": "postmarket",
+        "name": "Saudi FDA — Medical Devices news",
+        "url": "https://www.sfda.gov.sa/en/rss.xml",
+    },
 ]
 
 # Keywords that suggest a Federal Register / news item is medical-device-related.
 # Used to filter out drug-only or food-only items from broad feeds.
 DEVICE_KEYWORDS = [
-    "device", "510(k)", "pma", "de novo", "udi", "ivd",
+    "device", "devices", "510(k)", "510k", "pma", "de novo", "udi", "ivd",
     "diagnostic", "implant", "cdrh", "mdr", "ivdr", "mdcg",
-    "premarket", "post-market", "postmarket", "recall",
+    "premarket", "post-market", "postmarket", "recall", "recalls",
     "vigilance", "psur", "estar", "notified body", "samd",
-    "software as a medical", "ai/ml", "cybersecurity",
+    "software as a medical", "ai/ml", "cybersecurity", "biocompatibility",
+    "sterilization", "in vitro", "instrument", "scanner", "monitor",
+    "pacemaker", "stent", "catheter", "surgical", "medtech",
 ]
 
 # How many items per feed (most recent)
@@ -185,26 +238,64 @@ def fetch_one(feed_cfg: dict) -> list:
 def main():
     print(f"Fetching {len(FEEDS)} feed(s)…", flush=True)
     all_items = []
+    failed_feeds = []
     for cfg in FEEDS:
-        all_items.extend(fetch_one(cfg))
+        try:
+            results = fetch_one(cfg)
+            all_items.extend(results)
+            if not results:
+                failed_feeds.append(cfg["name"])
+        except Exception as e:
+            print(f"    ✗ unhandled exception in {cfg['name']}: {e}", flush=True)
+            failed_feeds.append(cfg["name"])
         time.sleep(0.5)  # be polite
+
+    # Also pull from HTML scrapers (best-effort, never crashes the run)
+    try:
+        from scrape_sites import fetch_all_scraped
+        print(f"\nRunning HTML scrapers…", flush=True)
+        scraped = fetch_all_scraped()
+        all_items.extend(scraped)
+        print(f"  → scrapers contributed {len(scraped)} item(s)", flush=True)
+    except Exception as e:
+        print(f"  ✗ scraper module failed to load: {e}", flush=True)
 
     # Sort newest first, cap total
     all_items.sort(key=lambda x: x["published"], reverse=True)
     all_items = all_items[:MAX_TOTAL_ITEMS]
 
+    out_path = Path(__file__).parent.parent / "data" / "feed.json"
+    out_path.parent.mkdir(exist_ok=True)
+
+    # If we got NO items at all, preserve the existing feed.json (don't overwrite with empty).
+    if not all_items and out_path.exists():
+        print(
+            f"\n⚠ All {len(FEEDS)} feeds returned 0 items. "
+            f"Preserving existing feed.json. Failed: {failed_feeds}",
+            flush=True,
+        )
+        return
+
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "item_count": len(all_items),
         "feed_count": len(FEEDS),
+        "failed_feeds": failed_feeds,
         "items": all_items,
     }
 
-    out_path = Path(__file__).parent.parent / "data" / "feed.json"
-    out_path.parent.mkdir(exist_ok=True)
     out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"\nWrote {len(all_items)} item(s) → {out_path}", flush=True)
+    print(
+        f"\nWrote {len(all_items)} item(s) → {out_path} "
+        f"({len(failed_feeds)} feed(s) returned nothing)",
+        flush=True,
+    )
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        # Never fail the workflow — just log and exit cleanly.
+        print(f"FATAL but recoverable: {e}", flush=True)
+        sys.exit(0)
