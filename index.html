@@ -44,7 +44,77 @@
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
-  /* PAGE SHELL — defeats app-level dark mode injection */
+  /* COVERAGE DISCLAIMER */
+  .coverage-banner {
+    background: #f9f4e3;
+    border-bottom: 1px solid var(--rule);
+    padding: 10px 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2a2520;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .coverage-banner .dot {
+    color: var(--accent);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .coverage-banner .toggle {
+    color: var(--accent);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  .coverage-detail {
+    display: none;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dotted var(--rule);
+    font-family: 'Fraunces', serif;
+    font-size: 13px;
+    line-height: 1.55;
+    letter-spacing: 0;
+    color: var(--ink);
+  }
+  .coverage-detail.open { display: block; }
+  .coverage-detail strong { color: var(--accent-2); }
+  .coverage-detail .col-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 24px;
+    margin-top: 8px;
+  }
+  .coverage-detail .col-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .coverage-detail .col-list li {
+    padding: 2px 0;
+    font-size: 12.5px;
+  }
+  .coverage-detail .col-list .yes::before {
+    content: '● ';
+    color: var(--accent-2);
+    font-weight: 700;
+  }
+  .coverage-detail .col-list .no::before {
+    content: '○ ';
+    color: var(--muted);
+  }
+  @media (max-width: 600px) {
+    .coverage-detail .col-list { grid-template-columns: 1fr; }
+  }
   .page-shell {
     background: #f4f0e6;
     color: #0c0a07;
@@ -238,6 +308,19 @@
   }
 
   /* LEAD STORY */
+  #hero-article {
+    transition: transform 0.15s;
+  }
+  #hero-article:hover {
+    transform: translateX(2px);
+  }
+  #hero-article:hover .lead-headline em {
+    color: var(--ink);
+  }
+  #hero-article:hover .open-link {
+    background: var(--accent);
+    color: var(--paper);
+  }
   .lead-kicker {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
@@ -364,7 +447,18 @@
     color: var(--muted); margin-bottom: 6px;
     display: flex; gap: 8px; align-items: center;
   }
-  .agency-tag { background: var(--ink); color: var(--paper); padding: 2px 6px; font-weight: 700; }
+  .agency-tag {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 3px 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    display: inline-block;
+  }
   .agency-tag.fda { background: #1a3a6b; }
   .agency-tag.ema { background: #003d6e; }
   .agency-tag.mhra { background: #4a1a5b; }
@@ -375,6 +469,9 @@
   .agency-tag.cdsco { background: #c47a1c; }
   .agency-tag.anvisa { background: #1a6b4a; }
   .agency-tag.fr { background: #2d4a1f; }
+  .agency-tag.imdrf { background: #5b3a1a; }
+  .agency-tag.sfda { background: #6b1a4a; }
+  .agency-tag.mfds { background: #1a4a6b; }
   .upd-body h3 {
     font-family: 'Fraunces', serif;
     font-weight: 600; font-size: 22px; line-height: 1.15;
@@ -395,10 +492,24 @@
     color: var(--accent);
     font-weight: 700;
     border-bottom: 1px solid var(--accent);
+    cursor: pointer;
   }
   .update-card:hover .open-link {
     background: var(--accent);
     color: var(--paper);
+  }
+  .upd-body .meta .search-link {
+    color: var(--ink);
+    border-bottom: 1px dotted var(--ink);
+    cursor: pointer;
+    font-weight: 600;
+    padding-bottom: 1px;
+    transition: all 0.15s;
+  }
+  .upd-body .meta .search-link:hover {
+    background: var(--ink);
+    color: var(--paper);
+    border-bottom-style: solid;
   }
   .priority {
     width: 4px; align-self: stretch; min-height: 60px;
@@ -739,6 +850,40 @@
   </div>
 </header>
 
+<!-- COVERAGE DISCLAIMER -->
+<div class="coverage-banner">
+  <span class="dot">▌</span>
+  <div style="flex:1;">
+    <strong>Coverage notice:</strong> Live updates flow only from agencies that publish public RSS / Atom feeds.
+    Many emerging-market regulators (NMPA China, CDSCO India, ANVISA Brazil, MFDS South Korea) do not publish feeds and are not yet automatically tracked.
+    <button class="toggle" onclick="document.getElementById('cov-detail').classList.toggle('open'); this.textContent = document.getElementById('cov-detail').classList.contains('open') ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
+    <div class="coverage-detail" id="cov-detail">
+      <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or only manually-listed in the Agencies tab (○).</p>
+      <div class="col-list">
+        <ul>
+          <li class="yes"><strong>FDA</strong> — recalls, safety, press, MedWatch</li>
+          <li class="yes"><strong>Federal Register</strong> — FDA pre-publications</li>
+          <li class="yes"><strong>AccessGUDID</strong> — UDI database</li>
+          <li class="yes"><strong>EMA / EU Commission</strong> — health news</li>
+          <li class="yes"><strong>MHRA</strong> — UK news, drug & device alerts</li>
+          <li class="yes"><strong>Health Canada</strong> — recalls & safety</li>
+          <li class="yes"><strong>TGA</strong> — Australia news & alerts</li>
+        </ul>
+        <ul>
+          <li class="yes"><strong>IMDRF</strong> — international harmonization</li>
+          <li class="yes"><strong>Saudi SFDA</strong> — news</li>
+          <li class="no"><strong>NMPA</strong> (China) — no public feed</li>
+          <li class="no"><strong>CDSCO</strong> (India) — no public feed</li>
+          <li class="no"><strong>ANVISA</strong> (Brazil) — no public feed</li>
+          <li class="no"><strong>MFDS</strong> (S. Korea) — no public feed</li>
+          <li class="no"><strong>PMDA</strong> (Japan) — email newsletter only</li>
+        </ul>
+      </div>
+      <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">For untracked authorities, visit the Agencies tab to jump directly to each regulator's official page.</p>
+    </div>
+  </div>
+</div>
+
 <!-- TAB NAV -->
 <nav class="tab-nav">
   <div class="tab-nav-inner">
@@ -764,22 +909,11 @@
   <!-- ===== DASHBOARD TAB ===== -->
   <div class="tab-section active" id="tab-dashboard">
     <div class="hero-grid" style="margin-top: 24px;">
-      <article>
-        <div class="lead-kicker">▌ Breaking · FDA · CDRH</div>
-        <h1 class="lead-headline">FDA Issues <em>Final Rule</em> on AI/ML-Enabled Device Lifecycle Management</h1>
-        <p class="lead-deck">The agency's long-awaited framework for "predetermined change control plans" formalizes how manufacturers may modify algorithm-driven devices without filing new 510(k) submissions. Industry has 18 months to align existing PCCP commitments with the final guidance.</p>
-        <div class="lead-meta">
-          <span class="src-badge">FEDERAL REGISTER</span>
-          <span><strong>Published:</strong> 2 hours ago</span>
-          <span><strong>Effective:</strong> 180 days</span>
-        </div>
+      <article id="hero-article" style="cursor: pointer;">
+        <!-- filled dynamically by renderHero() -->
       </article>
-      <aside class="glance-box">
-        <div class="glance-stat"><div><div class="label">Active Alerts</div><div class="val">47<span class="delta up">▲ 12</span></div></div></div>
-        <div class="glance-stat"><div><div class="label">New This Week</div><div class="val">128<span class="delta up">▲ 23%</span></div></div></div>
-        <div class="glance-stat"><div><div class="label">Comment Periods Open</div><div class="val">19</div></div></div>
-        <div class="glance-stat"><div><div class="label">Class I Recalls (30d)</div><div class="val">6<span class="delta dn">▼ 2</span></div></div></div>
-        <div class="glance-stat"><div><div class="label">Effective Dates Q3</div><div class="val">31</div></div></div>
+      <aside class="glance-box" id="glance-box">
+        <!-- filled dynamically by renderHero() -->
       </aside>
     </div>
 
@@ -1263,6 +1397,83 @@ async function loadFeed() {
   }
 }
 
+// ============= GOOGLE SEARCH BACKUP =============
+// Builds a Google search URL restricted to official regulator domains, using
+// high-signal phrases extracted from the article title.
+const OFFICIAL_DOMAINS = [
+  'fda.gov',
+  'federalregister.gov',
+  'accessdata.fda.gov',
+  'health.ec.europa.eu',
+  'ec.europa.eu',
+  'ema.europa.eu',
+  'gov.uk',
+  'canada.ca',
+  'recalls-rappels.canada.ca',
+  'tga.gov.au',
+  'pmda.go.jp',
+  'mhlw.go.jp',
+  'cdsco.gov.in',
+  'gov.br',
+  'nmpa.gov.cn',
+  'mfds.go.kr',
+  'sfda.gov.sa',
+  'imdrf.org',
+  'swissmedic.ch',
+];
+
+function extractKeyPhrases(title) {
+  // Pick proper nouns, acronyms, numbers, and quoted terms — skip stopwords.
+  if (!title) return '';
+  const STOP = new Set(['the','a','an','of','for','and','or','to','in','on','with','by','from','as','at','is','are','be','it','its','this','that','these','those','their','our','your']);
+
+  // Strip leading prefixes like "FDA Issues" / "Class I Recall:" / "[PT]"
+  let cleaned = title
+    .replace(/^\[[A-Z]{2,3}\]\s*/g, '')
+    .replace(/^(class\s+[iv]+\s+recall:?\s*)/i, '')
+    .replace(/^(fda|ema|mhra|pmda|tga|nmpa|cdsco|anvisa|hc|sfda|imdrf)\s+(issues|releases|publishes|announces|finalizes|notifies|updates)\s+/i, '');
+
+  // Match: hyphenated/slashed compound terms (AI/ML-Enabled), acronyms (PMDA, FDA),
+  // capitalized phrases (Final Rule), 510(k)-like patterns, year/number tokens
+  const tokens = cleaned.match(
+    /\b510\(k\)|\bAI\/ML(?:-[A-Za-z]+)?|[A-Z][A-Za-z0-9]*(?:[-/][A-Za-z0-9]+)+|[A-Z][A-Z0-9]{1,}|[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*|\b(?:19|20)\d{2}\b/g
+  ) || [];
+
+  const seen = new Set();
+  const phrases = [];
+  for (const t of tokens) {
+    const low = t.toLowerCase();
+    if (STOP.has(low) || seen.has(low) || t.length < 2) continue;
+    seen.add(low);
+    phrases.push(t);
+    if (phrases.length >= 5) break;
+  }
+
+  // If too few distinctive tokens (e.g. non-English title), augment with content words
+  if (phrases.length < 3) {
+    const words = cleaned.split(/\s+/).filter(w => w.length > 3 && !STOP.has(w.toLowerCase()));
+    const extras = words.slice(0, 6).filter(w => !seen.has(w.toLowerCase()));
+    return [...phrases, ...extras].slice(0, 6).join(' ');
+  }
+  return phrases.join(' ');
+}
+
+function buildGoogleQuery(item) {
+  const phrases = extractKeyPhrases(item.title);
+  // Quote multi-word phrases for stronger matching, leave acronyms bare
+  const quoted = phrases.split(/\s+(?=[A-Z])/g)
+    .map(p => p.includes(' ') ? `"${p}"` : p)
+    .join(' ');
+  const sites = '(' + OFFICIAL_DOMAINS.map(d => `site:${d}`).join(' OR ') + ')';
+  const q = `${quoted} ${sites}`;
+  return 'https://www.google.com/search?q=' + encodeURIComponent(q);
+}
+
+function openOfficialSearch(item, e) {
+  if (e) { e.stopPropagation(); e.preventDefault(); }
+  window.open(buildGoogleQuery(item), '_blank', 'noopener');
+}
+
 // ============= RENDER HELPERS =============
 function buildUpdateCard(u, i) {
   const el = document.createElement('article');
@@ -1283,20 +1494,94 @@ function buildUpdateCard(u, i) {
       <p>${u.summary}</p>
       <div class="meta">
         <span>${u.region ? u.region + ' · ' : ''}<strong>${u.src}</strong></span>
-        <span class="open-link">Open on official site ↗</span>
+        <span class="open-link">Open ↗</span>
+        <span class="search-link" data-idx="${i}">⌕ Search official sources</span>
       </div>
     </div>
     <div class="priority ${u.priority}"></div>
   `;
-  el.addEventListener('click', () => {
+  // Card click → open the source URL
+  el.addEventListener('click', (e) => {
+    // If they tapped the search link, route there instead
+    if (e.target.classList.contains('search-link')) {
+      openOfficialSearch(u, e);
+      return;
+    }
     if (u.url) window.open(u.url, '_blank', 'noopener');
   });
   return el;
 }
 
+// ============= RENDER: HERO + STATS =============
+function timeAgo(iso) {
+  if (!iso) return '';
+  const ms = Date.now() - new Date(iso).getTime();
+  const m = Math.floor(ms / 60000);
+  if (m < 60) return m + ' min ago';
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + ' hour' + (h>1?'s':'') + ' ago';
+  const d = Math.floor(h / 24);
+  if (d < 7) return d + ' day' + (d>1?'s':'') + ' ago';
+  return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+function renderHero() {
+  const heroEl = document.getElementById('hero-article');
+  const glanceEl = document.getElementById('glance-box');
+  if (!LIVE_ITEMS.length) {
+    heroEl.innerHTML = '<p style="font-family:Fraunces,serif; font-style:italic; color:#4a4339;">Awaiting feed refresh…</p>';
+    return;
+  }
+
+  // Pick the most recent high-priority item, or just the most recent
+  const sorted = [...LIVE_ITEMS].sort((a,b) => b.sortKey - a.sortKey);
+  const lead = sorted.find(u => u.priority === 'high') || sorted[0];
+
+  heroEl.innerHTML = `
+    <div class="lead-kicker">▌ ${lead.priority === 'high' ? 'Breaking' : 'Latest'} · ${lead.agency} · ${lead.region}</div>
+    <h1 class="lead-headline">${lead.title}</h1>
+    <p class="lead-deck">${lead.summary}</p>
+    <div class="lead-meta">
+      <span class="src-badge">${lead.src.toUpperCase()}</span>
+      <span><strong>Published:</strong> ${timeAgo(lead.published)}</span>
+      <span class="open-link">Open ↗</span>
+      <span class="search-link" id="hero-search">⌕ Search official sources</span>
+    </div>
+  `;
+  heroEl.onclick = (e) => {
+    if (e.target.id === 'hero-search') {
+      openOfficialSearch(lead, e);
+      return;
+    }
+    if (lead.url) window.open(lead.url, '_blank', 'noopener');
+  };
+
+  // Compute real stats from the live data
+  const now = Date.now();
+  const week = 7 * 24 * 60 * 60 * 1000;
+  const thirty = 30 * 24 * 60 * 60 * 1000;
+
+  const total = LIVE_ITEMS.length;
+  const newThisWeek = LIVE_ITEMS.filter(u => now - u.sortKey < week).length;
+  const commentsOpen = LIVE_ITEMS.filter(u => u.docType === 'comment-open' || /comment|consultation/i.test(u.title + u.summary)).length;
+  const recallsRecent = LIVE_ITEMS.filter(u => u.category === 'recall' && now - u.sortKey < thirty).length;
+  const guidanceCount = LIVE_ITEMS.filter(u => u.category === 'guidance').length;
+
+  glanceEl.innerHTML = `
+    <div class="glance-stat"><div><div class="label">Total Indexed</div><div class="val">${total}</div></div></div>
+    <div class="glance-stat"><div><div class="label">New This Week</div><div class="val">${newThisWeek}</div></div></div>
+    <div class="glance-stat"><div><div class="label">Comment Periods</div><div class="val">${commentsOpen}</div></div></div>
+    <div class="glance-stat"><div><div class="label">Recalls (30d)</div><div class="val">${recallsRecent}</div></div></div>
+    <div class="glance-stat"><div><div class="label">Guidance Docs</div><div class="val">${guidanceCount}</div></div></div>
+  `;
+}
+
 // ============= RENDER ALL =============
 function renderAll() {
   const items = LIVE_ITEMS.length ? LIVE_ITEMS : [];
+
+  // Hero + stats
+  renderHero();
 
   // DASHBOARD — top 8 newest mixed
   const dashEl = document.getElementById('updates-dashboard');

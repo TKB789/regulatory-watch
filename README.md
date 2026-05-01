@@ -98,3 +98,47 @@ regulatory-watch/
 - **Cron schedule reliability**: GitHub Actions cron is best-effort and can be delayed during high load. For critical timing, run more frequently (e.g., every 15 min) so a delay still produces fresh data.
 - **Feed availability**: Some emerging-market regulators (NMPA, CDSCO, ANVISA) don't publish RSS feeds. Adding them requires a separate scraper or paid intelligence service.
 - **Sample data**: Until the first scheduled run, `data/feed.json` ships with sample content so the dashboard renders something on day one.
+
+---
+
+## Coverage
+
+### Live RSS feeds (auto-updated every 30 min)
+
+These authorities publish public RSS/Atom feeds and update reliably:
+
+- **FDA** (US) — recalls, safety, MedWatch, press, AccessGUDID
+- **Federal Register** — FDA pre-publications
+- **MHRA** (UK) — news, drug & device alerts
+- **Health Canada** — recalls & safety alerts
+- **TGA** (Australia) — news & alerts
+- **EU Commission / EMA** — health news
+- **IMDRF** — international harmonization
+- **Saudi SFDA** — news
+
+### HTML scrapers (best-effort)
+
+For agencies without RSS, `scripts/scrape_sites.py` parses public news pages:
+
+- **PMDA** (Japan) — English medical-device safety page
+- **CDSCO** (India) — Notifications page
+- **ANVISA** (Brazil) — News page (Portuguese, prefixed `[PT]`)
+
+**Scrapers break.** Government sites change layout without warning. If a scraper returns 0 items for a week, the CSS selectors in that function probably need updating. Each scraper is isolated in its own function so one breakage doesn't take down the others.
+
+### Not yet covered (no public feed, scraping is hard)
+
+- **NMPA** (China) — Chinese-language site, anti-bot protection, JS-rendered content
+- **CDSCO** (India) — partial coverage via scraper, but PDFs hard to summarize
+- **MFDS** (South Korea) — Korean-language, JS-rendered
+- **Swissmedic** — email newsletter only
+
+For these, click through to the official site from the Agencies tab.
+
+---
+
+## Maintenance schedule
+
+- **Monthly**: spot-check that scrapers are still returning items. If any returns 0 for >1 week, update its CSS selectors.
+- **Quarterly**: check if new RSS feeds have launched at any agency. Add to `FEEDS` in `fetch_feeds.py`.
+- **As needed**: if a feed URL 404s, look for the agency's RSS subscription page (usually at `/rss`, `/news/feeds`, or in the footer).
