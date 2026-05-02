@@ -462,6 +462,7 @@
   }
   .agency-tag.fda { background: #1f4a86; }
   .agency-tag.ema { background: #00538f; }
+  .agency-tag.eu  { background: #1a4180; }
   .agency-tag.mhra { background: #6b2580; }
   .agency-tag.pmda { background: #b03838; }
   .agency-tag.hc { background: #d63d23; }
@@ -471,6 +472,7 @@
   .agency-tag.anvisa { background: #2a8a5f; }
   .agency-tag.fr { background: #3f6428; }
   .agency-tag.imdrf { background: #7a5028; }
+  .agency-tag.who { background: #008dc9; }
   .agency-tag.sfda { background: #8a2868; }
   .agency-tag.mfds { background: #28688a; }
   .upd-body h3 {
@@ -855,20 +857,26 @@
 <div class="coverage-banner">
   <span class="dot">▌</span>
   <div style="flex:1;">
-    <strong>Scope:</strong> Live updates from key regulatory markets that publish public RSS / Atom feeds — FDA, EU Commission, MHRA, Health Canada, TGA, plus the Federal Register and IMDRF.
+    <strong>Scope:</strong> Live updates from key regulatory markets that publish public RSS / Atom feeds — FDA, EU Commission, EUR-Lex, MHRA, Health Canada, TGA, plus the Federal Register, IMDRF, and WHO.
     Other markets (Japan, China, India, Brazil, S. Korea) are listed in the Agencies tab with direct links to their official sites.
     <button class="toggle" onclick="document.getElementById('cov-detail').classList.toggle('open'); this.textContent = document.getElementById('cov-detail').classList.contains('open') ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
     <div class="coverage-detail" id="cov-detail">
       <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or only manually-listed in the Agencies tab (○).</p>
       <div class="col-list">
         <ul>
-          <li class="yes"><strong>FDA</strong> — recalls, safety, MedWatch, press</li>
-          <li class="yes"><strong>Federal Register</strong> — FDA pre-publications</li>
-          <li class="yes"><strong>EMA / EU Commission</strong> — health news</li>
+          <li class="yes"><strong>FDA Medical Device Recalls</strong></li>
+          <li class="yes"><strong>FDA Medical Device Safety</strong></li>
+          <li class="yes"><strong>FDA CDRH</strong> — What's New</li>
+          <li class="yes"><strong>FDA MedWatch</strong> — safety alerts</li>
+          <li class="yes"><strong>FDA Press Announcements</strong></li>
+          <li class="yes"><strong>Federal Register</strong> — FDA pre-pubs</li>
+          <li class="yes"><strong>EU Commission</strong> — health news</li>
+          <li class="yes"><strong>EUR-Lex</strong> — EU legal acts</li>
           <li class="yes"><strong>MHRA</strong> — UK news, drug & device alerts</li>
           <li class="yes"><strong>Health Canada</strong> — recalls & safety</li>
           <li class="yes"><strong>TGA</strong> — Australia news & alerts</li>
           <li class="yes"><strong>IMDRF</strong> — international harmonization</li>
+          <li class="yes"><strong>WHO</strong> — medical product alerts</li>
         </ul>
         <ul>
           <li class="no"><strong>PMDA</strong> (Japan) — no public feed</li>
@@ -880,7 +888,7 @@
           <li class="no"><strong>SFDA</strong> (Saudi Arabia) — no usable feed</li>
         </ul>
       </div>
-      <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">For untracked authorities, use the Agencies tab to jump directly to each regulator's official page, or use "Search online for additional info" on any item.</p>
+      <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">Items are kept in an append-only archive — once indexed they remain searchable in the Archive tab even after rolling off the upstream feed.</p>
     </div>
   </div>
 </div>
