@@ -101,6 +101,68 @@
     line-height: 1.5;
   }
 
+  .lookup-date-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: end;
+    margin: 12px 0 8px;
+    padding: 10px 0;
+    border-top: 1px dotted var(--rule);
+    border-bottom: 1px dotted var(--rule);
+  }
+  .lookup-date-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .lookup-date-group label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 700;
+  }
+  .lookup-date-group input[type="date"] {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 6px 8px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+    min-width: 140px;
+  }
+  .lookup-date-group input[type="date"]:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .lookup-date-presets {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+  }
+  .lookup-preset {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .lookup-preset:hover { background: var(--ink); color: var(--paper); }
+
+  @media (max-width: 600px) {
+    .lookup-date-row { gap: 8px; }
+    .lookup-date-group input[type="date"] { min-width: 130px; }
+    .lookup-date-presets { margin-left: 0; width: 100%; }
+    .lookup-preset { flex: 1; padding: 6px 4px; font-size: 9.5px; }
+  }
+
   .lookup-status {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
@@ -1118,7 +1180,17 @@
 <nav class="tab-nav">
   <div class="tab-nav-inner" id="tab-nav-inner">
     <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
-    <!-- Source-specific tabs are inserted dynamically here based on actual feed data -->
+    <button class="tab-btn" data-tab="fda-recalls">FDA Recalls <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="fda-safety">FDA Safety <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="fda-cdrh">FDA CDRH <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="mhra">MHRA Alerts <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="eu">EU &amp; EUR-Lex <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="canada">Health Canada <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="tga">TGA <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="imdrf">IMDRF <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="who">WHO Alerts <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="federal-register">Federal Register <span class="count">0</span></button>
     <button class="tab-btn" data-tab="calendar">Calendar</button>
     <button class="tab-btn" data-tab="agencies">Agencies</button>
     <button class="tab-btn" data-tab="archive">Archive</button>
@@ -1148,8 +1220,105 @@
     <div id="updates-dashboard"></div>
   </div>
 
-  <!-- ===== SOURCE TABS (rendered dynamically based on active feeds) ===== -->
-  <div id="source-tabs"></div>
+  <!-- ===== CURATED SOURCE TABS ===== -->
+  <div class="tab-section" id="tab-fda-recalls">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>FDA <em>Recalls</em></h1>
+      <p class="desc">Class I, II, and III medical device recalls from the FDA Medical Device Recalls RSS feed.</p>
+    </div>
+    <div id="updates-fda-recalls"></div>
+  </div>
+
+  <div class="tab-section" id="tab-fda-safety">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>FDA <em>Safety</em></h1>
+      <p class="desc">FDA medical device safety communications and MedWatch alerts. Combines the device-specific safety feed with device-relevant items from MedWatch.</p>
+    </div>
+    <div id="updates-fda-safety"></div>
+  </div>
+
+  <div class="tab-section" id="tab-fda-cdrh">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>FDA <em>CDRH</em></h1>
+      <p class="desc">CDRH "What's New" feed and device-related FDA press announcements. Premarket activity, classifications, and policy updates.</p>
+    </div>
+    <div id="updates-fda-cdrh"></div>
+  </div>
+
+  <div class="tab-section" id="tab-mhra">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>MHRA <em>Alerts</em></h1>
+      <p class="desc">MHRA news, alerts, and the UK Drug &amp; Medical Device Alerts feed combined.</p>
+    </div>
+    <div id="updates-mhra"></div>
+  </div>
+
+  <div class="tab-section" id="tab-eu">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>EU &amp; <em>EUR-Lex</em></h1>
+      <p class="desc">European Commission health news and EUR-Lex regulations &amp; directives, filtered to medical devices.</p>
+    </div>
+    <div id="updates-eu"></div>
+  </div>
+
+  <div class="tab-section" id="tab-canada">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>Health <em>Canada</em></h1>
+      <p class="desc">Health Canada recalls and safety alerts for medical devices.</p>
+    </div>
+    <div id="updates-canada"></div>
+  </div>
+
+  <div class="tab-section" id="tab-tga">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>TGA <em>Australia</em></h1>
+      <p class="desc">Therapeutic Goods Administration news and alerts, filtered to medical devices.</p>
+    </div>
+    <div id="updates-tga"></div>
+  </div>
+
+  <div class="tab-section" id="tab-imdrf">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>IMDRF</h1>
+      <p class="desc">International Medical Device Regulators Forum — working groups and open consultations.</p>
+    </div>
+    <div id="updates-imdrf"></div>
+  </div>
+
+  <div class="tab-section" id="tab-who">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>WHO <em>Alerts</em></h1>
+      <p class="desc">World Health Organization medical product alerts, filtered to devices and combination products.</p>
+    </div>
+    <div id="updates-who"></div>
+  </div>
+
+  <div class="tab-section" id="tab-guidance">
+    <div class="section-header">
+      <div class="kicker">▌ Cross-Source</div>
+      <h1>Guidance <em>Documents</em></h1>
+      <p class="desc">Medical device guidance documents from across all monitored sources — FDA, MHRA, EU, IMDRF, and others. Items are detected by keywords like "guidance", "draft", "consultation", "MDCG", "technical document", etc.</p>
+    </div>
+    <div id="updates-guidance"></div>
+  </div>
+
+  <div class="tab-section" id="tab-federal-register">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>Federal <em>Register</em></h1>
+      <p class="desc">FDA documents on public inspection at the U.S. Federal Register — proposed rules, final rules, and notices.</p>
+    </div>
+    <div id="updates-federal-register"></div>
+  </div>
 
   <!-- ===== CALENDAR TAB ===== -->
   <div class="tab-section" id="tab-calendar">
@@ -1213,8 +1382,24 @@
         </div>
         <button class="lookup-go" id="lookup-go">Search</button>
       </div>
+      <div class="lookup-date-row" id="lookup-date-row">
+        <div class="lookup-date-group">
+          <label for="lookup-date-from">From</label>
+          <input type="date" id="lookup-date-from" autocomplete="off">
+        </div>
+        <div class="lookup-date-group">
+          <label for="lookup-date-to">To</label>
+          <input type="date" id="lookup-date-to" autocomplete="off">
+        </div>
+        <div class="lookup-date-presets">
+          <button class="lookup-preset" data-preset="30">Last 30d</button>
+          <button class="lookup-preset" data-preset="90">90d</button>
+          <button class="lookup-preset" data-preset="365">1yr</button>
+          <button class="lookup-preset" data-preset="0">Clear</button>
+        </div>
+      </div>
       <div class="lookup-hint" id="lookup-hint">
-        Tip: Enter a 510(k) number (K123456), PMA number (P123456), manufacturer, device name, or product code (3 letters). Press Enter or tap Search.
+        Tip: Enter a 510(k) number (K123456), PMA number (P123456), manufacturer, device name, or product code (3 letters). Date range is optional. Press Enter or tap Search.
       </div>
     </div>
 
@@ -1859,87 +2044,75 @@ function renderHero() {
   `;
 }
 
-// ============= RENDER SOURCE TABS (dynamic) =============
-// Groups items by feed_id, creates a tab button + section for each non-empty source.
-// Tabs appear in the order they were first seen (which mirrors FEED order in the script).
-function renderSourceTabs(items) {
-  const navInner = document.getElementById('tab-nav-inner');
-  const sectionsContainer = document.getElementById('source-tabs');
-  if (!navInner || !sectionsContainer) return;
+// ============= RENDER CURATED SOURCE TABS =============
+// Each tab pulls items from a known set of feed_ids. Tabs always exist; if a
+// tab has no items, it shows the empty-state agency-fallback panel.
 
-  // Remember which source tab was active (if any) before we tear down
-  const activeBtn = navInner.querySelector('.tab-btn.active[data-source-tab]');
-  const activeFeedId = activeBtn ? activeBtn.dataset.sourceTab : null;
+const TAB_SOURCES = {
+  'fda-recalls':      { feed_ids: ['fda-recalls'],                category: 'recall' },
+  'fda-safety':       { feed_ids: ['fda-safety', 'fda-medwatch'], category: 'postmarket' },
+  'fda-cdrh':         { feed_ids: ['fda-cdrh', 'fda-press'],      category: 'premarket' },
+  'mhra':             { feed_ids: ['mhra-news', 'uk-alerts'],     category: 'recall' },
+  'eu':               { feed_ids: ['eu-health', 'eur-lex'],       category: 'guidance' },
+  'canada':           { feed_ids: ['hc-recalls'],                 category: 'recall' },
+  'tga':              { feed_ids: ['tga-news'],                   category: 'postmarket' },
+  'imdrf':            { feed_ids: ['imdrf-wg', 'imdrf-consult'],  category: 'guidance' },
+  'who':              { feed_ids: ['who-alerts'],                 category: 'recall' },
+  'federal-register': { feed_ids: ['federal-register'],           category: 'prepub' },
+};
 
-  // Remove any previously-injected source tabs and sections
-  navInner.querySelectorAll('.tab-btn[data-source-tab]').forEach(b => b.remove());
-  sectionsContainer.innerHTML = '';
+// Keywords that mark an item as a guidance document, regardless of source.
+const GUIDANCE_KEYWORDS = [
+  'guidance', 'draft guidance', 'final guidance', 'consultation',
+  'mdcg', 'technical document', 'standards', 'best practice',
+  'recommendation', 'imdrf document', 'reflection paper',
+  'q&a', 'questions and answers', 'guideline',
+];
 
-  // Group by feed_id, preserving the order in which feed_ids first appear
-  const groups = new Map();
-  for (const it of items) {
-    const fid = it.feed_id || 'unknown';
-    if (!groups.has(fid)) groups.set(fid, { label: it.feed_label || it.src || fid, items: [] });
-    groups.get(fid).items.push(it);
-  }
+function isGuidanceItem(item) {
+  const text = ((item.title || '') + ' ' + (item.summary || '')).toLowerCase();
+  return GUIDANCE_KEYWORDS.some(k => text.includes(k));
+}
 
-  // Insertion point: before the Calendar tab
-  const calendarTab = navInner.querySelector('.tab-btn[data-tab="calendar"]');
+function renderCuratedTabs(items) {
+  // Render each fixed source tab
+  for (const [tabId, cfg] of Object.entries(TAB_SOURCES)) {
+    const target = document.getElementById('updates-' + tabId);
+    if (!target) continue;
+    target.innerHTML = '';
 
-  // Build tabs and sections in feed order
-  for (const [feedId, group] of groups) {
-    if (!group.items.length) continue;
+    const filtered = items
+      .filter(u => cfg.feed_ids.includes(u.feed_id))
+      .sort((a, b) => b.sortKey - a.sortKey);
 
-    // Tab button
-    const btn = document.createElement('button');
-    btn.className = 'tab-btn';
-    btn.dataset.tab = 'source-' + feedId;
-    btn.dataset.sourceTab = feedId;
-    btn.innerHTML = `${escapeHtml(group.label)} <span class="count">${group.items.length}</span>`;
-    btn.addEventListener('click', () => switchTab(btn));
-    navInner.insertBefore(btn, calendarTab);
+    // Update tab count
+    const countEl = document.querySelector(`.tab-btn[data-tab="${tabId}"] .count`);
+    if (countEl) countEl.textContent = filtered.length;
 
-    // Tab section
-    const section = document.createElement('div');
-    section.className = 'tab-section';
-    section.id = 'tab-source-' + feedId;
-    section.innerHTML = `
-      <div class="section-header">
-        <div class="kicker">▌ Source</div>
-        <h1>${escapeHtml(group.label)}</h1>
-        <p class="desc">Items from this RSS source, newest first.</p>
-      </div>
-      <div id="updates-source-${feedId}"></div>
-    `;
-    sectionsContainer.appendChild(section);
-
-    // If this was the active tab before, restore it
-    if (activeFeedId === feedId) {
-      btn.classList.add('active');
-      section.classList.add('active');
+    if (!filtered.length) {
+      target.innerHTML = buildEmptyState(cfg.category);
+    } else {
+      filtered.forEach((u, i) => target.appendChild(buildUpdateCard(u, i)));
     }
-
-    // Items
-    const target = section.querySelector(`#updates-source-${feedId}`);
-    group.items
-      .sort((a, b) => b.sortKey - a.sortKey)
-      .forEach((u, i) => target.appendChild(buildUpdateCard(u, i)));
   }
-}
 
-function escapeHtml(str) {
-  return (str || '').toString()
-    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-}
+  // Guidance Docs — cross-source, keyword-detected
+  const guidanceTarget = document.getElementById('updates-guidance');
+  if (guidanceTarget) {
+    guidanceTarget.innerHTML = '';
+    const guidanceItems = items
+      .filter(isGuidanceItem)
+      .sort((a, b) => b.sortKey - a.sortKey);
 
-function switchTab(btn) {
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  const tab = btn.dataset.tab;
-  document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
-  const target = document.getElementById('tab-' + tab);
-  if (target) target.classList.add('active');
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+    const countEl = document.querySelector('.tab-btn[data-tab="guidance"] .count');
+    if (countEl) countEl.textContent = guidanceItems.length;
+
+    if (!guidanceItems.length) {
+      guidanceTarget.innerHTML = buildEmptyState('guidance');
+    } else {
+      guidanceItems.forEach((u, i) => guidanceTarget.appendChild(buildUpdateCard(u, i)));
+    }
+  }
 }
 
 // ============= RENDER ALL =============
@@ -1956,9 +2129,8 @@ function renderAll() {
     dashEl.appendChild(buildUpdateCard(u, i));
   });
 
-  // SOURCE-SPECIFIC TABS
-  // Group all items by their feed_id, build a tab + section for each non-empty group.
-  renderSourceTabs(items);
+  // CURATED SOURCE TABS — fixed set, populated from feed_id
+  renderCuratedTabs(items);
 
   // ARCHIVE — everything
   const archiveEl = document.getElementById('updates-archive');
@@ -2200,6 +2372,7 @@ const FDA_ENDPOINTS = {
     label: '510(k) Clearance',
     numField: 'k_number',
     titleField: 'device_name',
+    dateField: 'decision_date',
     fields: [
       ['k_number', '510(k) #'],
       ['decision_date', 'Decision Date'],
@@ -2215,6 +2388,7 @@ const FDA_ENDPOINTS = {
     label: 'PMA Approval',
     numField: 'pma_number',
     titleField: 'trade_name',
+    dateField: 'decision_date',
     fields: [
       ['pma_number', 'PMA #'],
       ['decision_date', 'Decision Date'],
@@ -2230,6 +2404,7 @@ const FDA_ENDPOINTS = {
     label: 'Recall',
     numField: 'cfres_id',
     titleField: 'product_description',
+    dateField: 'event_date_initiated',
     fields: [
       ['recall_number', 'Recall #'],
       ['event_date_initiated', 'Initiated'],
@@ -2245,6 +2420,7 @@ const FDA_ENDPOINTS = {
     label: 'Adverse Event (MAUDE)',
     numField: 'mdr_report_key',
     titleField: 'device.0.brand_name',
+    dateField: 'date_received',
     fields: [
       ['mdr_report_key', 'MDR Report'],
       ['date_received', 'Received'],
@@ -2260,6 +2436,7 @@ const FDA_ENDPOINTS = {
     label: 'Device Classification',
     numField: 'product_code',
     titleField: 'device_name',
+    dateField: null, // classifications don't have a useful date filter
     fields: [
       ['product_code', 'Product Code'],
       ['device_class', 'Class'],
@@ -2319,19 +2496,50 @@ function buildFdaQuery(endpoint, raw) {
   }
 }
 
+// Convert YYYY-MM-DD (HTML date input) to YYYYMMDD (openFDA format)
+function fdaDate(yyyymmdd) {
+  return (yyyymmdd || '').replace(/-/g, '');
+}
+
+// Build the date-range portion of the query. Returns '' if not applicable.
+function buildDateClause(endpoint) {
+  const cfg = FDA_ENDPOINTS[endpoint];
+  if (!cfg.dateField) return '';
+  const from = fdaDate(document.getElementById('lookup-date-from').value);
+  const to   = fdaDate(document.getElementById('lookup-date-to').value);
+  if (!from && !to) return '';
+  // openFDA expects YYYYMMDD on both sides; use wide-open bounds when one side is missing
+  const lo = from || '19700101';
+  const hi = to   || '20991231';
+  return `${cfg.dateField}:[${lo}+TO+${hi}]`;
+}
+
 async function runFdaLookup() {
   const input = document.getElementById('lookup-input').value.trim();
   const resultsEl = document.getElementById('lookup-results');
   const goBtn = document.getElementById('lookup-go');
 
-  if (!input) {
-    resultsEl.innerHTML = '<div class="lookup-empty">Enter a search term above to query openFDA.</div>';
+  const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
+  const textClause = buildFdaQuery(currentLookupEndpoint, input);
+  const dateClause = buildDateClause(currentLookupEndpoint);
+
+  // Need at least one of the two
+  if (!textClause && !dateClause) {
+    resultsEl.innerHTML = '<div class="lookup-empty">Enter a search term or pick a date range above to query openFDA.</div>';
     return;
   }
 
-  const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
-  const search = buildFdaQuery(currentLookupEndpoint, input);
-  const url = `${cfg.url}?search=${search}&limit=25`;
+  // Combine clauses with AND
+  let search = '';
+  if (textClause && dateClause) {
+    search = `${textClause}+AND+${dateClause}`;
+  } else {
+    search = textClause || dateClause;
+  }
+
+  // openFDA "sort by date desc" — only valid when the endpoint has a date field
+  const sortParam = cfg.dateField ? `&sort=${cfg.dateField}:desc` : '';
+  const url = `${cfg.url}?search=${search}&limit=25${sortParam}`;
 
   goBtn.disabled = true;
   resultsEl.innerHTML = '<div class="lookup-status">Querying openFDA…</div>';
@@ -2408,6 +2616,43 @@ document.querySelectorAll('.lookup-endpoint').forEach(btn => {
       'classification': 'e.g. cardiac monitor, MNH (product code)',
     };
     document.getElementById('lookup-input').placeholder = hints[currentLookupEndpoint] || '';
+
+    // Enable / disable date range based on endpoint support
+    const dateRow = document.getElementById('lookup-date-row');
+    const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
+    if (cfg && cfg.dateField) {
+      dateRow.style.opacity = '1';
+      dateRow.style.pointerEvents = 'auto';
+      dateRow.querySelectorAll('input, button').forEach(el => el.disabled = false);
+    } else {
+      dateRow.style.opacity = '0.4';
+      dateRow.style.pointerEvents = 'none';
+      dateRow.querySelectorAll('input, button').forEach(el => el.disabled = true);
+      // Clear any existing dates so they don't apply on next search
+      document.getElementById('lookup-date-from').value = '';
+      document.getElementById('lookup-date-to').value = '';
+    }
+  });
+});
+
+// Wire up date preset buttons
+document.querySelectorAll('.lookup-preset').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    const days = parseInt(btn.dataset.preset, 10);
+    const fromEl = document.getElementById('lookup-date-from');
+    const toEl   = document.getElementById('lookup-date-to');
+    if (days === 0) {
+      fromEl.value = '';
+      toEl.value = '';
+      return;
+    }
+    const today = new Date();
+    const from = new Date();
+    from.setDate(today.getDate() - days);
+    const fmt = (d) => d.toISOString().slice(0, 10); // YYYY-MM-DD
+    fromEl.value = fmt(from);
+    toEl.value   = fmt(today);
   });
 });
 
@@ -2415,6 +2660,11 @@ document.querySelectorAll('.lookup-endpoint').forEach(btn => {
 document.getElementById('lookup-go').addEventListener('click', runFdaLookup);
 document.getElementById('lookup-input').addEventListener('keydown', e => {
   if (e.key === 'Enter') { e.preventDefault(); runFdaLookup(); }
+});
+document.querySelectorAll('#lookup-date-from, #lookup-date-to').forEach(el => {
+  el.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); runFdaLookup(); }
+  });
 });
 
 // ============= BOOTSTRAP =============
