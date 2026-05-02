@@ -51,18 +51,27 @@ FEEDS = [
     {
         "agency": "FDA",
         "region": "United States",
+        "category": "premarket",
+        "name": "FDA CDRH — What's New",
+        # Device-specific feed; lower noise than press releases.
+        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medical-devices/rss.xml",
+    },
+    # --- US FDA: broader feeds (filtered to device topics) ---
+    {
+        "agency": "FDA",
+        "region": "United States",
         "category": "recall",
         "name": "FDA MedWatch Safety Alerts",
-        # MedWatch covers all human medical products (devices, drugs, biologics)
         "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
+        "filter_to_devices": True,
     },
-    # --- US FDA: broader feeds (filtered to device topics by keyword) ---
     {
         "agency": "FDA",
         "region": "United States",
         "category": "guidance",
         "name": "FDA Press Announcements",
         "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
+        "filter_to_devices": True,
     },
     # --- Federal Register (pre-publication / proposed rules) ---
     {
@@ -71,8 +80,9 @@ FEEDS = [
         "category": "prepub",
         "name": "Federal Register — FDA documents",
         "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions[agencies][]=food-and-drug-administration&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[type][]=NOTICE",
+        "filter_to_devices": True,
     },
-    # --- IMDRF: international harmonization (covers all major regulators) ---
+    # --- IMDRF: international harmonization ---
     {
         "agency": "IMDRF",
         "region": "International",
@@ -87,6 +97,15 @@ FEEDS = [
         "name": "IMDRF Consultations",
         "url": "https://www.imdrf.org/consultations.xml",
     },
+    # --- WHO: international safety alerts ---
+    {
+        "agency": "WHO",
+        "region": "International",
+        "category": "recall",
+        "name": "WHO Medical Product Alerts",
+        "url": "https://www.who.int/rss-feeds/medical-product-alerts-en.xml",
+        "filter_to_devices": True,
+    },
     # --- MHRA (UK) ---
     {
         "agency": "MHRA",
@@ -94,6 +113,7 @@ FEEDS = [
         "category": "postmarket",
         "name": "MHRA news & alerts",
         "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom",
+        "filter_to_devices": True,
     },
     {
         "agency": "MHRA",
@@ -101,6 +121,7 @@ FEEDS = [
         "category": "recall",
         "name": "UK Drug & Medical Device Alerts",
         "url": "https://www.gov.uk/drug-device-alerts.atom",
+        "filter_to_devices": True,
     },
     # --- Health Canada ---
     {
@@ -109,6 +130,7 @@ FEEDS = [
         "category": "recall",
         "name": "Health Canada recalls & safety alerts",
         "url": "https://recalls-rappels.canada.ca/en/rss.xml",
+        "filter_to_devices": True,
     },
     # --- TGA (Australia) ---
     {
@@ -117,6 +139,7 @@ FEEDS = [
         "category": "postmarket",
         "name": "TGA news & alerts",
         "url": "https://www.tga.gov.au/rss.xml",
+        "filter_to_devices": True,
     },
     # --- European Commission — public health ---
     {
@@ -125,34 +148,74 @@ FEEDS = [
         "category": "guidance",
         "name": "European Commission — Health news",
         "url": "https://health.ec.europa.eu/rss_en",
+        "filter_to_devices": True,
+    },
+    # --- EU OJEU L series (legal acts) ---
+    {
+        "agency": "EU",
+        "region": "European Union",
+        "category": "prepub",
+        "name": "EUR-Lex — Recent regulations & directives",
+        "url": "https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-recent",
+        "filter_to_devices": True,
     },
 ]
 
-# Keywords that suggest a Federal Register / news item is medical-device-related.
 # Used to filter out drug-only or food-only items from broad feeds.
 DEVICE_KEYWORDS = [
     "device", "devices", "510(k)", "510k", "pma", "de novo", "udi", "ivd",
-    "diagnostic", "implant", "cdrh", "mdr", "ivdr", "mdcg",
-    "premarket", "post-market", "postmarket", "recall", "recalls",
+    "diagnostic", "diagnostics", "implant", "implantable", "cdrh",
+    "mdr", "ivdr", "mdcg", "premarket", "post-market", "postmarket",
     "vigilance", "psur", "estar", "notified body", "samd",
     "software as a medical", "ai/ml", "cybersecurity", "biocompatibility",
-    "sterilization", "in vitro", "instrument", "scanner", "monitor",
-    "pacemaker", "stent", "catheter", "surgical", "medtech",
+    "sterilization", "in vitro", "scanner", "pacemaker", "stent", "catheter",
+    "surgical", "medtech", "medical equipment", "medical product",
+    "infusion pump", "ventilator", "endoscope", "defibrillator",
+    "patient monitor", "imaging", "mri", "ct scan", "ultrasound",
+    "wearable", "digital health", "remote monitoring",
+    "combination product", "device-led",
+    # Recalls/alerts often use these without the word "device"
+    "recall", "field action", "fsca", "fsn", "safety communication",
+    "safety alert", "safety notice", "safety information",
 ]
 
-# How many items per feed (most recent)
-MAX_ITEMS_PER_FEED = 15
-
-# Total items in the consolidated output
-MAX_TOTAL_ITEMS = 200
-
-# ---------------------------------------------------------------------------
+# Items containing ANY of these are dropped — they're drugs/biologics/food
+# and not relevant even if they happen to contain a device keyword.
+DRUG_ONLY_KEYWORDS = [
+    "vaccine", "vaccines", "immunization",
+    "investigational new drug", " ind ",
+    "biologics license", "biologic application",
+    "drug shortage", "drug application", "drug approval",
+    "approves new drug", "approves first-in-class", "approves treatment for",
+    "tablet", "capsule", "injection of", "infusion of",
+    "pediatric drug", "drug-resistant",
+    "tobacco", "cigar", "vaping",
+    "food safety", "foodborne",
+    "dietary supplement", "infant formula",
+    "veterinary", "animal drug",
+]
 
 
 def is_device_related(text: str) -> bool:
-    """Return True if the text looks medical-device related."""
+    """True if text mentions a device topic AND isn't a drug/food/tobacco item."""
     t = (text or "").lower()
-    return any(k in t for k in DEVICE_KEYWORDS)
+    if not any(k in t for k in DEVICE_KEYWORDS):
+        return False
+    # Even if it has a device keyword, drop if it's clearly drug-focused
+    if any(k in t for k in DRUG_ONLY_KEYWORDS):
+        # ...unless it's specifically a combination product (drug-device)
+        if "combination product" in t or "device-led combination" in t:
+            return True
+        return False
+    return True
+
+# How many items per feed (most recent)
+MAX_ITEMS_PER_FEED = 25
+
+# Total items in the consolidated archive (oldest beyond this are dropped)
+MAX_TOTAL_ITEMS = 1000
+
+# ---------------------------------------------------------------------------
 
 
 def parse_date(entry) -> str:
@@ -197,16 +260,16 @@ def fetch_one(feed_cfg: dict) -> dict:
             return {"items": [], "status": "error", "reason": reason}
 
         total_entries = len(parsed.entries)
+        filter_devices = feed_cfg.get("filter_to_devices", False)
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = clean_html(entry.get("title", ""))
             summary = clean_html(entry.get("summary", entry.get("description", "")))
             link = entry.get("link", "")
             full_text = f"{title} {summary}"
 
-            # For broad feeds (Federal Register, MHRA news), filter to device topics.
-            if feed_cfg["agency"] in ("FR", "MHRA", "TGA", "EMA"):
-                if not is_device_related(full_text):
-                    continue
+            # Apply device-keyword filter to feeds marked filter_to_devices=True
+            if filter_devices and not is_device_related(full_text):
+                continue
 
             items.append({
                 "title": title,
@@ -234,13 +297,13 @@ def fetch_one(feed_cfg: dict) -> dict:
 
 def main():
     print(f"Fetching {len(FEEDS)} feed(s)…", flush=True)
-    all_items = []
-    failed_feeds = []  # feeds that errored
-    empty_feeds = []   # feeds that returned no device-relevant items (not an error)
+    new_items = []
+    failed_feeds = []
+    empty_feeds = []
     for cfg in FEEDS:
         try:
             result = fetch_one(cfg)
-            all_items.extend(result["items"])
+            new_items.extend(result["items"])
             if result["status"] == "error":
                 failed_feeds.append({"name": cfg["name"], "reason": result["reason"]})
             elif result["status"] == "empty":
@@ -248,27 +311,64 @@ def main():
         except Exception as e:
             print(f"    ✗ unhandled exception in {cfg['name']}: {e}", flush=True)
             failed_feeds.append({"name": cfg["name"], "reason": str(e)[:120]})
-        time.sleep(0.5)  # be polite
-
-    # Sort newest first, cap total
-    all_items.sort(key=lambda x: x["published"], reverse=True)
-    all_items = all_items[:MAX_TOTAL_ITEMS]
+        time.sleep(0.5)
 
     out_path = Path(__file__).parent.parent / "data" / "feed.json"
     out_path.parent.mkdir(exist_ok=True)
 
-    if not all_items and out_path.exists():
+    # ----- APPEND-ONLY ARCHIVE: merge with existing items -----
+    existing_items = []
+    if out_path.exists():
+        try:
+            existing = json.loads(out_path.read_text(encoding="utf-8"))
+            existing_items = existing.get("items", [])
+            print(f"\nLoaded {len(existing_items)} existing item(s) from feed.json", flush=True)
+        except Exception as e:
+            print(f"\n⚠ Could not read existing feed.json ({e}); starting fresh.", flush=True)
+
+    # De-dupe by link (or by title if no link). New items take precedence
+    # so we pick up any updated summaries/titles from the upstream feed.
+    seen = {}
+    def key(item):
+        return (item.get("link") or item.get("title") or "").strip().lower()
+
+    # Add NEW items first so they overwrite old versions of the same URL
+    for item in new_items:
+        k = key(item)
+        if k:
+            seen[k] = item
+    # Then add existing items only if their key isn't already present
+    new_count = 0
+    for item in existing_items:
+        k = key(item)
+        if k and k not in seen:
+            seen[k] = item
+        elif k in seen and item not in new_items:
+            # this URL was in the existing archive
+            pass
+    # Count truly new additions
+    existing_keys = {key(i) for i in existing_items if key(i)}
+    new_count = sum(1 for k in seen if k not in existing_keys)
+
+    all_items = list(seen.values())
+
+    # Sort newest first, cap total
+    all_items.sort(key=lambda x: x.get("published") or "", reverse=True)
+    if len(all_items) > MAX_TOTAL_ITEMS:
+        all_items = all_items[:MAX_TOTAL_ITEMS]
+
+    if not new_items and existing_items:
         print(
-            f"\n⚠ All {len(FEEDS)} feeds returned 0 items. "
-            f"Preserving existing feed.json. Failed: {[f['name'] for f in failed_feeds]}",
+            f"\n⚠ All {len(FEEDS)} feeds returned 0 items this run. "
+            f"Keeping {len(existing_items)} archived item(s).",
             flush=True,
         )
-        return
 
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "item_count": len(all_items),
         "feed_count": len(FEEDS),
+        "new_this_run": new_count,
         "failed_feeds": failed_feeds,
         "empty_feeds": empty_feeds,
         "items": all_items,
@@ -277,7 +377,9 @@ def main():
     out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     print(
         f"\nWrote {len(all_items)} item(s) → {out_path} "
-        f"({len(failed_feeds)} feed(s) errored, {len(empty_feeds)} returned no device-relevant items)",
+        f"({new_count} new, "
+        f"{len(failed_feeds)} feed(s) errored, "
+        f"{len(empty_feeds)} empty)",
         flush=True,
     )
 
