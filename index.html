@@ -1116,13 +1116,9 @@
 
 <!-- TAB NAV -->
 <nav class="tab-nav">
-  <div class="tab-nav-inner">
+  <div class="tab-nav-inner" id="tab-nav-inner">
     <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
-    <button class="tab-btn" data-tab="premarket">Pre-Market <span class="count">14</span></button>
-    <button class="tab-btn" data-tab="postmarket">Post-Market <span class="count">11</span></button>
-    <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">8</span></button>
-    <button class="tab-btn" data-tab="prepub">Pre-Publication <span class="count">5</span></button>
-    <button class="tab-btn" data-tab="recalls">Recalls <span class="count">6</span></button>
+    <!-- Source-specific tabs are inserted dynamically here based on actual feed data -->
     <button class="tab-btn" data-tab="calendar">Calendar</button>
     <button class="tab-btn" data-tab="agencies">Agencies</button>
     <button class="tab-btn" data-tab="archive">Archive</button>
@@ -1152,78 +1148,8 @@
     <div id="updates-dashboard"></div>
   </div>
 
-  <!-- ===== PRE-MARKET TAB ===== -->
-  <div class="tab-section" id="tab-premarket">
-    <div class="section-header">
-      <div class="kicker">▌ Category</div>
-      <h1>Pre-<em>Market</em></h1>
-      <p class="desc">Submissions, clearances, classifications, and pre-submission activity. Includes 510(k), De Novo, PMA, IDE, EU Notified Body designations, and pre-market classification updates across all monitored agencies.</p>
-    </div>
-    <div class="controls">
-      <button class="filter-btn active" data-filter="all" data-scope="premarket">All</button>
-      <button class="filter-btn" data-filter="fda" data-scope="premarket">FDA</button>
-      <button class="filter-btn" data-filter="ema" data-scope="premarket">EMA / EU</button>
-      <button class="filter-btn" data-filter="mhra" data-scope="premarket">MHRA</button>
-      <button class="filter-btn" data-filter="pmda" data-scope="premarket">PMDA</button>
-      <button class="filter-btn" data-filter="nmpa" data-scope="premarket">NMPA</button>
-      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Filter…" data-search="premarket"></div>
-    </div>
-    <div id="updates-premarket"></div>
-  </div>
-
-  <!-- ===== POST-MARKET TAB ===== -->
-  <div class="tab-section" id="tab-postmarket">
-    <div class="section-header">
-      <div class="kicker">▌ Category</div>
-      <h1>Post-<em>Market</em></h1>
-      <p class="desc">Surveillance, vigilance, PSURs, periodic safety reports, and field safety actions. Covers MDR Article 87, FDA MDR/eMDR, MHRA PMS regulations, EU vigilance, and equivalent reporting frameworks worldwide.</p>
-    </div>
-    <div class="controls">
-      <button class="filter-btn active" data-filter="all" data-scope="postmarket">All</button>
-      <button class="filter-btn" data-filter="fda" data-scope="postmarket">FDA</button>
-      <button class="filter-btn" data-filter="ema" data-scope="postmarket">EMA / EU</button>
-      <button class="filter-btn" data-filter="mhra" data-scope="postmarket">MHRA</button>
-      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Filter…" data-search="postmarket"></div>
-    </div>
-    <div id="updates-postmarket"></div>
-  </div>
-
-  <!-- ===== GUIDANCE TAB ===== -->
-  <div class="tab-section" id="tab-guidance">
-    <div class="section-header">
-      <div class="kicker">▌ Category</div>
-      <h1><em>Guidance</em> Documents</h1>
-      <p class="desc">Draft and final guidance documents, technical standards adoptions, MDCG papers, and equivalent regulatory interpretive guidance from all monitored authorities. Includes open comment periods and recently finalized policies.</p>
-    </div>
-    <div class="controls">
-      <button class="filter-btn active" data-filter="all" data-scope="guidance">All</button>
-      <button class="filter-btn" data-filter="draft" data-scope="guidance">Draft</button>
-      <button class="filter-btn" data-filter="final" data-scope="guidance">Final</button>
-      <button class="filter-btn" data-filter="comment-open" data-scope="guidance">Comments Open</button>
-      <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Filter…" data-search="guidance"></div>
-    </div>
-    <div id="updates-guidance"></div>
-  </div>
-
-  <!-- ===== PRE-PUBLICATION TAB ===== -->
-  <div class="tab-section" id="tab-prepub">
-    <div class="section-header">
-      <div class="kicker">▌ Early-Warning</div>
-      <h1>Pre-<em>Publication</em></h1>
-      <p class="desc">Documents on public inspection at the Federal Register, OJEU forthcoming items, and draft instruments not yet officially published. These are the leading indicators — what's coming before it formally appears.</p>
-    </div>
-    <div id="prepub-full"></div>
-  </div>
-
-  <!-- ===== RECALLS TAB ===== -->
-  <div class="tab-section" id="tab-recalls">
-    <div class="section-header">
-      <div class="kicker">▌ Safety</div>
-      <h1>Recalls & <em>Safety Comms</em></h1>
-      <p class="desc">Active Class I, II, and III recalls plus safety communications, field corrective actions, and Dear Doctor letters from FDA, MHRA, EU vigilance, and global regulators.</p>
-    </div>
-    <div class="recall-grid" id="recalls-full"></div>
-  </div>
+  <!-- ===== SOURCE TABS (rendered dynamically based on active feeds) ===== -->
+  <div id="source-tabs"></div>
 
   <!-- ===== CALENDAR TAB ===== -->
   <div class="tab-section" id="tab-calendar">
@@ -1933,6 +1859,89 @@ function renderHero() {
   `;
 }
 
+// ============= RENDER SOURCE TABS (dynamic) =============
+// Groups items by feed_id, creates a tab button + section for each non-empty source.
+// Tabs appear in the order they were first seen (which mirrors FEED order in the script).
+function renderSourceTabs(items) {
+  const navInner = document.getElementById('tab-nav-inner');
+  const sectionsContainer = document.getElementById('source-tabs');
+  if (!navInner || !sectionsContainer) return;
+
+  // Remember which source tab was active (if any) before we tear down
+  const activeBtn = navInner.querySelector('.tab-btn.active[data-source-tab]');
+  const activeFeedId = activeBtn ? activeBtn.dataset.sourceTab : null;
+
+  // Remove any previously-injected source tabs and sections
+  navInner.querySelectorAll('.tab-btn[data-source-tab]').forEach(b => b.remove());
+  sectionsContainer.innerHTML = '';
+
+  // Group by feed_id, preserving the order in which feed_ids first appear
+  const groups = new Map();
+  for (const it of items) {
+    const fid = it.feed_id || 'unknown';
+    if (!groups.has(fid)) groups.set(fid, { label: it.feed_label || it.src || fid, items: [] });
+    groups.get(fid).items.push(it);
+  }
+
+  // Insertion point: before the Calendar tab
+  const calendarTab = navInner.querySelector('.tab-btn[data-tab="calendar"]');
+
+  // Build tabs and sections in feed order
+  for (const [feedId, group] of groups) {
+    if (!group.items.length) continue;
+
+    // Tab button
+    const btn = document.createElement('button');
+    btn.className = 'tab-btn';
+    btn.dataset.tab = 'source-' + feedId;
+    btn.dataset.sourceTab = feedId;
+    btn.innerHTML = `${escapeHtml(group.label)} <span class="count">${group.items.length}</span>`;
+    btn.addEventListener('click', () => switchTab(btn));
+    navInner.insertBefore(btn, calendarTab);
+
+    // Tab section
+    const section = document.createElement('div');
+    section.className = 'tab-section';
+    section.id = 'tab-source-' + feedId;
+    section.innerHTML = `
+      <div class="section-header">
+        <div class="kicker">▌ Source</div>
+        <h1>${escapeHtml(group.label)}</h1>
+        <p class="desc">Items from this RSS source, newest first.</p>
+      </div>
+      <div id="updates-source-${feedId}"></div>
+    `;
+    sectionsContainer.appendChild(section);
+
+    // If this was the active tab before, restore it
+    if (activeFeedId === feedId) {
+      btn.classList.add('active');
+      section.classList.add('active');
+    }
+
+    // Items
+    const target = section.querySelector(`#updates-source-${feedId}`);
+    group.items
+      .sort((a, b) => b.sortKey - a.sortKey)
+      .forEach((u, i) => target.appendChild(buildUpdateCard(u, i)));
+  }
+}
+
+function escapeHtml(str) {
+  return (str || '').toString()
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function switchTab(btn) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const tab = btn.dataset.tab;
+  document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+  const target = document.getElementById('tab-' + tab);
+  if (target) target.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 // ============= RENDER ALL =============
 function renderAll() {
   const items = LIVE_ITEMS.length ? LIVE_ITEMS : [];
@@ -1947,76 +1956,9 @@ function renderAll() {
     dashEl.appendChild(buildUpdateCard(u, i));
   });
 
-  // CATEGORIES
-  ['premarket', 'postmarket', 'guidance'].forEach(cat => {
-    const container = document.getElementById('updates-' + cat);
-    container.innerHTML = '';
-    const filtered = items.filter(u => u.category === cat).sort((a,b) => b.sortKey - a.sortKey);
-    if (!filtered.length) {
-      container.innerHTML = buildEmptyState(cat);
-    } else {
-      filtered.forEach((u,i) => container.appendChild(buildUpdateCard(u, i)));
-    }
-    // Update tab count
-    const btn = document.querySelector(`.tab-btn[data-tab="${cat}"] .count`);
-    if (btn) btn.textContent = filtered.length;
-  });
-
-  // PRE-PUB — items with category 'prepub' from live data
-  const prepubEl = document.getElementById('prepub-full');
-  prepubEl.innerHTML = '';
-  const prepubItems = items.filter(u => u.category === 'prepub').sort((a,b) => b.sortKey - a.sortKey);
-  if (!prepubItems.length) {
-    prepubEl.innerHTML = buildEmptyState('prepub');
-  } else {
-    prepubItems.forEach(p => {
-      const el = document.createElement('div');
-      el.className = 'prepub-item';
-      el.style.cursor = 'pointer';
-      el.innerHTML = `
-        <div class="pp-tag">${p.agency} · Pre-Publication</div>
-        <h4>${p.title}</h4>
-        <p style="font-family:'Fraunces',serif; font-size:14px; line-height:1.5; color:#1a1612; margin:6px 0 8px; max-width:640px;">${p.summary}</p>
-        <div class="pp-meta">${p.fullDate} · <span class="pp-eff">${p.src}</span></div>
-      `;
-      el.addEventListener('click', () => {
-        if (p.url) window.open(p.url, '_blank', 'noopener');
-      });
-      prepubEl.appendChild(el);
-    });
-  }
-  const prepubCountBtn = document.querySelector('.tab-btn[data-tab="prepub"] .count');
-  if (prepubCountBtn) prepubCountBtn.textContent = prepubItems.length;
-
-  // RECALLS
-  const recallEl = document.getElementById('recalls-full');
-  recallEl.innerHTML = '';
-  const recallItems = items.filter(u => u.category === 'recall').sort((a,b) => b.sortKey - a.sortKey);
-  if (!recallItems.length) {
-    recallEl.innerHTML = buildEmptyState('recall');
-  } else {
-    recallItems.forEach(r => {
-      const t = (r.title + ' ' + r.summary).toLowerCase();
-      const cls = t.includes('class i ') || t.includes('death') ? 'class-i' :
-                  t.includes('class ii') ? 'class-ii' : 'class-iii';
-      const label = cls === 'class-i' ? 'Class I Recall' : cls === 'class-ii' ? 'Class II Recall' : 'Class III Recall';
-      const el = document.createElement('div');
-      el.className = `recall-card ${cls}`;
-      el.style.cursor = 'pointer';
-      el.innerHTML = `
-        <div class="recall-class">▌ ${label.toUpperCase()}</div>
-        <h4>${r.title}</h4>
-        <p>${r.summary}</p>
-        <div class="recall-meta">${r.agency} · ${r.fullDate}</div>
-      `;
-      el.addEventListener('click', () => {
-        if (r.url) window.open(r.url, '_blank', 'noopener');
-      });
-      recallEl.appendChild(el);
-    });
-  }
-  const recallCountBtn = document.querySelector('.tab-btn[data-tab="recalls"] .count');
-  if (recallCountBtn) recallCountBtn.textContent = recallItems.length;
+  // SOURCE-SPECIFIC TABS
+  // Group all items by their feed_id, build a tab + section for each non-empty group.
+  renderSourceTabs(items);
 
   // ARCHIVE — everything
   const archiveEl = document.getElementById('updates-archive');
