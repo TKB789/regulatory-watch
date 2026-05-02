@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T04:30:14.664378+00:00",
+  "generated_at": "2026-05-02T05:30:22.949846+00:00",
   "item_count": 77,
   "feed_count": 15,
   "new_this_run": 0,
@@ -59,6 +59,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -69,6 +71,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -89,6 +93,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -99,6 +105,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -109,6 +117,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -119,6 +129,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -129,6 +141,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -149,6 +163,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -159,6 +175,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -169,6 +187,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -179,6 +199,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -189,6 +211,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -199,6 +223,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -209,6 +235,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -219,6 +247,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -259,6 +289,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -269,6 +301,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -279,6 +313,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -289,6 +325,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -299,6 +337,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -309,6 +349,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -319,6 +361,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -329,6 +373,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -349,6 +395,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -369,6 +417,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -379,6 +429,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -389,6 +441,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -419,6 +473,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -429,6 +485,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -459,6 +517,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -499,6 +559,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -509,6 +571,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -519,6 +583,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -539,6 +605,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -549,6 +617,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -559,6 +629,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -569,6 +641,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -579,6 +653,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -589,6 +665,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -599,6 +677,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-consult",
+      "feed_label": "IMDRF Consultations",
       "source": "IMDRF Consultations"
     },
     {
@@ -619,6 +699,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -629,6 +711,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -639,6 +723,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -669,6 +755,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -679,6 +767,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -689,6 +779,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -699,6 +791,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -709,6 +803,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -719,6 +815,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -729,6 +827,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -739,6 +839,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-consult",
+      "feed_label": "IMDRF Consultations",
       "source": "IMDRF Consultations"
     },
     {
@@ -749,6 +851,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
     },
     {
@@ -759,6 +863,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-wg",
+      "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
     },
     {
@@ -769,6 +875,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-wg",
+      "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
     },
     {
@@ -779,6 +887,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-wg",
+      "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
     },
     {
@@ -789,6 +899,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-wg",
+      "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
     },
     {
@@ -799,6 +911,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-wg",
+      "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
     },
     {
@@ -809,6 +923,8 @@
       "agency": "IMDRF",
       "region": "International",
       "category": "guidance",
+      "feed_id": "imdrf-wg",
+      "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
     }
   ]
