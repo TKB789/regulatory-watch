@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-05-02T03:57:16.377471+00:00",
-  "item_count": 82,
+  "generated_at": "2026-05-02T04:28:03.193271+00:00",
+  "item_count": 77,
   "feed_count": 15,
   "new_this_run": 0,
+  "pruned_this_run": 5,
   "failed_feeds": [
     {
       "name": "FDA Medical Device Recalls",
@@ -121,16 +122,6 @@
       "source": "Federal Register — FDA documents"
     },
     {
-      "title": "FDA Approves First Non-Antipsychotic Drug to Treat Agitation Associated with Dementia",
-      "summary": "The U.S. Food and Drug Administration today approved an expanded use for Auvelity (dextromethorphan hydrobromide and bupropion hydrochloride) extended-release tablets to treat agitation associated with dementia due to Alzheimer’s disease in adults.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-non-antipsychotic-drug-treat-agitation-associated-dementia",
-      "published": "2026-04-30T18:52:35+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "source": "FDA Press Announcements"
-    },
-    {
       "title": "Field Safety Notices: 20 to 24 April 2026",
       "summary": "List of Field Safety Notices from 20 to 24 April 2026.",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-20-to-24-april-2026",
@@ -241,16 +232,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "FDA Releases Results from Largest-Ever Testing of Infant Formula in the U.S.",
-      "summary": "FDA announces results from the largest and most rigorous examination ever conducted focused on chemical contaminants in infant formula available on the U.S. market.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-releases-results-largest-ever-testing-infant-formula-us",
-      "published": "2026-04-29T12:56:22+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "source": "FDA Press Announcements"
-    },
-    {
       "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request for Information",
       "summary": "The Food and Drug Administration (FDA or the Agency) is issuing this request for information to solicit input on a proposed pilot program to assess how artificial intelligence (AI)-enabled technologies can improve efficiency, speed, and quality of decision- making in early phase clinical trials. Early-phase clinical trials represent a critical bottleneck in drug development, often characterized by high uncertainty, limited patient populations, and inefficient decision- making processes. This…",
       "link": "https://www.federalregister.gov/documents/2026/04/29/2026-08281/ai-enabled-optimization-of-early-phase-clinical-trials-pilot-program-request-for-information",
@@ -285,16 +266,6 @@
       "summary": "How to notify the MHRA of your intention to carry out a clinical investigation for medical devices.",
       "link": "https://www.gov.uk/guidance/notify-mhra-about-a-clinical-investigation-for-a-medical-device",
       "published": "2026-04-28T10:49:20+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22",
-      "summary": "Amarox Limited is recalling one batch of Sertraline 100 mg film-coated tablets as a precautionary measure due to an error at the manufacturing site.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
-      "published": "2026-04-28T10:00:11+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -339,16 +310,6 @@
       "region": "United States",
       "category": "recall",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Class 3 Medicines Recall: Omega Pharma Ltd, Napralief 250mg Gastro-Resistant Tablets, EL(26)A/21",
-      "summary": "Omega Pharma Ltd is recalling specific batches of Napralief 250mg Gastro-Resistant Tablets due to missing text in Section 2 and Section 3 of the Patient Information Leaflet (PIL) and on the Carton in packs of Napralief 250mg…",
-      "link": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-omega-pharma-ltd-napralief-250mg-gastro-resistant-tablets-el-26-a-slash-21",
-      "published": "2026-04-24T14:22:20+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "FDA Accelerates Action on Treatments for Serious Mental Illness Following Executive Order",
@@ -489,16 +450,6 @@
       "region": "United States",
       "category": "guidance",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 10mg capsules, EL(26)A/19",
-      "summary": "Crescent Pharma Limited is recalling one batch of Ramipril 10mg Capsules as a precautionary measure due to a potential error at the manufacturing site.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-crescent-pharma-limited-ramipril-10mg-capsules-el-26-a-slash-19",
-      "published": "2026-04-20T12:06:09+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "Windstone Medical Packaging dba Aligned Medical Solutions Issues Nationwide Recall of Namic Angiographic Rotating Adapter 10CC Control Syringe Placed into the Following Kits; AMS6908E Angio Pack, and AMS6908F Angio Pack",
