@@ -326,6 +326,25 @@ def main():
         except Exception as e:
             print(f"\n⚠ Could not read existing feed.json ({e}); starting fresh.", flush=True)
 
+    # Re-apply the device filter to existing archived items so old drug-related
+    # entries (from earlier looser filters) get cleaned up.
+    pruned_count = 0
+    pruned_items = []
+    for item in existing_items:
+        full_text = f"{item.get('title', '')} {item.get('summary', '')}"
+        # Items from device-specific feeds (no filter_to_devices flag) are always kept.
+        # Items from broad feeds were originally filtered, but historic data may have
+        # passed the looser filter. Re-check and drop drug-only items.
+        if any(k in full_text.lower() for k in DRUG_ONLY_KEYWORDS):
+            # Allow combination products to stay
+            if "combination product" not in full_text.lower():
+                pruned_count += 1
+                continue
+        pruned_items.append(item)
+    existing_items = pruned_items
+    if pruned_count:
+        print(f"  Pruned {pruned_count} drug-related item(s) from archive", flush=True)
+
     # De-dupe by link (or by title if no link). New items take precedence
     # so we pick up any updated summaries/titles from the upstream feed.
     seen = {}
@@ -369,6 +388,7 @@ def main():
         "item_count": len(all_items),
         "feed_count": len(FEEDS),
         "new_this_run": new_count,
+        "pruned_this_run": pruned_count,
         "failed_feeds": failed_feeds,
         "empty_feeds": empty_feeds,
         "items": all_items,
