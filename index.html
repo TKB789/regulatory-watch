@@ -44,6 +44,169 @@
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
+  /* ============= FDA LOOKUP ============= */
+  .lookup-controls {
+    border: 1px solid var(--rule);
+    background: var(--paper-2);
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  .lookup-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dotted var(--rule);
+  }
+  .lookup-endpoint {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .lookup-endpoint:hover { background: var(--ink); color: var(--paper); }
+  .lookup-endpoint.active { background: var(--ink); color: var(--paper); }
+  .lookup-search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .lookup-go {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0 18px;
+    background: var(--accent);
+    color: #ffffff;
+    border: 1px solid var(--accent);
+    cursor: pointer;
+    transition: all 0.12s;
+  }
+  .lookup-go:hover { background: var(--ink); border-color: var(--ink); }
+  .lookup-go:disabled { opacity: 0.5; cursor: wait; }
+  .lookup-hint {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .lookup-status {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 16px;
+  }
+  .lookup-status strong { color: var(--ink); }
+
+  .lookup-card {
+    border-bottom: 1px solid var(--rule);
+    padding: 18px 0;
+    cursor: pointer;
+    transition: background 0.12s;
+  }
+  .lookup-card:hover {
+    background: rgba(255,255,255,0.4);
+    margin: 0 -16px;
+    padding: 18px 16px;
+  }
+  .lookup-card .lc-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+  }
+  .lookup-card .lc-num {
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(184,52,28,0.08);
+    padding: 2px 6px;
+  }
+  .lookup-card h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    margin-bottom: 6px;
+    color: var(--ink);
+  }
+  .lookup-card .lc-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #2a2520;
+    margin-top: 8px;
+  }
+  .lookup-card .lc-fields strong { color: var(--ink); font-weight: 700; }
+  .lookup-card .lc-fields div span:first-child {
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 9.5px;
+    display: block;
+  }
+
+  .lookup-empty {
+    padding: 32px 24px;
+    text-align: center;
+    border: 1px dotted var(--rule);
+    background: rgba(255,255,255,0.4);
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: var(--muted);
+  }
+  .lookup-error {
+    padding: 18px;
+    border-left: 4px solid var(--accent);
+    background: rgba(184,52,28,0.08);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+
+  .lookup-footer {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px dotted var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  .lookup-footer a { color: var(--accent); border-bottom: 1px solid var(--accent); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .lookup-search-row { flex-direction: column; gap: 6px; }
+    .lookup-go { padding: 10px; }
+    .lookup-card .lc-fields { grid-template-columns: 1fr; gap: 4px; }
+    .lookup-endpoint { font-size: 9.5px; padding: 6px 9px; }
+  }
+
   /* EMPTY STATE — when a category has no live items */
   .empty-state {
     padding: 32px 24px;
@@ -963,6 +1126,7 @@
     <button class="tab-btn" data-tab="calendar">Calendar</button>
     <button class="tab-btn" data-tab="agencies">Agencies</button>
     <button class="tab-btn" data-tab="archive">Archive</button>
+    <button class="tab-btn" data-tab="lookup">FDA Lookup</button>
   </div>
 </nav>
 
@@ -1098,6 +1262,40 @@
       <div class="search-wrap"><span>⌕ &nbsp;</span><input type="text" placeholder="Search archive…" data-search="archive"></div>
     </div>
     <div id="updates-archive"></div>
+  </div>
+
+  <!-- ===== FDA LOOKUP TAB ===== -->
+  <div class="tab-section" id="tab-lookup">
+    <div class="section-header">
+      <div class="kicker">▌ Database Search</div>
+      <h1>FDA <em>Lookup</em></h1>
+      <p class="desc">Direct queries to the openFDA database. Search 510(k) clearances, PMA approvals, recalls, adverse events, and device classifications. Results come straight from the FDA's official structured data — not from the regulatory news feed.</p>
+    </div>
+
+    <div class="lookup-controls">
+      <div class="lookup-tabs">
+        <button class="lookup-endpoint active" data-endpoint="510k">510(k) Clearances</button>
+        <button class="lookup-endpoint" data-endpoint="pma">PMA Approvals</button>
+        <button class="lookup-endpoint" data-endpoint="recall">Recalls</button>
+        <button class="lookup-endpoint" data-endpoint="event">Adverse Events</button>
+        <button class="lookup-endpoint" data-endpoint="classification">Classifications</button>
+      </div>
+      <div class="lookup-search-row">
+        <div class="search-wrap" style="flex:1;">
+          <span>⌕ &nbsp;</span>
+          <input type="text" id="lookup-input" placeholder="e.g. K230001, infusion pump, Medtronic, P230012…">
+        </div>
+        <button class="lookup-go" id="lookup-go">Search</button>
+      </div>
+      <div class="lookup-hint" id="lookup-hint">
+        Tip: Enter a 510(k) number (K123456), PMA number (P123456), manufacturer, device name, or product code (3 letters). Press Enter or tap Search.
+      </div>
+    </div>
+
+    <div id="lookup-results"></div>
+    <div class="lookup-footer">
+      Source: <a href="https://open.fda.gov/apis/device/" target="_blank" rel="noopener">openFDA Device API</a> · Data is provided by the FDA "as is" with no warranty.
+    </div>
   </div>
 
 </div>
@@ -2049,6 +2247,233 @@ document.getElementById('modal').addEventListener('click', (e) => {
   if (e.target.id === 'modal') closeModal();
 });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+// ============= FDA LOOKUP (openFDA API) =============
+// Free, no API key required. Rate limit: 240 requests/min/IP.
+// Docs: https://open.fda.gov/apis/device/
+
+const FDA_ENDPOINTS = {
+  '510k': {
+    url: 'https://api.fda.gov/device/510k.json',
+    label: '510(k) Clearance',
+    numField: 'k_number',
+    titleField: 'device_name',
+    fields: [
+      ['k_number', '510(k) #'],
+      ['decision_date', 'Decision Date'],
+      ['applicant', 'Applicant'],
+      ['decision_description', 'Decision'],
+      ['product_code', 'Product Code'],
+      ['advisory_committee_description', 'Panel'],
+    ],
+    detailUrl: (item) => `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${encodeURIComponent(item.k_number || '')}`,
+  },
+  pma: {
+    url: 'https://api.fda.gov/device/pma.json',
+    label: 'PMA Approval',
+    numField: 'pma_number',
+    titleField: 'trade_name',
+    fields: [
+      ['pma_number', 'PMA #'],
+      ['decision_date', 'Decision Date'],
+      ['applicant', 'Applicant'],
+      ['decision_code', 'Decision'],
+      ['product_code', 'Product Code'],
+      ['supplement_type', 'Type'],
+    ],
+    detailUrl: (item) => `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=${encodeURIComponent(item.pma_number || '')}`,
+  },
+  recall: {
+    url: 'https://api.fda.gov/device/recall.json',
+    label: 'Recall',
+    numField: 'cfres_id',
+    titleField: 'product_description',
+    fields: [
+      ['recall_number', 'Recall #'],
+      ['event_date_initiated', 'Initiated'],
+      ['recalling_firm', 'Firm'],
+      ['recall_status', 'Status'],
+      ['product_code', 'Product Code'],
+      ['root_cause_description', 'Root Cause'],
+    ],
+    detailUrl: (item) => 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=' + encodeURIComponent(item.cfres_id || ''),
+  },
+  event: {
+    url: 'https://api.fda.gov/device/event.json',
+    label: 'Adverse Event (MAUDE)',
+    numField: 'mdr_report_key',
+    titleField: 'device.0.brand_name',
+    fields: [
+      ['mdr_report_key', 'MDR Report'],
+      ['date_received', 'Received'],
+      ['event_type', 'Event Type'],
+      ['report_source_code', 'Source'],
+      ['device.0.generic_name', 'Generic Name'],
+      ['device.0.manufacturer_d_name', 'Manufacturer'],
+    ],
+    detailUrl: (item) => 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=' + encodeURIComponent(item.mdr_report_key || ''),
+  },
+  classification: {
+    url: 'https://api.fda.gov/device/classification.json',
+    label: 'Device Classification',
+    numField: 'product_code',
+    titleField: 'device_name',
+    fields: [
+      ['product_code', 'Product Code'],
+      ['device_class', 'Class'],
+      ['regulation_number', 'CFR §'],
+      ['medical_specialty_description', 'Specialty'],
+      ['gmp_exempt_flag', 'GMP Exempt'],
+      ['life_sustain_support_flag', 'Life-Sustaining'],
+    ],
+    detailUrl: (item) => 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=' + encodeURIComponent(item.product_code || ''),
+  },
+};
+
+let currentLookupEndpoint = '510k';
+
+// Get a (possibly nested) field value from a result object, e.g. "device.0.brand_name"
+function getField(obj, path) {
+  return path.split('.').reduce((o, k) => (o == null ? null : o[k]), obj);
+}
+
+// Build an openFDA search query from a free-text input.
+function buildFdaQuery(endpoint, raw) {
+  const q = (raw || '').trim();
+  if (!q) return '';
+  const cfg = FDA_ENDPOINTS[endpoint];
+
+  // 510(k) number: K + 6 digits
+  if (/^k\d{5,6}$/i.test(q) && endpoint === '510k') {
+    return `k_number:${q.toUpperCase()}`;
+  }
+  // PMA number: P + 6 digits
+  if (/^p\d{5,6}$/i.test(q) && endpoint === 'pma') {
+    return `pma_number:${q.toUpperCase()}`;
+  }
+  // Product code: 3 uppercase letters
+  if (/^[A-Z]{3}$/.test(q.toUpperCase()) && q.length === 3) {
+    return `product_code:${q.toUpperCase()}`;
+  }
+  // Recall number pattern: Z-NNNN-YYYY or similar
+  if (/^z-?\d{3,4}-?\d{4}$/i.test(q.replace(/\s/g, '')) && endpoint === 'recall') {
+    return `recall_number:"${q}"`;
+  }
+  // Otherwise: free-text search across reasonable fields
+  const escaped = q.replace(/"/g, '\\"');
+  switch (endpoint) {
+    case '510k':
+      return `(device_name:"${escaped}"+OR+applicant:"${escaped}")`;
+    case 'pma':
+      return `(trade_name:"${escaped}"+OR+applicant:"${escaped}"+OR+generic_name:"${escaped}")`;
+    case 'recall':
+      return `(product_description:"${escaped}"+OR+recalling_firm:"${escaped}")`;
+    case 'event':
+      return `(device.brand_name:"${escaped}"+OR+device.generic_name:"${escaped}"+OR+device.manufacturer_d_name:"${escaped}")`;
+    case 'classification':
+      return `(device_name:"${escaped}"+OR+medical_specialty_description:"${escaped}")`;
+    default:
+      return escaped;
+  }
+}
+
+async function runFdaLookup() {
+  const input = document.getElementById('lookup-input').value.trim();
+  const resultsEl = document.getElementById('lookup-results');
+  const goBtn = document.getElementById('lookup-go');
+
+  if (!input) {
+    resultsEl.innerHTML = '<div class="lookup-empty">Enter a search term above to query openFDA.</div>';
+    return;
+  }
+
+  const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
+  const search = buildFdaQuery(currentLookupEndpoint, input);
+  const url = `${cfg.url}?search=${search}&limit=25`;
+
+  goBtn.disabled = true;
+  resultsEl.innerHTML = '<div class="lookup-status">Querying openFDA…</div>';
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) {
+      if (res.status === 404) {
+        resultsEl.innerHTML = '<div class="lookup-empty">No matching ' + cfg.label + ' records found.</div>';
+        return;
+      }
+      throw new Error('openFDA returned HTTP ' + res.status);
+    }
+    const data = await res.json();
+    if (!data.results || !data.results.length) {
+      resultsEl.innerHTML = '<div class="lookup-empty">No matching ' + cfg.label + ' records found.</div>';
+      return;
+    }
+
+    const total = (data.meta && data.meta.results && data.meta.results.total) || data.results.length;
+    let html = `<div class="lookup-status">Found <strong>${total}</strong> ${cfg.label} record(s) — showing top ${data.results.length}.</div>`;
+
+    html += data.results.map((item, idx) => renderLookupCard(item, cfg, idx)).join('');
+    resultsEl.innerHTML = html;
+
+    // Wire up clicks
+    resultsEl.querySelectorAll('.lookup-card').forEach((el, idx) => {
+      el.addEventListener('click', () => {
+        const detailUrl = cfg.detailUrl(data.results[idx]);
+        if (detailUrl) window.open(detailUrl, '_blank', 'noopener');
+      });
+    });
+  } catch (err) {
+    resultsEl.innerHTML = `<div class="lookup-error">Could not query openFDA: ${err.message || err}</div>`;
+  } finally {
+    goBtn.disabled = false;
+  }
+}
+
+function renderLookupCard(item, cfg, idx) {
+  const num = getField(item, cfg.numField) || '—';
+  const title = getField(item, cfg.titleField) || '(no name)';
+  const fieldsHTML = cfg.fields.map(([key, label]) => {
+    const val = getField(item, key);
+    if (val == null || val === '') return '';
+    return `<div><span>${label}</span><strong>${val}</strong></div>`;
+  }).join('');
+  return `
+    <article class="lookup-card" data-idx="${idx}">
+      <div class="lc-meta">
+        <span class="lc-num">${num}</span>
+        <span>${cfg.label}</span>
+      </div>
+      <h3>${title}</h3>
+      <div class="lc-fields">${fieldsHTML}</div>
+    </article>
+  `;
+}
+
+// Wire up endpoint tabs
+document.querySelectorAll('.lookup-endpoint').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.lookup-endpoint').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentLookupEndpoint = btn.dataset.endpoint;
+    // Clear results when switching endpoints
+    document.getElementById('lookup-results').innerHTML = '';
+    // Update placeholder text
+    const hints = {
+      '510k': 'e.g. K230001, infusion pump, Medtronic',
+      'pma':  'e.g. P230012, pacemaker, Boston Scientific',
+      'recall': 'e.g. Z-1234-2024, surgical mesh, Becton Dickinson',
+      'event': 'e.g. insulin pump, Abbott',
+      'classification': 'e.g. cardiac monitor, MNH (product code)',
+    };
+    document.getElementById('lookup-input').placeholder = hints[currentLookupEndpoint] || '';
+  });
+});
+
+// Wire up search button + Enter key
+document.getElementById('lookup-go').addEventListener('click', runFdaLookup);
+document.getElementById('lookup-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') { e.preventDefault(); runFdaLookup(); }
+});
 
 // ============= BOOTSTRAP =============
 (async function init() {
