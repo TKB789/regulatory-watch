@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-03T03:43:00.442551+00:00",
+  "generated_at": "2026-05-03T03:48:44.205842+00:00",
   "item_count": 99,
   "feed_count": 15,
-  "new_this_run": 23,
-  "pruned_this_run": 1,
+  "new_this_run": 0,
+  "pruned_this_run": 0,
   "failed_feeds": [
     {
       "name": "FDA Medical Device Recalls",
