@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-05-03T00:05:44.790651+00:00",
-  "item_count": 77,
+  "generated_at": "2026-05-03T03:43:00.442551+00:00",
+  "item_count": 99,
   "feed_count": 15,
-  "new_this_run": 0,
-  "pruned_this_run": 0,
+  "new_this_run": 23,
+  "pruned_this_run": 1,
   "failed_feeds": [
     {
       "name": "FDA Medical Device Recalls",
-      "reason": "<unknown>:2:590: mismatched tag"
+      "reason": "XML parse error (likely served HTML/blocked): <unknown>:2:590: mismatched tag"
     },
     {
       "name": "FDA Medical Device Safety",
-      "reason": "<unknown>:2:590: mismatched tag"
+      "reason": "XML parse error (likely served HTML/blocked): <unknown>:2:590: mismatched tag"
     },
     {
       "name": "FDA CDRH — What's New",
-      "reason": "<unknown>:2:590: mismatched tag"
+      "reason": "XML parse error (likely served HTML/blocked): <unknown>:2:590: mismatched tag"
     },
     {
       "name": "WHO Medical Product Alerts",
-      "reason": "<unknown>:4:347: not well-formed (invalid token)"
+      "reason": "XML parse error (likely served HTML/blocked): <unknown>:4:347: not well-formed (invalid token)"
     },
     {
       "name": "Health Canada recalls & safety alerts",
-      "reason": "<unknown>:10:14: not well-formed (invalid token)"
+      "reason": "XML parse error (likely served HTML/blocked): <unknown>:10:14: not well-formed (invalid token)"
     },
     {
       "name": "TGA news & alerts",
@@ -31,7 +31,7 @@
     },
     {
       "name": "European Commission — Health news",
-      "reason": "<unknown>:44:76: not well-formed (invalid token)"
+      "reason": "XML parse error (likely served HTML/blocked): <unknown>:44:76: not well-formed (invalid token)"
     }
   ],
   "empty_feeds": [
@@ -49,6 +49,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -83,6 +85,8 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -146,6 +150,18 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Recommended use of some nasal decongestant sprays limited to five days by UK regulator",
+      "summary": "The MHRA has limited the use of nasal decongestant sprays containing xylometazoline and oxymetazoline to a maximum of five days due to side effects of prolonged use.",
+      "link": "https://www.gov.uk/government/news/recommended-use-of-some-nasal-decongestant-sprays-limited-to-five-days-by-uk-regulator",
+      "published": "2026-04-30T13:58:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
       "title": "FDA Proposes to Exclude Semaglutide, Tirzepatide, and Liraglutide on 503B Bulks List",
       "summary": "FDA is proposing to exclude semaglutide, tirzepatide, and liraglutide from the 503B bulks list, finding no clinical need for outsourcing facilities to compound these drugs from bulk substances.",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list",
@@ -153,7 +169,33 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Decision: Orphan registered medicinal products",
+      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
+      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
+      "published": "2026-04-30T13:10:39+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Nasal decongestant sprays and drops containing xylometazoline hydrochloride / oxymetazoline hydrochloride: increased risk of rebound congestion, rhinitis medicamentosa, and tachyphylaxis with overuse",
+      "summary": "There have been reports of worsening nasal congestion (rebound congestion) when the effects of nasal decongestant sprays or drops containing xylometazoline hydrochloride and oxymetazoline hydrochloride, wear off.",
+      "link": "https://www.gov.uk/drug-safety-update/nasal-decongestant-sprays-and-drops-containing-xylometazoline-hydrochloride-slash-oxymetazoline-hydrochloride-increased-risk-of-rebound-congestion-rhinitis-medicamentosa-and-tachyphylaxis-with-overuse",
+      "published": "2026-04-30T13:01:45+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
     },
     {
       "title": "Guidance: The Innovative Devices Access Pathway (IDAP)",
@@ -216,6 +258,30 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Hazard Analysis and Critical Control Point Procedures for the Safe and Sanitary Processing and Importing of Juice",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08417/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Advisory Committee; Pharmacy Compounding Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing the renewal of the Pharmacy Compounding Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Pharmacy Compounding Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the April 25, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08378/advisory-committee-pharmacy-compounding-advisory-committee-renewal",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Good Laboratory Practice Requirements for Nonclinical Laboratory Studies",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
       "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08371/agency-information-collection-activities-proposed-collection-comment-request-good-laboratory",
@@ -259,6 +325,20 @@
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Seven sentenced after MHRA investigation uncovers £1.8m illegal medicines and steroids network",
+      "summary": "An MHRA-led investigation has exposed a £1.8 million illegal medicines and steroids network, leading to seven men being sentenced.",
+      "link": "https://www.gov.uk/government/news/seven-sentenced-after-mhra-investigation-uncovers-18m-illegal-medicines-and-steroids-network",
+      "published": "2026-04-29T12:25:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
     },
     {
@@ -269,6 +349,8 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
     },
     {
@@ -279,6 +361,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -298,6 +382,54 @@
       "summary": "How to notify the MHRA of your intention to carry out a clinical investigation for medical devices.",
       "link": "https://www.gov.uk/guidance/notify-mhra-about-a-clinical-investigation-for-a-medical-device",
       "published": "2026-04-28T10:49:20+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22",
+      "summary": "Amarox Limited is recalling one batch of Sertraline 100 mg film-coated tablets as a precautionary measure due to an error at the manufacturing site.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
+      "published": "2026-04-28T10:00:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "MHRA delivers its targets to increase access to medicines and reinforce UK position as a global destination for life sciences",
+      "summary": "The MHRA continues to speed up access to medicines for patients, increase efficiency of regulation and help to attract innovation and investment in the UK’s thriving £100 billion life sciences industry.",
+      "link": "https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences",
+      "published": "2026-04-28T09:07:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Transparency data: MHRA Performance Data",
+      "summary": "Performance data for MHRA key performance indicators (KPIs) and information on the expected timeline to complete a specific regulatory function.",
+      "link": "https://www.gov.uk/government/publications/mhra-performance-data",
+      "published": "2026-04-28T08:55:15+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Corporate report: MHRA Results and Forecast 2025/26; 2026/27",
+      "summary": "MHRA achievements and highlights for 2025/26 and key projections for 2026/2027.",
+      "link": "https://www.gov.uk/government/publications/mhra-results-and-forecast-202526-202627",
+      "published": "2026-04-28T08:30:01+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -354,6 +486,54 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
+      "title": "International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use Guidelines",
+      "summary": "Directory of current ICH Guidelines which have been implemented by the Medicines and Healthcare products Regulatory Agency.",
+      "link": "https://www.gov.uk/guidance/international-council-for-harmonisation-of-technical-requirements-for-pharmaceuticals-for-human-use-guidelines",
+      "published": "2026-04-27T23:01:01+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Clinical trials for medicines: good manufacturing practice and radiopharmaceutical investigational medicinal products",
+      "summary": "Guidance on good manufacturing practice and the use of radiopharmaceutical investigational medicinal products in clinical trials.",
+      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-manufacturing-practice-and-radiopharmaceutical-investigational-medicinal-products",
+      "published": "2026-04-27T23:01:01+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Advisory Committee; Anesthetic and Analgesic Drug Products Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Anesthetic and Analgesic Drug Products Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Anesthetic and Analgesic Drug Products Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 1, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/04/27/2026-08125/advisory-committee-anesthetic-and-analgesic-drug-products-advisory-committee-renewal",
+      "published": "2026-04-27T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Class 3 Medicines Recall: Omega Pharma Ltd, Napralief 250mg Gastro-Resistant Tablets, EL(26)A/21",
+      "summary": "Omega Pharma Ltd is recalling specific batches of Napralief 250mg Gastro-Resistant Tablets due to missing text in Section 2 and Section 3 of the Patient Information Leaflet (PIL) and on the Carton in packs of Napralief 250mg…",
+      "link": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-omega-pharma-ltd-napralief-250mg-gastro-resistant-tablets-el-26-a-slash-21",
+      "published": "2026-04-24T14:22:20+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
       "title": "FDA Accelerates Action on Treatments for Serious Mental Illness Following Executive Order",
       "summary": "On April 18, President Trump issued an Executive Order directing the U.S. Department of Health and Human Services (HHS) to accelerate access to treatments for patients with serious mental illness, including devastating, complex, and treatment-resistant conditions.",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-accelerates-action-treatments-serious-mental-illness-following-executive-order",
@@ -364,6 +544,18 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Early Alert: Automated Compounding System Issue from Omnicell",
+      "summary": "Certain labels used with i.V.Station automated compounding systems may not be detected, leading to mislabeled sterile filled syringes",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-automated-compounding-system-issue-omnicell",
+      "published": "2026-04-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Early Alert: Arrow International Removes Dialysis Catheter Kits Containing Merit Medical Splittable Sheath Introducers",
@@ -378,28 +570,6 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
-      "title": "Early Alert: Automated Compounding System Issue from Omnicell",
-      "summary": "Certain labels used with i.V.Station automated compounding systems may not be detected, leading to mislabeled sterile filled syringes",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-automated-compounding-system-issue-omnicell",
-      "published": "2026-04-24T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Report on the Performance of Drug and Biologics Firms in Conducting Postmarketing Requirements and Commitments; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of the Agency's annual report entitled &quot;Report on the Performance of Drug and Biologics Firms in Conducting Postmarketing Requirements and Commitments.&quot; Under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act), FDA is required to report annually on the status of postmarketing requirements (PMRs) and postmarketing commitments (PMCs) required of, or agreed upon by, application holders of approved drug…",
-      "link": "https://www.federalregister.gov/documents/2026/04/24/2026-08084/report-on-the-performance-of-drug-and-biologics-firms-in-conducting-postmarketing-requirements-and",
-      "published": "2026-04-24T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
       "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss Under National Priority Voucher Program",
       "summary": "The U.S. Food and Drug Administration today approved Otarmeni (lunsotogene parvec-cwha), the first-ever dual adeno-associated virus (AAV) vector-based gene therapy.",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
@@ -407,6 +577,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -434,6 +606,18 @@
       "source": "FDA Press Announcements"
     },
     {
+      "title": "Early Alert: Convenience Kit Issue from Aligned Medical Solutions",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-aligned-medical-solutions",
+      "published": "2026-04-23T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Cranial Drill Recall: Integra LifeSciences Recalls Codman Disposable Perforators Due to Risk of Device Disassembly",
       "summary": "Certain Codman Disposable Perforators may disassemble during or after use, increasing the risk of brain injury, hemorrhage, or prolonged surgery.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/cranial-drill-recall-integra-lifesciences-recalls-codman-disposable-perforators-due-risk-device",
@@ -446,14 +630,16 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
-      "title": "Early Alert: Convenience Kit Issue from Aligned Medical Solutions",
-      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-aligned-medical-solutions",
-      "published": "2026-04-23T04:00:00+00:00",
-      "agency": "FDA",
+      "title": "Commissioner's National Priority Voucher (CNPV) Pilot Program; Public Hearing; Request for Comments; Amendment",
+      "summary": "The Food and Drug Administration (FDA) is announcing an amendment to the notice of the public hearing related to the Commissioner's National Priority Voucher (CNPV) Pilot Program. This meeting was announced in the Federal Register of March 23, 2026. The amendment is being made to reflect a change in the DATES, ADDRESSES, FOR FURTHER INFORMATION CONTACT, and IV. Participating in Public Hearing portions of the document. There are no other changes.",
+      "link": "https://www.federalregister.gov/documents/2026/04/23/2026-07916/commissioners-national-priority-voucher-cnpv-pilot-program-public-hearing-request-for-comments",
+      "published": "2026-04-23T00:00:00+00:00",
+      "agency": "FR",
       "region": "United States",
-      "category": "recall",
-      "source": "FDA MedWatch Safety Alerts"
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Insulin Pump Correction: Tandem Diabetes Care Issues Correction for Tandem Mobi Insulin Pumps",
@@ -463,6 +649,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -497,7 +685,9 @@
       "agency": "FR",
       "region": "United States",
       "category": "prepub",
-      "source": "Federal Register — FDA documents"
+      "source": "Federal Register — FDA documents",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register"
     },
     {
       "title": "FDA Achieves Year 1 Goals in Reducing Animal Testing in Drug Development",
@@ -507,7 +697,21 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 10mg capsules, EL(26)A/19",
+      "summary": "Crescent Pharma Limited is recalling one batch of Ramipril 10mg Capsules as a precautionary measure due to a potential error at the manufacturing site.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-crescent-pharma-limited-ramipril-10mg-capsules-el-26-a-slash-19",
+      "published": "2026-04-20T12:06:09+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "Windstone Medical Packaging dba Aligned Medical Solutions Issues Nationwide Recall of Namic Angiographic Rotating Adapter 10CC Control Syringe Placed into the Following Kits; AMS6908E Angio Pack, and AMS6908F Angio Pack",
@@ -529,6 +733,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -539,6 +745,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -549,6 +757,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
@@ -595,6 +805,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -646,6 +858,18 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Early Alert: Convenience Kit Issue from AVID Medical",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-avid-medical",
+      "published": "2026-04-10T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Ventilator Correction: Baxter Updates Use Instructions for Volara Single-Patient Use Circuits",
       "summary": "When the Volara system is used in a home setting, there is a risk for oxygen desaturation or barotrauma if it is used in-line with a ventilator.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/ventilator-correction-baxter-updates-use-instructions-volara-single-patient-use-circuits",
@@ -689,6 +913,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -735,6 +961,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -745,6 +973,8 @@
       "agency": "FDA",
       "region": "United States",
       "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
     },
     {
@@ -784,6 +1014,54 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "FDA Schedules Public Meeting on the Commissioner’s National Priority Voucher Pilot Program",
+      "summary": "As part of the U.S. Food and Drug Administration’s continuous quality improvement efforts, the agency today published a Federal Register Notice seeking public comment on the Commissioner’s National Priority Voucher pilot program.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-schedules-public-meeting-commissioners-national-priority-voucher-pilot-program",
+      "published": "2026-03-20T13:09:38+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Approves Fourth Product Under National Priority Voucher Program, Higher Dose Semaglutide",
+      "summary": "The U.S. Food and Drug Administration today approved a new higher dose (7.2 mg) of Wegovy (semaglutide) injection for weight loss and long-term maintenance of weight loss for certain adult patients.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-fourth-product-under-national-priority-voucher-program-higher-dose-semaglutide",
+      "published": "2026-03-19T16:54:56+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "FDA Releases Draft Guidance on Alternatives to Animal Testing in Drug Development",
+      "summary": "The U.S. Food and Drug Administration today issued draft guidance intended to help drug developers validate new approach methodologies (NAMs) to be used instead of animal testing in drug development, and to bring safe, effective drugs to market sooner based on human-centric data.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-releases-draft-guidance-alternatives-animal-testing-drug-development",
+      "published": "2026-03-18T12:51:21+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
+      "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Class 4 Medicines Defect Notification: Baxter Healthcare Corporation, Onkotrone Injection 2 mg/ml concentrate for solution for infusion, EL(26)A/14",
+      "summary": "Baxter Healthcare Corporation have informed the MHRA that the Patient Information Leaflet (PIL) packed in specified batches does not contain up to date information relating to the duration of contraception required for femal…",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-baxter-healthcare-corporation-onkotrone-injection-2-mg-slash-ml-concentrate-for-solution-for-infusion-el-26-a-slash-14",
+      "published": "2026-03-17T11:00:03+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
       "title": "Class 2 Medicines Recall: Rokshaw Limited Trading as Curaleaf Laboratories, Curaleaf Oil [FS] 10mg/ml THC, 10mg/ml CBD (30ml), EL(26)A/13",
       "summary": "Curaleaf Laboratories are recalling three batches of Curaleaf Oil [FS] 10mg/ml THC 10mg/ml CBD (30ml) due to low THC content.",
       "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-rokshaw-limited-trading-as-curaleaf-laboratories-curaleaf-oil-fs-10mg-slash-ml-thc-10mg-slash-ml-cbd-30ml-el-26-a-slash-13",
@@ -808,10 +1086,34 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "FDA Launches New Adverse Event Look-Up Tool",
+      "summary": "FDA launched a new unified platform for analyzing adverse event reports. This platform — called the FDA Adverse Event Monitoring System (AEMS) — represents a major achievement in the agency’s mission to modernize and provide radical transparency into the safety of regulated products.",
+      "link": "http://www.fda.gov/news-events/press-announcements/fda-launches-new-adverse-event-look-tool",
+      "published": "2026-03-11T16:00:22+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "guidance",
+      "feed_id": "fda-press",
+      "feed_label": "FDA Press",
+      "source": "FDA Press Announcements"
+    },
+    {
       "title": "Field Safety Notices: 02 to 06 March 2026",
       "summary": "List of Field Safety Notices from 2 March to 6 March 2026.",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-02-to-06-march-2026",
       "published": "2026-03-09T16:01:47+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 5mg capsules, EL(26)A/11",
+      "summary": "Crescent Pharma Limited is recalling one batch of Ramipril 5 mg Capsules as a precautionary measure due to a potential error at the manufacturing site.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-crescent-pharma-limited-ramipril-5mg-capsules-el-26-a-slash-11",
+      "published": "2026-03-06T15:27:24+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
