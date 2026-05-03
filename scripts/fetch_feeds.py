@@ -19,7 +19,15 @@ import feedparser  # pip install feedparser
 
 # Hard timeout for any single network request (seconds).
 # Without this, a slow feed can hang the entire workflow.
-socket.setdefaulttimeout(15)
+socket.setdefaulttimeout(30)
+
+# Many gov RSS feeds block default Python/feedparser User-Agents. We send a
+# realistic browser-like UA to get past basic bot detection.
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/124.0.0.0 Safari/537.36 RegulatoryWatchBot/1.0"
+)
 
 # ---------------------------------------------------------------------------
 # FEED CONFIG
@@ -219,24 +227,60 @@ DRUG_ONLY_KEYWORDS = [
     "approves new drug", "approves first-in-class", "approves treatment for",
     "tablet", "capsule", "injection of", "infusion of",
     "pediatric drug", "drug-resistant",
-    "tobacco", "cigar", "vaping",
-    "food safety", "foodborne",
-    "dietary supplement", "infant formula",
-    "veterinary", "animal drug",
+    "tobacco", "cigar", "vaping", "e-cigarette", "nicotine",
+    "food safety", "foodborne", "infant formula",
+    "dietary supplement",
+    "veterinary", "animal drug", "animal health",
+    "cosmetic", "cosmetics",
 ]
 
 
 def is_device_related(text: str) -> bool:
-    """True if text mentions a device topic AND isn't a drug/food/tobacco item."""
+    """
+    Returns True if the text is plausibly medical-device related.
+
+    Logic: We KEEP items by default. We only REJECT if the item is clearly
+    about something else (drugs, food, tobacco, vet products) AND lacks any
+    device signal. This avoids false negatives — broad RSS feeds frequently
+    publish device items with non-obvious wording (e.g. "infusion sets",
+    "field safety notice", "manufacturer reporting") that don't trigger a
+    rigid keyword list.
+    """
     t = (text or "").lower()
-    if not any(k in t for k in DEVICE_KEYWORDS):
+    if not t.strip():
         return False
-    # Even if it has a device keyword, drop if it's clearly drug-focused
-    if any(k in t for k in DRUG_ONLY_KEYWORDS):
-        # ...unless it's specifically a combination product (drug-device)
+
+    # HARD OVERRIDES — these are never devices, drop regardless of other signals
+    HARD_DROPS = (
+        "tobacco", "cigar", "vaping", "e-cigarette", "nicotine",
+        "infant formula", "dietary supplement",
+        "veterinary", "animal drug", "animal health",
+        "cosmetic", "cosmetics", "foodborne", "food safety",
+        "vaccine", "vaccines",
+    )
+    if any(k in t for k in HARD_DROPS):
+        # Allow "combination product" mentions through (rare drug-device combos)
         if "combination product" in t or "device-led combination" in t:
             return True
         return False
+
+    has_device_signal = any(k in t for k in DEVICE_KEYWORDS)
+    has_drug_signal   = any(k in t for k in DRUG_ONLY_KEYWORDS)
+
+    # Combination products always pass
+    if "combination product" in t or "device-led combination" in t:
+        return True
+
+    # Drug signal AND no device signal → reject
+    if has_drug_signal and not has_device_signal:
+        return False
+
+    # Drug signal WITH device signal → keep (e.g. drug-eluting stent)
+    if has_drug_signal and has_device_signal:
+        return True
+
+    # No drug signal → keep regardless. Device-specific feeds (FDA recalls,
+    # MHRA alerts) already only publish device items, so we trust them.
     return True
 
 # How many items per feed (most recent)
@@ -282,10 +326,54 @@ def fetch_one(feed_cfg: dict) -> dict:
     """
     print(f"  → {feed_cfg['agency']:6s} {feed_cfg['name']}", flush=True)
     items = []
+
+    # Try up to 2 times; transient timeouts and 5xx are common on gov servers
+    parsed = None
+    last_error = None
+    for attempt in range(2):
+        try:
+            parsed = feedparser.parse(
+                feed_cfg["url"],
+                agent=USER_AGENT,
+                request_headers={
+                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+                    "Accept-Language": "en-US,en;q=0.9",
+                },
+            )
+            # If we got entries, we're done
+            if parsed.entries:
+                break
+            # No entries AND a parse error → maybe HTML was served, retry once
+            if parsed.bozo and attempt == 0:
+                last_error = str(parsed.bozo_exception)[:120]
+                print(f"    ⟲ retry 1: {last_error}", flush=True)
+                time.sleep(2)
+                continue
+            break
+        except Exception as e:
+            last_error = str(e)[:120]
+            if attempt == 0:
+                print(f"    ⟲ retry 1: {last_error}", flush=True)
+                time.sleep(2)
+                continue
+            print(f"    ✗ exception after retry: {last_error}", flush=True)
+            return {"items": [], "status": "error", "reason": last_error}
+
     try:
-        parsed = feedparser.parse(feed_cfg["url"])
+        if parsed is None:
+            return {"items": [], "status": "error", "reason": last_error or "unknown error"}
+
         if parsed.bozo and not parsed.entries:
             reason = str(parsed.bozo_exception)[:120]
+            # Distinguish between bot-blocking (HTML returned) and real format errors
+            try:
+                # parsed.feed.title is empty but parsed has 'feed' attr; feedparser
+                # leaves the raw response in feed.summary if parsing failed badly.
+                # Easier: just check if reason mentions tags / tokens (XML parse errors).
+                if "tag" in reason.lower() or "token" in reason.lower() or "well-formed" in reason.lower():
+                    reason = f"XML parse error (likely served HTML/blocked): {reason}"
+            except Exception:
+                pass
             print(f"    ✗ feed error: {reason}", flush=True)
             return {"items": [], "status": "error", "reason": reason}
 
@@ -358,24 +446,48 @@ def main():
         except Exception as e:
             print(f"\n⚠ Could not read existing feed.json ({e}); starting fresh.", flush=True)
 
+    # Build lookup: source name → (feed_id, label) — used to backfill old items
+    # that were written before feed_id existed.
+    source_to_feed = {
+        cfg["name"]: (cfg.get("feed_id", "unknown"), cfg.get("label", cfg["name"]))
+        for cfg in FEEDS
+    }
+    backfilled = 0
+    for item in existing_items:
+        if not item.get("feed_id") or item.get("feed_id") == "unknown":
+            src = item.get("source", "")
+            if src in source_to_feed:
+                fid, label = source_to_feed[src]
+                item["feed_id"] = fid
+                item["feed_label"] = label
+                backfilled += 1
+    if backfilled:
+        print(f"  Backfilled feed_id on {backfilled} archived item(s)", flush=True)
+
     # Re-apply the device filter to existing archived items so old drug-related
-    # entries (from earlier looser filters) get cleaned up.
+    # entries (from earlier looser filters) get cleaned up. Uses the same
+    # is_device_related() function as fetching to keep behavior consistent.
     pruned_count = 0
     pruned_items = []
     for item in existing_items:
         full_text = f"{item.get('title', '')} {item.get('summary', '')}"
-        # Items from device-specific feeds (no filter_to_devices flag) are always kept.
-        # Items from broad feeds were originally filtered, but historic data may have
-        # passed the looser filter. Re-check and drop drug-only items.
-        if any(k in full_text.lower() for k in DRUG_ONLY_KEYWORDS):
-            # Allow combination products to stay
-            if "combination product" not in full_text.lower():
+        # Items from device-specific feeds (no filter_to_devices flag) were
+        # never filtered originally; trust the upstream source and keep them.
+        item_source = item.get("source", "")
+        feed_was_filtered = False
+        for cfg in FEEDS:
+            if cfg["name"] == item_source:
+                feed_was_filtered = cfg.get("filter_to_devices", False)
+                break
+        if feed_was_filtered:
+            # Re-check against current rules
+            if not is_device_related(full_text):
                 pruned_count += 1
                 continue
         pruned_items.append(item)
     existing_items = pruned_items
     if pruned_count:
-        print(f"  Pruned {pruned_count} drug-related item(s) from archive", flush=True)
+        print(f"  Pruned {pruned_count} now-out-of-scope item(s) from archive", flush=True)
 
     # De-dupe by link (or by title if no link). New items take precedence
     # so we pick up any updated summaries/titles from the upstream feed.
