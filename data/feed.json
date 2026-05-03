@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T11:12:18.056405+00:00",
+  "generated_at": "2026-05-03T12:03:56.020804+00:00",
   "item_count": 99,
   "feed_count": 15,
   "new_this_run": 0,
@@ -31,7 +31,7 @@
     },
     {
       "name": "European Commission — Health news",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:44:76: not well-formed (invalid token)"
+      "reason": "text/html is not an XML media type"
     }
   ],
   "empty_feeds": [
