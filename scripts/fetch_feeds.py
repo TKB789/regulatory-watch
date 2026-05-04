@@ -41,34 +41,23 @@ USER_AGENT = (
 # ---------------------------------------------------------------------------
 
 FEEDS = [
-    # --- US FDA: Medical Devices specific ---
+    # ============================================================
+    # US FDA — Only these RSS feeds actually exist on fda.gov.
+    # The /medical-device-recalls/, /medical-device-safety/, and
+    # /medical-devices/ URLs commonly cited online return 404 HTML pages
+    # (which feedparser can't parse, hence "mismatched tag" errors).
+    # The general feeds below cover all FDA topics; we filter to devices.
+    # Source: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds
+    # ============================================================
     {
         "agency": "FDA",
         "region": "United States",
         "category": "recall",
-        "name": "FDA Medical Device Recalls",
+        "name": "FDA Recalls",
         "feed_id": "fda-recalls",
         "label": "FDA Recalls",
-        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medical-device-recalls/rss.xml",
-    },
-    {
-        "agency": "FDA",
-        "region": "United States",
-        "category": "postmarket",
-        "name": "FDA Medical Device Safety",
-        "feed_id": "fda-safety",
-        "label": "FDA Safety",
-        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medical-device-safety/rss.xml",
-    },
-    {
-        "agency": "FDA",
-        "region": "United States",
-        "category": "premarket",
-        "name": "FDA CDRH — What's New",
-        "feed_id": "fda-cdrh",
-        "label": "FDA CDRH",
-        # Device-specific feed; lower noise than press releases.
-        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medical-devices/rss.xml",
+        "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+        "filter_to_devices": True,
     },
     # --- US FDA: broader feeds (filtered to device topics) ---
     {
