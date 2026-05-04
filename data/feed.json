@@ -1,17 +1,29 @@
 {
-  "generated_at": "2026-05-04T16:35:17.269686+00:00",
+  "generated_at": "2026-05-04T16:48:50.217578+00:00",
   "item_count": 113,
   "feed_count": 13,
   "new_this_run": 0,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
+      "name": "FDA Recalls",
+      "reason": "HTTP 404: Not Found"
+    },
+    {
+      "name": "FDA MedWatch Safety Alerts",
+      "reason": "HTTP 404: Not Found"
+    },
+    {
+      "name": "FDA Press Announcements",
+      "reason": "HTTP 404: Not Found"
+    },
+    {
       "name": "WHO Medical Product Alerts",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:4:347: not well-formed (invalid token)"
+      "reason": "HTTP 404: Not Found"
     },
     {
       "name": "Health Canada recalls & safety alerts",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:10:14: not well-formed (invalid token)"
+      "reason": "HTTP 404: Not Found"
     },
     {
       "name": "TGA news & alerts",
@@ -19,7 +31,7 @@
     },
     {
       "name": "European Commission — Health news",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:44:76: not well-formed (invalid token)"
+      "reason": "HTTP 404: Not Found"
     }
   ],
   "empty_feeds": [
