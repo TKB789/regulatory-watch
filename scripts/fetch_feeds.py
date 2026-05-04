@@ -19,6 +19,11 @@ import feedparser  # pip install feedparser
 
 # Hard timeout for any single network request (seconds).
 # Without this, a slow feed can hang the entire workflow.
+import gzip
+import io
+import urllib.request
+import urllib.error
+
 socket.setdefaulttimeout(30)
 
 # Many gov RSS feeds block default Python/feedparser User-Agents. We send a
@@ -26,8 +31,41 @@ socket.setdefaulttimeout(30)
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/124.0.0.0 Safari/537.36 RegulatoryWatchBot/1.0"
+    "Chrome/124.0.0.0 Safari/537.36"
 )
+
+
+def fetch_raw_feed(url, timeout=30):
+    """
+    Fetch a feed URL using urllib directly so we have full control over
+    headers, redirects, and encoding. Returns bytes (or raises an exception).
+    Handles gzip decompression and BOM stripping that feedparser sometimes
+    chokes on.
+    """
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate",
+            "Cache-Control": "no-cache",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read()
+        # Decompress if gzipped (some servers ignore Accept-Encoding negotiation)
+        if resp.headers.get("Content-Encoding", "").lower() == "gzip":
+            raw = gzip.decompress(raw)
+        elif raw[:2] == b"\x1f\x8b":  # gzip magic bytes
+            raw = gzip.decompress(raw)
+        # Strip UTF-8 BOM if present (causes "not well-formed" in some XML parsers)
+        if raw[:3] == b"\xef\xbb\xbf":
+            raw = raw[3:]
+        # Strip leading whitespace before <?xml declaration (common cause of
+        # "not well-formed" errors when servers add stray newlines)
+        raw = raw.lstrip()
+        return raw
 
 # ---------------------------------------------------------------------------
 # FEED CONFIG
@@ -321,24 +359,38 @@ def fetch_one(feed_cfg: dict) -> dict:
     last_error = None
     for attempt in range(2):
         try:
-            parsed = feedparser.parse(
-                feed_cfg["url"],
-                agent=USER_AGENT,
-                request_headers={
-                    "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-                    "Accept-Language": "en-US,en;q=0.9",
-                },
-            )
+            # Fetch raw bytes ourselves (handles gzip, BOM, leading whitespace)
+            raw_bytes = fetch_raw_feed(feed_cfg["url"])
+            # Quick sanity check: does this look like XML?
+            head = raw_bytes[:200].decode("utf-8", errors="replace").lower()
+            if "<html" in head or "<!doctype html" in head:
+                last_error = "server returned HTML page (likely 404 or block)"
+                if attempt == 0:
+                    print(f"    ⟲ retry 1: {last_error}", flush=True)
+                    time.sleep(2)
+                    continue
+                print(f"    ✗ {last_error}", flush=True)
+                return {"items": [], "status": "error", "reason": last_error}
+
+            parsed = feedparser.parse(raw_bytes)
             # If we got entries, we're done
             if parsed.entries:
                 break
-            # No entries AND a parse error → maybe HTML was served, retry once
+            # No entries AND a parse error → retry once
             if parsed.bozo and attempt == 0:
                 last_error = str(parsed.bozo_exception)[:120]
                 print(f"    ⟲ retry 1: {last_error}", flush=True)
                 time.sleep(2)
                 continue
             break
+        except urllib.error.HTTPError as e:
+            last_error = f"HTTP {e.code}: {e.reason}"
+            if attempt == 0 and e.code >= 500:
+                print(f"    ⟲ retry 1: {last_error}", flush=True)
+                time.sleep(2)
+                continue
+            print(f"    ✗ {last_error}", flush=True)
+            return {"items": [], "status": "error", "reason": last_error}
         except Exception as e:
             last_error = str(e)[:120]
             if attempt == 0:
