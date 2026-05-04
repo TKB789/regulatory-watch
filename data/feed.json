@@ -1,22 +1,10 @@
 {
-  "generated_at": "2026-05-04T14:37:17.110778+00:00",
-  "item_count": 99,
-  "feed_count": 15,
-  "new_this_run": 0,
+  "generated_at": "2026-05-04T15:48:58.288522+00:00",
+  "item_count": 113,
+  "feed_count": 13,
+  "new_this_run": 14,
   "pruned_this_run": 0,
   "failed_feeds": [
-    {
-      "name": "FDA Medical Device Recalls",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:2:590: mismatched tag"
-    },
-    {
-      "name": "FDA Medical Device Safety",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:2:590: mismatched tag"
-    },
-    {
-      "name": "FDA CDRH — What's New",
-      "reason": "XML parse error (likely served HTML/blocked): <unknown>:2:590: mismatched tag"
-    },
     {
       "name": "WHO Medical Product Alerts",
       "reason": "XML parse error (likely served HTML/blocked): <unknown>:4:347: not well-formed (invalid token)"
@@ -88,6 +76,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Second Nature Brands Issues Allergy Alert on Undeclared Cashews, Pistachois, and Cherries in Keto Crunch Smart Mix",
+      "summary": "Second Nature Brands of Madison Heights, MI, is voluntarily recalling certain 10-ounce packages of SECOND NATURE KETO CRUNCH SMART MIXTM because the product may contain undeclared cashews, pistachios, and cherries. Individuals who have an allergy or severe sensitivity to tree nuts, including cashe",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachois-and-cherries-keto-crunch",
+      "published": "2026-05-01T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Impacts of Patient-Focused Drug Development Meetings; Establishment of a Public Docket; Request for Information and Comments",
@@ -510,6 +510,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Ghirardelli Chocolate Company Recalls Powdered Beverage Mixes Because of Possible Health Risk",
+      "summary": "Ghirardelli Chocolate Company of San Leandro, California is voluntarily recalling certain powdered beverage mixes because they have the potential to be contaminated with Salmonella. This action follows a California Dairies, Inc. milk powder recall due to a concern of potential Salmonella contaminati",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ghirardelli-chocolate-company-recalls-powdered-beverage-mixes-because-possible-health-risk",
+      "published": "2026-04-27T17:07:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Advisory Committee; Anesthetic and Analgesic Drug Products Advisory Committee; Renewal",
       "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Anesthetic and Analgesic Drug Products Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Anesthetic and Analgesic Drug Products Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 1, 2028, expiration date.",
       "link": "https://www.federalregister.gov/documents/2026/04/27/2026-08125/advisory-committee-anesthetic-and-analgesic-drug-products-advisory-committee-renewal",
@@ -532,6 +544,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "We R Nuts, Issues Allergy Alert on Undeclared Milk, Soy & Cashews in Milk Chocolate Bridge Mix",
+      "summary": "We R Nuts of Port Washington, New York is recalling 254 Uncle Giuseppe’s branded 11oz containers of milk chocolate bridge mix, because it may contain undeclared Milk, Soy and Cashews. People who have an allergy or severe sensitivity to Milk, Soy and Cashews run the risk of serious or life-threatenin",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/we-r-nuts-issues-allergy-alert-undeclared-milk-soy-cashews-milk-chocolate-bridge-mix",
+      "published": "2026-04-24T13:26:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "FDA Accelerates Action on Treatments for Serious Mental Illness Following Executive Order",
@@ -570,6 +594,18 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
+      "title": "Ferris Coffee & Nut Co. Issues Allergy Alert on Undeclared Wheat and Soy in Frederik’s By Meijer Vanilla Bourbon Trail Mix",
+      "summary": "Ferris Coffee &amp; Nut Co., Grand Rapids, Michigan is recalling a single lot of Frederik’s by Meijer Vanilla Bourbon Trail Mix 9 oz. because it may contain undeclared wheat and soy. People who have an allergy or severe sensitivity to wheat or soy run the risk of serious or life-threatening allergic re",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ferris-coffee-nut-co-issues-allergy-alert-undeclared-wheat-and-soy-frederiks-meijer-vanilla-bourbon",
+      "published": "2026-04-23T20:16:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss Under National Priority Voucher Program",
       "summary": "The U.S. Food and Drug Administration today approved Otarmeni (lunsotogene parvec-cwha), the first-ever dual adeno-associated virus (AAV) vector-based gene therapy.",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
@@ -592,6 +628,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "French Broad Chocolates PBC Recalls Bette’s Bake Sale Bonbons Due to Undeclared Walnuts",
+      "summary": "ASHEVILLE, NC – April 23, 2026 – French Broad Chocolates PBC is recalling Bette’s Bake Sale Bonbon Collection in 6pc, 12pc, and 24pc boxes with batch numbers 260414 and 260417 due to the potential to contain undeclared walnuts. People who have an allergy or severe sensitivity to walnuts run the risk",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/french-broad-chocolates-pbc-recalls-bettes-bake-sale-bonbons-due-undeclared-walnuts",
+      "published": "2026-04-23T14:57:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "CMS and FDA Announce RAPID Coverage Pathway to Accelerate Patient Access to Life-Changing Medical Devices",
@@ -724,6 +772,18 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Silver Moon LP DBA Loard’s Ice Cream Issues Allergy Alert on Undeclared Milk, Eggs, Tree Nuts, Peanuts, Soy, Wheat, Sulfites, and Food Color Additives in Ice Cream Products",
+      "summary": "Silver Moon, LP dba Loard’s Ice Cream of San Leandro, CA is voluntarily recalling all products sold in retail-sized packaging because they were distributed without ingredient labeling and therefore they contain undeclared allergens, sulfites, and added colors. People who have an allergy or severe se",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/silver-moon-lp-dba-loards-ice-cream-issues-allergy-alert-undeclared-milk-eggs-tree-nuts-peanuts-soy",
+      "published": "2026-04-17T03:38:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "FDA Takes Step Forward on Testosterone Therapy for Men",
@@ -882,6 +942,18 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
+      "title": "Blaine Labs, Inc Issues Voluntary Nationwide Recall of Wound Care Gel Products Due to Microbial Contamination",
+      "summary": "Santa Fe Springs, California – April 07, 2026 – Blaine Labs, Inc. is voluntarily recalling three (3) lot numbers of Wound Care Gel products, 1 oz. &amp; 3 oz. (0.1% Benzalkonium Chloride) to the consumer level due to microbial contamination.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blaine-labs-inc-issues-voluntary-nationwide-recall-wound-care-gel-products-due-microbial",
+      "published": "2026-04-08T21:40:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Field Safety Notices: 30 March - 3 April 2026",
       "summary": "List of Field Safety Notices for 30 March - 3 April 2026",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-30-march-3-april-2026",
@@ -904,6 +976,78 @@
       "feed_id": "imdrf-consult",
       "feed_label": "IMDRF Consultations",
       "source": "IMDRF Consultations"
+    },
+    {
+      "title": "Nalpac Issues Voluntary Nationwide Recall of DTF Sexual Chocolate Due to the Presence of the Pharmaceutical Ingredient’s Sildenafil and Tadalafil",
+      "summary": "FOR IMMEDIATE RELEASE – Date – Ferndale, Michigan. Nalpac is voluntarily recalling DTF Sexual Chocolate it purchased and resold. The products have been found to contain sildenafil and tadalafil.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nalpac-issues-voluntary-nationwide-recall-dtf-sexual-chocolate-due-presence-pharmaceutical",
+      "published": "2026-04-06T19:23:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Liquid Blenz Corp. Recalls Product Due to Possible Health Risk",
+      "summary": "Liquid Blenz Corp of Rockville Center, NY is recalling all codes of Good Brain Tonic because of Botulism potential. Botulism is a potentially fatal form of food poisoning and can cause the following symptoms: general weakness, dizziness, double-vision, and trouble with speaking or swallowing. Diffic",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/liquid-blenz-corp-recalls-product-due-possible-health-risk",
+      "published": "2026-04-06T16:29:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Wawa Issues Product Recall on 16-oz. Wawa Brand Iced Tea Lemon, Iced Tea Diet Lemon, Diet Lemonade and Fruit Punch Due to Possible Undeclared Milk Allergen",
+      "summary": "April 3, 2026 Wawa, of Media PA, is recalling its 16 oz pints of Wawa Iced Tea Lemon, Wawa Iced Tea Diet Lemon, Wawa Diet Lemonade and Wawa Fruit Punch produced by the Wawa Beverage Company for sale in a limited number of Wawa stores located in Pennsylvania, Delaware, Maryland, New Jersey and Virgin",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wawa-issues-product-recall-16-oz-wawa-brand-iced-tea-lemon-iced-tea-diet-lemon-diet-lemonade-and",
+      "published": "2026-04-03T20:39:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Karns Foods Issues Voluntary Recall of Mini Dark Chocolate Raspberry Cups Due to Undeclared Peanuts",
+      "summary": "Mechanicsburg, PA — April 2, 2026 Karns Foods is voluntarily recalling its approximate 8-ounce packages of \"Mini Dark Chocolate Raspberry Cups\" because they may contain undeclared peanuts. People who have allergies to peanuts run the risk of serious or life-threatening allergic reaction if they cons",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/karns-foods-issues-voluntary-recall-mini-dark-chocolate-raspberry-cups-due-undeclared-peanuts",
+      "published": "2026-04-02T20:52:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Voluntary Recall",
+      "summary": "The FDA has issued an Advisory without batch numbers or expiration dates. At the request of the FDA, RAW FARM is issuing a Voluntary Recall of the batches of cheese below and any batches produced prior to these dates.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall",
+      "published": "2026-04-02T20:47:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Tops Issues Recall of Christopher Ranch Peeled Garlic & Garland Fresh Peeled Garlic Because of Possible Health Risk",
+      "summary": "Tops Friendly Markets of Williamsville, NY is recalling all codes of Christopher Ranch Peeled Garlic and Garland Peeled Garlic because it has the potential to be contaminated with Clostridium botulinum due to the product being kept at insufficient temperatures. Clostridium botulinum is a bacterium w",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tops-issues-recall-christopher-ranch-peeled-garlic-garland-fresh-peeled-garlic-because-possible",
+      "published": "2026-04-01T20:49:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "FDA Approves First New Molecular Entity Under National Priority Voucher Program",
@@ -940,6 +1084,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Aphreseller (Buy-herbal.com) Issues Voluntary Nationwide Recall of Kian Pee Wan Capsules Due the Presence of Undeclared Dexamethasone and Cyproheptadine",
+      "summary": "FOR IMMEDIATE RELEASE – 03/30/2026 - Flushing, New York, Aphreseller (Ebay seller ID), Buy-herbal.com is recalling all lots of Kian Pee Wan capsules to the consumer level. FDA analysis has found that the product contains the undeclared drug ingredients dexamethasone and cyproheptadine. Products cont",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/aphreseller-buy-herbalcom-issues-voluntary-nationwide-recall-kian-pee-wan-capsules-due-presence",
+      "published": "2026-03-30T20:03:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Class 2 Medicines Recall: Bio Products Laboratory Limited, Rabies, Human normal Immunoglobulin 500IU solution for Injection, EL(26)A/18",
