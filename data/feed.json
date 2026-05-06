@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T10:09:13.343308+00:00",
+  "generated_at": "2026-05-06T12:15:08.332683+00:00",
   "item_count": 118,
   "feed_count": 13,
-  "new_this_run": 4,
+  "new_this_run": 0,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,6 +41,18 @@
     }
   ],
   "items": [
+    {
+      "title": "Clinical investigations for medical devices",
+      "summary": "How to notify the MHRA of your intention to carry out a clinical investigation for medical devices.",
+      "link": "https://www.gov.uk/guidance/notify-mhra-about-a-clinical-investigation-for-a-medical-device",
+      "published": "2026-05-06T11:56:20+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Field Safety Notices: 1 May 2026",
       "summary": "List of Field Safety Notices for 1 May 2026.",
@@ -442,18 +454,6 @@
       "summary": "The MHRA has advised healthcare professionals to stop supplying the affected batch of Sertraline 100mg and return all remaining stock to their suppliers.",
       "link": "https://www.gov.uk/government/news/precautionaryrecall-of-antidepressant-medication-due-to-manufacturing-error",
       "published": "2026-04-28T11:03:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Clinical investigations for medical devices",
-      "summary": "How to notify the MHRA of your intention to carry out a clinical investigation for medical devices.",
-      "link": "https://www.gov.uk/guidance/notify-mhra-about-a-clinical-investigation-for-a-medical-device",
-      "published": "2026-04-28T10:49:20+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
