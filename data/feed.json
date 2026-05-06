@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T07:49:15.986553+00:00",
-  "item_count": 114,
+  "generated_at": "2026-05-06T10:09:13.343308+00:00",
+  "item_count": 118,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -42,6 +42,66 @@
   ],
   "items": [
     {
+      "title": "Field Safety Notices: 1 May 2026",
+      "summary": "List of Field Safety Notices for 1 May 2026.",
+      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-1-may-2026",
+      "published": "2026-05-06T07:54:27+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Modification of Certain Terminology in Title 21",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is issuing a proposed rule to modify certain terminology in Title 21 of the Code of Federal Regulations (CFR) to comply with Executive Order (E.O.) 14168, &quot;Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,&quot; issued on January 20, 2025. Specifically, this proposed rule, if finalized, will remove the term &quot;gender&quot; wherever it appears and either replace it with the…",
+      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08826/modification-of-certain-terminology-in-title-21",
+      "published": "2026-05-06T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Ophthalmic Devices; Classification of the Corneal Storage Medium With Preservatives Including Antifungals",
+      "summary": "The Food and Drug Administration (FDA) is classifying the corneal storage medium with preservatives including antifungals into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the corneal storage medium with preservatives including antifungals. We are taking this action because we have determined that classifying the device into class II will provide a reasonable…",
+      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08813/medical-devices-ophthalmic-devices-classification-of-the-corneal-storage-medium-with-preservatives",
+      "published": "2026-05-06T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Immunology and Microbiology Devices; Classification of the Circulating Tumor Cell Enrichment Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the circulating tumor cell enrichment device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the circulating tumor cell enrichment device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device.…",
+      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08812/medical-devices-immunology-and-microbiology-devices-classification-of-the-circulating-tumor-cell",
+      "published": "2026-05-06T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Immunology and Microbiology Devices; Classification of the Device To Preserve and Stabilize Relative Abundances of Microbial Nucleic Acids in Clinical Samples",
+      "summary": "The Food and Drug Administration (FDA) is classifying the device to preserve and stabilize relative abundances of microbial nucleic acids in clinical samples into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the device to preserve and stabilize relative abundances of microbial nucleic acids in clinical samples. We are taking this action because we have determined that…",
+      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08811/medical-devices-immunology-and-microbiology-devices-classification-of-the-device-to-preserve-and",
+      "published": "2026-05-06T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Guidance on the Control of Products and Services Obtained from Suppliers",
       "summary": "Guidance on the Control of Products and Services Obtained from Suppliers",
       "link": "https://www.imdrf.org/consultations/guidance-control-products-and-services-obtained-suppliers",
@@ -64,18 +124,6 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Field Safety Notices: 1 May 2026",
-      "summary": "List of Field Safety Notices for 1 May 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-1-may-2026",
-      "published": "2026-05-01T15:38:40+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "Decision: Medical devices given exceptional use authorisations",
