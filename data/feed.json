@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T20:08:23.520054+00:00",
-  "item_count": 119,
+  "generated_at": "2026-05-06T21:11:58.891333+00:00",
+  "item_count": 131,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 12,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -78,6 +78,30 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Determination That DEXAMETHASONE (Dexamethasone) Elixir, 0.5 Milligrams/5 Milliliters, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA or Agency) has determined that DEXAMETHASONE (dexamethasone) elixir, 0.5 milligrams (mg)/5 milliliters (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and…",
+      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08939/determination-that-dexamethasone-dexamethasone-elixir-05-milligrams5-milliliters-was-not-withdrawn",
+      "published": "2026-05-06T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Issuance of Priority Review Voucher; Rare Pediatric Disease Product; OTARMENI (lunsotogene parvec-cwha)",
+      "summary": "The Food and Drug Administration (FDA) is announcing the issuance of a priority review voucher to the sponsor of a rare pediatric disease product application. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) authorizes FDA to award priority review vouchers to sponsors of approved rare pediatric disease product applications that meet certain criteria. FDA is required to publish notice of the award of the priority review voucher. FDA has determined that OTARMENI (lunsotogene parvec-cwha),…",
+      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08913/issuance-of-priority-review-voucher-rare-pediatric-disease-product-otarmeni-lunsotogene-parvec-cwha",
+      "published": "2026-05-06T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Modification of Certain Terminology in Title 21",
       "summary": "The Food and Drug Administration (FDA, the Agency, or we) is issuing a proposed rule to modify certain terminology in Title 21 of the Code of Federal Regulations (CFR) to comply with Executive Order (E.O.) 14168, &quot;Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,&quot; issued on January 20, 2025. Specifically, this proposed rule, if finalized, will remove the term &quot;gender&quot; wherever it appears and either replace it with the…",
       "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08826/modification-of-certain-terminology-in-title-21",
@@ -138,6 +162,18 @@
       "source": "IMDRF Consultations"
     },
     {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; National Youth Tobacco Survey",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/05/04/2026-08604/agency-information-collection-activities-proposed-collection-comment-request-national-youth-tobacco",
+      "published": "2026-05-04T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
       "summary": "FDA is announcing that it issued a “safe to proceed” letter to Revolution Medicines, allowing the sponsor to initiate an expanded access treatment protocol (EAP) for its experimental pancreatic cancer drug, daraxonrasib.",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-permits-expanded-access-investigational-pancreatic-cancer-drug",
@@ -184,6 +220,18 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
+    },
+    {
+      "title": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is evaluating substances that have been nominated for inclusion on a list of bulk drug substances (active pharmaceutical ingredients) for which there is a clinical need for outsourcing facilities to use in compounding (the 503B Bulks List). This notice identifies three bulk drug substances that FDA has considered and proposes not to include on the 503B Bulks List: semaglutide, tirzepatide, and liraglutide. Additional bulk drug…",
+      "link": "https://www.federalregister.gov/documents/2026/05/01/2026-08552/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+      "published": "2026-05-01T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Impacts of Patient-Focused Drug Development Meetings; Establishment of a Public Docket; Request for Information and Comments",
@@ -318,6 +366,30 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
+      "title": "ChemoCentryx, Inc.; Proposal To Withdraw Approval of New Drug Application for TAVNEOS (Avacopan) Capsule, 10 Milligrams; Opportunity for a Hearing",
+      "summary": "The Food and Drug Administration's (FDA, Agency, or we) Center for Drug Evaluation and Research (CDER) is proposing to withdraw approval of the new drug application (NDA) for TAVNEOS (avacopan) capsule, 10 milligrams (mg), held by ChemoCentryx, Inc., One Amgen Center Dr., Thousand Oaks, CA 91320 (ChemoCentryx or applicant), and is announcing an opportunity for the applicant to request a hearing on this proposal. The grounds for the proposal are twofold: (i) on the basis of new information…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08455/chemocentryx-inc-proposal-to-withdraw-approval-of-new-drug-application-for-tavneos-avacopan-capsule",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination That OZEMPIC (Semaglutide) Solution, 2 Milligrams Per 1.5 Milliliters Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA or Agency) has determined that OZEMPIC (semaglutide) solution, 2 milligrams (mg)/1.5 milliliter (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and regulatory…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08435/determination-that-ozempic-semaglutide-solution-2-milligrams-per-15-milliliters-was-not-withdrawn",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Medical Devices; Cardiovascular Devices; Classification of the Laser-Powered Inferior Vena Cava Filter Retrieval Catheter",
       "summary": "The Food and Drug Administration (FDA) is classifying the laser-powered inferior vena cava filter retrieval catheter into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the laser-powered inferior vena cava filter retrieval catheter. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of…",
       "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08426/medical-devices-cardiovascular-devices-classification-of-the-laser-powered-inferior-vena-cava-filter",
@@ -357,6 +429,18 @@
       "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Hazard Analysis and Critical Control Point Procedures for the Safe and Sanitary Processing and Importing of Juice",
       "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
       "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08417/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-04-30T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination FENOGLIDE (Fenofibrate) Tablets, 40 Milligrams and 120 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA or Agency) has determined that FENOGLIDE (fenofibrate) tablets, 40 milligrams (mg) and 120 mg, was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and regulatory…",
+      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08390/determination-fenoglide-fenofibrate-tablets-40-milligrams-and-120-milligrams-was-not-withdrawn-from",
       "published": "2026-04-30T00:00:00+00:00",
       "agency": "FR",
       "region": "United States",
@@ -618,6 +702,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Vaccines and Related Biological Products Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-United States (U.S.) 2026-2027 Formula for COVID-19 Vaccine Composition",
+      "summary": "The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Vaccines and Related Biological Products Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA on regulatory issues. The meeting will be open to the public. FDA is establishing a docket for public comment on this document.",
+      "link": "https://www.federalregister.gov/documents/2026/04/27/2026-08122/vaccines-and-related-biological-products-advisory-committee-notice-of-meeting-establishment-of-a",
+      "published": "2026-04-27T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Class 3 Medicines Recall: Omega Pharma Ltd, Napralief 250mg Gastro-Resistant Tablets, EL(26)A/21",
       "summary": "Omega Pharma Ltd is recalling specific batches of Napralief 250mg Gastro-Resistant Tablets due to missing text in Section 2 and Section 3 of the Patient Information Leaflet (PIL) and on the Carton in packs of Napralief 250mg…",
       "link": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-omega-pharma-ltd-napralief-250mg-gastro-resistant-tablets-el-26-a-slash-21",
@@ -676,6 +772,18 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Report on the Performance of Drug and Biologics Firms in Conducting Postmarketing Requirements and Commitments; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of the Agency's annual report entitled &quot;Report on the Performance of Drug and Biologics Firms in Conducting Postmarketing Requirements and Commitments.&quot; Under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act), FDA is required to report annually on the status of postmarketing requirements (PMRs) and postmarketing commitments (PMCs) required of, or agreed upon by, application holders of approved drug…",
+      "link": "https://www.federalregister.gov/documents/2026/04/24/2026-08084/report-on-the-performance-of-drug-and-biologics-firms-in-conducting-postmarketing-requirements-and",
+      "published": "2026-04-24T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Ferris Coffee & Nut Co. Issues Allergy Alert on Undeclared Wheat and Soy in Frederik’s By Meijer Vanilla Bourbon Trail Mix",
@@ -772,6 +880,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Class 4 Medicines Defect Notification: Doncaster Pharma Limited, Hiprex 1g tablets, EL(26)A/20",
+      "summary": "Doncaster Pharma Limited has informed the MHRA of an error related to the Braille embossing on the outer packaging of certain parallel imported batches of Hiprex 1 g tablets (POM).",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-doncaster-pharma-limited-hiprex-1g-tablets-el-26-a-slash-20",
+      "published": "2026-04-22T10:00:22+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "Insulin Pump Correction: Tandem Diabetes Care Issues Correction for Tandem Mobi Insulin Pumps",
@@ -1204,6 +1324,30 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Class 4 Medicines Defect Notification: Sandoz Limited, Apixaban 2.5mg and 5mg Tablets, EL(26)A/17",
+      "summary": "Sandoz Ltd. have informed the MHRA that the Patient Information Leaflet included in specified batches of Apixaban does not contain up‑to‑date information.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-sandoz-limited-apixaban-2-dot-5mg-and-5mg-tablets-el-26-a-slash-17",
+      "published": "2026-03-26T14:01:58+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Class 4 Medicines Defect Notification: Quadrant Pharmaceuticals Limited, Vesomni 6 mg/0.4 mg modified release tablets , EL(26)A/16",
+      "summary": "Quadrant Pharmaceuticals Limited have informed the MHRA that their parallel imported packs of Vesomni 6 mg/0.4 mg modified release tablets have been printed with the incorrect barcode/GTIN on the carton.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-quadrant-pharmaceuticals-limited-vesomni-6-mg-slash-0-dot-4-mg-modified-release-tablets-el-26-a-slash-16",
+      "published": "2026-03-26T10:02:07+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "FDA Approves Drug to Treat Neurologic Manifestations of Hunter Syndrome",
