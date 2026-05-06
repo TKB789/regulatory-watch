@@ -2305,23 +2305,33 @@ function renderHero() {
 // Each tab pulls items from a known set of feed_ids. Tabs always exist; if a
 // tab has no items, it shows the empty-state agency-fallback panel.
 
-// One tab per feed_id. The tab id (key) MUST match the feed_id from
-// fetch_feeds.py exactly. This avoids items getting lost in the wrong bucket.
+// Each tab matches items by:
+//   1. feed_id (preferred — set by recent fetch_feeds.py)
+//   2. source (fallback — the human-readable feed name on every item)
+// Listing both makes the tab work whether an item is from the new schema
+// (feed_id present) or older schema (only source present).
 const TAB_SOURCES = {
-  'fda-recalls':      { feed_ids: ['fda-recalls'],      category: 'recall' },
-  'fda-medwatch':     { feed_ids: ['fda-medwatch'],     category: 'recall' },
-  'fda-press':        { feed_ids: ['fda-press'],        category: 'guidance' },
-  'federal-register': { feed_ids: ['federal-register'], category: 'prepub' },
-  'imdrf-wg':         { feed_ids: ['imdrf-wg'],         category: 'guidance' },
-  'imdrf-consult':    { feed_ids: ['imdrf-consult'],    category: 'guidance' },
-  'who-alerts':       { feed_ids: ['who-alerts'],       category: 'recall' },
-  'mhra-news':        { feed_ids: ['mhra-news'],        category: 'postmarket' },
-  'uk-alerts':        { feed_ids: ['uk-alerts'],        category: 'recall' },
-  'hc-recalls':       { feed_ids: ['hc-recalls'],       category: 'recall' },
-  'tga-news':         { feed_ids: ['tga-news'],         category: 'postmarket' },
-  'eu-health':        { feed_ids: ['eu-health'],        category: 'guidance' },
-  'eur-lex':          { feed_ids: ['eur-lex'],          category: 'prepub' },
+  'fda-recalls':      { feed_ids: ['fda-recalls'],      sources: ['FDA Recalls', 'FDA Medical Device Recalls'],         category: 'recall' },
+  'fda-medwatch':     { feed_ids: ['fda-medwatch'],     sources: ['FDA MedWatch Safety Alerts'],                         category: 'recall' },
+  'fda-press':        { feed_ids: ['fda-press'],        sources: ['FDA Press Announcements'],                            category: 'guidance' },
+  'federal-register': { feed_ids: ['federal-register'], sources: ['Federal Register — FDA documents'],                   category: 'prepub' },
+  'imdrf-wg':         { feed_ids: ['imdrf-wg'],         sources: ['IMDRF Working Groups'],                               category: 'guidance' },
+  'imdrf-consult':    { feed_ids: ['imdrf-consult'],    sources: ['IMDRF Consultations'],                                category: 'guidance' },
+  'who-alerts':       { feed_ids: ['who-alerts'],       sources: ['WHO Medical Product Alerts'],                         category: 'recall' },
+  'mhra-news':        { feed_ids: ['mhra-news'],        sources: ['MHRA news & alerts'],                                 category: 'postmarket' },
+  'uk-alerts':        { feed_ids: ['uk-alerts'],        sources: ['UK Drug & Medical Device Alerts'],                    category: 'recall' },
+  'hc-recalls':       { feed_ids: ['hc-recalls'],       sources: ['Health Canada recalls & safety alerts'],              category: 'recall' },
+  'tga-news':         { feed_ids: ['tga-news'],         sources: ['TGA news & alerts'],                                  category: 'postmarket' },
+  'eu-health':        { feed_ids: ['eu-health'],        sources: ['European Commission — Health news'],                  category: 'guidance' },
+  'eur-lex':          { feed_ids: ['eur-lex'],          sources: ['EUR-Lex — Recent regulations & directives'],          category: 'prepub' },
 };
+
+// Test if an item belongs to a given tab by checking feed_id OR source.
+function itemBelongsTo(item, cfg) {
+  if (item.feed_id && cfg.feed_ids.includes(item.feed_id)) return true;
+  if (item.src && cfg.sources && cfg.sources.includes(item.src)) return true;
+  return false;
+}
 
 // Keywords that mark an item as a guidance document, regardless of source.
 const GUIDANCE_KEYWORDS = [
@@ -2344,7 +2354,7 @@ function renderCuratedTabs(items) {
     target.innerHTML = '';
 
     const filtered = items
-      .filter(u => cfg.feed_ids.includes(u.feed_id))
+      .filter(u => itemBelongsTo(u, cfg))
       .sort((a, b) => b.sortKey - a.sortKey);
 
     // Update tab count
