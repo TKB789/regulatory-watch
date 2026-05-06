@@ -26,6 +26,16 @@ import urllib.error
 
 socket.setdefaulttimeout(30)
 
+# ============================================================================
+# DIAGNOSTIC SWITCH — set to True to keep everything from every feed regardless
+# of whether it looks device-related. Useful for debugging "feeds returning 0
+# items" issues. When True:
+#   - the per-fetch device filter is bypassed
+#   - the retroactive archive pruner is also bypassed
+# When False (normal mode), broad feeds are filtered to medical-device topics.
+# ============================================================================
+DISABLE_DEVICE_FILTER = True
+
 # Many gov RSS feeds block default Python/feedparser User-Agents. We send a
 # realistic browser-like UA to get past basic bot detection.
 USER_AGENT = (
@@ -77,6 +87,79 @@ def fetch_raw_feed(url, timeout=30):
 #
 # Add or remove feeds here — that's the only config file you'll edit.
 # ---------------------------------------------------------------------------
+
+# =============================================================================
+# BACKUP FEED REFERENCE
+# =============================================================================
+# Cross-referenced against rainfo.org/regulatory-news-rss-feeds (curated list)
+# in case any of the active feeds below break, here are the verified URLs to
+# fall back on. Last verified: May 2026.
+#
+# Currently active feeds are in FEEDS below. This dict is just a reference.
+# To activate a backup feed, uncomment its block in FEEDS.
+#
+# === FDA (US) — Only 3 device-relevant feeds actually exist on fda.gov ===
+#   FDA Recalls (all FDA, filter to devices):
+#       https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml
+#   FDA MedWatch Safety Alerts:
+#       https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml
+#   FDA Press Announcements:
+#       https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml
+#
+# === Federal Register ===
+#   FDA documents (rules, proposed rules, notices):
+#       https://www.federalregister.gov/api/v1/documents.rss?conditions[agencies][]=food-and-drug-administration&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[type][]=NOTICE
+#
+# === IMDRF (international harmonization) ===
+#   Working Groups:   https://www.imdrf.org/working-groups.xml
+#   Consultations:    https://www.imdrf.org/consultations.xml
+#   Documents:        https://www.imdrf.org/documents.xml
+#   Events:           https://www.imdrf.org/events.xml
+#   News:             https://www.imdrf.org/news.xml
+#
+# === WHO ===
+#   Medical Product Alerts: https://www.who.int/rss-feeds/medical-product-alerts-en.xml
+#
+# === MHRA / UK (gov.uk Atom feeds) ===
+#   MHRA news & alerts:
+#       https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom
+#   UK Drug & Medical Device Alerts:
+#       https://www.gov.uk/drug-device-alerts.atom
+#   MHRA Inspectorate:
+#       https://mhrainspectorate.blog.gov.uk/feed/
+#
+# === Health Canada ===
+#   Recalls & safety alerts:
+#       https://recalls-rappels.canada.ca/en/rss.xml
+#   Medical Devices, Drugs and Health Products:
+#       https://www.canada.ca/en/news/web-feeds/health-canada-news.xml
+#
+# === TGA (Australia) ===
+#   News & alerts: https://www.tga.gov.au/rss.xml
+#
+# === EU Commission / EMA ===
+#   EU Health News (Commission):
+#       https://health.ec.europa.eu/rss_en
+#   EMA News & Press Releases:
+#       https://www.ema.europa.eu/en/news/rss.xml
+#   EMA What's New:
+#       https://www.ema.europa.eu/en/whats-new/rss.xml
+#
+# === EUR-Lex ===
+#   Recent regulations & directives:
+#       https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-recent
+#   (For MDR/IVDR-specific feeds, use EUR-Lex saved-search RSS — requires
+#    a free EUR-Lex account.)
+#
+# === Czech Republic — SUKL (alternate EU regulator with rich feeds) ===
+#   Medical Devices: https://www.sukl.eu/rss/en/10201
+#   Surveillance:    https://www.sukl.eu/rss/en/84
+#   Pharmacovigilance: https://www.sukl.eu/rss/en/62
+#
+# === Saudi Arabia — SFDA ===
+#   News (Arabic + English): https://www.sfda.gov.sa/en/rss
+#
+# =============================================================================
 
 FEEDS = [
     # ============================================================
@@ -357,6 +440,7 @@ def fetch_one(feed_cfg: dict) -> dict:
     # Try up to 2 times; transient timeouts and 5xx are common on gov servers
     parsed = None
     last_error = None
+    raw_bytes = None
     for attempt in range(2):
         try:
             # Fetch raw bytes ourselves (handles gzip, BOM, leading whitespace)
@@ -370,6 +454,8 @@ def fetch_one(feed_cfg: dict) -> dict:
                     time.sleep(2)
                     continue
                 print(f"    ✗ {last_error}", flush=True)
+                # Log the first 200 chars so we can see what was returned
+                print(f"    DEBUG response start: {head[:200]!r}", flush=True)
                 return {"items": [], "status": "error", "reason": last_error}
 
             parsed = feedparser.parse(raw_bytes)
@@ -416,10 +502,14 @@ def fetch_one(feed_cfg: dict) -> dict:
             except Exception:
                 pass
             print(f"    ✗ feed error: {reason}", flush=True)
+            # Diagnostic: what did the server actually return?
+            if raw_bytes:
+                preview = raw_bytes[:300].decode("utf-8", errors="replace")
+                print(f"    DEBUG ({len(raw_bytes)} bytes): {preview!r}", flush=True)
             return {"items": [], "status": "error", "reason": reason}
 
         total_entries = len(parsed.entries)
-        filter_devices = feed_cfg.get("filter_to_devices", False)
+        filter_devices = feed_cfg.get("filter_to_devices", False) and not DISABLE_DEVICE_FILTER
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = clean_html(entry.get("title", ""))
             summary = clean_html(entry.get("summary", entry.get("description", "")))
@@ -458,6 +548,8 @@ def fetch_one(feed_cfg: dict) -> dict:
 
 def main():
     print(f"Fetching {len(FEEDS)} feed(s)…", flush=True)
+    if DISABLE_DEVICE_FILTER:
+        print(f"⚠ DISABLE_DEVICE_FILTER=True — keeping ALL items, no device filtering", flush=True)
     new_items = []
     failed_feeds = []
     empty_feeds = []
@@ -508,25 +600,29 @@ def main():
     # Re-apply the device filter to existing archived items so old drug-related
     # entries (from earlier looser filters) get cleaned up. Uses the same
     # is_device_related() function as fetching to keep behavior consistent.
+    # Skipped entirely when DISABLE_DEVICE_FILTER is True.
     pruned_count = 0
-    pruned_items = []
-    for item in existing_items:
-        full_text = f"{item.get('title', '')} {item.get('summary', '')}"
-        # Items from device-specific feeds (no filter_to_devices flag) were
-        # never filtered originally; trust the upstream source and keep them.
-        item_source = item.get("source", "")
-        feed_was_filtered = False
-        for cfg in FEEDS:
-            if cfg["name"] == item_source:
-                feed_was_filtered = cfg.get("filter_to_devices", False)
-                break
-        if feed_was_filtered:
-            # Re-check against current rules
-            if not is_device_related(full_text):
-                pruned_count += 1
-                continue
-        pruned_items.append(item)
-    existing_items = pruned_items
+    if DISABLE_DEVICE_FILTER:
+        print(f"  ⚠ DISABLE_DEVICE_FILTER is True — skipping archive pruning", flush=True)
+    else:
+        pruned_items = []
+        for item in existing_items:
+            full_text = f"{item.get('title', '')} {item.get('summary', '')}"
+            # Items from device-specific feeds (no filter_to_devices flag) were
+            # never filtered originally; trust the upstream source and keep them.
+            item_source = item.get("source", "")
+            feed_was_filtered = False
+            for cfg in FEEDS:
+                if cfg["name"] == item_source:
+                    feed_was_filtered = cfg.get("filter_to_devices", False)
+                    break
+            if feed_was_filtered:
+                # Re-check against current rules
+                if not is_device_related(full_text):
+                    pruned_count += 1
+                    continue
+            pruned_items.append(item)
+        existing_items = pruned_items
     if pruned_count:
         print(f"  Pruned {pruned_count} now-out-of-scope item(s) from archive", flush=True)
 
