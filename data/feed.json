@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T12:15:08.332683+00:00",
-  "item_count": 118,
+  "generated_at": "2026-05-06T15:08:44.070487+00:00",
+  "item_count": 119,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,6 +41,18 @@
     }
   ],
   "items": [
+    {
+      "title": "Export drugs and medicines: special rules",
+      "summary": "You must get permission to export certain drugs and medicines.",
+      "link": "https://www.gov.uk/guidance/export-drugs-and-medicines-special-rules",
+      "published": "2026-05-06T12:59:29+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Clinical investigations for medical devices",
       "summary": "How to notify the MHRA of your intention to carry out a clinical investigation for medical devices.",
