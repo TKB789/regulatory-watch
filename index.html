@@ -1328,16 +1328,19 @@
   <div class="tab-nav-inner" id="tab-nav-inner">
     <button class="tab-btn active" data-tab="dashboard">Dashboard</button>
     <button class="tab-btn" data-tab="fda-recalls">FDA Recalls <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="fda-safety">FDA Safety <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="fda-cdrh">FDA CDRH <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="mhra">MHRA Alerts <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="eu">EU &amp; EUR-Lex <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="canada">Health Canada <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="tga">TGA <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="imdrf">IMDRF <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="who">WHO Alerts <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="fda-medwatch">FDA MedWatch <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="fda-press">FDA Press <span class="count">0</span></button>
     <button class="tab-btn" data-tab="federal-register">Federal Register <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="imdrf-wg">IMDRF Working Groups <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="imdrf-consult">IMDRF Consultations <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="who-alerts">WHO Alerts <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="mhra-news">MHRA News <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="uk-alerts">UK Drug &amp; Device Alerts <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="hc-recalls">Health Canada <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="tga-news">TGA News <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="eu-health">EU Commission Health <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="eur-lex">EUR-Lex <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">0</span></button>
     <button class="tab-btn" data-tab="calendar">Calendar</button>
     <button class="tab-btn" data-tab="agencies">Agencies</button>
     <button class="tab-btn" data-tab="archive">Archive</button>
@@ -1372,99 +1375,126 @@
     <div class="section-header">
       <div class="kicker">▌ Source</div>
       <h1>FDA <em>Recalls</em></h1>
-      <p class="desc">Class I, II, and III medical device recalls from the FDA Medical Device Recalls RSS feed.</p>
+      <p class="desc">Items from the FDA Recalls RSS feed (covers food, drugs, devices). Tagged with the FDA agency badge.</p>
     </div>
     <div id="updates-fda-recalls"></div>
   </div>
 
-  <div class="tab-section" id="tab-fda-safety">
+  <div class="tab-section" id="tab-fda-medwatch">
     <div class="section-header">
       <div class="kicker">▌ Source</div>
-      <h1>FDA <em>Safety</em></h1>
-      <p class="desc">FDA medical device safety communications and MedWatch alerts. Combines the device-specific safety feed with device-relevant items from MedWatch.</p>
+      <h1>FDA <em>MedWatch</em></h1>
+      <p class="desc">Items from the FDA MedWatch Safety Alerts RSS feed.</p>
     </div>
-    <div id="updates-fda-safety"></div>
+    <div id="updates-fda-medwatch"></div>
   </div>
 
-  <div class="tab-section" id="tab-fda-cdrh">
+  <div class="tab-section" id="tab-fda-press">
     <div class="section-header">
       <div class="kicker">▌ Source</div>
-      <h1>FDA <em>CDRH</em></h1>
-      <p class="desc">CDRH "What's New" feed and device-related FDA press announcements. Premarket activity, classifications, and policy updates.</p>
+      <h1>FDA <em>Press</em></h1>
+      <p class="desc">Items from the FDA Press Announcements RSS feed.</p>
     </div>
-    <div id="updates-fda-cdrh"></div>
-  </div>
-
-  <div class="tab-section" id="tab-mhra">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>MHRA <em>Alerts</em></h1>
-      <p class="desc">MHRA news, alerts, and the UK Drug &amp; Medical Device Alerts feed combined.</p>
-    </div>
-    <div id="updates-mhra"></div>
-  </div>
-
-  <div class="tab-section" id="tab-eu">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>EU &amp; <em>EUR-Lex</em></h1>
-      <p class="desc">European Commission health news and EUR-Lex regulations &amp; directives, filtered to medical devices.</p>
-    </div>
-    <div id="updates-eu"></div>
-  </div>
-
-  <div class="tab-section" id="tab-canada">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>Health <em>Canada</em></h1>
-      <p class="desc">Health Canada recalls and safety alerts for medical devices.</p>
-    </div>
-    <div id="updates-canada"></div>
-  </div>
-
-  <div class="tab-section" id="tab-tga">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>TGA <em>Australia</em></h1>
-      <p class="desc">Therapeutic Goods Administration news and alerts, filtered to medical devices.</p>
-    </div>
-    <div id="updates-tga"></div>
-  </div>
-
-  <div class="tab-section" id="tab-imdrf">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>IMDRF</h1>
-      <p class="desc">International Medical Device Regulators Forum — working groups and open consultations.</p>
-    </div>
-    <div id="updates-imdrf"></div>
-  </div>
-
-  <div class="tab-section" id="tab-who">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>WHO <em>Alerts</em></h1>
-      <p class="desc">World Health Organization medical product alerts, filtered to devices and combination products.</p>
-    </div>
-    <div id="updates-who"></div>
-  </div>
-
-  <div class="tab-section" id="tab-guidance">
-    <div class="section-header">
-      <div class="kicker">▌ Cross-Source</div>
-      <h1>Guidance <em>Documents</em></h1>
-      <p class="desc">Medical device guidance documents from across all monitored sources — FDA, MHRA, EU, IMDRF, and others. Items are detected by keywords like "guidance", "draft", "consultation", "MDCG", "technical document", etc.</p>
-    </div>
-    <div id="updates-guidance"></div>
+    <div id="updates-fda-press"></div>
   </div>
 
   <div class="tab-section" id="tab-federal-register">
     <div class="section-header">
       <div class="kicker">▌ Source</div>
       <h1>Federal <em>Register</em></h1>
-      <p class="desc">FDA documents on public inspection at the U.S. Federal Register — proposed rules, final rules, and notices.</p>
+      <p class="desc">FDA documents on public inspection at the U.S. Federal Register — rules, proposed rules, and notices.</p>
     </div>
     <div id="updates-federal-register"></div>
+  </div>
+
+  <div class="tab-section" id="tab-imdrf-wg">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>IMDRF <em>Working Groups</em></h1>
+      <p class="desc">Items from the IMDRF Working Groups RSS feed.</p>
+    </div>
+    <div id="updates-imdrf-wg"></div>
+  </div>
+
+  <div class="tab-section" id="tab-imdrf-consult">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>IMDRF <em>Consultations</em></h1>
+      <p class="desc">Items from the IMDRF Consultations RSS feed.</p>
+    </div>
+    <div id="updates-imdrf-consult"></div>
+  </div>
+
+  <div class="tab-section" id="tab-who-alerts">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>WHO <em>Alerts</em></h1>
+      <p class="desc">Items from the WHO Medical Product Alerts RSS feed.</p>
+    </div>
+    <div id="updates-who-alerts"></div>
+  </div>
+
+  <div class="tab-section" id="tab-mhra-news">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>MHRA <em>News</em></h1>
+      <p class="desc">Items from the MHRA news &amp; alerts feed (gov.uk).</p>
+    </div>
+    <div id="updates-mhra-news"></div>
+  </div>
+
+  <div class="tab-section" id="tab-uk-alerts">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>UK <em>Drug &amp; Device Alerts</em></h1>
+      <p class="desc">Items from the gov.uk Drug &amp; Medical Device Alerts feed.</p>
+    </div>
+    <div id="updates-uk-alerts"></div>
+  </div>
+
+  <div class="tab-section" id="tab-hc-recalls">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>Health <em>Canada</em></h1>
+      <p class="desc">Items from the Health Canada recalls &amp; safety alerts RSS feed.</p>
+    </div>
+    <div id="updates-hc-recalls"></div>
+  </div>
+
+  <div class="tab-section" id="tab-tga-news">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>TGA <em>News</em></h1>
+      <p class="desc">Items from the Therapeutic Goods Administration (Australia) news &amp; alerts feed.</p>
+    </div>
+    <div id="updates-tga-news"></div>
+  </div>
+
+  <div class="tab-section" id="tab-eu-health">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>EU <em>Commission Health</em></h1>
+      <p class="desc">Items from the European Commission Health news RSS feed.</p>
+    </div>
+    <div id="updates-eu-health"></div>
+  </div>
+
+  <div class="tab-section" id="tab-eur-lex">
+    <div class="section-header">
+      <div class="kicker">▌ Source</div>
+      <h1>EUR-<em>Lex</em></h1>
+      <p class="desc">Recent EU regulations &amp; directives from EUR-Lex.</p>
+    </div>
+    <div id="updates-eur-lex"></div>
+  </div>
+
+  <div class="tab-section" id="tab-guidance">
+    <div class="section-header">
+      <div class="kicker">▌ Cross-Source</div>
+      <h1>Guidance <em>Documents</em></h1>
+      <p class="desc">Medical device guidance documents detected across all sources by keywords like "guidance", "draft", "consultation", "MDCG", "technical document", etc.</p>
+    </div>
+    <div id="updates-guidance"></div>
   </div>
 
   <!-- ===== CALENDAR TAB ===== -->
@@ -2275,17 +2305,22 @@ function renderHero() {
 // Each tab pulls items from a known set of feed_ids. Tabs always exist; if a
 // tab has no items, it shows the empty-state agency-fallback panel.
 
+// One tab per feed_id. The tab id (key) MUST match the feed_id from
+// fetch_feeds.py exactly. This avoids items getting lost in the wrong bucket.
 const TAB_SOURCES = {
-  'fda-recalls':      { feed_ids: ['fda-recalls'],                category: 'recall' },
-  'fda-safety':       { feed_ids: ['fda-medwatch'],               category: 'postmarket' },
-  'fda-cdrh':         { feed_ids: ['fda-press'],                  category: 'premarket' },
-  'mhra':             { feed_ids: ['mhra-news', 'uk-alerts'],     category: 'recall' },
-  'eu':               { feed_ids: ['eu-health', 'eur-lex'],       category: 'guidance' },
-  'canada':           { feed_ids: ['hc-recalls'],                 category: 'recall' },
-  'tga':              { feed_ids: ['tga-news'],                   category: 'postmarket' },
-  'imdrf':            { feed_ids: ['imdrf-wg', 'imdrf-consult'],  category: 'guidance' },
-  'who':              { feed_ids: ['who-alerts'],                 category: 'recall' },
-  'federal-register': { feed_ids: ['federal-register'],           category: 'prepub' },
+  'fda-recalls':      { feed_ids: ['fda-recalls'],      category: 'recall' },
+  'fda-medwatch':     { feed_ids: ['fda-medwatch'],     category: 'recall' },
+  'fda-press':        { feed_ids: ['fda-press'],        category: 'guidance' },
+  'federal-register': { feed_ids: ['federal-register'], category: 'prepub' },
+  'imdrf-wg':         { feed_ids: ['imdrf-wg'],         category: 'guidance' },
+  'imdrf-consult':    { feed_ids: ['imdrf-consult'],    category: 'guidance' },
+  'who-alerts':       { feed_ids: ['who-alerts'],       category: 'recall' },
+  'mhra-news':        { feed_ids: ['mhra-news'],        category: 'postmarket' },
+  'uk-alerts':        { feed_ids: ['uk-alerts'],        category: 'recall' },
+  'hc-recalls':       { feed_ids: ['hc-recalls'],       category: 'recall' },
+  'tga-news':         { feed_ids: ['tga-news'],         category: 'postmarket' },
+  'eu-health':        { feed_ids: ['eu-health'],        category: 'guidance' },
+  'eur-lex':          { feed_ids: ['eur-lex'],          category: 'prepub' },
 };
 
 // Keywords that mark an item as a guidance document, regardless of source.
