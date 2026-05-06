@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T01:53:10.011399+00:00",
-  "item_count": 113,
+  "generated_at": "2026-05-06T05:21:48.933128+00:00",
+  "item_count": 114,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,6 +41,18 @@
     }
   ],
   "items": [
+    {
+      "title": "Guidance on the Control of Products and Services Obtained from Suppliers",
+      "summary": "Guidance on the Control of Products and Services Obtained from Suppliers",
+      "link": "https://www.imdrf.org/consultations/guidance-control-products-and-services-obtained-suppliers",
+      "published": "2026-05-05T01:16:28+00:00",
+      "agency": "IMDRF",
+      "region": "International",
+      "category": "guidance",
+      "feed_id": "imdrf-consult",
+      "feed_label": "IMDRF Consultations",
+      "source": "IMDRF Consultations"
+    },
     {
       "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
       "summary": "FDA is announcing that it issued a “safe to proceed” letter to Revolution Medicines, allowing the sponsor to initiate an expanded access treatment protocol (EAP) for its experimental pancreatic cancer drug, daraxonrasib.",
