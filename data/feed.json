@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T05:26:13.805333+00:00",
-  "item_count": 131,
+  "generated_at": "2026-05-07T08:03:18.940175+00:00",
+  "item_count": 136,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,6 +41,66 @@
     }
   ],
   "items": [
+    {
+      "title": "Operation Pangea XVIII: UK Border operation intercepts millions of dangerous medicines across two weeks",
+      "summary": "MHRA and UK Border Force crack down on the illegal medicines trade in intensive 14-day international operation.",
+      "link": "https://www.gov.uk/government/news/operation-pangea-xviii-uk-border-operation-intercepts-millions-of-dangerous-medicines-across-two-weeks",
+      "published": "2026-05-07T06:02:43+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Advisory Committee; Blood Products Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Blood Products Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Blood Products Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 13, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09108/advisory-committee-blood-products-advisory-committee-renewal",
+      "published": "2026-05-07T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Patient-Matched Guides for Orthopedic Implants; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Patient-Matched Guides for Orthopedic Implants.&quot; This guidance document provides recommendations regarding information that should be included in regulatory submissions for patient-matched guides for orthopedic implants. This guidance also provides recommendations that manufacturers should consider when developing their design process for these device types. This guidance is…",
+      "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09023/patient-matched-guides-for-orthopedic-implants-guidance-for-industry-and-food-and-drug",
+      "published": "2026-05-07T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Teva Pharmaceuticals USA, Inc., et al.; Withdrawal of Approval of 15 Abbreviated New Drug Applications",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of 15 abbreviated new drug applications (ANDAs) from multiple applicants. The applicants notified the Agency in writing that the drug products were no longer marketed and requested that the approval of the applications be withdrawn.",
+      "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09012/teva-pharmaceuticals-usa-inc-et-al-withdrawal-of-approval-of-15-abbreviated-new-drug-applications",
+      "published": "2026-05-07T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination That MICARDIS (Telmisartan), Tablets, 20 Milligrams and 80 Milligrams, Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that MICARDIS (telmisartan), tablets, 20 milligrams (mg) and 80 mg, were not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to these drug products, and it will allow FDA to continue to approve ANDAs that refer to these products as long as they meet relevant legal and regulatory…",
+      "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09011/determination-that-micardis-telmisartan-tablets-20-milligrams-and-80-milligrams-were-not-withdrawn",
+      "published": "2026-05-07T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Export drugs and medicines: special rules",
       "summary": "You must get permission to export certain drugs and medicines.",
