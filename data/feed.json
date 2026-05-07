@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T12:25:46.083614+00:00",
-  "item_count": 136,
+  "generated_at": "2026-05-07T15:10:30.973176+00:00",
+  "item_count": 143,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 7,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,6 +41,102 @@
     }
   ],
   "items": [
+    {
+      "title": "Guidance: RSV Vaccine Factsheet – Information for Patients, Parents and Carers",
+      "summary": "Patient factsheet providing information on respiratory syncytial virus (RSV) and RSV vaccination.",
+      "link": "https://www.gov.uk/government/publications/rsv-vaccine-factsheet-information-for-patients-parents-and-carers",
+      "published": "2026-05-07T14:11:37+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA approves donidalorsen (Dawnzera) for the treatment of hereditary angioedema",
+      "summary": "MHRA approves donidalorsen (Dawnzera) for the treatment of hereditary angioedema",
+      "link": "https://www.gov.uk/government/news/mhra-approves-donidalorsen-dawnzera-for-the-treatment-of-hereditary-angioedema",
+      "published": "2026-05-07T14:03:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Orphan registered medicinal products",
+      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
+      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
+      "published": "2026-05-07T12:36:21+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Human medicines: register of licensed wholesale distribution sites",
+      "summary": "Department of Health and Social Care and MHRA register of licensed wholesale distribution sites (human).",
+      "link": "https://www.gov.uk/government/publications/human-and-veterinary-medicines-register-of-licensed-wholesale-distribution-sites",
+      "published": "2026-05-07T12:35:48+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Human and veterinary medicines: register of licensed manufacturing sites",
+      "summary": "The MHRA register of licensed manufacturing sites: manufacturer specials - human (MS) and manufacturer specials authorisation - veterinary (MANSA) only.",
+      "link": "https://www.gov.uk/government/publications/human-and-veterinary-medicines-register-of-licensed-manufacturing-sites",
+      "published": "2026-05-07T12:35:21+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Medicines: new manufacturing and wholesale dealer licences",
+      "summary": "List of sites granted a manufacturer or wholesale dealer licence.",
+      "link": "https://www.gov.uk/government/publications/medicines-new-manufacturing-and-wholesale-dealer-licences",
+      "published": "2026-05-07T12:35:07+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Notice: Register of brokers authorised to deal in human medicines",
+      "summary": "Current listing of UK brokers authorised to broker human medicines, including company name, registration and address.",
+      "link": "https://www.gov.uk/government/publications/register-of-brokers-authorised-to-deal-in-human-medicines",
+      "published": "2026-05-07T12:34:56+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Notice: Medicines: terminated and cancelled manufacturing and wholesale dealer licences",
+      "summary": "UK companies who have their licence to manufacture or wholesale medicines terminated and cancelled.",
+      "link": "https://www.gov.uk/government/publications/medicines-terminated-and-cancelled-manufacturing-and-wholesale-dealer-licences",
+      "published": "2026-05-07T12:34:34+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Operation Pangea XVIII: UK Border operation intercepts millions of dangerous medicines across two weeks",
       "summary": "MHRA and UK Border Force crack down on the illegal medicines trade in intensive 14-day international operation.",
@@ -376,18 +472,6 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Decision: Orphan registered medicinal products",
-      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
-      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
-      "published": "2026-04-30T13:10:39+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Nasal decongestant sprays and drops containing xylometazoline hydrochloride / oxymetazoline hydrochloride: increased risk of rebound congestion, rhinitis medicamentosa, and tachyphylaxis with overuse",
