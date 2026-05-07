@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-07T17:14:53.331148+00:00",
-  "item_count": 143,
+  "generated_at": "2026-05-07T19:12:17.151071+00:00",
+  "item_count": 144,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,6 +41,18 @@
     }
   ],
   "items": [
+    {
+      "title": "Find product information about medicines",
+      "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
+      "link": "https://www.gov.uk/guidance/find-product-information-about-medicines",
+      "published": "2026-05-07T17:13:19+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Guidance: RSV Vaccine Factsheet – Information for Patients, Parents and Carers",
       "summary": "Patient factsheet providing information on respiratory syncytial virus (RSV) and RSV vaccination.",
