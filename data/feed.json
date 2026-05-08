@@ -1,45 +1,38 @@
 {
-  "generated_at": "2026-05-08T02:02:52.047926+00:00",
-  "item_count": 144,
-  "feed_count": 13,
-  "new_this_run": 0,
-  "pruned_this_run": 0,
+  "generated_at": "2026-05-08T04:39:58.009877+00:00",
+  "archive_days": 180,
+  "item_count": 141,
+  "feed_count": 10,
+  "new_this_run": 3,
+  "expired_this_run": 6,
   "failed_feeds": [
     {
+      "feed_id": "fda-recalls",
       "name": "FDA Recalls",
       "reason": "HTTP 404: Not Found"
     },
     {
+      "feed_id": "fda-medwatch",
       "name": "FDA MedWatch Safety Alerts",
       "reason": "HTTP 404: Not Found"
     },
     {
+      "feed_id": "fda-press",
       "name": "FDA Press Announcements",
       "reason": "HTTP 404: Not Found"
     },
     {
-      "name": "WHO Medical Product Alerts",
-      "reason": "HTTP 404: Not Found"
-    },
-    {
-      "name": "Health Canada recalls & safety alerts",
-      "reason": "HTTP 404: Not Found"
-    },
-    {
-      "name": "TGA news & alerts",
+      "feed_id": "tga-news",
+      "name": "TGA safety alerts",
       "reason": "The read operation timed out"
     },
     {
+      "feed_id": "eu-health",
       "name": "European Commission — Health news",
       "reason": "HTTP 404: Not Found"
     }
   ],
-  "empty_feeds": [
-    {
-      "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "feed returned 0 entries"
-    }
-  ],
+  "empty_feeds": [],
   "items": [
     {
       "title": "Find product information about medicines",
@@ -150,6 +143,42 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "TCN™ and CSK Reusable RF electrodes",
+      "summary": "Boston Scientific has determined that the TCN™, and CSK reusable RF electrodes may not consistently meet the expected performance levels throughout the specified 20 sterilization cycles for re-use. &nbsp;This determination was based on recent review of internal laboratory testing.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/tcntm-and-csk-reusable-rf-electrodes",
+      "published": "2026-05-07T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada — Medical devices recalls & alerts"
+    },
+    {
+      "title": "Azurion Systems",
+      "summary": "Philips has identified that the float tabletop control on the control module of Azurion systems may experience mechanical wear over time. The float tabletop control is located on the control module at the table-side. When the control is actuated, the table brakes disengage, allowing adjustment of the longitudinal or transverse position of the table. Over time, mechanical wear may lead to detachment, cracking, or breakage of the float tabletop control, which may lead to reduced availability or…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/azurion-systems",
+      "published": "2026-05-07T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada — Medical devices recalls & alerts"
+    },
+    {
+      "title": "Stay safe when buying health products online",
+      "summary": "As part of&nbsp;Operation Pangea XVIII&nbsp;—an international effort led by INTERPOL to disrupt the online sale of counterfeit and other illegal health products around the world—Health Canada is reminding consumers to be careful when buying health products online. During Operation Pangea, Health Canada continues to work with the Royal Canadian Mounted Police and the Canada Border Services Agency to stop counterfeit and other illegal health products from reaching the Canadian market. During…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/stay-safe-when-buying-health-products-online",
+      "published": "2026-05-07T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada — Medical devices recalls & alerts"
+    },
+    {
       "title": "Operation Pangea XVIII: UK Border operation intercepts millions of dangerous medicines across two weeks",
       "summary": "MHRA and UK Border Force crack down on the illegal medicines trade in intensive 14-day international operation.",
       "link": "https://www.gov.uk/government/news/operation-pangea-xviii-uk-border-operation-intercepts-millions-of-dangerous-medicines-across-two-weeks",
@@ -240,10 +269,10 @@
       "published": "2026-05-06T07:54:27+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
     },
     {
       "title": "Determination That DEXAMETHASONE (Dexamethasone) Elixir, 0.5 Milligrams/5 Milliliters, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
@@ -456,10 +485,10 @@
       "published": "2026-04-30T16:08:36+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
     },
     {
       "title": "Recommended use of some nasal decongestant sprays limited to five days by UK regulator",
@@ -1696,78 +1725,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Adverse Event Terminology",
-      "summary": "Harmonize terminology for reporting adverse events related to medical devices, and further harmonize adverse event reporting datasets to improve signal detection.",
-      "link": "https://www.imdrf.org/working-groups/adverse-event-terminology",
-      "published": "2025-06-10T23:24:14+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
-    },
-    {
-      "title": "Clinical Evidence for In Vitro Diagnostic Medical Devices",
-      "summary": "A working group on Clinical evidence for in vitro diagnostic (IVD) medical devices",
-      "link": "https://www.imdrf.org/working-groups/clinical-evidence-vitro-diagnostic-medical-devices",
-      "published": "2024-10-21T23:00:00+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
-    },
-    {
-      "title": "Quality Management Systems",
-      "summary": "Ensure alignment of IMDRF QMS and risk management documents with current international standards",
-      "link": "https://www.imdrf.org/working-groups/quality-management-systems",
-      "published": "2023-07-03T01:19:24+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
-    },
-    {
-      "title": "Artificial Intelligence/Machine Learning-enabled",
-      "summary": "Seeking to harmonize internationally, principles to help promote the development of safe and effective AI/ML enabled medical devices",
-      "link": "https://www.imdrf.org/working-groups/artificial-intelligencemachine-learning-enabled",
-      "published": "2023-07-02T22:42:22+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
-    },
-    {
-      "title": "Software as a Medical Device",
-      "summary": "Promote consistency in regulatory assessment for Software as a Medical Device to reach patients more efficiently.",
-      "link": "https://www.imdrf.org/working-groups/software-medical-device",
-      "published": "2022-06-28T00:47:55+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
-    },
-    {
-      "title": "Good Regulatory Review Practices",
-      "summary": "Develop good review practices for pre-market reviews and evaluations.",
-      "link": "https://www.imdrf.org/working-groups/good-regulatory-review-practices",
-      "published": "2021-07-19T23:45:07+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
     }
   ]
 }
