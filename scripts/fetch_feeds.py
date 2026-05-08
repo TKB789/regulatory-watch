@@ -6,35 +6,21 @@ and writes a consolidated feed.json that the dashboard reads.
 Run by GitHub Actions on a schedule. Free, no API keys needed.
 """
 
+import gzip
 import json
 import re
 import socket
-import sys
 import time
-from datetime import datetime, timezone
+import urllib.error
+import urllib.request
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlparse
 
 import feedparser  # pip install feedparser
 
 # Hard timeout for any single network request (seconds).
 # Without this, a slow feed can hang the entire workflow.
-import gzip
-import io
-import urllib.request
-import urllib.error
-
 socket.setdefaulttimeout(30)
-
-# ============================================================================
-# DIAGNOSTIC SWITCH — set to True to keep everything from every feed regardless
-# of whether it looks device-related. Useful for debugging "feeds returning 0
-# items" issues. When True:
-#   - the per-fetch device filter is bypassed
-#   - the retroactive archive pruner is also bypassed
-# When False (normal mode), broad feeds are filtered to medical-device topics.
-# ============================================================================
-DISABLE_DEVICE_FILTER = True
 
 # Many gov RSS feeds block default Python/feedparser User-Agents. We send a
 # realistic browser-like UA to get past basic bot detection.
@@ -44,362 +30,147 @@ USER_AGENT = (
     "Chrome/124.0.0.0 Safari/537.36"
 )
 
-
-def fetch_raw_feed(url, timeout=30):
-    """
-    Fetch a feed URL using urllib directly so we have full control over
-    headers, redirects, and encoding. Returns bytes (or raises an exception).
-    Handles gzip decompression and BOM stripping that feedparser sometimes
-    chokes on.
-    """
-    req = urllib.request.Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Accept-Encoding": "gzip, deflate",
-            "Cache-Control": "no-cache",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        raw = resp.read()
-        # Decompress if gzipped (some servers ignore Accept-Encoding negotiation)
-        if resp.headers.get("Content-Encoding", "").lower() == "gzip":
-            raw = gzip.decompress(raw)
-        elif raw[:2] == b"\x1f\x8b":  # gzip magic bytes
-            raw = gzip.decompress(raw)
-        # Strip UTF-8 BOM if present (causes "not well-formed" in some XML parsers)
-        if raw[:3] == b"\xef\xbb\xbf":
-            raw = raw[3:]
-        # Strip leading whitespace before <?xml declaration (common cause of
-        # "not well-formed" errors when servers add stray newlines)
-        raw = raw.lstrip()
-        return raw
-
 # ---------------------------------------------------------------------------
 # FEED CONFIG
 # ---------------------------------------------------------------------------
 # Each feed is tagged with:
-#   - agency: short code shown in the UI
+#   - agency:   short code shown in the UI
+#   - region:   friendly label
 #   - category: 'premarket' | 'postmarket' | 'guidance' | 'recall' | 'prepub'
-#   - region: friendly label
-#
-# Add or remove feeds here — that's the only config file you'll edit.
+#   - feed_id:  stable identifier the dashboard can key off (don't rename)
+#   - label:    short display name for UI
+#   - name:     full descriptive name (also used as the legacy 'source' field)
 # ---------------------------------------------------------------------------
 
-# =============================================================================
-# BACKUP FEED REFERENCE
-# =============================================================================
-# Cross-referenced against rainfo.org/regulatory-news-rss-feeds (curated list)
-# in case any of the active feeds below break, here are the verified URLs to
-# fall back on. Last verified: May 2026.
-#
-# Currently active feeds are in FEEDS below. This dict is just a reference.
-# To activate a backup feed, uncomment its block in FEEDS.
-#
-# === FDA (US) — Only 3 device-relevant feeds actually exist on fda.gov ===
-#   FDA Recalls (all FDA, filter to devices):
-#       https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml
-#   FDA MedWatch Safety Alerts:
-#       https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml
-#   FDA Press Announcements:
-#       https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml
-#
-# === Federal Register ===
-#   FDA documents (rules, proposed rules, notices):
-#       https://www.federalregister.gov/api/v1/documents.rss?conditions[agencies][]=food-and-drug-administration&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[type][]=NOTICE
-#
-# === IMDRF (international harmonization) ===
-#   Working Groups:   https://www.imdrf.org/working-groups.xml
-#   Consultations:    https://www.imdrf.org/consultations.xml
-#   Documents:        https://www.imdrf.org/documents.xml
-#   Events:           https://www.imdrf.org/events.xml
-#   News:             https://www.imdrf.org/news.xml
-#
-# === WHO ===
-#   Medical Product Alerts: https://www.who.int/rss-feeds/medical-product-alerts-en.xml
-#
-# === MHRA / UK (gov.uk Atom feeds) ===
-#   MHRA news & alerts:
-#       https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom
-#   UK Drug & Medical Device Alerts:
-#       https://www.gov.uk/drug-device-alerts.atom
-#   MHRA Inspectorate:
-#       https://mhrainspectorate.blog.gov.uk/feed/
-#
-# === Health Canada ===
-#   Recalls & safety alerts:
-#       https://recalls-rappels.canada.ca/en/rss.xml
-#   Medical Devices, Drugs and Health Products:
-#       https://www.canada.ca/en/news/web-feeds/health-canada-news.xml
-#
-# === TGA (Australia) ===
-#   News & alerts: https://www.tga.gov.au/rss.xml
-#
-# === EU Commission / EMA ===
-#   EU Health News (Commission):
-#       https://health.ec.europa.eu/rss_en
-#   EMA News & Press Releases:
-#       https://www.ema.europa.eu/en/news/rss.xml
-#   EMA What's New:
-#       https://www.ema.europa.eu/en/whats-new/rss.xml
-#
-# === EUR-Lex ===
-#   Recent regulations & directives:
-#       https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-recent
-#   (For MDR/IVDR-specific feeds, use EUR-Lex saved-search RSS — requires
-#    a free EUR-Lex account.)
-#
-# === Czech Republic — SUKL (alternate EU regulator with rich feeds) ===
-#   Medical Devices: https://www.sukl.eu/rss/en/10201
-#   Surveillance:    https://www.sukl.eu/rss/en/84
-#   Pharmacovigilance: https://www.sukl.eu/rss/en/62
-#
-# === Saudi Arabia — SFDA ===
-#   News (Arabic + English): https://www.sfda.gov.sa/en/rss
-#
-# =============================================================================
-
 FEEDS = [
-    # ============================================================
-    # US FDA — Only these RSS feeds actually exist on fda.gov.
-    # The /medical-device-recalls/, /medical-device-safety/, and
-    # /medical-devices/ URLs commonly cited online return 404 HTML pages
-    # (which feedparser can't parse, hence "mismatched tag" errors).
-    # The general feeds below cover all FDA topics; we filter to devices.
-    # Source: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds
-    # ============================================================
+    # --- US FDA ---
     {
         "agency": "FDA",
         "region": "United States",
         "category": "recall",
-        "name": "FDA Recalls",
         "feed_id": "fda-recalls",
         "label": "FDA Recalls",
+        "name": "FDA Recalls",
         "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
-        "filter_to_devices": True,
     },
-    # --- US FDA: broader feeds (filtered to device topics) ---
     {
         "agency": "FDA",
         "region": "United States",
-        "category": "recall",
-        "name": "FDA MedWatch Safety Alerts",
+        "category": "postmarket",
         "feed_id": "fda-medwatch",
         "label": "FDA MedWatch",
+        "name": "FDA MedWatch Safety Alerts",
         "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
-        "filter_to_devices": True,
     },
     {
         "agency": "FDA",
         "region": "United States",
         "category": "guidance",
-        "name": "FDA Press Announcements",
         "feed_id": "fda-press",
         "label": "FDA Press",
+        "name": "FDA Press Announcements",
         "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
-        "filter_to_devices": True,
     },
     # --- Federal Register (pre-publication / proposed rules) ---
     {
         "agency": "FR",
         "region": "United States",
         "category": "prepub",
-        "name": "Federal Register — FDA documents",
         "feed_id": "federal-register",
         "label": "Federal Register",
+        "name": "Federal Register — FDA documents",
         "url": "https://www.federalregister.gov/api/v1/documents.rss?conditions[agencies][]=food-and-drug-administration&conditions[type][]=RULE&conditions[type][]=PRORULE&conditions[type][]=NOTICE",
-        "filter_to_devices": True,
     },
-    # --- IMDRF: international harmonization ---
+    # --- IMDRF (international harmonization) ---
     {
         "agency": "IMDRF",
         "region": "International",
         "category": "guidance",
-        "name": "IMDRF Working Groups",
         "feed_id": "imdrf-wg",
         "label": "IMDRF Working Groups",
+        "name": "IMDRF Working Groups",
         "url": "https://www.imdrf.org/working-groups.xml",
     },
     {
         "agency": "IMDRF",
         "region": "International",
         "category": "guidance",
-        "name": "IMDRF Consultations",
         "feed_id": "imdrf-consult",
         "label": "IMDRF Consultations",
+        "name": "IMDRF Consultations",
         "url": "https://www.imdrf.org/consultations.xml",
-    },
-    # --- WHO: international safety alerts ---
-    {
-        "agency": "WHO",
-        "region": "International",
-        "category": "recall",
-        "name": "WHO Medical Product Alerts",
-        "feed_id": "who-alerts",
-        "label": "WHO Alerts",
-        "url": "https://www.who.int/rss-feeds/medical-product-alerts-en.xml",
-        "filter_to_devices": True,
     },
     # --- MHRA (UK) ---
     {
         "agency": "MHRA",
         "region": "United Kingdom",
         "category": "postmarket",
-        "name": "MHRA news & alerts",
         "feed_id": "mhra-news",
         "label": "MHRA News",
+        "name": "MHRA news & alerts",
         "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom",
-        "filter_to_devices": True,
-    },
-    {
-        "agency": "MHRA",
-        "region": "United Kingdom",
-        "category": "recall",
-        "name": "UK Drug & Medical Device Alerts",
-        "feed_id": "uk-alerts",
-        "label": "UK Drug & Device Alerts",
-        "url": "https://www.gov.uk/drug-device-alerts.atom",
-        "filter_to_devices": True,
     },
     # --- Health Canada ---
     {
         "agency": "HC",
         "region": "Canada",
         "category": "recall",
-        "name": "Health Canada recalls & safety alerts",
         "feed_id": "hc-recalls",
         "label": "Health Canada Recalls",
-        "url": "https://recalls-rappels.canada.ca/en/rss.xml",
-        "filter_to_devices": True,
+        "name": "Health Canada — Medical devices recalls & alerts",
+        "url": "https://recalls-rappels.canada.ca/en/feed/medical-devices-alerts-recalls",
     },
     # --- TGA (Australia) ---
     {
         "agency": "TGA",
         "region": "Australia",
         "category": "postmarket",
-        "name": "TGA news & alerts",
         "feed_id": "tga-news",
-        "label": "TGA News",
-        "url": "https://www.tga.gov.au/rss.xml",
-        "filter_to_devices": True,
+        "label": "TGA Safety Alerts",
+        "name": "TGA safety alerts",
+        "url": "https://tga.gov.au/feeds/alert/safety-alerts.xml",
     },
     # --- European Commission — public health ---
     {
         "agency": "EMA",
         "region": "European Union",
         "category": "guidance",
-        "name": "European Commission — Health news",
         "feed_id": "eu-health",
         "label": "EU Commission Health",
+        "name": "European Commission — Health news",
         "url": "https://health.ec.europa.eu/rss_en",
-        "filter_to_devices": True,
-    },
-    # --- EU OJEU L series (legal acts) ---
-    {
-        "agency": "EU",
-        "region": "European Union",
-        "category": "prepub",
-        "name": "EUR-Lex — Recent regulations & directives",
-        "feed_id": "eur-lex",
-        "label": "EUR-Lex",
-        "url": "https://eur-lex.europa.eu/EN/display-feed.rss?myRssId=oj-l-recent",
-        "filter_to_devices": True,
     },
 ]
 
-# Used to filter out drug-only or food-only items from broad feeds.
-DEVICE_KEYWORDS = [
-    "device", "devices", "510(k)", "510k", "pma", "de novo", "udi", "ivd",
-    "diagnostic", "diagnostics", "implant", "implantable", "cdrh",
-    "mdr", "ivdr", "mdcg", "premarket", "post-market", "postmarket",
-    "vigilance", "psur", "estar", "notified body", "samd",
-    "software as a medical", "ai/ml", "cybersecurity", "biocompatibility",
-    "sterilization", "in vitro", "scanner", "pacemaker", "stent", "catheter",
-    "surgical", "medtech", "medical equipment", "medical product",
-    "infusion pump", "ventilator", "endoscope", "defibrillator",
-    "patient monitor", "imaging", "mri", "ct scan", "ultrasound",
-    "wearable", "digital health", "remote monitoring",
-    "combination product", "device-led",
-    # Recalls/alerts often use these without the word "device"
-    "recall", "field action", "fsca", "fsn", "safety communication",
-    "safety alert", "safety notice", "safety information",
-]
-
-# Items containing ANY of these are dropped — they're drugs/biologics/food
-# and not relevant even if they happen to contain a device keyword.
-DRUG_ONLY_KEYWORDS = [
-    "vaccine", "vaccines", "immunization",
-    "investigational new drug", " ind ",
-    "biologics license", "biologic application",
-    "drug shortage", "drug application", "drug approval",
-    "approves new drug", "approves first-in-class", "approves treatment for",
-    "tablet", "capsule", "injection of", "infusion of",
-    "pediatric drug", "drug-resistant",
-    "tobacco", "cigar", "vaping", "e-cigarette", "nicotine",
-    "food safety", "foodborne", "infant formula",
-    "dietary supplement",
-    "veterinary", "animal drug", "animal health",
-    "cosmetic", "cosmetics",
-]
-
-
-def is_device_related(text: str) -> bool:
-    """
-    Returns True if the text is plausibly medical-device related.
-
-    Logic: We KEEP items by default. We only REJECT if the item is clearly
-    about something else (drugs, food, tobacco, vet products) AND lacks any
-    device signal. This avoids false negatives — broad RSS feeds frequently
-    publish device items with non-obvious wording (e.g. "infusion sets",
-    "field safety notice", "manufacturer reporting") that don't trigger a
-    rigid keyword list.
-    """
-    t = (text or "").lower()
-    if not t.strip():
-        return False
-
-    # HARD OVERRIDES — these are never devices, drop regardless of other signals
-    HARD_DROPS = (
-        "tobacco", "cigar", "vaping", "e-cigarette", "nicotine",
-        "infant formula", "dietary supplement",
-        "veterinary", "animal drug", "animal health",
-        "cosmetic", "cosmetics", "foodborne", "food safety",
-        "vaccine", "vaccines",
-    )
-    if any(k in t for k in HARD_DROPS):
-        # Allow "combination product" mentions through (rare drug-device combos)
-        if "combination product" in t or "device-led combination" in t:
-            return True
-        return False
-
-    has_device_signal = any(k in t for k in DEVICE_KEYWORDS)
-    has_drug_signal   = any(k in t for k in DRUG_ONLY_KEYWORDS)
-
-    # Combination products always pass
-    if "combination product" in t or "device-led combination" in t:
-        return True
-
-    # Drug signal AND no device signal → reject
-    if has_drug_signal and not has_device_signal:
-        return False
-
-    # Drug signal WITH device signal → keep (e.g. drug-eluting stent)
-    if has_drug_signal and has_device_signal:
-        return True
-
-    # No drug signal → keep regardless. Device-specific feeds (FDA recalls,
-    # MHRA alerts) already only publish device items, so we trust them.
-    return True
-
-# How many items per feed (most recent)
+# How many items per feed to pull on each run (most recent)
 MAX_ITEMS_PER_FEED = 25
 
-# Total items in the consolidated archive (oldest beyond this are dropped)
-MAX_TOTAL_ITEMS = 1000
+# Archive cutoff: drop items older than this many days.
+ARCHIVE_DAYS = 180  # ~6 months
 
 # ---------------------------------------------------------------------------
+
+
+def fetch_raw_feed(url: str, timeout: int = 30) -> bytes:
+    """
+    Fetch a feed URL using urllib so we control headers and decoding.
+    Handles gzip and BOM. Raises on HTTP errors.
+    """
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+            "Accept-Encoding": "gzip, deflate",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        raw = resp.read()
+        if resp.headers.get("Content-Encoding", "").lower() == "gzip" or raw[:2] == b"\x1f\x8b":
+            raw = gzip.decompress(raw)
+        if raw[:3] == b"\xef\xbb\xbf":  # strip UTF-8 BOM
+            raw = raw[3:]
+        return raw.lstrip()
 
 
 def parse_date(entry) -> str:
@@ -432,93 +203,31 @@ def truncate(text: str, n: int = 400) -> str:
 def fetch_one(feed_cfg: dict) -> dict:
     """
     Fetch a single feed.
-    Returns dict with: items (list), status ('ok'|'error'|'empty'), reason (str|None).
+    Returns {"items": [...], "status": "ok"|"empty"|"error", "reason": str|None}.
     """
     print(f"  → {feed_cfg['agency']:6s} {feed_cfg['name']}", flush=True)
-    items = []
-
-    # Try up to 2 times; transient timeouts and 5xx are common on gov servers
-    parsed = None
-    last_error = None
-    raw_bytes = None
-    for attempt in range(2):
-        try:
-            # Fetch raw bytes ourselves (handles gzip, BOM, leading whitespace)
-            raw_bytes = fetch_raw_feed(feed_cfg["url"])
-            # Quick sanity check: does this look like XML?
-            head = raw_bytes[:200].decode("utf-8", errors="replace").lower()
-            if "<html" in head or "<!doctype html" in head:
-                last_error = "server returned HTML page (likely 404 or block)"
-                if attempt == 0:
-                    print(f"    ⟲ retry 1: {last_error}", flush=True)
-                    time.sleep(2)
-                    continue
-                print(f"    ✗ {last_error}", flush=True)
-                # Log the first 200 chars so we can see what was returned
-                print(f"    DEBUG response start: {head[:200]!r}", flush=True)
-                return {"items": [], "status": "error", "reason": last_error}
-
-            parsed = feedparser.parse(raw_bytes)
-            # If we got entries, we're done
-            if parsed.entries:
-                break
-            # No entries AND a parse error → retry once
-            if parsed.bozo and attempt == 0:
-                last_error = str(parsed.bozo_exception)[:120]
-                print(f"    ⟲ retry 1: {last_error}", flush=True)
-                time.sleep(2)
-                continue
-            break
-        except urllib.error.HTTPError as e:
-            last_error = f"HTTP {e.code}: {e.reason}"
-            if attempt == 0 and e.code >= 500:
-                print(f"    ⟲ retry 1: {last_error}", flush=True)
-                time.sleep(2)
-                continue
-            print(f"    ✗ {last_error}", flush=True)
-            return {"items": [], "status": "error", "reason": last_error}
-        except Exception as e:
-            last_error = str(e)[:120]
-            if attempt == 0:
-                print(f"    ⟲ retry 1: {last_error}", flush=True)
-                time.sleep(2)
-                continue
-            print(f"    ✗ exception after retry: {last_error}", flush=True)
-            return {"items": [], "status": "error", "reason": last_error}
-
     try:
-        if parsed is None:
-            return {"items": [], "status": "error", "reason": last_error or "unknown error"}
+        raw = fetch_raw_feed(feed_cfg["url"])
 
-        if parsed.bozo and not parsed.entries:
-            reason = str(parsed.bozo_exception)[:120]
-            # Distinguish between bot-blocking (HTML returned) and real format errors
-            try:
-                # parsed.feed.title is empty but parsed has 'feed' attr; feedparser
-                # leaves the raw response in feed.summary if parsing failed badly.
-                # Easier: just check if reason mentions tags / tokens (XML parse errors).
-                if "tag" in reason.lower() or "token" in reason.lower() or "well-formed" in reason.lower():
-                    reason = f"XML parse error (likely served HTML/blocked): {reason}"
-            except Exception:
-                pass
-            print(f"    ✗ feed error: {reason}", flush=True)
-            # Diagnostic: what did the server actually return?
-            if raw_bytes:
-                preview = raw_bytes[:300].decode("utf-8", errors="replace")
-                print(f"    DEBUG ({len(raw_bytes)} bytes): {preview!r}", flush=True)
+        # If the server returned an HTML page (e.g. a 200 OK error page),
+        # feedparser would fail with a confusing XML error. Catch it explicitly.
+        head = raw[:200].decode("utf-8", errors="replace").lower()
+        if "<html" in head or "<!doctype html" in head:
+            reason = "server returned HTML, not a feed (URL may have moved)"
+            print(f"    ✗ {reason}", flush=True)
             return {"items": [], "status": "error", "reason": reason}
 
-        total_entries = len(parsed.entries)
-        filter_devices = feed_cfg.get("filter_to_devices", False) and not DISABLE_DEVICE_FILTER
+        parsed = feedparser.parse(raw)
+        if parsed.bozo and not parsed.entries:
+            reason = f"feed parse error: {parsed.bozo_exception}"
+            print(f"    ✗ {reason}", flush=True)
+            return {"items": [], "status": "error", "reason": reason[:200]}
+
+        items = []
         for entry in parsed.entries[:MAX_ITEMS_PER_FEED]:
             title = clean_html(entry.get("title", ""))
             summary = clean_html(entry.get("summary", entry.get("description", "")))
             link = entry.get("link", "")
-            full_text = f"{title} {summary}"
-
-            # Apply device-keyword filter to feeds marked filter_to_devices=True
-            if filter_devices and not is_device_related(full_text):
-                continue
 
             items.append({
                 "title": title,
@@ -528,48 +237,46 @@ def fetch_one(feed_cfg: dict) -> dict:
                 "agency": feed_cfg["agency"],
                 "region": feed_cfg["region"],
                 "category": feed_cfg["category"],
-                "feed_id": feed_cfg.get("feed_id", "unknown"),
-                "feed_label": feed_cfg.get("label", feed_cfg["name"]),
+                "feed_id": feed_cfg["feed_id"],
+                "feed_label": feed_cfg["label"],
                 "source": feed_cfg["name"],
             })
 
         if not items:
-            reason = (f"0 device-related items (of {total_entries} total)"
-                      if total_entries else "feed returned 0 entries")
-            print(f"    ⚠ {reason}", flush=True)
-            return {"items": [], "status": "empty", "reason": reason}
+            print(f"    ⚠ feed returned 0 entries", flush=True)
+            return {"items": [], "status": "empty", "reason": "feed returned 0 entries"}
 
         print(f"    ✓ {len(items)} item(s)", flush=True)
         return {"items": items, "status": "ok", "reason": None}
+
+    except urllib.error.HTTPError as e:
+        reason = f"HTTP {e.code}: {e.reason}"
+        print(f"    ✗ {reason} (URL may have moved)", flush=True)
+        return {"items": [], "status": "error", "reason": reason}
     except Exception as e:
-        print(f"    ✗ exception: {e}", flush=True)
-        return {"items": [], "status": "error", "reason": str(e)[:120]}
+        reason = str(e)[:200]
+        print(f"    ✗ exception: {reason}", flush=True)
+        return {"items": [], "status": "error", "reason": reason}
 
 
 def main():
     print(f"Fetching {len(FEEDS)} feed(s)…", flush=True)
-    if DISABLE_DEVICE_FILTER:
-        print(f"⚠ DISABLE_DEVICE_FILTER=True — keeping ALL items, no device filtering", flush=True)
     new_items = []
     failed_feeds = []
     empty_feeds = []
     for cfg in FEEDS:
-        try:
-            result = fetch_one(cfg)
-            new_items.extend(result["items"])
-            if result["status"] == "error":
-                failed_feeds.append({"name": cfg["name"], "reason": result["reason"]})
-            elif result["status"] == "empty":
-                empty_feeds.append({"name": cfg["name"], "reason": result["reason"]})
-        except Exception as e:
-            print(f"    ✗ unhandled exception in {cfg['name']}: {e}", flush=True)
-            failed_feeds.append({"name": cfg["name"], "reason": str(e)[:120]})
-        time.sleep(0.5)
+        result = fetch_one(cfg)
+        new_items.extend(result["items"])
+        if result["status"] == "error":
+            failed_feeds.append({"feed_id": cfg["feed_id"], "name": cfg["name"], "reason": result["reason"]})
+        elif result["status"] == "empty":
+            empty_feeds.append({"feed_id": cfg["feed_id"], "name": cfg["name"], "reason": result["reason"]})
+        time.sleep(0.5)  # be polite
 
     out_path = Path(__file__).parent.parent / "data" / "feed.json"
     out_path.parent.mkdir(exist_ok=True)
 
-    # ----- APPEND-ONLY ARCHIVE: merge with existing items -----
+    # ----- Load existing archive -----
     existing_items = []
     if out_path.exists():
         try:
@@ -579,15 +286,13 @@ def main():
         except Exception as e:
             print(f"\n⚠ Could not read existing feed.json ({e}); starting fresh.", flush=True)
 
-    # Build lookup: source name → (feed_id, label) — used to backfill old items
-    # that were written before feed_id existed.
-    source_to_feed = {
-        cfg["name"]: (cfg.get("feed_id", "unknown"), cfg.get("label", cfg["name"]))
-        for cfg in FEEDS
-    }
+    # ----- One-time backfill: patch old items with feed_id / feed_label -----
+    # Old archive entries (from earlier script versions) have a 'source' field
+    # but no feed_id/feed_label. Map by source name to fill them in.
+    source_to_feed = {cfg["name"]: (cfg["feed_id"], cfg["label"]) for cfg in FEEDS}
     backfilled = 0
     for item in existing_items:
-        if not item.get("feed_id") or item.get("feed_id") == "unknown":
+        if not item.get("feed_id"):
             src = item.get("source", "")
             if src in source_to_feed:
                 fid, label = source_to_feed[src]
@@ -597,79 +302,53 @@ def main():
     if backfilled:
         print(f"  Backfilled feed_id on {backfilled} archived item(s)", flush=True)
 
-    # Re-apply the device filter to existing archived items so old drug-related
-    # entries (from earlier looser filters) get cleaned up. Uses the same
-    # is_device_related() function as fetching to keep behavior consistent.
-    # Skipped entirely when DISABLE_DEVICE_FILTER is True.
-    pruned_count = 0
-    if DISABLE_DEVICE_FILTER:
-        print(f"  ⚠ DISABLE_DEVICE_FILTER is True — skipping archive pruning", flush=True)
-    else:
-        pruned_items = []
-        for item in existing_items:
-            full_text = f"{item.get('title', '')} {item.get('summary', '')}"
-            # Items from device-specific feeds (no filter_to_devices flag) were
-            # never filtered originally; trust the upstream source and keep them.
-            item_source = item.get("source", "")
-            feed_was_filtered = False
-            for cfg in FEEDS:
-                if cfg["name"] == item_source:
-                    feed_was_filtered = cfg.get("filter_to_devices", False)
-                    break
-            if feed_was_filtered:
-                # Re-check against current rules
-                if not is_device_related(full_text):
-                    pruned_count += 1
-                    continue
-            pruned_items.append(item)
-        existing_items = pruned_items
-    if pruned_count:
-        print(f"  Pruned {pruned_count} now-out-of-scope item(s) from archive", flush=True)
-
-    # De-dupe by link (or by title if no link). New items take precedence
-    # so we pick up any updated summaries/titles from the upstream feed.
+    # ----- Merge new items with existing archive, dedupe by link -----
+    # New items take precedence so we pick up any updated summaries/titles.
     seen = {}
+
     def key(item):
         return (item.get("link") or item.get("title") or "").strip().lower()
 
-    # Add NEW items first so they overwrite old versions of the same URL
     for item in new_items:
         k = key(item)
         if k:
             seen[k] = item
-    # Then add existing items only if their key isn't already present
-    new_count = 0
     for item in existing_items:
         k = key(item)
         if k and k not in seen:
             seen[k] = item
-        elif k in seen and item not in new_items:
-            # this URL was in the existing archive
-            pass
-    # Count truly new additions
+
     existing_keys = {key(i) for i in existing_items if key(i)}
     new_count = sum(1 for k in seen if k not in existing_keys)
 
     all_items = list(seen.values())
 
-    # Sort newest first, cap total
+    # ----- Drop items older than ARCHIVE_DAYS -----
+    cutoff = datetime.now(timezone.utc) - timedelta(days=ARCHIVE_DAYS)
+    cutoff_iso = cutoff.isoformat()
+    before = len(all_items)
+    all_items = [i for i in all_items if (i.get("published") or "") >= cutoff_iso]
+    expired = before - len(all_items)
+    if expired:
+        print(f"  Dropped {expired} item(s) older than {ARCHIVE_DAYS} days", flush=True)
+
+    # Sort newest first
     all_items.sort(key=lambda x: x.get("published") or "", reverse=True)
-    if len(all_items) > MAX_TOTAL_ITEMS:
-        all_items = all_items[:MAX_TOTAL_ITEMS]
 
     if not new_items and existing_items:
         print(
             f"\n⚠ All {len(FEEDS)} feeds returned 0 items this run. "
-            f"Keeping {len(existing_items)} archived item(s).",
+            f"Keeping {len(all_items)} archived item(s).",
             flush=True,
         )
 
     out = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "archive_days": ARCHIVE_DAYS,
         "item_count": len(all_items),
         "feed_count": len(FEEDS),
         "new_this_run": new_count,
-        "pruned_this_run": pruned_count,
+        "expired_this_run": expired,
         "failed_feeds": failed_feeds,
         "empty_feeds": empty_feeds,
         "items": all_items,
@@ -678,7 +357,7 @@ def main():
     out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     print(
         f"\nWrote {len(all_items)} item(s) → {out_path} "
-        f"({new_count} new, "
+        f"({new_count} new, {expired} expired, "
         f"{len(failed_feeds)} feed(s) errored, "
         f"{len(empty_feeds)} empty)",
         flush=True,
@@ -686,9 +365,4 @@ def main():
 
 
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        # Never fail the workflow — just log and exit cleanly.
-        print(f"FATAL but recoverable: {e}", flush=True)
-        sys.exit(0)
+    main()
