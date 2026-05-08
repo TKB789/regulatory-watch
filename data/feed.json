@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-08T13:07:46.599587+00:00",
+  "generated_at": "2026-05-08T15:05:38.212074+00:00",
   "archive_days": 180,
   "item_count": 146,
   "feed_count": 10,
-  "new_this_run": 9,
+  "new_this_run": 6,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,18 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "MHRA delivers its targets to increase access to medicines and reinforce UK position as a global destination for life sciences",
+      "summary": "The MHRA continues to speed up access to medicines for patients, increase efficiency of regulation and help to attract innovation and investment in the UK’s thriving £100 billion life sciences industry.",
+      "link": "https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences",
+      "published": "2026-05-08T13:26:41+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Decision: Marketing authorisations Granted in 2026",
       "summary": "Marketing authorisations granted in 2026.",
@@ -813,18 +825,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "MHRA delivers its targets to increase access to medicines and reinforce UK position as a global destination for life sciences",
-      "summary": "The MHRA continues to speed up access to medicines for patients, increase efficiency of regulation and help to attract innovation and investment in the UK’s thriving £100 billion life sciences industry.",
-      "link": "https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences",
-      "published": "2026-04-28T09:07:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Transparency data: MHRA Performance Data",
