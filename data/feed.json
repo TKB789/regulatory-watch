@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-08T05:15:20.717654+00:00",
+  "generated_at": "2026-05-08T07:02:44.460964+00:00",
   "archive_days": 180,
-  "item_count": 141,
+  "item_count": 143,
   "feed_count": 10,
-  "new_this_run": 6,
+  "new_this_run": 8,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,30 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Determination That Leucovorin Calcium, Oral Solution, Equivalent to 60 Milligrams Base/Vial, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA or Agency) has determined that leucovorin calcium, oral solution, equivalent to (EQ) 60 milligrams (mg) base/vial, was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for leucovorin calcium, oral solution, EQ 60 mg, if all other legal and regulatory requirements are met.",
+      "link": "https://www.federalregister.gov/documents/2026/05/08/2026-09199/determination-that-leucovorin-calcium-oral-solution-equivalent-to-60-milligrams-basevial-was-not",
+      "published": "2026-05-08T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Obstetrical and Gynecological Devices; Classification of the External Condom for Anal Intercourse or Vaginal Intercourse",
+      "summary": "The Food and Drug Administration (FDA) is classifying the external condom for anal intercourse or vaginal intercourse into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the external condom for anal intercourse or vaginal intercourse. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of…",
+      "link": "https://www.federalregister.gov/documents/2026/05/08/2026-09152/medical-devices-obstetrical-and-gynecological-devices-classification-of-the-external-condom-for-anal",
+      "published": "2026-05-08T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Find product information about medicines",
       "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
