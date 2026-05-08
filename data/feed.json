@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-08T11:50:27.143049+00:00",
+  "generated_at": "2026-05-08T13:07:46.599587+00:00",
   "archive_days": 180,
-  "item_count": 143,
+  "item_count": 146,
   "feed_count": 10,
-  "new_this_run": 6,
+  "new_this_run": 9,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,42 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Decision: Marketing authorisations Granted in 2026",
+      "summary": "Marketing authorisations granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+      "published": "2026-05-08T12:23:52+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Parallel import licences granted in 2026",
+      "summary": "Parallel import licences granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
+      "published": "2026-05-08T12:23:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Corporate report: Advertising investigations: April 2026",
+      "summary": "Decisions made by MHRA on adverts reported to have breached the legislation on advertising medicines.",
+      "link": "https://www.gov.uk/government/publications/advertising-investigations-april-2026",
+      "published": "2026-05-08T11:51:24+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Determination That Leucovorin Calcium, Oral Solution, Equivalent to 60 Milligrams Base/Vial, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA or Agency) has determined that leucovorin calcium, oral solution, equivalent to (EQ) 60 milligrams (mg) base/vial, was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for leucovorin calcium, oral solution, EQ 60 mg, if all other legal and regulatory requirements are met.",
