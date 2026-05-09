@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-09T05:15:28.109113+00:00",
+  "generated_at": "2026-05-09T07:23:11.350814+00:00",
   "archive_days": 180,
-  "item_count": 146,
+  "item_count": 153,
   "feed_count": 10,
-  "new_this_run": 6,
+  "new_this_run": 13,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,90 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Animal Generic Drug User Fee Act; Stakeholder Consultation Meetings on the Animal Generic Drug User Fee Act Reauthorization; Request for Notification of Stakeholder Intent To Participate",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is issuing this notice to request that public stakeholders notify FDA of their intent to participate in periodic consultation meetings on reauthorization of the Animal Generic Drug User Fee Act (AGDUFA). The statutory authority for AGDUFA expires September 30, 2028. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) requires that FDA consult with a range of stakeholders--including patient and consumer advocacy groups, veterinary…",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09284/animal-generic-drug-user-fee-act-stakeholder-consultation-meetings-on-the-animal-generic-drug-user",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Animal Drug User Fee Act; Stakeholder Consultation Meetings on the Animal Drug User Fee Act Reauthorization; Request for Notification of Stakeholder Intent To Participate",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is issuing this notice to request that public stakeholders notify FDA of their intent to participate in periodic consultation meetings on reauthorization of the Animal Drug User Fee Act (ADUFA). The statutory authority for ADUFA expires September 30, 2028. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) requires that FDA consult with a range of stakeholders--including patient and consumer advocacy groups, veterinary…",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09283/animal-drug-user-fee-act-stakeholder-consultation-meetings-on-the-animal-drug-user-fee-act",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Pulmonary Tuberculosis: Developing Drugs for Treatment; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Pulmonary Tuberculosis: Developing Drugs for Treatment.&quot; The purpose of this guidance is to assist sponsors in the clinical development of new antibacterial drugs for the treatment of pulmonary tuberculosis (TB). This guidance finalizes the draft guidance of the same title issued on December 15, 2022.",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09269/pulmonary-tuberculosis-developing-drugs-for-treatment-guidance-for-industry-availability",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Postapproval Pregnancy Safety Studies; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Postapproval Pregnancy Safety Studies.&quot; The purpose of this guidance will be to provide sponsors and investigators with recommendations on how to design investigations to assess the outcomes in pregnant women exposed to drug and biological products regulated by FDA (i.e., pregnancy safety studies) in the postapproval setting. This guidance finalizes the draft…",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09268/postapproval-pregnancy-safety-studies-guidance-for-industry-availability",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Clostridioides Difficile Infection: Developing Drugs for Treatment, Reduction of Recurrence, or Prevention; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Clostridioides difficile Infection: Developing Drugs for Treatment, Reduction of Recurrence, or Prevention.&quot; The purpose of this guidance is to assist sponsors in the clinical development of drugs to support an indication of treatment, reduction of recurrence, or prevention of Clostridioides difficile infection (CDI). This guidance finalizes the draft guidance…",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09267/clostridioides-difficile-infection-developing-drugs-for-treatment-reduction-of-recurrence-or",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Testing Communications On Medical Devices and Radiation-Emitting Products",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09244/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Issuance of Priority Review Voucher; Rare Pediatric Disease Product; AVLAYAH (tividenofusp alfa-eknm)",
+      "summary": "The Food and Drug Administration (FDA) is announcing the issuance of a priority review voucher to the sponsor of a rare pediatric disease product application. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) authorizes FDA to award priority review vouchers to sponsors of approved rare pediatric disease product applications that meet certain criteria. FDA is required to publish notice of the award of the priority review voucher. FDA has determined that AVLAYAH (tividenofusp alfa-eknm),…",
+      "link": "https://www.federalregister.gov/documents/2026/05/11/2026-09242/issuance-of-priority-review-voucher-rare-pediatric-disease-product-avlayah-tividenofusp-alfa-eknm",
+      "published": "2026-05-11T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "MHRA delivers its targets to increase access to medicines and reinforce UK position as a global destination for life sciences",
       "summary": "The MHRA continues to speed up access to medicines for patients, increase efficiency of regulation and help to attract innovation and investment in the UK’s thriving £100 billion life sciences industry.",
