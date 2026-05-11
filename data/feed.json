@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T10:04:39.315349+00:00",
+  "generated_at": "2026-05-11T13:22:20.914375+00:00",
   "archive_days": 180,
-  "item_count": 155,
+  "item_count": 158,
   "feed_count": 10,
-  "new_this_run": 8,
+  "new_this_run": 9,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,42 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "MHRA opens UK-wide consultation on redefining gene therapies",
+      "summary": "To future-proof the sector and ensure regulation keeps up with scientific and technological developments, the MHRA is consulting on proposed changes to how gene therapies are defined in UK legislation.",
+      "link": "https://www.gov.uk/government/news/mhra-opens-uk-wide-consultation-on-redefining-gene-therapies",
+      "published": "2026-05-11T13:00:52+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA invites views on proposed changes to medical device regulation",
+      "summary": "New pre-market regulatory requirements for medical devices and in vitro diagnostic devices entering the GB market have been published.",
+      "link": "https://www.gov.uk/government/news/mhra-invites-views-on-proposed-changes-to-medical-device-regulation",
+      "published": "2026-05-11T10:26:17+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Class 4 Medicines Defect Notification: Milpharm Limited, Loperamide hydrochloride 2 mg Orodispersible Tablets, EL(26)A/23",
+      "summary": "Milpharm Limited has identified a discrepancy in the Patient Information Leaflet (PIL) approved for Loperamide hydrochloride 2 mg Orodispersible Tablets.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-milpharm-limited-loperamide-hydrochloride-2-mg-orodispersible-tablets-el-26-a-slash-23",
+      "published": "2026-05-11T10:02:32+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Pre market medical devices regulation – stakeholder impact survey",
       "summary": "MHRA seeks stakeholder evidence on proposed GB pre-market medical device/IVD regulation changes to inform impact assessment; deadline 11:59pm Fri 19 Jun 2026.",
@@ -182,7 +218,7 @@
       "title": "Corporate report: Advertising investigations: April 2026",
       "summary": "Decisions made by MHRA on adverts reported to have breached the legislation on advertising medicines.",
       "link": "https://www.gov.uk/government/publications/advertising-investigations-april-2026",
-      "published": "2026-05-08T11:51:24+00:00",
+      "published": "2026-05-08T11:51:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
