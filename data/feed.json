@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T13:22:20.914375+00:00",
+  "generated_at": "2026-05-11T16:14:19.685064+00:00",
   "archive_days": 180,
-  "item_count": 158,
+  "item_count": 160,
   "feed_count": 10,
-  "new_this_run": 9,
+  "new_this_run": 8,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -35,6 +35,30 @@
   "empty_feeds": [],
   "items": [
     {
+      "title": "MHRA strengthens safety warnings for finasteride and dutasteride",
+      "summary": "Updated safety advice has been issued to strengthen warnings about potential psychiatric and sexual dysfunction linked to finasteride and to provide precautionary advice on dutasteride.",
+      "link": "https://www.gov.uk/government/news/mhra-strengthens-safety-warnings-for-finasteride-and-dutasteride",
+      "published": "2026-05-11T13:43:56+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Finasteride and Dutasteride – updated safety warnings for psychiatric side effects and sexual dysfunction",
+      "summary": "The MHRA has reviewed the evidence for finasteride and dutasteride and the risk of suicidal thoughts and behaviours and has recommended further measures to minimise this risk.",
+      "link": "https://www.gov.uk/drug-safety-update/finasteride-and-dutasteride-updated-safety-warnings-for-psychiatric-side-effects-and-sexual-dysfunction",
+      "published": "2026-05-11T13:29:47+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
       "title": "MHRA opens UK-wide consultation on redefining gene therapies",
       "summary": "To future-proof the sector and ensure regulation keeps up with scientific and technological developments, the MHRA is consulting on proposed changes to how gene therapies are defined in UK legislation.",
       "link": "https://www.gov.uk/government/news/mhra-opens-uk-wide-consultation-on-redefining-gene-therapies",
@@ -50,7 +74,7 @@
       "title": "MHRA invites views on proposed changes to medical device regulation",
       "summary": "New pre-market regulatory requirements for medical devices and in vitro diagnostic devices entering the GB market have been published.",
       "link": "https://www.gov.uk/government/news/mhra-invites-views-on-proposed-changes-to-medical-device-regulation",
-      "published": "2026-05-11T10:26:17+00:00",
+      "published": "2026-05-11T10:26:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
