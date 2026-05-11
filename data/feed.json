@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-11T06:11:56.720590+00:00",
+  "generated_at": "2026-05-11T10:04:39.315349+00:00",
   "archive_days": 180,
-  "item_count": 153,
+  "item_count": 155,
   "feed_count": 10,
-  "new_this_run": 6,
+  "new_this_run": 8,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,30 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Pre market medical devices regulation – stakeholder impact survey",
+      "summary": "MHRA seeks stakeholder evidence on proposed GB pre-market medical device/IVD regulation changes to inform impact assessment; deadline 11:59pm Fri 19 Jun 2026.",
+      "link": "https://www.gov.uk/government/calls-for-evidence/pre-market-medical-devices-regulation-stakeholder-impact-survey",
+      "published": "2026-05-11T09:25:55+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Consultation on the regulation of Gene therapy medicinal products",
+      "summary": "We are seeking views on proposed updates to the definition of Gene therapy medicinal products to better reflect advances in science and manufacturing.",
+      "link": "https://www.gov.uk/government/consultations/consultation-on-the-regulation-of-gene-therapy-medicinal-products",
+      "published": "2026-05-11T08:00:03+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Animal Generic Drug User Fee Act; Stakeholder Consultation Meetings on the Animal Generic Drug User Fee Act Reauthorization; Request for Notification of Stakeholder Intent To Participate",
       "summary": "The Food and Drug Administration (FDA, the Agency, or we) is issuing this notice to request that public stakeholders notify FDA of their intent to participate in periodic consultation meetings on reauthorization of the Animal Generic Drug User Fee Act (AGDUFA). The statutory authority for AGDUFA expires September 30, 2028. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) requires that FDA consult with a range of stakeholders--including patient and consumer advocacy groups, veterinary…",
