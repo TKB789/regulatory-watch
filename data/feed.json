@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T13:01:12.701050+00:00",
+  "generated_at": "2026-05-12T15:47:49.637064+00:00",
   "archive_days": 180,
-  "item_count": 165,
+  "item_count": 166,
   "feed_count": 10,
   "new_this_run": 7,
   "expired_this_run": 6,
@@ -34,6 +34,18 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Field Safety Notices: 27 April to 1 May 2026",
+      "summary": "List of Field Safety Notices from 27 April to 1 May 2026.",
+      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-27-april-to-1-may-2026",
+      "published": "2026-05-12T14:15:24+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Decision: Medical devices given exceptional use authorisations",
       "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
