@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-12T15:57:40.538101+00:00",
+  "generated_at": "2026-05-12T17:56:00.598615+00:00",
   "archive_days": 180,
-  "item_count": 166,
+  "item_count": 167,
   "feed_count": 10,
-  "new_this_run": 6,
+  "new_this_run": 7,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,18 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Borderline products: how to tell if your product is a medicine",
+      "summary": "How the MHRA makes decisions on what is a medicinal product (borderline products).",
+      "link": "https://www.gov.uk/guidance/borderline-products-how-to-tell-if-your-product-is-a-medicine",
+      "published": "2026-05-12T16:29:40+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Field Safety Notices: 27 April to 1 May 2026",
       "summary": "List of Field Safety Notices from 27 April to 1 May 2026.",
