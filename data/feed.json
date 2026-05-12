@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T17:56:00.598615+00:00",
+  "generated_at": "2026-05-12T19:28:13.579416+00:00",
   "archive_days": 180,
-  "item_count": 167,
+  "item_count": 168,
   "feed_count": 10,
   "new_this_run": 7,
   "expired_this_run": 6,
@@ -81,6 +81,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Harmonyair A-Series Surgical Lighting System",
+      "summary": "Steris identified through customer complaints that paint from the lighting system's light head may begin to peel or chip over time as a result of routine cleaning procedures. While Steris has not received any reports of paint falling from a lighting system during use, if paint particles were to enter the sterile field or fall onto a patient, this could disrupt the procedure resulting in a procedure delay and/or may present a risk of patient infection.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/harmonyair-series-surgical-lighting-system",
+      "published": "2026-05-12T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada — Medical devices recalls & alerts"
     },
     {
       "title": "21st Century Cures Act: Annual Compilation of Notices of Updates From the Susceptibility Test Interpretive Criteria web page",
