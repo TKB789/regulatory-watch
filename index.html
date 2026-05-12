@@ -290,6 +290,180 @@
   .reader-meta-bar strong { color: var(--ink); font-weight: 700; }
   .reader-meta-bar .dot { color: var(--accent); }
 
+  /* Health badges in meta bar */
+  .health-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 2px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .health-fresh  { background: #16a34a; color: #fff; }   /* green */
+  .health-stale  { background: #ea580c; color: #fff; }   /* orange */
+  .health-broken { background: #dc2626; color: #fff; }   /* red */
+
+  /* Detail strip below the meta bar when feed isn't fresh */
+  .health-detail {
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 12px 14px;
+    margin-top: 0;
+    border-bottom: 1px solid var(--rule);
+    color: #1a1612;
+  }
+  .health-detail strong { font-weight: 700; }
+  .health-detail-stale  { background: #fef3e2; border-left: 3px solid #ea580c; }
+  .health-detail-broken { background: #fef2f2; border-left: 3px solid #dc2626; }
+  @media (max-width: 600px) {
+    .health-detail { font-size: 13px; padding: 10px 12px; }
+    .health-badge { font-size: 9px; padding: 2px 6px; }
+  }
+
+  /* Archive pagination */
+  .archive-load-more {
+    margin-top: 32px;
+    padding: 24px 0;
+    text-align: center;
+    border-top: 1px solid var(--rule);
+  }
+  .archive-load-more.done {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .load-more-btn {
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    padding: 14px 28px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    transition: background 0.15s;
+  }
+  .load-more-btn:hover, .load-more-btn:active { background: var(--accent); }
+  .load-more-btn .load-more-meta {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+    text-transform: uppercase;
+  }
+  .archive-load-more .load-more-meta {
+    /* Used in the "done" state, standalone */
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+  }
+
+  /* Feed health overview panel on dashboard */
+  .feed-health-panel {
+    margin-top: 56px;
+    padding-top: 32px;
+    border-top: 2px solid var(--ink);
+  }
+  .feed-health-panel .panel-header {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .feed-health-panel h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+    color: var(--ink);
+  }
+  .feed-health-panel h2 em { font-style: italic; color: var(--accent); font-weight: 600; }
+  .feed-health-panel .panel-desc {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #1a1612;
+    margin-bottom: 18px;
+    max-width: 60ch;
+  }
+  .feed-health-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 18px;
+    padding: 14px 16px;
+    background: rgba(255,255,255,0.55);
+    border: 1px solid var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .feed-health-summary .num {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-transform: none;
+    margin-right: 6px;
+  }
+  .feed-health-summary .fresh-num  { color: #16a34a; }
+  .feed-health-summary .stale-num  { color: #ea580c; }
+  .feed-health-summary .broken-num { color: #dc2626; }
+  .feed-health-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0;
+    border: 1px solid var(--rule);
+  }
+  .feed-health-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--rule);
+    border-right: 1px solid var(--rule);
+    align-items: center;
+  }
+  .feed-health-row:nth-last-child(-n+1) { border-bottom: none; }
+  .feed-health-row .feed-name {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.25;
+  }
+  .feed-health-row .feed-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin-top: 3px;
+    line-height: 1.4;
+  }
+  @media (max-width: 600px) {
+    .feed-health-panel { margin-top: 36px; padding-top: 22px; }
+    .feed-health-panel h2 { font-size: 22px; }
+    .feed-health-grid { grid-template-columns: 1fr; }
+    .feed-health-row { border-right: none; }
+    .feed-health-summary { font-size: 10px; gap: 10px; padding: 10px 12px; }
+    .feed-health-summary .num { font-size: 18px; }
+  }
+
   .reader-item {
     border-bottom: 1px solid var(--rule);
     padding: 22px 0 24px;
@@ -1338,6 +1512,9 @@
 
     <div class="section-rule" style="padding: 0;"><span class="num">§</span> <span>Latest Across All Categories</span></div>
     <div id="updates-dashboard"></div>
+
+    <!-- FEED HEALTH OVERVIEW -->
+    <div id="feed-health-panel" class="feed-health-panel"></div>
   </div>
 
   <!-- ===== CURATED SOURCE TABS ===== -->
@@ -1943,6 +2120,13 @@ async function loadFeed() {
     }
     LIVE_ITEMS = data.items.map(normalise).filter(x => x && x.title);
     DATA_GENERATED_AT = data.generated_at;
+    // Populate per-feed health status keyed by feed_id
+    FEED_STATUS = {};
+    if (data.feed_status && typeof data.feed_status === 'object') {
+      for (const [fid, status] of Object.entries(data.feed_status)) {
+        FEED_STATUS[fid] = status;
+      }
+    }
     if (LIVE_ITEMS.length === 0) {
       console.warn('feed.json has 0 items — falling back to sample.');
       return false;
@@ -2149,18 +2333,88 @@ function buildReaderItem(u, i) {
   return el;
 }
 
-function buildReaderMetaBar(items, sourceLabel) {
+// Feed health is loaded from feed.json's `feed_status` array.
+// Keyed by feed_id for fast lookup.
+let FEED_STATUS = {};
+
+function timeAgoFromIso(iso) {
+  if (!iso) return null;
+  const ms = Date.now() - new Date(iso).getTime();
+  if (isNaN(ms)) return null;
+  const min = Math.round(ms / 60000);
+  if (min < 1) return 'just now';
+  if (min < 60) return `${min} min ago`;
+  const hr = Math.round(min / 60);
+  if (hr < 24) return `${hr} hr${hr === 1 ? '' : 's'} ago`;
+  const d = Math.round(hr / 24);
+  if (d < 30) return `${d} day${d === 1 ? '' : 's'} ago`;
+  const mo = Math.round(d / 30);
+  return `${mo} month${mo === 1 ? '' : 's'} ago`;
+}
+
+// Returns { state: 'fresh'|'stale'|'broken'|'unknown', label, detail }
+function getFeedHealth(feedIds) {
+  // For tabs spanning multiple feeds, take the worst state
+  const stats = feedIds.map(fid => FEED_STATUS[fid]).filter(Boolean);
+  if (!stats.length) return { state: 'unknown', label: 'No status data', detail: '' };
+
+  const allOk = stats.every(s => s.status === 'ok');
+  const anyError = stats.some(s => s.status === 'error');
+
+  if (allOk) {
+    const newest = stats.reduce((a, b) =>
+      new Date(a.last_attempt) > new Date(b.last_attempt) ? a : b);
+    return {
+      state: 'fresh',
+      label: 'Fresh',
+      detail: `Fetched ${timeAgoFromIso(newest.last_attempt) || 'recently'}`,
+    };
+  }
+  if (anyError) {
+    // Find the most recent successful fetch among the erroring feeds
+    const errored = stats.filter(s => s.status === 'error');
+    const withSuccess = errored.filter(s => s.last_success);
+    if (withSuccess.length) {
+      const mostRecent = withSuccess.reduce((a, b) =>
+        new Date(a.last_success) > new Date(b.last_success) ? a : b);
+      return {
+        state: 'stale',
+        label: 'Stale',
+        detail: `Last fetched ${timeAgoFromIso(mostRecent.last_success)} · current attempt failed`,
+      };
+    }
+    const reason = errored[0].last_attempt_reason || 'unknown error';
+    return {
+      state: 'broken',
+      label: 'Failing',
+      detail: `Latest attempt: ${reason}`,
+    };
+  }
+  // empty status = connection ok, just no entries
+  return { state: 'fresh', label: 'Fresh (no new items)', detail: 'Source has no recent entries' };
+}
+
+function buildReaderMetaBar(items, sourceLabel, feedIds) {
   const newest = items[0];
   const total = items.length;
   const updatedStr = newest ? timeAgo(newest.published) : 'never';
+  const health = feedIds ? getFeedHealth(feedIds) : { state: 'unknown', label: '', detail: '' };
+  const badge = health.state !== 'unknown'
+    ? `<span class="health-badge health-${health.state}" title="${escapeHtml(health.detail)}">● ${health.label}</span>`
+    : '';
   return `
     <div class="reader-meta-bar">
       <span><strong>${total}</strong> indexed item${total === 1 ? '' : 's'}</span>
       <span class="dot">●</span>
-      <span>Last updated: <strong>${updatedStr}</strong></span>
-      <span class="dot">●</span>
-      <span>Source: <strong>${escapeHtml(sourceLabel)}</strong></span>
+      <span>Newest item: <strong>${updatedStr}</strong></span>
+      ${badge ? '<span class="dot">●</span>' + badge : ''}
     </div>
+    ${health.state === 'stale' || health.state === 'broken' ? `
+    <div class="health-detail health-detail-${health.state}">
+      <strong>${health.state === 'stale' ? '⚠ Showing archived items' : '✗ Source unavailable'}.</strong>
+      ${escapeHtml(health.detail)}.
+      ${health.state === 'stale' ? 'Items below are from earlier successful fetches and may not be current.' : 'No items could be fetched. Tap "Open gov website" below to view the source directly.'}
+    </div>` : ''}
   `;
 }
 
@@ -2340,7 +2594,7 @@ function renderCuratedTabs(items) {
     const sourceLabel = filtered[0].feed_label || filtered[0].src || tabId;
 
     // Build reader-mode wrapper
-    const metaHtml = buildReaderMetaBar(filtered, sourceLabel);
+    const metaHtml = buildReaderMetaBar(filtered, sourceLabel, cfg.feed_ids);
     const stream = document.createElement('div');
     stream.className = 'reader-stream';
     stream.innerHTML = metaHtml;
@@ -2372,6 +2626,88 @@ function renderCuratedTabs(items) {
   }
 }
 
+// ============= FEED HEALTH PANEL =============
+// Renders a per-source health overview at the bottom of the dashboard so users
+// can see at a glance which feeds are fresh, stale (using archived items), or
+// failing entirely.
+function buildFeedHealthPanel() {
+  const panel = document.getElementById('feed-health-panel');
+  if (!panel) return;
+
+  // Build entries: one per feed_id from TAB_SOURCES, in tab order
+  const entries = [];
+  for (const [tabId, cfg] of Object.entries(TAB_SOURCES)) {
+    cfg.feed_ids.forEach(fid => {
+      const status = FEED_STATUS[fid];
+      const label = (cfg.sources && cfg.sources[0]) || fid;
+      entries.push({ tabId, feed_id: fid, label, status });
+    });
+  }
+
+  if (!entries.length || entries.every(e => !e.status)) {
+    panel.innerHTML = '';
+    return;
+  }
+
+  // Tally for the summary strip
+  let fresh = 0, stale = 0, broken = 0;
+  entries.forEach(e => {
+    if (!e.status) return;
+    if (e.status.status === 'ok' || e.status.status === 'empty') fresh++;
+    else if (e.status.last_success) stale++;
+    else broken++;
+  });
+
+  // Build per-feed rows
+  const rows = entries.map(e => {
+    const s = e.status;
+    let badge = '<span class="health-badge" style="background:#9ca3af;color:#fff;">● Unknown</span>';
+    let metaLine = 'No status data yet.';
+
+    if (s) {
+      if (s.status === 'ok') {
+        badge = '<span class="health-badge health-fresh">● Fresh</span>';
+        const ago = timeAgoFromIso(s.last_attempt) || 'recently';
+        metaLine = `Last fetched ${ago} · ${s.items_fetched || 0} item${s.items_fetched === 1 ? '' : 's'}`;
+      } else if (s.status === 'empty') {
+        badge = '<span class="health-badge health-fresh">● Connected</span>';
+        const ago = timeAgoFromIso(s.last_attempt) || 'recently';
+        metaLine = `Last fetched ${ago} · feed has no entries`;
+      } else if (s.status === 'error' && s.last_success) {
+        badge = '<span class="health-badge health-stale">● Stale</span>';
+        const successAgo = timeAgoFromIso(s.last_success);
+        const reason = s.last_attempt_reason || 'fetch failed';
+        metaLine = `Last success: ${successAgo} · current attempts: ${reason}`;
+      } else if (s.status === 'error') {
+        badge = '<span class="health-badge health-broken">● Failing</span>';
+        metaLine = `${s.last_attempt_reason || 'fetch failed'}`;
+      }
+    }
+
+    return `
+      <div class="feed-health-row">
+        <div>
+          <div class="feed-name">${escapeHtml(e.label)}</div>
+          <div class="feed-meta">${escapeHtml(metaLine)}</div>
+        </div>
+        <div>${badge}</div>
+      </div>
+    `;
+  }).join('');
+
+  panel.innerHTML = `
+    <div class="panel-header">▌ Feed Health</div>
+    <h2>Source <em>status</em></h2>
+    <p class="panel-desc">Each feed's most recent fetch result. <strong>Stale</strong> means the source is currently failing but you're seeing items from earlier successful fetches. <strong>Failing</strong> means no items have ever been fetched.</p>
+    <div class="feed-health-summary">
+      <span><span class="num fresh-num">${fresh}</span> fresh</span>
+      <span><span class="num stale-num">${stale}</span> stale</span>
+      <span><span class="num broken-num">${broken}</span> failing</span>
+    </div>
+    <div class="feed-health-grid">${rows}</div>
+  `;
+}
+
 // ============= RENDER ALL =============
 function renderAll() {
   const items = LIVE_ITEMS.length ? LIVE_ITEMS : [];
@@ -2389,12 +2725,46 @@ function renderAll() {
   // CURATED SOURCE TABS — fixed set, populated from feed_id
   renderCuratedTabs(items);
 
-  // ARCHIVE — everything
+  // ARCHIVE — paginated to avoid mobile crashes on large lists.
+  // Renders 50 items initially, with a "Load more" button to append more.
+  // This is essential because rendering 500+ cards at once crashes mobile browsers.
   const archiveEl = document.getElementById('updates-archive');
   archiveEl.innerHTML = '';
-  [...items].sort((a,b) => b.sortKey - a.sortKey).forEach((u,i) => {
-    archiveEl.appendChild(buildUpdateCard(u, i));
-  });
+  const archiveSorted = [...items].sort((a,b) => b.sortKey - a.sortKey);
+  const PAGE_SIZE = 50;
+  let renderedCount = 0;
+
+  function renderArchivePage() {
+    const slice = archiveSorted.slice(renderedCount, renderedCount + PAGE_SIZE);
+    slice.forEach((u, i) => {
+      archiveEl.appendChild(buildUpdateCard(u, renderedCount + i));
+    });
+    renderedCount += slice.length;
+    // Update or remove the load-more button
+    const oldBtn = document.getElementById('archive-load-more-wrap');
+    if (oldBtn) oldBtn.remove();
+    if (renderedCount < archiveSorted.length) {
+      const wrap = document.createElement('div');
+      wrap.id = 'archive-load-more-wrap';
+      wrap.className = 'archive-load-more';
+      const remaining = archiveSorted.length - renderedCount;
+      wrap.innerHTML = `
+        <button id="archive-load-more-btn" class="load-more-btn">
+          Load ${Math.min(PAGE_SIZE, remaining)} more
+          <span class="load-more-meta">${renderedCount} of ${archiveSorted.length} shown</span>
+        </button>
+      `;
+      archiveEl.appendChild(wrap);
+      document.getElementById('archive-load-more-btn').addEventListener('click', renderArchivePage);
+    } else if (renderedCount > 0) {
+      const wrap = document.createElement('div');
+      wrap.id = 'archive-load-more-wrap';
+      wrap.className = 'archive-load-more done';
+      wrap.innerHTML = `<span class="load-more-meta">All ${archiveSorted.length} items shown</span>`;
+      archiveEl.appendChild(wrap);
+    }
+  }
+  renderArchivePage();
 
   // Last-updated stamp
   if (DATA_GENERATED_AT) {
@@ -2404,6 +2774,9 @@ function renderAll() {
   } else {
     document.getElementById('last-updated').textContent = 'sample';
   }
+
+  // Feed health panel at bottom of dashboard
+  buildFeedHealthPanel();
 }
 
 // ============= STATIC SECTIONS (calendar, agencies) =============
