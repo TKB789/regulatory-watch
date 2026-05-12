@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-12T10:45:47.262921+00:00",
+  "generated_at": "2026-05-12T13:01:12.701050+00:00",
   "archive_days": 180,
-  "item_count": 164,
+  "item_count": 165,
   "feed_count": 10,
-  "new_this_run": 10,
+  "new_this_run": 7,
   "expired_this_run": 6,
   "failed_feeds": [
     {
@@ -34,6 +34,30 @@
   ],
   "empty_feeds": [],
   "items": [
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-05-12T12:48:53+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Field Safety Notices: 4 to 8 May 2026",
+      "summary": "List of Field Safety Notices from 4 to 8 May 2026.",
+      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-4-to-8-may-2026",
+      "published": "2026-05-12T12:46:01+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "21st Century Cures Act: Annual Compilation of Notices of Updates From the Susceptibility Test Interpretive Criteria web page",
       "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing the availability of the Agency's annual compilation of notices of updates to the Agency's Susceptibility Test Interpretive Criteria web page. The Agency established the Susceptibility Test Interpretive Criteria web page on December 13, 2017, and since establishment has provided updates to both the format of the web pages and the susceptibility test interpretive criteria identified and recognized by FDA on the web pages.…",
@@ -669,18 +693,6 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-05-01T15:05:36+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "MHRA approves Linerixibat (Lynavoy) for the treatment of itch due to biliary tract disease",
