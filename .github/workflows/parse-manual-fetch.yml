@@ -1,0 +1,45 @@
+name: Parse manual fetch
+
+# Triggers when raw RSS feed files are uploaded to manual-fetch/raw/
+# This lets you fetch feeds from your phone or laptop (residential IP, not
+# blocked by gov sites) and have GitHub Actions parse and merge them into
+# feed.json — bypassing the GitHub-Actions-IP-blocking issue.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "manual-fetch/raw/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install feedparser
+
+      - name: Parse uploaded raw feeds
+        run: python scripts/parse_manual_fetch.py
+
+      - name: Commit updated feed.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feed.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: merge manual fetch"
+            git pull --rebase origin main
+            git push
+          fi
