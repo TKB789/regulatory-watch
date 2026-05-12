@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-05-12T22:11:41.773868+00:00",
-  "archive_days": 180,
-  "item_count": 168,
+  "generated_at": "2026-05-12T23:05:56.944356+00:00",
+  "item_count": 188,
   "feed_count": 10,
-  "new_this_run": 6,
-  "expired_this_run": 6,
+  "new_this_run": 20,
+  "pruned_this_run": 0,
   "failed_feeds": [
     {
       "feed_id": "fda-recalls",
@@ -33,6 +32,21 @@
     }
   ],
   "empty_feeds": [],
+  "feed_status": {
+    "fda-recalls": {
+      "name": "FDA Recalls",
+      "feed_id": "fda-recalls",
+      "status": "ok",
+      "last_attempt": "2026-05-12T23:05:56.944356+00:00",
+      "last_success": "2026-05-12T23:05:56.944356+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
+    }
+  },
+  "manual_fetch_at": "2026-05-12T23:05:56.944356+00:00",
+  "manual_fetched_feeds": [
+    "fda-recalls"
+  ],
   "items": [
     {
       "title": "Borderline products: how to tell if your product is a medicine",
@@ -311,6 +325,42 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "XD Investments LLC Recalls Better Weather Fix Elixir Products Due to Undeclared Mitragynine and Mitragynine Pseuoindoxyl",
+      "summary": "XD Investments LLC of Houston, TX, is voluntarily recalling approximately 448 Boxes of Better Weather Fix Elixir products, including all flavors and variations, because FDA analysis found the products to contain undeclared Mitragynine and Mitragynine Pseudoindoxyl. (MP) is a more potent derivative o",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/xd-investments-llc-recalls-better-weather-fix-elixir-products-due-undeclared-mitragynine-and",
+      "published": "2026-05-09T14:13:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Spring & Mulberry Expands Voluntary Recall of Select Chocolate Bars Because of Possible Health Risk",
+      "summary": "RALEIGH, NC, UNITED STATES, May 8, 2026 -- Spring &amp; Mulberry is voluntarily expanding its previously announced recall of select chocolate bars due to possible contamination from Salmonella.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-because-possible-health-risk",
+      "published": "2026-05-08T21:28:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Pharmacal Issues Nationwide Recall of MG217 Multi-Symptom Treatment  Cream & Skin Protectant Eczema Cream Due to Microbial Contamination",
+      "summary": "- May/8/2026- Jackson, WI, Pharmacal is recalling one lot of MG217 Multi-symptom Treatment Cream &amp; Skin Protectant Eczema Cream, 6oz tube to the consumer level. The product has been found to be contaminated with Staphylococcus aureus.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pharmacal-issues-nationwide-recall-mg217-multi-symptom-treatment-cream-skin-protectant-eczema-cream",
+      "published": "2026-05-08T16:08:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "MHRA delivers its targets to increase access to medicines and reinforce UK position as a global destination for life sciences",
       "summary": "The MHRA continues to speed up access to medicines for patients, increase efficiency of regulation and help to attract innovation and investment in the UK’s thriving £100 billion life sciences industry.",
       "link": "https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences",
@@ -383,6 +433,30 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Stoltzfus Family Dairy Recalls Sour Cream and Onion Cheese Curds Because of Possible Health Risk",
+      "summary": "Stoltzfus Family Dairy of Vernon Center, NY is recalling Sour Cream &amp; Onion cheese curds because they have the potential to be contaminated with Salmonella, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/stoltzfus-family-dairy-recalls-sour-cream-and-onion-cheese-curds-because-possible-health-risk",
+      "published": "2026-05-07T20:18:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Jonco Industries Recalls Certain Consumer-Sized White Cheddar Seasoning Products Because of Possible Health Risk",
+      "summary": "Jonco Industries, Inc. of Milwaukee, WI, is recalling certain consumer-sized White Cheddar Seasoning products because they have the potential to be contaminated with Salmonella, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jonco-industries-recalls-certain-consumer-sized-white-cheddar-seasoning-products-because-possible",
+      "published": "2026-05-07T19:20:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Find product information about medicines",
       "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
       "link": "https://www.gov.uk/guidance/find-product-information-about-medicines",
@@ -393,6 +467,42 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Legacy Snack Solutions Voluntarily Recalls Giant Eagle Baked Pita Chips with Parmesan, Garlic & Herb Because of Possible Health Risk",
+      "summary": "MAY 7, 2026 – Legacy Snack Solutions of Waukesha, Wisconsin, is voluntarily recalling certain batches of Giant Eagle Baked Pita Chips With Parmesan, Garlic &amp; Herb because they have the potential to be contaminated with Salmonella. This action follows a California Diaries, Inc. milk powder recall du",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/legacy-snack-solutions-voluntarily-recalls-giant-eagle-baked-pita-chips-parmesan-garlic-herb-because",
+      "published": "2026-05-07T15:30:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "George J. Howe Co. Voluntarily Recalls Sunflower Seeds Due to Undeclare Tree Nuts (Cashews)",
+      "summary": "George J. Howe Co. of Grove City, Pennsylvania is voluntarily recalling 13,619 pounds of Sunflower Seeds because it may contain undeclared tree nut (cashew) allergens. Individuals with an allergy or severe sensitivity to tree nuts are at risk of serious or life-threatening allergic reaction if they",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/george-j-howe-co-voluntarily-recalls-sunflower-seeds-due-undeclare-tree-nuts-cashews",
+      "published": "2026-05-07T14:45:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "The Brownie Baker, Inc. Issues Allergy Alert on Undeclared Tree Nuts (Walnuts) in Muffin Product",
+      "summary": "5/07/2026-Fresno, CA- The Brownie Baker, Inc. is voluntarily recalling Nouria Banana Nut Muffins that we incorrectly labeled as blueberry muffins, which do not declare the presence of tree nuts (walnuts).",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/brownie-baker-inc-issues-allergy-alert-undeclared-tree-nuts-walnuts-muffin-product",
+      "published": "2026-05-07T14:26:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Guidance: RSV Vaccine Factsheet – Information for Patients, Parents and Carers",
@@ -587,6 +697,30 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "JCB Flavors, LLC Issues Voluntary Recall of Topical Seasonings Due to Potential Health Risk",
+      "summary": "JCB Flavors, LLC of Watertown, Wisconsin, is voluntarily recalling select topical seasoning products due to the potential presence of Salmonella, an organism that can cause serious and sometimes fatal infections in young children, elderly individuals, and those with weakened immune systems.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jcb-flavors-llc-issues-voluntary-recall-topical-seasonings-due-potential-health-risk",
+      "published": "2026-05-06T18:50:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Albright’s Raw Pet Food Announces Voluntary Recall of Select Chicken Recipe for Dogs Complete and Balanced, 1 lb Bricks (Lot #C001730)",
+      "summary": "Albright’s Raw Pet Food of Fort Wayne, Indiana out of an abundance of caution is voluntarily recalling one lot of its Chicken Recipe for Dogs Complete and Balanced because this lot has the potential to be contaminated with Salmonella.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albrights-raw-pet-food-announces-voluntary-recall-select-chicken-recipe-dogs-complete-and-balanced-1",
+      "published": "2026-05-06T13:23:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Export drugs and medicines: special rules",
       "summary": "You must get permission to export certain drugs and medicines.",
       "link": "https://www.gov.uk/guidance/export-drugs-and-medicines-special-rules",
@@ -695,6 +829,66 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "My Wife’s Slaw Issues a Voluntary Recall of its Original and Jalapeno Heat Flavored Coleslaw for Being Adulterated",
+      "summary": "Zanesville, Ohio (May 5, 2026) - My Wife’s Slaw is voluntarily recalling its Original and Jalapeno Heat flavored coleslaw sold in 8 oz and 16 oz glass mason jars. The products included in this recall are adulterated because they were produced without the benefit of inspection and the safety paramete",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/my-wifes-slaw-issues-voluntary-recall-its-original-and-jalapeno-heat-flavored-coleslaw-being",
+      "published": "2026-05-05T22:26:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Market of Choice Issues Allergy Alert on Undeclared Sesame in Vegan Kale Caesar Salad",
+      "summary": "Eugene, OR — May 5, 2026, Market of Choice (MOC) is recalling MOC Vegan Kale Caesar Salad (9.5 oz) due to the presence of an undeclared sesame allergen. People who have an allergy or severe sensitivity to sesame run the risk of serious or life-threatening allergic reaction if they consume this produ",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/market-choice-issues-allergy-alert-undeclared-sesame-vegan-kale-caesar-salad",
+      "published": "2026-05-05T21:13:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Shining Sea Fish Co. Recalls “Ma Cohen’s Kippered Herring” Because of Possible Health Risk",
+      "summary": "Shining Sea Fish Co. of Detroit MI, is recalling its catch weight packages of \"Ma Cohen’s Kippered Herring\" smoked fish because this product consists of, uneviscerated fish longer than five inches, which has the potential to be contaminated with Clostridium botulinum, a bacterium which can cause li",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shining-sea-fish-co-recalls-ma-cohens-kippered-herring-because-possible-health-risk",
+      "published": "2026-05-05T21:08:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "John B. Sanfilippo & Son, Inc. Voluntarily Recalls Snack Mix Products Due to  Possible Health Risk",
+      "summary": "FOR IMMEDIATE RELEASE – ELGIN, IL - [May 5, 2026] – As a follow up to the voluntary recall of dry milk powder by California Dairies, Inc., John B. Sanfilippo &amp; Son, Inc. (Nasdaq: JBSS) (the “Company”) announced today that it is voluntarily recalling snack mix products flavored with a seasoning manuf",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/john-b-sanfilippo-son-inc-voluntarily-recalls-snack-mix-products-due-possible-health-risk",
+      "published": "2026-05-05T18:22:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Winfield’s Chocolate Bar Recalls Dark Chocolate Products Due to Undeclared Milk",
+      "summary": "HOUSTON, TX, May 5, 2026 — CBSL Commissary LLC, operating as Winfield’s Chocolate Bar, is voluntarily recalling five dark chocolate products sold at its three Houston, Texas locations because the word “milk” was omitted from the ingredient label. Milk is a known major food allergen under the Food Al",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winfields-chocolate-bar-recalls-dark-chocolate-products-due-undeclared-milk",
+      "published": "2026-05-05T16:40:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Guidance on the Control of Products and Services Obtained from Suppliers",
       "summary": "Guidance on the Control of Products and Services Obtained from Suppliers",
       "link": "https://www.imdrf.org/consultations/guidance-control-products-and-services-obtained-suppliers",
@@ -707,6 +901,30 @@
       "source": "IMDRF Consultations"
     },
     {
+      "title": "Ocinet, Inc., Recalls “…And Kimchi” Branded Sliced Kimchi Because the Product Contains Undeclared Fish (Anchovies)",
+      "summary": "Ocinet, Inc., of Downey, California, is recalling all “…And Kimchi” branded sliced kimchi, UPC 8541200408, UPC 8541200409, and UPC 8541200411 (the “Product”) because the Product contains undeclared fish (anchovies). People who have an allergy or severe sensitivity to fish run the risk of a serious o",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ocinet-inc-recalls-and-kimchi-branded-sliced-kimchi-because-product-contains-undeclared-fish",
+      "published": "2026-05-04T16:04:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Utz Quality Foods, LLC Issues Voluntary Recall of Certain Limited Varieties of  Zapp’s and Dirty Potato Chips",
+      "summary": "HANOVER, PA -- (BUSINESS WIRE) – Utz Quality Foods, LLC, a subsidiary of Utz Brands, Inc., is issuing a voluntary recall in the United States of certain limited varieties of Zapp’s® and Dirty® potato chips. This voluntary recall follows notification to Utz that a seasoning containing dry milk powder",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/utz-quality-foods-llc-issues-voluntary-recall-certain-limited-varieties-zapps-and-dirty-potato-chips",
+      "published": "2026-05-04T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; National Youth Tobacco Survey",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
       "link": "https://www.federalregister.gov/documents/2026/05/04/2026-08604/agency-information-collection-activities-proposed-collection-comment-request-national-youth-tobacco",
@@ -717,6 +935,30 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "a2 Platinum USA Label Infant Formula Recalled Because of Possible Health Risk",
+      "summary": "Boulder, CO – May 2, 2026 – The a2 Milk Company (“a2MC”) has voluntarily recalled three specific batches of its imported a2 Platinum Premium USA label infant formula 0-12 months (“Product”) due to the presence of cereulide. The Product is sold only in the United States. Cereulide is a heat-stable t",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/a2-platinum-usa-label-infant-formula-recalled-because-possible-health-risk",
+      "published": "2026-05-02T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Trividia Health Correction for TRUE METRIX Blood Glucose Monitoring Systems",
+      "summary": "FT. LAUDERDALE, FL – May 1, 2026 – Trividia Health, Inc., a global leader in diabetes management, today provided an important update to the medical device labeling correction it announced on February 6, 2026, for all TRUE METRIX®, TRUE METRIX® AIR, TRUE METRIX® GO, and TRUE METRIX® PRO Blood Glucose",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-correction-true-metrix-blood-glucose-monitoring-systems",
+      "published": "2026-05-01T21:25:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
@@ -741,6 +983,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Second Nature Brands Issues Allergy Alert on Undeclared Cashews, Pistachios, and Cherries in Keto Crunch Smart Mix",
+      "summary": "Second Nature Brands of Madison Heights, MI, is voluntarily recalling certain 10-ounce packages of SECOND NATURE KETO CRUNCH SMART MIXTM because the product may contain undeclared cashews, pistachios, and cherries. Individuals who have an allergy or severe sensitivity to tree nuts, including cashe",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachios-and-cherries-keto-crunch",
+      "published": "2026-05-01T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Second Nature Brands Issues Allergy Alert on Undeclared Cashews, Pistachois, and Cherries in Keto Crunch Smart Mix",
