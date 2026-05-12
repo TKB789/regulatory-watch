@@ -40,7 +40,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: refresh feed [skip ci]"
+            git commit -m "chore: refresh feed"
             # Pull any concurrent changes before pushing (handles race conditions)
             git pull --rebase origin main
             git push
