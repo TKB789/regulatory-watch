@@ -2248,6 +2248,12 @@ function normalise(raw) {
     title,
     summary,
     src: (raw.source || agency).toString(),
+    // Preserve feed_id and feed_label so tab matching can work by ID
+    // (more reliable than source-name matching, since source strings drift
+    // when publishers rename feeds — e.g. Health Canada changed their feed
+    // name from "recalls & safety alerts" to "Medical devices recalls & alerts").
+    feed_id: (raw.feed_id || '').toString(),
+    feed_label: (raw.feed_label || '').toString(),
     url: cleanUrl(raw.link),
     agency,
     region: (raw.region || AGENCY_REGION[agency] || '').toString(),
@@ -2712,16 +2718,25 @@ const TAB_SOURCES = {
   'who-alerts':       { feed_ids: ['who-alerts'],       sources: ['WHO Medical Product Alerts'],                         category: 'recall' },
   'mhra-news':        { feed_ids: ['mhra-news'],        sources: ['MHRA news & alerts'],                                 category: 'postmarket' },
   'uk-alerts':        { feed_ids: ['uk-alerts'],        sources: ['UK Drug & Medical Device Alerts'],                    category: 'recall' },
-  'hc-recalls':       { feed_ids: ['hc-recalls'],       sources: ['Health Canada recalls & safety alerts'],              category: 'recall' },
+  'hc-recalls':       { feed_ids: ['hc-recalls'],       sources: ['Health Canada recalls & safety alerts', 'Health Canada – Medical devices recalls & alerts', 'Health Canada — Medical devices recalls & alerts'],              category: 'recall' },
   'tga-news':         { feed_ids: ['tga-news'],         sources: ['TGA news & alerts'],                                  category: 'postmarket' },
   'eu-health':        { feed_ids: ['eu-health'],        sources: ['European Commission — Health news'],                  category: 'guidance' },
   'eur-lex':          { feed_ids: ['eur-lex'],          sources: ['EUR-Lex — Recent regulations & directives'],          category: 'prepub' },
 };
 
 // Test if an item belongs to a given tab by checking feed_id OR source.
+// Test if an item belongs to a given tab. Matches in order of reliability:
+//   1. feed_id (most reliable — IDs are stable, set by both fetchers)
+//   2. exact source name in cfg.sources (matches if upstream feed name matches)
+// For source-name drift (e.g. publisher renames their feed), add the new name
+// to the relevant tab's `sources` array in TAB_SOURCES below.
 function itemBelongsTo(item, cfg) {
-  if (item.feed_id && cfg.feed_ids.includes(item.feed_id)) return true;
-  if (item.src && cfg.sources && cfg.sources.includes(item.src)) return true;
+  if (item.feed_id && cfg.feed_ids && cfg.feed_ids.includes(item.feed_id)) {
+    return true;
+  }
+  if (item.src && cfg.sources && cfg.sources.includes(item.src)) {
+    return true;
+  }
   return false;
 }
 
