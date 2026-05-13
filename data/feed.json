@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13T06:04:18.327728+00:00",
-  "item_count": 203,
+  "generated_at": "2026-05-13T09:26:33.198572+00:00",
+  "item_count": 209,
   "feed_count": 13,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -45,7 +45,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-13T03:55:50.351751+00:00"
@@ -54,7 +54,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-13T03:55:50.351751+00:00"
@@ -63,7 +63,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -71,8 +71,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
-      "last_success": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
+      "last_success": "2026-05-13T09:22:32.785651+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -80,8 +80,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
-      "last_success": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
+      "last_success": "2026-05-13T09:22:32.785651+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -89,8 +89,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
-      "last_success": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
+      "last_success": "2026-05-13T09:22:32.785651+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -98,7 +98,7 @@
       "name": "WHO Medical Product Alerts",
       "feed_id": "who-alerts",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -106,8 +106,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
-      "last_success": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
+      "last_success": "2026-05-13T09:22:32.785651+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -115,8 +115,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
-      "last_success": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
+      "last_success": "2026-05-13T09:22:32.785651+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -124,7 +124,7 @@
       "name": "Health Canada recalls & safety alerts",
       "feed_id": "hc-recalls",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -132,7 +132,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0
     },
@@ -140,7 +140,7 @@
       "name": "European Commission — Health news",
       "feed_id": "eu-health",
       "status": "error",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -148,13 +148,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-13T06:00:12.764071+00:00",
+      "last_attempt": "2026-05-13T09:22:32.785651+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-13T06:00:12.764071+00:00",
+      "last_success": "2026-05-13T09:22:32.785651+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Modified Risk Tobacco Product Application: Renewal Applications for VLN® King and VLN® Menthol King, Cigarette Products Submitted by 22nd Century Group Inc.",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing the availability for public comment of modified risk tobacco product applications (MRTPAs) for renewal of existing MRTP orders for two cigarette products submitted by 22nd Century Group Inc.",
+      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09544/modified-risk-tobacco-product-application-renewal-applications-for-vln-king-and-vln-menthol-king",
+      "published": "2026-05-13T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Postmarketing Adverse Experience Reporting",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09543/agency-information-collection-activities-proposed-collection-comment-request-postmarketing-adverse",
+      "published": "2026-05-13T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Biomarker Incubator: Urinary Kidney Safety Biomarkers; Request for Information",
+      "summary": "The Center for Drug Evaluation and Research (CDER) of the Food and Drug Administration (FDA or Agency) is announcing a request for information regarding a regulatory science initiative. The aims of the initiative are to advance biomarker validation through the compilation of data from multiple sources and through a specific pilot project focused on aggregating data for biomarkers of drug-induced kidney injury. The purpose of this notice is to inform the public of the aims of this initiative,…",
+      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09533/biomarker-incubator-urinary-kidney-safety-biomarkers-request-for-information",
+      "published": "2026-05-13T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Azodicarbonamide (ADA); Request for Information",
+      "summary": "The Food and Drug Administration (FDA or we) is requesting information on the current uses and safety data of azodicarbonamide (ADA) in human food and as a food contact substance. We are requesting this information as part of our systematic process for conducting post- market assessments of chemicals in food. We are conducting a post- market assessment of the safety of ADA in food, considering the latest state of the science. We intend to use the information received and any other available,…",
+      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09508/azodicarbonamide-ada-request-for-information",
+      "published": "2026-05-13T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Butylated Hydroxytoluene (BHT); Request for Information",
+      "summary": "The Food and Drug Administration (FDA or we) is requesting information on the current uses and safety data for butylated hydroxytoluene (BHT) in human food and as a food contact substance. We are requesting this information as part of our systematic process for conducting post-market assessments of chemicals in food. We are conducting a post-market assessment of the safety of BHT in food, considering the latest state of the science. We intend to use the information received and any other…",
+      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09507/butylated-hydroxytoluene-bht-request-for-information",
+      "published": "2026-05-13T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; The Real Cost Campaign Outcomes Evaluation Study: Cohort 3",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09448/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-05-13T00:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Borderline products: how to tell if your product is a medicine",
       "summary": "How the MHRA makes decisions on what is a medicinal product (borderline products).",
