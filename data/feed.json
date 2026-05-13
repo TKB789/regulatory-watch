@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13T20:29:39.007250+00:00",
-  "item_count": 227,
+  "generated_at": "2026-05-13T21:33:11.854127+00:00",
+  "item_count": 228,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -32,20 +32,20 @@
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
-      "status": "error",
-      "last_attempt": "2026-05-13T20:26:30.038735+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0,
-      "last_success": "2026-05-13T03:55:50.351751+00:00"
+      "status": "ok",
+      "last_attempt": "2026-05-13T21:33:11.854127+00:00",
+      "last_success": "2026-05-13T21:33:11.854127+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
-      "status": "error",
-      "last_attempt": "2026-05-13T20:26:30.038735+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0,
-      "last_success": "2026-05-13T03:55:50.351751+00:00"
+      "status": "ok",
+      "last_attempt": "2026-05-13T21:33:11.854127+00:00",
+      "last_success": "2026-05-13T21:33:11.854127+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA Press Announcements",
@@ -135,6 +135,11 @@
       "last_success": "2026-05-13T20:26:30.038735+00:00",
       "items_fetched": 0
     }
+  ],
+  "manual_fetch_at": "2026-05-13T21:33:11.854127+00:00",
+  "manual_fetched_feeds": [
+    "fda-medwatch",
+    "fda-recalls"
   ],
   "items": [
     {
@@ -304,6 +309,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Fly By Jing Issues Voluntary Recall of Creamy Sesame  Noodles Due to Potential Cross-Contact with Peanuts",
+      "summary": "LOS ANGELES, CA — May 12 2026 Fly By Jing is voluntarily recalling certain lots of Fly By Jing Creamy Sesame Noodles (single pack and 4-pack) because the products may have been exposed to cross-contact from peanuts. People who have allergies to peanuts run the risk of a serious or life-threatening a",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fly-jing-issues-voluntary-recall-creamy-sesame-noodles-due-potential-cross-contact-peanuts",
+      "published": "2026-05-12T15:42:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Field Safety Notices: 27 April to 1 May 2026",
