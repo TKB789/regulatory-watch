@@ -183,16 +183,22 @@ def main():
         return
 
     print(f"Found {len(raw_files)} raw file(s) to parse:", flush=True)
+    for f in raw_files:
+        print(f"  • {f.name}  (feed_id will be: '{f.stem.lower()}')", flush=True)
+    print("", flush=True)
 
     # Parse each uploaded raw file
     new_items = []
     parsed_feed_ids = set()
     for raw_file in raw_files:
-        # Strip extension; the stem must equal the feed_id
+        # Strip extension — works for .xml, .rss, .atom, or no extension at all.
+        # The "stem" is everything before the LAST dot.
         feed_id = raw_file.stem.lower()
         meta = FEED_META.get(feed_id)
         if not meta:
-            print(f"  ⚠ {raw_file.name}: no metadata for feed_id '{feed_id}' — skipping", flush=True)
+            valid_ids = ", ".join(sorted(FEED_META.keys()))
+            print(f"  ⚠ {raw_file.name}: feed_id '{feed_id}' not recognized.", flush=True)
+            print(f"     Valid feed_ids are: {valid_ids}", flush=True)
             continue
 
         try:
