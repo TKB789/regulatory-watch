@@ -1,0 +1,41 @@
+name: Update consumer safety feeds
+
+# Runs nightly at 06:00 UTC, and can be triggered manually from the Actions tab.
+# Commits the refreshed feeds/consumer.json back to the repo, which GitHub Pages
+# then serves to consumer.html.
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # 06:00 UTC daily
+  workflow_dispatch:       # manual trigger button in the Actions tab
+
+permissions:
+  contents: write           # required so the action can commit the updated JSON
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # No external Python deps needed — the script uses stdlib only.
+      - name: Run feed builder
+        run: python scripts/build_consumer_feeds.py
+
+      - name: Commit updated feed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain feeds/consumer.json)" ]; then
+            git add feeds/consumer.json
+            git commit -m "chore: refresh consumer.json [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
