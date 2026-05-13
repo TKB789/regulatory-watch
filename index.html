@@ -1653,7 +1653,7 @@
     <button class="tab-btn" data-tab="uk-alerts">UK Drug &amp; Device Alerts <span class="count">0</span></button>
     <button class="tab-btn" data-tab="hc-recalls">Health Canada <span class="count">0</span></button>
     <button class="tab-btn" data-tab="tga-news">TGA News <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="eu-health">EU Commission Health <span class="count">0</span></button>
+    <button class="tab-btn" data-tab="eu-health">EMA News <span class="count">0</span></button>
     <button class="tab-btn" data-tab="eur-lex">EUR-Lex <span class="count">0</span></button>
     <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">0</span></button>
     <button class="tab-btn" data-tab="calendar">Calendar</button>
@@ -1744,7 +1744,7 @@
     <div class="section-header">
       <div class="kicker">▌ Source</div>
       <h1>WHO <em>Alerts</em></h1>
-      <p class="desc">Items from the WHO Medical Product Alerts RSS feed.</p>
+      <p class="desc">WHO doesn't publish a dedicated medical-products RSS feed. This tab shows any archived items and is preserved for manual uploads. For live alerts, visit <a href="https://www.who.int/teams/regulation-prequalification/incidents-and-SF" target="_blank" rel="noopener">WHO Incidents and SF</a>.</p>
     </div>
     <div id="updates-who-alerts"></div>
   </div>
@@ -1771,7 +1771,7 @@
     <div class="section-header">
       <div class="kicker">▌ Source</div>
       <h1>Health <em>Canada</em></h1>
-      <p class="desc">Items from the Health Canada recalls &amp; safety alerts RSS feed.</p>
+      <p class="desc">Medical device recalls and safety alerts from Health Canada.</p>
     </div>
     <div id="updates-hc-recalls"></div>
   </div>
@@ -1788,8 +1788,8 @@
   <div class="tab-section" id="tab-eu-health">
     <div class="section-header">
       <div class="kicker">▌ Source</div>
-      <h1>EU <em>Commission Health</em></h1>
-      <p class="desc">Items from the European Commission Health news RSS feed.</p>
+      <h1>EMA <em>News</em></h1>
+      <p class="desc">News and press releases from the European Medicines Agency.</p>
     </div>
     <div id="updates-eu-health"></div>
   </div>
@@ -2718,9 +2718,9 @@ const TAB_SOURCES = {
   'who-alerts':       { feed_ids: ['who-alerts'],       sources: ['WHO Medical Product Alerts'],                         category: 'recall' },
   'mhra-news':        { feed_ids: ['mhra-news'],        sources: ['MHRA news & alerts'],                                 category: 'postmarket' },
   'uk-alerts':        { feed_ids: ['uk-alerts'],        sources: ['UK Drug & Medical Device Alerts'],                    category: 'recall' },
-  'hc-recalls':       { feed_ids: ['hc-recalls'],       sources: ['Health Canada recalls & safety alerts', 'Health Canada – Medical devices recalls & alerts', 'Health Canada — Medical devices recalls & alerts'],              category: 'recall' },
+  'hc-recalls':       { feed_ids: ['hc-recalls'],       sources: ['Health Canada Medical Device Recalls', 'Health Canada recalls & safety alerts', 'Health Canada – Medical devices recalls & alerts', 'Health Canada — Medical devices recalls & alerts'],              category: 'recall' },
   'tga-news':         { feed_ids: ['tga-news'],         sources: ['TGA news & alerts'],                                  category: 'postmarket' },
-  'eu-health':        { feed_ids: ['eu-health'],        sources: ['European Commission — Health news'],                  category: 'guidance' },
+  'eu-health':        { feed_ids: ['eu-health'],        sources: ['EMA News & Press Releases', 'European Commission — Health news'],                  category: 'guidance' },
   'eur-lex':          { feed_ids: ['eur-lex'],          sources: ['EUR-Lex — Recent regulations & directives'],          category: 'prepub' },
 };
 
