@@ -258,11 +258,27 @@ def main():
     if len(all_items) > MAX_TOTAL_ITEMS:
         all_items = all_items[:MAX_TOTAL_ITEMS]
 
-    # Preserve existing feed_status; mark the manually-fetched feeds as fresh
+    # Preserve existing feed_status; mark the manually-fetched feeds as fresh.
+    #
+    # feed_status is stored as a LIST of objects in feed.json (to match the
+    # schema written by scripts/fetch_feeds.py). We convert to a dict keyed by
+    # feed_id for easy lookup/update, then convert back to a list before write.
     now_iso = datetime.now(timezone.utc).isoformat()
-    feed_status = existing_data.get("feed_status", {})
+    existing_status = existing_data.get("feed_status", [])
+    status_by_id = {}
+    # Handle both list-of-objects (correct schema) and dict-keyed-by-id (older format)
+    if isinstance(existing_status, list):
+        for s in existing_status:
+            if isinstance(s, dict) and s.get("feed_id"):
+                status_by_id[s["feed_id"]] = s
+    elif isinstance(existing_status, dict):
+        for fid, s in existing_status.items():
+            if isinstance(s, dict):
+                status_by_id[fid] = s
+
+    # Update entries for the manually-fetched feeds
     for fid in parsed_feed_ids:
-        feed_status[fid] = {
+        status_by_id[fid] = {
             "name": FEED_META[fid]["name"],
             "feed_id": fid,
             "status": "ok",
@@ -272,6 +288,9 @@ def main():
             "source": "manual-fetch",
         }
 
+    # Convert back to a list for output (matches fetch_feeds.py schema)
+    feed_status_list = list(status_by_id.values())
+
     out = {
         "generated_at": now_iso,
         "item_count": len(all_items),
@@ -280,7 +299,7 @@ def main():
         "pruned_this_run": 0,
         "failed_feeds": existing_data.get("failed_feeds", []),
         "empty_feeds": existing_data.get("empty_feeds", []),
-        "feed_status": feed_status,
+        "feed_status": feed_status_list,
         "manual_fetch_at": now_iso,
         "manual_fetched_feeds": sorted(parsed_feed_ids),
         "items": all_items,
@@ -300,5 +319,11 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(f"FATAL but recoverable: {e}", flush=True)
-        sys.exit(0)
+        # Print full traceback so we can actually see what broke.
+        import traceback
+        print(f"\n✗ FATAL: {e}", flush=True)
+        print("Traceback:", flush=True)
+        traceback.print_exc()
+        # Exit with error status so the GitHub Actions workflow shows a red X
+        # instead of green check — silent failures hide real bugs.
+        sys.exit(1)
