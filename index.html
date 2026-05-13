@@ -269,6 +269,172 @@
     .lookup-endpoint { font-size: 9.5px; padding: 6px 9px; }
   }
 
+  /* ============= FILTER PANEL ============= */
+  /* Per-tab filter system: small button in the section header opens a slide-down
+     panel with three filtering controls — smart toggle, category checkboxes,
+     and a keyword box. Filter state is per-tab and resets on page reload. */
+  .section-header {
+    position: relative;
+  }
+  .filter-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    background: var(--paper);
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s;
+  }
+  .filter-toggle-btn:hover, .filter-toggle-btn:active {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .filter-toggle-btn.active {
+    background: var(--accent);
+    color: var(--paper);
+    border-color: var(--accent);
+  }
+  .filter-toggle-btn .gear { font-size: 13px; }
+  .filter-toggle-btn .badge {
+    background: var(--paper);
+    color: var(--accent);
+    padding: 1px 6px;
+    margin-left: 4px;
+    font-size: 10px;
+    font-weight: 800;
+    border-radius: 2px;
+  }
+
+  .filter-panel {
+    margin-top: 14px;
+    margin-bottom: 8px;
+    padding: 16px 18px 18px;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid var(--ink);
+    border-left: 4px solid var(--accent);
+    display: none;
+  }
+  .filter-panel.open { display: block; }
+
+  .filter-section {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed var(--rule);
+  }
+  .filter-section:last-of-type { border-bottom: none; padding-bottom: 0; margin-bottom: 0; }
+  .filter-section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+
+  .filter-smart-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .filter-smart-row input { transform: scale(1.2); cursor: pointer; }
+  .filter-smart-row .smart-hint {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+    margin-left: 4px;
+  }
+
+  .filter-cat-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    margin-top: 4px;
+  }
+  .filter-cat-grid label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    color: var(--ink);
+    cursor: pointer;
+    user-select: none;
+  }
+  .filter-cat-grid input { cursor: pointer; }
+
+  .filter-keyword-input {
+    width: 100%;
+    padding: 8px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+    box-sizing: border-box;
+  }
+  .filter-keyword-input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .filter-keyword-hint {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 4px;
+    letter-spacing: 0.04em;
+  }
+
+  .filter-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--ink);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+  }
+  .filter-summary .clear-btn {
+    background: none;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    padding: 4px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .filter-summary .clear-btn:hover { background: var(--ink); color: var(--paper); }
+  .filter-summary .count-hidden {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  @media (max-width: 600px) {
+    .filter-panel { padding: 12px 14px 14px; margin-top: 12px; }
+    .filter-toggle-btn { font-size: 10px; padding: 7px 12px; }
+    .filter-cat-grid label { font-size: 13px; }
+    .filter-smart-row { font-size: 14px; }
+    .filter-summary { font-size: 10px; flex-direction: column; gap: 8px; align-items: flex-start; }
+  }
+
   /* ============= READER MODE — used for dedicated source tabs ============= */
   .reader-stream {
     border-top: 2px solid var(--ink);
@@ -1510,7 +1676,9 @@
       </aside>
     </div>
 
-    <div class="section-rule" style="padding: 0;"><span class="num">§</span> <span>Latest Across All Categories</span></div>
+    <div class="section-header" style="margin-top: 32px; padding-top: 0; border-top: none;">
+      <div class="section-rule" style="padding: 0;"><span class="num">§</span> <span>Latest Across All Categories</span></div>
+    </div>
     <div id="updates-dashboard"></div>
 
     <!-- FEED HEALTH OVERVIEW -->
@@ -2577,11 +2745,15 @@ function renderCuratedTabs(items) {
     if (!target) continue;
     target.innerHTML = '';
 
-    const filtered = items
+    const matching = items
       .filter(u => itemBelongsTo(u, cfg))
       .sort((a, b) => b.sortKey - a.sortKey);
 
-    // Update tab count
+    // Apply this tab's filter
+    const { kept: filtered, hidden } = applyFilters(matching, tabId);
+    updateHiddenCount(tabId, hidden);
+
+    // Update tab count to reflect visible items
     const countEl = document.querySelector(`.tab-btn[data-tab="${tabId}"] .count`);
     if (countEl) countEl.textContent = filtered.length;
 
@@ -2606,9 +2778,13 @@ function renderCuratedTabs(items) {
   const guidanceTarget = document.getElementById('updates-guidance');
   if (guidanceTarget) {
     guidanceTarget.innerHTML = '';
-    const guidanceItems = items
+    const guidanceMatching = items
       .filter(isGuidanceItem)
       .sort((a, b) => b.sortKey - a.sortKey);
+
+    // Apply the Guidance tab's filter
+    const { kept: guidanceItems, hidden: guidanceHidden } = applyFilters(guidanceMatching, 'guidance');
+    updateHiddenCount('guidance', guidanceHidden);
 
     const countEl = document.querySelector('.tab-btn[data-tab="guidance"] .count');
     if (countEl) countEl.textContent = guidanceItems.length;
@@ -2708,6 +2884,264 @@ function buildFeedHealthPanel() {
   `;
 }
 
+// ============= FILTER SYSTEM =============
+// Per-tab filter state. Resets on page reload (no persistence by design — user
+// opts in each visit). Three independent filtering controls; an item is hidden
+// if ANY active rule matches it.
+//
+// Tab IDs that use filtering: dashboard, archive, guidance, and every source
+// tab (fda-recalls, mhra-news, etc.).
+const FILTER_TABS = [
+  'dashboard', 'archive', 'guidance',
+  ...Object.keys(TAB_SOURCES),
+];
+
+// Smart preset: keywords that mark obvious non-device items. Used by the
+// "Medical devices only" quick toggle. These are intentionally conservative —
+// they match titles/summaries that are clearly food/drug/cosmetic/etc.
+const NON_DEVICE_HINTS = {
+  food:        ['chocolate', 'cookie', 'cereal', 'beverage', 'ice cream', 'pasta',
+                'nut butter', 'snack', 'salmonella', 'listeria', 'e. coli',
+                'foodborne', 'food safety', 'infant formula'],
+  drugs:       ['tablet', 'capsule', 'lozenge', 'syrup', 'oral solution',
+                'injection of', 'drug shortage', 'drug application',
+                'pharmaceutical', 'pediatric drug', 'investigational new drug',
+                ' ind '],
+  supplements: ['dietary supplement', 'multivitamin', 'protein powder',
+                'herbal', 'kratom', 'mitragynine', 'cbd ', 'thc ',
+                'tianeptine', 'weight loss', 'erectile'],
+  cosmetics:   ['cosmetic', 'cosmetics', 'makeup', 'lipstick', 'mascara',
+                'shampoo', 'fragrance', 'perfume', 'lotion'],
+  tobacco:     ['tobacco', 'cigarette', 'cigar', 'vape', 'vaping', 'e-cigarette',
+                'nicotine', 'hookah'],
+  veterinary:  ['veterinary', 'animal drug', 'animal health', 'pet food',
+                'dog food', 'cat food'],
+};
+
+// Per-tab filter state. Each entry: { smart: bool, cats: Set, keywords: [string] }
+const TAB_FILTERS = {};
+FILTER_TABS.forEach(t => {
+  TAB_FILTERS[t] = { smart: false, cats: new Set(), keywords: [] };
+});
+
+// Test if an item is hidden by a tab's filter rules.
+function isFilteredOut(item, tabId) {
+  const f = TAB_FILTERS[tabId];
+  if (!f) return false;
+  const haystack = ((item.title || '') + ' ' + (item.summary || '')).toLowerCase();
+
+  // Smart toggle: hide if ANY non-device category matches.
+  if (f.smart) {
+    for (const cat of Object.keys(NON_DEVICE_HINTS)) {
+      if (NON_DEVICE_HINTS[cat].some(kw => haystack.includes(kw))) return true;
+    }
+  }
+
+  // Category checkboxes: each checked category hides matching items.
+  for (const cat of f.cats) {
+    const hints = NON_DEVICE_HINTS[cat] || [];
+    if (hints.some(kw => haystack.includes(kw))) return true;
+  }
+
+  // Keyword box: hide if any keyword appears in title or summary.
+  for (const kw of f.keywords) {
+    if (kw && haystack.includes(kw)) return true;
+  }
+
+  return false;
+}
+
+// Apply tab filters to an item list — returns { kept, hidden }.
+function applyFilters(items, tabId) {
+  const kept = [];
+  let hidden = 0;
+  for (const item of items) {
+    if (isFilteredOut(item, tabId)) {
+      hidden++;
+    } else {
+      kept.push(item);
+    }
+  }
+  return { kept, hidden };
+}
+
+// How many filter rules are currently active for this tab?
+function activeFilterCount(tabId) {
+  const f = TAB_FILTERS[tabId];
+  if (!f) return 0;
+  let n = 0;
+  if (f.smart) n++;
+  n += f.cats.size;
+  if (f.keywords.length) n++;
+  return n;
+}
+
+// Build the filter UI HTML for a given tab. Returns the panel + toggle button
+// as a documentFragment-ready string.
+function buildFilterUI(tabId) {
+  const f = TAB_FILTERS[tabId];
+  const active = activeFilterCount(tabId);
+  const badge = active > 0 ? `<span class="badge">${active}</span>` : '';
+  const btnClass = active > 0 ? 'filter-toggle-btn active' : 'filter-toggle-btn';
+
+  const catBoxes = Object.keys(NON_DEVICE_HINTS).map(cat => {
+    const checked = f.cats.has(cat) ? 'checked' : '';
+    const label = cat.charAt(0).toUpperCase() + cat.slice(1);
+    return `<label><input type="checkbox" data-filter-cat="${cat}" ${checked}> ${label}</label>`;
+  }).join('');
+
+  const smartChecked = f.smart ? 'checked' : '';
+  const keywordValue = f.keywords.join(', ');
+
+  return `
+    <button class="${btnClass}" data-filter-toggle="${tabId}" aria-expanded="false">
+      <span class="gear">⚙</span> Filter${badge}
+    </button>
+    <div class="filter-panel" data-filter-panel="${tabId}">
+      <div class="filter-section">
+        <label class="filter-smart-row">
+          <input type="checkbox" data-filter-smart ${smartChecked}>
+          <span>Medical devices only</span>
+          <span class="smart-hint">smart preset — hides food, drugs, supplements, cosmetics, tobacco, vet</span>
+        </label>
+      </div>
+      <div class="filter-section">
+        <div class="filter-section-label">Hide specific categories</div>
+        <div class="filter-cat-grid">${catBoxes}</div>
+      </div>
+      <div class="filter-section">
+        <div class="filter-section-label">Hide items containing keywords</div>
+        <input type="text" class="filter-keyword-input" data-filter-keywords
+               placeholder="e.g. chocolate, formula, lozenge"
+               value="${escapeHtml(keywordValue)}">
+        <div class="filter-keyword-hint">Comma-separated. Case-insensitive. Hides matches in title or summary.</div>
+      </div>
+      <div class="filter-summary">
+        <span><span class="count-hidden" data-filter-count="${tabId}">0</span> hidden by your filters</span>
+        <button class="clear-btn" data-filter-clear="${tabId}">Clear all</button>
+      </div>
+    </div>
+  `;
+}
+
+// Inject filter UI into every tab's section-header. Called once during bootstrap.
+function injectFilterUIs() {
+  for (const tabId of FILTER_TABS) {
+    const section = document.getElementById('tab-' + tabId);
+    if (!section) continue;
+    const header = section.querySelector('.section-header');
+    if (!header) continue;
+    // Avoid duplicate injection
+    if (header.querySelector('[data-filter-toggle]')) continue;
+    const wrap = document.createElement('div');
+    wrap.innerHTML = buildFilterUI(tabId);
+    while (wrap.firstChild) header.appendChild(wrap.firstChild);
+  }
+  wireFilterUIs();
+}
+
+// Wire up all filter inputs across all tabs. Idempotent.
+function wireFilterUIs() {
+  // Toggle button → open/close panel
+  document.querySelectorAll('[data-filter-toggle]').forEach(btn => {
+    if (btn.dataset.wired) return;
+    btn.dataset.wired = '1';
+    btn.addEventListener('click', () => {
+      const tabId = btn.dataset.filterToggle;
+      const panel = document.querySelector(`[data-filter-panel="${tabId}"]`);
+      if (!panel) return;
+      const isOpen = panel.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  });
+
+  // Smart toggle
+  document.querySelectorAll('[data-filter-smart]').forEach(input => {
+    if (input.dataset.wired) return;
+    input.dataset.wired = '1';
+    input.addEventListener('change', (e) => {
+      const tabId = e.target.closest('[data-filter-panel]').dataset.filterPanel;
+      TAB_FILTERS[tabId].smart = e.target.checked;
+      onFilterChange(tabId);
+    });
+  });
+
+  // Category checkboxes
+  document.querySelectorAll('[data-filter-cat]').forEach(input => {
+    if (input.dataset.wired) return;
+    input.dataset.wired = '1';
+    input.addEventListener('change', (e) => {
+      const tabId = e.target.closest('[data-filter-panel]').dataset.filterPanel;
+      const cat = e.target.dataset.filterCat;
+      if (e.target.checked) TAB_FILTERS[tabId].cats.add(cat);
+      else TAB_FILTERS[tabId].cats.delete(cat);
+      onFilterChange(tabId);
+    });
+  });
+
+  // Keyword input — debounced
+  document.querySelectorAll('[data-filter-keywords]').forEach(input => {
+    if (input.dataset.wired) return;
+    input.dataset.wired = '1';
+    let timer = null;
+    input.addEventListener('input', (e) => {
+      const tabId = e.target.closest('[data-filter-panel]').dataset.filterPanel;
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        const raw = e.target.value || '';
+        TAB_FILTERS[tabId].keywords = raw
+          .split(',')
+          .map(s => s.trim().toLowerCase())
+          .filter(Boolean);
+        onFilterChange(tabId);
+      }, 250);
+    });
+  });
+
+  // Clear all
+  document.querySelectorAll('[data-filter-clear]').forEach(btn => {
+    if (btn.dataset.wired) return;
+    btn.dataset.wired = '1';
+    btn.addEventListener('click', (e) => {
+      const tabId = e.target.dataset.filterClear;
+      TAB_FILTERS[tabId] = { smart: false, cats: new Set(), keywords: [] };
+      // Reset the inputs visually
+      const panel = document.querySelector(`[data-filter-panel="${tabId}"]`);
+      if (panel) {
+        panel.querySelector('[data-filter-smart]').checked = false;
+        panel.querySelectorAll('[data-filter-cat]').forEach(cb => cb.checked = false);
+        panel.querySelector('[data-filter-keywords]').value = '';
+      }
+      onFilterChange(tabId);
+    });
+  });
+}
+
+// Called whenever a filter changes — re-renders that tab's content + updates badge.
+function onFilterChange(tabId) {
+  // Update the toggle button (active state + badge count)
+  const btn = document.querySelector(`[data-filter-toggle="${tabId}"]`);
+  if (btn) {
+    const active = activeFilterCount(tabId);
+    if (active > 0) {
+      btn.classList.add('active');
+      btn.innerHTML = `<span class="gear">⚙</span> Filter<span class="badge">${active}</span>`;
+    } else {
+      btn.classList.remove('active');
+      btn.innerHTML = `<span class="gear">⚙</span> Filter`;
+    }
+  }
+  // Re-render the tab's items. The simplest correct approach is to re-run
+  // renderAll() — it's fast (renders only visible tabs' content).
+  renderAll();
+}
+
+// Update the "X hidden" count in a tab's filter panel summary.
+function updateHiddenCount(tabId, hiddenCount) {
+  const el = document.querySelector(`[data-filter-count="${tabId}"]`);
+  if (el) el.textContent = hiddenCount;
+}
+
 // ============= RENDER ALL =============
 function renderAll() {
   const items = LIVE_ITEMS.length ? LIVE_ITEMS : [];
@@ -2715,10 +3149,12 @@ function renderAll() {
   // Hero + stats
   renderHero();
 
-  // DASHBOARD — top 8 newest mixed
+  // DASHBOARD — top 8 newest mixed (after dashboard filters)
   const dashEl = document.getElementById('updates-dashboard');
   dashEl.innerHTML = '';
-  [...items].sort((a,b) => b.sortKey - a.sortKey).slice(0, 8).forEach((u,i) => {
+  const dashFiltered = applyFilters([...items].sort((a,b) => b.sortKey - a.sortKey), 'dashboard');
+  updateHiddenCount('dashboard', dashFiltered.hidden);
+  dashFiltered.kept.slice(0, 8).forEach((u,i) => {
     dashEl.appendChild(buildUpdateCard(u, i));
   });
 
@@ -2730,7 +3166,10 @@ function renderAll() {
   // This is essential because rendering 500+ cards at once crashes mobile browsers.
   const archiveEl = document.getElementById('updates-archive');
   archiveEl.innerHTML = '';
-  const archiveSorted = [...items].sort((a,b) => b.sortKey - a.sortKey);
+  const archiveAll = [...items].sort((a,b) => b.sortKey - a.sortKey);
+  const archiveFiltered = applyFilters(archiveAll, 'archive');
+  updateHiddenCount('archive', archiveFiltered.hidden);
+  const archiveSorted = archiveFiltered.kept;
   const PAGE_SIZE = 50;
   let renderedCount = 0;
 
@@ -3291,6 +3730,7 @@ document.querySelectorAll('#lookup-date-from, #lookup-date-to').forEach(el => {
       LIVE_ITEMS = (SAMPLE_FEED.items || []).map(normalise).filter(x => x);
       DATA_GENERATED_AT = SAMPLE_FEED.generated_at;
     }
+    injectFilterUIs();
     renderAll();
     refreshAgencyCounts();
   } catch (err) {
