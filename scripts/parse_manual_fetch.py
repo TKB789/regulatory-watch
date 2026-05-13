@@ -68,6 +68,9 @@ FEED_META = {
         "label": "IMDRF Consultations",
     },
     "who-alerts": {
+        # NOTE: WHO feed was dropped — no real upstream URL exists. This entry
+        # is preserved so any old uploaded WHO files still parse cleanly into
+        # the archive. Won't be fetched from anywhere new.
         "agency": "WHO",
         "region": "International",
         "category": "recall",
@@ -92,7 +95,7 @@ FEED_META = {
         "agency": "HC",
         "region": "Canada",
         "category": "recall",
-        "name": "Health Canada recalls & safety alerts",
+        "name": "Health Canada Medical Device Recalls",
         "label": "Health Canada Recalls",
     },
     "tga-news": {
@@ -106,8 +109,8 @@ FEED_META = {
         "agency": "EMA",
         "region": "European Union",
         "category": "guidance",
-        "name": "European Commission — Health news",
-        "label": "EU Commission Health",
+        "name": "EMA News & Press Releases",
+        "label": "EMA News",
     },
     "eur-lex": {
         "agency": "EU",
@@ -119,6 +122,85 @@ FEED_META = {
 }
 
 MAX_TOTAL_ITEMS = 1000
+
+# Common filename variations that should map to canonical feed_ids.
+# Lets users upload e.g. "hc.xml" or "health-canada.rss" and have it work.
+FILENAME_ALIASES = {
+    # FDA variants
+    "fda-recall": "fda-recalls",
+    "fda_recalls": "fda-recalls",
+    "fda": "fda-recalls",  # bare "fda" assumed to be the most common
+    "medwatch": "fda-medwatch",
+    "fda_medwatch": "fda-medwatch",
+    "fda-medwatch-safety": "fda-medwatch",
+    "fda-medwatch-safety-alerts": "fda-medwatch",
+    "fda_press": "fda-press",
+    "fda-press-announcements": "fda-press",
+    "fda-press-release": "fda-press",
+    "fda-press-releases": "fda-press",
+    # Federal Register variants
+    "federal_register": "federal-register",
+    "federalregister": "federal-register",
+    "fr": "federal-register",
+    # IMDRF variants
+    "imdrf": "imdrf-wg",
+    "imdrf-working-groups": "imdrf-wg",
+    "imdrf_wg": "imdrf-wg",
+    "imdrf-consultations": "imdrf-consult",
+    "imdrf_consult": "imdrf-consult",
+    # WHO variants
+    "who": "who-alerts",
+    "who-medical-product-alerts": "who-alerts",
+    "who_alerts": "who-alerts",
+    # MHRA variants
+    "mhra": "mhra-news",
+    "mhra_news": "mhra-news",
+    # UK alerts variants
+    "uk_alerts": "uk-alerts",
+    "uk-drug-device-alerts": "uk-alerts",
+    "drug-device-alerts": "uk-alerts",
+    # Health Canada variants — common cause of confusion
+    "hc": "hc-recalls",
+    "hc_recalls": "hc-recalls",
+    "health-canada": "hc-recalls",
+    "health_canada": "hc-recalls",
+    "healthcanada": "hc-recalls",
+    "canada": "hc-recalls",
+    # TGA variants
+    "tga": "tga-news",
+    "tga_news": "tga-news",
+    # EU variants
+    "eu": "eu-health",
+    "eu-commission-health": "eu-health",
+    "european-commission": "eu-health",
+    "eu_health": "eu-health",
+    # EUR-Lex variants
+    "eur_lex": "eur-lex",
+    "eurlex": "eur-lex",
+}
+
+
+def resolve_feed_id(filename_stem: str) -> str:
+    """
+    Take a filename (without extension) and return the canonical feed_id,
+    or the original lowercase stem if no match. Strips common suffixes like
+    timestamps so 'fda-recalls-2026-05-12.xml' still resolves to 'fda-recalls'.
+    """
+    raw = filename_stem.lower().strip()
+    # Exact match against canonical feed_ids first
+    if raw in FEED_META:
+        return raw
+    # Alias match
+    if raw in FILENAME_ALIASES:
+        return FILENAME_ALIASES[raw]
+    # Strip trailing timestamps like "-2026-05-12" or "_2026_05_12"
+    import re
+    stripped = re.sub(r"[-_]\d{4}[-_]\d{1,2}[-_]\d{1,2}.*$", "", raw)
+    if stripped in FEED_META:
+        return stripped
+    if stripped in FILENAME_ALIASES:
+        return FILENAME_ALIASES[stripped]
+    return raw
 
 
 def strip_html(s: str) -> str:
@@ -184,22 +266,34 @@ def main():
 
     print(f"Found {len(raw_files)} raw file(s) to parse:", flush=True)
     for f in raw_files:
-        print(f"  • {f.name}  (feed_id will be: '{f.stem.lower()}')", flush=True)
+        resolved = resolve_feed_id(f.stem.lower())
+        if resolved in FEED_META:
+            print(f"  • {f.name}  → feed_id: '{resolved}' (recognized)", flush=True)
+        else:
+            print(f"  • {f.name}  → '{resolved}' (UNRECOGNIZED — will be skipped)", flush=True)
     print("", flush=True)
 
     # Parse each uploaded raw file
     new_items = []
     parsed_feed_ids = set()
     for raw_file in raw_files:
-        # Strip extension — works for .xml, .rss, .atom, or no extension at all.
-        # The "stem" is everything before the LAST dot.
-        feed_id = raw_file.stem.lower()
+        # Resolve filename to canonical feed_id (handles aliases & timestamps).
+        # E.g. "hc.xml", "health-canada.rss", "fda-recalls-2026-05-12.xml" all
+        # resolve to their canonical feed_id.
+        raw_stem = raw_file.stem.lower()
+        feed_id = resolve_feed_id(raw_stem)
         meta = FEED_META.get(feed_id)
         if not meta:
             valid_ids = ", ".join(sorted(FEED_META.keys()))
             print(f"  ⚠ {raw_file.name}: feed_id '{feed_id}' not recognized.", flush=True)
+            if raw_stem != feed_id:
+                print(f"     (Tried alias resolution from '{raw_stem}')", flush=True)
             print(f"     Valid feed_ids are: {valid_ids}", flush=True)
+            print(f"     Aliases include: hc / health-canada → hc-recalls, fda / medwatch → fda-medwatch, etc.", flush=True)
             continue
+        # Confirm in log if we used an alias
+        if raw_stem != feed_id:
+            print(f"  ↳ {raw_file.name}: alias '{raw_stem}' → resolved to '{feed_id}'", flush=True)
 
         try:
             raw_bytes = raw_file.read_bytes()

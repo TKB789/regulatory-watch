@@ -217,16 +217,10 @@ FEEDS = [
         "label": "IMDRF Consultations",
         "url": "https://www.imdrf.org/consultations.xml",
     },
-    # --- WHO: international safety alerts ---
-    {
-        "agency": "WHO",
-        "region": "International",
-        "category": "recall",
-        "name": "WHO Medical Product Alerts",
-        "feed_id": "who-alerts",
-        "label": "WHO Alerts",
-        "url": "https://www.who.int/rss-feeds/medical-product-alerts-en.xml",
-    },
+    # NOTE: We previously had a "WHO Medical Product Alerts" feed at
+    # https://www.who.int/rss-feeds/medical-product-alerts-en.xml — but that
+    # URL was made up. WHO doesn't publish a dedicated medical-product-alerts
+    # RSS feed. Dropped 2026-05-13.
     # --- MHRA (UK) ---
     {
         "agency": "MHRA",
@@ -247,14 +241,17 @@ FEEDS = [
         "url": "https://www.gov.uk/drug-device-alerts.atom",
     },
     # --- Health Canada ---
+    # Verified URL pattern. The general /en/rss.xml URL we had previously
+    # doesn't exist — Canada's recalls site uses /en/feed/<category> URLs.
+    # The medical-devices-alerts-recalls feed gives device-specific recalls.
     {
         "agency": "HC",
         "region": "Canada",
         "category": "recall",
-        "name": "Health Canada recalls & safety alerts",
+        "name": "Health Canada Medical Device Recalls",
         "feed_id": "hc-recalls",
         "label": "Health Canada Recalls",
-        "url": "https://recalls-rappels.canada.ca/en/rss.xml",
+        "url": "https://recalls-rappels.canada.ca/en/feed/medical-devices-alerts-recalls",
     },
     # --- TGA (Australia) ---
     {
@@ -266,15 +263,18 @@ FEEDS = [
         "label": "TGA News",
         "url": "https://www.tga.gov.au/rss.xml",
     },
-    # --- European Commission — public health ---
+    # --- EMA News (replaces former EU Commission health feed) ---
+    # The original "health.ec.europa.eu/rss_en" URL was unverifiable. EMA's
+    # news.xml is the verified, working EU-level news feed for medicines and
+    # medical products. Verified loading 2026-05-13.
     {
         "agency": "EMA",
         "region": "European Union",
         "category": "guidance",
-        "name": "European Commission — Health news",
+        "name": "EMA News & Press Releases",
         "feed_id": "eu-health",
-        "label": "EU Commission Health",
-        "url": "https://health.ec.europa.eu/rss_en",
+        "label": "EMA News",
+        "url": "https://www.ema.europa.eu/en/news.xml",
     },
     # --- EU OJEU L series (legal acts) ---
     {
