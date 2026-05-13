@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13T02:06:14.475736+00:00",
-  "item_count": 194,
+  "generated_at": "2026-05-13T03:55:50.351751+00:00",
+  "item_count": 203,
   "feed_count": 13,
-  "new_this_run": 6,
+  "new_this_run": 9,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -44,18 +44,20 @@
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
-      "status": "error",
-      "last_attempt": "2026-05-13T02:02:17.736123+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0
+      "status": "ok",
+      "last_attempt": "2026-05-13T03:55:50.351751+00:00",
+      "last_success": "2026-05-13T03:55:50.351751+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
-      "status": "error",
-      "last_attempt": "2026-05-13T02:02:17.736123+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0
+      "status": "ok",
+      "last_attempt": "2026-05-13T03:55:50.351751+00:00",
+      "last_success": "2026-05-13T03:55:50.351751+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA Press Announcements",
@@ -152,6 +154,11 @@
       "items_fetched": 0
     }
   ],
+  "manual_fetch_at": "2026-05-13T03:55:50.351751+00:00",
+  "manual_fetched_feeds": [
+    "fda-medwatch",
+    "fda-recalls"
+  ],
   "items": [
     {
       "title": "Borderline products: how to tell if your product is a medicine",
@@ -212,6 +219,18 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada — Medical devices recalls & alerts"
+    },
+    {
+      "title": "Convenience Kit Recall: AVID Medical Removes Convenience Kits Containing Namic RA Syringes",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-avid-medical-removes-convenience-kits-containing-namic-ra-syringes",
+      "published": "2026-05-12T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "21st Century Cures Act: Annual Compilation of Notices of Updates From the Susceptibility Test Interpretive Criteria web page",
@@ -344,6 +363,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Convenience Kit Recall: Aligned Medical Solutions Removes Convenience Kits Containing Namic RA Syringes",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-aligned-medical-solutions-removes-convenience-kits-containing-namic-ra",
+      "published": "2026-05-11T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Animal Generic Drug User Fee Act; Stakeholder Consultation Meetings on the Animal Generic Drug User Fee Act Reauthorization; Request for Notification of Stakeholder Intent To Participate",
@@ -754,6 +785,54 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Accolade Pacemaker Devices by Boston Scientific and Potential Need for Early Device Replacement - FDA Safety Communication",
+      "summary": "Read the FDA’s recommendations related to Accolade pacemaker devices by Boston Scientific and a potential need for early device replacement.",
+      "link": "http://www.fda.gov/medical-devices/safety-communications/accolade-pacemaker-devices-boston-scientific-and-potential-need-early-device-replacement-fda-safety",
+      "published": "2026-05-07T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Convenience Kit Recall: American Contract Systems Removes Convenience Kits Containing Namic RA Syringes",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-american-contract-systems-removes-convenience-kits-containing-namic-ra",
+      "published": "2026-05-07T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Convenience Kit Recall: Medical Action Industries Removes Convenience Kits Containing Namic RA Syringes",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-medical-action-industries-removes-convenience-kits-containing-namic-ra",
+      "published": "2026-05-07T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Pacemaker Correction: Boston Scientific Issues Correction for ACCOLADE Pacemakers and CRT-Ps",
+      "summary": "Brady SMR6 is now available for ACCOLADE pacemakers and CRT-Ps; correction expanded to include CRT-P and DR-EL devices.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/pacemaker-correction-boston-scientific-issues-correction-accolade-pacemakers-and-crt-ps",
+      "published": "2026-05-07T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Advisory Committee; Blood Products Advisory Committee; Renewal",
       "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Blood Products Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Blood Products Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 13, 2028, expiration date.",
       "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09108/advisory-committee-blood-products-advisory-committee-renewal",
@@ -860,6 +939,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Disruptions in Availability of Neurosurgical Patties, Sponges, and Strips - Letter to Health Care Providers",
+      "summary": "The FDA issued a LHCP to notify providers that Neurosurgical Patties, Sponges, and Strips (product code HBA) are experiencing a supply disruption.",
+      "link": "http://www.fda.gov/medical-devices/letters-health-care-providers/disruptions-availability-neurosurgical-patties-sponges-and-strips-letter-health-care-providers",
+      "published": "2026-05-06T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Determination That DEXAMETHASONE (Dexamethasone) Elixir, 0.5 Milligrams/5 Milliliters, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
@@ -992,6 +1083,30 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
+    },
+    {
+      "title": "Sizing Catheter Recall: Cook Medical Removes Various Centimeter Sizing Catheters",
+      "summary": "When the sizing catheters are used during angiographic procedures the marker bands may be at an increased risk of cracking/breakage.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/sizing-catheter-recall-cook-medical-removes-various-centimeter-sizing-catheters",
+      "published": "2026-05-05T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Surgical Stapler Reload Recall: Intuitive Surgical Removes 8mm SureForm 30 Gray Reloads",
+      "summary": "Certain SureForm Surgical Stapler reloads may form incomplete staple lines, leading to severe bleeding or death.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/surgical-stapler-reload-recall-intuitive-surgical-removes-8mm-sureform-30-gray-reloads",
+      "published": "2026-05-05T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Guidance on the Control of Products and Services Obtained from Suppliers",
@@ -1240,7 +1355,7 @@
       "published": "2026-04-30T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
@@ -1474,37 +1589,13 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "B. Braun Medical, Inc. Issues Voluntary Nationwide Recall of Lactated Ringer’s Injection, 1L, E7500 Due to the Presence of Particulate Matter in Solution",
-      "summary": "For Immediate Release - BETHLEHEM, PA – APRIL 28, 2026 – B. Braun Medical Inc. is voluntarily recalling two lots of Lactated Ringer’s Injection, E7500, 1L, to the hospital/healthcare facility level. The product has been found to have particulate matter in solution.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-lactated-ringers-injection-1l-e7500-due",
-      "published": "2026-04-28T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Early Alert: Thoracic Stent Graft Issue from Bolton Medical",
       "summary": "Affected grafts may not unclasp from the delivery system, which may require conversion to open surgical repair and can result in patient death",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-thoracic-stent-graft-issue-bolton-medical",
       "published": "2026-04-28T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Blood Glucose Monitor Recall: Trividia Health Issues Correction for TRUE METRIX Blood Glucose Monitoring Systems",
-      "summary": "Trividia recommends that device users who receive an E-5 error code and are experiencing symptoms of high glucose should seek medical care immediately.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/blood-glucose-monitor-recall-trividia-health-issues-correction-true-metrix-blood-glucose-monitoring",
-      "published": "2026-04-28T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
@@ -1516,7 +1607,31 @@
       "published": "2026-04-28T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "B. Braun Medical, Inc. Issues Voluntary Nationwide Recall of Lactated Ringer’s Injection, 1L, E7500 Due to the Presence of Particulate Matter in Solution",
+      "summary": "For Immediate Release - BETHLEHEM, PA – APRIL 28, 2026 – B. Braun Medical Inc. is voluntarily recalling two lots of Lactated Ringer’s Injection, E7500, 1L, to the hospital/healthcare facility level. The product has been found to have particulate matter in solution.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-lactated-ringers-injection-1l-e7500-due",
+      "published": "2026-04-28T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Blood Glucose Monitor Recall: Trividia Health Issues Correction for TRUE METRIX Blood Glucose Monitoring Systems",
+      "summary": "Trividia recommends that device users who receive an E-5 error code and are experiencing symptoms of high glucose should seek medical care immediately.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/blood-glucose-monitor-recall-trividia-health-issues-correction-true-metrix-blood-glucose-monitoring",
+      "published": "2026-04-28T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
@@ -1624,7 +1739,7 @@
       "published": "2026-04-24T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
@@ -1636,7 +1751,7 @@
       "published": "2026-04-24T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
@@ -1714,21 +1829,21 @@
       "source": "FDA Press Announcements"
     },
     {
-      "title": "Early Alert: Convenience Kit Issue from Aligned Medical Solutions",
-      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-aligned-medical-solutions",
+      "title": "Cranial Drill Recall: Integra LifeSciences Recalls Codman Disposable Perforators Due to Risk of Device Disassembly",
+      "summary": "Certain Codman Disposable Perforators may disassemble during or after use, increasing the risk of brain injury, hemorrhage, or prolonged surgery.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/cranial-drill-recall-integra-lifesciences-recalls-codman-disposable-perforators-due-risk-device",
       "published": "2026-04-23T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
     },
     {
-      "title": "Cranial Drill Recall: Integra LifeSciences Recalls Codman Disposable Perforators Due to Risk of Device Disassembly",
-      "summary": "Certain Codman Disposable Perforators may disassemble during or after use, increasing the risk of brain injury, hemorrhage, or prolonged surgery.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/cranial-drill-recall-integra-lifesciences-recalls-codman-disposable-perforators-due-risk-device",
+      "title": "Early Alert: Convenience Kit Issue from Aligned Medical Solutions",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-aligned-medical-solutions",
       "published": "2026-04-23T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
@@ -1768,7 +1883,7 @@
       "published": "2026-04-22T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
-      "category": "recall",
+      "category": "postmarket",
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
