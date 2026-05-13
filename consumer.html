@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light">
+<title>CONSUMER WATCH — Worldwide Consumer Safety Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #0c0a07;
+    --paper: #f4f0e6;
+    --paper-2: #ebe5d4;
+    --rule: #1a1612;
+    --accent: #b8341c;
+    --accent-2: #2d4a1f;
+    --amber: #b8691a;
+    --muted: #4a4339;
+    --high: #b8341c;
+    --med: #b8691a;
+    --low: #2d4a1f;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: #f4f0e6 !important;
+    color: #0c0a07 !important;
+    font-family: 'Inter Tight', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    background-color: #f4f0e6 !important;
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(184,52,28,0.04), transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(45,74,31,0.04), transparent 40%) !important;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  .grain {
+    position: fixed; inset: 0; pointer-events: none; z-index: 100; opacity: 0.4;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .page-shell {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 24px 32px 80px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ============= MASTHEAD ============= */
+  .masthead {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 14px 0 18px;
+    border-bottom: 3px double var(--rule);
+    margin-bottom: 8px;
+  }
+  .mast-left, .mast-right {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .mast-right { text-align: right; }
+  .mast-left strong, .mast-right strong { color: var(--ink); font-weight: 700; }
+  .pulse {
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin-right: 6px;
+    animation: pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.85); }
+  }
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 38px;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+    text-align: center;
+    color: var(--ink);
+  }
+  .logo em { font-style: italic; font-weight: 400; }
+  .logo .amp {
+    color: var(--accent);
+    font-style: normal;
+    margin: 0 4px;
+  }
+  .tagline {
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  /* Cross-link back to medical site */
+  .sibling-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    margin: 8px 0 16px;
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent-2);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+  }
+  .sibling-bar a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--ink);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .sibling-bar a:hover { color: var(--accent); border-color: var(--accent); }
+  .sibling-bar .arrow { color: var(--accent); font-weight: 700; }
+
+  /* ============= COVERAGE BANNER ============= */
+  .coverage-banner {
+    display: flex;
+    gap: 10px;
+    padding: 14px 16px;
+    margin: 16px 0 20px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--accent);
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .coverage-banner .dot { color: var(--accent); font-weight: 800; }
+  .coverage-banner strong { font-weight: 700; }
+  .coverage-banner .toggle {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0;
+    border-bottom: 1px solid var(--accent);
+    margin-left: 4px;
+  }
+  .coverage-detail {
+    display: none;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dotted var(--rule);
+    font-size: 13px;
+  }
+  .coverage-detail.open { display: block; }
+  .col-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 28px;
+  }
+  .col-list ul { list-style: none; }
+  .col-list li {
+    padding: 3px 0 3px 18px;
+    position: relative;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .col-list li.yes::before { content: '●'; position: absolute; left: 0; color: var(--accent-2); }
+  .col-list li.no::before  { content: '○'; position: absolute; left: 0; color: var(--muted); }
+  .col-list li strong { font-weight: 600; }
+
+  /* ============= TAB NAV ============= */
+  .tab-nav {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    border-bottom: 2px solid var(--rule);
+    z-index: 50;
+    margin: 0 -32px;
+    padding: 0 32px;
+  }
+  .tab-nav-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    overflow-x: auto;
+  }
+  .tab-btn {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 14px 18px;
+    cursor: pointer;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+    white-space: nowrap;
+    transition: all 0.12s;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.active {
+    color: var(--ink);
+    border-bottom-color: var(--accent);
+    font-weight: 700;
+  }
+  .tab-btn .count {
+    background: var(--paper-2);
+    color: var(--ink);
+    padding: 1px 6px;
+    margin-left: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 2px;
+  }
+  .tab-btn.active .count { background: var(--accent); color: #fff; }
+
+  /* ============= TAB PANELS ============= */
+  .tab-panel { display: none; padding-top: 24px; }
+  .tab-panel.active { display: block; }
+
+  .section-header {
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .section-header h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .section-header h2 em { font-style: italic; color: var(--accent); }
+  .section-header .lede {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .reader-meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: baseline;
+    padding: 10px 0 12px;
+    border-bottom: 1px solid var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .reader-meta-bar strong { color: var(--ink); font-weight: 700; }
+  .reader-meta-bar .dot { color: var(--accent); }
+
+  /* ============= ITEM CARDS ============= */
+  .item-card {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    transition: background 0.12s;
+  }
+  .item-card:hover {
+    background: rgba(255,255,255,0.4);
+    margin: 0 -16px;
+    padding: 20px 16px;
+  }
+  .item-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .pill {
+    padding: 2px 7px;
+    border: 1px solid var(--rule);
+    font-weight: 700;
+  }
+  .pill-source {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  .pill-country {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .pill-cat {
+    background: var(--paper-2);
+    color: var(--ink);
+  }
+  .pill-sev-high { background: var(--high); color: #fff; border-color: var(--high); }
+  .pill-sev-medium { background: var(--med); color: #fff; border-color: var(--med); }
+  .pill-sev-low { background: var(--low); color: #fff; border-color: var(--low); }
+
+  .item-card h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 6px 0;
+  }
+  .item-summary {
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    line-height: 1.55;
+    color: #2a2520;
+    margin-top: 4px;
+  }
+  .item-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+
+  /* ============= FILTER ROW ============= */
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 8px;
+  }
+  .filter-row input[type="search"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 8px 12px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .filter-row input[type="search"]:focus { outline: none; border-color: var(--accent); }
+  .filter-row select {
+    padding: 8px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .filter-row button {
+    padding: 8px 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .filter-row button:hover { background: var(--ink); color: var(--paper); }
+
+  /* ============= EMPTY STATE ============= */
+  .empty-state {
+    padding: 48px 24px;
+    text-align: center;
+    border: 1px dotted var(--rule);
+    background: rgba(255,255,255,0.4);
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: var(--muted);
+  }
+
+  /* ============= FOOTER ============= */
+  .site-footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .site-footer a { color: var(--accent); border-bottom: 1px solid var(--accent); text-decoration: none; }
+
+  @media (max-width: 720px) {
+    .page-shell { padding: 16px 18px 60px; }
+    .masthead { grid-template-columns: 1fr; gap: 12px; text-align: center; }
+    .mast-left, .mast-right { text-align: center; }
+    .logo { font-size: 30px; }
+    .tab-nav { margin: 0 -18px; padding: 0 18px; }
+    .tab-btn { padding: 10px 12px; font-size: 10px; }
+    .section-header h2 { font-size: 24px; }
+    .col-list { grid-template-columns: 1fr; }
+    .sibling-bar { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<div class="page-shell">
+
+  <!-- Cross-link back to the medical site -->
+  <div class="sibling-bar">
+    <div>
+      <strong>You are reading:</strong> Worldwide consumer product, food, vehicle &amp; scam alerts
+    </div>
+    <div>
+      <a href="index.html"><span class="arrow">←</span> Medical Device Intelligence</a>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="mast-left">
+      <div><span class="pulse"></span><strong>LIVE</strong> · 5 agencies</div>
+      <div id="datestamp">—</div>
+    </div>
+    <div>
+      <div class="logo"><em>Consumer</em><span class="amp">·</span><em>Watch</em></div>
+      <div class="tagline">Worldwide Consumer Safety Intelligence</div>
+    </div>
+    <div class="mast-right">
+      <div id="clock">—</div>
+      <div><strong>UPDATED</strong> <span id="last-updated">—</span></div>
+    </div>
+  </header>
+
+  <div class="coverage-banner">
+    <span class="dot">▌</span>
+    <div style="flex:1;">
+      <strong>Scope:</strong> Live recalls, safety alerts &amp; consumer warnings from major regulators worldwide — covering products, food, vehicles, and fraud. Excludes pharmaceuticals and medical devices (tracked separately on the sibling site).
+      <button class="toggle" onclick="document.getElementById('cov-detail').classList.toggle('open'); this.textContent = document.getElementById('cov-detail').classList.contains('open') ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
+      <div class="coverage-detail" id="cov-detail">
+        <p style="margin-bottom: 8px;">Each entry below shows whether that authority is currently monitored automatically (●) or only manually referenced (○).</p>
+        <div class="col-list">
+          <ul>
+            <li class="yes"><strong>CPSC</strong> — US consumer products &amp; recalls</li>
+            <li class="yes"><strong>NHTSA</strong> — US vehicle, tire &amp; car-seat recalls</li>
+            <li class="yes"><strong>USDA FSIS</strong> — meat, poultry, egg recalls</li>
+            <li class="yes"><strong>FDA Food Safety</strong> — food &amp; cosmetic recalls</li>
+            <li class="yes"><strong>EU Safety Gate (RAPEX)</strong> — weekly EU-wide alerts</li>
+            <li class="yes"><strong>FTC</strong> — scams &amp; deceptive advertising</li>
+          </ul>
+          <ul>
+            <li class="no"><strong>OECD GlobalRecalls</strong> — aggregator (cross-references)</li>
+            <li class="no"><strong>Health Canada</strong> — consumer product recalls</li>
+            <li class="no"><strong>UK OPSS</strong> — product safety alerts</li>
+            <li class="no"><strong>ACCC</strong> (Australia) — product safety</li>
+            <li class="no"><strong>Transport Canada</strong> — vehicle recalls</li>
+            <li class="no"><strong>Japan METI / Consumer Affairs</strong></li>
+          </ul>
+        </div>
+        <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">Sources marked ○ are listed for reference and will be added as their feeds are integrated. Items are kept in an append-only archive.</p>
+      </div>
+    </div>
+  </div>
+
+  <nav class="tab-nav">
+    <div class="tab-nav-inner">
+      <button class="tab-btn active" data-tab="all">All Alerts <span class="count" id="count-all">0</span></button>
+      <button class="tab-btn" data-tab="cpsc">CPSC Products <span class="count" id="count-cpsc">0</span></button>
+      <button class="tab-btn" data-tab="nhtsa">NHTSA Vehicles <span class="count" id="count-nhtsa">0</span></button>
+      <button class="tab-btn" data-tab="fsis">USDA Food <span class="count" id="count-fsis">0</span></button>
+      <button class="tab-btn" data-tab="eu">EU Safety Gate <span class="count" id="count-eu">0</span></button>
+      <button class="tab-btn" data-tab="ftc">FTC Scams <span class="count" id="count-ftc">0</span></button>
+    </div>
+  </nav>
+
+  <!-- ALL ALERTS -->
+  <div class="tab-panel active" id="panel-all">
+    <div class="section-header">
+      <h2>All <em>consumer alerts</em></h2>
+      <p class="lede">Every active recall, warning and scam advisory across all monitored sources, newest first.</p>
+    </div>
+    <div class="reader-meta-bar" id="meta-all"></div>
+    <div class="filter-row">
+      <input type="search" id="search-all" placeholder="Search title, summary, source…">
+      <select id="filter-severity">
+        <option value="">All severities</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+      <select id="filter-country">
+        <option value="">All regions</option>
+      </select>
+      <button id="filter-clear">Clear</button>
+    </div>
+    <div id="stream-all"></div>
+  </div>
+
+  <!-- INDIVIDUAL SOURCE PANELS -->
+  <div class="tab-panel" id="panel-cpsc">
+    <div class="section-header">
+      <h2><em>CPSC</em> consumer product recalls</h2>
+      <p class="lede">US Consumer Product Safety Commission — toys, furniture, appliances, electronics, children's products.</p>
+    </div>
+    <div class="reader-meta-bar" id="meta-cpsc"></div>
+    <div id="stream-cpsc"></div>
+  </div>
+
+  <div class="tab-panel" id="panel-nhtsa">
+    <div class="section-header">
+      <h2><em>NHTSA</em> vehicle safety recalls</h2>
+      <p class="lede">US vehicles, tires, child seats — defects requiring repair or replacement.</p>
+    </div>
+    <div class="reader-meta-bar" id="meta-nhtsa"></div>
+    <div id="stream-nhtsa"></div>
+  </div>
+
+  <div class="tab-panel" id="panel-fsis">
+    <div class="section-header">
+      <h2><em>USDA</em> meat, poultry &amp; egg recalls</h2>
+      <p class="lede">Food Safety and Inspection Service — contamination, mislabeling, allergen risks.</p>
+    </div>
+    <div class="reader-meta-bar" id="meta-fsis"></div>
+    <div id="stream-fsis"></div>
+  </div>
+
+  <div class="tab-panel" id="panel-eu">
+    <div class="section-header">
+      <h2><em>EU Safety Gate</em> weekly alerts</h2>
+      <p class="lede">Pan-European rapid alert system for dangerous non-food products.</p>
+    </div>
+    <div class="reader-meta-bar" id="meta-eu"></div>
+    <div id="stream-eu"></div>
+  </div>
+
+  <div class="tab-panel" id="panel-ftc">
+    <div class="section-header">
+      <h2><em>FTC</em> scam &amp; fraud advisories</h2>
+      <p class="lede">Consumer alerts, deceptive advertising actions, identity-theft warnings.</p>
+    </div>
+    <div class="reader-meta-bar" id="meta-ftc"></div>
+    <div id="stream-ftc"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div>Data sources: CPSC saferproducts.gov · NHTSA Recalls API · USDA FSIS · FDA openFDA · EU Safety Gate · FTC Consumer Alerts</div>
+    <div style="margin-top: 6px;">Sibling site: <a href="index.html">Regulatory Watch — Medical Device Intelligence</a></div>
+    <div style="margin-top: 6px;">This dashboard aggregates publicly available government feeds. It is not a substitute for direct consultation with the source authorities.</div>
+  </footer>
+
+</div>
+
+<script>
+'use strict';
+
+// ============= STATE =============
+let ALL_ITEMS = [];
+let FEED_GENERATED_AT = null;
+let activeTab = 'all';
+
+const SOURCE_TO_TAB = {
+  'CPSC': 'cpsc',
+  'NHTSA': 'nhtsa',
+  'USDA FSIS': 'fsis',
+  'EU Safety Gate': 'eu',
+  'FTC': 'ftc',
+};
+
+// ============= LOAD FEED =============
+async function loadFeed() {
+  try {
+    const res = await fetch('feeds/consumer.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    ALL_ITEMS = (data.items || []).map(normalize).filter(x => x);
+    FEED_GENERATED_AT = data.generated_at;
+    return true;
+  } catch (err) {
+    console.error('Feed load failed:', err);
+    document.getElementById('stream-all').innerHTML =
+      '<div class="empty-state">Feed unavailable. The nightly workflow may not have run yet. Check feeds/consumer.json in the repo.</div>';
+    return false;
+  }
+}
+
+function normalize(item) {
+  if (!item || !item.title) return null;
+  return {
+    id: item.id || (item.source + '-' + Math.random().toString(36).slice(2, 8)),
+    source: item.source || 'Unknown',
+    country: item.country || '—',
+    category: item.category || 'Other',
+    hazard: item.hazard || '',
+    severity: (item.severity || 'medium').toLowerCase(),
+    date: item.date || '',
+    title: item.title,
+    summary: item.summary || '',
+    url: item.url || '#',
+  };
+}
+
+// ============= RENDER =============
+function renderCard(item) {
+  const sevClass = 'pill-sev-' + (['high','medium','low'].includes(item.severity) ? item.severity : 'medium');
+  const sevLabel = item.severity.charAt(0).toUpperCase() + item.severity.slice(1);
+  return `
+    <article class="item-card" data-url="${escapeAttr(item.url)}">
+      <div class="item-meta">
+        <span class="pill pill-source">${escapeHtml(item.source)}</span>
+        <span class="pill pill-country">${escapeHtml(item.country)}</span>
+        <span class="pill pill-cat">${escapeHtml(item.category)}</span>
+        ${item.hazard ? `<span class="pill pill-cat">${escapeHtml(item.hazard)}</span>` : ''}
+        <span class="pill ${sevClass}">${sevLabel}</span>
+        <span class="item-date">${escapeHtml(item.date)}</span>
+      </div>
+      <h3>${escapeHtml(item.title)}</h3>
+      ${item.summary ? `<p class="item-summary">${escapeHtml(item.summary)}</p>` : ''}
+    </article>
+  `;
+}
+
+function renderStream(items, streamId, metaId) {
+  const stream = document.getElementById(streamId);
+  const meta = document.getElementById(metaId);
+
+  if (meta) {
+    const latest = items.length > 0 ? items[0].date : '—';
+    meta.innerHTML = `
+      <span><strong>${items.length}</strong> records</span>
+      <span class="dot">·</span>
+      <span>latest: <strong>${escapeHtml(latest)}</strong></span>
+      <span class="dot">·</span>
+      <span>feed generated: <strong>${escapeHtml(FEED_GENERATED_AT || '—')}</strong></span>
+    `;
+  }
+
+  if (!items.length) {
+    stream.innerHTML = '<div class="empty-state">No matching records.</div>';
+    return;
+  }
+  stream.innerHTML = items.map(renderCard).join('');
+  stream.querySelectorAll('.item-card').forEach(el => {
+    el.addEventListener('click', () => {
+      const url = el.dataset.url;
+      if (url && url !== '#') window.open(url, '_blank', 'noopener');
+    });
+  });
+}
+
+function renderAll() {
+  // Sort by date descending
+  const sorted = [...ALL_ITEMS].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+  // Counts
+  document.getElementById('count-all').textContent = sorted.length;
+  Object.entries(SOURCE_TO_TAB).forEach(([source, tab]) => {
+    const n = sorted.filter(i => i.source === source).length;
+    const el = document.getElementById('count-' + tab);
+    if (el) el.textContent = n;
+  });
+
+  // Per-tab streams
+  Object.entries(SOURCE_TO_TAB).forEach(([source, tab]) => {
+    renderStream(sorted.filter(i => i.source === source), 'stream-' + tab, 'meta-' + tab);
+  });
+
+  // Populate country filter
+  const countries = [...new Set(sorted.map(i => i.country).filter(Boolean))].sort();
+  const sel = document.getElementById('filter-country');
+  const existing = sel.value;
+  sel.innerHTML = '<option value="">All regions</option>' +
+    countries.map(c => `<option value="${escapeAttr(c)}">${escapeHtml(c)}</option>`).join('');
+  sel.value = existing;
+
+  applyFilters();
+}
+
+function applyFilters() {
+  const q = (document.getElementById('search-all').value || '').toLowerCase().trim();
+  const sev = document.getElementById('filter-severity').value;
+  const country = document.getElementById('filter-country').value;
+
+  let filtered = [...ALL_ITEMS].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  if (q) filtered = filtered.filter(i =>
+    (i.title + ' ' + i.summary + ' ' + i.source + ' ' + i.category + ' ' + i.hazard).toLowerCase().includes(q)
+  );
+  if (sev) filtered = filtered.filter(i => i.severity === sev);
+  if (country) filtered = filtered.filter(i => i.country === country);
+
+  renderStream(filtered, 'stream-all', 'meta-all');
+}
+
+// ============= TAB SWITCHING =============
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    document.getElementById('panel-' + tab).classList.add('active');
+    activeTab = tab;
+  });
+});
+
+// Filters
+document.getElementById('search-all').addEventListener('input', applyFilters);
+document.getElementById('filter-severity').addEventListener('change', applyFilters);
+document.getElementById('filter-country').addEventListener('change', applyFilters);
+document.getElementById('filter-clear').addEventListener('click', () => {
+  document.getElementById('search-all').value = '';
+  document.getElementById('filter-severity').value = '';
+  document.getElementById('filter-country').value = '';
+  applyFilters();
+});
+
+// ============= CLOCK =============
+function updateClock() {
+  const now = new Date();
+  const opts = { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' };
+  document.getElementById('datestamp').textContent = now.toLocaleDateString('en-US', opts).toUpperCase();
+  document.getElementById('clock').textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', hour12: false });
+}
+setInterval(updateClock, 30000);
+updateClock();
+
+// ============= UTILITIES =============
+function escapeHtml(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])
+  );
+}
+function escapeAttr(s) { return escapeHtml(s); }
+
+// ============= BOOT =============
+(async function init() {
+  await loadFeed();
+  document.getElementById('last-updated').textContent =
+    FEED_GENERATED_AT ? FEED_GENERATED_AT.slice(0, 10) : '—';
+  renderAll();
+})();
+</script>
+</body>
+</html>
