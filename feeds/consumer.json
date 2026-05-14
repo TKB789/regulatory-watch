@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-14T01:52:37Z",
-  "schema_version": "1.4",
+  "generated_at": "2026-05-14T02:04:55Z",
+  "schema_version": "1.5",
   "source_status": {
     "CPSC": "ok",
     "NHTSA": "ok",
@@ -11,7 +11,7 @@
   },
   "items": [
     {
-      "id": "nhtsa-162985272583",
+      "id": "nhtsa-381573108012",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -23,7 +23,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V295000"
     },
     {
-      "id": "cpsc-242499532595",
+      "id": "cpsc-67655735303",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -35,7 +35,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Allura-Imports-Recalls-Youth-Sweatshirts-with-Bobcat-Logo-and-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Regulations-for-Childrens-Upper-Outerwear"
     },
     {
-      "id": "cpsc-876484922439",
+      "id": "cpsc-341057496403",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -47,7 +47,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Analemma-Water-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Laceration-and-Ingestion-Hazards-Imported-by-New-Earth-Technologies-d-o-o"
     },
     {
-      "id": "cpsc-536680869459",
+      "id": "cpsc-573903774053",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -59,7 +59,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/EEMB-USA-Recalls-Battery-Pouches-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Federal-Statute-for-Child-Resistant-Packaging-of-Coin-Batteries"
     },
     {
-      "id": "cpsc-552417486520",
+      "id": "cpsc-140180099079",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -71,7 +71,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/EVLWZL-and-Gunugu-Mattresses-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violates-Mandatory-Standard-for-Mattress-Flammability"
     },
     {
-      "id": "cpsc-207859243408",
+      "id": "cpsc-873645564115",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -83,7 +83,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Favoto-Bicycle-Helmets-Recalled-Due-to-Risk-of-Serious-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-Favoto"
     },
     {
-      "id": "cpsc-337017488094",
+      "id": "cpsc-932191332177",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -95,7 +95,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Temu-by-Foubeaka-and-Geniuss"
     },
     {
-      "id": "cpsc-158903052024",
+      "id": "cpsc-579076175364",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -107,7 +107,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-361675235811",
+      "id": "cpsc-866171990855",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -119,7 +119,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful"
     },
     {
-      "id": "cpsc-570376181359",
+      "id": "cpsc-357416366994",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -131,7 +131,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon"
     },
     {
-      "id": "cpsc-198402014803",
+      "id": "cpsc-418913690816",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -143,7 +143,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "nhtsa-630749034009",
+      "id": "nhtsa-984233016408",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -155,7 +155,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V290000"
     },
     {
-      "id": "nhtsa-837515125180",
+      "id": "nhtsa-140940008213",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -167,7 +167,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V289000"
     },
     {
-      "id": "nhtsa-958417453786",
+      "id": "nhtsa-795033244526",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -179,7 +179,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V288000"
     },
     {
-      "id": "nhtsa-752837490252",
+      "id": "nhtsa-997129988564",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -191,7 +191,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V287000"
     },
     {
-      "id": "nhtsa-643346002337",
+      "id": "nhtsa-752841929448",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -203,7 +203,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V286000"
     },
     {
-      "id": "fda-food-704853745149",
+      "id": "fda-food-170600869480",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -215,7 +215,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-961718311283",
+      "id": "fda-food-138457740718",
       "source": "FDA Food",
       "country": "China",
       "category": "Food / Cosmetics",
@@ -227,7 +227,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-595166769485",
+      "id": "fda-food-99559248328",
       "source": "FDA Food",
       "country": "China",
       "category": "Food / Cosmetics",
@@ -239,7 +239,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-868825327582",
+      "id": "fda-food-582703643866",
       "source": "FDA Food",
       "country": "Canada",
       "category": "Food / Cosmetics",
@@ -251,7 +251,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-813557046677",
+      "id": "fda-food-466881208828",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -263,7 +263,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-467247795435",
+      "id": "fda-food-464911594437",
       "source": "FDA Food",
       "country": "China",
       "category": "Food / Cosmetics",
@@ -275,7 +275,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-122514164364",
+      "id": "fda-food-90845653400",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -287,7 +287,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-367969271538",
+      "id": "fda-food-34434791186",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -299,7 +299,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-439577749035",
+      "id": "fda-food-436905472605",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -311,7 +311,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-950872636716",
+      "id": "fda-food-90420564757",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -323,7 +323,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-690154479897",
+      "id": "nhtsa-780922040991",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -335,7 +335,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V285000"
     },
     {
-      "id": "nhtsa-998642110820",
+      "id": "nhtsa-78952636630",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -347,7 +347,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V284000"
     },
     {
-      "id": "nhtsa-10914267073",
+      "id": "nhtsa-700546943044",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -359,7 +359,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V283000"
     },
     {
-      "id": "nhtsa-933650468318",
+      "id": "nhtsa-657919837250",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -371,7 +371,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V282000"
     },
     {
-      "id": "nhtsa-208719049435",
+      "id": "nhtsa-284669765845",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -383,7 +383,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V281000"
     },
     {
-      "id": "nhtsa-582606900762",
+      "id": "nhtsa-441086179299",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -395,7 +395,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V280000"
     },
     {
-      "id": "nhtsa-357724244259",
+      "id": "nhtsa-837554610581",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -407,7 +407,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V279000"
     },
     {
-      "id": "nhtsa-412424946864",
+      "id": "nhtsa-16020267610",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -419,7 +419,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V278000"
     },
     {
-      "id": "nhtsa-718837563391",
+      "id": "nhtsa-456665678407",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -431,7 +431,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E026000"
     },
     {
-      "id": "cpsc-916461930366",
+      "id": "cpsc-715805172281",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -443,7 +443,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/5-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-UHOMEPRO"
     },
     {
-      "id": "cpsc-657984645132",
+      "id": "cpsc-340236404861",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -455,7 +455,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Acer-America-Corporation-Recalls-Two-Wheeled-Folding-Electric-Scooters-Due-to-Risk-of-Injury-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-637990962159",
+      "id": "cpsc-276132980722",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -467,7 +467,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Imported-by-Hepo-Care-Medical-Equipment-Online"
     },
     {
-      "id": "cpsc-780117198276",
+      "id": "cpsc-90382089917",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -479,7 +479,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Alliance-Chemical-Recalls-1-K-Kerosene-Heater-Fluid-Containers-Due-to-Risk-of-Serious-Injury-or-Death-from-Flash-Fire-Burn-and-Child-Poisoning-Violates-Mandatory-Standards-for-Portable-Fuel-Containers"
     },
     {
-      "id": "cpsc-864576843364",
+      "id": "cpsc-179560665686",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -491,7 +491,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
     },
     {
-      "id": "cpsc-367779261697",
+      "id": "cpsc-389486633066",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -503,7 +503,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Bayer-Recalls-6-mL-Size-Afrin-Original-Nasal-Spray-Bottles-Due-to-Risk-of-Serious-Injury-or-Illness-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-544495179364",
+      "id": "cpsc-556204420001",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -515,7 +515,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Build-A-Bear-Workshop-Recalls-Heartwarming-Hugs-Bears-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-to-Children"
     },
     {
-      "id": "cpsc-7987279294",
+      "id": "cpsc-174884160516",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -527,7 +527,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/CBC-Group-Recalls-Stephan-Baby-Boo-Bunnie-and-Friends-Childrens-Toys-Due-to-Risk-of-Serious-Injury-from-Choking-and-Laceration-Hazards"
     },
     {
-      "id": "cpsc-242737392710",
+      "id": "cpsc-296752822669",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -539,7 +539,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea"
     },
     {
-      "id": "cpsc-889017899043",
+      "id": "cpsc-717458881886",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -551,7 +551,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect"
     },
     {
-      "id": "cpsc-271268397892",
+      "id": "cpsc-384606293299",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -563,7 +563,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US"
     },
     {
-      "id": "cpsc-782343791636",
+      "id": "cpsc-601866510158",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -575,7 +575,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus"
     },
     {
-      "id": "cpsc-562462831238",
+      "id": "cpsc-299142094205",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -587,7 +587,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards"
     },
     {
-      "id": "cpsc-858029101436",
+      "id": "cpsc-407526769543",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -599,7 +599,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT"
     },
     {
-      "id": "cpsc-104090164205",
+      "id": "cpsc-663551488385",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -611,7 +611,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards"
     },
     {
-      "id": "nhtsa-648413940469",
+      "id": "nhtsa-320389424110",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -623,7 +623,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V277000"
     },
     {
-      "id": "nhtsa-182422807002",
+      "id": "nhtsa-65462279941",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -635,7 +635,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V276000"
     },
     {
-      "id": "nhtsa-440908319080",
+      "id": "nhtsa-214771382688",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -647,7 +647,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V275000"
     },
     {
-      "id": "nhtsa-38234300655",
+      "id": "nhtsa-273031272533",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -659,7 +659,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V274000"
     },
     {
-      "id": "nhtsa-192526930111",
+      "id": "nhtsa-407633024102",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -671,7 +671,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E024000"
     },
     {
-      "id": "nhtsa-242124059037",
+      "id": "nhtsa-187120395211",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -683,7 +683,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V273000"
     },
     {
-      "id": "nhtsa-239840571774",
+      "id": "nhtsa-692639699820",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -695,7 +695,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V272000"
     },
     {
-      "id": "nhtsa-185022693597",
+      "id": "nhtsa-408414277085",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -707,7 +707,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V271000"
     },
     {
-      "id": "fda-food-872575648720",
+      "id": "fda-food-367742649126",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -719,7 +719,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-171169772903",
+      "id": "fda-food-285916344905",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -731,7 +731,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-894972381681",
+      "id": "fda-food-737871862975",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -743,7 +743,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-553895650116",
+      "id": "fda-food-474282893867",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -755,7 +755,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-92870335882",
+      "id": "fda-food-780421025512",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -767,7 +767,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-886056193629",
+      "id": "fda-food-940522420288",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -779,7 +779,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-688619437618",
+      "id": "fda-food-326308053146",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -791,7 +791,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-88124615344",
+      "id": "fda-food-348798363821",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -803,7 +803,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-120042453238",
+      "id": "fda-food-246721869908",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -815,7 +815,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-106969787746",
+      "id": "nhtsa-839403120220",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -827,7 +827,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V270000"
     },
     {
-      "id": "nhtsa-88718941047",
+      "id": "nhtsa-934786515771",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -839,7 +839,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V269000"
     },
     {
-      "id": "nhtsa-63469442963",
+      "id": "nhtsa-787284491312",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -851,7 +851,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V268000"
     },
     {
-      "id": "nhtsa-677766105550",
+      "id": "nhtsa-797103246551",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -863,7 +863,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V267000"
     },
     {
-      "id": "nhtsa-848254352224",
+      "id": "nhtsa-443678313308",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -875,7 +875,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E023000"
     },
     {
-      "id": "nhtsa-427335710162",
+      "id": "nhtsa-877248275894",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -887,7 +887,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V266000"
     },
     {
-      "id": "nhtsa-795068389150",
+      "id": "nhtsa-358969571704",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -899,7 +899,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V265000"
     },
     {
-      "id": "cpsc-869382055525",
+      "id": "cpsc-545379811371",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -911,7 +911,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/32-Degrees-Recalls-Heated-Socks-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-682728181414",
+      "id": "cpsc-576813713251",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -923,7 +923,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Autobrush-Recalls-Sonic-Pro-Childrens-Toothbrush-Boxes-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-414700856828",
+      "id": "cpsc-312367036925",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -935,7 +935,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Childrens-Tower-Stools-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Entrapment-and-Fall-Hazards-Imported-by-AMZCMJ-DGD"
     },
     {
-      "id": "cpsc-795011821158",
+      "id": "cpsc-232214757096",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -947,7 +947,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Childrens-Tower-Stools-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Entrapment-and-Fall-Hazards-Imported-by-TOETOL-HOME"
     },
     {
-      "id": "cpsc-935682690714",
+      "id": "cpsc-306544763214",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -959,7 +959,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Cpzzkq-Baby-Loungers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-Hazard-Violates-Mandatory-Standard-for-Infant-Support-Cushions-Sold-on-Amazon-by-CetoPMax"
     },
     {
-      "id": "cpsc-354152953649",
+      "id": "cpsc-509121077193",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -971,7 +971,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/HappyGira-Recalls-Sweetie-Baby-and-Style-Life-Eleven-Baby-Loungers-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-and-Fall-Hazards-Violates-Mandatory-Standard-for-Infant-Sleep-Products"
     },
     {
-      "id": "cpsc-214874892270",
+      "id": "cpsc-445590930538",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -983,7 +983,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/KMUYSL-Big-Red-Barn-Farm-Animal-Playsets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violates-Small-Parts-Ban-Sold-on-Amazon-by-MISSJUNE"
     },
     {
-      "id": "cpsc-782835168887",
+      "id": "cpsc-887536115763",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -995,7 +995,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Stick-Figure-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys-Sold-on-Walmart-by-BlissfulDestiny"
     },
     {
-      "id": "cpsc-201309910565",
+      "id": "cpsc-117108118985",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1007,7 +1007,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/mGanna-Sodium-Hydroxide-Pellet-Bags-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Chemical-Burns-and-Irritation-to-the-Skin-and-Eyes-Violate-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Archie-Xpress"
     },
     {
-      "id": "cpsc-199167560676",
+      "id": "cpsc-584616410284",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1019,7 +1019,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tzumi-Electronics-Recalls-FitRx-SmartBell-Quick-Select-Adjustable-Dumbbells-Due-to-Serious-Injury-from-Impact-Hazard"
     },
     {
-      "id": "cpsc-358662693528",
+      "id": "cpsc-82778958287",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1031,7 +1031,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Wiifo-Childrens-Tower-Stools-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Entrapment-and-Fall-Hazards-Imported-by-Wiifo"
     },
     {
-      "id": "nhtsa-764664257017",
+      "id": "nhtsa-385592769744",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1043,7 +1043,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V264000"
     },
     {
-      "id": "nhtsa-196052191491",
+      "id": "nhtsa-323516379631",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1055,7 +1055,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V263000"
     },
     {
-      "id": "nhtsa-902481935507",
+      "id": "nhtsa-319426663057",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1067,7 +1067,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E025000"
     },
     {
-      "id": "nhtsa-896496162894",
+      "id": "nhtsa-851595535673",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1079,7 +1079,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V262000"
     },
     {
-      "id": "nhtsa-860566486683",
+      "id": "nhtsa-566922188829",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1091,7 +1091,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V261000"
     },
     {
-      "id": "nhtsa-328599513627",
+      "id": "nhtsa-470163912057",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1103,7 +1103,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V260000"
     },
     {
-      "id": "nhtsa-922748181918",
+      "id": "nhtsa-689483609686",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1115,7 +1115,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V259000"
     },
     {
-      "id": "nhtsa-723280403023",
+      "id": "nhtsa-571918077606",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1127,7 +1127,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V258000"
     },
     {
-      "id": "nhtsa-562615555592",
+      "id": "nhtsa-880333751439",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1139,7 +1139,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V257000"
     },
     {
-      "id": "nhtsa-759066466840",
+      "id": "nhtsa-848655962769",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1151,7 +1151,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V256000"
     },
     {
-      "id": "nhtsa-965243417177",
+      "id": "nhtsa-765776469616",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1163,7 +1163,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V255000"
     },
     {
-      "id": "fda-food-55716976436",
+      "id": "fda-food-620669573278",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1175,7 +1175,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-92864080027",
+      "id": "fda-food-821500993592",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1187,7 +1187,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-426795189277",
+      "id": "fda-food-67753773549",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1199,7 +1199,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-422724636980",
+      "id": "nhtsa-406092738106",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1211,7 +1211,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V254000"
     },
     {
-      "id": "nhtsa-976126223427",
+      "id": "nhtsa-634549633056",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1223,7 +1223,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V253000"
     },
     {
-      "id": "nhtsa-337354020636",
+      "id": "nhtsa-957557644672",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1235,7 +1235,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E022000"
     },
     {
-      "id": "nhtsa-404581130670",
+      "id": "nhtsa-804823859080",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1247,7 +1247,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V252000"
     },
     {
-      "id": "nhtsa-105846650112",
+      "id": "nhtsa-283278772303",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1259,7 +1259,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V251000"
     },
     {
-      "id": "nhtsa-553624779099",
+      "id": "nhtsa-280198978381",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1271,7 +1271,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V250000"
     },
     {
-      "id": "nhtsa-661557896852",
+      "id": "nhtsa-646150057438",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1283,7 +1283,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V249000"
     },
     {
-      "id": "nhtsa-42679838063",
+      "id": "nhtsa-430603300896",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1295,7 +1295,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26T011000"
     },
     {
-      "id": "nhtsa-736585899622",
+      "id": "nhtsa-762774160096",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1307,7 +1307,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V248000"
     },
     {
-      "id": "nhtsa-21184737829",
+      "id": "nhtsa-225679695403",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1319,7 +1319,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V247000"
     },
     {
-      "id": "nhtsa-929473639478",
+      "id": "nhtsa-307228554407",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1331,7 +1331,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V246000"
     },
     {
-      "id": "nhtsa-793371198199",
+      "id": "nhtsa-887642995619",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1343,7 +1343,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V245000"
     },
     {
-      "id": "cpsc-949228071739",
+      "id": "cpsc-744937107419",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1355,7 +1355,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-ZOLIQUEX"
     },
     {
-      "id": "cpsc-39199683936",
+      "id": "cpsc-739604424791",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1367,7 +1367,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Agiiman-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-138621739976",
+      "id": "cpsc-2541566398",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1379,7 +1379,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Apex-Gaming-PCs-Recalls-Manik-and-Apex-branded-ATX-Computer-Power-Supplies-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrical-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-581157300123",
+      "id": "cpsc-596568937143",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1391,7 +1391,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ATOYUS-Childrens-Activity-Cubes-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Small-Parts-Ban-and-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Melofaver-US"
     },
     {
-      "id": "cpsc-438753363790",
+      "id": "cpsc-3665751677",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1403,7 +1403,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fengrong-Tool-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-740330409365",
+      "id": "cpsc-302093247864",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1415,7 +1415,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Free-Standing-Professional-Gas-Ranges-Recalled-Due-to-Risk-of-Burn-Hazard-Manufactured-by-Fisher-and-Paykel"
     },
     {
-      "id": "cpsc-762632951688",
+      "id": "cpsc-90268550607",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1427,7 +1427,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fun-and-Function-Recalls-Childrens-Metal-Multi-Point-Swing-Frames-Due-to-Risk-of-Injury-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-647455933721",
+      "id": "cpsc-376565900911",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1439,7 +1439,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Generac-Power-Systems-Recalls-Portable-Generators-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-and-Fire-Hazards"
     },
     {
-      "id": "cpsc-37284490471",
+      "id": "cpsc-198069711176",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1451,7 +1451,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/JC-Sales-Recalls-Lil-Buddies-Pet-Laser-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-749832720790",
+      "id": "cpsc-702416567661",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1463,7 +1463,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Le-Hao-Tool-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-530105781745",
+      "id": "cpsc-179166759982",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1475,7 +1475,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Macys-Recalls-Arch-Studio-Tea-Kettles-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard"
     },
     {
-      "id": "cpsc-452317203907",
+      "id": "cpsc-585233957535",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1487,7 +1487,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Mini-Round-Toddler-Trampolines-Recalled-Due-to-Strangulation-Hazard-Risk-of-Serious-Injury-or-Death-Manufactured-by-SEGMART"
     },
     {
-      "id": "cpsc-586404271933",
+      "id": "cpsc-210045113637",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1499,7 +1499,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Montessori-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Teething-Toys-Sold-on-Amazon-by-SpringFlower"
     },
     {
-      "id": "cpsc-793212293111",
+      "id": "cpsc-912909939798",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1511,7 +1511,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/nvyue-Magic-Pocket-Staffs-Recalled-Due-to-Projectile-and-Laceration-Hazards-Imported-by-Xingwenfeng"
     },
     {
-      "id": "cpsc-185117553407",
+      "id": "cpsc-509243123623",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1523,7 +1523,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-BAYOTAK-USA"
     },
     {
-      "id": "cpsc-955973980273",
+      "id": "cpsc-920425672173",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1535,7 +1535,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-Patoolio-Direct"
     },
     {
-      "id": "cpsc-247151592600",
+      "id": "cpsc-217259326062",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1547,7 +1547,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sanlebi-Pet-Vet-Playsets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Letokids"
     },
     {
-      "id": "cpsc-194700363484",
+      "id": "cpsc-769564882984",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1559,7 +1559,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sweetcrispy-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-746276241070",
+      "id": "cpsc-470906749346",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1571,7 +1571,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-LED-Finger-Beam-Lights-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "nhtsa-327370746776",
+      "id": "nhtsa-555287724269",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1583,7 +1583,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E021000"
     },
     {
-      "id": "nhtsa-770553579887",
+      "id": "nhtsa-703577178583",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1595,7 +1595,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V244000"
     },
     {
-      "id": "nhtsa-919573517319",
+      "id": "nhtsa-615758719602",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1607,7 +1607,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V243000"
     },
     {
-      "id": "nhtsa-663236757526",
+      "id": "nhtsa-564573031687",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1619,7 +1619,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V242000"
     },
     {
-      "id": "nhtsa-242633621259",
+      "id": "nhtsa-159180416239",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1631,7 +1631,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V241000"
     },
     {
-      "id": "nhtsa-510593723442",
+      "id": "nhtsa-441872028730",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1643,7 +1643,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V240000"
     },
     {
-      "id": "fda-food-872977783045",
+      "id": "fda-food-277084104688",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1655,7 +1655,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-532901341148",
+      "id": "fda-food-677962123125",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1667,7 +1667,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-360617147317",
+      "id": "fda-food-6867752790",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1679,7 +1679,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-939935238932",
+      "id": "fda-food-510401012520",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1691,7 +1691,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-369353993536",
+      "id": "fda-food-496070469715",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1703,7 +1703,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-519556533743",
+      "id": "fda-food-795427217175",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1715,7 +1715,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-31375599762",
+      "id": "fda-food-814804608150",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1727,7 +1727,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-36453043846",
+      "id": "fda-food-845086879436",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1739,7 +1739,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-790476180457",
+      "id": "fda-food-455399836763",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1751,7 +1751,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-692015298543",
+      "id": "fda-food-120674386977",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1763,7 +1763,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-267540715979",
+      "id": "fda-food-867379437539",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1775,7 +1775,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-747687163226",
+      "id": "fda-food-19427871463",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1787,7 +1787,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-945743995287",
+      "id": "fda-food-804681465042",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1799,7 +1799,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-62950926560",
+      "id": "nhtsa-580470306853",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1811,7 +1811,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V239000"
     },
     {
-      "id": "nhtsa-81555341476",
+      "id": "nhtsa-973317929653",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1823,7 +1823,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V238000"
     },
     {
-      "id": "nhtsa-57655639454",
+      "id": "nhtsa-453229416418",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1835,7 +1835,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V237000"
     },
     {
-      "id": "nhtsa-636837075780",
+      "id": "nhtsa-944510279929",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1847,7 +1847,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V236000"
     },
     {
-      "id": "nhtsa-975045458046",
+      "id": "nhtsa-78501563578",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1859,7 +1859,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V235000"
     },
     {
-      "id": "nhtsa-924039722475",
+      "id": "nhtsa-842993723415",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1871,7 +1871,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V234000"
     },
     {
-      "id": "nhtsa-332653694378",
+      "id": "nhtsa-529839622094",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1883,7 +1883,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V233000"
     },
     {
-      "id": "nhtsa-693298020666",
+      "id": "nhtsa-450335928563",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1895,7 +1895,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V232000"
     },
     {
-      "id": "nhtsa-660829338115",
+      "id": "nhtsa-986765362595",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1907,7 +1907,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V231000"
     },
     {
-      "id": "nhtsa-185803578973",
+      "id": "nhtsa-892695940806",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1919,7 +1919,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V229000"
     },
     {
-      "id": "nhtsa-382756408353",
+      "id": "nhtsa-214602697936",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -1931,7 +1931,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V230000"
     },
     {
-      "id": "cpsc-338852372631",
+      "id": "cpsc-542039856679",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1943,7 +1943,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/BISSELL-Recalls-Over-One-Million-Steam-Shot-OmniReach-Steam-Cleaners-Due-to-Risk-of-Serious-Burn-Hazard-from-Attachments"
     },
     {
-      "id": "cpsc-331346384014",
+      "id": "cpsc-809509743652",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1955,7 +1955,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Easymake-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Imported-by-ZFZG-US"
     },
     {
-      "id": "cpsc-168849846540",
+      "id": "cpsc-622259392804",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1967,7 +1967,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Halloween-Pumpkin-Carving-Kits-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Besslly-Store"
     },
     {
-      "id": "cpsc-533714928320",
+      "id": "cpsc-254360143053",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1979,7 +1979,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Head-USA-Recalls-Ski-Boots-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-183944868343",
+      "id": "cpsc-25133762456",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1991,7 +1991,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries-Sold-on-Amazon-by-Happiness-Light"
     },
     {
-      "id": "cpsc-297616036336",
+      "id": "cpsc-99954136399",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2003,7 +2003,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Drinkware-Charms-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Magnets-Sold-on-Amazon-by-Maitys"
     },
     {
-      "id": "cpsc-395289711673",
+      "id": "cpsc-821151730200",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2015,7 +2015,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Muscccm-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Sold-on-Amazon-by-SZ-Hengxun"
     },
     {
-      "id": "cpsc-175969892482",
+      "id": "cpsc-26366403952",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2027,7 +2027,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Prestige-Import-Group-Recalls-Supernova-and-Typhoon-Lighters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Cigarette-Lighters"
     },
     {
-      "id": "cpsc-610701235632",
+      "id": "cpsc-69395295076",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2039,7 +2039,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SCUBAPRO-Recalls-Monorail-Weight-Pockets-for-Buoyancy-Compensator-Devices-BCDs-Due-to-Risk-of-Serious-Injury-or-Death-from-Drowning"
     },
     {
-      "id": "cpsc-987591857791",
+      "id": "cpsc-295258327421",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2051,7 +2051,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Seasonal-Specialties-Recalls-Members-Mark-7-Pre-Lit-Twinkling-Bucks-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-224694842704",
+      "id": "cpsc-249741769533",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2063,7 +2063,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Shenzhen-Baihang-Recalls-VEEKTOMX-Mini-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon"
     },
     {
-      "id": "cpsc-25146486621",
+      "id": "cpsc-739918451231",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2075,7 +2075,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Shenzhen-Shijingjie-Network-Technology-Male-to-Male-Extension-Cords-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Electrocution-and-Carbon-Monoxide-Poisoning-Hazards-Sold-on-Walmart"
     },
     {
-      "id": "cpsc-79263251285",
+      "id": "cpsc-287728087749",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2087,7 +2087,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ShymeryDirect-LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-727340706376",
+      "id": "cpsc-692076154575",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2099,7 +2099,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Silks-Recall-Childrens-Loungewear-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violates-Mandatory-Flammability-Standards-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-447247731614",
+      "id": "cpsc-892534057440",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2111,7 +2111,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SNOOZ-Recalls-Electrical-Fans-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-256339443608",
+      "id": "cpsc-128964827001",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2123,7 +2123,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vitaquest-International-Recalls-Multiple-Iron-Supplement-Bottles-and-Packets-Due-to-Risk-of-Serious-Injury-or-Death-from-Poisoning-to-Young-Children-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-911656065664",
+      "id": "cpsc-964177994083",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2135,7 +2135,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Wybotics-Recalls-Robotic-Pool-Vacuums-Due-to-Burn-and-Fire-Hazards"
     },
     {
-      "id": "cpsc-606840535269",
+      "id": "cpsc-591539634434",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2147,7 +2147,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Yeeluzan-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Sold-on-Amazon-by-Yeeluzan"
     },
     {
-      "id": "nhtsa-287640332448",
+      "id": "nhtsa-8323412787",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2159,7 +2159,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V228000"
     },
     {
-      "id": "nhtsa-985801537141",
+      "id": "nhtsa-705476455633",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2171,7 +2171,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V227000"
     },
     {
-      "id": "nhtsa-948090875612",
+      "id": "nhtsa-171431418900",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2183,7 +2183,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E020000"
     },
     {
-      "id": "nhtsa-610294303287",
+      "id": "nhtsa-472500445305",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2195,7 +2195,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E019000"
     },
     {
-      "id": "nhtsa-506704322691",
+      "id": "nhtsa-128772395413",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2207,7 +2207,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V226000"
     },
     {
-      "id": "nhtsa-233173024398",
+      "id": "nhtsa-824201071661",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2219,7 +2219,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V225000"
     },
     {
-      "id": "nhtsa-836543748908",
+      "id": "nhtsa-370655240626",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2231,7 +2231,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V224000"
     },
     {
-      "id": "nhtsa-702399544977",
+      "id": "nhtsa-255897575510",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2243,7 +2243,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V223000"
     },
     {
-      "id": "nhtsa-585317078075",
+      "id": "nhtsa-787311463427",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2255,7 +2255,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V222000"
     },
     {
-      "id": "nhtsa-175227339680",
+      "id": "nhtsa-770565591652",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2267,7 +2267,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V221000"
     },
     {
-      "id": "fda-food-436339791497",
+      "id": "fda-food-443709851881",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2279,7 +2279,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-669203591317",
+      "id": "fda-food-700452606067",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2291,7 +2291,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-267819202055",
+      "id": "fda-food-676016582010",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2303,7 +2303,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-963284136314",
+      "id": "fda-food-364245005977",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2315,7 +2315,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-500178170011",
+      "id": "fda-food-305399145161",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2327,7 +2327,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-50461398687",
+      "id": "fda-food-239080677230",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2339,7 +2339,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-51066745067",
+      "id": "fda-food-555672412118",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2351,7 +2351,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-265134046812",
+      "id": "fda-food-199980255462",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2363,7 +2363,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-121971443529",
+      "id": "fda-food-528224243079",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2375,7 +2375,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-753594559097",
+      "id": "fda-food-785426465393",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2387,7 +2387,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-508859485604",
+      "id": "fda-food-116546924273",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2399,7 +2399,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-99294983242",
+      "id": "fda-food-794648484193",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2411,7 +2411,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-86415805176",
+      "id": "fda-food-469284776340",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2423,7 +2423,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-727112410134",
+      "id": "fda-food-357070089651",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2435,7 +2435,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-133774346550",
+      "id": "fda-food-510275510639",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2447,7 +2447,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-276221106725",
+      "id": "fda-food-105392935489",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2459,7 +2459,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-153055788736",
+      "id": "nhtsa-591972465068",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2471,7 +2471,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V220000"
     },
     {
-      "id": "nhtsa-518710352307",
+      "id": "nhtsa-380597357108",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2483,7 +2483,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V219000"
     },
     {
-      "id": "nhtsa-6352383272",
+      "id": "nhtsa-303431496118",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2495,7 +2495,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V218000"
     },
     {
-      "id": "nhtsa-565473472988",
+      "id": "nhtsa-520165695818",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2507,7 +2507,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V217000"
     },
     {
-      "id": "nhtsa-516235843284",
+      "id": "nhtsa-209962126120",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2519,7 +2519,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V216000"
     },
     {
-      "id": "nhtsa-78034785904",
+      "id": "nhtsa-865861895649",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2531,7 +2531,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V215000"
     },
     {
-      "id": "nhtsa-167681170297",
+      "id": "nhtsa-516544065191",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2543,7 +2543,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E018000"
     },
     {
-      "id": "nhtsa-893614223443",
+      "id": "nhtsa-438822308390",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2555,7 +2555,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26C003000"
     },
     {
-      "id": "cpsc-859535267883",
+      "id": "cpsc-469050427206",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2567,7 +2567,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Childrens-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violates-the-Small-Ball-Ban-Sold-on-Amazon-by-Beestech"
     },
     {
-      "id": "cpsc-736681036889",
+      "id": "cpsc-142276798718",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2579,7 +2579,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Coluans-Christmas-Light-Up-Rings-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-BUDI-Official"
     },
     {
-      "id": "cpsc-889515623019",
+      "id": "cpsc-614529595815",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2591,7 +2591,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/E-Mishan-Recalls-Granitestone-Diamond-Pro-Blue-Stainless-Saute-Pans-Due-to-Impact-and-Burn-Hazards"
     },
     {
-      "id": "cpsc-857941576288",
+      "id": "cpsc-366388254945",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2603,7 +2603,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ELENKER-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Fuzhou-Shiahaha-Cultural-Industry-Development"
     },
     {
-      "id": "cpsc-317119539471",
+      "id": "cpsc-796383036056",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2615,7 +2615,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Gavoyeat-Halloween-Light-Up-Rings-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-CSZWEICD"
     },
     {
-      "id": "cpsc-217875154312",
+      "id": "cpsc-832500456973",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2627,7 +2627,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/HTRC-and-Haisito-T400-Battery-Chargers-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Fire-Hazard-Manufactured-by-Huizhou-Haitan-Technology"
     },
     {
-      "id": "cpsc-560719524534",
+      "id": "cpsc-685785112196",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2639,7 +2639,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/OCUN-NA-Recalls-Condor-HMS-Triple-Carabiners-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-93388014818",
+      "id": "cpsc-12784981440",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2651,7 +2651,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sams-Club-Recalls-Members-Mark-Childrens-Pajama-Sets-Due-to-Burn-Hazard-Violates-Mandatory-Flammability-Standards-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-625345841749",
+      "id": "cpsc-897105904187",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2663,7 +2663,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Samson-International-Recalls-Bellevue-and-Oaklynn-Canopy-Bed-Frames-Due-to-Impact-and-Injury-Hazards"
     },
     {
-      "id": "cpsc-274930710338",
+      "id": "cpsc-89188242133",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2675,7 +2675,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sangohe-Reannounces-and-Expands-Adult-Portable-Bed-Rails-Recall-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-972097860163",
+      "id": "cpsc-369308559163",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2687,7 +2687,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TecFlox-Hair-and-Beard-Growth-Serum-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-671495780317",
+      "id": "cpsc-2893459478",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2699,7 +2699,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tuymec-Minoxidil-Hair-Growth-Spray-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-DrHealBeauty"
     },
     {
-      "id": "nhtsa-325789261231",
+      "id": "nhtsa-790061842412",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2711,7 +2711,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V214000"
     },
     {
-      "id": "nhtsa-537110878712",
+      "id": "nhtsa-298736843700",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2723,7 +2723,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V213000"
     },
     {
-      "id": "nhtsa-369593127214",
+      "id": "nhtsa-23099866310",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2735,7 +2735,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V212000"
     },
     {
-      "id": "nhtsa-92728088454",
+      "id": "nhtsa-328461548013",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2747,7 +2747,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V211000"
     },
     {
-      "id": "nhtsa-17292563215",
+      "id": "nhtsa-822228302934",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2759,7 +2759,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V210000"
     },
     {
-      "id": "nhtsa-992300549075",
+      "id": "nhtsa-355541356366",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2771,7 +2771,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V209000"
     },
     {
-      "id": "nhtsa-447075829819",
+      "id": "nhtsa-76231871725",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2783,7 +2783,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V208000"
     },
     {
-      "id": "nhtsa-380283714543",
+      "id": "nhtsa-678596977030",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -2795,7 +2795,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V207000"
     },
     {
-      "id": "fda-food-949785208844",
+      "id": "fda-food-299022260641",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2807,7 +2807,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-312577547097",
+      "id": "fda-food-724140331292",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2819,7 +2819,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-335997117208",
+      "id": "fda-food-378398748115",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2831,7 +2831,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-248621821816",
+      "id": "fda-food-759804568085",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2843,7 +2843,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-140266625311",
+      "id": "fda-food-93342000266",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2855,7 +2855,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-629956717456",
+      "id": "fda-food-458250201573",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2867,7 +2867,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-51053728175",
+      "id": "fda-food-405331774265",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2879,7 +2879,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-259901732912",
+      "id": "fda-food-967412161370",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2891,7 +2891,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-810858406551",
+      "id": "fda-food-545571375565",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2903,7 +2903,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-412969451194",
+      "id": "fda-food-904957164942",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2915,7 +2915,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-312409940282",
+      "id": "fda-food-662317682056",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2927,7 +2927,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-774961854672",
+      "id": "fda-food-539623968519",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2939,7 +2939,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-578281794627",
+      "id": "fda-food-687877755502",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2951,7 +2951,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-594521444454",
+      "id": "fda-food-883922668173",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2963,7 +2963,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-343591239552",
+      "id": "fda-food-563726390284",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2975,7 +2975,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-567477332117",
+      "id": "fda-food-731867689119",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2987,7 +2987,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-947222757896",
+      "id": "fda-food-954305910147",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2999,7 +2999,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-136067790477",
+      "id": "fda-food-412829434529",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3011,7 +3011,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-464823417408",
+      "id": "fda-food-353775420968",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3023,7 +3023,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-518748736810",
+      "id": "fda-food-812893288946",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3035,7 +3035,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-922852096790",
+      "id": "fda-food-836506262012",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3047,7 +3047,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-378273732151",
+      "id": "fda-food-623445576065",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3059,7 +3059,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-881982609729",
+      "id": "fda-food-754079934117",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3071,7 +3071,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-766045578719",
+      "id": "fda-food-642316832784",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3083,7 +3083,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-856915284290",
+      "id": "fda-food-358881764219",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3095,7 +3095,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-123484518079",
+      "id": "fda-food-746743279072",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3107,7 +3107,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-53263968633",
+      "id": "fda-food-115259929571",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3119,7 +3119,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-811542105916",
+      "id": "fda-food-770562978863",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3131,7 +3131,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-412219562711",
+      "id": "fda-food-875033941413",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3143,7 +3143,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-861937301678",
+      "id": "fda-food-440249676598",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3155,7 +3155,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-727886519898",
+      "id": "fda-food-289686595792",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3167,7 +3167,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-586916277225",
+      "id": "fda-food-757889759874",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3179,7 +3179,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-752733961304",
+      "id": "fda-food-171278837616",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3191,7 +3191,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-522558053726",
+      "id": "fda-food-152660383827",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3203,7 +3203,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-365694194590",
+      "id": "fda-food-267027676616",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3215,7 +3215,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-700474851494",
+      "id": "fda-food-914199934014",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3227,7 +3227,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-179274906287",
+      "id": "fda-food-426179117951",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3239,7 +3239,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-519227382338",
+      "id": "fda-food-533332804170",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3251,7 +3251,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-854489160870",
+      "id": "fda-food-105951120692",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3263,7 +3263,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-744270841206",
+      "id": "fda-food-325107243283",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3275,7 +3275,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-301654257057",
+      "id": "fda-food-540672776749",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3287,7 +3287,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-262574639929",
+      "id": "fda-food-366466388308",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3299,7 +3299,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-405712414077",
+      "id": "fda-food-960962916224",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3311,7 +3311,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-274173828223",
+      "id": "nhtsa-590302697439",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3323,7 +3323,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E017000"
     },
     {
-      "id": "nhtsa-543009294524",
+      "id": "nhtsa-476888950267",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3335,7 +3335,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V206000"
     },
     {
-      "id": "nhtsa-762433238719",
+      "id": "nhtsa-196309612225",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3347,7 +3347,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V205000"
     },
     {
-      "id": "nhtsa-847262567493",
+      "id": "nhtsa-639752887494",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3359,7 +3359,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V204000"
     },
     {
-      "id": "nhtsa-168567728626",
+      "id": "nhtsa-808128880139",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3371,7 +3371,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V203000"
     },
     {
-      "id": "nhtsa-57078216925",
+      "id": "nhtsa-190380176711",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3383,7 +3383,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V202000"
     },
     {
-      "id": "nhtsa-826531302092",
+      "id": "nhtsa-340895769722",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3395,7 +3395,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V201000"
     },
     {
-      "id": "nhtsa-1082318951",
+      "id": "nhtsa-876457679844",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3407,7 +3407,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E016000"
     },
     {
-      "id": "nhtsa-644605930638",
+      "id": "nhtsa-612539549341",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3419,7 +3419,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V200000"
     },
     {
-      "id": "nhtsa-587464132967",
+      "id": "nhtsa-500094794672",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3431,7 +3431,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E015000"
     },
     {
-      "id": "nhtsa-614480141018",
+      "id": "nhtsa-555654325628",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3443,7 +3443,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V199000"
     },
     {
-      "id": "nhtsa-332118547258",
+      "id": "nhtsa-997648751143",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3455,7 +3455,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V198000"
     },
     {
-      "id": "nhtsa-344268292037",
+      "id": "nhtsa-225069981021",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3467,7 +3467,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V197000"
     },
     {
-      "id": "nhtsa-611128026832",
+      "id": "nhtsa-613578502215",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3479,7 +3479,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V196000"
     },
     {
-      "id": "nhtsa-143274892773",
+      "id": "nhtsa-29457127248",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3491,7 +3491,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V195000"
     },
     {
-      "id": "cpsc-769251271630",
+      "id": "cpsc-16933653755",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3503,7 +3503,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/4our-Kiddies-Tip-Restraint-Kits-Recalled-Due-to-Tip-Over-Hazard-Risk-of-Serious-Injury-and-Death"
     },
     {
-      "id": "cpsc-354770540505",
+      "id": "cpsc-579735771737",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3515,7 +3515,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/AirClub-Convertible-Bassinets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Violates-Mandatory-Standard-for-Bedside-Sleepers"
     },
     {
-      "id": "cpsc-469864990300",
+      "id": "cpsc-750773766048",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3527,7 +3527,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/CCCEI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-by-Middle-Way-Electronics"
     },
     {
-      "id": "cpsc-39722600026",
+      "id": "cpsc-583567757823",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3539,7 +3539,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/DIY-Cold-Plunge-Recalls-Sauna-Heater-Kits-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard"
     },
     {
-      "id": "cpsc-876539198799",
+      "id": "cpsc-777301976297",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3551,7 +3551,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/DuraTrac-Recalls-Stainless-Steel-Gas-Connectors-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-740322716079",
+      "id": "cpsc-552389164309",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3563,7 +3563,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/FUNTOK-Ride-On-Trucks-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-or-Death-Imported-by-Shenzhen-Luobei-Trading"
     },
     {
-      "id": "cpsc-750131072869",
+      "id": "cpsc-244229407805",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3575,7 +3575,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/GLMZZ-Fidget-Magnet-Ball-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-424009565262",
+      "id": "cpsc-776216227228",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3587,7 +3587,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/MPINOI-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Bioenrrty"
     },
     {
-      "id": "cpsc-912634926973",
+      "id": "cpsc-612637509137",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3599,7 +3599,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Nexgrill-Recalls-Over-10-2-Million-Metal-Wire-Bristle-Grill-Brushes-Due-to-Ingestion-Hazard-Sold-at-Home-Depot"
     },
     {
-      "id": "cpsc-340025929391",
+      "id": "cpsc-949270608384",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3611,7 +3611,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Petzl-America-Recalls-Nomic-and-Ergonomic-Ice-Climbing-Axes-Due-to-Fall-Hazard-Risk-of-Serious-Injury-or-Death"
     },
     {
-      "id": "cpsc-98288196546",
+      "id": "cpsc-56965556676",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3623,7 +3623,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sunnyyes-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-633556734047",
+      "id": "cpsc-680183437526",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3635,7 +3635,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vive-Health-Recalls-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Two-Deaths-Reported"
     },
     {
-      "id": "nhtsa-171174006979",
+      "id": "nhtsa-162044897549",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3647,7 +3647,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V194000"
     },
     {
-      "id": "nhtsa-286811653239",
+      "id": "nhtsa-303278145600",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3659,7 +3659,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V193000"
     },
     {
-      "id": "nhtsa-309183166094",
+      "id": "nhtsa-54322020616",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3671,7 +3671,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V192000"
     },
     {
-      "id": "nhtsa-828777343460",
+      "id": "nhtsa-568306573245",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3683,7 +3683,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V191000"
     },
     {
-      "id": "nhtsa-856251366506",
+      "id": "nhtsa-22166150528",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3695,7 +3695,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V190000"
     },
     {
-      "id": "nhtsa-855773480421",
+      "id": "nhtsa-627253049891",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3707,7 +3707,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E014000"
     },
     {
-      "id": "nhtsa-806470636706",
+      "id": "nhtsa-270835527050",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3719,7 +3719,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V189000"
     },
     {
-      "id": "nhtsa-625717396179",
+      "id": "nhtsa-310477530134",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3731,7 +3731,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V188000"
     },
     {
-      "id": "nhtsa-474709742108",
+      "id": "nhtsa-539805212682",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3743,7 +3743,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V187000"
     },
     {
-      "id": "nhtsa-251210000331",
+      "id": "nhtsa-431076804930",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3755,7 +3755,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V186000"
     },
     {
-      "id": "nhtsa-68663530349",
+      "id": "nhtsa-610418415105",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3767,7 +3767,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V185000"
     },
     {
-      "id": "nhtsa-937835093373",
+      "id": "nhtsa-206208421191",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3779,7 +3779,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V184000"
     },
     {
-      "id": "fda-food-865816000144",
+      "id": "fda-food-718747185687",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3791,7 +3791,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-958186088344",
+      "id": "fda-food-419363663940",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3803,7 +3803,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-349755847072",
+      "id": "fda-food-626840211017",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3815,7 +3815,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-746546764950",
+      "id": "fda-food-47992474916",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3827,7 +3827,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-699280153667",
+      "id": "fda-food-676633103064",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3839,7 +3839,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-642175578205",
+      "id": "fda-food-577511817992",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -3851,7 +3851,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "nhtsa-231829039913",
+      "id": "nhtsa-364635972641",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3863,7 +3863,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V183000"
     },
     {
-      "id": "nhtsa-570083202015",
+      "id": "nhtsa-431160235610",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3875,7 +3875,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V182000"
     },
     {
-      "id": "nhtsa-536833840528",
+      "id": "nhtsa-855542038036",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3887,7 +3887,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V181000"
     },
     {
-      "id": "nhtsa-10910079529",
+      "id": "nhtsa-843866058497",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3899,7 +3899,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V180000"
     },
     {
-      "id": "nhtsa-701947728296",
+      "id": "nhtsa-10153239999",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3911,7 +3911,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V179000"
     },
     {
-      "id": "nhtsa-556994608235",
+      "id": "nhtsa-583278001262",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3923,7 +3923,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V177000"
     },
     {
-      "id": "nhtsa-433917395128",
+      "id": "nhtsa-331150465819",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3935,7 +3935,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V176000"
     },
     {
-      "id": "nhtsa-542625593446",
+      "id": "nhtsa-204406108511",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3947,7 +3947,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V175000"
     },
     {
-      "id": "nhtsa-917756172874",
+      "id": "nhtsa-369145218106",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3959,7 +3959,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V174000"
     },
     {
-      "id": "nhtsa-620158217348",
+      "id": "nhtsa-518329572091",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3971,7 +3971,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V173000"
     },
     {
-      "id": "nhtsa-648230216616",
+      "id": "nhtsa-36007783117",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3983,7 +3983,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V172000"
     },
     {
-      "id": "nhtsa-359322997900",
+      "id": "nhtsa-728145552981",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -3995,7 +3995,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V171000"
     },
     {
-      "id": "nhtsa-568870924758",
+      "id": "nhtsa-918521355940",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4007,7 +4007,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V170000"
     },
     {
-      "id": "nhtsa-367049180997",
+      "id": "nhtsa-845462481163",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4019,7 +4019,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V169000"
     },
     {
-      "id": "cpsc-965845037953",
+      "id": "cpsc-336469366831",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4031,7 +4031,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Aisstxoer-Adult-Bicycle-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-YXTDZ-Store"
     },
     {
-      "id": "cpsc-984322562844",
+      "id": "cpsc-602802977341",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4043,7 +4043,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Amazon-RecallAmazon-Basics-Camping-Folding-Pocket-Knives-Due-to-Laceration-Hazard"
     },
     {
-      "id": "cpsc-725548266684",
+      "id": "cpsc-400573659798",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4055,7 +4055,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Electrolux-Group-Recalls-Frigidaire-Gas-Ranges-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-537303477964",
+      "id": "cpsc-19086590324",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4067,7 +4067,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Infant-Walkers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Violate-Mandatory-Standard-for-Infant-Walkers-Sold-on-Amazon-by-Goregent-Official-Store"
     },
     {
-      "id": "cpsc-45917094553",
+      "id": "cpsc-611938283759",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4079,7 +4079,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Lifetime-Brands-Recalls-BUILT-LUUM-Light-Up-Tumblers-Due-to-Risk-of-Choking-and-Battery-Ingestion-Hazards"
     },
     {
-      "id": "cpsc-62155426641",
+      "id": "cpsc-247315899872",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4091,7 +4091,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Specialized-Bicycle-Components-Recalls-Specialized-Turbo-Como-SL-Electric-Bicycles-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-725912262575",
+      "id": "cpsc-441849319675",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4103,7 +4103,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tainoki-Fine-Furniture-Recalls-Office-Chairs-Due-to-Risk-of-Serious-Injury-and-Fall-Hazard"
     },
     {
-      "id": "cpsc-510709142781",
+      "id": "cpsc-677517533113",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4115,7 +4115,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Wagner-Spray-Tech-Recalls-900-Series-Power-Steamers-Due-to-Burn-Hazard"
     },
     {
-      "id": "nhtsa-835625456387",
+      "id": "nhtsa-810170944480",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4127,7 +4127,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V168000"
     },
     {
-      "id": "nhtsa-351133395658",
+      "id": "nhtsa-954025548003",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4139,7 +4139,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V167000"
     },
     {
-      "id": "nhtsa-106966081532",
+      "id": "nhtsa-436360722917",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4151,7 +4151,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E013000"
     },
     {
-      "id": "nhtsa-463844740905",
+      "id": "nhtsa-102461843160",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4163,7 +4163,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V166000"
     },
     {
-      "id": "nhtsa-444124885709",
+      "id": "nhtsa-36900565459",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4175,7 +4175,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V165000"
     },
     {
-      "id": "nhtsa-679868100054",
+      "id": "nhtsa-394095281908",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4187,7 +4187,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V163000"
     },
     {
-      "id": "nhtsa-970491923997",
+      "id": "nhtsa-909834655197",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4199,7 +4199,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V162000"
     },
     {
-      "id": "nhtsa-906969410449",
+      "id": "nhtsa-741514952328",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4211,7 +4211,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V161000"
     },
     {
-      "id": "nhtsa-943577524845",
+      "id": "nhtsa-383536717543",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4223,7 +4223,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V160000"
     },
     {
-      "id": "nhtsa-23174765294",
+      "id": "nhtsa-188686817282",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4235,7 +4235,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V159000"
     },
     {
-      "id": "nhtsa-397236470124",
+      "id": "nhtsa-946351688307",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4247,7 +4247,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V158000"
     },
     {
-      "id": "nhtsa-924830772825",
+      "id": "nhtsa-813449111702",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4259,7 +4259,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V157000"
     },
     {
-      "id": "nhtsa-143886021263",
+      "id": "nhtsa-361813740344",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4271,7 +4271,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V156000"
     },
     {
-      "id": "nhtsa-534045813571",
+      "id": "nhtsa-482307448554",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4283,7 +4283,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V155000"
     },
     {
-      "id": "nhtsa-984870494654",
+      "id": "nhtsa-505300029856",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4295,7 +4295,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V154000"
     },
     {
-      "id": "nhtsa-610557930533",
+      "id": "nhtsa-916732838456",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4307,7 +4307,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V153000"
     },
     {
-      "id": "nhtsa-132655705189",
+      "id": "nhtsa-213309086952",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4319,7 +4319,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V152000"
     },
     {
-      "id": "nhtsa-707817136926",
+      "id": "nhtsa-72231837150",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4331,7 +4331,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V151000"
     },
     {
-      "id": "nhtsa-96614756065",
+      "id": "nhtsa-248770073163",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4343,7 +4343,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V150000"
     },
     {
-      "id": "nhtsa-508835703612",
+      "id": "nhtsa-980171432951",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4355,7 +4355,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V149000"
     },
     {
-      "id": "nhtsa-517491429497",
+      "id": "nhtsa-661511117681",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4367,7 +4367,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V148000"
     },
     {
-      "id": "nhtsa-278019676133",
+      "id": "nhtsa-886717749975",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4379,7 +4379,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V147000"
     },
     {
-      "id": "nhtsa-587183059608",
+      "id": "nhtsa-755594333199",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4391,7 +4391,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E011000"
     },
     {
-      "id": "nhtsa-783437001060",
+      "id": "nhtsa-850311897556",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4403,7 +4403,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V145000"
     },
     {
-      "id": "cpsc-898414688858",
+      "id": "cpsc-372583120971",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4415,7 +4415,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/17-Stories-Furniture-14-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-Hong-Kong-Baojia-International"
     },
     {
-      "id": "cpsc-806463494611",
+      "id": "cpsc-840373656879",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4427,7 +4427,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard"
     },
     {
-      "id": "cpsc-739905756802",
+      "id": "cpsc-58350894196",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4439,7 +4439,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LIVEHOM-11-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Simplehome"
     },
     {
-      "id": "cpsc-612930117964",
+      "id": "cpsc-924058463499",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4451,7 +4451,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ProRider-Recalls-Bicycle-Helmets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
     },
     {
-      "id": "cpsc-279580764781",
+      "id": "cpsc-26553913540",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4463,7 +4463,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Stoney-Games-Recalls-Kluster-Magnet-Chess-Games-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "nhtsa-906559424248",
+      "id": "nhtsa-792591042626",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4475,7 +4475,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V144000"
     },
     {
-      "id": "nhtsa-723994825446",
+      "id": "nhtsa-450989081723",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4487,7 +4487,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V143000"
     },
     {
-      "id": "nhtsa-670871105873",
+      "id": "nhtsa-273444992413",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4499,7 +4499,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V142000"
     },
     {
-      "id": "nhtsa-893395645451",
+      "id": "nhtsa-976942516354",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4511,7 +4511,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E010000"
     },
     {
-      "id": "nhtsa-192130105527",
+      "id": "nhtsa-191825297284",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4523,7 +4523,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V146000"
     },
     {
-      "id": "nhtsa-676253444654",
+      "id": "nhtsa-818726737236",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4535,7 +4535,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V141000"
     },
     {
-      "id": "nhtsa-981427965072",
+      "id": "nhtsa-526928054657",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4547,7 +4547,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V140000"
     },
     {
-      "id": "nhtsa-116170334024",
+      "id": "nhtsa-245574786923",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4559,7 +4559,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V139000"
     },
     {
-      "id": "nhtsa-720985999334",
+      "id": "nhtsa-18929718457",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4571,7 +4571,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V138000"
     },
     {
-      "id": "nhtsa-719588190180",
+      "id": "nhtsa-90043946088",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4583,7 +4583,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V137000"
     },
     {
-      "id": "nhtsa-147848228412",
+      "id": "nhtsa-253402629258",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4595,7 +4595,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V136000"
     },
     {
-      "id": "nhtsa-578017877059",
+      "id": "nhtsa-755370210706",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4607,7 +4607,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V135000"
     },
     {
-      "id": "nhtsa-249364277853",
+      "id": "nhtsa-981125092824",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4619,7 +4619,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V134000"
     },
     {
-      "id": "nhtsa-210885417257",
+      "id": "nhtsa-483939855944",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4631,7 +4631,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V133000"
     },
     {
-      "id": "cpsc-319634687927",
+      "id": "cpsc-22138299979",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4643,7 +4643,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Cubimana-Island-Storm-3-In-1-Building-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-RBS-Toys"
     },
     {
-      "id": "cpsc-741059433116",
+      "id": "cpsc-394678951987",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4655,7 +4655,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/HALO-Dream-Recalls-Magic-Sleepsuits-Due-to-Choking-Hazard"
     },
     {
-      "id": "cpsc-720317355818",
+      "id": "cpsc-835278891450",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4667,7 +4667,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tomum-Minoxidil-Hair-Serum-Spray-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Distributed-by-Belleka"
     },
     {
-      "id": "cpsc-106033518004",
+      "id": "cpsc-532375160305",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4679,7 +4679,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Unique-Brands-Com-Recalls-Forever-21-Pajama-Pants-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violates-Mandatory-Flammability-Standards-for-Childrens-Sleepwear"
     },
     {
-      "id": "nhtsa-179835388704",
+      "id": "nhtsa-756815145923",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4691,7 +4691,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V132000"
     },
     {
-      "id": "nhtsa-866421522744",
+      "id": "nhtsa-884539263328",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4703,7 +4703,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V131000"
     },
     {
-      "id": "nhtsa-25788921254",
+      "id": "nhtsa-754755458100",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4715,7 +4715,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V130000"
     },
     {
-      "id": "nhtsa-695416811060",
+      "id": "nhtsa-215548028884",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4727,7 +4727,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E009000"
     },
     {
-      "id": "nhtsa-384189858062",
+      "id": "nhtsa-254174191747",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4739,7 +4739,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V129000"
     },
     {
-      "id": "nhtsa-960336975844",
+      "id": "nhtsa-702211696070",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4751,7 +4751,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V128000"
     },
     {
-      "id": "nhtsa-640852532998",
+      "id": "nhtsa-928123821789",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4763,7 +4763,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V127000"
     },
     {
-      "id": "nhtsa-792707001111",
+      "id": "nhtsa-797139116290",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4775,7 +4775,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V126000"
     },
     {
-      "id": "nhtsa-968322957321",
+      "id": "nhtsa-306738241075",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4787,7 +4787,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26T009000"
     },
     {
-      "id": "nhtsa-127309266165",
+      "id": "nhtsa-947066735942",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4799,7 +4799,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V125000"
     },
     {
-      "id": "nhtsa-627935583671",
+      "id": "nhtsa-348019599841",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4811,7 +4811,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V124000"
     },
     {
-      "id": "nhtsa-348013835913",
+      "id": "nhtsa-290534180741",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4823,7 +4823,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V123000"
     },
     {
-      "id": "nhtsa-945884416871",
+      "id": "nhtsa-29295819259",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4835,7 +4835,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V122000"
     },
     {
-      "id": "nhtsa-649145739312",
+      "id": "nhtsa-406956872872",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4847,7 +4847,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V121000"
     },
     {
-      "id": "nhtsa-285471461284",
+      "id": "nhtsa-764991654461",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4859,7 +4859,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V120000"
     },
     {
-      "id": "nhtsa-883094757505",
+      "id": "nhtsa-685667050409",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4871,7 +4871,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V119000"
     },
     {
-      "id": "nhtsa-552481121102",
+      "id": "nhtsa-182367538845",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4883,7 +4883,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V118000"
     },
     {
-      "id": "nhtsa-8307686811",
+      "id": "nhtsa-572293174496",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -4895,7 +4895,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V117000"
     },
     {
-      "id": "cpsc-866369584963",
+      "id": "cpsc-489732248286",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4907,7 +4907,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Andersen-Windows-Recalls-Window-Opening-Control-Devices-Sold-as-Kits-or-Installed-on-100-Series-Casement-Windows-Due-to-Fall-and-Serious-Injury-Hazards"
     },
     {
-      "id": "cpsc-399078892404",
+      "id": "cpsc-66645311017",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4919,7 +4919,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Babysense-Max-View-Baby-Monitors-Recalled-Due-to-Fire-Hazard-Manufactured-by-Hisense"
     },
     {
-      "id": "cpsc-117247857128",
+      "id": "cpsc-805149537868",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4931,7 +4931,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Bicystar-High-Chairs-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-High-Chairs"
     },
     {
-      "id": "cpsc-835299260281",
+      "id": "cpsc-473962755045",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4943,7 +4943,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Dupray-USA-Recalls-Neat-Steam-Cleaners-Due-to-Risk-of-Burn-Hazards-or-Serious-Injury"
     },
     {
-      "id": "cpsc-524712885680",
+      "id": "cpsc-334807953673",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4955,7 +4955,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Evajoy-Above-Ground-Pools-48-Inches-and-Taller-Recalled-Due-to-Drowning-Hazard-Manufactured-by-Shenzhen-Danya-Tech"
     },
     {
-      "id": "cpsc-360947268460",
+      "id": "cpsc-437787976792",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4967,7 +4967,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Grtard-Magnetic-Stick-Figure-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-38269379472",
+      "id": "cpsc-892011517598",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4979,7 +4979,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Joyreal-Busy-Board-Childrens-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-and-Laceration-Hazards-Violate-Small-Parts-Ban-and-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Indream-Store"
     },
     {
-      "id": "cpsc-988514396006",
+      "id": "cpsc-625610272167",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -4991,7 +4991,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Chess-Games-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Kaiwenshangpin"
     },
     {
-      "id": "cpsc-977438668512",
+      "id": "cpsc-423347941558",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5003,7 +5003,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/PQL-Recalls-High-Bay-Linear-LED-Light-Fixtures-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-723102954106",
+      "id": "cpsc-27051214953",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5015,7 +5015,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Royal-Oak-Enterprises-Recalls-Lighters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Multipurpose-Lighters"
     },
     {
-      "id": "cpsc-190111337452",
+      "id": "cpsc-722568460462",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5027,7 +5027,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sanven-Technology-Recalls-Vevor-Baby-Gates-Due-to-Risk-of-Serious-Injury-from-Entrapment-Hazard-Violates-Mandatory-Standard-for-Gates-and-Enclosures"
     },
     {
-      "id": "cpsc-800420656051",
+      "id": "cpsc-604303037826",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5039,7 +5039,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Somgem-Pig-and-Yomin-Toilet-Lighters-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Cigarette-Lighters-Sold-on-Amazon-by-Elepdv"
     },
     {
-      "id": "cpsc-992147675590",
+      "id": "cpsc-254053638725",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5051,7 +5051,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SumDirect-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-160147892393",
+      "id": "cpsc-550285353530",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5063,7 +5063,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Surreal-Brands-Recalls-Childrens-Tubby-Tots-Fizzy-Flask-Bath-Magic-Bath-Foam-Sets-Due-to-Impact-Hazard"
     },
     {
-      "id": "cpsc-782654427963",
+      "id": "cpsc-388130580686",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5075,7 +5075,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Christmas-Tree-Play-Sets-Due-to-Risk-of-Injury-from-Lead-Exposure-Violates-Federal-Lead-Content-Ban-and-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-257945087257",
+      "id": "cpsc-313426215014",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5087,7 +5087,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Fingerpainting-Kits-Due-to-Risk-of-Injury-from-Hazardous-Substances-and-Phthalate-Exposure-Violates-Federal-Hazardous-Substances-Act-and-Phthalates-Ban"
     },
     {
-      "id": "cpsc-540840672904",
+      "id": "cpsc-38621558385",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5099,7 +5099,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Flashcard-Talking-Toys-Due-to-Risk-of-Injury-from-Lead-and-Phthalate-Exposure-Violates-Federal-Lead-Content-and-Phthalates-Bans-and-Standard-for-Toys"
     },
     {
-      "id": "cpsc-910192718147",
+      "id": "cpsc-797447106035",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5111,7 +5111,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Handwriting-Practice-Kits-Due-to-Risk-of-Injury-from-Lead-Exposure-Violates-Federal-Lead-Content-Ban"
     },
     {
-      "id": "cpsc-927852716904",
+      "id": "cpsc-757452948583",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5123,7 +5123,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Montessori-Egg-Puzzle-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard"
     },
     {
-      "id": "cpsc-697496058540",
+      "id": "cpsc-908761042524",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5135,7 +5135,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Sensory-Swing-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation"
     },
     {
-      "id": "cpsc-503576811155",
+      "id": "cpsc-128290699474",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5147,7 +5147,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Story-Books-Due-to-Choking-Hazard"
     },
     {
-      "id": "cpsc-22235099806",
+      "id": "cpsc-238182098513",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5159,7 +5159,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-LED-Soccer-Hover-Balls-Due-to-Serious-Risk-of-Injury-from-Burn-Hazard-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-723694212415",
+      "id": "cpsc-35055681699",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5171,7 +5171,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Peg-Doll-Childrens-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Small-Parts-Ban"
     },
     {
-      "id": "cpsc-372329464045",
+      "id": "cpsc-512293118667",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5183,7 +5183,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Reusable-Water-Balloons-Due-to-Risk-of-Injury-from-Phthalate-Exposure-Violate-Federal-Phthalates-Ban"
     },
     {
-      "id": "cpsc-462158856387",
+      "id": "cpsc-403137160155",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5195,7 +5195,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Todson-Recalls-Concord-Bicycle-Helmets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
     },
     {
-      "id": "cpsc-851890738380",
+      "id": "cpsc-260665833952",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5207,7 +5207,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Trankerloop-Baby-Bath-Seats-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violates-Mandatory-Standard-for-Infant-Bath-Seats"
     },
     {
-      "id": "cpsc-124406824979",
+      "id": "cpsc-62089959526",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5219,7 +5219,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Zelbuck-Childrens-Chess-Games-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-n-b-plus"
     },
     {
-      "id": "nhtsa-909826406546",
+      "id": "nhtsa-328197606786",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5231,7 +5231,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V112000"
     },
     {
-      "id": "nhtsa-259846527335",
+      "id": "nhtsa-734560979957",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5243,7 +5243,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V111000"
     },
     {
-      "id": "nhtsa-228544842821",
+      "id": "nhtsa-298029388909",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5255,7 +5255,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V115000"
     },
     {
-      "id": "nhtsa-27190074917",
+      "id": "nhtsa-141098884775",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5267,7 +5267,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V114000"
     },
     {
-      "id": "nhtsa-201042986804",
+      "id": "nhtsa-917711718322",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5279,7 +5279,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V113000"
     },
     {
-      "id": "nhtsa-626342714073",
+      "id": "nhtsa-335008541537",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5291,7 +5291,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26C002000"
     },
     {
-      "id": "nhtsa-913974946217",
+      "id": "nhtsa-722370134913",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5303,7 +5303,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V110000"
     },
     {
-      "id": "cpsc-741689870699",
+      "id": "cpsc-643061215450",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5315,7 +5315,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Chess-Games-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Yiruikeji2024"
     },
     {
-      "id": "nhtsa-536490825926",
+      "id": "nhtsa-560039707328",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5327,7 +5327,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V109000"
     },
     {
-      "id": "nhtsa-214188308645",
+      "id": "nhtsa-466420964476",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5339,7 +5339,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V108000"
     },
     {
-      "id": "nhtsa-525321894175",
+      "id": "nhtsa-134164979162",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5351,7 +5351,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V107000"
     },
     {
-      "id": "nhtsa-525444247945",
+      "id": "nhtsa-401108781222",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5363,7 +5363,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V106000"
     },
     {
-      "id": "nhtsa-455974948636",
+      "id": "nhtsa-169295386284",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5375,7 +5375,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V105000"
     },
     {
-      "id": "nhtsa-563177790146",
+      "id": "nhtsa-427437103598",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5387,7 +5387,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V104000"
     },
     {
-      "id": "nhtsa-118350650805",
+      "id": "nhtsa-692269294110",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5399,7 +5399,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V103000"
     },
     {
-      "id": "nhtsa-172326607773",
+      "id": "nhtsa-806180716110",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5411,7 +5411,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V102000"
     },
     {
-      "id": "nhtsa-661009716784",
+      "id": "nhtsa-886874206455",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5423,7 +5423,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V100000"
     },
     {
-      "id": "nhtsa-610033550736",
+      "id": "nhtsa-209407429708",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5435,7 +5435,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V101000"
     },
     {
-      "id": "nhtsa-699251844478",
+      "id": "nhtsa-928335687007",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5447,7 +5447,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V099000"
     },
     {
-      "id": "nhtsa-741535434464",
+      "id": "nhtsa-864113940470",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5459,7 +5459,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V098000"
     },
     {
-      "id": "cpsc-625347820303",
+      "id": "cpsc-271002043376",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5471,7 +5471,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Huaker-Magnetic-Balls-and-Rods-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violates-the-Small-Ball-Ban"
     },
     {
-      "id": "cpsc-609684096774",
+      "id": "cpsc-728618757401",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5483,7 +5483,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/JJGoo-LED-Balloon-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-779369566936",
+      "id": "cpsc-17611062108",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5495,7 +5495,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Jolys-Recalls-80-Vinegar-Due-to-Risk-of-Serious-Injury-or-Death-from-Poisoning-and-Chemical-Burns-Violates-FHSA-Labeling-Requirements"
     },
     {
-      "id": "cpsc-759094021896",
+      "id": "cpsc-361275219128",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5507,7 +5507,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Meijer-Recalls-Lullaby-Lane-and-MCS-Childrens-Sleepwear-Due-to-Burn-Hazard-Violates-Mandatory-Standard-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-105553834827",
+      "id": "cpsc-854554227082",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5519,7 +5519,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Prismatic-3D-Prints-Recalls-Book-Nooks-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries-and-Statute-for-Battery-Packaging"
     },
     {
-      "id": "cpsc-246923845743",
+      "id": "cpsc-598737357782",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5531,7 +5531,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SAMIT-Youth-Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-SAMIT-Outdoor"
     },
     {
-      "id": "cpsc-103245038935",
+      "id": "cpsc-168031753241",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5543,7 +5543,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vive-Health-Recalls-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "nhtsa-371638480162",
+      "id": "nhtsa-687880944877",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5555,7 +5555,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V097000"
     },
     {
-      "id": "nhtsa-774945327439",
+      "id": "nhtsa-900544662714",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5567,7 +5567,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V096000"
     },
     {
-      "id": "nhtsa-230975139115",
+      "id": "nhtsa-332839062543",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5579,7 +5579,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V095000"
     },
     {
-      "id": "nhtsa-491170452345",
+      "id": "nhtsa-829891638104",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5591,7 +5591,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E008000"
     },
     {
-      "id": "nhtsa-869547580669",
+      "id": "nhtsa-688533045716",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5603,7 +5603,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V094000"
     },
     {
-      "id": "nhtsa-4991696350",
+      "id": "nhtsa-271666230630",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5615,7 +5615,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V093000"
     },
     {
-      "id": "nhtsa-589882209782",
+      "id": "nhtsa-208023318875",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5627,7 +5627,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V091000"
     },
     {
-      "id": "nhtsa-628813445060",
+      "id": "nhtsa-5928905751",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5639,7 +5639,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V090000"
     },
     {
-      "id": "nhtsa-825026507209",
+      "id": "nhtsa-19308656480",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5651,7 +5651,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V089000"
     },
     {
-      "id": "nhtsa-841524514100",
+      "id": "nhtsa-774818142098",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5663,7 +5663,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V088000"
     },
     {
-      "id": "nhtsa-913588459260",
+      "id": "nhtsa-818321879650",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5675,7 +5675,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V087000"
     },
     {
-      "id": "nhtsa-24151155959",
+      "id": "nhtsa-373171601098",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5687,7 +5687,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V086000"
     },
     {
-      "id": "nhtsa-676230020035",
+      "id": "nhtsa-347582389145",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5699,7 +5699,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V085000"
     },
     {
-      "id": "nhtsa-722376992039",
+      "id": "nhtsa-607732430363",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5711,7 +5711,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E007000"
     },
     {
-      "id": "cpsc-808242587879",
+      "id": "cpsc-949221262552",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5723,7 +5723,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Beloems-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-281520629367",
+      "id": "cpsc-948349296873",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5735,7 +5735,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/CheerKid-Baby-Bath-Seats-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violates-Mandatory-Standard-for-Infant-Bath-Seats-Sold-on-Amazon-by-Babibaby-and-Woot"
     },
     {
-      "id": "cpsc-911943813070",
+      "id": "cpsc-326114276026",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5747,7 +5747,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fortemotus-Direct-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-489583129617",
+      "id": "cpsc-96953601238",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5759,7 +5759,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LShome-Photoelectric-Smoke-Detector-Fire-Alarms-Recalled-Due-Failure-to-Warn-During-Fire-Posing-Serious-Injury-or-Death-Hazard-Sold-Exclusively-on-Amazon-com-by-TIANJINSHIHAOWEIXINSHENGJIDIANANZHUANGGONGCHENG"
     },
     {
-      "id": "cpsc-512306579316",
+      "id": "cpsc-936441209473",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5771,7 +5771,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SOOWERY-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-783081655955",
+      "id": "cpsc-401001188759",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5783,7 +5783,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Surveying-Accessories-Cheaper-Recalls-Board-Games-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-255916095096",
+      "id": "cpsc-766742388742",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5795,7 +5795,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Watkins-Manufacturing-Recalls-Hydromassage-Rotary-Jets-in-Highlife-Collection-Spas-Due-to-Entanglement-and-Drowning-Hazards"
     },
     {
-      "id": "nhtsa-369266631083",
+      "id": "nhtsa-986645089584",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5807,7 +5807,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V084000"
     },
     {
-      "id": "nhtsa-225001244905",
+      "id": "nhtsa-1663602539",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5819,7 +5819,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V083000"
     },
     {
-      "id": "nhtsa-614991439987",
+      "id": "nhtsa-511979344156",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5831,7 +5831,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V082000"
     },
     {
-      "id": "nhtsa-648738654497",
+      "id": "nhtsa-193956596995",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5843,7 +5843,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V081000"
     },
     {
-      "id": "nhtsa-286894643580",
+      "id": "nhtsa-686104085147",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5855,7 +5855,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V080000"
     },
     {
-      "id": "nhtsa-147629359116",
+      "id": "nhtsa-653201089318",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5867,7 +5867,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V079000"
     },
     {
-      "id": "nhtsa-484380435395",
+      "id": "nhtsa-372216433263",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5879,7 +5879,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26T008000"
     },
     {
-      "id": "nhtsa-808969864625",
+      "id": "nhtsa-608237554045",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5891,7 +5891,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V078000"
     },
     {
-      "id": "nhtsa-242604777119",
+      "id": "nhtsa-661456159886",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5903,7 +5903,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V077000"
     },
     {
-      "id": "nhtsa-764024116082",
+      "id": "nhtsa-562570653127",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5915,7 +5915,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26T007000"
     },
     {
-      "id": "nhtsa-307478938514",
+      "id": "nhtsa-636119480088",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5927,7 +5927,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26T006000"
     },
     {
-      "id": "nhtsa-586773650038",
+      "id": "nhtsa-569434611667",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5939,7 +5939,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V076000"
     },
     {
-      "id": "cpsc-909730987507",
+      "id": "cpsc-243291972784",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -5951,7 +5951,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Airova-Recalls-Aroeve-Air-Purifiers-Due-to-Fire-and-Burn-Hazards"
     },
     {
-      "id": "nhtsa-354488285642",
+      "id": "nhtsa-368118703449",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5963,7 +5963,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V075000"
     },
     {
-      "id": "nhtsa-624299242119",
+      "id": "nhtsa-444944887167",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5975,7 +5975,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V074000"
     },
     {
-      "id": "nhtsa-209725482005",
+      "id": "nhtsa-472591452600",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5987,7 +5987,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V073000"
     },
     {
-      "id": "nhtsa-964929240629",
+      "id": "nhtsa-35462897844",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -5999,7 +5999,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V072000"
     },
     {
-      "id": "nhtsa-411814532853",
+      "id": "nhtsa-461791222304",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6011,7 +6011,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V071000"
     },
     {
-      "id": "nhtsa-363666323440",
+      "id": "nhtsa-788073449118",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6023,7 +6023,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26T005000"
     },
     {
-      "id": "nhtsa-576275890535",
+      "id": "nhtsa-939708284265",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6035,7 +6035,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V070000"
     },
     {
-      "id": "nhtsa-28225093955",
+      "id": "nhtsa-941137638361",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6047,7 +6047,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V069000"
     },
     {
-      "id": "nhtsa-48913340147",
+      "id": "nhtsa-98477944291",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6059,7 +6059,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V068000"
     },
     {
-      "id": "cpsc-741286617329",
+      "id": "cpsc-723932469007",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6071,7 +6071,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Andy-Evan-Recalls-Childrens-Pajama-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violate-Mandatory-Standard-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-220879717140",
+      "id": "cpsc-411095843388",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6083,7 +6083,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Aterian-Recalls-PurSteam-Elite-Travel-Steamers-and-Mighty-Lil-Steamers-Due-to-Risk-of-Serious-Burn-Injury"
     },
     {
-      "id": "cpsc-208164860458",
+      "id": "cpsc-818984933090",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6095,7 +6095,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Clark-Associates-Recalls-Lancaster-Table-Seating-Powder-Coated-Aluminum-Outdoor-Restaurant-Chairs-and-Barstools-Due-to-Fall-Hazard"
     },
     {
-      "id": "cpsc-923965713306",
+      "id": "cpsc-49093880559",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6107,7 +6107,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Cobelae-Busy-Books-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violates-Small-Parts-Ban-Sold-on-Amazon-by-Flyindream"
     },
     {
-      "id": "cpsc-468879205890",
+      "id": "cpsc-121112476910",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6119,7 +6119,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Dresbe-LED-Christmas-Headbands-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-769082452427",
+      "id": "cpsc-286229318711",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6131,7 +6131,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/DriBiz-Recalls-Ammo-Tabs-Desiccant-Tiles-Due-to-Injury-Hazard"
     },
     {
-      "id": "cpsc-80509252047",
+      "id": "cpsc-952456811866",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6143,7 +6143,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/EnHomee-10-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-384083732323",
+      "id": "cpsc-404328502237",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6155,7 +6155,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fixwal-7-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-765093001223",
+      "id": "cpsc-135807594224",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6167,7 +6167,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Furnulem-5-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-555451124172",
+      "id": "cpsc-189122946535",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6179,7 +6179,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/GM-Gumili-Wintergreen-Essential-Oil-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Gumili-Beauty"
     },
     {
-      "id": "cpsc-687346659398",
+      "id": "cpsc-194775047966",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6191,7 +6191,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Kitosun-Submersible-LED-Light-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-394183224805",
+      "id": "cpsc-932402414023",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6203,7 +6203,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Little-Cow-Company-Recalls-9-oz-Candles-in-Glass-Jars-Due-to-Fire-Burn-and-Laceration-Hazards"
     },
     {
-      "id": "cpsc-907655367910",
+      "id": "cpsc-732297708054",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6215,7 +6215,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Lola-Plus-The-Boys-Recalls-Youth-Clothing-with-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Rule-for-Childrens-Upper-Outerwear"
     },
     {
-      "id": "cpsc-138976716396",
+      "id": "cpsc-741102297403",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6227,7 +6227,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Organic-Zing-Birch-Essential-Oil-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Linkers"
     },
     {
-      "id": "cpsc-476082549129",
+      "id": "cpsc-641378183343",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6239,7 +6239,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Semfri-Childrens-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
     },
     {
-      "id": "cpsc-495848628037",
+      "id": "cpsc-686962411593",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6251,7 +6251,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Shintenchi-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-705422308687",
+      "id": "cpsc-613197215465",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6263,7 +6263,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/YITA-Recalls-Multiple-Brands-of-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-922935355338",
+      "id": "cpsc-254469598603",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6275,7 +6275,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Zan-International-Trading-Recalls-Lotus-Joy-Sweet-Birch-Essential-Oil-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "nhtsa-860850047278",
+      "id": "nhtsa-402240269415",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6287,7 +6287,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V067000"
     },
     {
-      "id": "cpsc-949872597650",
+      "id": "cpsc-148150397492",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6299,7 +6299,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Scepter-Fuel-Containers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Flash-Fire-Burn-and-Child-Poisoning-Violates-Mandatory-Standards-for-Portable-Fuel-Containers-Imported-by-Mameix-Retail"
     },
     {
-      "id": "nhtsa-243148704880",
+      "id": "nhtsa-187820770867",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6311,7 +6311,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V066000"
     },
     {
-      "id": "nhtsa-37469646251",
+      "id": "nhtsa-599462653457",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6323,7 +6323,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V065000"
     },
     {
-      "id": "nhtsa-430003742179",
+      "id": "nhtsa-382492693280",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6335,7 +6335,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V064000"
     },
     {
-      "id": "nhtsa-189408101290",
+      "id": "nhtsa-453952942780",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6347,7 +6347,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V063000"
     },
     {
-      "id": "nhtsa-146132565060",
+      "id": "nhtsa-505055269149",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6359,7 +6359,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V062000"
     },
     {
-      "id": "nhtsa-175473609071",
+      "id": "nhtsa-579630921195",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6371,7 +6371,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V061000"
     },
     {
-      "id": "nhtsa-389718416444",
+      "id": "nhtsa-247745271705",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6383,7 +6383,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V060000"
     },
     {
-      "id": "nhtsa-13947050830",
+      "id": "nhtsa-366924153536",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6395,7 +6395,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E006000"
     },
     {
-      "id": "nhtsa-928885997231",
+      "id": "nhtsa-279505197456",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6407,7 +6407,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V059000"
     },
     {
-      "id": "nhtsa-898994700557",
+      "id": "nhtsa-379032191858",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6419,7 +6419,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V058000"
     },
     {
-      "id": "nhtsa-918695814986",
+      "id": "nhtsa-135406213049",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6431,7 +6431,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V057000"
     },
     {
-      "id": "nhtsa-199462825321",
+      "id": "nhtsa-162894613547",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6443,7 +6443,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V056000"
     },
     {
-      "id": "cpsc-926741159027",
+      "id": "cpsc-911155906506",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6455,7 +6455,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/AiTuiTui-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Vanfun"
     },
     {
-      "id": "cpsc-297753749251",
+      "id": "cpsc-254541089496",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6467,7 +6467,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Bazic-Products-Recalls-Bazic-Silicone-Glue-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-and-FHSA-Labeling-Requirements"
     },
     {
-      "id": "cpsc-819779146295",
+      "id": "cpsc-763956893058",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6479,7 +6479,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Gazelle-USA-Recalls-Urban-Arrow-FamilyNext-Pro-Cargo-E-Bikes-Due-to-Injury-Hazard"
     },
     {
-      "id": "cpsc-267310783466",
+      "id": "cpsc-216150370875",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6491,7 +6491,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Hobby-Lobby-Recalls-Giraffe-and-Llama-Plush-Toys-with-Clips-Due-to-Choking-Hazard"
     },
     {
-      "id": "cpsc-92159280045",
+      "id": "cpsc-163027636354",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6503,7 +6503,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sunneday-and-Blue-Bay-Above-Ground-Pools-48-Inches-and-Taller-Recalled-Due-to-Drowning-Hazard-Manufactured-by-Starmatrix-Group"
     },
     {
-      "id": "cpsc-902126982012",
+      "id": "cpsc-806884273466",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6515,7 +6515,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LuxJet-Submersible-LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-290351027990",
+      "id": "cpsc-510165212297",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6527,7 +6527,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Mindbodygreen-Recalls-Ultimate-Multivitamin-Dietary-Supplement-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-121852261538",
+      "id": "cpsc-337806011077",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6539,7 +6539,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Northern-Tool-Equipment-Recalls-Hot-Water-Pressure-Washers-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-154514416142",
+      "id": "cpsc-468452209676",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6551,7 +6551,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Primark-Recalls-The-Nightmare-Before-Christmas-Glow-in-the-Dark-Coloring-Sets-Due-to-Ingestion-Hazard"
     },
     {
-      "id": "cpsc-99732520594",
+      "id": "cpsc-634783686798",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6563,7 +6563,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Rear-Bolts-on-Trek-and-Electra-Electric-Bicycles-Recalled-Due-to-Fall-Hazard-Manufactured-by-Hyena"
     },
     {
-      "id": "cpsc-683943179310",
+      "id": "cpsc-114833911157",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6575,7 +6575,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sefudun-5-Minoxidil-Hair-Growth-Serum-Kits-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Nengmiaokeji"
     },
     {
-      "id": "cpsc-24715160259",
+      "id": "cpsc-827681208498",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6587,7 +6587,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Viofairy-Hair-Growth-Serum-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-FDAF"
     },
     {
-      "id": "nhtsa-158298933005",
+      "id": "nhtsa-186460334394",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6599,7 +6599,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V055000"
     },
     {
-      "id": "nhtsa-70403577338",
+      "id": "nhtsa-216755214201",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6611,7 +6611,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V054000"
     },
     {
-      "id": "nhtsa-280106564861",
+      "id": "nhtsa-5084932396",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6623,7 +6623,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V053000"
     },
     {
-      "id": "nhtsa-326883293900",
+      "id": "nhtsa-77168458162",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6635,7 +6635,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V052000"
     },
     {
-      "id": "nhtsa-472763175578",
+      "id": "nhtsa-79719522759",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6647,7 +6647,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V051000"
     },
     {
-      "id": "nhtsa-899942068573",
+      "id": "nhtsa-738582220890",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6659,7 +6659,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V050000"
     },
     {
-      "id": "nhtsa-595422607680",
+      "id": "nhtsa-403785595515",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6671,7 +6671,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V049000"
     },
     {
-      "id": "nhtsa-425288078174",
+      "id": "nhtsa-114315227988",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6683,7 +6683,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V048000"
     },
     {
-      "id": "nhtsa-714720460870",
+      "id": "nhtsa-267417049085",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6695,7 +6695,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V047000"
     },
     {
-      "id": "nhtsa-310922620024",
+      "id": "nhtsa-539221015052",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6707,7 +6707,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V046000"
     },
     {
-      "id": "nhtsa-579647866921",
+      "id": "nhtsa-242708061187",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6719,7 +6719,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V045000"
     },
     {
-      "id": "nhtsa-945456932548",
+      "id": "nhtsa-484572508526",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6731,7 +6731,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V044000"
     },
     {
-      "id": "nhtsa-398946429123",
+      "id": "nhtsa-963776969686",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6743,7 +6743,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V043000"
     },
     {
-      "id": "nhtsa-903085769003",
+      "id": "nhtsa-35431165098",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6755,7 +6755,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V042000"
     },
     {
-      "id": "nhtsa-690040279102",
+      "id": "nhtsa-252057021674",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6767,7 +6767,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V041000"
     },
     {
-      "id": "nhtsa-361690525768",
+      "id": "nhtsa-975616159450",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6779,7 +6779,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V040000"
     },
     {
-      "id": "nhtsa-408307950537",
+      "id": "nhtsa-214768406136",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6791,7 +6791,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V039000"
     },
     {
-      "id": "nhtsa-81771292439",
+      "id": "nhtsa-938204954701",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6803,7 +6803,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V038000"
     },
     {
-      "id": "nhtsa-203609883822",
+      "id": "nhtsa-985432300482",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6815,7 +6815,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26E005000"
     },
     {
-      "id": "nhtsa-722719807667",
+      "id": "nhtsa-308114197572",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6827,7 +6827,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V037000"
     },
     {
-      "id": "nhtsa-95307458561",
+      "id": "nhtsa-483835891520",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6839,7 +6839,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V036000"
     },
     {
-      "id": "nhtsa-10978033704",
+      "id": "nhtsa-656070219750",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6851,7 +6851,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V035000"
     },
     {
-      "id": "nhtsa-939334671928",
+      "id": "nhtsa-601522300264",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -6863,7 +6863,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V034000"
     },
     {
-      "id": "cpsc-674672943253",
+      "id": "cpsc-537768658613",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6875,7 +6875,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Aborder-Products-Recalls-Cumbor-Retractable-Safety-Gates-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Entrapment-Violates-Mandatory-Standard-for-Gates-and-Enclosures"
     },
     {
-      "id": "cpsc-574753773332",
+      "id": "cpsc-408956419158",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6887,7 +6887,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Academy-Sports-Outdoors-Recalls-Magellan-Odyssey-Rocker-Chairs-Due-to-Injury-and-Fall-Hazards"
     },
     {
-      "id": "cpsc-247199520995",
+      "id": "cpsc-143726634655",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6899,7 +6899,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Based-Online-Fidget-Magnet-Ball-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-782252148569",
+      "id": "cpsc-703724079509",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6911,7 +6911,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Gagaku-Childrens-Ice-Cream-Toy-Playsets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Hazard-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Brandworl-USA"
     },
     {
-      "id": "cpsc-913354727311",
+      "id": "cpsc-615186283373",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6923,7 +6923,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Iristar-Minoxidil-Spray-Bottles-for-Hair-and-Beard-Growth-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Moralowen"
     },
     {
-      "id": "cpsc-748640424122",
+      "id": "cpsc-490692459058",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6935,7 +6935,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Johnson-Health-Tech-Expands-Recall-to-Include-Matrix-Retail-and-Vision-Treadmills-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-322860418058",
+      "id": "cpsc-546279102086",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6947,7 +6947,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Mikario-Trading-Convertible-Baby-Gyms-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-Violate-Mandatory-Standard-for-Infant-Support-Cushions-Sold-on-TikTok-Shop"
     },
     {
-      "id": "cpsc-418634058595",
+      "id": "cpsc-308315901268",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6959,7 +6959,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Thrasio-Recalls-Angry-Orange-Enzyme-Stain-Removers-Due-to-Risk-of-Exposure-to-Bacteria"
     },
     {
-      "id": "cpsc-813968428332",
+      "id": "cpsc-330432513755",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6971,7 +6971,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Topkay-Lighters-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Multipurpose-Lighters-Sold-on-Amazon-by-Xiyude"
     },
     {
-      "id": "cpsc-468228369123",
+      "id": "cpsc-966063243468",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6983,7 +6983,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vndueey-Magnetic-Men-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-553009976017",
+      "id": "cpsc-976031369403",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -6995,7 +6995,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Yetonamr-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Longyanguiheng"
     },
     {
-      "id": "nhtsa-347066653130",
+      "id": "nhtsa-794096739988",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7007,7 +7007,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V033000"
     },
     {
-      "id": "nhtsa-624871298469",
+      "id": "nhtsa-954959011156",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7019,7 +7019,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V031000"
     },
     {
-      "id": "nhtsa-242325112146",
+      "id": "nhtsa-227267074944",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7031,7 +7031,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V032000"
     },
     {
-      "id": "nhtsa-510752960228",
+      "id": "nhtsa-913098745077",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7043,7 +7043,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V030000"
     },
     {
-      "id": "nhtsa-47498467706",
+      "id": "nhtsa-766629731756",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7055,7 +7055,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V029000"
     },
     {
-      "id": "nhtsa-76626593562",
+      "id": "nhtsa-408212057274",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7067,7 +7067,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V028000"
     },
     {
-      "id": "nhtsa-134205866508",
+      "id": "nhtsa-359670474069",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7079,7 +7079,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V027000"
     },
     {
-      "id": "nhtsa-435683742934",
+      "id": "nhtsa-505394502576",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7091,7 +7091,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V026000"
     },
     {
-      "id": "nhtsa-403257285918",
+      "id": "nhtsa-604815688874",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7103,7 +7103,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V025000"
     },
     {
-      "id": "nhtsa-97429313222",
+      "id": "nhtsa-43920567480",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7115,7 +7115,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V024000"
     },
     {
-      "id": "nhtsa-497120928286",
+      "id": "nhtsa-618298861549",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7127,7 +7127,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V023000"
     },
     {
-      "id": "nhtsa-996864372251",
+      "id": "nhtsa-99633716042",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7139,7 +7139,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26C001000"
     },
     {
-      "id": "nhtsa-974685955146",
+      "id": "nhtsa-869686885392",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7151,7 +7151,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V022000"
     },
     {
-      "id": "nhtsa-868032886689",
+      "id": "nhtsa-160427988813",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7163,7 +7163,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V021000"
     },
     {
-      "id": "nhtsa-105408519815",
+      "id": "nhtsa-790300786651",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7175,7 +7175,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V020000"
     },
     {
-      "id": "nhtsa-164067713242",
+      "id": "nhtsa-984126244396",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7187,7 +7187,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V015000"
     },
     {
-      "id": "nhtsa-616507014961",
+      "id": "nhtsa-590743206981",
       "source": "NHTSA",
       "country": "US",
       "category": "Vehicles",
@@ -7199,7 +7199,7 @@
       "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V019000"
     },
     {
-      "id": "cpsc-255456664271",
+      "id": "cpsc-294991678466",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -7211,7 +7211,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Adams-Manufacturing-Recalls-Adirondack-Patio-Chairs-Due-to-Injury-and-Fall-Hazards"
     },
     {
-      "id": "ftc-824220258629",
+      "id": "ftc-741670125266",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7223,7 +7223,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/05/what-know-after-canvas-cyberattack"
     },
     {
-      "id": "ftc-296942302418",
+      "id": "ftc-445278574770",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7235,7 +7235,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/05/month-pass-it-help-someone-you-know-avoid-scam"
     },
     {
-      "id": "ftc-589768184265",
+      "id": "ftc-460650732814",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7247,7 +7247,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/05/new-trends-reports-imposter-scams"
     },
     {
-      "id": "ftc-197158521439",
+      "id": "ftc-524546191471",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7259,7 +7259,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/05/welcome-national-small-business-week-2026"
     },
     {
-      "id": "ftc-854456005574",
+      "id": "ftc-758989515173",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7271,7 +7271,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/job-offer-text-probably-scam"
     },
     {
-      "id": "ftc-476028622861",
+      "id": "ftc-910668336371",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7283,7 +7283,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/how-spot-top-scams-started-social-media"
     },
     {
-      "id": "ftc-975163363817",
+      "id": "ftc-157338949352",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7295,7 +7295,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/say-no-thanks-unexpected-offers-lower-your-credit-card-interest-rate"
     },
     {
-      "id": "ftc-923848035520",
+      "id": "ftc-330046871359",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7307,7 +7307,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/did-you-buy-tickets-stubhub-between-may-12-14-last-year"
     },
     {
-      "id": "ftc-646159322387",
+      "id": "ftc-650727120941",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
@@ -7319,7 +7319,7 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2026/04/people-losing-big-investment-scams-learn-how-spot-and-avoid-them"
     },
     {
-      "id": "ftc-323483097381",
+      "id": "ftc-504420771055",
       "source": "FTC",
       "country": "US",
       "category": "Fraud & Scams",
