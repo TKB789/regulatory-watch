@@ -474,7 +474,6 @@
           <ul>
             <li class="yes"><strong>CPSC</strong> — US consumer products &amp; recalls</li>
             <li class="yes"><strong>NHTSA</strong> — US vehicle, tire &amp; car-seat recalls</li>
-            <li class="yes"><strong>USDA FSIS</strong> — meat, poultry, egg recalls</li>
             <li class="yes"><strong>FDA Food Safety</strong> — food &amp; cosmetic recalls</li>
             <li class="yes"><strong>EU Safety Gate (RAPEX)</strong> — weekly EU-wide alerts</li>
             <li class="yes"><strong>FTC</strong> — scams &amp; deceptive advertising</li>
@@ -488,7 +487,7 @@
             <li class="no"><strong>Japan METI / Consumer Affairs</strong></li>
           </ul>
         </div>
-        <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">Sources marked ○ are listed for reference and will be added as their feeds are integrated. Items are kept in an append-only archive.</p>
+        <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">Sources marked ○ are listed for reference and will be added as their feeds are integrated.</p>
       </div>
     </div>
   </div>
@@ -498,7 +497,7 @@
       <button class="tab-btn active" data-tab="all">All Alerts <span class="count" id="count-all">0</span></button>
       <button class="tab-btn" data-tab="cpsc">CPSC Products <span class="count" id="count-cpsc">0</span></button>
       <button class="tab-btn" data-tab="nhtsa">NHTSA Vehicles <span class="count" id="count-nhtsa">0</span></button>
-      <button class="tab-btn" data-tab="fsis">USDA Food <span class="count" id="count-fsis">0</span></button>
+      <button class="tab-btn" data-tab="fda">FDA Food <span class="count" id="count-fda">0</span></button>
       <button class="tab-btn" data-tab="eu">EU Safety Gate <span class="count" id="count-eu">0</span></button>
       <button class="tab-btn" data-tab="ftc">FTC Scams <span class="count" id="count-ftc">0</span></button>
     </div>
@@ -546,13 +545,13 @@
     <div id="stream-nhtsa"></div>
   </div>
 
-  <div class="tab-panel" id="panel-fsis">
+  <div class="tab-panel" id="panel-fda">
     <div class="section-header">
-      <h2><em>USDA</em> meat, poultry &amp; egg recalls</h2>
-      <p class="lede">Food Safety and Inspection Service — contamination, mislabeling, allergen risks.</p>
+      <h2><em>FDA</em> food &amp; cosmetic recalls</h2>
+      <p class="lede">U.S. Food &amp; Drug Administration — contamination, allergen, and labeling-related recalls for food and cosmetics.</p>
     </div>
-    <div class="reader-meta-bar" id="meta-fsis"></div>
-    <div id="stream-fsis"></div>
+    <div class="reader-meta-bar" id="meta-fda"></div>
+    <div id="stream-fda"></div>
   </div>
 
   <div class="tab-panel" id="panel-eu">
@@ -574,7 +573,7 @@
   </div>
 
   <footer class="site-footer">
-    <div>Data sources: CPSC saferproducts.gov · NHTSA Recalls API · USDA FSIS · FDA openFDA · EU Safety Gate · FTC Consumer Alerts</div>
+    <div>Data sources: CPSC saferproducts.gov · NHTSA Recalls (data.transportation.gov) · FDA openFDA · EU Safety Gate · FTC Consumer Alerts</div>
     <div style="margin-top: 6px;">Sibling site: <a href="index.html">Regulatory Watch — Medical Device Intelligence</a></div>
     <div style="margin-top: 6px;">This dashboard aggregates publicly available government feeds. It is not a substitute for direct consultation with the source authorities.</div>
   </footer>
@@ -592,7 +591,7 @@ let activeTab = 'all';
 const SOURCE_TO_TAB = {
   'CPSC': 'cpsc',
   'NHTSA': 'nhtsa',
-  'USDA FSIS': 'fsis',
+  'FDA Food': 'fda',
   'EU Safety Gate': 'eu',
   'FTC': 'ftc',
 };
