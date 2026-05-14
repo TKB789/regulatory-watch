@@ -828,8 +828,8 @@
     align-items: flex-start;
     gap: 10px;
     /* Locked size so this section never jumps between pages or load states. */
-    min-height: 140px;
-    max-height: 140px;
+    min-height: 90px;
+    max-height: 90px;
     overflow: hidden;
     position: relative;
     box-sizing: border-box;
@@ -999,29 +999,37 @@
     .back-to-top { bottom: 16px; right: 16px; width: 44px; height: 44px; }
   }
 
-  /* MASTHEAD */
+  /* MASTHEAD (stacked: logo on top, meta line below) */
   .masthead {
     border-bottom: 1px solid var(--rule);
-    padding: 12px 24px 10px;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    padding: 10px 24px 8px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 4px;
     background: #f4f0e6;
     color: #0c0a07;
     position: sticky; top: 0; z-index: 50;
     min-height: 88px;   /* locked so width/load state never jumps */
+    box-sizing: border-box;
   }
-  .mast-left, .mast-right {
+  .mast-logo { text-align: center; }
+  .mast-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0 8px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 9.5px;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--muted);
-    line-height: 1.5;
+    line-height: 1.4;
   }
-  .mast-right { text-align: right; }
-  .mast-left strong, .mast-right strong { color: var(--ink); font-weight: 700; }
+  .mast-meta .mm-item { white-space: nowrap; }
+  .mast-meta .mm-dot { color: var(--muted); opacity: 0.5; }
+  .mast-meta strong { color: var(--ink); font-weight: 700; }
   .pulse {
     display: inline-block; width: 6px; height: 6px; border-radius: 50%;
     background: var(--accent-2); margin-right: 5px;
@@ -1031,13 +1039,15 @@
   .logo {
     font-family: 'Fraunces', serif;
     font-weight: 800;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: -0.03em;
     line-height: 1;
     text-align: center;
     font-style: italic;
+    color: var(--ink);
   }
-  .logo .amp { color: var(--accent); font-style: normal; }
+  .logo em { font-style: italic; font-weight: 800; }
+  .logo .amp { color: var(--accent); font-style: normal; font-weight: 800; }
   .tagline {
     font-family: 'JetBrains Mono', monospace;
     font-size: 8px;
@@ -1051,13 +1061,14 @@
   /* TAB NAV — sticky below masthead */
   .tab-nav {
     position: sticky;
-    top: 56px;
+    top: 88px;
     z-index: 49;
     background: #0c0a07;
     border-bottom: 1px solid var(--rule);
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    min-height: 44px;
   }
   .tab-nav::-webkit-scrollbar { display: none; }
   .tab-nav-inner {
@@ -1644,16 +1655,12 @@
   }
   @media (max-width: 600px) {
     .masthead {
-      grid-template-columns: auto 1fr auto;
-      text-align: left;
-      padding: 10px 14px;
-      gap: 10px;
+      padding: 8px 14px 6px;
+      gap: 3px;
     }
-    .mast-right { text-align: right; }
-    .logo { font-size: 22px; }
-    .tagline { display: none; }
-    .mast-left, .mast-right { font-size: 8.5px; }
-    .tab-nav { top: 44px; }
+    .logo { font-size: 20px; }
+    .tagline { font-size: 7.5px; letter-spacing: 0.22em; }
+    .mast-meta { font-size: 8.5px; gap: 0 6px; }
     .tab-btn { font-size: 10.5px; padding: 12px 12px; }
     .container { padding: 0 14px 40px; }
     .update-card { grid-template-columns: 50px 1fr; }
@@ -1702,17 +1709,18 @@
 
 <!-- MASTHEAD (compact) -->
 <header class="masthead">
-  <div class="mast-left">
-    <div><span class="pulse"></span><strong>LIVE</strong> · 14 agencies</div>
-    <div id="datestamp">—</div>
-  </div>
-  <div>
+  <div class="mast-logo">
     <div class="logo"><em>Regulatory</em><span class="amp">·</span><em>Watch</em></div>
     <div class="tagline">Medical Device Intelligence</div>
   </div>
-  <div class="mast-right">
-    <div id="clock">—</div>
-    <div><strong>UPDATED</strong> <span id="last-updated">—</span></div>
+  <div class="mast-meta">
+    <span class="mm-item"><span class="pulse"></span><strong>LIVE</strong> · 14 agencies</span>
+    <span class="mm-dot">·</span>
+    <span class="mm-item" id="datestamp">—</span>
+    <span class="mm-dot">·</span>
+    <span class="mm-item" id="clock">—</span>
+    <span class="mm-dot">·</span>
+    <span class="mm-item"><strong>UPDATED</strong> <span id="last-updated">—</span></span>
   </div>
 </header>
 
