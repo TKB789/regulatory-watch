@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T15:58:12.684676+00:00",
-  "item_count": 231,
+  "generated_at": "2026-05-14T17:33:36.325699+00:00",
+  "item_count": 233,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-13T21:33:11.854127+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-13T21:33:11.854127+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0
     },
@@ -121,8 +121,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -130,9 +130,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-14T15:55:04.257695+00:00",
+      "last_attempt": "2026-05-14T17:30:26.285122+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-14T15:55:04.257695+00:00",
+      "last_success": "2026-05-14T17:30:26.285122+00:00",
       "items_fetched": 0
     }
   ],
@@ -148,6 +148,30 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Endoflip System",
+      "summary": "The issue concerns a problem affecting EF and ES catheters used with EF-100 systems after 1-January-2026. Following this date will be incorrectly flagged as expired due to the system's 24-hour usage limit, rendering the catheter unavailable for clinical procedures.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/endoflip-system",
+      "published": "2026-05-14T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "directCHECK™ Whole Blood Control",
+      "summary": "Instances of consistently elevated results were identified when using directCHECK™ Whole Blood Control DCGLR‑2, lot A6DLA001. A process error led to testing the lot on the wrong instrument platform, which resulted in the creation and release of incorrect Quality Control (QC) ranges on the performance range card distributed with this lot.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/directchecktm-whole-blood-control",
+      "published": "2026-05-14T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Plum Solo and Plum Duo Precision IV Pumps",
