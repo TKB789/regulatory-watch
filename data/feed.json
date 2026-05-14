@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T23:54:16.625723+00:00",
-  "item_count": 234,
+  "generated_at": "2026-05-14T23:56:37.446510+00:00",
+  "item_count": 317,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 83,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,8 +33,8 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-14T23:54:16.625723+00:00",
-      "last_success": "2026-05-14T23:54:16.625723+00:00",
+      "last_attempt": "2026-05-14T23:56:37.446510+00:00",
+      "last_success": "2026-05-14T23:56:37.446510+00:00",
       "items_fetched": 20,
       "source": "manual-fetch"
     },
@@ -42,8 +42,8 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "ok",
-      "last_attempt": "2026-05-14T23:54:16.625723+00:00",
-      "last_success": "2026-05-14T23:54:16.625723+00:00",
+      "last_attempt": "2026-05-14T23:56:37.446510+00:00",
+      "last_success": "2026-05-14T23:56:37.446510+00:00",
       "items_fetched": 20,
       "source": "manual-fetch"
     },
@@ -112,10 +112,11 @@
     {
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
-      "status": "error",
-      "last_attempt": "2026-05-14T23:14:33.652496+00:00",
-      "last_attempt_reason": "The read operation timed out",
-      "items_fetched": 0
+      "status": "ok",
+      "last_attempt": "2026-05-14T23:56:37.446510+00:00",
+      "last_success": "2026-05-14T23:56:37.446510+00:00",
+      "items_fetched": 50,
+      "source": "manual-fetch"
     },
     {
       "name": "EMA News & Press Releases",
@@ -129,17 +130,19 @@
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "empty",
-      "last_attempt": "2026-05-14T23:14:33.652496+00:00",
-      "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-14T23:14:33.652496+00:00",
-      "items_fetched": 0
+      "status": "ok",
+      "last_attempt": "2026-05-14T23:56:37.446510+00:00",
+      "last_success": "2026-05-14T23:56:37.446510+00:00",
+      "items_fetched": 30,
+      "source": "manual-fetch"
     }
   ],
-  "manual_fetch_at": "2026-05-14T23:54:16.625723+00:00",
+  "manual_fetch_at": "2026-05-14T23:56:37.446510+00:00",
   "manual_fetched_feeds": [
+    "eur-lex",
     "fda-medwatch",
-    "fda-recalls"
+    "fda-recalls",
+    "tga-news"
   ],
   "items": [
     {
@@ -225,6 +228,54 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Sun Pharmaceutical Industries, Inc. (Sun Pharma) Initiates Voluntary U.S. Nationwide Recall of DOXOrubicin Hydrochloride Liposome Injection 50mg/25 mL Due To Potential Presence of Glass Particles",
+      "summary": "FOR IMMEDIATE RELEASE MUMBAI, INDIA and PRINCETON, NJ - May 13, 2026 – Sun Pharma is voluntarily recalling within the U.S. to the hospital/user level, one batch of DOXOrubicin Hydrochloride Liposome Injection 50mg/25 mL, Lot # HAG2581B, Expiration 05/2027 (675 vials). The single batch of 675 vials i",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sun-pharmaceutical-industries-inc-sun-pharma-initiates-voluntary-us-nationwide-recall-doxorubicin",
+      "published": "2026-05-13T22:21:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Terra Medi LLC Recalls Karagounis Bros – Hellas Meze Golden Smoked Whole Herring Due to Improper Evisceration",
+      "summary": "Terra Medi LLC of Long Island City, NY is recalling all of the imported Hellas Meze Golden Smoked Whole herring vacuum packaged because of improper evisceration of the fish. The sale of uneviscerated fish is prohibited under New York State Agriculture and Markets regulation because Clostridium Botul",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/terra-medi-llc-recalls-karagounis-bros-hellas-meze-golden-smoked-whole-herring-due-improper",
+      "published": "2026-05-13T18:49:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "IQ Produce LCC. Recalls Enoki Mushrooms Because of Possible Health Risk",
+      "summary": "IQ PRODUCE of VERNON, CA is recalling 528 CASES/ MUSHROOM ENOKI 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/iq-produce-lcc-recalls-enoki-mushrooms-because-possible-health-risk",
+      "published": "2026-05-13T18:35:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "HH Fresh Trading. Recalls TW Enoki Mushrooms 150g Because of Possible Health Risk",
+      "summary": "HH Fresh Trading of Los Angeles, California State is recalling 120 cases of Enoki Mushroom 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hh-fresh-trading-recalls-tw-enoki-mushrooms-150g-because-possible-health-risk",
+      "published": "2026-05-13T17:45:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Decision: Orphan registered medicinal products",
@@ -1091,9 +1142,9 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
-      "title": "Convenience Kit Recall: Medical Action Industries Removes Convenience Kits Containing Namic RA Syringes",
-      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-medical-action-industries-removes-convenience-kits-containing-namic-ra",
+      "title": "Pacemaker Correction: Boston Scientific Issues Correction for ACCOLADE Pacemakers and CRT-Ps",
+      "summary": "Brady SMR6 is now available for ACCOLADE pacemakers and CRT-Ps; correction expanded to include CRT-P and DR-EL devices.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/pacemaker-correction-boston-scientific-issues-correction-accolade-pacemakers-and-crt-ps",
       "published": "2026-05-07T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
@@ -1103,9 +1154,9 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
-      "title": "Pacemaker Correction: Boston Scientific Issues Correction for ACCOLADE Pacemakers and CRT-Ps",
-      "summary": "Brady SMR6 is now available for ACCOLADE pacemakers and CRT-Ps; correction expanded to include CRT-P and DR-EL devices.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/pacemaker-correction-boston-scientific-issues-correction-accolade-pacemakers-and-crt-ps",
+      "title": "Convenience Kit Recall: Medical Action Industries Removes Convenience Kits Containing Namic RA Syringes",
+      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-medical-action-industries-removes-convenience-kits-containing-namic-ra",
       "published": "2026-05-07T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
@@ -1173,6 +1224,18 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
+    },
+    {
+      "title": "TGA warning on the risks of importing unapproved peptide products",
+      "summary": "We are warning consumers about the risks of importing and using unapproved peptide products that are promoted online.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/tga-warning-risks-importing-unapproved-peptide-products",
+      "published": "2026-05-06T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Albright’s Raw Pet Food Announces Voluntary Recall of Select Chicken Recipe for Dogs Complete and Balanced, 1 lb Bricks (Lot #C001730)",
@@ -1355,6 +1418,18 @@
       "source": "FDA Recalls"
     },
     {
+      "title": "Implementing Regulation (EU) 2026/977 – uniform requirements for conformity assessment and notified bodies (Annex VII)",
+      "summary": "Implementing Regulation (EU) 2026/977 – uniform requirements for conformity assessment and notified bodies (Annex VII)",
+      "link": "https://eur-lex.europa.eu/eli/reg_impl/2026/977/oj",
+      "published": "2026-05-05T08:37:44+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "Sizing Catheter Recall: Cook Medical Removes Various Centimeter Sizing Catheters",
       "summary": "When the sizing catheters are used during angiographic procedures the marker bands may be at an increased risk of cracking/breakage.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/sizing-catheter-recall-cook-medical-removes-various-centimeter-sizing-catheters",
@@ -1370,6 +1445,18 @@
       "title": "Surgical Stapler Reload Recall: Intuitive Surgical Removes 8mm SureForm 30 Gray Reloads",
       "summary": "Certain SureForm Surgical Stapler reloads may form incomplete staple lines, leading to severe bleeding or death.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/surgical-stapler-reload-recall-intuitive-surgical-removes-8mm-sureform-30-gray-reloads",
+      "published": "2026-05-05T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Trividia Health Correction for TRUE METRIX Blood Glucose Monitoring Systems",
+      "summary": "FT. LAUDERDALE, FL – May 1, 2026 – Trividia Health, Inc., a global leader in diabetes management, today provided an important update to the medical device labeling correction it announced on February 6, 2026, for all TRUE METRIX®, TRUE METRIX® AIR, TRUE METRIX® GO, and TRUE METRIX® PRO Blood Glucose",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-correction-true-metrix-blood-glucose-monitoring-systems",
       "published": "2026-05-05T04:00:00+00:00",
       "agency": "FDA",
       "region": "United States",
@@ -1427,22 +1514,22 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Intravenous (IV) fluids supply is stable",
+      "summary": "The acute national shortages of IV fluids have resolved.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/intravenous-iv-fluids-supply-stable",
+      "published": "2026-05-03T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "a2 Platinum USA Label Infant Formula Recalled Because of Possible Health Risk",
       "summary": "Boulder, CO – May 2, 2026 – The a2 Milk Company (“a2MC”) has voluntarily recalled three specific batches of its imported a2 Platinum Premium USA label infant formula 0-12 months (“Product”) due to the presence of cereulide. The Product is sold only in the United States. Cereulide is a heat-stable t",
       "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/a2-platinum-usa-label-infant-formula-recalled-because-possible-health-risk",
       "published": "2026-05-02T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Trividia Health Correction for TRUE METRIX Blood Glucose Monitoring Systems",
-      "summary": "FT. LAUDERDALE, FL – May 1, 2026 – Trividia Health, Inc., a global leader in diabetes management, today provided an important update to the medical device labeling correction it announced on February 6, 2026, for all TRUE METRIX®, TRUE METRIX® AIR, TRUE METRIX® GO, and TRUE METRIX® PRO Blood Glucose",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trividia-health-correction-true-metrix-blood-glucose-monitoring-systems",
-      "published": "2026-05-01T21:25:00+00:00",
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
@@ -1967,6 +2054,18 @@
       "source": "FDA Recalls"
     },
     {
+      "title": "Extension of substitution approval for shortage of Catapres (clonidine) 150 mcg tablets",
+      "summary": "Serious Scarcity Substitution Instrument (SSSI) allows continuous access to Catapres (clonidine) 150 mcg tablets during an anticipated new shortage.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/extension-substitution-approval-shortage-catapres-clonidine-150-mcg-tablets",
+      "published": "2026-04-27T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Advisory Committee; Anesthetic and Analgesic Drug Products Advisory Committee; Renewal",
       "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Anesthetic and Analgesic Drug Products Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Anesthetic and Analgesic Drug Products Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 1, 2028, expiration date.",
       "link": "https://www.federalregister.gov/documents/2026/04/27/2026-08125/advisory-committee-anesthetic-and-analgesic-drug-products-advisory-committee-renewal",
@@ -2159,6 +2258,18 @@
       "source": "EMA News & Press Releases"
     },
     {
+      "title": "Update - New manufacturer incident report XSD files and XSL files (SB 11154)",
+      "summary": "Update - New manufacturer incident report XSD files and XSL files (SB 11154)",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance/pmsv-reporting-forms_en",
+      "published": "2026-04-23T09:58:39+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "Cranial Drill Recall: Integra LifeSciences Recalls Codman Disposable Perforators Due to Risk of Device Disassembly",
       "summary": "Certain Codman Disposable Perforators may disassemble during or after use, increasing the risk of brain injury, hemorrhage, or prolonged surgery.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/cranial-drill-recall-integra-lifesciences-recalls-codman-disposable-perforators-due-risk-device",
@@ -2195,6 +2306,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Update – Documents on European Medical Device Nomenclature (EMDN)",
+      "summary": "Update – Documents on European Medical Device Nomenclature (EMDN)",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec8",
+      "published": "2026-04-22T14:16:19+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "Class 4 Medicines Defect Notification: Doncaster Pharma Limited, Hiprex 1g tablets, EL(26)A/20",
       "summary": "Doncaster Pharma Limited has informed the MHRA of an error related to the Braille embossing on the outer packaging of certain parallel imported batches of Hiprex 1 g tablets (POM).",
       "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-doncaster-pharma-limited-hiprex-1g-tablets-el-26-a-slash-20",
@@ -2205,6 +2328,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 v5",
+      "summary": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 v5",
+      "link": "https://health.ec.europa.eu/latest-updates/update-manual-borderline-and-classification-under-regulations-eu-2017745-and-2017746-v5-2026-04-22_en",
+      "published": "2026-04-22T08:02:36+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
     },
     {
       "title": "Insulin Pump Correction: Tandem Diabetes Care Issues Correction for Tandem Mobi Insulin Pumps",
@@ -2255,6 +2390,18 @@
       "feed_label": "Federal Register"
     },
     {
+      "title": "Overseas-registered products available for cyclophosphamide and ifosfamide injection shortages",
+      "summary": "Information about the cyclophosphamide and ifosfamide injection shortages.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/overseas-registered-products-available-cyclophosphamide-and-ifosfamide-injection-shortages",
+      "published": "2026-04-21T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "FDA Achieves Year 1 Goals in Reducing Animal Testing in Drug Development",
       "summary": "Since publishing roadmap last April, agency has successfully launched several key initiatives to replace animal testing with better alternatives",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-achieves-year-1-goals-reducing-animal-testing-drug-development",
@@ -2265,6 +2412,30 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
+    },
+    {
+      "title": "Shortage of methylphenidate hydrochloride products is resolving",
+      "summary": "The overall supply of methylphenidate modified-release products continues to improve and stabilise.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/shortage-methylphenidate-hydrochloride-products-resolving",
+      "published": "2026-04-20T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Update - MDCG 2021-24 rev.1 - Guidance on classification of medical devices (April 2026)",
+      "summary": "Update - MDCG 2021-24 rev.1 - Guidance on classification of medical devices (April 2026)",
+      "link": "https://health.ec.europa.eu/latest-updates/update-mdcg-2021-24-rev1-guidance-classification-medical-devices-april-2026-2026-04-20_en",
+      "published": "2026-04-20T13:23:27+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
     },
     {
       "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 10mg capsules, EL(26)A/19",
@@ -2363,6 +2534,30 @@
       "source": "FDA MedWatch Safety Alerts"
     },
     {
+      "title": "Artri Ajo King tablets",
+      "summary": "We are advising consumers that Artri Ajo King tablets may pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/artri-ajo-king-tablets",
+      "published": "2026-04-15T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Pilot programme to be launched to support breakthrough medical devices and in vitro diagnostics",
+      "summary": "Pilot programme to be launched to support breakthrough medical devices and in vitro diagnostics",
+      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/74172",
+      "published": "2026-04-15T07:31:36+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "Ventilator Tubing Correction: Percussionaire Corporation Updates Use Instructions for Phasitron In-Line Valve",
       "summary": "Percussionaire Corporation issues updated instructions for ventilator tubes due to design defect that could cause hypoventilation, respiratory failure",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/ventilator-tubing-correction-percussionaire-corporation-updates-use-instructions-phasitron-line",
@@ -2397,6 +2592,18 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Flixotide and Pavtide Accuhalers",
+      "summary": "GlaxoSmithKline (GSK) Australia Pty Ltd is issuing a product correction for certain batches of their Flixotide and Pavtide Accuhalers as a small number of Accuhalers may not automatically reload the next dose.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/flixotide-and-pavtide-accuhalers",
+      "published": "2026-04-14T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "FDA Issues Draft Guidance on Genome Editing Safety Standards to Advance Gene Therapy Development",
@@ -2457,6 +2664,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Understanding your responsibilities when importing, compounding and supplying unapproved peptide products",
+      "summary": "We are concerned about the rise in the import, supply, compounding and advertising of unapproved peptide products and the potential safety risks associated with these goods.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/understanding-your-responsibilities-when-importing-compounding-and-supplying-unapproved-peptide-products",
+      "published": "2026-04-12T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Early Alert: Convenience Kit Issue from AVID Medical",
@@ -2603,6 +2822,30 @@
       "source": "FDA Press Announcements"
     },
     {
+      "title": "Article 10a Decision tree",
+      "summary": "Article 10a Decision tree",
+      "link": "https://health.ec.europa.eu/latest-updates/article-10a-decision-tree-2026-04-01_en",
+      "published": "2026-04-01T12:36:14+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Rev.2 - Q&A Obligation to inform in case of interruption or discontinuation of supply",
+      "summary": "Rev.2 - Q&amp;A Obligation to inform in case of interruption or discontinuation of supply",
+      "link": "https://health.ec.europa.eu/latest-updates/rev2-qa-obligation-inform-case-interruption-or-discontinuation-supply-2026-04-01_en",
+      "published": "2026-04-01T12:34:13+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "MHRA Safety Roundup: March 2026",
       "summary": "Summary of the latest safety advice for medicines and medical device users",
       "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-march-2026",
@@ -2613,6 +2856,30 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Medik8 Physical Sunscreen SPF50+ 60mL, 60mL Professional and 15mL",
+      "summary": "AC Newco Pty Ltd (Advanced Cosmeceuticals), on behalf of Medik8, is recalling all unexpired batches of Medik8 Physical Sunscreen SPF50+ 60mL, 60mL Professional, &amp; 15mL due to the product being unlikely to meet its labelled Sun Protection Factor (SPF) rating.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/medik8-physical-sunscreen-spf50-60ml-60ml-professional-and-15ml",
+      "published": "2026-03-31T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "ACCOLADE single chamber (SR), dual chamber (DR) standard life (SL) and DR extended life (EL) pacemakers; and VISIONIST cardiac resynchronization therapy pacemakers (CRT-Ps)",
+      "summary": "Boston Scientific is conducting a Product correction and Product alert for ACCOLADE and VISIONIST pacemakers.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/accolade-single-chamber-sr-dual-chamber-dr-standard-life-sl-and-dr-extended-life-el-pacemakers-and-visionist-cardiac-resynchronization-therapy-pacemakers-crt-ps-0",
+      "published": "2026-03-31T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Field Safety Notices: 23-27 March 2026",
@@ -2711,6 +2978,18 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Recording available - Second training on EMDN: structure, consultation process, and practical application",
+      "summary": "Recording available - Second training on EMDN: structure, consultation process, and practical application",
+      "link": "https://health.ec.europa.eu/medical-devices-topics-interest/european-medical-devices-nomenclature-emdn_en#second-training-2025",
+      "published": "2026-03-24T08:16:10+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "Class 2 Medicines Recall: Regent Medical Limited / Mölnlycke Health Care, Hibiwash 500ml, EL(26)A/15",
       "summary": "Mölnlycke Health Care are recalling specific batches of Hibiwash due to microbial contamination at the manufacturing facility, following routine weekly microbiological monitoring.",
       "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-regent-medical-limited-slash-molnlycke-health-care-hibiwash-500ml-el-26-a-slash-15",
@@ -2759,6 +3038,18 @@
       "source": "FDA Press Announcements"
     },
     {
+      "title": "Recording available - Commissioner Várhelyi to open high-level event on medical devices",
+      "summary": "Recording available - Commissioner Várhelyi to open high-level event on medical devices",
+      "link": "https://health.ec.europa.eu/events/medical-devices-innovation-and-patient-safety-2026-03-16_en",
+      "published": "2026-03-18T14:52:18+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "FDA Releases Draft Guidance on Alternatives to Animal Testing in Drug Development",
       "summary": "The U.S. Food and Drug Administration today issued draft guidance intended to help drug developers validate new approach methodologies (NAMs) to be used instead of animal testing in drug development, and to bring safe, effective drugs to market sooner based on human-centric data.",
       "link": "http://www.fda.gov/news-events/press-announcements/fda-releases-draft-guidance-alternatives-animal-testing-drug-development",
@@ -2781,6 +3072,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Commissioner Várhelyi to open high-level event on medical devices",
+      "summary": "Commissioner Várhelyi to open high-level event on medical devices",
+      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/73104",
+      "published": "2026-03-13T13:37:27+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
     },
     {
       "title": "Class 2 Medicines Recall: Rokshaw Limited Trading as Curaleaf Laboratories, Curaleaf Oil [FS] 10mg/ml THC, 10mg/ml CBD (30ml), EL(26)A/13",
@@ -2819,6 +3122,30 @@
       "source": "FDA Press Announcements"
     },
     {
+      "title": "TRUE METRIX® Blood Glucose Monitoring Systems",
+      "summary": "The former liquidator for Trividia Health Australia Pty Ltd (deregistered) is facilitating a product correction for TRUE METRIX® Blood Glucose Monitoring Systems.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/true-metrixr-blood-glucose-monitoring-systems",
+      "published": "2026-03-11T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Rifton TRAM and E-Pacer patient transfer and gait training devices",
+      "summary": "Apex Mobility is conducting a product correction on the Rifton TRAM and E-Pacer patient transfer and gait training mobility devices.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/rifton-tram-and-e-pacer-patient-transfer-and-gait-training-devices",
+      "published": "2026-03-11T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Field Safety Notices: 02 to 06 March 2026",
       "summary": "List of Field Safety Notices from 2 March to 6 March 2026.",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-02-to-06-march-2026",
@@ -2855,6 +3182,30 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Counterfeit weight loss products claiming to contain GLP-1",
+      "summary": "We are issuing an updated safety advisory after testing confirmed counterfeit imported weight loss products.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/counterfeit-weight-loss-products-claiming-contain-glp-1",
+      "published": "2026-03-01T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Shortage of Zimstat (simvastatin) 5 mg tablets and substitution approval extended",
+      "summary": "We have extended the SSSI in response to the ongoing shortage",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/shortage-zimstat-simvastatin-5-mg-tablets-and-substitution-approval-extended",
+      "published": "2026-02-26T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Clinical Evidence for IVD Medical Devices – Definitions and Principles of Performance Evaluation",
       "summary": "Clinical Evidence for IVD Medical Devices – Definitions and Principles of Performance Evaluation",
       "link": "https://www.imdrf.org/consultations/clinical-evidence-ivd-medical-devices-definitions-and-principles-performance-evaluation",
@@ -2867,6 +3218,18 @@
       "source": "IMDRF Consultations"
     },
     {
+      "title": "Comvita MediHoney Antibacterial Wound Gel 25g & 50g",
+      "summary": "Comvita Australia Pty Ltd is recalling certain batches of Comvita MediHoney Antibacterial Wound Gel due to problems with the packaging.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/comvita-medihoney-antibacterial-wound-gel-25g-50g",
+      "published": "2026-02-25T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "MHRA Safety Roundup: February 2026",
       "summary": "Summary of the latest safety advice for medicines and medical device users",
       "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-february-2026",
@@ -2877,6 +3240,642 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Natures Valley Collagen Builder tablets",
+      "summary": "The Therapeutic Goods Administration (TGA) is advising consumers that Natures Valley Collagen Builder tablets may pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/natures-valley-collagen-builder-tablets",
+      "published": "2026-02-15T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "H3 Hintermann Ankle Replacement System",
+      "summary": "The TGA has concerns about an increased risk of revision as shown in the Australian Orthopaedic Association National Joint Replacement Registry (AOANJRR) data when compared to other fixed and mobile bearing systems.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/h3-hintermann-ankle-replacement-system",
+      "published": "2026-02-11T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Medical Devices: Register now for high-level conference on 16 March 2026",
+      "summary": "Medical Devices: Register now for high-level conference on 16 March 2026",
+      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/71729",
+      "published": "2026-02-03T08:36:46+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Registration - High-level Conference on Medical Devices: Innovation and Patient Safety - 16 March 2026, 9.00 - 17.00 CET",
+      "summary": "Registration - High-level Conference on Medical Devices: Innovation and Patient Safety - 16 March 2026, 9.00 - 17.00 CET",
+      "link": "https://health.ec.europa.eu/events/high-level-conference-medical-devices-innovation-and-patient-safety-16-march-2026-brussels-belgium-2026-03-16_en",
+      "published": "2026-02-02T14:17:03+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Banana Boat Baby Zinc Sunscreen Lotion SPF 50+ and Hawaiian Tropic Mineral Zinc Sunscreen Lotion SPF 50+",
+      "summary": "Edgewell Personal Care Australia Pty Ltd is recalling all unexpired batches (nine in total) due to the potential for the lotions to become separated.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/banana-boat-baby-zinc-sunscreen-lotion-spf-50-and-hawaiian-tropic-mineral-zinc-sunscreen-lotion-spf-50",
+      "published": "2026-02-02T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Solar Screen Mineral Zinc Hydrating Face and Body Sunscreen Lotion SPF50+",
+      "summary": "Gem Care Products Pty Ltd is recalling all unexpired batches (two in total) due to the potential for the lotions to become separated.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/solar-screen-mineral-zinc-hydrating-face-and-body-sunscreen-lotion-spf50",
+      "published": "2026-02-02T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Safety concerns over imported counterfeit melatonin products",
+      "summary": "We are issuing an updated safety advisory regarding imported counterfeit unregistered melatonin products.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/safety-concerns-over-imported-counterfeit-melatonin-products",
+      "published": "2026-01-28T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "BeneHeart C Series AED: Non-rechargeable public automated external defibrillator",
+      "summary": "Mindray Medical Australia Pty Ltd is conducting a product correction for the BeneHeart C Series Automated External Defibrillator (AED).",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/beneheart-c-series-aed-non-rechargeable-public-automated-external-defibrillator",
+      "published": "2026-01-28T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "New Presolol (labetalol) tablet shortage: substitution instrument and overseas-registered alternative approved",
+      "summary": "Information and approvals to manage Presolol 200 tablet shortage",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/new-presolol-labetalol-tablet-shortage-substitution-instrument-and-overseas-registered-alternative-approved",
+      "published": "2026-01-27T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Continuing imports of counterfeit Botox vials",
+      "summary": "TGA continues to see imports of counterfeit Botox vials despite a previous warning issued in July 2025.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/continuing-imports-counterfeit-botox-vials",
+      "published": "2026-01-26T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Substitution approval extended for HRT patch shortages",
+      "summary": "Serious Scarcity Substitution Instrument extended due to continued shortages of HRT patch products.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitution-approval-extended-hrt-patch-shortages",
+      "published": "2026-01-22T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Factsheet - Better rules for medical devices, better outcomes for EU patients",
+      "summary": "Factsheet - Better rules for medical devices, better outcomes for EU patients",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_3072",
+      "published": "2026-01-19T08:17:48+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Anko Small and Large Gel Paks",
+      "summary": "Kmart Australia Ltd is recalling their Anko Small Gel Pak and Anko Large Gel Pak because they contain ethylene glycol, a toxic substance.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/anko-small-and-large-gel-paks",
+      "published": "2026-01-08T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Changes to the supply of insulin products",
+      "summary": "Pharmaceutical companies Novo Nordisk and Eli Lilly are discontinuing some of their insulin products.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/changes-supply-insulin-products",
+      "published": "2025-12-21T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Substitutions approved for shortage of Catapres (clonidine) 150 mcg tablets",
+      "summary": "The&nbsp;initial Serious Scarcity Substitution Instrument (SSSI) has been extended - refer to new medicine shortage alert: \"Extension of substitution approval for shortage of Catapres (clonidine) 150 mcg tablets\"",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitutions-approved-shortage-catapres-clonidine-150-mcg-tablets",
+      "published": "2025-12-21T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "MDCG 2025–10: Guidance on post-market surveillance of medical devices and in vitro diagnostic medical devices (December 2025)",
+      "summary": "MDCG 2025–10: Guidance on post-market surveillance of medical devices and in vitro diagnostic medical devices (December 2025)",
+      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-10-guidance-post-market-surveillance-medical-devices-and-vitro-diagnostic-medical-devices-2025-12-19_en",
+      "published": "2025-12-19T15:14:43+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "CellAED: Non-rechargeable public automated external defibrillator",
+      "summary": "The company which has supplied the CellAED devices, RRR Manufacturing Pty Ltd, has gone into liquidation. The liquidators for RRR Manufacturing, are conducting a Critical Recall for all lots of the CellAED device.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/cellaed-non-rechargeable-public-automated-external-defibrillator",
+      "published": "2025-12-18T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "MDCG 2025-7 - Rev. 1:  Timelines of the implementation of ‘Master UDI-DI’ to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
+      "summary": "MDCG 2025-7 - Rev. 1: Timelines of the implementation of ‘Master UDI-DI’ to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec18",
+      "published": "2025-12-17T15:33:58+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "New measures to make EU health sector more innovative, competitive and resilient",
+      "summary": "New measures to make EU health sector more innovative, competitive and resilient",
+      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3077",
+      "published": "2025-12-16T16:50:00+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Shortage of Creon (pancreatic extract) capsules extended",
+      "summary": "Supply constraints will apply to Creon 25,000 unit and 35,000 unit capsules until 30 June 2026.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/shortage-creon-pancreatic-extract-capsules-extended",
+      "published": "2025-12-16T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "MDCG 2025-9: Guidance on Breakthrough Devices (BtX) under Regulations 2017/745 & 2017/746",
+      "summary": "MDCG 2025-9: Guidance on Breakthrough Devices (BtX) under Regulations 2017/745 &amp; 2017/746",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec13",
+      "published": "2025-12-15T15:52:12+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Key Sun Kids Travel Sickness Homeopathic Product",
+      "summary": "Key Sun Laboratories Pty Ltd is recalling one batch of Key Sun Kids Travel Sickness Homeopathic Product, due to the risk of a small metal wire being present in the lozenge.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/key-sun-kids-travel-sickness-homeopathic-product",
+      "published": "2025-12-15T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Brahmi Vati tablets (Ayurvedic medicine)",
+      "summary": "Brahmi Vati tablets pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/brahmi-vati-tablets-ayurvedic-medicine",
+      "published": "2025-12-09T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Kumar Kalyan Rasa tablets (Ayurvedic medicine)",
+      "summary": "Kumar Kalyan Rasa tablets pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/kumar-kalyan-rasa-tablets-ayurvedic-medicine",
+      "published": "2025-12-09T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Manasamitra Vadakam tablets (Ayurvedic medicine)",
+      "summary": "Manasamitra Vakakam tablets pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/manasamitra-vadakam-tablets-ayurvedic-medicine",
+      "published": "2025-12-09T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Cancer Council Sunscreen Clear Zinc Kids SPF50+ 110g",
+      "summary": "Vitality Brands Worldwide Pty Ltd is recalling three batches of Cancer Council Sunscreen Clear Zinc Kids SPF50+ 110g due to the potential for the product to become separated.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/cancer-council-sunscreen-clear-zinc-kids-spf50-110g",
+      "published": "2025-12-03T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Monitoring of availability of medical devices on the EU Market - Study overview and 2nd survey results",
+      "summary": "Monitoring of availability of medical devices on the EU Market - Study overview and 2nd survey results",
+      "link": "https://health.ec.europa.eu/latest-updates/monitoring-availability-medical-devices-eu-market-study-overview-and-2nd-survey-results-2025-12-01_en",
+      "published": "2025-12-01T13:20:02+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Product warnings updated for GLP-1 RA class",
+      "summary": "We have updated the product warnings for GLP-1 and dual GIP/GLP-1 receptor agonists for two separate safety issues. This relatively new and high-profile class of medicines is used to treat type 2 diabetes mellitus and/or obesity.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/product-warnings-updated-glp-1-ra-class",
+      "published": "2025-11-30T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Substitutions approved for shortage of nicorandil tablets",
+      "summary": "THE SHORTAGE HAS RESOLVED AND THE SSSI WILL LAPSE ON 31 MARCH 2026.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitutions-approved-shortage-nicorandil-tablets",
+      "published": "2025-11-27T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "The EUDAMED four first modules will be mandatory to use as from 28 May 2026",
+      "summary": "The EUDAMED four first modules will be mandatory to use as from 28 May 2026",
+      "link": "https://health.ec.europa.eu/latest-updates/eudamed-four-first-modules-will-be-mandatory-use-28-may-2026-2025-11-27_en",
+      "published": "2025-11-27T10:06:11+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Strengthened warnings for fracture risk after discontinuation of denosumab (Prolia and biosimilars)",
+      "summary": "The safety information for denosumab products used to treat osteoporosis has been updated to strengthen the existing warning for multiple spinal fractures after discontinuation or delay of treatment.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/strengthened-warnings-fracture-risk-after-discontinuation-denosumab-prolia-and-biosimilars",
+      "published": "2025-11-20T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Bondi Sands Zinc Mineral Broad Spectrum UVA & UVB Protection Sunscreen SPF 50+ Face and Body Lotions",
+      "summary": "Bondi Sands Pty Ltd is recalling five batches of sunscreen due to the potential for the lotions to become separated.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/bondi-sands-zinc-mineral-broad-spectrum-uva-uvb-protection-sunscreen-spf-50-face-and-body-lotions",
+      "published": "2025-11-13T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Coordinated assessment for clinical investigations: a call for expression of interest",
+      "summary": "Coordinated assessment for clinical investigations: a call for expression of interest",
+      "link": "https://health.ec.europa.eu/medical-devices-clinical-investigations-and-performance-studies/pilot-coordinated-assessment-cips_en",
+      "published": "2025-11-10T16:38:20+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Mylife CamAPS FX app",
+      "summary": "Product correction: Ypsomed Australia is reminding users to ensure they use a compatible smart device and operating system (OS) when using the Mylife CamAPS FX app.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/mylife-camaps-fx-app",
+      "published": "2025-10-29T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Henry Blooms Infant Liquid D3 & K2 with Probiotic, Pack size: 9.75 mL",
+      "summary": "Phytologic Holdings Pty Ltd is recalling one batch of Henry Blooms Infant Liquid D3 &amp; K2 with Probiotic due to a dosing syringe error.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/henry-blooms-infant-liquid-d3-k2-probiotic-pack-size-975-ml",
+      "published": "2025-10-22T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Risk of fire during use of hyperbaric chambers",
+      "summary": "This page warns of fire risks associated with hyperbaric chamber devices following an overseas death, emphasising use only by trained professionals and strict adherence to safety instructions.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-fire-during-use-hyperbaric-chambers",
+      "published": "2025-10-09T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Risk of overdose in babies when using prilocaine/lidocaine cream (EMLA and generic brands)",
+      "summary": "We have investigated 2 serious adverse event cases in young babies who had EMLA (prilocaine/lidocaine cream) applied to their skin for local anaesthesia. Both cases were likely to have involved overdose.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-overdose-babies-when-using-prilocainelidocaine-cream-emla-and-generic-brands",
+      "published": "2025-10-01T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Imported unregistered GLP-1 weight-loss products",
+      "summary": "TGA is issuing a safety advisory about the importation of unregistered GLP-1 products that are being promoted online for weight-loss.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/imported-unregistered-glp-1-weight-loss-products",
+      "published": "2025-09-28T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Multiple sunscreens recall: Lower than claimed SPF levels",
+      "summary": "Consumers are advised that several sunscreen products are being recalled by sponsors. This follows preliminary testing evidence indicating that the SPF levels of their products may be lower than what is claimed on their labels.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/multiple-sunscreens-recall-lower-claimed-spf-levels",
+      "published": "2025-09-25T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Safety concerns over imported melatonin products",
+      "summary": "We are issuing a safety advisory regarding imported unregistered melatonin products following testing by TGA Laboratories.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/safety-concerns-over-imported-melatonin-products",
+      "published": "2025-09-25T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Update on Vyvanse (lisdexamfetamine dimesilate) investigation",
+      "summary": "Our investigation into concerns about Vyvanse’s potential lack of effectiveness, quality and safety found no issues of concern.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/update-vyvanse-lisdexamfetamine-dimesilate-investigation",
+      "published": "2025-09-25T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Imported unregistered methylene blue products",
+      "summary": "We are issuing a safety advisory about the increasing importation and use of unregistered oral methylene blue (methylthioninium chloride) products in Australia.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/imported-unregistered-methylene-blue-products",
+      "published": "2025-09-24T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Pad-Pak for HeartSine samaritan Public Access Defibrillator (PAD)",
+      "summary": "Stryker is conducting a Critical Product Correction of Pad-Paks used with the HeartSine samaritan Public Access Defibrillator (PAD), with an expiry date range between 17 April 2025 to 01 August 2029.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/pad-pak-heartsine-samaritan-public-access-defibrillator-pad",
+      "published": "2025-09-18T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 - September 2025",
+      "summary": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 - September 2025",
+      "link": "https://health.ec.europa.eu/latest-updates/update-manual-borderline-and-classification-under-regulations-eu-2017745-and-2017746-september-2025-2025-09-12_en",
+      "published": "2025-09-12T13:33:11+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "ACCOLADE single chamber (SR), dual chamber (DR) standard life (SL) and DR extended life (EL) pacemakers; and VISIONIST cardiac resynchronization therapy pacemakers (CRT-Ps)",
+      "summary": "Product correction and Product alert. This update includes new information regarding the software correction, actions for healthcare professionals and inclusion of the single chamber (SR) pacemaker.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/accolade-single-chamber-sr-dual-chamber-dr-standard-life-sl-and-dr-extended-life-el-pacemakers-and-visionist-cardiac-resynchronization-therapy-pacemakers-crt-ps",
+      "published": "2025-09-10T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Imported Ayurvedic products found to contain dangerous heavy metals",
+      "summary": "We continue to receive reports of lead poisoning linked to imported or unregistered Ayurvedic medicines contaminated with heavy metals.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/imported-ayurvedic-products-found-contain-dangerous-heavy-metals",
+      "published": "2025-09-09T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "MDCG 2024-14 - rev.1 - Guidance on the implementation of the Master UDI-DI solution for contact lenses (August 2025)",
+      "summary": "MDCG 2024-14 - rev.1 - Guidance on the implementation of the Master UDI-DI solution for contact lenses (August 2025)",
+      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2024-14-rev1-guidance-implementation-master-udi-di-solution-contact-lenses-august-2025-2025-08-26_en",
+      "published": "2025-08-26T09:12:14+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Adoption of Commission Delegated Regulation (EU) 2025/788 amending Delegated Regulation (EU) 2023/2197 as regards the date of application",
+      "summary": "Adoption of Commission Delegated Regulation (EU) 2025/788 amending Delegated Regulation (EU) 2023/2197 as regards the date of application",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations_en#Delegated",
+      "published": "2025-07-29T09:42:12+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "MDCG 2025-7 - Position Paper: Timelines of implementation of ‘Master UDI-DI’ to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
+      "summary": "MDCG 2025-7 - Position Paper: Timelines of implementation of ‘Master UDI-DI’ to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
+      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-7-position-paper-timelines-implementation-master-udi-di-contact-lenses-and-spectacle-2025-07-10_en",
+      "published": "2025-07-10T12:25:06+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Adoption of Decision (EU) 2025/1324 on expert panels in the field of medical devices",
+      "summary": "Adoption of Decision (EU) 2025/1324 on expert panels in the field of medical devices",
+      "link": "https://eur-lex.europa.eu/eli/dec_impl/2025/1324/oj/eng",
+      "published": "2025-07-08T09:52:27+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "MDCG 2025-6 - FAQ on Interplay between the Medical Devices Regulation & In vitro Diagnostic Medical Devices Regulation and the Artificial Intelligence Act (June 2025)",
+      "summary": "MDCG 2025-6 - FAQ on Interplay between the Medical Devices Regulation (MDR) &amp; In vitro Diagnostic Medical Devices Regulation (IVDR) and the Artificial Intelligence Act (AIA) (June 2025)",
+      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-6-faq-interplay-between-medical-devices-regulation-vitro-diagnostic-medical-devices-2025-06-19_en",
+      "published": "2025-06-19T15:06:52+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "MDCG 2025-5 - Questions & Answers regarding performance studies of in vitro diagnostic medical devices under regulation (EU) 2017/746 (June 2025)",
+      "summary": "MDCG 2025-5 - Questions &amp; Answers regarding performance studies of in vitro diagnostic medical devices under regulation (EU) 2017/746 (June 2025)",
+      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-5-questions-answers-regarding-performance-studies-vitro-diagnostic-medical-devices-under-2025-06-18_en",
+      "published": "2025-06-18T07:36:21+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Update MDCG 2019-11 rev.1 - Qualification and classification of software - Regulation (EU) 2017/745 and Regulation (EU) 2017/746 (June 2025)",
+      "summary": "Update MDCG 2019-11 rev.1 - Qualification and classification of software - Regulation (EU) 2017/745 and Regulation (EU) 2017/746 (June 2025)",
+      "link": "https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en",
+      "published": "2025-06-17T14:06:12+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
     },
     {
       "title": "Adverse Event Terminology",
