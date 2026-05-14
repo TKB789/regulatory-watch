@@ -1,34 +1,34 @@
 #!/usr/bin/env python3
 """
-build_consumer_feeds.py  (v10 — EU alert grouping by <order> boundary)
----------------------------------------------------------------------
-The v9 dump revealed that the <notifications> XML is FLAT, not nested.
-Fields appear as sibling elements delimited by <order> tags:
+build_consumer_feeds.py  (v11 — real EU field names)
+----------------------------------------------------
+The v10 dump revealed the actual field names inside each EU alert.
+v11 uses them directly:
 
-    <notifications>
-      <order>1</order>
-      <caseNumber>SR/01326/26</caseNumber>
-      <category>Toys</category>
-      <product>Plastic figure</product>
-      ...
-      <order>2</order>          ← new alert starts here
-      <caseNumber>SR/01327/26</caseNumber>
-      ...
-    </notifications>
+  Field name              | What we use it for
+  ------------------------|--------------------------------------
+  product                 | Product name (was using <name> — usually empty)
+  brand                   | Brand (often empty, used when present)
+  type_numberofmodel      | Model number suffix in title
+  category                | Product category
+  risktype                | One-word hazard ("Burns", "Choking", "Chemical")
+  danger                  | Full hazard description (THE key text)
+  description             | Physical product description
+  measures                | Action taken (withdrawal, recall, ban, etc.)
+  level                   | "Serious risk" / "Other risk" → severity bucket
+  notifyingcountry        | Reporting EU country
+  countryoforigin         | Where product was made (often China)
+  casenumber              | Alert reference ID (e.g. SR/01326/26)
+  reference               | Direct URL to the alert detail page
+  barcode                 | Product barcode (for shopper verification)
 
-v9 incorrectly treated each child element as a separate alert, which is
-why we got 43,690 items with mostly empty fields and "(unnamed product)"
-titles.
+Display:
+  title:   "{caseNumber}: {brand — }{product}{(model)}"
+  summary: hazard description · origin · action · barcode
+  url:     uses the <reference> URL directly (no construction needed)
 
-v10 changes:
-  - Group sibling elements between <order> tags into alert dicts
-  - Switch from XPath-style field lookup to dict-based access
-  - Better diagnostic dump: shows first 3 alerts as field dicts plus the
-    raw first 50 sibling tags so we can verify the grouping
-
-Expected outcome: ~1,584 alerts × 25 weekly reports / dedup ≈ a few
-thousand real alerts, each with populated product, brand, risk, country
-fields.
+Diagnostic dump removed now that the schema is settled; we just log a
+single sample line per run so we can spot future schema changes.
 """
 
 import json
@@ -316,29 +316,27 @@ def fetch_eu_safety_gate():
     out = []
     logged_schema = False
 
-    TITLE_TAGS = ("name", "product", "productname", "title")
-    BRAND_TAGS = ("brand",)
-    CATEGORY_TAGS = ("category", "productcategory")
-    RISK_TAGS = ("risk", "risk_description", "riskdescription",
-                 "risktype", "typeofrisk")
-    ALERT_NUM_TAGS = ("casenumber", "reference", "alertnumber",
-                      "notificationnumber")
-    COUNTRY_TAGS = ("notifyingcountry", "country", "notifyingauthority")
-    ORIGIN_TAGS = ("countryoforigin", "origincountry", "originatingcountry",
-                   "origin")
-    DESC_TAGS = ("description", "productdescription", "details",
-                 "warningdescription", "measures_description",
-                 "measuresdescription")
-    MODEL_TAGS = ("type_numberofmodel", "type", "model")
+    # v11 — confirmed field names from real Safety Gate weekly XML:
+    #   barcode, batchnumber, brand, casenumber, category, companyrecallcode,
+    #   countryoforigin, danger, description, level, measures, name,
+    #   notifyingcountry, order, pictures, product, productiondates,
+    #   reference, risktype, type, type_numberofmodel, urlrecall
 
-    def first_text_of(parent, *tag_names):
-        wanted = {t.lower() for t in tag_names}
-        for el in parent.iter():
-            if isinstance(el.tag, str) and el.tag.lower() in wanted:
-                txt = (el.text or "").strip()
-                if txt:
-                    return txt
+    def get_field(alert_dict, *names):
+        for n in names:
+            v = alert_dict.get(n.lower(), "")
+            if v:
+                return v
         return ""
+
+    def eu_level_severity(level_text):
+        """Map the EU 'level' field to our severity buckets."""
+        lt = (level_text or "").lower()
+        if "serious" in lt:
+            return "high"
+        if "other" in lt:
+            return "low"
+        return "medium"
 
     for d, rid, original_url in recent:
         detail_url = original_url or EU_DETAIL_TEMPLATE.format(rid=rid)
@@ -357,17 +355,7 @@ def fetch_eu_safety_gate():
         strip_namespaces(root)
 
         # The XML structure inside <notifications> is FLAT — not nested per
-        # alert. Fields appear as siblings, delimited by <order> tags:
-        #     <order>1</order>
-        #     <caseNumber>SR/01326/26</caseNumber>
-        #     <category>Toys</category>
-        #     <product>Plastic figure</product>
-        #     ...
-        #     <order>2</order>          ← new alert starts
-        #     <caseNumber>SR/01327/26</caseNumber>
-        #     ...
-        # So we group by <order> boundaries to reconstruct each alert as a
-        # dict of field_name -> value.
+        # alert. Fields appear as siblings, delimited by <order> tags.
         alerts = []
         for notif_block in root.iter("notifications"):
             current = None
@@ -382,10 +370,7 @@ def fetch_eu_safety_gate():
                     current = {"order": text}
                 else:
                     if current is None:
-                        # Stray tag before first <order> — start a phantom alert
                         current = {}
-                    # Some fields appear multiple times (e.g. multiple risks).
-                    # Concatenate with " | " to preserve them all.
                     if tag in current and current[tag]:
                         current[tag] = current[tag] + " | " + text if text else current[tag]
                     else:
@@ -397,82 +382,88 @@ def fetch_eu_safety_gate():
             continue
 
         if not logged_schema:
-            print(f"\n  [EU Safety Gate] === ALERT FIELD DUMP (v10 grouping) ===")
-            print(f"  Report ID: {rid}    Date: {d.isoformat()}    Alerts in report: {len(alerts)}\n")
-
-            # Show first 3 alerts as field dicts (much more readable than raw XML)
-            for idx, a in enumerate(alerts[:3]):
-                print(f"  --- ALERT #{idx + 1} ({len(a)} fields) ---")
-                for k in sorted(a.keys()):
-                    v = a[k] or ""
-                    v_display = v[:120] if v else "(empty)"
-                    print(f"    {k}: {v_display}")
-                print()
-
-            # Also dump the first 50 sibling tags in document order so we
-            # can confirm the grouping is correct
-            print(f"  --- FIRST 50 SIBLINGS IN DOCUMENT ORDER (for verification) ---")
-            count = 0
-            for notif_block in root.iter("notifications"):
-                for child in list(notif_block):
-                    if not isinstance(child.tag, str):
-                        continue
-                    text = (child.text or "").strip()[:60]
-                    print(f"    <{child.tag}>{text}</{child.tag}>")
-                    count += 1
-                    if count >= 50:
-                        break
-                if count >= 50:
-                    break
-            print(f"  === END DUMP ===\n")
+            print(f"\n  [EU Safety Gate] v11 parsing — {len(alerts)} alerts in report {rid}")
+            # One-line summary of the first alert so we can confirm fields look right
+            a = alerts[0]
+            print(f"    sample alert: product={a.get('product','')[:40]!r} | "
+                  f"risktype={a.get('risktype','')!r} | "
+                  f"level={a.get('level','')!r} | "
+                  f"notifyingcountry={a.get('notifyingcountry','')!r} | "
+                  f"countryoforigin={a.get('countryoforigin','')[:30]!r}")
             logged_schema = True
 
-        # Helper to read a field from the alert dict trying multiple aliases
-        def get_field(alert_dict, *names):
-            for n in names:
-                v = alert_dict.get(n.lower(), "")
-                if v:
-                    return v
-            return ""
-
         for alert in alerts:
-            alert_num = get_field(alert, *ALERT_NUM_TAGS)
-            product_name = get_field(alert, *TITLE_TAGS) or "(unnamed product)"
-            brand = get_field(alert, *BRAND_TAGS)
-            category = get_field(alert, *CATEGORY_TAGS) or "Consumer Product"
-            risk = get_field(alert, *RISK_TAGS)
-            country = get_field(alert, *COUNTRY_TAGS) or "EU"
-            origin = get_field(alert, *ORIGIN_TAGS)
-            description = get_field(alert, *DESC_TAGS)
-            model = get_field(alert, *MODEL_TAGS)
+            # === EXTRACT FIELDS using the real EU schema ===
+            case_number = get_field(alert, "casenumber")
+            product = get_field(alert, "product")
+            brand = get_field(alert, "brand")
+            model = get_field(alert, "type_numberofmodel")
+            category = get_field(alert, "category") or "Consumer Product"
+            risktype = get_field(alert, "risktype")        # one-word hazard
+            danger = get_field(alert, "danger")            # full hazard description
+            description = get_field(alert, "description")  # physical product description
+            measures = get_field(alert, "measures")
+            level = get_field(alert, "level")              # "Serious risk", "Other risk", etc.
+            notifying = get_field(alert, "notifyingcountry")
+            origin = get_field(alert, "countryoforigin")
+            barcode = get_field(alert, "barcode")
+            reference_url = get_field(alert, "reference")  # already a complete URL!
 
-            display_title = product_name
-            if brand and brand.lower() not in product_name.lower():
-                display_title = f"{brand} {product_name}"
-            if alert_num:
-                display_title = f"{alert_num} — {display_title}"
+            # === BUILD DISPLAY TITLE ===
+            # Real product names live in <product>. Brand is usually empty.
+            # Fall back order: product → brand → name → generic
+            title_main = product or brand or get_field(alert, "name") or "(unnamed)"
+            if brand and brand.lower() not in title_main.lower():
+                title_main = f"{brand} — {title_main}"
+            if model and model.lower() not in title_main.lower():
+                title_main = f"{title_main} ({model})"
+            display_title = (f"{case_number}: {title_main}" if case_number else title_main)[:200]
 
+            # === BUILD SUMMARY ===
+            # Lead with the hazard description, then product description, then origin.
             summary_bits = []
-            if description:
+            if danger:
+                summary_bits.append(danger)
+            elif description:
                 summary_bits.append(description)
-            if model:
-                summary_bits.append(f"Model: {model}")
+            else:
+                # Use both if neither was prioritized
+                if description:
+                    summary_bits.append(description)
             if origin:
                 summary_bits.append(f"Origin: {origin}")
-            summary = " · ".join(summary_bits)[:400]
+            if measures:
+                # Strip the long "Type of economic operator..." preamble
+                m = measures
+                if "Category of measure(s):" in m:
+                    m = m.split("Category of measure(s):", 1)[1].strip()
+                summary_bits.append(f"Action: {m[:120]}")
+            if barcode:
+                summary_bits.append(f"Barcode: {barcode}")
+            summary = " · ".join(summary_bits)[:500]
+
+            # === COUNTRY / HAZARD / SEVERITY ===
+            country_display = notifying or "EU"
+            hazard_display = risktype or ""
+            severity = eu_level_severity(level)
+
+            # === URL: prefer the EU's own <reference> URL ===
+            item_url = reference_url
+            if not item_url:
+                item_url = (f"https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/{rid}"
+                            if rid else "https://ec.europa.eu/safety-gate-alerts/")
 
             out.append({
-                "id": stable_id("eu", rid, alert_num, product_name),
+                "id": stable_id("eu", case_number, product, rid),
                 "source": "EU Safety Gate",
-                "country": country[:60],
+                "country": country_display[:60],
                 "category": category[:60],
-                "hazard": risk[:80],
-                "severity": eu_severity(risk),
+                "hazard": hazard_display[:80],
+                "severity": severity,
                 "date": d.isoformat(),
-                "title": display_title[:200],
+                "title": display_title,
                 "summary": summary,
-                "url": (f"https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/{rid}"
-                        if rid else "https://ec.europa.eu/safety-gate-alerts/"),
+                "url": item_url,
             })
 
     return out
