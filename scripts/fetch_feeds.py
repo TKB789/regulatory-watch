@@ -261,7 +261,7 @@ FEEDS = [
         "name": "TGA news & alerts",
         "feed_id": "tga-news",
         "label": "TGA News",
-        "url": "https://www.tga.gov.au/rss.xml",
+        "url": "https://www.tga.gov.au/feeds/alert.xml",
     },
     # --- EMA News (replaces former EU Commission health feed) ---
     # The original "health.ec.europa.eu/rss_en" URL was unverifiable. EMA's
