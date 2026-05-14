@@ -1334,7 +1334,6 @@
   .agency-tag.anvisa { background: #15803d; }
   .agency-tag.fr { background: #65a30d; }    /* olive lime — gov green */
   .agency-tag.imdrf { background: #92400e; } /* amber/brown */
-  .agency-tag.who { background: #0891b2; }   /* WHO cyan */
   .agency-tag.sfda { background: #a21caf; }
   .agency-tag.mfds { background: #1d4ed8; }
   .upd-body h3 {
@@ -1714,7 +1713,7 @@
     <div class="tagline">Medical Device Intelligence</div>
   </div>
   <div class="mast-meta">
-    <span class="mm-item"><span class="pulse"></span><strong>LIVE</strong> · 14 agencies</span>
+    <span class="mm-item"><span class="pulse"></span><strong>LIVE</strong> · 13 agencies</span>
     <span class="mm-dot">·</span>
     <span class="mm-item" id="datestamp">—</span>
     <span class="mm-dot">·</span>
@@ -1728,7 +1727,7 @@
 <div class="coverage-banner">
   <span class="dot">▌</span>
   <div style="flex:1;">
-    <strong>Scope:</strong> Live updates from major medical-device regulators worldwide — FDA, EU Commission, MHRA, Health Canada, TGA, plus IMDRF and WHO.
+    <strong>Scope:</strong> Live updates from major medical-device regulators worldwide — FDA, EU Commission, MHRA, Health Canada, TGA, plus IMDRF.
     <button class="toggle" onclick="var d=document.getElementById('cov-detail'); var open=d.classList.toggle('open'); d.closest('.coverage-banner').classList.toggle('expanded', open); this.textContent = open ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
     <div class="coverage-detail" id="cov-detail">
       <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or only manually-listed in the Agencies tab (○).</p>
@@ -1746,7 +1745,6 @@
           <li class="yes"><strong>Health Canada</strong> — recalls & safety</li>
           <li class="yes"><strong>TGA</strong> — Australia news & alerts</li>
           <li class="yes"><strong>IMDRF</strong> — international harmonization</li>
-          <li class="yes"><strong>WHO</strong> — medical product alerts</li>
         </ul>
         <ul>
           <li class="no"><strong>PMDA</strong> (Japan) — no public feed</li>
@@ -1773,7 +1771,6 @@
     <button class="tab-btn" data-tab="federal-register">Federal Register <span class="count">0</span></button>
     <button class="tab-btn" data-tab="imdrf-wg">IMDRF Working Groups <span class="count">0</span></button>
     <button class="tab-btn" data-tab="imdrf-consult">IMDRF Consultations <span class="count">0</span></button>
-    <button class="tab-btn" data-tab="who-alerts">WHO Alerts <span class="count">0</span></button>
     <button class="tab-btn" data-tab="mhra-news">MHRA News <span class="count">0</span></button>
     <button class="tab-btn" data-tab="uk-alerts">UK Drug &amp; Device Alerts <span class="count">0</span></button>
     <button class="tab-btn" data-tab="hc-recalls">Health Canada <span class="count">0</span></button>
@@ -1863,15 +1860,6 @@
       <p class="desc">Items from the IMDRF Consultations RSS feed.</p>
     </div>
     <div id="updates-imdrf-consult"></div>
-  </div>
-
-  <div class="tab-section" id="tab-who-alerts">
-    <div class="section-header">
-      <div class="kicker">▌ Source</div>
-      <h1>WHO <em>Alerts</em></h1>
-      <p class="desc">WHO doesn't publish a dedicated medical-products RSS feed. This tab shows any archived items and is preserved for manual uploads. For live alerts, visit <a href="https://www.who.int/teams/regulation-prequalification/incidents-and-SF" target="_blank" rel="noopener">WHO Incidents and SF</a>.</p>
-    </div>
-    <div id="updates-who-alerts"></div>
   </div>
 
   <div class="tab-section" id="tab-mhra-news">
@@ -2446,7 +2434,6 @@ const CATEGORY_FALLBACKS = {
     { agency: 'HC',   region: 'Canada',         url: 'https://recalls-rappels.canada.ca/en' },
     { agency: 'TGA',  region: 'Australia',      url: 'https://www.tga.gov.au/safety/alerts' },
     { agency: 'EMA',  region: 'European Union', url: 'https://health.ec.europa.eu/medical-devices-sector/news_en' },
-    { agency: 'WHO',  region: 'International',  url: 'https://www.who.int/teams/regulation-prequalification/incidents-and-SF/full-list-of-medical-product-alerts' },
   ],
   postmarket: [
     { agency: 'FDA',  region: 'United States',  url: 'https://www.fda.gov/medical-devices/medical-device-safety' },
@@ -2840,7 +2827,6 @@ const TAB_SOURCES = {
   'federal-register': { feed_ids: ['federal-register'], sources: ['Federal Register — FDA documents'],                   category: 'prepub' },
   'imdrf-wg':         { feed_ids: ['imdrf-wg'],         sources: ['IMDRF Working Groups'],                               category: 'guidance' },
   'imdrf-consult':    { feed_ids: ['imdrf-consult'],    sources: ['IMDRF Consultations'],                                category: 'guidance' },
-  'who-alerts':       { feed_ids: ['who-alerts'],       sources: ['WHO Medical Product Alerts'],                         category: 'recall' },
   'mhra-news':        { feed_ids: ['mhra-news'],        sources: ['MHRA news & alerts'],                                 category: 'postmarket' },
   'uk-alerts':        { feed_ids: ['uk-alerts'],        sources: ['UK Drug & Medical Device Alerts'],                    category: 'recall' },
   'hc-recalls':       { feed_ids: ['hc-recalls'],       sources: ['Health Canada Medical Device Recalls', 'Health Canada recalls & safety alerts', 'Health Canada – Medical devices recalls & alerts', 'Health Canada — Medical devices recalls & alerts'],              category: 'recall' },
