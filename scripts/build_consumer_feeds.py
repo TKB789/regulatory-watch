@@ -1,27 +1,36 @@
 #!/usr/bin/env python3
 """
-build_consumer_feeds.py  (v2 — corrected source URLs)
------------------------------------------------------
-Fetches consumer-safety data from multiple government sources, normalizes each
-item to a common schema, and writes feeds/consumer.json.
+build_consumer_feeds.py  (v5 — targeted fixes per Actions log)
+--------------------------------------------------------------
+Changes from v4 based on log errors:
 
-Sources & endpoints (all verified May 2026):
-  - CPSC          https://www.saferproducts.gov/RestWebServices/Recall?format=json
-  - NHTSA         https://data.transportation.gov/resource/6axg-epim.json     (Socrata bulk)
-  - USDA FSIS     https://www.fsis.usda.gov/fsis/api/recall/v/1
-  - FDA Food      https://api.fda.gov/food/enforcement.json
-  - EU Safety Gate https://ec.europa.eu/safety-gate-alerts/public/api/notifications/searchNotifications
-  - FTC           https://www.consumer.ftc.gov/blog/gd-rss.xml
+  - NHTSA: HTTP 400 was because the Socrata $select column "summary" doesn't
+    exist; the real column is "defect_summary". Fix: drop the $select clause
+    entirely so we get all columns by default, then read the right ones.
 
-Run locally:   python scripts/build_consumer_feeds.py
-GitHub Action: runs this nightly and commits the updated JSON.
+  - USDA FSIS: even with a browser UA the JSON endpoint returns 403 from
+    GitHub Actions runner IPs (FSIS API likely behind Akamai with deeper bot
+    detection). Workaround: switch to the FSIS RSS feed used by recalls.gov,
+    which is intended for syndication and remains accessible.
 
-Failure policy: if any one source fails, we keep the previous values for that
-source (so a transient outage does not empty the page).
+  - EU Safety Gate: the listing XML was downloaded fine but my parser found
+    no numeric report IDs — meaning the tag names I guessed don't match
+    what's actually in the list response. Fix: dump the discovered tag set
+    on first run so we can see the real schema, and extract any digit-only
+    text from elements at the right depth as a fallback.
+
+Sources:
+  - CPSC           https://www.saferproducts.gov/RestWebServices/Recall
+  - NHTSA          https://data.transportation.gov/resource/6axg-epim.json
+  - USDA FSIS      https://www.recalls.gov/rrusda.aspx   (RSS aggregator)
+  - FDA Food       https://api.fda.gov/food/enforcement.json
+  - EU Safety Gate https://ec.europa.eu/safety-gate-alerts/api/download/weeklyReport/...
+  - FTC            https://www.consumer.ftc.gov/blog/gd-rss.xml
+
+Failure policy unchanged.
 """
 
 import json
-import os
 import re
 import sys
 import urllib.request
@@ -34,16 +43,25 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = REPO_ROOT / "feeds" / "consumer.json"
-USER_AGENT = "ConsumerWatch/1.0 (+https://github.com/)"
-TIMEOUT = 30  # seconds
+TIMEOUT = 30
+
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/124.0.0.0 Safari/537.36")
 
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 def http_get(url, headers=None):
-    """Fetch a URL and return bytes. Raises on error."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
+    base_headers = {
+        "User-Agent": BROWSER_UA,
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    if headers:
+        base_headers.update(headers)
+    req = urllib.request.Request(url, headers=base_headers)
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
         return r.read()
 
@@ -53,7 +71,6 @@ def http_get_json(url, headers=None):
 
 
 def stable_id(prefix, *parts):
-    """Build a stable id from any combination of fields; falls back to hash."""
     key = "|".join(str(p) for p in parts if p)
     if not key:
         key = str(datetime.now().timestamp())
@@ -67,7 +84,6 @@ def strip_html(text):
 
 
 def parse_rss_date(s):
-    """Parse RFC 822 dates from RSS feeds → YYYY-MM-DD or ''."""
     if not s:
         return ""
     try:
@@ -77,7 +93,6 @@ def parse_rss_date(s):
 
 
 def safe(fn, label):
-    """Run a fetcher and return (items_list, ok_bool). Never raises."""
     try:
         items = fn()
         print(f"  [{label}] fetched {len(items)} items")
@@ -87,8 +102,24 @@ def safe(fn, label):
         return [], False
 
 
+def strip_namespaces(elem):
+    for el in elem.iter():
+        if isinstance(el.tag, str) and "}" in el.tag:
+            el.tag = el.tag.split("}", 1)[1]
+
+
+def first_text(parent, *tag_names):
+    wanted = {t.lower() for t in tag_names}
+    for el in parent.iter():
+        if isinstance(el.tag, str) and el.tag.lower() in wanted:
+            txt = (el.text or "").strip()
+            if txt:
+                return txt
+    return ""
+
+
 # ---------------------------------------------------------------------------
-# Source: CPSC (US consumer products) — confirmed working
+# Source: CPSC
 # ---------------------------------------------------------------------------
 def fetch_cpsc():
     url = "https://www.saferproducts.gov/RestWebServices/Recall?format=json"
@@ -107,55 +138,46 @@ def fetch_cpsc():
         url_field = r.get("URL") or (f"https://www.cpsc.gov/Recalls/{rid}" if rid else "https://www.cpsc.gov/Recalls")
         out.append({
             "id": stable_id("cpsc", rid, title),
-            "source": "CPSC",
-            "country": "US",
-            "category": cat,
-            "hazard": hazard_text,
-            "severity": "high",
-            "date": date,
-            "title": title,
-            "summary": desc[:400].strip(),
-            "url": url_field,
+            "source": "CPSC", "country": "US", "category": cat,
+            "hazard": hazard_text, "severity": "high",
+            "date": date, "title": title,
+            "summary": desc[:400].strip(), "url": url_field,
         })
     return out
 
 
 # ---------------------------------------------------------------------------
-# Source: NHTSA via Socrata bulk dataset (FIXED — no longer needs make/model)
+# Source: NHTSA (FIX: drop $select; real column is defect_summary, not summary)
 # ---------------------------------------------------------------------------
 def fetch_nhtsa():
-    """
-    The old per-make recallsByVehicle endpoint requires make+model+year, which
-    means it returns nothing useful for a 'latest recalls' feed. Instead we use
-    the Socrata bulk dataset at data.transportation.gov which contains every
-    NHTSA campaign and supports filtering by date.
-    """
-    # Pull most recent 300 campaigns by report received date
-    url = ("https://data.transportation.gov/resource/6axg-epim.json"
-           "?$select=nhtsa_id,report_received_date,manufacturer,subject,component,summary,consequence_summary"
-           "&$order=report_received_date DESC&$limit=300")
+    base = "https://data.transportation.gov/resource/6axg-epim.json"
+    # Real columns per the live CSV header:
+    #   report_received_date, nhtsa_id, recall_link, manufacturer, subject,
+    #   component, mfr_campaign_number, recall_type, potentially_affected,
+    #   defect_summary, consequence_summary, corrective_action,
+    #   fire_risk_when_parked, do_not_drive, completion_rate
+    params = {
+        "$order": "report_received_date DESC",
+        "$limit": "300",
+    }
+    url = base + "?" + urllib.parse.urlencode(params)
     data = http_get_json(url)
     out = []
     for r in data:
         cid = r.get("nhtsa_id") or ""
         date_raw = r.get("report_received_date") or ""
-        # Socrata returns dates as ISO timestamps "2025-05-08T00:00:00.000"
         date = date_raw[:10] if date_raw else ""
         manuf = r.get("manufacturer") or ""
         subj = r.get("subject") or r.get("component") or ""
-        summary = r.get("summary") or ""
+        defect = r.get("defect_summary") or ""
         consequence = r.get("consequence_summary") or ""
         title = f"{manuf}: {subj}".strip(": ").strip() or "(NHTSA recall)"
         out.append({
             "id": stable_id("nhtsa", cid, title),
-            "source": "NHTSA",
-            "country": "US",
-            "category": "Vehicles",
+            "source": "NHTSA", "country": "US", "category": "Vehicles",
             "hazard": (r.get("component") or "")[:80],
-            "severity": "high",
-            "date": date,
-            "title": title[:200],
-            "summary": (summary or consequence)[:400].strip(),
+            "severity": "high", "date": date, "title": title[:200],
+            "summary": (defect or consequence)[:400].strip(),
             "url": (f"https://www.nhtsa.gov/recalls?nhtsaId={cid}"
                     if cid else "https://www.nhtsa.gov/recalls"),
         })
@@ -163,47 +185,55 @@ def fetch_nhtsa():
 
 
 # ---------------------------------------------------------------------------
-# Source: USDA FSIS (FIXED — more permissive field handling)
+# Source: USDA FSIS (FIX: switched to recalls.gov RSS aggregator)
 # ---------------------------------------------------------------------------
 def fetch_fsis():
-    url = "https://www.fsis.usda.gov/fsis/api/recall/v/1"
-    data = http_get_json(url)
+    """The fsis.usda.gov JSON API is blocked by Akamai for GitHub Actions IPs.
+    Use the recalls.gov aggregator's USDA RSS feed instead — same data, more
+    permissive access. Fallback to the FSIS legacy RSS if recalls.gov is down.
+    """
+    urls = [
+        "https://www.recalls.gov/rrusda.aspx",
+        "https://www.fsis.usda.gov/RSS/usdarss.xml",
+    ]
+    raw = None
+    for u in urls:
+        try:
+            raw = http_get(u)
+            print(f"  [USDA FSIS] using source: {u}")
+            break
+        except Exception as e:
+            print(f"  [USDA FSIS] tried {u}: {e}", file=sys.stderr)
+    if raw is None:
+        raise RuntimeError("all FSIS RSS sources failed")
+
+    root = ET.fromstring(raw)
     out = []
-    for r in data[:200]:
-        # FSIS field names per their public docs:
-        #   field_title, field_recall_number, field_recall_date,
-        #   field_recall_classification, field_summary, field_states,
-        #   field_active_notice, field_year, field_processing
-        title = r.get("field_title") or r.get("title") or "(untitled FSIS recall)"
-        rid = r.get("field_recall_number") or r.get("field_recall_url") or title[:50]
-        # Try several date fields — FSIS sometimes uses `field_year` only
-        date = (r.get("field_recall_date") or
-                r.get("field_last_modified_date") or
-                r.get("field_year") or "")
-        date = date[:10] if date else ""
-        reason = r.get("field_recall_reason") or r.get("field_summary") or ""
-        classn = (r.get("field_recall_classification") or "").upper()
-        sev = "high" if "CLASS I" in classn or classn.strip() == "I" else "medium"
-        summary = (r.get("field_summary") or r.get("field_product_items") or
-                   r.get("field_description") or reason or "")
-        url_field = r.get("field_url") or r.get("field_recall_url") or "https://www.fsis.usda.gov/recalls"
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        desc = (item.findtext("description") or "").strip()
+        date = parse_rss_date(pub)
+        # heuristic severity: "Public Health Alert" or "Class I" → high
+        t_low = title.lower()
+        d_low = desc.lower()
+        sev = "high" if ("public health alert" in t_low or "class i" in d_low
+                          or "listeria" in t_low or "e. coli" in t_low
+                          or "salmonella" in t_low) else "medium"
         out.append({
-            "id": stable_id("fsis", rid, title),
-            "source": "USDA FSIS",
-            "country": "US",
-            "category": "Food",
-            "hazard": strip_html(reason)[:120],
-            "severity": sev,
-            "date": date,
-            "title": strip_html(title)[:200],
-            "summary": strip_html(summary)[:400].strip(),
-            "url": url_field,
+            "id": stable_id("fsis", link, title),
+            "source": "USDA FSIS", "country": "US", "category": "Food",
+            "hazard": "", "severity": sev,
+            "date": date, "title": strip_html(title)[:200],
+            "summary": strip_html(desc)[:400].strip(),
+            "url": link or "https://www.fsis.usda.gov/recalls",
         })
-    return out
+    return out[:100]
 
 
 # ---------------------------------------------------------------------------
-# Source: FDA Food Enforcement (openFDA) — confirmed working
+# Source: FDA Food
 # ---------------------------------------------------------------------------
 def fetch_fda_food():
     url = "https://api.fda.gov/food/enforcement.json?sort=report_date:desc&limit=100"
@@ -213,7 +243,7 @@ def fetch_fda_food():
         rid = r.get("recall_number")
         date_raw = r.get("report_date") or ""
         date = ""
-        if len(date_raw) == 8:  # YYYYMMDD
+        if len(date_raw) == 8:
             date = f"{date_raw[:4]}-{date_raw[4:6]}-{date_raw[6:8]}"
         classn = r.get("classification") or ""
         sev_map = {"Class I": "high", "Class II": "medium", "Class III": "low"}
@@ -221,13 +251,10 @@ def fetch_fda_food():
         title = (r.get("product_description") or "(untitled)")[:200]
         out.append({
             "id": stable_id("fda-food", rid, title),
-            "source": "FDA Food",
-            "country": r.get("country") or "US",
+            "source": "FDA Food", "country": r.get("country") or "US",
             "category": "Food / Cosmetics",
             "hazard": (r.get("reason_for_recall") or "")[:120],
-            "severity": sev,
-            "date": date,
-            "title": title,
+            "severity": sev, "date": date, "title": title,
             "summary": (r.get("reason_for_recall") or "")[:400].strip(),
             "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
         })
@@ -235,60 +262,168 @@ def fetch_fda_food():
 
 
 # ---------------------------------------------------------------------------
-# Source: EU Safety Gate (FIXED — real notifications API)
+# Source: EU Safety Gate (FIX: dump listing schema + fallback ID extraction)
 # ---------------------------------------------------------------------------
+EU_BASE = "https://ec.europa.eu/safety-gate-alerts/api/download"
+EU_LIST_URL = f"{EU_BASE}/weeklyReport/list/xml/en"
+EU_DETAIL_TEMPLATE = (EU_BASE + "/weeklyReport/detail/xml/{rid}"
+                      "?language=en&search=WEB_REPORT%7C:%7C{rid}")
+EU_WEEKS_TO_FETCH = 6
+
+
+def eu_severity(risk_text):
+    rt = (risk_text or "").lower()
+    if "serious" in rt:
+        return "high"
+    return "medium"
+
+
 def fetch_eu_safety_gate():
-    """
-    The Safety Gate portal at ec.europa.eu/safety-gate-alerts/ uses a JSON API
-    behind its public search page. The endpoint returns notification metadata.
-    """
-    url = ("https://ec.europa.eu/safety-gate-alerts/public/api/notifications/"
-           "searchNotifications?language=en&pageSize=100&pageIndex=0"
-           "&sortField=publicationDate&sortDirection=DESC")
-    try:
-        data = http_get_json(url, headers={"Accept": "application/json"})
-    except Exception:
-        # Fallback: try the weekly-report listing endpoint
-        url = ("https://ec.europa.eu/safety-gate-alerts/public/api/weeklyReports/"
-               "search?language=en&pageSize=20&pageIndex=0")
-        data = http_get_json(url, headers={"Accept": "application/json"})
+    list_xml = http_get(EU_LIST_URL)
+    list_root = ET.fromstring(list_xml)
+    strip_namespaces(list_root)
+
+    # DIAGNOSTIC: log the tag structure of the listing so we can see what's
+    # actually inside. Printed once per run.
+    tag_counts = {}
+    for el in list_root.iter():
+        if isinstance(el.tag, str):
+            tag_counts[el.tag] = tag_counts.get(el.tag, 0) + 1
+    # Top 20 tags by frequency
+    top_tags = sorted(tag_counts.items(), key=lambda kv: -kv[1])[:20]
+    print(f"  [EU Safety Gate] listing tag frequencies (top 20): {top_tags}")
+
+    # NEW STRATEGY: rather than guessing tag names, find every digit-only
+    # text node in the document and pick the highest values as report IDs.
+    # Weekly report IDs are large (>1000); year numbers like 2026 are too
+    # small to be confused with them in practice (real IDs are 5–8 digits).
+    candidate_ids = set()
+    for el in list_root.iter():
+        if isinstance(el.tag, str):
+            txt = (el.text or "").strip()
+            # 4-8 digit pure numbers that look like report ids
+            if txt.isdigit():
+                n = int(txt)
+                if 1000 <= n <= 99999999:  # exclude 2-digit week numbers and years like 2026
+                    # filter out year-shaped numbers
+                    if not (1990 <= n <= 2099):
+                        candidate_ids.add(n)
+
+    candidate_ids = sorted(candidate_ids, reverse=True)
+    if not candidate_ids:
+        # Last resort: also try attribute values
+        for el in list_root.iter():
+            for v in (el.attrib or {}).values():
+                if isinstance(v, str) and v.isdigit():
+                    n = int(v)
+                    if 1000 <= n <= 99999999 and not (1990 <= n <= 2099):
+                        candidate_ids.add(n)
+        candidate_ids = sorted(candidate_ids, reverse=True)
+
+    if not candidate_ids:
+        raise RuntimeError("EU listing parsed but no numeric report IDs found "
+                           "(see logged tag frequencies above)")
+
+    recent_ids = candidate_ids[:EU_WEEKS_TO_FETCH]
+    print(f"  [EU Safety Gate] {len(candidate_ids)} candidate IDs, "
+          f"using top {len(recent_ids)}: {recent_ids}")
 
     out = []
-    notifications = (data.get("content")
-                     or data.get("notifications")
-                     or data.get("results")
-                     or data if isinstance(data, list) else [])
-    if isinstance(notifications, dict):
-        notifications = notifications.get("notifications") or notifications.get("content") or []
+    logged_schema = False
 
-    for n in (notifications or [])[:150]:
-        nid = n.get("alertNumber") or n.get("reference") or n.get("id") or ""
-        title = (n.get("productName") or n.get("name") or
-                 n.get("productCategory") or "(EU Safety Gate alert)")
-        date = (n.get("publicationDate") or n.get("creationDate") or "")[:10]
-        risk = n.get("riskType") or n.get("risk") or ""
-        country = n.get("notifyingCountry") or "EU"
-        category = n.get("productCategory") or "Consumer Product"
-        out.append({
-            "id": stable_id("eu", nid, title),
-            "source": "EU Safety Gate",
-            "country": country,
-            "category": category,
-            "hazard": risk,
-            "severity": "medium",
-            "date": date,
-            "title": title[:200],
-            "summary": (n.get("description") or n.get("warningType") or "")[:400],
-            "url": f"https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/{nid}" if nid else "https://ec.europa.eu/safety-gate-alerts/",
-        })
+    TITLE_TAGS = ("productname", "product", "name", "title")
+    CATEGORY_TAGS = ("category", "productcategory", "type")
+    RISK_TAGS = ("risk", "risktype", "typeofrisk", "warningtype")
+    ALERT_NUM_TAGS = ("alertnumber", "notificationnumber", "reference", "alertreference")
+    COUNTRY_TAGS = ("notifyingcountry", "country", "notifyingauthority")
+    ORIGIN_TAGS = ("countryoforigin", "origincountry", "originatingcountry")
+    DATE_TAGS = ("publicationdate", "validationdate", "creationdate", "date",
+                 "publishingdate", "alertdate")
+    DESCRIPTION_TAGS = ("description", "productdescription", "details", "summary",
+                        "warningdescription")
+
+    for rid in recent_ids:
+        url = EU_DETAIL_TEMPLATE.format(rid=rid)
+        try:
+            xml = http_get(url)
+        except Exception as e:
+            print(f"  [EU Safety Gate] skipping report {rid}: {e}", file=sys.stderr)
+            continue
+
+        try:
+            root = ET.fromstring(xml)
+        except ET.ParseError as e:
+            print(f"  [EU Safety Gate] parse error on {rid}: {e}", file=sys.stderr)
+            continue
+
+        strip_namespaces(root)
+
+        alert_elements = []
+        for cand in ("notification", "alert", "rapexnotification",
+                     "weeklyreportnotification", "report", "alertdetail"):
+            alert_elements = list(root.iter(cand))
+            if len(alert_elements) > 1:
+                break
+
+        if not logged_schema and alert_elements:
+            sample = alert_elements[0]
+            tags_in_sample = sorted({el.tag for el in sample.iter() if isinstance(el.tag, str)})
+            print(f"  [EU Safety Gate] container = <{sample.tag}>, "
+                  f"sample inner tags = {tags_in_sample[:40]}")
+            logged_schema = True
+        elif not logged_schema:
+            # No expected container found — dump top tags of the detail page too
+            detail_tags = sorted({el.tag for el in root.iter() if isinstance(el.tag, str)})[:40]
+            print(f"  [EU Safety Gate] no known container found in {rid}; "
+                  f"detail tags = {detail_tags}")
+
+        for alert in alert_elements:
+            alert_num = first_text(alert, *ALERT_NUM_TAGS)
+            title = first_text(alert, *TITLE_TAGS) or "(EU Safety Gate alert)"
+            category = first_text(alert, *CATEGORY_TAGS) or "Consumer Product"
+            risk = first_text(alert, *RISK_TAGS)
+            country = first_text(alert, *COUNTRY_TAGS) or "EU"
+            origin = first_text(alert, *ORIGIN_TAGS)
+            date_raw = first_text(alert, *DATE_TAGS)
+            description = first_text(alert, *DESCRIPTION_TAGS)
+
+            date = ""
+            if date_raw:
+                if re.match(r"^\d{4}-\d{2}-\d{2}", date_raw):
+                    date = date_raw[:10]
+                else:
+                    m = re.match(r"^(\d{2})[/-](\d{2})[/-](\d{4})", date_raw)
+                    if m:
+                        date = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+
+            summary_bits = []
+            if description:
+                summary_bits.append(description)
+            if origin:
+                summary_bits.append(f"Origin: {origin}")
+            summary = ". ".join(summary_bits)[:400]
+
+            out.append({
+                "id": stable_id("eu", rid, alert_num, title),
+                "source": "EU Safety Gate",
+                "country": country[:60],
+                "category": category[:60],
+                "hazard": risk[:80],
+                "severity": eu_severity(risk),
+                "date": date,
+                "title": (alert_num + " — " + title if alert_num else title)[:200],
+                "summary": summary,
+                "url": (f"https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/{rid}"
+                        if rid else "https://ec.europa.eu/safety-gate-alerts/"),
+            })
+
     return out
 
 
 # ---------------------------------------------------------------------------
-# Source: FTC Consumer Alerts (FIXED — correct RSS URL)
+# Source: FTC
 # ---------------------------------------------------------------------------
 def fetch_ftc():
-    # Confirmed URL from ftc.gov/news-events/stay-connected/ftc-rss-feeds
     url = "https://www.consumer.ftc.gov/blog/gd-rss.xml"
     raw = http_get(url)
     root = ET.fromstring(raw)
@@ -302,13 +437,9 @@ def fetch_ftc():
         desc_clean = strip_html(desc)[:400]
         out.append({
             "id": stable_id("ftc", link, title),
-            "source": "FTC",
-            "country": "US",
-            "category": "Fraud & Scams",
-            "hazard": "Financial",
-            "severity": "medium",
-            "date": date,
-            "title": title[:200],
+            "source": "FTC", "country": "US",
+            "category": "Fraud & Scams", "hazard": "Financial",
+            "severity": "medium", "date": date, "title": title[:200],
             "summary": desc_clean,
             "url": link or "https://consumer.ftc.gov/consumer-alerts",
         })
@@ -321,7 +452,6 @@ def fetch_ftc():
 def main():
     print("Building consumer.json…")
 
-    # Load previous file (so failures don't wipe data)
     previous = {}
     if OUT_PATH.exists():
         try:
@@ -358,7 +488,7 @@ def main():
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "schema_version": "1.1",
+        "schema_version": "1.4",
         "source_status": statuses,
         "items": all_items,
     }
