@@ -894,34 +894,82 @@
     color: inherit;
   }
 
-  /* SIBLING BAR — cross-link to Consumer Watch */
-  .sibling-bar {
+  /* ============= SITE SWITCHER (tabs at top of every page) ============= */
+  .site-switcher {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 12px;
-    padding: 10px 14px;
+    gap: 0;
     margin: 0 0 12px;
-    background: var(--paper-2);
-    border: 1px solid var(--rule);
-    border-left: 4px solid var(--accent-2);
+    border-bottom: 2px solid var(--rule);
+  }
+  .site-switcher a {
+    flex: 1;
+    padding: 12px 14px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--muted);
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
-    letter-spacing: 0.06em;
-    color: var(--ink);
-  }
-  .sibling-bar a {
-    color: var(--ink);
-    text-decoration: none;
-    border-bottom: 1px solid var(--ink);
-    font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    background: transparent;
+    transition: all 0.15s;
   }
-  .sibling-bar a:hover { color: var(--accent); border-color: var(--accent); }
-  .sibling-bar .arrow { color: var(--accent); font-weight: 700; }
+  .site-switcher a:hover { color: var(--ink); background: rgba(0,0,0,0.03); }
+  .site-switcher a.active {
+    color: var(--ink);
+    border-bottom-color: var(--accent);
+    font-weight: 700;
+    background: var(--paper-2);
+  }
+  .site-switcher a .label-sub {
+    display: block;
+    font-size: 9px;
+    font-weight: 400;
+    color: var(--muted);
+    margin-top: 2px;
+    letter-spacing: 0.05em;
+    text-transform: none;
+  }
+  .site-switcher a.active .label-sub { color: var(--ink); }
+
+  /* ============= BACK TO TOP BUTTON ============= */
+  .back-to-top {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    background: var(--ink);
+    color: var(--paper);
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: serif;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(20px);
+    transition: opacity 0.2s, transform 0.2s;
+    z-index: 80;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  }
+  .back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  .back-to-top:hover { background: var(--accent); border-color: var(--ink); }
   @media (max-width: 720px) {
-    .sibling-bar { flex-direction: column; align-items: flex-start; }
+    .site-switcher a { font-size: 10px; padding: 10px 8px; letter-spacing: 0.05em; }
+    .site-switcher a .label-sub { font-size: 8px; }
+    .back-to-top { bottom: 16px; right: 16px; width: 44px; height: 44px; }
   }
 
   /* MASTHEAD */
@@ -1612,15 +1660,17 @@
 <div class="grain"></div>
 <div class="page-shell">
 
-<!-- SIBLING-SITE CROSS-LINK -->
-<div class="sibling-bar">
-  <div>
-    <strong>You are reading:</strong> Medical device &amp; pharma regulatory intelligence
-  </div>
-  <div>
-    <a href="consumer.html">Consumer Product, Food &amp; Vehicle Safety <span class="arrow">→</span></a>
-  </div>
-</div>
+<!-- Site switcher -->
+<nav class="site-switcher" aria-label="Switch site">
+  <a href="index.html" class="active" aria-current="page">
+    Regulatory Watch
+    <span class="label-sub">Medical &amp; Pharma</span>
+  </a>
+  <a href="consumer.html">
+    Consumer Watch
+    <span class="label-sub">Products · Food · Vehicles · Scams</span>
+  </a>
+</nav>
 
 <!-- MASTHEAD (compact) -->
 <header class="masthead">
@@ -3803,6 +3853,23 @@ document.querySelectorAll('#lookup-date-from, #lookup-date-to').forEach(el => {
     }
   }
 })();
+
+// ============= BACK TO TOP =============
+(function setupBackToTop() {
+  const btn = document.getElementById('back-to-top');
+  if (!btn) return;
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 600) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  }, { passive: true });
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
 </script>
+
+<!-- Back to top -->
+<button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
 </body>
 </html>
