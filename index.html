@@ -827,7 +827,34 @@
     display: flex;
     align-items: flex-start;
     gap: 10px;
+    /* Locked size so this section never jumps between pages or load states. */
+    min-height: 140px;
+    max-height: 140px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
   }
+  /* When the user opens the full coverage list, drop the height lock.
+     Both selectors do the same thing — :has() is the modern path, .expanded is the
+     fallback for any browser that doesn't support :has() yet. */
+  .coverage-banner:has(.coverage-detail.open),
+  .coverage-banner.expanded {
+    max-height: none;
+    overflow: visible;
+  }
+  /* Fade-out gradient hides any text that gets clipped at the bottom.
+     Sits inside the locked-height box and disappears once expanded. */
+  .coverage-banner::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: 1px; /* sit just above the border */
+    height: 22px;
+    background: linear-gradient(to bottom, rgba(249,244,227,0), #f9f4e3 90%);
+    pointer-events: none;
+    transition: opacity 0.15s;
+  }
+  .coverage-banner:has(.coverage-detail.open)::after,
+  .coverage-banner.expanded::after { opacity: 0; }
   .coverage-banner .dot {
     color: var(--accent);
     font-weight: 700;
@@ -983,6 +1010,7 @@
     background: #f4f0e6;
     color: #0c0a07;
     position: sticky; top: 0; z-index: 50;
+    min-height: 88px;   /* locked so width/load state never jumps */
   }
   .mast-left, .mast-right {
     font-family: 'JetBrains Mono', monospace;
@@ -1692,9 +1720,8 @@
 <div class="coverage-banner">
   <span class="dot">▌</span>
   <div style="flex:1;">
-    <strong>Scope:</strong> Live updates from key regulatory markets that publish public RSS / Atom feeds — FDA, EU Commission, EUR-Lex, MHRA, Health Canada, TGA, plus the Federal Register, IMDRF, and WHO.
-    Other markets (Japan, China, India, Brazil, S. Korea) are listed in the Agencies tab with direct links to their official sites.
-    <button class="toggle" onclick="document.getElementById('cov-detail').classList.toggle('open'); this.textContent = document.getElementById('cov-detail').classList.contains('open') ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
+    <strong>Scope:</strong> Live updates from major medical-device regulators worldwide — FDA, EU Commission, MHRA, Health Canada, TGA, plus IMDRF and WHO.
+    <button class="toggle" onclick="var d=document.getElementById('cov-detail'); var open=d.classList.toggle('open'); d.closest('.coverage-banner').classList.toggle('expanded', open); this.textContent = open ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
     <div class="coverage-detail" id="cov-detail">
       <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or only manually-listed in the Agencies tab (○).</p>
       <div class="col-list">
