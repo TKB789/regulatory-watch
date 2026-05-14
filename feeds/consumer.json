@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-05-13T21:34:04Z",
-  "schema_version": "1.3",
+  "generated_at": "2026-05-14T01:40:12Z",
+  "schema_version": "1.1",
   "source_status": {
     "CPSC": "ok",
     "NHTSA": "missing",
     "USDA FSIS": "missing",
     "FDA Food": "ok",
     "EU Safety Gate": "missing",
-    "FTC": "ok"
+    "FTC": "stale"
   },
   "items": [
     {
-      "id": "cpsc-459728929214",
+      "id": "cpsc-545439814821",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -23,7 +23,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Allura-Imports-Recalls-Youth-Sweatshirts-with-Bobcat-Logo-and-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Regulations-for-Childrens-Upper-Outerwear"
     },
     {
-      "id": "cpsc-182324578560",
+      "id": "cpsc-652885202855",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -35,7 +35,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Analemma-Water-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Laceration-and-Ingestion-Hazards-Imported-by-New-Earth-Technologies-d-o-o"
     },
     {
-      "id": "cpsc-584275385847",
+      "id": "cpsc-992820424957",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -47,7 +47,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/EEMB-USA-Recalls-Battery-Pouches-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Federal-Statute-for-Child-Resistant-Packaging-of-Coin-Batteries"
     },
     {
-      "id": "cpsc-426571272701",
+      "id": "cpsc-153887940613",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -59,7 +59,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/EVLWZL-and-Gunugu-Mattresses-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard-Violates-Mandatory-Standard-for-Mattress-Flammability"
     },
     {
-      "id": "cpsc-502464413265",
+      "id": "cpsc-775817008251",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -71,7 +71,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Favoto-Bicycle-Helmets-Recalled-Due-to-Risk-of-Serious-Head-Injury-Violate-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-Favoto"
     },
     {
-      "id": "cpsc-709910469035",
+      "id": "cpsc-719888566044",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -83,7 +83,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Temu-by-Foubeaka-and-Geniuss"
     },
     {
-      "id": "cpsc-616773053462",
+      "id": "cpsc-72373635899",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -95,7 +95,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Natural-Pigments-Recalls-Rublev-Colours-Gum-Turpentine-and-Mineral-Spirits-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-817857488170",
+      "id": "cpsc-197579377862",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -107,7 +107,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Rainbow-Wall-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Childrens-Toys-Sold-on-Amazon-by-Justforjoyful"
     },
     {
-      "id": "cpsc-231049668189",
+      "id": "cpsc-23297910081",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -119,7 +119,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Svnntaa-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Hazards-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Eokeanon"
     },
     {
-      "id": "cpsc-517575629110",
+      "id": "cpsc-600043806491",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -131,7 +131,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-Multiple-Light-Up-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "fda-food-445928145602",
+      "id": "fda-food-391678744409",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -143,7 +143,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-557572757539",
+      "id": "fda-food-40138638604",
       "source": "FDA Food",
       "country": "China",
       "category": "Food / Cosmetics",
@@ -155,7 +155,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-209926983107",
+      "id": "fda-food-423245212164",
       "source": "FDA Food",
       "country": "China",
       "category": "Food / Cosmetics",
@@ -167,7 +167,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-981657181380",
+      "id": "fda-food-540472618030",
       "source": "FDA Food",
       "country": "Canada",
       "category": "Food / Cosmetics",
@@ -179,7 +179,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-733144695145",
+      "id": "fda-food-726138423007",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -191,7 +191,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-834755083413",
+      "id": "fda-food-637812169074",
       "source": "FDA Food",
       "country": "China",
       "category": "Food / Cosmetics",
@@ -203,7 +203,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-674944112034",
+      "id": "fda-food-315984744312",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -215,7 +215,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-711194032581",
+      "id": "fda-food-319629057564",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -227,7 +227,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-466934373378",
+      "id": "fda-food-825079976062",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -239,7 +239,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-481156597629",
+      "id": "fda-food-953036809262",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -251,7 +251,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-394034453633",
+      "id": "cpsc-726529167297",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -263,7 +263,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/5-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-UHOMEPRO"
     },
     {
-      "id": "cpsc-506376005953",
+      "id": "cpsc-593128231953",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -275,7 +275,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Acer-America-Corporation-Recalls-Two-Wheeled-Folding-Electric-Scooters-Due-to-Risk-of-Injury-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-366538408185",
+      "id": "cpsc-257479289530",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -287,7 +287,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Imported-by-Hepo-Care-Medical-Equipment-Online"
     },
     {
-      "id": "cpsc-977250311850",
+      "id": "cpsc-634068127789",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -299,7 +299,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Alliance-Chemical-Recalls-1-K-Kerosene-Heater-Fluid-Containers-Due-to-Risk-of-Serious-Injury-or-Death-from-Flash-Fire-Burn-and-Child-Poisoning-Violates-Mandatory-Standards-for-Portable-Fuel-Containers"
     },
     {
-      "id": "cpsc-618556136339",
+      "id": "cpsc-863138942417",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -311,7 +311,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/American-Honda-Motor-Recalls-Off-Road-Motorcycles-Due-to-Risk-of-Serious-Injury-or-Death-Due-to-Crash-Hazard"
     },
     {
-      "id": "cpsc-259356773588",
+      "id": "cpsc-998603973782",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -323,7 +323,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Bayer-Recalls-6-mL-Size-Afrin-Original-Nasal-Spray-Bottles-Due-to-Risk-of-Serious-Injury-or-Illness-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-911371964615",
+      "id": "cpsc-782452079977",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -335,7 +335,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Build-A-Bear-Workshop-Recalls-Heartwarming-Hugs-Bears-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-to-Children"
     },
     {
-      "id": "cpsc-896423957566",
+      "id": "cpsc-811978239342",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -347,7 +347,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/CBC-Group-Recalls-Stephan-Baby-Boo-Bunnie-and-Friends-Childrens-Toys-Due-to-Risk-of-Serious-Injury-from-Choking-and-Laceration-Hazards"
     },
     {
-      "id": "cpsc-735814585294",
+      "id": "cpsc-376949068585",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -359,7 +359,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Earthtec-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Manufactured-by-Tonyidea"
     },
     {
-      "id": "cpsc-328639830802",
+      "id": "cpsc-520877386629",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -371,7 +371,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Malker-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-MalkerDirect"
     },
     {
-      "id": "cpsc-147322069083",
+      "id": "cpsc-650251139131",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -383,7 +383,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-DGIVOVO-US"
     },
     {
-      "id": "cpsc-398394799214",
+      "id": "cpsc-235379591726",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -395,7 +395,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Qumeney-Bicycle-Light-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Smfanlus"
     },
     {
-      "id": "cpsc-732527620885",
+      "id": "cpsc-906404849627",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -407,7 +407,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Residential-Elevators-Recalls-Elevator-StrikeLock-Hoistway-Door-Locking-Device-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Injury-Hazards"
     },
     {
-      "id": "cpsc-160751038835",
+      "id": "cpsc-765243877572",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -419,7 +419,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Segmart-4-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violate-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Walmart-com-by-SOFT"
     },
     {
-      "id": "cpsc-737453857498",
+      "id": "cpsc-235225591449",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -431,7 +431,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Thermos-Recalls-8-2-Million-Stainless-King-Food-Jars-and-Bottles-Due-to-Serious-Impact-Injury-and-Laceration-Hazards"
     },
     {
-      "id": "fda-food-622456985013",
+      "id": "fda-food-378433396787",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -443,7 +443,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-200316767930",
+      "id": "fda-food-773455321299",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -455,7 +455,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-556742092746",
+      "id": "fda-food-494991130897",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -467,7 +467,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-195435568814",
+      "id": "fda-food-108827350031",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -479,7 +479,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-936876541679",
+      "id": "fda-food-8282236816",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -491,7 +491,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-921582205506",
+      "id": "fda-food-108046828606",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -503,7 +503,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-827303288917",
+      "id": "fda-food-749809804817",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -515,7 +515,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-627579539196",
+      "id": "fda-food-486767676710",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -527,7 +527,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-719836490678",
+      "id": "fda-food-212706607093",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -539,7 +539,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-726037995597",
+      "id": "cpsc-322604821108",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -551,7 +551,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/32-Degrees-Recalls-Heated-Socks-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-153077605020",
+      "id": "cpsc-361572227269",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -563,7 +563,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Autobrush-Recalls-Sonic-Pro-Childrens-Toothbrush-Boxes-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-857092788063",
+      "id": "cpsc-317621435777",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -575,7 +575,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Childrens-Tower-Stools-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Entrapment-and-Fall-Hazards-Imported-by-AMZCMJ-DGD"
     },
     {
-      "id": "cpsc-967589579229",
+      "id": "cpsc-629119554143",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -587,7 +587,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Childrens-Tower-Stools-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Entrapment-and-Fall-Hazards-Imported-by-TOETOL-HOME"
     },
     {
-      "id": "cpsc-301606692223",
+      "id": "cpsc-587793995202",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -599,7 +599,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Cpzzkq-Baby-Loungers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-Hazard-Violates-Mandatory-Standard-for-Infant-Support-Cushions-Sold-on-Amazon-by-CetoPMax"
     },
     {
-      "id": "cpsc-640029528131",
+      "id": "cpsc-984851903766",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -611,7 +611,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/HappyGira-Recalls-Sweetie-Baby-and-Style-Life-Eleven-Baby-Loungers-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-and-Fall-Hazards-Violates-Mandatory-Standard-for-Infant-Sleep-Products"
     },
     {
-      "id": "cpsc-688857509790",
+      "id": "cpsc-299729427869",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -623,7 +623,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/KMUYSL-Big-Red-Barn-Farm-Animal-Playsets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violates-Small-Parts-Ban-Sold-on-Amazon-by-MISSJUNE"
     },
     {
-      "id": "cpsc-146488981440",
+      "id": "cpsc-227287910796",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -635,7 +635,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Stick-Figure-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys-Sold-on-Walmart-by-BlissfulDestiny"
     },
     {
-      "id": "cpsc-907304422128",
+      "id": "cpsc-126272716298",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -647,7 +647,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/mGanna-Sodium-Hydroxide-Pellet-Bags-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Chemical-Burns-and-Irritation-to-the-Skin-and-Eyes-Violate-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Archie-Xpress"
     },
     {
-      "id": "cpsc-116588343560",
+      "id": "cpsc-134234853513",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -659,7 +659,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tzumi-Electronics-Recalls-FitRx-SmartBell-Quick-Select-Adjustable-Dumbbells-Due-to-Serious-Injury-from-Impact-Hazard"
     },
     {
-      "id": "cpsc-478828214646",
+      "id": "cpsc-204965715216",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -671,7 +671,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Wiifo-Childrens-Tower-Stools-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Entrapment-and-Fall-Hazards-Imported-by-Wiifo"
     },
     {
-      "id": "fda-food-235700933541",
+      "id": "fda-food-576872757152",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -683,7 +683,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-522467862978",
+      "id": "fda-food-274524548017",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -695,7 +695,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-950192468611",
+      "id": "fda-food-199692424002",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -707,7 +707,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-343087201118",
+      "id": "cpsc-165120747866",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -719,7 +719,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-ZOLIQUEX"
     },
     {
-      "id": "cpsc-159084271868",
+      "id": "cpsc-340469084811",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -731,7 +731,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Agiiman-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-282851749769",
+      "id": "cpsc-550336044587",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -743,7 +743,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Apex-Gaming-PCs-Recalls-Manik-and-Apex-branded-ATX-Computer-Power-Supplies-Due-to-Risk-of-Serious-Injury-or-Death-from-Electrical-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-723030099294",
+      "id": "cpsc-149189688601",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -755,7 +755,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ATOYUS-Childrens-Activity-Cubes-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Small-Parts-Ban-and-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Melofaver-US"
     },
     {
-      "id": "cpsc-259679521618",
+      "id": "cpsc-904338422239",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -767,7 +767,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fengrong-Tool-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-649335869635",
+      "id": "cpsc-492421454289",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -779,7 +779,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Free-Standing-Professional-Gas-Ranges-Recalled-Due-to-Risk-of-Burn-Hazard-Manufactured-by-Fisher-and-Paykel"
     },
     {
-      "id": "cpsc-524085498257",
+      "id": "cpsc-23271462214",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -791,7 +791,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fun-and-Function-Recalls-Childrens-Metal-Multi-Point-Swing-Frames-Due-to-Risk-of-Injury-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-352594011856",
+      "id": "cpsc-103042694175",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -803,7 +803,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Generac-Power-Systems-Recalls-Portable-Generators-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-and-Fire-Hazards"
     },
     {
-      "id": "cpsc-501278850541",
+      "id": "cpsc-28316458680",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -815,7 +815,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/JC-Sales-Recalls-Lil-Buddies-Pet-Laser-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-323824715418",
+      "id": "cpsc-236082751092",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -827,7 +827,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Le-Hao-Tool-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-474410302817",
+      "id": "cpsc-490146697458",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -839,7 +839,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Macys-Recalls-Arch-Studio-Tea-Kettles-Due-to-Risk-of-Serious-Injury-from-Burn-Hazard"
     },
     {
-      "id": "cpsc-198810592575",
+      "id": "cpsc-922900917714",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -851,7 +851,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Mini-Round-Toddler-Trampolines-Recalled-Due-to-Strangulation-Hazard-Risk-of-Serious-Injury-or-Death-Manufactured-by-SEGMART"
     },
     {
-      "id": "cpsc-214106607228",
+      "id": "cpsc-724130634741",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -863,7 +863,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Montessori-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Mandatory-Standard-for-Teething-Toys-Sold-on-Amazon-by-SpringFlower"
     },
     {
-      "id": "cpsc-307454869503",
+      "id": "cpsc-998897078954",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -875,7 +875,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/nvyue-Magic-Pocket-Staffs-Recalled-Due-to-Projectile-and-Laceration-Hazards-Imported-by-Xingwenfeng"
     },
     {
-      "id": "cpsc-458176034924",
+      "id": "cpsc-230559322669",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -887,7 +887,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-BAYOTAK-USA"
     },
     {
-      "id": "cpsc-297519013550",
+      "id": "cpsc-358316824594",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -899,7 +899,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Pressure-Washers-Recalled-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards-Imported-by-Patoolio-Direct"
     },
     {
-      "id": "cpsc-991566574669",
+      "id": "cpsc-904127875345",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -911,7 +911,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sanlebi-Pet-Vet-Playsets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Letokids"
     },
     {
-      "id": "cpsc-281088771819",
+      "id": "cpsc-308400545610",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -923,7 +923,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sweetcrispy-Recalls-Pressure-Washers-Due-to-Serious-Risk-of-Injury-or-Death-from-Shock-and-Electrocution-Hazards"
     },
     {
-      "id": "cpsc-861044368280",
+      "id": "cpsc-603758059710",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -935,7 +935,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ZMC-Group-Recalls-LED-Finger-Beam-Lights-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "fda-food-623735119457",
+      "id": "fda-food-868117533072",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -947,7 +947,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-521860338603",
+      "id": "fda-food-673025010818",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -959,7 +959,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-884994398444",
+      "id": "fda-food-713585049367",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -971,7 +971,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-885050803680",
+      "id": "fda-food-390576480052",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -983,7 +983,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-960788692226",
+      "id": "fda-food-93009226130",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -995,7 +995,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-880747892506",
+      "id": "fda-food-401644866914",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1007,7 +1007,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-704367167918",
+      "id": "fda-food-687900662391",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1019,7 +1019,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-754672745781",
+      "id": "fda-food-826068768337",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1031,7 +1031,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-190275604470",
+      "id": "fda-food-618132029115",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1043,7 +1043,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-341772766985",
+      "id": "fda-food-949016915052",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1055,7 +1055,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-770027664027",
+      "id": "fda-food-562605366904",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1067,7 +1067,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-57878401567",
+      "id": "fda-food-588173796211",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1079,7 +1079,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-66732500259",
+      "id": "fda-food-641095425408",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1091,7 +1091,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-188930293321",
+      "id": "cpsc-262463774508",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1103,7 +1103,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/BISSELL-Recalls-Over-One-Million-Steam-Shot-OmniReach-Steam-Cleaners-Due-to-Risk-of-Serious-Burn-Hazard-from-Attachments"
     },
     {
-      "id": "cpsc-343264261276",
+      "id": "cpsc-852098180138",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1115,7 +1115,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Easymake-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Imported-by-ZFZG-US"
     },
     {
-      "id": "cpsc-92111782822",
+      "id": "cpsc-945596830666",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1127,7 +1127,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Halloween-Pumpkin-Carving-Kits-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries-Sold-on-Amazon-by-Besslly-Store"
     },
     {
-      "id": "cpsc-274438216813",
+      "id": "cpsc-853289251695",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1139,7 +1139,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Head-USA-Recalls-Ski-Boots-Due-to-Risk-of-Serious-Injury-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-199375018388",
+      "id": "cpsc-608034969487",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1151,7 +1151,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries-Sold-on-Amazon-by-Happiness-Light"
     },
     {
-      "id": "cpsc-116907016365",
+      "id": "cpsc-708040687915",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1163,7 +1163,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Drinkware-Charms-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Magnets-Sold-on-Amazon-by-Maitys"
     },
     {
-      "id": "cpsc-665303411402",
+      "id": "cpsc-192883574704",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1175,7 +1175,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Muscccm-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Sold-on-Amazon-by-SZ-Hengxun"
     },
     {
-      "id": "cpsc-573799714516",
+      "id": "cpsc-550783180067",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1187,7 +1187,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Prestige-Import-Group-Recalls-Supernova-and-Typhoon-Lighters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Cigarette-Lighters"
     },
     {
-      "id": "cpsc-66999851380",
+      "id": "cpsc-611153869327",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1199,7 +1199,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SCUBAPRO-Recalls-Monorail-Weight-Pockets-for-Buoyancy-Compensator-Devices-BCDs-Due-to-Risk-of-Serious-Injury-or-Death-from-Drowning"
     },
     {
-      "id": "cpsc-916234685460",
+      "id": "cpsc-181556464090",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1211,7 +1211,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Seasonal-Specialties-Recalls-Members-Mark-7-Pre-Lit-Twinkling-Bucks-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-476049111559",
+      "id": "cpsc-13079521612",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1223,7 +1223,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Shenzhen-Baihang-Recalls-VEEKTOMX-Mini-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon"
     },
     {
-      "id": "cpsc-608827915385",
+      "id": "cpsc-504128805149",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1235,7 +1235,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Shenzhen-Shijingjie-Network-Technology-Male-to-Male-Extension-Cords-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Electrocution-and-Carbon-Monoxide-Poisoning-Hazards-Sold-on-Walmart"
     },
     {
-      "id": "cpsc-797642791392",
+      "id": "cpsc-220257536617",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1247,7 +1247,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ShymeryDirect-LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-320502224638",
+      "id": "cpsc-18242414931",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1259,7 +1259,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Silks-Recall-Childrens-Loungewear-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violates-Mandatory-Flammability-Standards-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-730154564517",
+      "id": "cpsc-97486410351",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1271,7 +1271,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SNOOZ-Recalls-Electrical-Fans-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-361435438839",
+      "id": "cpsc-481121599139",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1283,7 +1283,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vitaquest-International-Recalls-Multiple-Iron-Supplement-Bottles-and-Packets-Due-to-Risk-of-Serious-Injury-or-Death-from-Poisoning-to-Young-Children-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-409736760954",
+      "id": "cpsc-186444975622",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1295,7 +1295,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Wybotics-Recalls-Robotic-Pool-Vacuums-Due-to-Burn-and-Fire-Hazards"
     },
     {
-      "id": "cpsc-163487908866",
+      "id": "cpsc-288020604101",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1307,7 +1307,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Yeeluzan-Pool-Drain-Covers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Drowning-Hazards-Violates-Virginia-Graeme-Baker-Pool-Spa-Safety-Act-Sold-on-Amazon-by-Yeeluzan"
     },
     {
-      "id": "fda-food-686081115494",
+      "id": "fda-food-592454061657",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1319,7 +1319,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-566606742582",
+      "id": "fda-food-443360244308",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1331,7 +1331,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-678725167918",
+      "id": "fda-food-352628400195",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1343,7 +1343,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-791354182251",
+      "id": "fda-food-606140042804",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1355,7 +1355,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-554747846045",
+      "id": "fda-food-997631556084",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1367,7 +1367,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-365675733307",
+      "id": "fda-food-803420923808",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1379,7 +1379,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-788021681133",
+      "id": "fda-food-447065545880",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1391,7 +1391,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-754406184625",
+      "id": "fda-food-952319816132",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1403,7 +1403,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-934054864506",
+      "id": "fda-food-653537868748",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1415,7 +1415,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-56896830418",
+      "id": "fda-food-466009254293",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1427,7 +1427,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-76563941221",
+      "id": "fda-food-177120549209",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1439,7 +1439,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-315247038419",
+      "id": "fda-food-660402598523",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1451,7 +1451,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-137611418784",
+      "id": "fda-food-772783515318",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1463,7 +1463,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-846131501024",
+      "id": "fda-food-325030280453",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1475,7 +1475,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-266792782841",
+      "id": "fda-food-95525636554",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1487,7 +1487,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-6979253845",
+      "id": "fda-food-957656082649",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1499,7 +1499,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-160850258093",
+      "id": "cpsc-637511217393",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1511,7 +1511,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Childrens-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violates-the-Small-Ball-Ban-Sold-on-Amazon-by-Beestech"
     },
     {
-      "id": "cpsc-662658422563",
+      "id": "cpsc-45431797021",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1523,7 +1523,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Coluans-Christmas-Light-Up-Rings-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-BUDI-Official"
     },
     {
-      "id": "cpsc-81394033223",
+      "id": "cpsc-240040681438",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1535,7 +1535,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/E-Mishan-Recalls-Granitestone-Diamond-Pro-Blue-Stainless-Saute-Pans-Due-to-Impact-and-Burn-Hazards"
     },
     {
-      "id": "cpsc-17551835437",
+      "id": "cpsc-661623247253",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1547,7 +1547,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ELENKER-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Fuzhou-Shiahaha-Cultural-Industry-Development"
     },
     {
-      "id": "cpsc-828009214111",
+      "id": "cpsc-351770343087",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1559,7 +1559,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Gavoyeat-Halloween-Light-Up-Rings-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Hazard-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-CSZWEICD"
     },
     {
-      "id": "cpsc-565084107281",
+      "id": "cpsc-733348588571",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1571,7 +1571,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/HTRC-and-Haisito-T400-Battery-Chargers-Recalled-Due-to-Risk-of-Serious-Injury-and-Death-from-Fire-Hazard-Manufactured-by-Huizhou-Haitan-Technology"
     },
     {
-      "id": "cpsc-555382981520",
+      "id": "cpsc-581988139035",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1583,7 +1583,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/OCUN-NA-Recalls-Condor-HMS-Triple-Carabiners-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-721935497770",
+      "id": "cpsc-26117479704",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1595,7 +1595,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sams-Club-Recalls-Members-Mark-Childrens-Pajama-Sets-Due-to-Burn-Hazard-Violates-Mandatory-Flammability-Standards-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-932438025593",
+      "id": "cpsc-457049206585",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1607,7 +1607,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Samson-International-Recalls-Bellevue-and-Oaklynn-Canopy-Bed-Frames-Due-to-Impact-and-Injury-Hazards"
     },
     {
-      "id": "cpsc-757895303752",
+      "id": "cpsc-719013922404",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1619,7 +1619,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sangohe-Reannounces-and-Expands-Adult-Portable-Bed-Rails-Recall-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-776202780533",
+      "id": "cpsc-287153121931",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1631,7 +1631,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TecFlox-Hair-and-Beard-Growth-Serum-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-898483015930",
+      "id": "cpsc-626098237919",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -1643,7 +1643,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tuymec-Minoxidil-Hair-Growth-Spray-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-DrHealBeauty"
     },
     {
-      "id": "fda-food-845554536372",
+      "id": "fda-food-777007492451",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1655,7 +1655,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-488957950353",
+      "id": "fda-food-564872973245",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1667,7 +1667,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-631884767371",
+      "id": "fda-food-412649369329",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1679,7 +1679,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-912938030103",
+      "id": "fda-food-306562459410",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1691,7 +1691,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-589659335350",
+      "id": "fda-food-333536300613",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1703,7 +1703,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-640767616655",
+      "id": "fda-food-105093822175",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1715,7 +1715,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-293412502387",
+      "id": "fda-food-793760214234",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1727,7 +1727,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-470618492830",
+      "id": "fda-food-33479138078",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1739,7 +1739,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-41846678258",
+      "id": "fda-food-538588680644",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1751,7 +1751,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-975018818694",
+      "id": "fda-food-835579381988",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1763,7 +1763,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-153357458669",
+      "id": "fda-food-856646961915",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1775,7 +1775,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-586624843673",
+      "id": "fda-food-780818294520",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1787,7 +1787,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-726589867815",
+      "id": "fda-food-333713709960",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1799,7 +1799,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-328973143292",
+      "id": "fda-food-219701832238",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1811,7 +1811,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-628608598538",
+      "id": "fda-food-327882506744",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1823,7 +1823,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-548007777073",
+      "id": "fda-food-625505798363",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1835,7 +1835,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-225622730760",
+      "id": "fda-food-494106548181",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1847,7 +1847,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-230784317934",
+      "id": "fda-food-706684713362",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1859,7 +1859,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-95611591645",
+      "id": "fda-food-445414143903",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1871,7 +1871,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-59290385387",
+      "id": "fda-food-640429065541",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1883,7 +1883,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-280479891447",
+      "id": "fda-food-807493556390",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1895,7 +1895,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-846611208193",
+      "id": "fda-food-525698333663",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1907,7 +1907,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-195522905885",
+      "id": "fda-food-930169579770",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1919,7 +1919,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-54288549211",
+      "id": "fda-food-302592190186",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1931,7 +1931,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-397336593261",
+      "id": "fda-food-32406739824",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1943,7 +1943,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-244892392486",
+      "id": "fda-food-393870121336",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1955,7 +1955,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-489395338562",
+      "id": "fda-food-568249949790",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1967,7 +1967,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-370745787305",
+      "id": "fda-food-865250118881",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1979,7 +1979,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-856137654248",
+      "id": "fda-food-858874196963",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -1991,7 +1991,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-126685216074",
+      "id": "fda-food-535316834472",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2003,7 +2003,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-251679070040",
+      "id": "fda-food-902181150272",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2015,7 +2015,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-245383246022",
+      "id": "fda-food-370129426009",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2027,7 +2027,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-722537598106",
+      "id": "fda-food-127926042723",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2039,7 +2039,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-173537624838",
+      "id": "fda-food-153756478416",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2051,7 +2051,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-758345065697",
+      "id": "fda-food-628153842553",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2063,7 +2063,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-356420552161",
+      "id": "fda-food-157005505334",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2075,7 +2075,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-666762916754",
+      "id": "fda-food-820561039007",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2087,7 +2087,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-123320944249",
+      "id": "fda-food-719589736458",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2099,7 +2099,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-189256318777",
+      "id": "fda-food-458749402020",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2111,7 +2111,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-467682797",
+      "id": "fda-food-939369365769",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2123,7 +2123,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-830299902807",
+      "id": "fda-food-571798282115",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2135,7 +2135,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-397638551364",
+      "id": "fda-food-40364371878",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2147,7 +2147,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-743518168135",
+      "id": "fda-food-905263867889",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2159,7 +2159,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-70584359775",
+      "id": "cpsc-233169044493",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2171,7 +2171,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/4our-Kiddies-Tip-Restraint-Kits-Recalled-Due-to-Tip-Over-Hazard-Risk-of-Serious-Injury-and-Death"
     },
     {
-      "id": "cpsc-50280424973",
+      "id": "cpsc-801274810842",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2183,7 +2183,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/AirClub-Convertible-Bassinets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Violates-Mandatory-Standard-for-Bedside-Sleepers"
     },
     {
-      "id": "cpsc-98155819737",
+      "id": "cpsc-86693709776",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2195,7 +2195,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/CCCEI-Brand-Power-Strips-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Sold-by-Middle-Way-Electronics"
     },
     {
-      "id": "cpsc-818436858355",
+      "id": "cpsc-973426086473",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2207,7 +2207,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/DIY-Cold-Plunge-Recalls-Sauna-Heater-Kits-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard"
     },
     {
-      "id": "cpsc-913555058546",
+      "id": "cpsc-381867611566",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2219,7 +2219,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/DuraTrac-Recalls-Stainless-Steel-Gas-Connectors-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-257879193882",
+      "id": "cpsc-31637747722",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2231,7 +2231,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/FUNTOK-Ride-On-Trucks-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-or-Death-Imported-by-Shenzhen-Luobei-Trading"
     },
     {
-      "id": "cpsc-51475331618",
+      "id": "cpsc-366508561963",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2243,7 +2243,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/GLMZZ-Fidget-Magnet-Ball-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-195624037519",
+      "id": "cpsc-407918191421",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2255,7 +2255,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/MPINOI-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails-Sold-on-Amazon-by-Bioenrrty"
     },
     {
-      "id": "cpsc-628240894031",
+      "id": "cpsc-765469249590",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2267,7 +2267,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Nexgrill-Recalls-Over-10-2-Million-Metal-Wire-Bristle-Grill-Brushes-Due-to-Ingestion-Hazard-Sold-at-Home-Depot"
     },
     {
-      "id": "cpsc-647823854998",
+      "id": "cpsc-826818221884",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2279,7 +2279,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Petzl-America-Recalls-Nomic-and-Ergonomic-Ice-Climbing-Axes-Due-to-Fall-Hazard-Risk-of-Serious-Injury-or-Death"
     },
     {
-      "id": "cpsc-153044430548",
+      "id": "cpsc-261761605984",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2291,7 +2291,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sunnyyes-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-111670654431",
+      "id": "cpsc-933540217166",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2303,7 +2303,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vive-Health-Recalls-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Two-Deaths-Reported"
     },
     {
-      "id": "fda-food-490657199969",
+      "id": "fda-food-542432171756",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2315,7 +2315,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-177747289387",
+      "id": "fda-food-145122461267",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2327,7 +2327,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-247594818651",
+      "id": "fda-food-160961569977",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2339,7 +2339,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-955704756455",
+      "id": "fda-food-659830646137",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2351,7 +2351,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-859635078838",
+      "id": "fda-food-664885982035",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2363,7 +2363,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "fda-food-323792535194",
+      "id": "fda-food-730704476169",
       "source": "FDA Food",
       "country": "United States",
       "category": "Food / Cosmetics",
@@ -2375,7 +2375,7 @@
       "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
     },
     {
-      "id": "cpsc-743106578244",
+      "id": "cpsc-631843851884",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2387,7 +2387,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Aisstxoer-Adult-Bicycle-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-YXTDZ-Store"
     },
     {
-      "id": "cpsc-43482422371",
+      "id": "cpsc-724873390651",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2399,7 +2399,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Amazon-RecallAmazon-Basics-Camping-Folding-Pocket-Knives-Due-to-Laceration-Hazard"
     },
     {
-      "id": "cpsc-273730274911",
+      "id": "cpsc-311374707694",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2411,7 +2411,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Electrolux-Group-Recalls-Frigidaire-Gas-Ranges-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-12781212475",
+      "id": "cpsc-763546393985",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2423,7 +2423,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Infant-Walkers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard-Violate-Mandatory-Standard-for-Infant-Walkers-Sold-on-Amazon-by-Goregent-Official-Store"
     },
     {
-      "id": "cpsc-761770479850",
+      "id": "cpsc-474162057323",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2435,7 +2435,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Lifetime-Brands-Recalls-BUILT-LUUM-Light-Up-Tumblers-Due-to-Risk-of-Choking-and-Battery-Ingestion-Hazards"
     },
     {
-      "id": "cpsc-80522992935",
+      "id": "cpsc-653476441645",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2447,7 +2447,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Specialized-Bicycle-Components-Recalls-Specialized-Turbo-Como-SL-Electric-Bicycles-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
     },
     {
-      "id": "cpsc-662723379854",
+      "id": "cpsc-999640383644",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2459,7 +2459,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tainoki-Fine-Furniture-Recalls-Office-Chairs-Due-to-Risk-of-Serious-Injury-and-Fall-Hazard"
     },
     {
-      "id": "cpsc-987575569859",
+      "id": "cpsc-528008311021",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2471,7 +2471,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Wagner-Spray-Tech-Recalls-900-Series-Power-Steamers-Due-to-Burn-Hazard"
     },
     {
-      "id": "cpsc-551073034340",
+      "id": "cpsc-209930429408",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2483,7 +2483,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/17-Stories-Furniture-14-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-Hong-Kong-Baojia-International"
     },
     {
-      "id": "cpsc-254625998468",
+      "id": "cpsc-600165498530",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2495,7 +2495,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LFTE-USA-Recalls-Playground-Swing-Set-Seats-Due-to-Fall-Hazard"
     },
     {
-      "id": "cpsc-800020772298",
+      "id": "cpsc-644029452286",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2507,7 +2507,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LIVEHOM-11-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Sold-on-Amazon-by-Simplehome"
     },
     {
-      "id": "cpsc-398958705861",
+      "id": "cpsc-786390259246",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2519,7 +2519,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/ProRider-Recalls-Bicycle-Helmets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
     },
     {
-      "id": "cpsc-884411252729",
+      "id": "cpsc-794970668317",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2531,7 +2531,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Stoney-Games-Recalls-Kluster-Magnet-Chess-Games-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-922602974118",
+      "id": "cpsc-781999442049",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2543,7 +2543,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Cubimana-Island-Storm-3-In-1-Building-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-RBS-Toys"
     },
     {
-      "id": "cpsc-872288626586",
+      "id": "cpsc-616528282535",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2555,7 +2555,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/HALO-Dream-Recalls-Magic-Sleepsuits-Due-to-Choking-Hazard"
     },
     {
-      "id": "cpsc-846584446447",
+      "id": "cpsc-291975119433",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2567,7 +2567,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Tomum-Minoxidil-Hair-Serum-Spray-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Distributed-by-Belleka"
     },
     {
-      "id": "cpsc-924891186214",
+      "id": "cpsc-151764545405",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2579,7 +2579,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Unique-Brands-Com-Recalls-Forever-21-Pajama-Pants-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violates-Mandatory-Flammability-Standards-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-717419804980",
+      "id": "cpsc-598180325780",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2591,7 +2591,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Andersen-Windows-Recalls-Window-Opening-Control-Devices-Sold-as-Kits-or-Installed-on-100-Series-Casement-Windows-Due-to-Fall-and-Serious-Injury-Hazards"
     },
     {
-      "id": "cpsc-462523166792",
+      "id": "cpsc-190878486953",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2603,7 +2603,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Babysense-Max-View-Baby-Monitors-Recalled-Due-to-Fire-Hazard-Manufactured-by-Hisense"
     },
     {
-      "id": "cpsc-298277434392",
+      "id": "cpsc-279483559371",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2615,7 +2615,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Bicystar-High-Chairs-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-High-Chairs"
     },
     {
-      "id": "cpsc-90214329017",
+      "id": "cpsc-405116796582",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2627,7 +2627,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Dupray-USA-Recalls-Neat-Steam-Cleaners-Due-to-Risk-of-Burn-Hazards-or-Serious-Injury"
     },
     {
-      "id": "cpsc-558409856212",
+      "id": "cpsc-545859534937",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2639,7 +2639,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Evajoy-Above-Ground-Pools-48-Inches-and-Taller-Recalled-Due-to-Drowning-Hazard-Manufactured-by-Shenzhen-Danya-Tech"
     },
     {
-      "id": "cpsc-607828453273",
+      "id": "cpsc-796201432521",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2651,7 +2651,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Grtard-Magnetic-Stick-Figure-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-434757735568",
+      "id": "cpsc-298760143965",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2663,7 +2663,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Joyreal-Busy-Board-Childrens-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-and-Laceration-Hazards-Violate-Small-Parts-Ban-and-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Indream-Store"
     },
     {
-      "id": "cpsc-611264615155",
+      "id": "cpsc-742845613615",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2675,7 +2675,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Chess-Games-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Kaiwenshangpin"
     },
     {
-      "id": "cpsc-277207064815",
+      "id": "cpsc-724122263616",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2687,7 +2687,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/PQL-Recalls-High-Bay-Linear-LED-Light-Fixtures-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-287201501293",
+      "id": "cpsc-952904481261",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2699,7 +2699,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Royal-Oak-Enterprises-Recalls-Lighters-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Multipurpose-Lighters"
     },
     {
-      "id": "cpsc-450449101145",
+      "id": "cpsc-829271939886",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2711,7 +2711,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sanven-Technology-Recalls-Vevor-Baby-Gates-Due-to-Risk-of-Serious-Injury-from-Entrapment-Hazard-Violates-Mandatory-Standard-for-Gates-and-Enclosures"
     },
     {
-      "id": "cpsc-151125902746",
+      "id": "cpsc-602550582873",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2723,7 +2723,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Somgem-Pig-and-Yomin-Toilet-Lighters-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Cigarette-Lighters-Sold-on-Amazon-by-Elepdv"
     },
     {
-      "id": "cpsc-907862454777",
+      "id": "cpsc-659349770913",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2735,7 +2735,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SumDirect-LED-Mini-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-65266492918",
+      "id": "cpsc-235762220041",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2747,7 +2747,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Surreal-Brands-Recalls-Childrens-Tubby-Tots-Fizzy-Flask-Bath-Magic-Bath-Foam-Sets-Due-to-Impact-Hazard"
     },
     {
-      "id": "cpsc-457654343108",
+      "id": "cpsc-200672454561",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2759,7 +2759,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Christmas-Tree-Play-Sets-Due-to-Risk-of-Injury-from-Lead-Exposure-Violates-Federal-Lead-Content-Ban-and-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-246353823913",
+      "id": "cpsc-690229884329",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2771,7 +2771,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Fingerpainting-Kits-Due-to-Risk-of-Injury-from-Hazardous-Substances-and-Phthalate-Exposure-Violates-Federal-Hazardous-Substances-Act-and-Phthalates-Ban"
     },
     {
-      "id": "cpsc-979288608884",
+      "id": "cpsc-110752436174",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2783,7 +2783,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Flashcard-Talking-Toys-Due-to-Risk-of-Injury-from-Lead-and-Phthalate-Exposure-Violates-Federal-Lead-Content-and-Phthalates-Bans-and-Standard-for-Toys"
     },
     {
-      "id": "cpsc-60192226364",
+      "id": "cpsc-965403406959",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2795,7 +2795,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Handwriting-Practice-Kits-Due-to-Risk-of-Injury-from-Lead-Exposure-Violates-Federal-Lead-Content-Ban"
     },
     {
-      "id": "cpsc-448227516562",
+      "id": "cpsc-875269231859",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2807,7 +2807,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Montessori-Egg-Puzzle-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard"
     },
     {
-      "id": "cpsc-921001035104",
+      "id": "cpsc-739670707994",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2819,7 +2819,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Sensory-Swing-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation"
     },
     {
-      "id": "cpsc-725562428346",
+      "id": "cpsc-910419859178",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2831,7 +2831,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Story-Books-Due-to-Choking-Hazard"
     },
     {
-      "id": "cpsc-314348227627",
+      "id": "cpsc-685753877099",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2843,7 +2843,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-LED-Soccer-Hover-Balls-Due-to-Serious-Risk-of-Injury-from-Burn-Hazard-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-646746331837",
+      "id": "cpsc-492643181885",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2855,7 +2855,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Peg-Doll-Childrens-Toys-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violate-Small-Parts-Ban"
     },
     {
-      "id": "cpsc-994208979053",
+      "id": "cpsc-640512884890",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2867,7 +2867,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Reusable-Water-Balloons-Due-to-Risk-of-Injury-from-Phthalate-Exposure-Violate-Federal-Phthalates-Ban"
     },
     {
-      "id": "cpsc-387778351908",
+      "id": "cpsc-649788382428",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2879,7 +2879,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Todson-Recalls-Concord-Bicycle-Helmets-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
     },
     {
-      "id": "cpsc-1260503254",
+      "id": "cpsc-600877543559",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2891,7 +2891,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Trankerloop-Baby-Bath-Seats-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violates-Mandatory-Standard-for-Infant-Bath-Seats"
     },
     {
-      "id": "cpsc-207680602095",
+      "id": "cpsc-737672560459",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2903,7 +2903,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Zelbuck-Childrens-Chess-Games-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-n-b-plus"
     },
     {
-      "id": "cpsc-859701055543",
+      "id": "cpsc-657320820937",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2915,7 +2915,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Magnetic-Chess-Games-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Yiruikeji2024"
     },
     {
-      "id": "cpsc-704452970386",
+      "id": "cpsc-98967690274",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2927,7 +2927,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Huaker-Magnetic-Balls-and-Rods-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violates-the-Small-Ball-Ban"
     },
     {
-      "id": "cpsc-211550813737",
+      "id": "cpsc-814949795216",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2939,7 +2939,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/JJGoo-LED-Balloon-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-490804265032",
+      "id": "cpsc-240413528908",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2951,7 +2951,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Jolys-Recalls-80-Vinegar-Due-to-Risk-of-Serious-Injury-or-Death-from-Poisoning-and-Chemical-Burns-Violates-FHSA-Labeling-Requirements"
     },
     {
-      "id": "cpsc-432922172570",
+      "id": "cpsc-698214300758",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2963,7 +2963,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Meijer-Recalls-Lullaby-Lane-and-MCS-Childrens-Sleepwear-Due-to-Burn-Hazard-Violates-Mandatory-Standard-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-16377326287",
+      "id": "cpsc-142503213232",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2975,7 +2975,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Prismatic-3D-Prints-Recalls-Book-Nooks-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries-and-Statute-for-Battery-Packaging"
     },
     {
-      "id": "cpsc-566993639959",
+      "id": "cpsc-245428146920",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2987,7 +2987,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SAMIT-Youth-Multi-Purpose-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets-Sold-on-Amazon-by-SAMIT-Outdoor"
     },
     {
-      "id": "cpsc-568823576849",
+      "id": "cpsc-26084815733",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -2999,7 +2999,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vive-Health-Recalls-Adult-Portable-Bed-Rails-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violates-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-610952568264",
+      "id": "cpsc-686016423923",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3011,7 +3011,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Beloems-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-955745054535",
+      "id": "cpsc-146556316554",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3023,7 +3023,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/CheerKid-Baby-Bath-Seats-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Drowning-Violates-Mandatory-Standard-for-Infant-Bath-Seats-Sold-on-Amazon-by-Babibaby-and-Woot"
     },
     {
-      "id": "cpsc-16780695090",
+      "id": "cpsc-452464721919",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3035,7 +3035,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fortemotus-Direct-Adult-Portable-Bed-Rails-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Entrapment-and-Asphyxiation-Violate-Mandatory-Standard-for-Adult-Portable-Bed-Rails"
     },
     {
-      "id": "cpsc-719995093956",
+      "id": "cpsc-316499187831",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3047,7 +3047,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LShome-Photoelectric-Smoke-Detector-Fire-Alarms-Recalled-Due-Failure-to-Warn-During-Fire-Posing-Serious-Injury-or-Death-Hazard-Sold-Exclusively-on-Amazon-com-by-TIANJINSHIHAOWEIXINSHENGJIDIANANZHUANGGONGCHENG"
     },
     {
-      "id": "cpsc-163206235239",
+      "id": "cpsc-886962215833",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3059,7 +3059,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/SOOWERY-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-396736423492",
+      "id": "cpsc-591071390909",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3071,7 +3071,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Surveying-Accessories-Cheaper-Recalls-Board-Games-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-784854606799",
+      "id": "cpsc-98923480773",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3083,7 +3083,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Watkins-Manufacturing-Recalls-Hydromassage-Rotary-Jets-in-Highlife-Collection-Spas-Due-to-Entanglement-and-Drowning-Hazards"
     },
     {
-      "id": "cpsc-309052270843",
+      "id": "cpsc-598485333321",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3095,7 +3095,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Airova-Recalls-Aroeve-Air-Purifiers-Due-to-Fire-and-Burn-Hazards"
     },
     {
-      "id": "cpsc-321377052536",
+      "id": "cpsc-620097022790",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3107,7 +3107,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Andy-Evan-Recalls-Childrens-Pajama-Sets-Due-to-Risk-of-Serious-Injury-or-Death-from-Burn-Hazard-Violate-Mandatory-Standard-for-Childrens-Sleepwear"
     },
     {
-      "id": "cpsc-204706632506",
+      "id": "cpsc-481150090535",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3119,7 +3119,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Aterian-Recalls-PurSteam-Elite-Travel-Steamers-and-Mighty-Lil-Steamers-Due-to-Risk-of-Serious-Burn-Injury"
     },
     {
-      "id": "cpsc-247446820725",
+      "id": "cpsc-420456608023",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3131,7 +3131,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Clark-Associates-Recalls-Lancaster-Table-Seating-Powder-Coated-Aluminum-Outdoor-Restaurant-Chairs-and-Barstools-Due-to-Fall-Hazard"
     },
     {
-      "id": "cpsc-997621386635",
+      "id": "cpsc-601041809817",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3143,7 +3143,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Cobelae-Busy-Books-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Hazard-Violates-Small-Parts-Ban-Sold-on-Amazon-by-Flyindream"
     },
     {
-      "id": "cpsc-453010227633",
+      "id": "cpsc-371883177842",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3155,7 +3155,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Dresbe-LED-Christmas-Headbands-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violate-Mandatory-Standard-for-Consumer-Products-with-Button-Cell-Batteries"
     },
     {
-      "id": "cpsc-601603003646",
+      "id": "cpsc-170063622559",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3167,7 +3167,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/DriBiz-Recalls-Ammo-Tabs-Desiccant-Tiles-Due-to-Injury-Hazard"
     },
     {
-      "id": "cpsc-941136942625",
+      "id": "cpsc-899985269925",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3179,7 +3179,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/EnHomee-10-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-207838909902",
+      "id": "cpsc-173148472151",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3191,7 +3191,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Fixwal-7-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-714969121198",
+      "id": "cpsc-953455733443",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3203,7 +3203,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Furnulem-5-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-911228477351",
+      "id": "cpsc-904361381854",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3215,7 +3215,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/GM-Gumili-Wintergreen-Essential-Oil-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Gumili-Beauty"
     },
     {
-      "id": "cpsc-158156559850",
+      "id": "cpsc-107509541142",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3227,7 +3227,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Kitosun-Submersible-LED-Light-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-710859195821",
+      "id": "cpsc-351393936160",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3239,7 +3239,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Little-Cow-Company-Recalls-9-oz-Candles-in-Glass-Jars-Due-to-Fire-Burn-and-Laceration-Hazards"
     },
     {
-      "id": "cpsc-84479326651",
+      "id": "cpsc-309704239238",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3251,7 +3251,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Lola-Plus-The-Boys-Recalls-Youth-Clothing-with-Drawstrings-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation-Hazard-Violates-Federal-Rule-for-Childrens-Upper-Outerwear"
     },
     {
-      "id": "cpsc-654068399417",
+      "id": "cpsc-54674818157",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3263,7 +3263,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Organic-Zing-Birch-Essential-Oil-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Linkers"
     },
     {
-      "id": "cpsc-824307641904",
+      "id": "cpsc-574362300326",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3275,7 +3275,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Semfri-Childrens-Helmets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Head-Injury-Violates-Mandatory-Standard-for-Bicycle-Helmets"
     },
     {
-      "id": "cpsc-807543344487",
+      "id": "cpsc-821555254939",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3287,7 +3287,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Shintenchi-6-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violate-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-210776319712",
+      "id": "cpsc-561042844577",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3299,7 +3299,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/YITA-Recalls-Multiple-Brands-of-Dressers-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units"
     },
     {
-      "id": "cpsc-879810169044",
+      "id": "cpsc-723821630038",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3311,7 +3311,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Zan-International-Trading-Recalls-Lotus-Joy-Sweet-Birch-Essential-Oil-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-123008637060",
+      "id": "cpsc-967858560100",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3323,7 +3323,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Scepter-Fuel-Containers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Flash-Fire-Burn-and-Child-Poisoning-Violates-Mandatory-Standards-for-Portable-Fuel-Containers-Imported-by-Mameix-Retail"
     },
     {
-      "id": "cpsc-131291047614",
+      "id": "cpsc-248742609319",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3335,7 +3335,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/AiTuiTui-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Vanfun"
     },
     {
-      "id": "cpsc-715486063340",
+      "id": "cpsc-646398814036",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3347,7 +3347,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Bazic-Products-Recalls-Bazic-Silicone-Glue-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-and-FHSA-Labeling-Requirements"
     },
     {
-      "id": "cpsc-133481238603",
+      "id": "cpsc-33551954622",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3359,7 +3359,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Gazelle-USA-Recalls-Urban-Arrow-FamilyNext-Pro-Cargo-E-Bikes-Due-to-Injury-Hazard"
     },
     {
-      "id": "cpsc-898518994759",
+      "id": "cpsc-612367848570",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3371,7 +3371,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Hobby-Lobby-Recalls-Giraffe-and-Llama-Plush-Toys-with-Clips-Due-to-Choking-Hazard"
     },
     {
-      "id": "cpsc-615615893715",
+      "id": "cpsc-863835877829",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3383,7 +3383,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sunneday-and-Blue-Bay-Above-Ground-Pools-48-Inches-and-Taller-Recalled-Due-to-Drowning-Hazard-Manufactured-by-Starmatrix-Group"
     },
     {
-      "id": "cpsc-449410005451",
+      "id": "cpsc-256147624690",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3395,7 +3395,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/LuxJet-Submersible-LED-Lights-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Battery-Ingestion-Violates-Mandatory-Standard-for-Consumer-Products-with-Coin-Batteries"
     },
     {
-      "id": "cpsc-666101867893",
+      "id": "cpsc-930588493701",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3407,7 +3407,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Mindbodygreen-Recalls-Ultimate-Multivitamin-Dietary-Supplement-Bottles-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging"
     },
     {
-      "id": "cpsc-605778589387",
+      "id": "cpsc-237564989411",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3419,7 +3419,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Northern-Tool-Equipment-Recalls-Hot-Water-Pressure-Washers-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-180882921067",
+      "id": "cpsc-931622279376",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3431,7 +3431,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Primark-Recalls-The-Nightmare-Before-Christmas-Glow-in-the-Dark-Coloring-Sets-Due-to-Ingestion-Hazard"
     },
     {
-      "id": "cpsc-268254896196",
+      "id": "cpsc-583752643495",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3443,7 +3443,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Rear-Bolts-on-Trek-and-Electra-Electric-Bicycles-Recalled-Due-to-Fall-Hazard-Manufactured-by-Hyena"
     },
     {
-      "id": "cpsc-917430255811",
+      "id": "cpsc-759386452804",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3455,7 +3455,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Sefudun-5-Minoxidil-Hair-Growth-Serum-Kits-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Nengmiaokeji"
     },
     {
-      "id": "cpsc-71319946911",
+      "id": "cpsc-552871681895",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3467,7 +3467,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Viofairy-Hair-Growth-Serum-Bottles-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-FDAF"
     },
     {
-      "id": "cpsc-600297995619",
+      "id": "cpsc-510973469613",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3479,7 +3479,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Aborder-Products-Recalls-Cumbor-Retractable-Safety-Gates-Due-to-Risk-of-Serious-Injury-or-Death-to-Children-from-Entrapment-Violates-Mandatory-Standard-for-Gates-and-Enclosures"
     },
     {
-      "id": "cpsc-786491036366",
+      "id": "cpsc-136108184000",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3491,7 +3491,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Academy-Sports-Outdoors-Recalls-Magellan-Odyssey-Rocker-Chairs-Due-to-Injury-and-Fall-Hazards"
     },
     {
-      "id": "cpsc-132319015457",
+      "id": "cpsc-750278009720",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3503,7 +3503,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Based-Online-Fidget-Magnet-Ball-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violate-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-224172595960",
+      "id": "cpsc-377207135824",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3515,7 +3515,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Gagaku-Childrens-Ice-Cream-Toy-Playsets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Hazard-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Brandworl-USA"
     },
     {
-      "id": "cpsc-584292467143",
+      "id": "cpsc-329356165803",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3527,7 +3527,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Iristar-Minoxidil-Spray-Bottles-for-Hair-and-Beard-Growth-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Child-Poisoning-Violates-Mandatory-Standard-for-Child-Resistant-Packaging-Sold-on-Amazon-by-Moralowen"
     },
     {
-      "id": "cpsc-36795134031",
+      "id": "cpsc-818715093822",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3539,7 +3539,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Johnson-Health-Tech-Expands-Recall-to-Include-Matrix-Retail-and-Vision-Treadmills-Due-to-Fire-Hazard"
     },
     {
-      "id": "cpsc-792361702300",
+      "id": "cpsc-240782594440",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3551,7 +3551,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Mikario-Trading-Convertible-Baby-Gyms-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Suffocation-Violate-Mandatory-Standard-for-Infant-Support-Cushions-Sold-on-TikTok-Shop"
     },
     {
-      "id": "cpsc-699686547168",
+      "id": "cpsc-32961174157",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3563,7 +3563,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Thrasio-Recalls-Angry-Orange-Enzyme-Stain-Removers-Due-to-Risk-of-Exposure-to-Bacteria"
     },
     {
-      "id": "cpsc-534624003505",
+      "id": "cpsc-610672878758",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3575,7 +3575,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Topkay-Lighters-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Violates-Mandatory-Standard-for-Multipurpose-Lighters-Sold-on-Amazon-by-Xiyude"
     },
     {
-      "id": "cpsc-18276753251",
+      "id": "cpsc-118719998883",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3587,7 +3587,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Vndueey-Magnetic-Men-Toy-Sets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Magnet-Ingestion-Violates-Mandatory-Standard-for-Toys"
     },
     {
-      "id": "cpsc-855641264628",
+      "id": "cpsc-418744337032",
       "source": "CPSC",
       "country": "US",
       "category": "",
@@ -3599,7 +3599,7 @@
       "url": "https://www.cpsc.gov/Recalls/2026/Yetonamr-Pull-String-Teething-Toys-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Choking-Violate-Mandatory-Standard-for-Toys-Sold-on-Amazon-by-Longyanguiheng"
     },
     {
-      "id": "cpsc-830483519187",
+      "id": "cpsc-583993890535",
       "source": "CPSC",
       "country": "US",
       "category": "",
