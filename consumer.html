@@ -48,11 +48,20 @@
   }
 
   .page-shell {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 24px 32px 80px;
+    background: #f4f0e6;
+    color: #0c0a07;
+    min-height: 100vh;
     position: relative;
     z-index: 1;
+  }
+  .page-shell h1, .page-shell h2, .page-shell h3, .page-shell h4, .page-shell h5, .page-shell p, .page-shell span, .page-shell div, .page-shell article, .page-shell aside, .page-shell main, .page-shell section {
+    color: inherit;
+  }
+  /* Container for actual content under the tab-nav */
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 32px 80px;
   }
 
   /* ============= MASTHEAD (compact, mirrors medical site) ============= */
@@ -63,10 +72,9 @@
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     gap: 16px;
-    background: var(--paper);
-    color: var(--ink);
+    background: #f4f0e6;
+    color: #0c0a07;
     position: sticky; top: 0; z-index: 50;
-    margin: 0 -32px 0;
   }
   .mast-left, .mast-right {
     font-family: 'JetBrains Mono', monospace;
@@ -226,6 +234,23 @@
     .back-to-top { bottom: 16px; right: 16px; width: 44px; height: 44px; }
     .pagination { font-size: 10px; }
     .pagination button { padding: 7px 12px; font-size: 10px; }
+  }
+  @media (max-width: 600px) {
+    .masthead {
+      grid-template-columns: auto 1fr auto;
+      text-align: left;
+      padding: 10px 14px;
+      gap: 10px;
+    }
+    .mast-right { text-align: right; }
+    .logo { font-size: 22px; }
+    .tagline { display: none; }
+    .mast-left, .mast-right { font-size: 8.5px; }
+    .tab-nav { top: 44px; }
+    .tab-btn { font-size: 10.5px; padding: 12px 12px; }
+    .container { padding: 0 14px 40px; }
+    .section-header h2 { font-size: 24px; }
+    .col-list { grid-template-columns: 1fr; }
   }
 
   /* ============= COVERAGE BANNER ============= */
@@ -539,15 +564,7 @@
   .site-footer a { color: var(--accent); border-bottom: 1px solid var(--accent); text-decoration: none; }
 
   @media (max-width: 720px) {
-    .page-shell { padding: 16px 18px 60px; }
-    .masthead { padding: 10px 18px 8px; margin: 0 -18px 0; }
-    .logo { font-size: 22px; }
-    .tagline { display: none; }
-    .mast-left, .mast-right { font-size: 8.5px; }
-    .tab-nav { margin: 0 -18px; padding: 0 18px; }
     .tab-btn { padding: 10px 12px; font-size: 10px; }
-    .section-header h2 { font-size: 24px; }
-    .col-list { grid-template-columns: 1fr; }
   }
 </style>
 </head>
@@ -622,6 +639,8 @@
     </div>
   </nav>
 
+  <div class="container">
+
   <!-- ALL ALERTS -->
   <div class="tab-panel active" id="panel-all">
     <div class="section-header">
@@ -629,19 +648,6 @@
       <p class="lede">Every active recall, warning and scam advisory across all monitored sources, newest first.</p>
     </div>
     <div class="reader-meta-bar" id="meta-all"></div>
-    <div class="filter-row">
-      <input type="search" id="search-all" placeholder="Search title, summary, source…">
-      <select id="filter-severity">
-        <option value="">All severities</option>
-        <option value="high">High</option>
-        <option value="medium">Medium</option>
-        <option value="low">Low</option>
-      </select>
-      <select id="filter-country">
-        <option value="">All regions</option>
-      </select>
-      <button id="filter-clear">Clear</button>
-    </div>
     <div id="stream-all"></div>
   </div>
 
@@ -652,7 +658,6 @@
       <p class="lede">US Consumer Product Safety Commission — toys, furniture, appliances, electronics, children's products.</p>
     </div>
     <div class="reader-meta-bar" id="meta-cpsc"></div>
-    <div class="filter-row" style="visibility: hidden; height: 0; margin: 0; padding: 0;"></div>
     <div id="stream-cpsc"></div>
   </div>
 
@@ -662,7 +667,6 @@
       <p class="lede">US vehicles, tires, child seats — defects requiring repair or replacement.</p>
     </div>
     <div class="reader-meta-bar" id="meta-nhtsa"></div>
-    <div class="filter-row" style="visibility: hidden; height: 0; margin: 0; padding: 0;"></div>
     <div id="stream-nhtsa"></div>
   </div>
 
@@ -672,7 +676,6 @@
       <p class="lede">U.S. Food &amp; Drug Administration — contamination, allergen, and labeling-related recalls for food and cosmetics.</p>
     </div>
     <div class="reader-meta-bar" id="meta-fda"></div>
-    <div class="filter-row" style="visibility: hidden; height: 0; margin: 0; padding: 0;"></div>
     <div id="stream-fda"></div>
   </div>
 
@@ -682,7 +685,6 @@
       <p class="lede">Pan-European rapid alert system for dangerous non-food products.</p>
     </div>
     <div class="reader-meta-bar" id="meta-eu"></div>
-    <div class="filter-row" style="visibility: hidden; height: 0; margin: 0; padding: 0;"></div>
     <div id="stream-eu"></div>
   </div>
 
@@ -692,8 +694,22 @@
       <p class="lede">Consumer alerts, deceptive advertising actions, identity-theft warnings.</p>
     </div>
     <div class="reader-meta-bar" id="meta-ftc"></div>
-    <div class="filter-row" style="visibility: hidden; height: 0; margin: 0; padding: 0;"></div>
     <div id="stream-ftc"></div>
+  </div>
+
+  <!-- SHARED FILTER ROW — sits under the section header of whatever tab is active -->
+  <div class="filter-row" id="shared-filters">
+    <input type="search" id="search-all" placeholder="Search title, summary, source…">
+    <select id="filter-severity">
+      <option value="">All severities</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+    <select id="filter-country">
+      <option value="">All regions</option>
+    </select>
+    <button id="filter-clear">Clear</button>
   </div>
 
   <footer class="site-footer">
@@ -702,7 +718,9 @@
     <div style="margin-top: 6px;">This dashboard aggregates publicly available government feeds. It is not a substitute for direct consultation with the source authorities.</div>
   </footer>
 
-</div>
+  </div><!-- /.container -->
+
+</div><!-- /.page-shell -->
 
 <!-- Back to top -->
 <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
@@ -721,6 +739,21 @@ const SOURCE_TO_TAB = {
   'FDA Food': 'fda',
   'EU Safety Gate': 'eu',
   'FTC': 'ftc',
+};
+
+// Reverse lookup: which tabs map to which source string (so we can filter ALL_ITEMS per tab)
+const TAB_TO_SOURCE = Object.fromEntries(
+  Object.entries(SOURCE_TO_TAB).map(([source, tab]) => [tab, source])
+);
+
+// Per-tab filter state — preserved across tab switches so filters don't get wiped
+const FILTER_STATE = {
+  all:   { search: '', severity: '', country: '' },
+  cpsc:  { search: '', severity: '', country: '' },
+  nhtsa: { search: '', severity: '', country: '' },
+  fda:   { search: '', severity: '', country: '' },
+  eu:    { search: '', severity: '', country: '' },
+  ftc:   { search: '', severity: '', country: '' },
 };
 
 // ============= LOAD FEED =============
@@ -853,11 +886,17 @@ function renderStream(items, streamId, metaId) {
   });
 }
 
-function renderAll() {
-  // Sort by date descending
+// Return the items relevant to a given tab (before filtering)
+function itemsForTab(tab) {
   const sorted = [...ALL_ITEMS].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  if (tab === 'all') return sorted;
+  const source = TAB_TO_SOURCE[tab];
+  return sorted.filter(i => i.source === source);
+}
 
-  // Counts
+function renderAll() {
+  // Update header counts for all tabs
+  const sorted = [...ALL_ITEMS].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   document.getElementById('count-all').textContent = sorted.length;
   Object.entries(SOURCE_TO_TAB).forEach(([source, tab]) => {
     const n = sorted.filter(i => i.source === source).length;
@@ -865,37 +904,70 @@ function renderAll() {
     if (el) el.textContent = n;
   });
 
-  // Per-tab streams
-  Object.entries(SOURCE_TO_TAB).forEach(([source, tab]) => {
-    renderStream(sorted.filter(i => i.source === source), 'stream-' + tab, 'meta-' + tab);
-  });
-
-  // Populate country filter
-  const countries = [...new Set(sorted.map(i => i.country).filter(Boolean))].sort();
-  const sel = document.getElementById('filter-country');
-  const existing = sel.value;
-  sel.innerHTML = '<option value="">All regions</option>' +
-    countries.map(c => `<option value="${escapeAttr(c)}">${escapeHtml(c)}</option>`).join('');
-  sel.value = existing;
-
+  // Render the currently active tab through the filter pipeline
   applyFilters();
 }
 
-function applyFilters() {
-  const q = (document.getElementById('search-all').value || '').toLowerCase().trim();
-  const sev = document.getElementById('filter-severity').value;
-  const country = document.getElementById('filter-country').value;
+// Repopulate the country <select> using only the countries present in the active tab,
+// preserving the current selection if it's still valid.
+function refreshCountryOptions() {
+  const items = itemsForTab(activeTab);
+  const countries = [...new Set(items.map(i => i.country).filter(Boolean))].sort();
+  const sel = document.getElementById('filter-country');
+  const desired = FILTER_STATE[activeTab].country;
+  sel.innerHTML = '<option value="">All regions</option>' +
+    countries.map(c => `<option value="${escapeAttr(c)}">${escapeHtml(c)}</option>`).join('');
+  // Restore selection only if it still exists in the list
+  if (desired && countries.includes(desired)) {
+    sel.value = desired;
+  } else {
+    sel.value = '';
+    FILTER_STATE[activeTab].country = '';
+  }
+}
 
-  let filtered = [...ALL_ITEMS].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+// Sync the visible filter inputs to the active tab's stored filter state
+function syncFilterInputsToState() {
+  const s = FILTER_STATE[activeTab];
+  document.getElementById('search-all').value = s.search;
+  document.getElementById('filter-severity').value = s.severity;
+  // country gets restored inside refreshCountryOptions
+}
+
+function applyFilters() {
+  // Read inputs into state
+  const s = FILTER_STATE[activeTab];
+  s.search   = document.getElementById('search-all').value || '';
+  s.severity = document.getElementById('filter-severity').value || '';
+  s.country  = document.getElementById('filter-country').value || '';
+
+  const q = s.search.toLowerCase().trim();
+  let filtered = itemsForTab(activeTab);
   if (q) filtered = filtered.filter(i =>
     (i.title + ' ' + i.summary + ' ' + i.source + ' ' + i.category + ' ' + i.hazard).toLowerCase().includes(q)
   );
-  if (sev) filtered = filtered.filter(i => i.severity === sev);
-  if (country) filtered = filtered.filter(i => i.country === country);
+  if (s.severity) filtered = filtered.filter(i => i.severity === s.severity);
+  if (s.country)  filtered = filtered.filter(i => i.country === s.country);
 
   // Filter changed → reset to page 1
-  PAGE_STATE['stream-all'] = 1;
-  renderStream(filtered, 'stream-all', 'meta-all');
+  const streamId = 'stream-' + activeTab;
+  const metaId   = 'meta-' + activeTab;
+  PAGE_STATE[streamId] = 1;
+  renderStream(filtered, streamId, metaId);
+}
+
+// Move the shared filter row into the active panel (between reader-meta-bar and the stream div)
+function placeFilterRowInActivePanel() {
+  const filterRow = document.getElementById('shared-filters');
+  const panel = document.getElementById('panel-' + activeTab);
+  if (!panel || !filterRow) return;
+  const stream = panel.querySelector('[id^="stream-"]');
+  if (stream && filterRow.parentNode !== panel) {
+    panel.insertBefore(filterRow, stream);
+  } else if (stream && filterRow.nextSibling !== stream) {
+    // Already in the right panel — just make sure it's before the stream div
+    panel.insertBefore(filterRow, stream);
+  }
 }
 
 // ============= TAB SWITCHING =============
@@ -907,6 +979,12 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     const tab = btn.dataset.tab;
     document.getElementById('panel-' + tab).classList.add('active');
     activeTab = tab;
+
+    // Move filter row into this panel, restore its remembered state, repopulate countries
+    placeFilterRowInActivePanel();
+    syncFilterInputsToState();
+    refreshCountryOptions();
+    applyFilters();
   });
 });
 
@@ -918,6 +996,7 @@ document.getElementById('filter-clear').addEventListener('click', () => {
   document.getElementById('search-all').value = '';
   document.getElementById('filter-severity').value = '';
   document.getElementById('filter-country').value = '';
+  FILTER_STATE[activeTab] = { search: '', severity: '', country: '' };
   applyFilters();
 });
 
@@ -956,8 +1035,22 @@ backToTopBtn.addEventListener('click', () => {
 // ============= BOOT =============
 (async function init() {
   await loadFeed();
-  document.getElementById('last-updated').textContent =
-    FEED_GENERATED_AT ? FEED_GENERATED_AT.slice(0, 10) : '—';
+  // Format the "UPDATED" stamp to match the regulatory page ("May 14, 08:58 AM"-style)
+  if (FEED_GENERATED_AT) {
+    const d = new Date(FEED_GENERATED_AT);
+    if (!isNaN(d.getTime())) {
+      document.getElementById('last-updated').textContent =
+        d.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    } else {
+      // Fall back to the raw string if it's not a parseable date
+      document.getElementById('last-updated').textContent = FEED_GENERATED_AT;
+    }
+  } else {
+    document.getElementById('last-updated').textContent = 'sample';
+  }
+  // Place the filter row in the initial (all-alerts) panel and render
+  placeFilterRowInActivePanel();
+  refreshCountryOptions();
   renderAll();
 })();
 </script>
