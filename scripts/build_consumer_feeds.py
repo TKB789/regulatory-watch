@@ -1,18 +1,34 @@
 #!/usr/bin/env python3
 """
-build_consumer_feeds.py  (v9 — adds full EU alert XML dump for diagnosis)
-------------------------------------------------------------------------
-v9 keeps every v8 behavior (6-month cap, all working sources) and adds
-ONE diagnostic: on the first EU weekly report processed, it dumps the
-full XML of the first 2 alerts to the Actions log, plus a field
-inventory listing every tag with a sample value. This lets us see
-which fields are actually populated for current EU alerts so v10 can
-surface the right data.
+build_consumer_feeds.py  (v10 — EU alert grouping by <order> boundary)
+---------------------------------------------------------------------
+The v9 dump revealed that the <notifications> XML is FLAT, not nested.
+Fields appear as sibling elements delimited by <order> tags:
 
-To find the dump in the Actions log, search for:
-    === RAW ALERT XML DUMP ===
+    <notifications>
+      <order>1</order>
+      <caseNumber>SR/01326/26</caseNumber>
+      <category>Toys</category>
+      <product>Plastic figure</product>
+      ...
+      <order>2</order>          ← new alert starts here
+      <caseNumber>SR/01327/26</caseNumber>
+      ...
+    </notifications>
 
-No behavioral changes — just diagnostics. Safe to deploy.
+v9 incorrectly treated each child element as a separate alert, which is
+why we got 43,690 items with mostly empty fields and "(unnamed product)"
+titles.
+
+v10 changes:
+  - Group sibling elements between <order> tags into alert dicts
+  - Switch from XPath-style field lookup to dict-based access
+  - Better diagnostic dump: shows first 3 alerts as field dicts plus the
+    raw first 50 sibling tags so we can verify the grouping
+
+Expected outcome: ~1,584 alerts × 25 weekly reports / dedup ≈ a few
+thousand real alerts, each with populated product, brand, risk, country
+fields.
 """
 
 import json
@@ -340,62 +356,95 @@ def fetch_eu_safety_gate():
 
         strip_namespaces(root)
 
+        # The XML structure inside <notifications> is FLAT — not nested per
+        # alert. Fields appear as siblings, delimited by <order> tags:
+        #     <order>1</order>
+        #     <caseNumber>SR/01326/26</caseNumber>
+        #     <category>Toys</category>
+        #     <product>Plastic figure</product>
+        #     ...
+        #     <order>2</order>          ← new alert starts
+        #     <caseNumber>SR/01327/26</caseNumber>
+        #     ...
+        # So we group by <order> boundaries to reconstruct each alert as a
+        # dict of field_name -> value.
         alerts = []
         for notif_block in root.iter("notifications"):
+            current = None
             for child in list(notif_block):
-                if isinstance(child.tag, str):
-                    alerts.append(child)
+                if not isinstance(child.tag, str):
+                    continue
+                tag = child.tag.lower()
+                text = (child.text or "").strip()
+                if tag == "order":
+                    if current is not None:
+                        alerts.append(current)
+                    current = {"order": text}
+                else:
+                    if current is None:
+                        # Stray tag before first <order> — start a phantom alert
+                        current = {}
+                    # Some fields appear multiple times (e.g. multiple risks).
+                    # Concatenate with " | " to preserve them all.
+                    if tag in current and current[tag]:
+                        current[tag] = current[tag] + " | " + text if text else current[tag]
+                    else:
+                        current[tag] = text
+            if current is not None:
+                alerts.append(current)
 
         if not alerts:
             continue
 
         if not logged_schema:
-            print(f"\n  [EU Safety Gate] === RAW ALERT XML DUMP ===")
-            print(f"  Report ID: {rid}    Date: {d.isoformat()}    Alerts in report: {len(alerts)}")
-            print(f"  Showing first 2 alerts verbatim so we can see every field and its real content.\n")
+            print(f"\n  [EU Safety Gate] === ALERT FIELD DUMP (v10 grouping) ===")
+            print(f"  Report ID: {rid}    Date: {d.isoformat()}    Alerts in report: {len(alerts)}\n")
 
-            for idx, sample in enumerate(alerts[:2]):
-                print(f"  --- ALERT #{idx + 1} ---")
-                # Serialize the alert subtree back to a string so every field
-                # and its value is visible. Pretty-print at depth.
-                raw = ET.tostring(sample, encoding="unicode")
-                # Compress runs of whitespace so the log is readable, but keep
-                # tag boundaries intact.
-                raw = re.sub(r"\n\s*", "\n", raw).strip()
-                # Truncate each alert to ~3000 chars max for log readability
-                if len(raw) > 3000:
-                    raw = raw[:3000] + "\n  ...[truncated]..."
-                # Indent each line by 4 spaces so it reads nicely in the log
-                for line in raw.split("\n"):
-                    print(f"    {line}")
+            # Show first 3 alerts as field dicts (much more readable than raw XML)
+            for idx, a in enumerate(alerts[:3]):
+                print(f"  --- ALERT #{idx + 1} ({len(a)} fields) ---")
+                for k in sorted(a.keys()):
+                    v = a[k] or ""
+                    v_display = v[:120] if v else "(empty)"
+                    print(f"    {k}: {v_display}")
                 print()
 
-            # Also print a structural summary: every tag with content + a sample value
-            print(f"  --- FIELD INVENTORY (across first alert) ---")
-            sample = alerts[0]
-            seen_fields = {}
-            for el in sample.iter():
-                if not isinstance(el.tag, str) or el.tag == sample.tag:
-                    continue
-                if el.tag not in seen_fields:
-                    val = (el.text or "").strip()
-                    val_display = val[:80] if val else "(empty)"
-                    seen_fields[el.tag] = val_display
-            for tag, val in sorted(seen_fields.items()):
-                print(f"    <{tag}>{val}</{tag}>")
+            # Also dump the first 50 sibling tags in document order so we
+            # can confirm the grouping is correct
+            print(f"  --- FIRST 50 SIBLINGS IN DOCUMENT ORDER (for verification) ---")
+            count = 0
+            for notif_block in root.iter("notifications"):
+                for child in list(notif_block):
+                    if not isinstance(child.tag, str):
+                        continue
+                    text = (child.text or "").strip()[:60]
+                    print(f"    <{child.tag}>{text}</{child.tag}>")
+                    count += 1
+                    if count >= 50:
+                        break
+                if count >= 50:
+                    break
             print(f"  === END DUMP ===\n")
             logged_schema = True
 
+        # Helper to read a field from the alert dict trying multiple aliases
+        def get_field(alert_dict, *names):
+            for n in names:
+                v = alert_dict.get(n.lower(), "")
+                if v:
+                    return v
+            return ""
+
         for alert in alerts:
-            alert_num = first_text_of(alert, *ALERT_NUM_TAGS)
-            product_name = first_text_of(alert, *TITLE_TAGS) or "(unnamed product)"
-            brand = first_text_of(alert, *BRAND_TAGS)
-            category = first_text_of(alert, *CATEGORY_TAGS) or "Consumer Product"
-            risk = first_text_of(alert, *RISK_TAGS)
-            country = first_text_of(alert, *COUNTRY_TAGS) or "EU"
-            origin = first_text_of(alert, *ORIGIN_TAGS)
-            description = first_text_of(alert, *DESC_TAGS)
-            model = first_text_of(alert, *MODEL_TAGS)
+            alert_num = get_field(alert, *ALERT_NUM_TAGS)
+            product_name = get_field(alert, *TITLE_TAGS) or "(unnamed product)"
+            brand = get_field(alert, *BRAND_TAGS)
+            category = get_field(alert, *CATEGORY_TAGS) or "Consumer Product"
+            risk = get_field(alert, *RISK_TAGS)
+            country = get_field(alert, *COUNTRY_TAGS) or "EU"
+            origin = get_field(alert, *ORIGIN_TAGS)
+            description = get_field(alert, *DESC_TAGS)
+            model = get_field(alert, *MODEL_TAGS)
 
             display_title = product_name
             if brand and brand.lower() not in product_name.lower():
