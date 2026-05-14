@@ -1,35 +1,18 @@
 #!/usr/bin/env python3
 """
-build_consumer_feeds.py  (v7 — EU schema fix + FSIS dropped)
-------------------------------------------------------------
-Changes from v6 based on the v6 Actions log:
+build_consumer_feeds.py  (v9 — adds full EU alert XML dump for diagnosis)
+------------------------------------------------------------------------
+v9 keeps every v8 behavior (6-month cap, all working sources) and adds
+ONE diagnostic: on the first EU weekly report processed, it dumps the
+full XML of the first 2 alerts to the Actions log, plus a field
+inventory listing every tag with a sample value. This lets us see
+which fields are actually populated for current EU alerts so v10 can
+surface the right data.
 
-  - EU Safety Gate: the v6 log revealed the actual schema. Inside each
-    weekly detail XML, alerts are nested as:
-        <notifications>
-          (one child per alert, with fields: caseNumber, reference,
-           category, product, brand, name, type_numberOfModel,
-           picture, risk_description, etc.)
-        </notifications>
-    My parser was looking for <notification> (singular) as the alert
-    container — wrong. v7 looks for <notifications> and iterates its
-    children. Also fixes date sorting: the listing's publicationDate
-    is in DD/MM/YYYY format and my string sort was meaningless. v7
-    parses dates properly before sorting.
+To find the dump in the Actions log, search for:
+    === RAW ALERT XML DUMP ===
 
-  - USDA FSIS: every available source (FoodSafety.gov widget,
-    recalls.gov, fsis.usda.gov RSS, fsis.usda.gov HTML) now returns
-    403 from GitHub Actions runner IPs — this is an Akamai-level
-    block on the runner's IP ranges, which we can't bypass without
-    a proxy or different runner. v7 removes FSIS from the active
-    fetchers list. FDA Food (~100 items) still provides US food
-    recall coverage. To re-enable FSIS in the future you would need
-    one of: (a) a proxy service, (b) a self-hosted GitHub runner
-    with a different egress IP, or (c) a separately-funded data
-    source like ScrapingBee or Bright Data.
-
-Active sources (5):
-  - CPSC, NHTSA, FDA Food, EU Safety Gate, FTC
+No behavioral changes — just diagnostics. Safe to deploy.
 """
 
 import json
@@ -39,7 +22,7 @@ import urllib.request
 import urllib.error
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, date
+from datetime import datetime, timezone, date, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -50,6 +33,9 @@ TIMEOUT = 30
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
               "AppleWebKit/537.36 (KHTML, like Gecko) "
               "Chrome/124.0.0.0 Safari/537.36")
+
+# 6 months ≈ 183 days. Items older than this cutoff are dropped.
+SIX_MONTHS_AGO = (datetime.now(timezone.utc).date() - timedelta(days=183))
 
 
 def http_get(url, headers=None):
@@ -92,28 +78,57 @@ def parse_rss_date(s):
 
 
 def parse_eu_date(s):
-    """EU listing uses DD/MM/YYYY. Return a date object or None."""
+    """DD/MM/YYYY or ISO → date object or None."""
     if not s:
         return None
-    m = re.match(r"^(\d{1,2})[/-](\d{1,2})[/-](\d{4})", s.strip())
-    if not m:
-        # Maybe already ISO?
-        m2 = re.match(r"^(\d{4})-(\d{2})-(\d{2})", s.strip())
-        if m2:
-            try:
-                return date(int(m2.group(1)), int(m2.group(2)), int(m2.group(3)))
-            except ValueError:
-                return None
-        return None
+    s = s.strip()
+    m = re.match(r"^(\d{1,2})[/-](\d{1,2})[/-](\d{4})", s)
+    if m:
+        try:
+            return date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        except ValueError:
+            return None
+    m2 = re.match(r"^(\d{4})-(\d{2})-(\d{2})", s)
+    if m2:
+        try:
+            return date(int(m2.group(1)), int(m2.group(2)), int(m2.group(3)))
+        except ValueError:
+            return None
+    return None
+
+
+def within_six_months(iso_date_str):
+    """True if iso_date_str (YYYY-MM-DD) is within last 6 months."""
+    if not iso_date_str or len(iso_date_str) < 10:
+        return False
     try:
-        return date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+        d = date.fromisoformat(iso_date_str[:10])
     except ValueError:
-        return None
+        return False
+    return d >= SIX_MONTHS_AGO
+
+
+def apply_six_month_cap(items, label):
+    """Filter items to last 6 months. Logs before/after counts."""
+    before = len(items)
+    dated = [it for it in items if within_six_months(it.get("date", ""))]
+    if dated:
+        kept = dated
+    else:
+        # Source has no parseable dates at all — keep undated items so we
+        # don't accidentally wipe a working source over a format quirk.
+        kept = items
+        print(f"  [{label}] no items had parseable dates; keeping all {before}", file=sys.stderr)
+    after = len(kept)
+    if before != after:
+        print(f"  [{label}] 6-month cap: {before} → {after}")
+    return kept
 
 
 def safe(fn, label):
     try:
         items = fn()
+        items = apply_six_month_cap(items, label)
         print(f"  [{label}] fetched {len(items)} items")
         return items, True
     except Exception as e:
@@ -134,7 +149,7 @@ def fetch_cpsc():
     url = "https://www.saferproducts.gov/RestWebServices/Recall?format=json"
     data = http_get_json(url)
     out = []
-    for r in data[:200]:
+    for r in data[:400]:  # raised cap; will be filtered to 6 months after
         rid = r.get("RecallID") or r.get("RecallNumber")
         title = r.get("Title") or "(untitled CPSC recall)"
         date_raw = r.get("RecallDate") or ""
@@ -160,7 +175,7 @@ def fetch_cpsc():
 # ---------------------------------------------------------------------------
 def fetch_nhtsa():
     base = "https://data.transportation.gov/resource/6axg-epim.json"
-    params = {"$order": "report_received_date DESC", "$limit": "300"}
+    params = {"$order": "report_received_date DESC", "$limit": "500"}
     url = base + "?" + urllib.parse.urlencode(params)
     data = http_get_json(url)
     out = []
@@ -189,10 +204,10 @@ def fetch_nhtsa():
 # FDA Food
 # ---------------------------------------------------------------------------
 def fetch_fda_food():
-    url = "https://api.fda.gov/food/enforcement.json?sort=report_date:desc&limit=100"
+    url = "https://api.fda.gov/food/enforcement.json?sort=report_date:desc&limit=200"
     data = http_get_json(url)
     out = []
-    for r in (data.get("results") or [])[:100]:
+    for r in (data.get("results") or [])[:200]:
         rid = r.get("recall_number")
         date_raw = r.get("report_date") or ""
         d = ""
@@ -215,13 +230,16 @@ def fetch_fda_food():
 
 
 # ---------------------------------------------------------------------------
-# EU Safety Gate (FIX: correct container = <notifications>, proper date sort)
+# EU Safety Gate (still uses 6 most recent reports; cap then filters further)
 # ---------------------------------------------------------------------------
 EU_BASE = "https://ec.europa.eu/safety-gate-alerts/api/download"
 EU_LIST_URL = f"{EU_BASE}/weeklyReport/list/xml/en"
 EU_DETAIL_TEMPLATE = (EU_BASE + "/weeklyReport/detail/xml/{rid}"
                       "?language=en&search=WEB_REPORT%7C:%7C{rid}")
-EU_WEEKS_TO_FETCH = 6
+# Bumped from 6 to 26 weeks so we have full 6 months of EU data BEFORE the
+# 6-month filter runs. Each report is small over the wire (~150 KB) so 26
+# requests is still well under a minute total.
+EU_WEEKS_TO_FETCH = 26
 
 ID_FROM_URL_RE = re.compile(r"/(\d{3,9})(?:[/?#]|$)")
 
@@ -238,7 +256,6 @@ def fetch_eu_safety_gate():
     weekly_reports = list(list_root.iter("weeklyReport"))
     print(f"  [EU Safety Gate] found {len(weekly_reports)} <weeklyReport> entries")
 
-    # Build (parsed_date, id, url) tuples. Use proper date parsing so sort works.
     reports = []
     for wr in weekly_reports:
         url_text = (wr.findtext("URL") or "").strip()
@@ -248,7 +265,6 @@ def fetch_eu_safety_gate():
         month = (wr.findtext("month") or "").strip()
         day = (wr.findtext("day") or "").strip()
 
-        # Best date source: explicit year/month/day; fall back to publicationDate
         d = None
         if year.isdigit() and month.isdigit() and day.isdigit():
             try:
@@ -258,9 +274,8 @@ def fetch_eu_safety_gate():
         if d is None:
             d = parse_eu_date(pub)
         if d is None:
-            d = date(1900, 1, 1)  # unparseable → sort to bottom
+            d = date(1900, 1, 1)
 
-        # ID: prefer numeric in URL, then numeric reference
         rid = None
         m = ID_FROM_URL_RE.search(url_text)
         if m:
@@ -269,20 +284,22 @@ def fetch_eu_safety_gate():
             rid = ref_text
 
         if rid:
-            reports.append((d, rid, url_text, pub))
+            reports.append((d, rid, url_text))
 
+    # Sort newest first AND filter listing to last 6 months upfront — saves
+    # us from downloading older weekly reports we'll only discard later.
+    reports = [r for r in reports if r[0] >= SIX_MONTHS_AGO]
     reports.sort(key=lambda t: t[0], reverse=True)
     if not reports:
-        raise RuntimeError("EU listing parsed but no usable report IDs/URLs found")
+        raise RuntimeError("no EU weekly reports within last 6 months")
 
     recent = reports[:EU_WEEKS_TO_FETCH]
-    print(f"  [EU Safety Gate] fetching {len(recent)} most recent: "
-          f"{[(d.isoformat(), rid) for d, rid, _, _ in recent]}")
+    print(f"  [EU Safety Gate] downloading {len(recent)} weekly reports "
+          f"(date range {recent[-1][0].isoformat()} → {recent[0][0].isoformat()})")
 
     out = []
     logged_schema = False
 
-    # Field name maps based on the v6 log discovery
     TITLE_TAGS = ("name", "product", "productname", "title")
     BRAND_TAGS = ("brand",)
     CATEGORY_TAGS = ("category", "productcategory")
@@ -298,7 +315,16 @@ def fetch_eu_safety_gate():
                  "measuresdescription")
     MODEL_TAGS = ("type_numberofmodel", "type", "model")
 
-    for d, rid, original_url, pub_text in recent:
+    def first_text_of(parent, *tag_names):
+        wanted = {t.lower() for t in tag_names}
+        for el in parent.iter():
+            if isinstance(el.tag, str) and el.tag.lower() in wanted:
+                txt = (el.text or "").strip()
+                if txt:
+                    return txt
+        return ""
+
+    for d, rid, original_url in recent:
         detail_url = original_url or EU_DETAIL_TEMPLATE.format(rid=rid)
         try:
             xml = http_get(detail_url)
@@ -314,9 +340,6 @@ def fetch_eu_safety_gate():
 
         strip_namespaces(root)
 
-        # The container is <notifications> (plural). Its DIRECT CHILDREN are
-        # the individual alerts. Each child is typically named "notification"
-        # but we treat any element-typed child as an alert to be safe.
         alerts = []
         for notif_block in root.iter("notifications"):
             for child in list(notif_block):
@@ -324,32 +347,44 @@ def fetch_eu_safety_gate():
                     alerts.append(child)
 
         if not alerts:
-            # Diagnostic: dump top tags so we know what's there
-            counts = {}
-            for el in root.iter():
-                if isinstance(el.tag, str):
-                    counts[el.tag] = counts.get(el.tag, 0) + 1
-            ranked = sorted(counts.items(), key=lambda kv: -kv[1])
-            print(f"  [EU Safety Gate] report {rid}: no <notifications> "
-                  f"container found; top tags = {ranked[:8]}")
             continue
 
         if not logged_schema:
-            sample = alerts[0]
-            tags_in_sample = sorted({el.tag for el in sample.iter()
-                                     if isinstance(el.tag, str)})
-            print(f"  [EU Safety Gate] alert element = <{sample.tag}>; "
-                  f"sample inner tags = {tags_in_sample}")
-            logged_schema = True
+            print(f"\n  [EU Safety Gate] === RAW ALERT XML DUMP ===")
+            print(f"  Report ID: {rid}    Date: {d.isoformat()}    Alerts in report: {len(alerts)}")
+            print(f"  Showing first 2 alerts verbatim so we can see every field and its real content.\n")
 
-        def first_text_of(parent, *tag_names):
-            wanted = {t.lower() for t in tag_names}
-            for el in parent.iter():
-                if isinstance(el.tag, str) and el.tag.lower() in wanted:
-                    txt = (el.text or "").strip()
-                    if txt:
-                        return txt
-            return ""
+            for idx, sample in enumerate(alerts[:2]):
+                print(f"  --- ALERT #{idx + 1} ---")
+                # Serialize the alert subtree back to a string so every field
+                # and its value is visible. Pretty-print at depth.
+                raw = ET.tostring(sample, encoding="unicode")
+                # Compress runs of whitespace so the log is readable, but keep
+                # tag boundaries intact.
+                raw = re.sub(r"\n\s*", "\n", raw).strip()
+                # Truncate each alert to ~3000 chars max for log readability
+                if len(raw) > 3000:
+                    raw = raw[:3000] + "\n  ...[truncated]..."
+                # Indent each line by 4 spaces so it reads nicely in the log
+                for line in raw.split("\n"):
+                    print(f"    {line}")
+                print()
+
+            # Also print a structural summary: every tag with content + a sample value
+            print(f"  --- FIELD INVENTORY (across first alert) ---")
+            sample = alerts[0]
+            seen_fields = {}
+            for el in sample.iter():
+                if not isinstance(el.tag, str) or el.tag == sample.tag:
+                    continue
+                if el.tag not in seen_fields:
+                    val = (el.text or "").strip()
+                    val_display = val[:80] if val else "(empty)"
+                    seen_fields[el.tag] = val_display
+            for tag, val in sorted(seen_fields.items()):
+                print(f"    <{tag}>{val}</{tag}>")
+            print(f"  === END DUMP ===\n")
+            logged_schema = True
 
         for alert in alerts:
             alert_num = first_text_of(alert, *ALERT_NUM_TAGS)
@@ -362,7 +397,6 @@ def fetch_eu_safety_gate():
             description = first_text_of(alert, *DESC_TAGS)
             model = first_text_of(alert, *MODEL_TAGS)
 
-            # Build a useful title combining brand + product
             display_title = product_name
             if brand and brand.lower() not in product_name.lower():
                 display_title = f"{brand} {product_name}"
@@ -385,7 +419,7 @@ def fetch_eu_safety_gate():
                 "category": category[:60],
                 "hazard": risk[:80],
                 "severity": eu_severity(risk),
-                "date": d.isoformat(),  # use the weekly report's date
+                "date": d.isoformat(),
                 "title": display_title[:200],
                 "summary": summary,
                 "url": (f"https://ec.europa.eu/safety-gate-alerts/screen/webReport/alertDetail/{rid}"
@@ -425,7 +459,7 @@ def fetch_ftc():
 # Driver
 # ---------------------------------------------------------------------------
 def main():
-    print("Building consumer.json…")
+    print(f"Building consumer.json… (6-month cutoff: {SIX_MONTHS_AGO.isoformat()})")
 
     previous = {}
     if OUT_PATH.exists():
@@ -437,7 +471,6 @@ def main():
         except Exception:
             previous = {}
 
-    # USDA FSIS removed — see v7 docstring for explanation
     fetchers = [
         ("CPSC", fetch_cpsc),
         ("NHTSA", fetch_nhtsa),
@@ -455,18 +488,21 @@ def main():
             statuses[label] = "ok"
         else:
             fallback = previous.get(label, [])
+            # Apply 6-month cap to fallback data too
+            fallback = [it for it in fallback if within_six_months(it.get("date", ""))]
             all_items.extend(fallback)
             statuses[label] = "stale" if fallback else "missing"
             print(f"  [{label}] using {len(fallback)} cached items (status: {statuses[label]})")
 
-    # Mark FSIS as disabled-by-design so the front-end can show appropriate text
     statuses["USDA FSIS"] = "blocked_by_source"
 
     all_items.sort(key=lambda x: x.get("date", ""), reverse=True)
 
     output = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "schema_version": "1.6",
+        "schema_version": "1.7",
+        "window_days": 183,
+        "cutoff_date": SIX_MONTHS_AGO.isoformat(),
         "source_status": statuses,
         "items": all_items,
     }
