@@ -885,6 +885,19 @@
   }
   .coverage-detail.open { display: block; }
   .coverage-detail strong { color: var(--accent-2); }
+  /* Agency-name links: keep the strong color, add an underline so they read as tappable */
+  .coverage-detail .col-list a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(146, 64, 14, 0.35);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .coverage-detail .col-list a:hover,
+  .coverage-detail .col-list a:focus {
+    border-bottom-color: var(--accent-2);
+    color: var(--accent);
+  }
+  .coverage-detail .col-list a strong { color: inherit; }
   .coverage-detail .col-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1730,30 +1743,30 @@
     <strong>Scope:</strong> Live updates from major medical-device regulators worldwide — FDA, EU Commission, MHRA, Health Canada, TGA, plus IMDRF.
     <button class="toggle" onclick="var d=document.getElementById('cov-detail'); var open=d.classList.toggle('open'); d.closest('.coverage-banner').classList.toggle('expanded', open); this.textContent = open ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
     <div class="coverage-detail" id="cov-detail">
-      <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or only manually-listed in the Agencies tab (○).</p>
+      <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or has no public feed and is listed for reference only (○). Tap any name to open the agency's official site.</p>
       <div class="col-list">
         <ul>
-          <li class="yes"><strong>FDA Medical Device Recalls</strong></li>
-          <li class="yes"><strong>FDA Medical Device Safety</strong></li>
-          <li class="yes"><strong>FDA CDRH</strong> — What's New</li>
-          <li class="yes"><strong>FDA MedWatch</strong> — safety alerts</li>
-          <li class="yes"><strong>FDA Press Announcements</strong></li>
-          <li class="yes"><strong>Federal Register</strong> — FDA pre-pubs</li>
-          <li class="yes"><strong>EU Commission</strong> — health news</li>
-          <li class="yes"><strong>EUR-Lex</strong> — EU legal acts</li>
-          <li class="yes"><strong>MHRA</strong> — UK news, drug & device alerts</li>
-          <li class="yes"><strong>Health Canada</strong> — recalls & safety</li>
-          <li class="yes"><strong>TGA</strong> — Australia news & alerts</li>
-          <li class="yes"><strong>IMDRF</strong> — international harmonization</li>
+          <li class="yes"><a href="https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls" target="_blank" rel="noopener"><strong>FDA Medical Device Recalls</strong></a></li>
+          <li class="yes"><a href="https://www.fda.gov/medical-devices/medical-device-safety" target="_blank" rel="noopener"><strong>FDA Medical Device Safety</strong></a></li>
+          <li class="yes"><a href="https://www.fda.gov/about-fda/center-devices-and-radiological-health" target="_blank" rel="noopener"><strong>FDA CDRH</strong></a> — What's New</li>
+          <li class="yes"><a href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" target="_blank" rel="noopener"><strong>FDA MedWatch</strong></a> — safety alerts</li>
+          <li class="yes"><a href="https://www.fda.gov/news-events/fda-newsroom/press-announcements" target="_blank" rel="noopener"><strong>FDA Press Announcements</strong></a></li>
+          <li class="yes"><a href="https://www.federalregister.gov/agencies/food-and-drug-administration" target="_blank" rel="noopener"><strong>Federal Register</strong></a> — FDA pre-pubs</li>
+          <li class="yes"><a href="https://health.ec.europa.eu/medical-devices-sector_en" target="_blank" rel="noopener"><strong>EU Commission</strong></a> — health news</li>
+          <li class="yes"><a href="https://eur-lex.europa.eu/" target="_blank" rel="noopener"><strong>EUR-Lex</strong></a> — EU legal acts</li>
+          <li class="yes"><a href="https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency" target="_blank" rel="noopener"><strong>MHRA</strong></a> — UK news, drug & device alerts</li>
+          <li class="yes"><a href="https://recalls-rappels.canada.ca/en" target="_blank" rel="noopener"><strong>Health Canada</strong></a> — recalls & safety</li>
+          <li class="yes"><a href="https://www.tga.gov.au/safety/alerts" target="_blank" rel="noopener"><strong>TGA</strong></a> — Australia news & alerts</li>
+          <li class="yes"><a href="https://www.imdrf.org/" target="_blank" rel="noopener"><strong>IMDRF</strong></a> — international harmonization</li>
         </ul>
         <ul>
-          <li class="no"><strong>PMDA</strong> (Japan) — no public feed</li>
-          <li class="no"><strong>NMPA</strong> (China) — no public feed</li>
-          <li class="no"><strong>CDSCO</strong> (India) — no public feed</li>
-          <li class="no"><strong>ANVISA</strong> (Brazil) — no public feed</li>
-          <li class="no"><strong>MFDS</strong> (S. Korea) — no public feed</li>
-          <li class="no"><strong>Swissmedic</strong> — email newsletter only</li>
-          <li class="no"><strong>SFDA</strong> (Saudi Arabia) — no usable feed</li>
+          <li class="no"><a href="https://www.pmda.go.jp/english/" target="_blank" rel="noopener"><strong>PMDA</strong></a> (Japan) — no public feed</li>
+          <li class="no"><a href="https://english.nmpa.gov.cn/" target="_blank" rel="noopener"><strong>NMPA</strong></a> (China) — no public feed</li>
+          <li class="no"><a href="https://cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/" target="_blank" rel="noopener"><strong>CDSCO</strong></a> (India) — no public feed</li>
+          <li class="no"><a href="https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude" target="_blank" rel="noopener"><strong>ANVISA</strong></a> (Brazil) — no public feed</li>
+          <li class="no"><a href="https://www.mfds.go.kr/eng/index.do" target="_blank" rel="noopener"><strong>MFDS</strong></a> (S. Korea) — no public feed</li>
+          <li class="no"><a href="https://www.swissmedic.ch/swissmedic/en/home.html" target="_blank" rel="noopener"><strong>Swissmedic</strong></a> — email newsletter only</li>
+          <li class="no"><a href="https://www.sfda.gov.sa/en" target="_blank" rel="noopener"><strong>SFDA</strong></a> (Saudi Arabia) — no usable feed</li>
         </ul>
       </div>
       <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">Items are kept in an append-only archive — once indexed they remain searchable in the Archive tab even after rolling off the upstream feed.</p>
@@ -1779,7 +1792,6 @@
     <button class="tab-btn" data-tab="eur-lex">EUR-Lex <span class="count">0</span></button>
     <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">0</span></button>
     <button class="tab-btn" data-tab="calendar">Calendar</button>
-    <button class="tab-btn" data-tab="agencies">Agencies</button>
     <button class="tab-btn" data-tab="archive">Archive</button>
     <button class="tab-btn" data-tab="lookup">FDA Lookup</button>
   </div>
@@ -1936,14 +1948,7 @@
   </div>
 
   <!-- ===== AGENCIES TAB ===== -->
-  <div class="tab-section" id="tab-agencies">
-    <div class="section-header">
-      <div class="kicker">▌ Sources</div>
-      <h1>Agency <em>Status</em></h1>
-      <p class="desc">Live status of all monitored regulatory authorities. Tap any agency to view its dedicated feed.</p>
-    </div>
-    <div class="agency-strip" id="agencies-full"></div>
-  </div>
+  <div class="tab-section" id="tab-agencies" hidden></div>
 
   <!-- ===== ARCHIVE TAB ===== -->
   <div class="tab-section" id="tab-archive">
@@ -3374,43 +3379,11 @@ calendar.forEach(c => {
   calEl.appendChild(el);
 });
 
-const agencies = [
-  { flag: 'United States', acro: 'FDA',    url: 'https://www.fda.gov/medical-devices' },
-  { flag: 'European Union', acro: 'EMA',   url: 'https://health.ec.europa.eu/medical-devices-sector_en' },
-  { flag: 'United Kingdom', acro: 'MHRA',  url: 'https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency' },
-  { flag: 'Japan',          acro: 'PMDA',  url: 'https://www.pmda.go.jp/english/' },
-  { flag: 'Canada',         acro: 'HC',    url: 'https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices.html' },
-  { flag: 'Australia',      acro: 'TGA',   url: 'https://www.tga.gov.au/products/medical-devices' },
-  { flag: 'China',          acro: 'NMPA',  url: 'https://english.nmpa.gov.cn/' },
-  { flag: 'India',          acro: 'CDSCO', url: 'https://cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/' },
-  { flag: 'Brazil',         acro: 'ANVISA',url: 'https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude' },
-  { flag: 'South Korea',    acro: 'MFDS',  url: 'https://www.mfds.go.kr/eng/index.do' },
-];
+const agencies = [];
 
-const agencyEl = document.getElementById('agencies-full');
-agencies.forEach(a => {
-  const el = document.createElement('div');
-  el.className = 'agency-cell';
-  // Count items per agency from live data
-  const count = LIVE_ITEMS.filter(u => u.agency === a.acro).length;
-  el.innerHTML = `
-    <div class="flag">${a.flag}</div>
-    <div class="acro">${a.acro}</div>
-    <div class="stat"><span class="live">●</span> Live · <span class="agency-count" data-acro="${a.acro}">${count}</span> indexed</div>
-    <div style="margin-top:8px; font-family:'JetBrains Mono',monospace; font-size:9.5px; letter-spacing:0.1em; color:#a39788;">Open official site ↗</div>
-  `;
-  el.addEventListener('click', () => {
-    if (a.url) window.open(a.url, '_blank', 'noopener');
-  });
-  agencyEl.appendChild(el);
-});
-
-function refreshAgencyCounts() {
-  document.querySelectorAll('.agency-count').forEach(el => {
-    const acro = el.dataset.acro;
-    el.textContent = LIVE_ITEMS.filter(u => u.agency === acro).length;
-  });
-}
+// Agency directory and per-agency counts have been retired. The
+// `refreshAgencyCounts` stub is kept so existing call sites are safe.
+function refreshAgencyCounts() { /* no-op: Agencies tab removed */ }
 
 // ============= TICKER (built from live data) =============
 // ============= CLOCK =============
