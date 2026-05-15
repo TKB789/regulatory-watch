@@ -1131,6 +1131,157 @@
   .tab-section.active { display: block; animation: fadeIn 0.3s; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 
+  /* ============= REGULATORY AUTHORITIES DIRECTORY ============= */
+  .auth-dot-live { color: var(--accent-2); font-weight: 700; }
+  .auth-dot-ref  { color: var(--muted); }
+  .auth-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 12px 0 14px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 18px;
+  }
+  .auth-search-wrap {
+    flex: 1 1 260px;
+    position: relative;
+    min-width: 0;
+  }
+  .auth-search-icon {
+    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    color: var(--muted); font-size: 14px; pointer-events: none;
+  }
+  #auth-search {
+    width: 100%;
+    padding: 9px 12px 9px 30px;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+  }
+  #auth-search:focus { outline: none; border-color: var(--accent); }
+  #auth-region {
+    padding: 8px 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  #auth-clear {
+    padding: 8px 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  #auth-clear:hover { background: var(--ink); color: var(--paper); }
+  .auth-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 18px;
+  }
+  .auth-meta strong { color: var(--ink); font-weight: 700; }
+  .auth-region-group {
+    margin-bottom: 28px;
+  }
+  .auth-region-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding: 6px 0 10px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .auth-region-title .auth-region-count {
+    color: var(--muted);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.18em;
+  }
+  .auth-country-group {
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dotted var(--rule);
+  }
+  .auth-country-group:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  .auth-country-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--ink);
+    margin-bottom: 6px;
+  }
+  .auth-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .auth-item {
+    padding: 4px 0;
+    font-family: 'Fraunces', serif;
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: var(--ink);
+  }
+  .auth-item::before {
+    content: '○ ';
+    color: var(--muted);
+    margin-right: 2px;
+  }
+  .auth-item.monitored::before {
+    content: '● ';
+    color: var(--accent-2);
+    font-weight: 700;
+  }
+  .auth-item a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(146, 64, 14, 0.3);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .auth-item a:hover, .auth-item a:focus {
+    border-bottom-color: var(--accent-2);
+    color: var(--accent);
+  }
+  .auth-item .auth-no-url {
+    color: var(--muted);
+  }
+  .auth-empty {
+    padding: 24px 0;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: var(--muted);
+    text-align: center;
+  }
+  @media (max-width: 600px) {
+    #auth-region { flex: 1 1 0; min-width: 100px; }
+    .auth-country-name { font-size: 15px; }
+    .auth-item { font-size: 13px; }
+  }
+
   /* SECTION HEADER (replaces big lead) */
   .section-header {
     padding: 28px 0 18px;
@@ -1741,36 +1892,7 @@
   <span class="dot">▌</span>
   <div style="flex:1;">
     <strong>Scope:</strong> Live updates from major medical-device regulators worldwide — FDA, EU Commission, MHRA, Health Canada, TGA, plus IMDRF.
-    <button class="toggle" onclick="var d=document.getElementById('cov-detail'); var open=d.classList.toggle('open'); d.closest('.coverage-banner').classList.toggle('expanded', open); this.textContent = open ? 'Hide details' : 'See full coverage list →'">See full coverage list →</button>
-    <div class="coverage-detail" id="cov-detail">
-      <p style="margin-bottom: 6px;">Each entry below shows whether that authority is monitored automatically (●) or has no public feed and is listed for reference only (○). Tap any name to open the agency's official site.</p>
-      <div class="col-list">
-        <ul>
-          <li class="yes"><a href="https://www.fda.gov/medical-devices/medical-device-safety/medical-device-recalls" target="_blank" rel="noopener"><strong>FDA Medical Device Recalls</strong></a></li>
-          <li class="yes"><a href="https://www.fda.gov/medical-devices/medical-device-safety" target="_blank" rel="noopener"><strong>FDA Medical Device Safety</strong></a></li>
-          <li class="yes"><a href="https://www.fda.gov/about-fda/center-devices-and-radiological-health" target="_blank" rel="noopener"><strong>FDA CDRH</strong></a> — What's New</li>
-          <li class="yes"><a href="https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program" target="_blank" rel="noopener"><strong>FDA MedWatch</strong></a> — safety alerts</li>
-          <li class="yes"><a href="https://www.fda.gov/news-events/fda-newsroom/press-announcements" target="_blank" rel="noopener"><strong>FDA Press Announcements</strong></a></li>
-          <li class="yes"><a href="https://www.federalregister.gov/agencies/food-and-drug-administration" target="_blank" rel="noopener"><strong>Federal Register</strong></a> — FDA pre-pubs</li>
-          <li class="yes"><a href="https://health.ec.europa.eu/medical-devices-sector_en" target="_blank" rel="noopener"><strong>EU Commission</strong></a> — health news</li>
-          <li class="yes"><a href="https://eur-lex.europa.eu/" target="_blank" rel="noopener"><strong>EUR-Lex</strong></a> — EU legal acts</li>
-          <li class="yes"><a href="https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency" target="_blank" rel="noopener"><strong>MHRA</strong></a> — UK news, drug & device alerts</li>
-          <li class="yes"><a href="https://recalls-rappels.canada.ca/en" target="_blank" rel="noopener"><strong>Health Canada</strong></a> — recalls & safety</li>
-          <li class="yes"><a href="https://www.tga.gov.au/safety/alerts" target="_blank" rel="noopener"><strong>TGA</strong></a> — Australia news & alerts</li>
-          <li class="yes"><a href="https://www.imdrf.org/" target="_blank" rel="noopener"><strong>IMDRF</strong></a> — international harmonization</li>
-        </ul>
-        <ul>
-          <li class="no"><a href="https://www.pmda.go.jp/english/" target="_blank" rel="noopener"><strong>PMDA</strong></a> (Japan) — no public feed</li>
-          <li class="no"><a href="https://english.nmpa.gov.cn/" target="_blank" rel="noopener"><strong>NMPA</strong></a> (China) — no public feed</li>
-          <li class="no"><a href="https://cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/" target="_blank" rel="noopener"><strong>CDSCO</strong></a> (India) — no public feed</li>
-          <li class="no"><a href="https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude" target="_blank" rel="noopener"><strong>ANVISA</strong></a> (Brazil) — no public feed</li>
-          <li class="no"><a href="https://www.mfds.go.kr/eng/index.do" target="_blank" rel="noopener"><strong>MFDS</strong></a> (S. Korea) — no public feed</li>
-          <li class="no"><a href="https://www.swissmedic.ch/swissmedic/en/home.html" target="_blank" rel="noopener"><strong>Swissmedic</strong></a> — email newsletter only</li>
-          <li class="no"><a href="https://www.sfda.gov.sa/en" target="_blank" rel="noopener"><strong>SFDA</strong></a> (Saudi Arabia) — no usable feed</li>
-        </ul>
-      </div>
-      <p style="margin-top: 10px; font-size: 12px; color: #4a4339;">Items are kept in an append-only archive — once indexed they remain searchable in the Archive tab even after rolling off the upstream feed.</p>
-    </div>
+    <button class="toggle" type="button" onclick="var btn = document.querySelector('.tab-btn[data-tab=&quot;authorities&quot;]'); if (btn) btn.click(); window.scrollTo({ top: 0, behavior: 'smooth' });">See full authority directory →</button>
   </div>
 </div>
 
@@ -1792,6 +1914,7 @@
     <button class="tab-btn" data-tab="eur-lex">EUR-Lex <span class="count">0</span></button>
     <button class="tab-btn" data-tab="guidance">Guidance Docs <span class="count">0</span></button>
     <button class="tab-btn" data-tab="calendar">Calendar</button>
+    <button class="tab-btn" data-tab="authorities">Authorities</button>
     <button class="tab-btn" data-tab="archive">Archive</button>
     <button class="tab-btn" data-tab="lookup">FDA Lookup</button>
   </div>
@@ -1948,7 +2071,35 @@
   </div>
 
   <!-- ===== AGENCIES TAB ===== -->
-  <div class="tab-section" id="tab-agencies" hidden></div>
+  <!-- ===== REGULATORY AUTHORITIES DIRECTORY ===== -->
+  <div class="tab-section" id="tab-authorities">
+    <div class="section-header">
+      <div class="kicker">▌ Directory</div>
+      <h1>Regulatory <em>Authorities</em></h1>
+      <p class="desc">Comprehensive global directory of medical-device and pharmaceutical regulators, grouped by region. Search by country or agency name, or filter to a single region. Tap any entry to open the agency's official site. Authorities marked <span class="auth-dot-live">●</span> are pulled automatically by this site; all others (<span class="auth-dot-ref">○</span>) are listed for reference. Compiled from <a href="https://rainfo.org/regulatory-authorities/" target="_blank" rel="noopener">rainfo.org</a>.</p>
+    </div>
+
+    <div class="auth-controls">
+      <div class="auth-search-wrap">
+        <span class="auth-search-icon">⌕</span>
+        <input type="search" id="auth-search" placeholder="Search country or agency…">
+      </div>
+      <select id="auth-region">
+        <option value="">All regions</option>
+        <option value="Global">Global</option>
+        <option value="Harmonization Coalitions">Harmonization Coalitions</option>
+        <option value="North America">North America</option>
+        <option value="EMEA">EMEA (Europe, Middle East, Africa)</option>
+        <option value="APAC">APAC (Asia-Pacific)</option>
+        <option value="LATAM">LATAM (Latin America)</option>
+        <option value="Caribbean">Caribbean</option>
+      </select>
+      <button id="auth-clear" type="button">Clear</button>
+    </div>
+
+    <div class="auth-meta" id="auth-meta"></div>
+    <div id="auth-list"></div>
+  </div>
 
   <!-- ===== ARCHIVE TAB ===== -->
   <div class="tab-section" id="tab-archive">
@@ -3860,6 +4011,372 @@ document.querySelectorAll('#lookup-date-from, #lookup-date-to').forEach(el => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 })();
+
+// ============= REGULATORY AUTHORITIES =============
+// Comprehensive regulatory authorities dataset, derived from rainfo.org.
+// `monitored: true` means this site's automated feed pulls from this authority.
+// Where the same agency has multiple language variants on rainfo, we keep the
+// primary site only and note multilingual availability in the description.
+const REGULATORY_AUTHORITIES = [
+
+  // ===== GLOBAL =====
+  { country: 'Global', region: 'Global', authority: 'Pan American Health Organization (PAHO)', url: 'https://www.paho.org/en' },
+  { country: 'Global', region: 'Global', authority: 'World Health Organization (WHO)', url: 'https://www.who.int/teams/regulation-prequalification' },
+
+  // ===== HARMONIZATION COALITIONS =====
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'APEC – Regulatory Harmonization Steering Committee (RHSC)', url: 'https://www.apec.org/RHSC/About-us' },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'Global Harmonization Working Party (GHWP)', url: 'http://www.ghwp.info/' },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'International Coalition of Medicines Regulatory Authorities (ICMRA)', url: 'https://icmra.info/drupal/en/home' },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'International Council for Harmonisation (ICH)', url: 'https://www.ich.org/' },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'International Medical Device Regulators Forum (IMDRF)', url: 'https://www.imdrf.org/', monitored: true },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'Medical Device Single Audit Program (MDSAP)', url: 'https://www.fda.gov/medical-devices/cdrh-international-programs/medical-device-single-audit-program-mdsap' },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'Pan American Network for Drug Regulatory Harmonization (PANDRH)', url: 'https://www.paho.org/en/pan-american-network-drug-regulatory-harmonization-pandrh' },
+
+  // ===== NORTH AMERICA =====
+  { country: 'Canada', region: 'North America', authority: 'Health Canada (HC)', url: 'https://www.canada.ca/en/health-canada.html' },
+  { country: 'Mexico', region: 'North America', authority: 'COFEPRIS — Comisión Federal para la Protección contra Riesgos Sanitarios', url: 'https://www.gob.mx/cofepris' },
+  { country: 'United States', region: 'North America', authority: 'Food and Drug Administration (FDA)', url: 'https://www.fda.gov/', monitored: true },
+
+  // ===== EMEA =====
+  { country: 'African Union', region: 'EMEA', authority: 'AMRH — African Medicines Regulatory Harmonization', url: 'https://www.nepad.org/programme/african-medicines-regulatory-harmonization-amrh' },
+  { country: 'Albania', region: 'EMEA', authority: 'Ministry of Health and Social Protection (MOH&SP)', url: 'https://shendetesia.gov.al/' },
+  { country: 'Algeria', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.sante.gov.dz/' },
+  { country: 'Andorra', region: 'EMEA', authority: 'Departament de Salut', url: 'https://www.salut.ad/' },
+  { country: 'Angola', region: 'EMEA', authority: 'Ministério da Saúde', url: 'https://www.minsa.gov.ao/' },
+  { country: 'Austria', region: 'EMEA', authority: 'AGES — Austrian Agency for Health and Food Safety', url: 'https://www.ages.at/en/' },
+  { country: 'Austria', region: 'EMEA', authority: 'BASG — Federal Office for Safety in Health Care / AGES MEA', url: 'https://www.basg.gv.at/' },
+  { country: 'Bahrain', region: 'EMEA', authority: 'Ministry of Health (NHRA)', url: 'https://www.moh.gov.bh/' },
+  { country: 'Belarus', region: 'EMEA', authority: 'RCETH — Center for Examinations and Tests in Health Service', url: 'https://www.rceth.by/en' },
+  { country: 'Belgium', region: 'EMEA', authority: 'AFMPS / FAMHP — Federal Agency for Medicines and Health Products', url: 'https://www.famhp.be/en' },
+  { country: 'Benin', region: 'EMEA', authority: 'Ministry of Health', url: 'https://sante.gouv.bj/' },
+  { country: 'Bosnia and Herzegovina', region: 'EMEA', authority: 'ALMBiH — Agency for Medicinal Products and Medical Devices', url: 'https://www.almbih.gov.ba/' },
+  { country: 'Botswana', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.moh.gov.bw/' },
+  { country: 'Bulgaria', region: 'EMEA', authority: 'Bulgarian Drug Agency (BDA)', url: 'https://www.bda.bg/en/' },
+  { country: 'Burkina Faso', region: 'EMEA', authority: "Ministère de la Santé et de l'Hygiène Publique", url: 'https://www.sante.gov.bf/' },
+  { country: 'Burundi', region: 'EMEA', authority: 'Ministère de la Santé Publique' },
+  { country: 'Cabo Verde', region: 'EMEA', authority: 'Ministério da Saúde', url: 'https://minsaude.gov.cv/' },
+  { country: 'Cameroon', region: 'EMEA', authority: 'Ministère de la Santé Publique', url: 'https://minsante-cm.com/' },
+  { country: 'Central African Republic', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Chad', region: 'EMEA', authority: 'Ministère de la Santé Publique' },
+  { country: 'Comoros', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Congo (Republic)', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: "Côte d'Ivoire", region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Croatia', region: 'EMEA', authority: 'HALMED — Agency for Medicinal Products and Medical Devices', url: 'https://www.halmed.hr/en/' },
+  { country: 'Cyprus', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.moh.gov.cy/' },
+  { country: 'Czech Republic', region: 'EMEA', authority: 'NISZP — National Information System Medical Devices', url: 'https://www.niszp.cz/' },
+  { country: 'Czech Republic', region: 'EMEA', authority: 'SÚKL — State Institute for Drug Control', url: 'https://www.sukl.eu/' },
+  { country: 'Democratic Republic of the Congo', region: 'EMEA', authority: 'Ministère de la Santé Publique' },
+  { country: 'Denmark', region: 'EMEA', authority: 'DKMA — Danish Medicines Agency', url: 'https://laegemiddelstyrelsen.dk/en' },
+  { country: 'Djibouti', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'East African Community', region: 'EMEA', authority: 'East African Community', url: 'https://www.eac.int/' },
+  { country: 'Egypt', region: 'EMEA', authority: 'EDA — Egyptian Drug Authority', url: 'https://www.edaegypt.gov.eg/' },
+  { country: 'Equatorial Guinea', region: 'EMEA', authority: 'MINSABS — Ministry of Health and Social Welfare', url: 'https://guineasalud.org/?lang=en' },
+  { country: 'Eritrea', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Estonia', region: 'EMEA', authority: 'Ravimiamet — State Agency of Medicines (SAM)', url: 'https://ravimiamet.ee/en' },
+  { country: 'Eswatini', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.gov.sz/index.php/ministries-departments/ministry-of-health' },
+  { country: 'Ethiopia', region: 'EMEA', authority: 'EFDA — Ethiopian Food and Drug Administration', url: 'http://www.efda.gov.et/' },
+  { country: 'Ethiopia', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.moh.gov.et/' },
+  { country: 'European Union', region: 'EMEA', authority: 'European Commission – Health', url: 'https://health.ec.europa.eu/medical-devices-sector_en', monitored: true },
+  { country: 'European Union', region: 'EMEA', authority: 'European Medicines Agency (EMA)', url: 'https://www.ema.europa.eu/en' },
+  { country: 'Finland', region: 'EMEA', authority: 'FIMEA — Finnish Medicines Agency', url: 'https://www.fimea.fi/' },
+  { country: 'France', region: 'EMEA', authority: 'ANSM — Agence nationale de sécurité du médicament et des produits de santé', url: 'https://ansm.sante.fr/' },
+  { country: 'Gabon', region: 'EMEA', authority: 'Ministère de la Santé et des Affaires Sociales', url: 'https://www.sante.gouv.ga/' },
+  { country: 'Gambia', region: 'EMEA', authority: 'Medicines Control Agency (MCA)' },
+  { country: 'Germany', region: 'EMEA', authority: 'BfArM — Federal Institute for Drugs and Medical Devices', url: 'https://www.bfarm.de/EN/Home/_node.html' },
+  { country: 'Germany', region: 'EMEA', authority: 'Paul-Ehrlich-Institut (PEI)', url: 'https://www.pei.de/EN/home/home-node.html' },
+  { country: 'Ghana', region: 'EMEA', authority: 'FDA — Food and Drugs Authority', url: 'https://fdaghana.gov.gh/' },
+  { country: 'Gibraltar', region: 'EMEA', authority: 'Gibraltar Laws — Medical and Health', url: 'https://www.gibraltarlaws.gov.gi/legislations?topic=27' },
+  { country: 'Greece', region: 'EMEA', authority: 'EOF — National Organization for Medicines', url: 'https://www.eof.gr/web/guest' },
+  { country: 'Greenland', region: 'EMEA', authority: 'Department of Health', url: 'https://naalakkersuisut.gl/' },
+  { country: 'Guinea', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Guinea-Bissau', region: 'EMEA', authority: 'Ministério da Saúde' },
+  { country: 'Hungary', region: 'EMEA', authority: 'OGYÉI — National Institute of Pharmacy and Nutrition', url: 'https://ogyei.gov.hu/' },
+  { country: 'Iceland', region: 'EMEA', authority: 'Lyfjastofnun — Icelandic Medicines Agency (IMA)', url: 'https://www.lyfjastofnun.is/' },
+  { country: 'Iran', region: 'EMEA', authority: 'Ministry of Health and Medical Education', url: 'https://irangov.ir/ministry-of-health-and-medical-education/' },
+  { country: 'Iraq', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Ireland', region: 'EMEA', authority: 'HPRA — Health Products Regulatory Authority', url: 'https://www.hpra.ie/homepage' },
+  { country: 'Israel', region: 'EMEA', authority: 'Ministry of Health (IMOH)', url: 'https://www.gov.il/en/departments/ministry_of_health/' },
+  { country: 'Italy', region: 'EMEA', authority: 'AIFA — Italian Medicines Agency', url: 'https://www.aifa.gov.it/en/' },
+  { country: 'Italy', region: 'EMEA', authority: 'ISS — Istituto Superiore di Sanità', url: 'https://www.iss.it/' },
+  { country: 'Italy', region: 'EMEA', authority: 'Ministero della Salute — Directorate-General for Medical Devices', url: 'https://www.salute.gov.it/portale/home.html' },
+  { country: 'Jordan', region: 'EMEA', authority: 'JFDA — Jordan Food and Drug Administration', url: 'http://www.jfda.jo/' },
+  { country: 'Kenya', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Kenya', region: 'EMEA', authority: 'PPB — Pharmacy and Poisons Board', url: 'https://web.pharmacyboardkenya.org/' },
+  { country: 'Kuwait', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Latvia', region: 'EMEA', authority: 'State Agency of Medicines (SAM)', url: 'https://www.zva.gov.lv/en' },
+  { country: 'Lebanon', region: 'EMEA', authority: 'Ministry of Public Health', url: 'https://www.moph.gov.lb/en/' },
+  { country: 'Lesotho', region: 'EMEA', authority: 'Ministry of Health', url: 'http://health.gov.ls/' },
+  { country: 'Liberia', region: 'EMEA', authority: 'Liberia Medicines and Health Products Regulatory Authority (LMHRA)' },
+  { country: 'Libya', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Liechtenstein', region: 'EMEA', authority: 'Amt für Gesundheit / Office of Health', url: 'https://www.llv.li/de/landesverwaltung/amt-fuer-gesundheit' },
+  { country: 'Lithuania', region: 'EMEA', authority: 'Ministry of Health', url: 'https://sam.lrv.lt/en/' },
+  { country: 'Lithuania', region: 'EMEA', authority: 'VVKT — State Medicines Control Agency', url: 'https://www.vvkt.lt/' },
+  { country: 'Luxembourg', region: 'EMEA', authority: 'Ministry of Health', url: 'https://sante.public.lu/fr.html' },
+  { country: 'Madagascar', region: 'EMEA', authority: 'Ministère de la Santé Publique' },
+  { country: 'Malawi', region: 'EMEA', authority: 'Pharmacy and Medicines Regulatory Authority (PMRA)' },
+  { country: 'Mali', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Malta', region: 'EMEA', authority: 'Medicines Authority (MA)', url: 'https://medicinesauthority.gov.mt/' },
+  { country: 'Mauritania', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Mauritius', region: 'EMEA', authority: 'Ministry of Health & Wellness' },
+  { country: 'Moldova', region: 'EMEA', authority: 'AMDM — Medicines and Medical Devices Agency', url: 'https://www.amdm.gov.md/en' },
+  { country: 'Monaco', region: 'EMEA', authority: 'Department of Health' },
+  { country: 'Montenegro', region: 'EMEA', authority: 'CALIMS — Institute for Medicines and Medical Devices', url: 'https://cinmed.me/en/' },
+  { country: 'Morocco', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.sante.gov.ma/' },
+  { country: 'Mozambique', region: 'EMEA', authority: 'Ministério da Saúde' },
+  { country: 'Namibia', region: 'EMEA', authority: 'Ministry of Health and Social Services' },
+  { country: 'Netherlands', region: 'EMEA', authority: 'MEB — Medicines Evaluation Board', url: 'https://english.cbg-meb.nl/' },
+  { country: 'Niger', region: 'EMEA', authority: 'Ministère de la Santé Publique' },
+  { country: 'Nigeria', region: 'EMEA', authority: 'NAFDAC — National Agency for Food and Drug Administration and Control', url: 'https://www.nafdac.gov.ng/' },
+  { country: 'North Macedonia', region: 'EMEA', authority: 'MALMED — Agency for Medicines and Medical Devices', url: 'https://malmed.gov.mk/' },
+  { country: 'Norway', region: 'EMEA', authority: 'NMA — Norwegian Medicines Agency', url: 'https://legemiddelverket.no/' },
+  { country: 'Oman', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Palestinian Authority', region: 'EMEA', authority: 'Ministry of Health', url: 'https://site.moh.ps/' },
+  { country: 'Poland', region: 'EMEA', authority: 'NIL — National Medicines Institute', url: 'https://www.nil.gov.pl/' },
+  { country: 'Poland', region: 'EMEA', authority: 'URPL — Office for Registration of Medicinal Products, Medical Devices and Biocidal Products', url: 'https://www.urpl.gov.pl/en' },
+  { country: 'Portugal', region: 'EMEA', authority: 'INFARMED — Autoridade Nacional do Medicamento e Produtos de Saúde', url: 'https://www.infarmed.pt/web/infarmed-en/' },
+  { country: 'Qatar', region: 'EMEA', authority: 'Ministry of Public Health' },
+  { country: 'Romania', region: 'EMEA', authority: 'NAMMD — National Medicines Agency for Medicines and Medical Devices', url: 'https://www.anm.ro/en/' },
+  { country: 'Russia', region: 'EMEA', authority: 'Roszdravnadzor — Federal Service for Surveillance in Healthcare', url: 'https://roszdravnadzor.gov.ru/' },
+  { country: 'Russia', region: 'EMEA', authority: 'SCEEMP — Scientific Centre for Expert Evaluation of Medicinal Products' },
+  { country: 'Rwanda', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.moh.gov.rw/' },
+  { country: 'Rwanda', region: 'EMEA', authority: 'Rwanda FDA', url: 'https://www.rwandafda.gov.rw/' },
+  { country: 'San Marino', region: 'EMEA', authority: 'Ministry of Health and Social Security', url: 'https://www.sanita.sm/' },
+  { country: 'Saudi Arabia', region: 'EMEA', authority: 'Ministry of Health (SA MOH)' },
+  { country: 'Saudi Arabia', region: 'EMEA', authority: 'SFDA — Saudi Food and Drug Authority', url: 'https://www.sfda.gov.sa/en' },
+  { country: 'Senegal', region: 'EMEA', authority: "Ministère de la Santé et de l\\'Action Sociale", url: 'https://www.sante.gouv.sn/' },
+  { country: 'Serbia', region: 'EMEA', authority: 'ALIMS — Medicines and Medical Devices Agency of Serbia', url: 'https://www.alims.gov.rs/' },
+  { country: 'Seychelles', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Sierra Leone', region: 'EMEA', authority: 'Pharmacy Board of Sierra Leone' },
+  { country: 'Slovakia', region: 'EMEA', authority: 'ŠÚKL — State Institute for Drug Control', url: 'https://www.sukl.sk/' },
+  { country: 'Slovenia', region: 'EMEA', authority: 'JAZMP — Public Agency for Medicinal Products and Medical Devices', url: 'https://www.jazmp.si/' },
+  { country: 'Somalia', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'South Africa', region: 'EMEA', authority: 'SAHPRA — South African Health Products Regulatory Authority', url: 'https://www.sahpra.org.za/' },
+  { country: 'South Sudan', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Spain', region: 'EMEA', authority: 'AEMPS — Agencia Española de Medicamentos y Productos Sanitarios', url: 'https://www.aemps.gob.es/' },
+  { country: 'Sudan', region: 'EMEA', authority: 'NMPB — National Medicines and Poisons Board' },
+  { country: 'Sweden', region: 'EMEA', authority: 'Läkemedelsverket — Medical Products Agency (MPA)', url: 'https://www.lakemedelsverket.se/en' },
+  { country: 'Switzerland', region: 'EMEA', authority: 'Swissmedic', url: 'https://www.swissmedic.ch/swissmedic/en/home.html' },
+  { country: 'Syria', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'São Tomé and Príncipe', region: 'EMEA', authority: 'Ministério da Saúde' },
+  { country: 'Tanzania', region: 'EMEA', authority: 'TMDA — Tanzania Medicines and Medical Devices Authority', url: 'https://www.tmda.go.tz/' },
+  { country: 'Togo', region: 'EMEA', authority: 'Ministère de la Santé' },
+  { country: 'Tunisia', region: 'EMEA', authority: 'OPM — Office of Pharmacy and Medicines', url: 'http://www.dpm.tn/' },
+  { country: 'Turkey', region: 'EMEA', authority: 'TMMDA / TİTCK — Turkish Medicines and Medical Devices Agency', url: 'https://www.titck.gov.tr/' },
+  { country: 'Uganda', region: 'EMEA', authority: 'Ministry of Health' },
+  { country: 'Uganda', region: 'EMEA', authority: 'NDA — National Drug Authority', url: 'https://www.nda.or.ug/' },
+  { country: 'Ukraine', region: 'EMEA', authority: 'SECMOH — State Expert Centre of the Ministry of Health', url: 'https://www.dec.gov.ua/' },
+  { country: 'Ukraine', region: 'EMEA', authority: 'State Service of Ukraine on Medicines and Drugs Control', url: 'https://www.dls.gov.ua/' },
+  { country: 'United Arab Emirates', region: 'EMEA', authority: 'Department of Health (DOH) — Abu Dhabi', url: 'https://www.doh.gov.ae/en' },
+  { country: 'United Arab Emirates', region: 'EMEA', authority: 'Dubai Health Authority (DHA)', url: 'https://www.dha.gov.ae/en/HealthRegulationSector/DrugControl' },
+  { country: 'United Arab Emirates', region: 'EMEA', authority: 'Ministry of Health & Prevention', url: 'https://mohap.gov.ae/' },
+  { country: 'United Kingdom', region: 'EMEA', authority: 'MHRA — Medicines and Healthcare products Regulatory Agency', url: 'https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency', monitored: true },
+  { country: 'Vatican City', region: 'EMEA', authority: 'Direzione di Sanità ed Igiene' },
+  { country: 'Yemen', region: 'EMEA', authority: 'SBDMA — Supreme Board of Drugs and Medical Appliances', url: 'https://www.sbd-ye.org/' },
+  { country: 'Zambia', region: 'EMEA', authority: 'Ministry of Health', url: 'https://www.moh.gov.zm/' },
+  { country: 'Zambia', region: 'EMEA', authority: 'ZAMRA — Zambia Medicines Regulatory Authority', url: 'https://www.zamra.co.zm/' },
+  { country: 'Zimbabwe', region: 'EMEA', authority: 'MCAZ — Medicines Control Authority of Zimbabwe', url: 'https://www.mcaz.co.zw/' },
+  { country: 'Zimbabwe', region: 'EMEA', authority: 'Ministry of Health and Child Care' },
+
+  // ===== APAC =====
+  { country: 'Afghanistan', region: 'APAC', authority: 'Ministry of Health', url: 'https://moph.gov.af/en' },
+  { country: 'Armenia', region: 'APAC', authority: 'Scientific Centre of Drug and Medical Technology Expertise', url: 'http://www.pharm.am/index.php/en/' },
+  { country: 'Australia', region: 'APAC', authority: 'TGA — Therapeutic Goods Administration', url: 'https://www.tga.gov.au/', monitored: true },
+  { country: 'Azerbaijan', region: 'APAC', authority: 'Analytical Expertise Center — Ministry of Health', url: 'http://pharma.az/en/' },
+  { country: 'Bangladesh', region: 'APAC', authority: 'DGDA — Directorate General of Drug Administration', url: 'http://www.dgda.gov.bd/' },
+  { country: 'Bhutan', region: 'APAC', authority: 'Drug Regulatory Authority (DRA)', url: 'http://dra.gov.bt/' },
+  { country: 'Brunei Darussalam', region: 'APAC', authority: 'Ministry of Health', url: 'https://www.moh.gov.bn/' },
+  { country: 'Cambodia', region: 'APAC', authority: 'Ministry of Health', url: 'https://moh.gov.kh/' },
+  { country: 'China', region: 'APAC', authority: 'NMPA — National Medical Products Administration', url: 'http://english.nmpa.gov.cn/' },
+  { country: 'Fiji', region: 'APAC', authority: 'Ministry of Health and Medical Services (MHMS)', url: 'https://www.health.gov.fj/' },
+  { country: 'Georgia', region: 'APAC', authority: 'Ministry of Internally Displaced Persons, Labour, Health and Social Affairs', url: 'https://www.moh.gov.ge/en/' },
+  { country: 'Hong Kong', region: 'APAC', authority: 'Department of Health', url: 'https://www.dh.gov.hk/' },
+  { country: 'India', region: 'APAC', authority: 'CDSCO — Central Drugs Standard Control Organization', url: 'https://cdsco.gov.in/opencms/opencms/en/Home/' },
+  { country: 'Indonesia', region: 'APAC', authority: 'BPOM — National Agency of Drug and Food Control', url: 'https://www.pom.go.id/new/home/en' },
+  { country: 'Indonesia', region: 'APAC', authority: 'Ministry of Health', url: 'https://www.kemkes.go.id/' },
+  { country: 'Japan', region: 'APAC', authority: 'MHLW — Ministry of Health, Labour and Welfare', url: 'https://www.mhlw.go.jp/english/' },
+  { country: 'Japan', region: 'APAC', authority: 'PMDA — Pharmaceuticals and Medical Devices Agency', url: 'https://www.pmda.go.jp/english/' },
+  { country: 'Kazakhstan', region: 'APAC', authority: 'Ministry of Healthcare', url: 'https://www.gov.kz/memleket/entities/dsm?lang=en' },
+  { country: 'Kiribati', region: 'APAC', authority: 'Ministry of Health & Medical Services', url: 'https://mhms.gov.ki/' },
+  { country: 'Kyrgyzstan', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Laos', region: 'APAC', authority: 'FDD — Food and Drug Department', url: 'http://www.fdd.gov.la/' },
+  { country: 'Malaysia', region: 'APAC', authority: 'MDA — Medical Device Authority', url: 'https://www.mda.gov.my/' },
+  { country: 'Malaysia', region: 'APAC', authority: 'NPRA — National Pharmaceutical Regulatory Agency', url: 'https://www.npra.gov.my/' },
+  { country: 'Maldives', region: 'APAC', authority: 'Maldives Food and Drug Authority', url: 'https://www.health.gov.mv/' },
+  { country: 'Marshall Islands', region: 'APAC', authority: 'Ministry of Health & Human Services' },
+  { country: 'Micronesia', region: 'APAC', authority: 'Department of Health and Social Affairs' },
+  { country: 'Mongolia', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Myanmar', region: 'APAC', authority: 'FDA — Food and Drug Administration' },
+  { country: 'Nauru', region: 'APAC', authority: 'Department of Health and Medical Services' },
+  { country: 'Nepal', region: 'APAC', authority: 'DDA — Department of Drug Administration', url: 'https://www.dda.gov.np/' },
+  { country: 'New Zealand', region: 'APAC', authority: 'Medsafe — Medicines and Medical Devices Safety Authority', url: 'https://www.medsafe.govt.nz/' },
+  { country: 'North Korea', region: 'APAC', authority: 'Ministry of Public Health' },
+  { country: 'Pakistan', region: 'APAC', authority: 'DRAP — Drug Regulatory Authority of Pakistan', url: 'https://www.dra.gov.pk/' },
+  { country: 'Palau', region: 'APAC', authority: 'Ministry of Health & Human Services' },
+  { country: 'Papua New Guinea', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Philippines', region: 'APAC', authority: 'Department of Health (DOH)', url: 'https://doh.gov.ph/' },
+  { country: 'Philippines', region: 'APAC', authority: 'FDA — Food and Drug Administration', url: 'https://www.fda.gov.ph/' },
+  { country: 'Samoa', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Singapore', region: 'APAC', authority: 'HSA — Health Sciences Authority', url: 'https://www.hsa.gov.sg/' },
+  { country: 'Solomon Islands', region: 'APAC', authority: 'Ministry of Health and Medical Services' },
+  { country: 'South Korea', region: 'APAC', authority: 'MFDS — Ministry of Food and Drug Safety', url: 'https://www.mfds.go.kr/eng/index.do' },
+  { country: 'Sri Lanka', region: 'APAC', authority: 'Ministry of Health', url: 'http://www.health.gov.lk/' },
+  { country: 'Sri Lanka', region: 'APAC', authority: 'NMRA — National Medicines Regulatory Authority', url: 'https://nmra.gov.lk/' },
+  { country: 'Taiwan', region: 'APAC', authority: 'TFDA — Taiwan Food and Drug Administration', url: 'https://www.fda.gov.tw/ENG/index.aspx' },
+  { country: 'Tajikistan', region: 'APAC', authority: 'Ministry of Health and Social Protection' },
+  { country: 'Thailand', region: 'APAC', authority: 'Thai FDA', url: 'https://en.fda.moph.go.th/' },
+  { country: 'Timor-Leste', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Tonga', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Turkmenistan', region: 'APAC', authority: 'Ministry of Health and Medical Industry' },
+  { country: 'Tuvalu', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Uzbekistan', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Vanuatu', region: 'APAC', authority: 'Ministry of Health' },
+  { country: 'Vietnam', region: 'APAC', authority: 'DAV — Drug Administration of Vietnam', url: 'https://dav.gov.vn/en' },
+
+  // ===== LATAM =====
+  { country: 'ALADI / LAIA', region: 'LATAM', authority: 'Latin American Integration Association', url: 'http://www.aladi.org/sitioaladi/' },
+  { country: 'Andean Community', region: 'LATAM', authority: 'Comunidad Andina', url: 'https://www.comunidadandina.org/' },
+  { country: 'Argentina', region: 'LATAM', authority: 'ANMAT — Administración Nacional de Medicamentos, Alimentos y Tecnología Médica', url: 'https://www.argentina.gob.ar/anmat' },
+  { country: 'Bolivia', region: 'LATAM', authority: 'Ministerio de Salud y Deportes', url: 'https://www.minsalud.gob.bo/' },
+  { country: 'Brazil', region: 'LATAM', authority: 'ANVISA — Agência Nacional de Vigilância Sanitária', url: 'https://www.gov.br/anvisa/pt-br' },
+  { country: 'Chile', region: 'LATAM', authority: 'Instituto de Salud Pública (ISP)', url: 'https://www.ispch.cl/' },
+  { country: 'Colombia', region: 'LATAM', authority: 'INVIMA — Instituto Nacional de Vigilancia de Medicamentos y Alimentos', url: 'https://www.invima.gov.co/' },
+  { country: 'Costa Rica', region: 'LATAM', authority: 'Ministerio de Salud', url: 'https://www.ministeriodesalud.go.cr/' },
+  { country: 'Cuba', region: 'LATAM', authority: 'CECMED — Centro para el Control Estatal de Medicamentos', url: 'https://www.cecmed.cu/' },
+  { country: 'Dominican Republic', region: 'LATAM', authority: 'DNCD — Dirección Nacional de Control de Drogas', url: 'https://www.dncd.gob.do/' },
+  { country: 'Ecuador', region: 'LATAM', authority: 'Agencia Nacional de Regulación, Control y Vigilancia Sanitaria (ARCSA)', url: 'https://www.controlsanitario.gob.ec/' },
+  { country: 'El Salvador', region: 'LATAM', authority: 'Ministry of Health' },
+  { country: 'Guatemala', region: 'LATAM', authority: 'Ministerio de Salud Pública y Asistencia Social (MSPAS)', url: 'https://www.mspas.gob.gt/' },
+  { country: 'Honduras', region: 'LATAM', authority: 'Ministry of Health' },
+  { country: 'MERCOSUR', region: 'LATAM', authority: 'Southern Common Market (MERCOSUR)', url: 'https://www.mercosur.int/en/' },
+  { country: 'Nicaragua', region: 'LATAM', authority: 'Ministerio de Salud (MINSA)', url: 'https://www.minsa.gob.ni/' },
+  { country: 'Panama', region: 'LATAM', authority: 'Ministerio de Salud (MINSA)' },
+  { country: 'Paraguay', region: 'LATAM', authority: 'Ministerio de Salud Pública y Bienestar Social', url: 'https://www.mspbs.gov.py/' },
+  { country: 'Peru', region: 'LATAM', authority: 'DIGEMID — Dirección General de Medicamentos, Insumos y Drogas', url: 'https://www.digemid.minsa.gob.pe/webDigemid/' },
+  { country: 'Uruguay', region: 'LATAM', authority: 'Ministerio de Salud Pública (MSP)', url: 'https://www.gub.uy/ministerio-salud-publica/' },
+  { country: 'Venezuela', region: 'LATAM', authority: 'Instituto Nacional de Higiene "Rafael Rangel" (INHRR)', url: 'http://inhrr.gob.ve/' },
+
+  // ===== CARIBBEAN =====
+  { country: 'Antigua and Barbuda', region: 'Caribbean', authority: 'Ministry of Health, Wellness & the Environment', url: 'https://health.gov.ag/' },
+  { country: 'Bahamas', region: 'Caribbean', authority: 'Public Hospitals Authority', url: 'http://www.phabahamas.org/' },
+  { country: 'Barbados', region: 'Caribbean', authority: 'Ministry of Health' },
+  { country: 'Belize', region: 'Caribbean', authority: 'Ministry of Health and Wellness (MOHW)', url: 'https://www.health.gov.bz/' },
+  { country: 'CARICOM', region: 'Caribbean', authority: 'Caribbean Community (CARICOM)', url: 'https://caricom.org/' },
+  { country: 'Dominica', region: 'Caribbean', authority: 'Ministry of Health' },
+  { country: 'Guyana', region: 'Caribbean', authority: 'Ministry of Health', url: 'https://www.health.gov.gy/' },
+  { country: 'Haiti', region: 'Caribbean', authority: 'Ministère de la Santé Publique et de la Population (MSPP)', url: 'https://www.mspp.gouv.ht/' },
+  { country: 'Jamaica', region: 'Caribbean', authority: 'Ministry of Health & Wellness', url: 'https://www.moh.gov.jm/' },
+  { country: 'Saint Kitts and Nevis', region: 'Caribbean', authority: 'Ministry of Health' },
+  { country: 'Saint Lucia', region: 'Caribbean', authority: 'Ministry of Health' },
+  { country: 'Saint Vincent and the Grenadines', region: 'Caribbean', authority: 'Ministry of Health' },
+  { country: 'Trinidad and Tobago', region: 'Caribbean', authority: 'Ministry of Health', url: 'https://health.gov.tt/' },
+];
+
+// ============= REGULATORY AUTHORITIES DIRECTORY =============
+// Region order — controls how groups stack in the rendered list.
+const AUTH_REGION_ORDER = [
+  'Global',
+  'Harmonization Coalitions',
+  'North America',
+  'EMEA',
+  'APAC',
+  'LATAM',
+  'Caribbean',
+];
+
+// Stricter escape than the page's default escapeHtml — quotes are escaped too,
+// since values get interpolated inside HTML attribute values (href="…").
+function authEscape(s) {
+  return String(s || '').replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])
+  );
+}
+
+function renderAuthorities() {
+  const q = (document.getElementById('auth-search').value || '').toLowerCase().trim();
+  const region = document.getElementById('auth-region').value || '';
+  const listEl = document.getElementById('auth-list');
+  const metaEl = document.getElementById('auth-meta');
+
+  // Filter
+  let filtered = REGULATORY_AUTHORITIES;
+  if (region) filtered = filtered.filter(a => a.region === region);
+  if (q) filtered = filtered.filter(a =>
+    (a.country + ' ' + a.authority + ' ' + a.region).toLowerCase().includes(q)
+  );
+
+  // Update meta line
+  const total = REGULATORY_AUTHORITIES.length;
+  const monitored = filtered.filter(a => a.monitored).length;
+  metaEl.innerHTML = `
+    <strong>${filtered.length}</strong> of ${total} entries
+    · <span class="auth-dot-live">●</span> <strong>${monitored}</strong> monitored
+    · <span class="auth-dot-ref">○</span> <strong>${filtered.length - monitored}</strong> reference
+  `;
+
+  if (filtered.length === 0) {
+    listEl.innerHTML = '<div class="auth-empty">No authorities match your filters.</div>';
+    return;
+  }
+
+  // Group by region → country
+  const byRegion = {};
+  filtered.forEach(a => {
+    if (!byRegion[a.region]) byRegion[a.region] = {};
+    if (!byRegion[a.region][a.country]) byRegion[a.region][a.country] = [];
+    byRegion[a.region][a.country].push(a);
+  });
+
+  // Render in defined region order; any unknown regions go to the bottom
+  const orderedRegions = AUTH_REGION_ORDER.filter(r => byRegion[r])
+    .concat(Object.keys(byRegion).filter(r => !AUTH_REGION_ORDER.includes(r)));
+
+  const html = orderedRegions.map(region => {
+    const countries = byRegion[region];
+    const countryNames = Object.keys(countries).sort((a, b) => a.localeCompare(b));
+    const regionCount = countryNames.reduce((sum, c) => sum + countries[c].length, 0);
+    const countryHtml = countryNames.map(country => {
+      const items = countries[country];
+      const itemHtml = items.map(a => {
+        const cls = a.monitored ? 'auth-item monitored' : 'auth-item';
+        const label = authEscape(a.authority);
+        const inner = a.url
+          ? `<a href="${authEscape(a.url)}" target="_blank" rel="noopener">${label}</a>`
+          : `<span class="auth-no-url">${label}</span>`;
+        return `<li class="${cls}">${inner}</li>`;
+      }).join('');
+      return `
+        <div class="auth-country-group">
+          <div class="auth-country-name">${authEscape(country)}</div>
+          <ul class="auth-items">${itemHtml}</ul>
+        </div>
+      `;
+    }).join('');
+    return `
+      <div class="auth-region-group">
+        <div class="auth-region-title">
+          ${authEscape(region)}
+          <span class="auth-region-count">${regionCount} ${regionCount === 1 ? 'entry' : 'entries'}</span>
+        </div>
+        ${countryHtml}
+      </div>
+    `;
+  }).join('');
+
+  listEl.innerHTML = html;
+}
+
+// Wire up controls
+document.getElementById('auth-search').addEventListener('input', renderAuthorities);
+document.getElementById('auth-region').addEventListener('change', renderAuthorities);
+document.getElementById('auth-clear').addEventListener('click', () => {
+  document.getElementById('auth-search').value = '';
+  document.getElementById('auth-region').value = '';
+  renderAuthorities();
+});
+
+// Initial render
+renderAuthorities();
+
 </script>
 
 <!-- Back to top -->
