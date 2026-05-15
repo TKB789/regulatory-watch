@@ -1891,7 +1891,7 @@
 <div class="coverage-banner">
   <span class="dot">▌</span>
   <div style="flex:1;">
-    <strong>Scope:</strong> Live updates from major medical-device regulators worldwide — FDA, EU Commission, MHRA, Health Canada, TGA, plus IMDRF.
+    <strong>Scope:</strong> Live updates from regulatory authorities that publish public RSS feeds — currently FDA, EU Commission, MHRA, Health Canada, TGA, and IMDRF.
     <button class="toggle" type="button" onclick="var btn = document.querySelector('.tab-btn[data-tab=&quot;authorities&quot;]'); if (btn) btn.click(); window.scrollTo({ top: 0, behavior: 'smooth' });">See full authority directory →</button>
   </div>
 </div>
@@ -2076,7 +2076,7 @@
     <div class="section-header">
       <div class="kicker">▌ Directory</div>
       <h1>Regulatory <em>Authorities</em></h1>
-      <p class="desc">Comprehensive global directory of medical-device and pharmaceutical regulators, grouped by region. Search by country or agency name, or filter to a single region. Tap any entry to open the agency's official site. Authorities marked <span class="auth-dot-live">●</span> are pulled automatically by this site; all others (<span class="auth-dot-ref">○</span>) are listed for reference. Compiled from <a href="https://rainfo.org/regulatory-authorities/" target="_blank" rel="noopener">rainfo.org</a>.</p>
+      <p class="desc">Comprehensive global directory of medical-device and pharmaceutical regulators, grouped by region. Search by country or agency name, or filter to a single region. Tap any entry to open the agency's official site. Authorities marked <span class="auth-dot-live">●</span> are pulled automatically by this site; all others (<span class="auth-dot-ref">○</span>) are listed for reference. <em>Note: government URLs can change over time — if a link is broken, please verify the current address via the agency's homepage.</em></p>
     </div>
 
     <div class="auth-controls">
@@ -4013,10 +4013,10 @@ document.querySelectorAll('#lookup-date-from, #lookup-date-to').forEach(el => {
 })();
 
 // ============= REGULATORY AUTHORITIES =============
-// Comprehensive regulatory authorities dataset, derived from rainfo.org.
+// Comprehensive regulatory authorities dataset.
 // `monitored: true` means this site's automated feed pulls from this authority.
-// Where the same agency has multiple language variants on rainfo, we keep the
-// primary site only and note multilingual availability in the description.
+// Links point to each authority's official government / agency site where
+// available; entries without a URL are listed for reference.
 const REGULATORY_AUTHORITIES = [
 
   // ===== GLOBAL =====
@@ -4025,7 +4025,7 @@ const REGULATORY_AUTHORITIES = [
 
   // ===== HARMONIZATION COALITIONS =====
   { country: 'Global', region: 'Harmonization Coalitions', authority: 'APEC – Regulatory Harmonization Steering Committee (RHSC)', url: 'https://www.apec.org/RHSC/About-us' },
-  { country: 'Global', region: 'Harmonization Coalitions', authority: 'Global Harmonization Working Party (GHWP)', url: 'http://www.ghwp.info/' },
+  { country: 'Global', region: 'Harmonization Coalitions', authority: 'Global Harmonization Working Party (GHWP)', url: 'https://www.ghwp.info/' },
   { country: 'Global', region: 'Harmonization Coalitions', authority: 'International Coalition of Medicines Regulatory Authorities (ICMRA)', url: 'https://icmra.info/drupal/en/home' },
   { country: 'Global', region: 'Harmonization Coalitions', authority: 'International Council for Harmonisation (ICH)', url: 'https://www.ich.org/' },
   { country: 'Global', region: 'Harmonization Coalitions', authority: 'International Medical Device Regulators Forum (IMDRF)', url: 'https://www.imdrf.org/', monitored: true },
@@ -4034,7 +4034,6 @@ const REGULATORY_AUTHORITIES = [
 
   // ===== NORTH AMERICA =====
   { country: 'Canada', region: 'North America', authority: 'Health Canada (HC)', url: 'https://www.canada.ca/en/health-canada.html' },
-  { country: 'Mexico', region: 'North America', authority: 'COFEPRIS — Comisión Federal para la Protección contra Riesgos Sanitarios', url: 'https://www.gob.mx/cofepris' },
   { country: 'United States', region: 'North America', authority: 'Food and Drug Administration (FDA)', url: 'https://www.fda.gov/', monitored: true },
 
   // ===== EMEA =====
@@ -4044,7 +4043,7 @@ const REGULATORY_AUTHORITIES = [
   { country: 'Andorra', region: 'EMEA', authority: 'Departament de Salut', url: 'https://www.salut.ad/' },
   { country: 'Angola', region: 'EMEA', authority: 'Ministério da Saúde', url: 'https://www.minsa.gov.ao/' },
   { country: 'Austria', region: 'EMEA', authority: 'AGES — Austrian Agency for Health and Food Safety', url: 'https://www.ages.at/en/' },
-  { country: 'Austria', region: 'EMEA', authority: 'BASG — Federal Office for Safety in Health Care / AGES MEA', url: 'https://www.basg.gv.at/' },
+  { country: 'Austria', region: 'EMEA', authority: 'BASG — Federal Office for Safety in Health Care / AGES MEA', url: 'https://www.basg.gv.at/en/' },
   { country: 'Bahrain', region: 'EMEA', authority: 'Ministry of Health (NHRA)', url: 'https://www.moh.gov.bh/' },
   { country: 'Belarus', region: 'EMEA', authority: 'RCETH — Center for Examinations and Tests in Health Service', url: 'https://www.rceth.by/en' },
   { country: 'Belgium', region: 'EMEA', authority: 'AFMPS / FAMHP — Federal Agency for Medicines and Health Products', url: 'https://www.famhp.be/en' },
@@ -4186,7 +4185,7 @@ const REGULATORY_AUTHORITIES = [
   { country: 'Bhutan', region: 'APAC', authority: 'Drug Regulatory Authority (DRA)', url: 'http://dra.gov.bt/' },
   { country: 'Brunei Darussalam', region: 'APAC', authority: 'Ministry of Health', url: 'https://www.moh.gov.bn/' },
   { country: 'Cambodia', region: 'APAC', authority: 'Ministry of Health', url: 'https://moh.gov.kh/' },
-  { country: 'China', region: 'APAC', authority: 'NMPA — National Medical Products Administration', url: 'http://english.nmpa.gov.cn/' },
+  { country: 'China', region: 'APAC', authority: 'NMPA — National Medical Products Administration', url: 'https://english.nmpa.gov.cn/' },
   { country: 'Fiji', region: 'APAC', authority: 'Ministry of Health and Medical Services (MHMS)', url: 'https://www.health.gov.fj/' },
   { country: 'Georgia', region: 'APAC', authority: 'Ministry of Internally Displaced Persons, Labour, Health and Social Affairs', url: 'https://www.moh.gov.ge/en/' },
   { country: 'Hong Kong', region: 'APAC', authority: 'Department of Health', url: 'https://www.dh.gov.hk/' },
@@ -4248,6 +4247,7 @@ const REGULATORY_AUTHORITIES = [
   { country: 'Guatemala', region: 'LATAM', authority: 'Ministerio de Salud Pública y Asistencia Social (MSPAS)', url: 'https://www.mspas.gob.gt/' },
   { country: 'Honduras', region: 'LATAM', authority: 'Ministry of Health' },
   { country: 'MERCOSUR', region: 'LATAM', authority: 'Southern Common Market (MERCOSUR)', url: 'https://www.mercosur.int/en/' },
+  { country: 'Mexico', region: 'LATAM', authority: 'COFEPRIS — Comisión Federal para la Protección contra Riesgos Sanitarios', url: 'https://www.gob.mx/cofepris' },
   { country: 'Nicaragua', region: 'LATAM', authority: 'Ministerio de Salud (MINSA)', url: 'https://www.minsa.gob.ni/' },
   { country: 'Panama', region: 'LATAM', authority: 'Ministerio de Salud (MINSA)' },
   { country: 'Paraguay', region: 'LATAM', authority: 'Ministerio de Salud Pública y Bienestar Social', url: 'https://www.mspbs.gov.py/' },
