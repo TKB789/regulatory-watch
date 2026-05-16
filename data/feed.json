@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T16:47:41.607337+00:00",
+  "generated_at": "2026-05-16T17:49:20.539880+00:00",
   "item_count": 321,
   "feed_count": 12,
   "new_this_run": 0,
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-14T23:58:20.011513+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-14T23:58:20.011513+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-14T23:58:20.011513+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -131,9 +131,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-16T16:44:31.912395+00:00",
+      "last_attempt": "2026-05-16T17:46:11.323717+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-16T16:44:31.912395+00:00",
+      "last_success": "2026-05-16T17:46:11.323717+00:00",
       "items_fetched": 0
     }
   ],
