@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-20T12:44:08.525506+00:00",
-  "item_count": 332,
+  "generated_at": "2026-05-20T16:23:06.477868+00:00",
+  "item_count": 334,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 11,
       "last_success_item_count": 11
     },
@@ -131,13 +131,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-20T12:40:55.662864+00:00",
+      "last_attempt": "2026-05-20T16:19:57.719898+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-20T12:40:55.662864+00:00",
+      "last_success": "2026-05-20T16:19:57.719898+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Amiodarone: reminder of risks of treatment and need for patient monitoring and supervision",
+      "summary": "Amiodarone has been associated with serious and potentially life-threatening side effects, particularly of the lung, liver, and thyroid gland. We remind healthcare professionals that patients should be supervised and reviewed regularly during treatment. Lung problems may have slow onset but then progress rapidly. Computerised tomography scans may help to confirm a suspected diagnosis of pulmonary toxicity.",
+      "link": "https://www.gov.uk/drug-safety-update/amiodarone-cordarone-x-reminder-of-risks-of-treatment-and-need-for-patient-monitoring-and-supervision",
+      "published": "2026-05-20T14:48:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Risk of severe harm from use of incorrect giving (administration) set for blood transfusion (DSI/2026/003)",
+      "summary": "There is a potential for serious harm to patients if an intravenous (IV) infusion giving set is used instead of a blood transfusion giving set to deliver a transfusion of blood or blood components.",
+      "link": "https://www.gov.uk/drug-device-alerts/risk-of-severe-harm-from-use-of-incorrect-giving-administration-set-for-blood-transfusion-dsi-slash-2026-slash-003",
+      "published": "2026-05-20T13:01:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
     {
       "title": "EU tracks progress towards 2030 clinical trial targets",
       "summary": "The European Commission (EC), the Heads of Medicines Agencies (HMA) and EMA have published their first report tracking progress against the EU’s new clinical trial targets.…",
