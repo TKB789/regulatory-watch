@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-22T05:39:15.819437+00:00",
-  "item_count": 349,
+  "generated_at": "2026-05-22T08:51:02.970317+00:00",
+  "item_count": 354,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -131,13 +131,73 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-22T05:36:06.155302+00:00",
+      "last_attempt": "2026-05-22T08:47:55.587195+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-22T05:36:06.155302+00:00",
+      "last_success": "2026-05-22T08:47:55.587195+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Vaccines and Related Biological Products Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-Safety and Effectiveness of MFLUSIVA (Influenza Vaccine, mRNA) Manufactured by Moderna TX Inc.",
+      "summary": "The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Vaccines and Related Biological Products Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA on regulatory issues. The meeting will be open to the public. FDA is establishing a docket for public comment on this document.",
+      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10321/vaccines-and-related-biological-products-advisory-committee-notice-of-meeting-establishment-of-a",
+      "published": "2026-05-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "M11 Clinical Electronic Structured Harmonised Protocol (CeSHarP); International Council for Harmonisation; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry entitled &quot;M11 Clinical Electronic Structured Harmonised Protocol (CeSHarP).&quot; The guidance was prepared under the auspices of the International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use (ICH). The guidance includes three documents: a guidance, a template, and a technical specification document. The guidance provides the rationale…",
+      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10295/m11-clinical-electronic-structured-harmonised-protocol-cesharp-international-council-for",
+      "published": "2026-05-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Protein Efficiency Ratio Rat Bioassay Studies To Demonstrate That a New Infant Formula Supports the Quality Factor of Sufficient Biological Quality of Protein; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing the availability of a guidance entitled &quot;Protein Efficiency Ratio (PER) Rat Bioassay Studies to Demonstrate That a New Infant Formula Supports the Quality Factor of Sufficient Biological Quality of Protein.&quot; The guidance provides information for manufacturers and contract laboratories that perform PER studies to assist in designing, conducting, evaluating, and reporting PER studies. The guidance explains &quot;appropriate…",
+      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10284/protein-efficiency-ratio-rat-bioassay-studies-to-demonstrate-that-a-new-infant-formula-supports-the",
+      "published": "2026-05-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support abbreviated new drug applications (ANDAs). In the Federal Register of June 11, 2010, FDA announced the availability of a guidance for industry entitled &quot;Bioequivalence Recommendations for Specific…",
+      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10277/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+      "published": "2026-05-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Notice of Decision Not To Designate Hepatitis Delta Virus Diseases as an Addition to the Current List of Tropical Diseases in the Federal Food, Drug, and Cosmetic Act",
+      "summary": "In response to a suggestion by Gilead Sciences, Inc. (Gilead) that was submitted to the public docket FDA-2008-N-0567 on February 14, 2022, the Food and Drug Administration (FDA or Agency) has analyzed whether hepatitis delta virus (HDV) infection meets the statutory criteria for designation as a &quot;tropical disease&quot; under Section 524 of the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act). Specifically, the Agency has analyzed whether there is &quot;no significant market in…",
+      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10268/notice-of-decision-not-to-designate-hepatitis-delta-virus-diseases-as-an-addition-to-the-current",
+      "published": "2026-05-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Decision: Suspended and revoked licences and registrations for manufacturers and wholesalers of medicines and ingredients",
       "summary": "Public list of companies in the UK who have had their licence/registration to manufacture or wholesale medicines/ingredients revoked or suspended.",
@@ -286,7 +346,7 @@
       "title": "Landmark new plans bring treatments for rare diseases a step closer",
       "summary": "The MHRA launches public consultation on new framework that could lead to earlier licensing for therapies for up to 3.5 million people in the UK.",
       "link": "https://www.gov.uk/government/news/landmark-new-plans-bring-treatments-for-rare-diseases-a-step-closer",
-      "published": "2026-05-20T23:01:03+00:00",
+      "published": "2026-05-20T23:01:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -298,7 +358,7 @@
       "title": "MHRA consults on new regulatory framework to make UK a global leader in rare disease therapy development",
       "summary": "Proposed Rare Disease Therapies Framework introduces Investigational Marketing Authorisation and compressed development pathways – industry urged to respond",
       "link": "https://www.gov.uk/government/news/mhra-consults-on-new-regulatory-framework-to-make-uk-a-global-leader-in-rare-disease-therapy-development",
-      "published": "2026-05-20T23:01:03+00:00",
+      "published": "2026-05-20T23:01:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
