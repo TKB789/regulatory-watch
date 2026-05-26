@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-26T06:33:26.932648+00:00",
-  "item_count": 365,
+  "generated_at": "2026-05-26T13:50:09.406584+00:00",
+  "item_count": 366,
   "feed_count": 12,
-  "new_this_run": 4,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -131,13 +131,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-26T06:30:19.616286+00:00",
+      "last_attempt": "2026-05-26T13:47:01.251018+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-26T06:30:19.616286+00:00",
+      "last_success": "2026-05-26T13:47:01.251018+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "EU recommendations for 2026/2027 seasonal flu vaccine composition",
+      "summary": "This news announcement was updated on two occasions. On 7 May 2026, it was updated to include additional recommendations for strains for seasonal egg-derived and live-attenuated…",
+      "link": "https://www.ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition",
+      "published": "2026-05-26T11:50:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "Don’t let this heatwave affect your medicines: Three important tips from the MHRA",
+      "summary": "Essential advice on protecting your medicines during extreme heat and staying safe.",
+      "link": "https://www.gov.uk/government/news/dont-let-this-heatwave-affect-your-medicines-three-important-tips-from-the-mhra",
+      "published": "2026-05-26T10:52:34+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Advisory Committee; Pulmonary-Allergy Drugs Advisory Committee; Renewal",
       "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Pulmonary-Allergy Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Pulmonary- Allergy Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 30, 2028, expiration date.",
@@ -1589,18 +1613,6 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
-    },
-    {
-      "title": "EU recommendations for 2026/2027 seasonal flu vaccine composition",
-      "summary": "This news announcement was updated on 7 May 2026 to include additional recommendations for strains for seasonal egg-derived and live-attenuated influenza vaccinesEMA has issued…",
-      "link": "https://www.ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition",
-      "published": "2026-05-07T13:26:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
     },
     {
       "title": "Decision: Human medicines: register of licensed wholesale distribution sites",
