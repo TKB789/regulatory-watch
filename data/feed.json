@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-29T06:07:00.341069+00:00",
-  "item_count": 382,
+  "generated_at": "2026-05-29T10:30:38.678223+00:00",
+  "item_count": 388,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 11,
       "last_success_item_count": 11
     },
@@ -131,13 +131,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-29T06:03:49.228768+00:00",
+      "last_attempt": "2026-05-29T10:27:29.992328+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-29T06:03:49.228768+00:00",
+      "last_success": "2026-05-29T10:27:29.992328+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Patient-Focused Drug Development for Nonhealing Chronic Wounds; Public Meeting; Request for Comments",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing the following public meeting entitled &quot;Patient-Focused Drug Development for Nonhealing Chronic Wounds.&quot; The purpose of the public meeting is to obtain patient perspectives about the impact of nonhealing chronic wounds on daily life, patient views on treatment approaches, factors to consider when selecting a treatment, and what they consider when determining whether to participate in a clinical trial.",
+      "link": "https://www.federalregister.gov/documents/2026/05/29/2026-10752/patient-focused-drug-development-for-nonhealing-chronic-wounds-public-meeting-request-for-comments",
+      "published": "2026-05-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Content of Human Factors Information in Medical Device Marketing Submissions; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Content of Human Factors Information in Medical Device Marketing Submissions.&quot; This guidance provides a risk-based framework to guide manufacturers and FDA staff on the human factors information that should be included in a marketing submission to the Center for Devices and Radiological Health (CDRH) to facilitate the efficiency of the FDA review process.",
+      "link": "https://www.federalregister.gov/documents/2026/05/29/2026-10734/content-of-human-factors-information-in-medical-device-marketing-submissions-guidance-for-industry",
+      "published": "2026-05-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Statistical Approaches To Establishing Bioequivalence; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry entitled &quot;Statistical Approaches to Establishing Bioequivalence.&quot; This guidance provides recommendations to sponsors and applicants planning to use equivalence criteria in analyzing bioequivalence (BE) studies for investigational new drug applications (INDs), new drug applications (NDAs), abbreviated new drug applications (ANDAs), and amendments and supplements to these…",
+      "link": "https://www.federalregister.gov/documents/2026/05/29/2026-10705/statistical-approaches-to-establishing-bioequivalence-guidance-for-industry-availability",
+      "published": "2026-05-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Bioequivalence Studies With Pharmacokinetic Endpoints for Drugs Submitted Under an Abbreviated New Drug Application; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry entitled &quot;Bioequivalence Studies With Pharmacokinetic Endpoints for Drugs Submitted Under an ANDA.&quot; This guidance provides recommendations to applicants planning to include bioequivalence (BE) information in abbreviated new drug applications (ANDAs), ANDA amendments, and ANDA supplements. In addition, this guidance describes how to meet the BE requirements set forth in the…",
+      "link": "https://www.federalregister.gov/documents/2026/05/29/2026-10703/bioequivalence-studies-with-pharmacokinetic-endpoints-for-drugs-submitted-under-an-abbreviated-new",
+      "published": "2026-05-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Neurological Devices; Classification of the Transcutaneous Electrical Nerve Stimulator To Treat Fibromyalgia Symptoms",
+      "summary": "The Food and Drug Administration (FDA) is classifying the transcutaneous electrical nerve stimulator to treat fibromyalgia symptoms into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the transcutaneous electrical nerve stimulator to treat fibromyalgia symptoms. We are taking this action because we have determined that classifying the device into class II will provide a…",
+      "link": "https://www.federalregister.gov/documents/2026/05/29/2026-10675/medical-devices-neurological-devices-classification-of-the-transcutaneous-electrical-nerve",
+      "published": "2026-05-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Advisory Committee; Psychopharmacologic Drugs Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Psychopharmacologic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Psychopharmacologic Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the June 4, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/05/29/2026-10674/advisory-committee-psychopharmacologic-drugs-advisory-committee-renewal",
+      "published": "2026-05-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Field Safety Notices: 18 -22 May 2026",
       "summary": "List of Field Safety Notices for 18 -22 May 2026",
