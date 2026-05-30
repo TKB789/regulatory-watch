@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-30T05:06:48.858983+00:00",
-  "item_count": 394,
+  "generated_at": "2026-05-30T08:03:31.319270+00:00",
+  "item_count": 402,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 8,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 11,
       "last_success_item_count": 11
     },
@@ -131,13 +131,109 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-05-30T05:03:33.296001+00:00",
+      "last_attempt": "2026-05-30T08:00:22.202410+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-05-30T05:03:33.296001+00:00",
+      "last_success": "2026-05-30T08:00:22.202410+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medical Devices; General Hospital and Personal Use Devices; Classification of the Rigid Sterilization Container With Electronic Monitoring",
+      "summary": "The Food and Drug Administration (FDA) is classifying the rigid sterilization container with electronic monitoring into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the rigid sterilization container with electronic monitoring. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10908/medical-devices-general-hospital-and-personal-use-devices-classification-of-the-rigid-sterilization",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Anesthesiology Devices; Classification of the Real-Time Ultrasound Anatomy Visualization and Labeling Device for Ultrasound Guided Regional Anesthesia",
+      "summary": "The Food and Drug Administration (FDA) is classifying the real-time ultrasound anatomy visualization and labeling device for ultrasound guided regional anesthesia into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the real-time ultrasound anatomy visualization and labeling device for ultrasound guided regional anesthesia. We are taking this action because we have…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10907/medical-devices-anesthesiology-devices-classification-of-the-real-time-ultrasound-anatomy",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Anesthesiology Devices; Classification of the Adjunctive Pain Measurement Device for Anesthesiology",
+      "summary": "The Food and Drug Administration (FDA) is classifying the adjunctive pain measurement device for anesthesiology into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the adjunctive pain measurement device for anesthesiology. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10905/medical-devices-anesthesiology-devices-classification-of-the-adjunctive-pain-measurement-device-for",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Orally Ingested Transient Device for Constipation",
+      "summary": "The Food and Drug Administration (FDA) is classifying the orally ingested transient device for constipation into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the orally ingested transient device for constipation. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10904/medical-devices-gastroenterology-urology-devices-classification-of-the-orally-ingested-transient",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Dental Devices; Classification of the Intraoral Cooling Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the intraoral cooling device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the intraoral cooling device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this action will also…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10899/medical-devices-dental-devices-classification-of-the-intraoral-cooling-device",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Von Willebrand Factor Assay",
+      "summary": "The Food and Drug Administration (FDA) is classifying the von Willebrand factor assay into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the von Willebrand factor assay. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this action will…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10898/medical-devices-hematology-and-pathology-devices-classification-of-the-von-willebrand-factor-assay",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Ear, Nose, and Throat Devices; Classification of the Oropharyngeal Electrical Stimulator",
+      "summary": "The Food and Drug Administration (FDA) is classifying the oropharyngeal electrical stimulator into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the oropharyngeal electrical stimulator. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10894/medical-devices-ear-nose-and-throat-devices-classification-of-the-oropharyngeal-electrical",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Oncology Pharmaceuticals: Streamlined Nonclinical Safety Studies for Biologics and Conjugated Products; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing the availability of a draft guidance for industry entitled &quot;Oncology Pharmaceuticals: Streamlined Nonclinical Safety Studies for Biologics and Conjugated Products.&quot; When finalized, this guidance will assist sponsors in implementing streamlined approaches for general toxicology, for nonclinical safety assessments of certain oncology pharmaceuticals. The guidance is intended to facilitate drug development for…",
+      "link": "https://www.federalregister.gov/documents/2026/06/01/2026-10873/oncology-pharmaceuticals-streamlined-nonclinical-safety-studies-for-biologics-and-conjugated",
+      "published": "2026-06-01T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Decision: Medical devices given exceptional use authorisations",
       "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
