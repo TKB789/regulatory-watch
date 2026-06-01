@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01T08:33:33.947814+00:00",
-  "item_count": 402,
+  "generated_at": "2026-06-01T14:53:03.772623+00:00",
+  "item_count": 403,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,22 +122,34 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
-      "items_fetched": 11,
-      "last_success_item_count": 11
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
+      "items_fetched": 12,
+      "last_success_item_count": 12
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-01T08:30:25.241987+00:00",
+      "last_attempt": "2026-06-01T14:49:55.219771+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-01T08:30:25.241987+00:00",
+      "last_success": "2026-06-01T14:49:55.219771+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Orphan registered medicinal products",
+      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
+      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
+      "published": "2026-06-01T14:02:18+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Medical Devices; General Hospital and Personal Use Devices; Classification of the Rigid Sterilization Container With Electronic Monitoring",
       "summary": "The Food and Drug Administration (FDA) is classifying the rigid sterilization container with electronic monitoring into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the rigid sterilization container with electronic monitoring. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety…",
@@ -233,6 +245,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "United for Health: EMA in WorldPride 2026",
+      "summary": "June is PRIDE month and EMA starts a two-month celebration of diversity and inclusion in science and healthcare, leading up to its participation in the world-famous Amsterdam…, Our strength in the EU comes from our unity in diversity. Equality and non-discrimination are critical everywhere, but in health they can make the difference between…, EMA staff will be joined on the boat by representatives of patient organisations such as EURORDIS-Rare Diseases Europe, European AIDS Treatment Group…",
+      "link": "https://www.ema.europa.eu/en/news/united-health-ema-worldpride-2026",
+      "published": "2026-05-31T22:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
     },
     {
       "title": "Decision: Medical devices given exceptional use authorisations",
@@ -1139,18 +1163,6 @@
       "summary": "MHRA announces new programme of events and greater engagement with industries, researchers, local NHS and government in Wales.",
       "link": "https://www.gov.uk/government/news/mhra-to-support-local-life-sciences-sector-in-wales",
       "published": "2026-05-19T10:11:59+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Orphan registered medicinal products",
-      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
-      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
-      "published": "2026-05-18T11:51:11+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
