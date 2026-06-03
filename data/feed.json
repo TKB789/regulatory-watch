@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-03T10:18:57.849570+00:00",
-  "item_count": 413,
+  "generated_at": "2026-06-03T15:14:21.554029+00:00",
+  "item_count": 416,
   "feed_count": 12,
-  "new_this_run": 7,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,22 +122,58 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
-      "items_fetched": 12,
-      "last_success_item_count": 12
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
+      "items_fetched": 13,
+      "last_success_item_count": 13
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-03T10:15:49.788959+00:00",
+      "last_attempt": "2026-06-03T15:11:11.277328+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-03T10:15:49.788959+00:00",
+      "last_success": "2026-06-03T15:11:11.277328+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "EMA, AMA and African regulatory authorities join forces on Ebola outbreak response",
+      "summary": "EMA’s Emergency Task Force (ETF) is engaging with the African Medicines Agency (AMA) and its national regulatory authorities (NRAs), leveraging expertise from the WHO-AFRO…",
+      "link": "https://www.ema.europa.eu/en/news/ema-ama-african-regulatory-authorities-join-forces-ebola-outbreak-response",
+      "published": "2026-06-03T12:52:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "IntelliCuff®",
+      "summary": "An issue was identified where the affected IntelliCuff® devices may alarm with \"cuff system leakage\", the motor pumps continuously and does not maintain the cuff pressure set by the user.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/intellicuffr",
+      "published": "2026-06-03T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "IceMan CLASSIC3™",
+      "summary": "Complaints received reporting a consistent failure mode described as a broken connector on IceMan CLASSIC™ cube unit.&nbsp; If the connector is broken, the unit may not function as intended, which could result in a temporary interruption of prescribed cold therapy until a replacement unit is provided. &nbsp;Leakage could saturate the barrier (dressings) and contact the surgical site with non-sterile water, which could in potential cold-related tissue injury or surgical site infection.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/iceman-classic3tm",
+      "published": "2026-06-03T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "M15 General Principles for Model-Informed Drug Development; International Council for Harmonisation; Guidance for Industry; Availability",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry entitled &quot;M15 General Principles for Model-Informed Drug Development.&quot; The guidance was prepared under the auspices of the International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use (ICH). The guidance provides general recommendations for the planning, model evaluation, and documentation of evidence derived from model-informed drug…",
