@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-05T06:50:17.471558+00:00",
-  "item_count": 425,
+  "generated_at": "2026-06-05T10:43:08.270180+00:00",
+  "item_count": 429,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 13,
       "last_success_item_count": 13
     },
@@ -131,13 +131,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-05T06:47:08.348571+00:00",
+      "last_attempt": "2026-06-05T10:40:01.377971+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-05T06:47:08.348571+00:00",
+      "last_success": "2026-06-05T10:40:01.377971+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medical Devices; Orthopedic Devices; Classification of the Resorbable Calcium Salt Bone Void Filler Containing a Single Approved Aminoglycoside Antibacterial",
+      "summary": "The Food and Drug Administration (FDA) is classifying the resorbable calcium salt bone void filler containing a single approved aminoglycoside antibacterial into class II (special controls). The special controls that apply to the product type are identified in this order and will be part of the codified language for classification of the resorbable calcium salt bone void filler containing a single approved aminoglycoside antibacterial. We are taking this action because we have determined that…",
+      "link": "https://www.federalregister.gov/documents/2026/06/05/2026-11308/medical-devices-orthopedic-devices-classification-of-the-resorbable-calcium-salt-bone-void-filler",
+      "published": "2026-06-05T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Orthopedic Devices; Classification of the Shoulder Joint Humeral (Hemi-Shoulder) Ceramic Head/Metallic Stem Cemented or Uncemented Prosthesis",
+      "summary": "The Food and Drug Administration (FDA) is classifying the shoulder joint humeral (hemi-shoulder) ceramic head/metallic stem cemented or uncemented prosthesis into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the shoulder joint humeral (hemi-shoulder) ceramic head/metallic stem cemented or uncemented prosthesis. We are taking this action because we have determined that…",
+      "link": "https://www.federalregister.gov/documents/2026/06/05/2026-11306/medical-devices-orthopedic-devices-classification-of-the-shoulder-joint-humeral-hemi-shoulder",
+      "published": "2026-06-05T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Intent To Exempt Certain Unclassified Medical Devices From Premarket Notification Requirements; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA) is announcing the availability of the guidance &quot;Intent to Exempt Certain Unclassified Medical Devices from Premarket Notification Requirements.&quot; This guidance describes FDA's intent to exempt certain unclassified medical devices from premarket notification requirements. At this time, and based on the information currently available to the Agency, FDA believes the devices identified in this guidance meet the standards for exemption from premarket…",
+      "link": "https://www.federalregister.gov/documents/2026/06/05/2026-11303/intent-to-exempt-certain-unclassified-medical-devices-from-premarket-notification-requirements",
+      "published": "2026-06-05T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Orthopedic Devices; Classification of the Absorbable Metallic Bone Fixation Fastener",
+      "summary": "The Food and Drug Administration (FDA) is classifying the absorbable metallic bone fixation fastener into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the absorbable metallic bone fixation fastener. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the…",
+      "link": "https://www.federalregister.gov/documents/2026/06/05/2026-11302/medical-devices-orthopedic-devices-classification-of-the-absorbable-metallic-bone-fixation-fastener",
+      "published": "2026-06-05T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Adjuvanted trivalent influenza vaccine authorised for adults aged 50 and over",
       "summary": "The adjuvanted trivalent influenza vaccine works by stimulating the immune system to produce its own protection against flu.",
