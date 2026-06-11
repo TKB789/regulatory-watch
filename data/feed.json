@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-11T11:55:36.135923+00:00",
-  "item_count": 456,
+  "generated_at": "2026-06-11T15:36:25.265319+00:00",
+  "item_count": 460,
   "feed_count": 12,
-  "new_this_run": 10,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 13,
       "last_success_item_count": 13
     },
@@ -131,24 +131,72 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-11T11:52:26.090750+00:00",
+      "last_attempt": "2026-06-11T15:33:16.146119+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-11T11:52:26.090750+00:00",
+      "last_success": "2026-06-11T15:33:16.146119+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
     {
-      "title": "MHRA landmark report reveals public views on AI in healthcare",
-      "summary": "The MHRA is publishing the results of an extensive public consultation which will inform the recommendations of the AI Commission and future regulations.",
-      "link": "https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare",
-      "published": "2026-06-11T11:04:34+00:00",
+      "title": "First GLP-1 tablet for weight loss approved in the UK",
+      "summary": "Having met the MHRA’s rigorous standards of safety, quality and effectiveness, the semaglutide tablet has been approved in the UK for weight loss and weight management.",
+      "link": "https://www.gov.uk/government/news/first-glp-1-tablet-for-weight-loss-approved-in-the-uk",
+      "published": "2026-06-11T15:03:39+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA landmark report reveals public views on AI in healthcare",
+      "summary": "The MHRA is publishing the results of an extensive public consultation which will inform the recommendations of the AI Commission and future regulations.",
+      "link": "https://www.gov.uk/government/news/mhra-landmark-report-reveals-public-views-on-ai-in-healthcare",
+      "published": "2026-06-11T14:47:54+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Regulation of medical devices in Northern Ireland",
+      "summary": "Information about how the MHRA regulates medical devices in Northern Ireland and what legislation applies to manufacturers and suppliers.",
+      "link": "https://www.gov.uk/guidance/medical-devices-eu-regulations-for-mdr-and-ivdr",
+      "published": "2026-06-11T14:22:09+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Contact the MHRA",
+      "summary": "How to contact the MHRA for specific services or enquiries.",
+      "link": "https://www.gov.uk/guidance/contact-mhra",
+      "published": "2026-06-11T14:20:31+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Aptima HIV Quant Dx Assay, HCV Quant Dx Assay, and HBV Quant Assay Software",
+      "summary": "This notification is to inform Panther and Panther Fusion users that assay installer (version 2.0.0.9) including the Aptima HIV Quant Dx Assay, HCV Quant Dx Assay, and HBV Quant Assay software was installed on Panther and Panther Fusion systems prior to Health Canada approval.The Aptima HIV Quant Dx Assay, HCV Quant Dx Assay, and HBV Quant Assay software included in assay installer version 2.0.0.9 have not been approved by Health Canada but have been validated and released. Based on this, the…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/aptima-hiv-quant-dx-assay-hcv-quant-dx-assay-and-hbv-quant-assay-software",
+      "published": "2026-06-11T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Regulation of AI in Healthcare",
