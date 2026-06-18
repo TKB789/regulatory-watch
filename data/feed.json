@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-18T05:14:09.681119+00:00",
-  "item_count": 482,
+  "generated_at": "2026-06-18T09:52:58.976944+00:00",
+  "item_count": 488,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -131,13 +131,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-18T05:11:02.243641+00:00",
+      "last_attempt": "2026-06-18T09:49:51.669226+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-18T05:11:02.243641+00:00",
+      "last_success": "2026-06-18T09:49:51.669226+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Authorization of Emergency Use for Two Animal Drugs for the Prevention and Treatment of New World Screwworm; Availability",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing the issuance of two Emergency Use Authorizations (EUA) (Authorization) under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) for new animal products. FDA has issued one EUA for an animal product as requested by Health and Hygiene (Pty) Ltd. for the prevention and treatment of infestations caused by New World screwworm (Cochliomyia hominivorax) (NWS) larvae (myiasis) in cattle, horses, minor species of hoof stock,…",
+      "link": "https://www.federalregister.gov/documents/2026/06/18/2026-12245/authorization-of-emergency-use-for-two-animal-drugs-for-the-prevention-and-treatment-of-new-world",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Extralabel Drug Use in Animals",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/06/18/2026-12239/agency-information-collection-activities-proposed-collection-comment-request-extralabel-drug-use-in",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Current Good Manufacturing Practice in Manufacturing, Packaging, Labeling, or Holding Operations for Dietary Supplements",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/06/18/2026-12238/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Current Good Manufacturing Practice Regulations for Type A Medicated Articles and Medicated Feeds",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/06/18/2026-12237/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "SpecGx LLC; Withdrawal of Approval of Abbreviated New Drug Application for Methylphenidate Hydrochloride Extended-Release Tablets, 27 Milligrams, 36 Milligrams, and 54 Milligrams",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of abbreviated new drug application (ANDA) 202608 for Methylphenidate Hydrochloride (HCl) Extended-Release (ER) tablets, 27 milligrams (mg), 36 mg, and 54 mg, held by SpecGx LLC (SpecGx), 385 Marshall Ave., Webster Groves, MO 63119. SpecGx requested withdrawal of approval of this application and has waived its opportunity for a hearing.",
+      "link": "https://www.federalregister.gov/documents/2026/06/18/2026-12236/specgx-llc-withdrawal-of-approval-of-abbreviated-new-drug-application-for-methylphenidate",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Advisory Committee; Science Board to the Food and Drug Administration; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Science Board to the Food and Drug Administration by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Science Board to the Food and Drug Administration for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the June 26, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/06/18/2026-12235/advisory-committee-science-board-to-the-food-and-drug-administration-renewal",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Project Orbis",
       "summary": "Project Orbis is a programme to review and approve promising cancer drugs helping patients access treatments faster.",
