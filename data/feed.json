@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-20T03:54:39.575570+00:00",
-  "item_count": 496,
+  "generated_at": "2026-06-20T07:45:19.928654+00:00",
+  "item_count": 500,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -131,13 +131,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-20T03:51:32.759979+00:00",
+      "last_attempt": "2026-06-20T07:42:12.794893+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-20T03:51:32.759979+00:00",
+      "last_success": "2026-06-20T07:42:12.794893+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Endoscopic Traction Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the endoscopic traction device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the endoscopic traction device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this action will…",
+      "link": "https://www.federalregister.gov/documents/2026/06/22/2026-12445/medical-devices-gastroenterology-urology-devices-classification-of-the-endoscopic-traction-device",
+      "published": "2026-06-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Endoscopic Light-Projecting Measuring Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the endoscopic light-projecting measuring device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the endoscopic light-projecting measuring device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the…",
+      "link": "https://www.federalregister.gov/documents/2026/06/22/2026-12444/medical-devices-gastroenterology-urology-devices-classification-of-the-endoscopic-light-projecting",
+      "published": "2026-06-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Immunology and Microbiology Devices; Classification of the Simple In Vitro Diagnostic Device for the Detection of Secreted Proteins From Bacillus Species (spp.) in Human Clinical Samples",
+      "summary": "The Food and Drug Administration (FDA) is classifying the simple in vitro diagnostic device for the detection of secreted proteins from Bacillus species (spp.) in human clinical samples into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the simple in vitro diagnostic device for the detection of secreted proteins from Bacillus species (spp.) in human clinical samples.…",
+      "link": "https://www.federalregister.gov/documents/2026/06/22/2026-12443/medical-devices-immunology-and-microbiology-devices-classification-of-the-simple-in-vitro-diagnostic",
+      "published": "2026-06-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Epizyme, Inc.; Withdrawal of Approval of New Drug Application for TAZVERIK (Tazemetostat) Tablet, 200 Milligrams",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of new drug application (NDA) for TAZVERIK (tazemetostat) tablet, 200 milligrams (mg), held by Epizyme, Inc., an Ipsen Company (Epizyme), 1 Main St., Cambridge, MA 02142. Epizyme has voluntarily requested withdrawal of its NDA and has waived the expedited withdrawal procedures.",
+      "link": "https://www.federalregister.gov/documents/2026/06/22/2026-12367/epizyme-inc-withdrawal-of-approval-of-new-drug-application-for-tazverik-tazemetostat-tablet-200",
+      "published": "2026-06-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 16-18 June 2026",
       "summary": "CVMP opinions on veterinary medicinal productsThe Committee adopted a negative opinion for a marketing authorisation for Scovella&nbsp;(velagliflozin), a product classified as…",
