@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-23T09:00:21.542211+00:00",
+  "generated_at": "2026-06-23T11:59:38.205917+00:00",
   "item_count": 505,
   "feed_count": 12,
-  "new_this_run": 2,
+  "new_this_run": 0,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-05-17T18:20:29.516391+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 8,
       "last_success_item_count": 8
     },
@@ -131,13 +131,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-23T08:57:13.061938+00:00",
+      "last_attempt": "2026-06-23T11:56:31.515250+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-23T08:57:13.061938+00:00",
+      "last_success": "2026-06-23T11:56:31.515250+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Marketing authorisations Granted in 2026",
+      "summary": "Marketing authorisations granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+      "published": "2026-06-23T10:42:49+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Parallel import licences granted in 2026",
+      "summary": "Parallel import licences granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
+      "published": "2026-06-23T10:42:34+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-06-23T10:15:23+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Certification of Identity, Form FDA 3975",
       "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
@@ -679,18 +715,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-06-12T12:20:47+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
       "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 8-11 June 2026",
       "summary": "PRAC concludes evidence of potential risk of neurodevelopmental disorders in children born to men treated with valproate is inconsistent&nbsp;&nbsp;Committee&nbsp;recommends updating product…, Agenda Agenda of the PRAC meeting 8-11 June 2026Draft Reference Number: EMA/PRAC/115322/2026…, PRAC statistics: June 2026 , , Glossary Safety signal assessments. A safety signal is information which suggests a new potentially causal association, or a new aspect of a known association between…",
       "link": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-june-2026",
@@ -787,18 +811,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Research: National Commission into the Regulation of AI in Healthcare: research, engagement and call for evidence findings",
-      "summary": "Findings from the National Commission into the Regulation of AI in Healthcare's call for evidence and wider research and engagement activities.",
-      "link": "https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-research-engagement-and-call-for-evidence-findings",
-      "published": "2026-06-11T11:00:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
       "title": "EMA’s 2025 annual report shows strong approval numbers for human and veterinary medicines",
       "summary": "Today, EMA released its 2025 annual report, highlighting progress in bringing innovative, safe and effective medicines to patients. The report outlines the most important…",
       "link": "https://www.ema.europa.eu/en/news/emas-2025-annual-report-shows-strong-approval-numbers-human-veterinary-medicines",
@@ -809,6 +821,18 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "Research: National Commission into the Regulation of AI in Healthcare: research, engagement and call for evidence findings",
+      "summary": "Findings from the National Commission into the Regulation of AI in Healthcare's call for evidence and wider research and engagement activities.",
+      "link": "https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-research-engagement-and-call-for-evidence-findings",
+      "published": "2026-06-11T11:00:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
     },
     {
       "title": "Medical devices: ask for a regulatory advice meeting from the MHRA",
@@ -1457,30 +1481,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Marketing authorisations Granted in 2026",
-      "summary": "Marketing authorisations granted in 2026.",
-      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
-      "published": "2026-06-02T13:09:11+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Parallel import licences granted in 2026",
-      "summary": "Parallel import licences granted in 2026.",
-      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
-      "published": "2026-06-02T13:04:51+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Class 2 Medicines Recall: Becton Dickinson UK Ltd, ChloraPrep 2% 1mL and ChloraPrep Frepp 2% 1.5mL applicators, EL(26)A/26",
