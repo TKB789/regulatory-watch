@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-27T19:07:48.962872+00:00",
-  "item_count": 548,
+  "generated_at": "2026-06-27T19:43:26.874427+00:00",
+  "item_count": 594,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 46,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -32,20 +32,20 @@
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
-      "status": "error",
-      "last_attempt": "2026-06-27T19:04:38.885474+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0,
-      "last_success": "2026-05-17T18:20:29.516391+00:00"
+      "status": "ok",
+      "last_attempt": "2026-06-27T19:43:26.874427+00:00",
+      "last_success": "2026-06-27T19:43:26.874427+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
-      "status": "error",
-      "last_attempt": "2026-06-27T19:04:38.885474+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0,
-      "last_success": "2026-05-17T18:20:29.516391+00:00"
+      "status": "ok",
+      "last_attempt": "2026-06-27T19:43:26.874427+00:00",
+      "last_success": "2026-06-27T19:43:26.874427+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA Press Announcements",
@@ -112,11 +112,11 @@
     {
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
-      "status": "error",
-      "last_attempt": "2026-06-27T19:04:38.885474+00:00",
-      "last_attempt_reason": "The read operation timed out",
-      "items_fetched": 0,
-      "last_success": "2026-05-17T18:20:29.516391+00:00"
+      "status": "ok",
+      "last_attempt": "2026-06-27T19:43:26.874427+00:00",
+      "last_success": "2026-06-27T19:43:26.874427+00:00",
+      "items_fetched": 50,
+      "source": "manual-fetch"
     },
     {
       "name": "EMA News & Press Releases",
@@ -130,12 +130,19 @@
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "empty",
-      "last_attempt": "2026-06-27T19:04:38.885474+00:00",
-      "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-27T19:04:38.885474+00:00",
-      "items_fetched": 0
+      "status": "ok",
+      "last_attempt": "2026-06-27T19:43:26.874427+00:00",
+      "last_success": "2026-06-27T19:43:26.874427+00:00",
+      "items_fetched": 30,
+      "source": "manual-fetch"
     }
+  ],
+  "manual_fetch_at": "2026-06-27T19:43:26.874427+00:00",
+  "manual_fetched_feeds": [
+    "eur-lex",
+    "fda-medwatch",
+    "fda-recalls",
+    "tga-news"
   ],
   "items": [
     {
@@ -199,6 +206,30 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "La Ceiba Foods Latin Market Inc. Recalls Cottage Cheese Products Because of Possible Health Risk",
+      "summary": "June 26, 2026, – La Ceiba Foods Latin Market Inc. is conducting a recall of Requesón Salvadoreño (Salvadoran Cottage Cheese) and Requesón Mexicano (Mexican Cottage Cheese) products marketed under the La Colonia and Selectos Latinos brands, due to possible contamination with Listeria monocytogenes. L",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/la-ceiba-foods-latin-market-inc-recalls-cottage-cheese-products-because-possible-health-risk",
+      "published": "2026-06-26T21:26:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Total Nutrition Inc. Recalls Organic Moringa Products Following Supplier-Initiated Recall Due to Possible Health Risk",
+      "summary": "Total Nutrition Inc. of Deer Park, NY is voluntarily recalling TNVitamins 100% Organic Moringa 1,200 mg Capsules and 100% Organic Moringa Powder following a supplier-initiated recall of the raw Organic Moringa ingredient because of possible Salmonella exposure. No illnesses have been reported to dat",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-recalls-organic-moringa-products-following-supplier-initiated-recall-due",
+      "published": "2026-06-26T20:28:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Register medical devices to place on the market",
       "summary": "How to register your medical devices with the MHRA for the markets in Great Britain and Northern Ireland.",
       "link": "https://www.gov.uk/guidance/register-medical-devices-to-place-on-the-market",
@@ -233,6 +264,18 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "First Aid Kit Recall: North American Rescue Issues Correction for First Aid Kits Containing TRUE METRIX Devices",
+      "summary": "North American Rescue is correcting first aid kits that contain blood glucose monitors affected by Trividia’s TRUE METRIX recall",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/first-aid-kit-recall-north-american-rescue-issues-correction-first-aid-kits-containing-true-metrix",
+      "published": "2026-06-26T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Determination That Prednisolone Tablet, 5 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
@@ -389,6 +432,42 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Revival Animal Health, LLC Voluntarily Recalls Canine and GM Milk Replacers Due to Low or Elevated Levels of Vitamin D",
+      "summary": "Revival Animal Health of Orange City, IA is recalling Breeder’s Edge® Foster Care® Canine, Shelter’s Choice® Canine Milk Replacers, and is expanding the current recall to include the Breeder’s Edge® Foster Care® GM (goat milk) products due to variable levels of Vitamin D resulting in either low or e",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-canine-and-gm-milk-replacers-due-low-or-elevated",
+      "published": "2026-06-25T21:21:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Lehi Valley Trading Company Issues Allergy Alert on Undeclared Peanuts in Chocolate Covered Raisins",
+      "summary": "June 25, 2026, Lehi Valley Trading Company of Mesa, AZ, is recalling 624 units of its 15 ounce packages of High Valley Orchard Chocolate Covered Raisins because they contain undeclared peanuts. People who have allergies to peanuts run the risk of serious or life-threatening allergic reaction if they",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/lehi-valley-trading-company-issues-allergy-alert-undeclared-peanuts-chocolate-covered-raisins",
+      "published": "2026-06-25T21:03:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Bear Stewart LLC Issues Allergy Alert on Undeclared Soy in Bakr Brown Butter Chocolate Chunk Ready to Bake Cookie Dough",
+      "summary": "Bear Stewart LLC of Chicago, IL is voluntarily recalling a single lot of Bakr Brown Butter Chocolate Chunk Ready To Bake Cookie Dough pouches because it may contain undeclared soy. People who have an allergy or severe sensitivity to soy run the risk of serious or life-threatening allergic reaction i",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bear-stewart-llc-issues-allergy-alert-undeclared-soy-bakr-brown-butter-chocolate-chunk-ready-bake",
+      "published": "2026-06-25T13:41:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Guidance: MHRA Innovation Office: guidance and support",
@@ -787,6 +866,30 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
+      "title": "Infant Resuscitation System Correction: GE HealthCare Issues Correction for Giraffe and Panda Infant Resuscitation Systems and Warmers with a M1091607-R Blender",
+      "summary": "The air-oxygen blender knob shaft on certain integrated and stand-alone Resuscitation systems can loosen, affecting the delivered oxygen concentration",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/infant-resuscitation-system-correction-ge-healthcare-issues-correction-giraffe-and-panda-infant",
+      "published": "2026-06-22T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Heart Pump Controller Correction: Abiomed Updates Use Instructions for Automated Impella Controllers",
+      "summary": "A software error may cause the Automated Impella Controller to restart when used in conjunction with left ventricular Impella devices.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/heart-pump-controller-correction-abiomed-updates-use-instructions-automated-impella-controllers",
+      "published": "2026-06-22T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Endoscopic Traction Device",
       "summary": "The Food and Drug Administration (FDA) is classifying the endoscopic traction device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the endoscopic traction device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this action will…",
       "link": "https://www.federalregister.gov/documents/2026/06/22/2026-12445/medical-devices-gastroenterology-urology-devices-classification-of-the-endoscopic-traction-device",
@@ -883,6 +986,30 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "MorningStar Farms Voluntarily Recalling Two Varieties Due to Possible Plastic Presence",
+      "summary": "CHICAGO, June 18, 2026 – MORNINGSTAR FARMS is voluntarily recalling two varieties of products in the U.S., Puerto Rico and Costa Rica because of possible plastic pieces in the food. Recalled varieties are: MORNINGSTAR FARMS Buffalo Chik’n Nuggets (10.5 oz) and MORNINGSTAR FARMS Hot &amp; Spicy Sausage",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/morningstar-farms-voluntarily-recalling-two-varieties-due-possible-plastic-presence",
+      "published": "2026-06-18T23:08:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Clover Hill Dairy Expands Recall to Include All Clover Hill Dairy Brand Cheese Due to Possible Health Risk",
+      "summary": "June 18, 2026 - Clover Hill Dairy of Mechanicsville, Maryland is expanding their recall to include all Clover Hill Dairy brand cheese because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fatal infections in young children, f",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/clover-hill-dairy-expands-recall-include-all-clover-hill-dairy-brand-cheese-due-possible-health-risk",
+      "published": "2026-06-18T16:38:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Warning on promoting newly licensed prescription-only medicines and unlicensed medicines for weight management",
       "summary": "The MHRA, Advertising Standards Authority, and the General Pharmaceutical Council have issued a warning to businesses seeking to promote newly authorised medicines, as well as those that do not yet have a marketing authorisation.",
       "link": "https://www.gov.uk/government/news/warning-on-promoting-newly-licensed-prescription-only-medicines-and-unlicensed-medicines-for-weight-management",
@@ -929,6 +1056,42 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "New MDCG Position Paper: Management of SS(C)P in EUDAMED after mandatory use",
+      "summary": "New MDCG Position Paper: Management of SS(C)P in EUDAMED after mandatory use",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec7",
+      "published": "2026-06-18T08:42:25+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Early Alert: Catheter Introducer Issue from Abiomed and Oscor",
+      "summary": "Abiomed and Oscor have identified a potential for introducer sheath leakage in 14Fr and 23Fr Introducers that may increase the risk of access-site bleeding.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-catheter-introducer-issue-abiomed-and-oscor",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Catheter Recall Expansion: Medline Industries Removes Reprocessed Electrophysiology and Ultrasound Catheters",
+      "summary": "Certain reprocessed catheters may contain residual particulates that could cause infection, embolism, or thrombosis",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/catheter-recall-expansion-medline-industries-removes-reprocessed-electrophysiology-and-ultrasound",
+      "published": "2026-06-18T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Authorization of Emergency Use for Two Animal Drugs for the Prevention and Treatment of New World Screwworm; Availability",
@@ -1063,6 +1226,42 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
+      "title": "New guidance document on the “EU REP” symbol for authorised representatives",
+      "summary": "New guidance document on the “EU REP” symbol for authorised representatives",
+      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec17",
+      "published": "2026-06-17T08:10:30+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "New harmonised standards for the Regulations on medical devices",
+      "summary": "New harmonised standards for the Regulations on medical devices",
+      "link": "https://health.ec.europa.eu/medical-devices-topics-interest/harmonised-standards_en",
+      "published": "2026-06-17T08:07:34+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "UPDATE: Hintermann Series H3 Total Ankle Replacement Has a Higher-Than-Expected Risk of Device Failure: FDA Safety Communication",
+      "summary": "Learn more about recommendations for patients who are considering a Hintermann Series H3 TAR system or who have one; recommendations for health care providers.",
+      "link": "http://www.fda.gov/medical-devices/safety-communications/update-hintermann-series-h3-total-ankle-replacement-has-higher-expected-risk-device-failure-fda",
+      "published": "2026-06-17T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Andrew Jonathan Morgan: Final Debarment Order",
       "summary": "The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) debarring Andrew Jonathan Morgan for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Mr. Morgan was convicted of a felony under federal law. The factual basis supporting Mr. Morgan's conviction, as described below, is conduct relating to the importation into the United States of a…",
       "link": "https://www.federalregister.gov/documents/2026/06/17/2026-12167/andrew-jonathan-morgan-final-debarment-order",
@@ -1147,6 +1346,30 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Early Alert: Convenience Kit Issue from Windstone Medical Packaging, Inc.",
+      "summary": "Certain Cardinal Health Webcol Large Alcohol Prep Pads in Custom Convenience Kits manufactured by Aligned Medical Solutions are not sterile",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-windstone-medical-packaging-inc",
+      "published": "2026-06-16T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Disruptions in Availability of Breast Biopsy Needles - Letter to Health Care Providers",
+      "summary": "The FDA issued a LHCP to notify providers that Stereotactic Breast Biopsy Needles (product code KNW) are experiencing a supply disruption.",
+      "link": "http://www.fda.gov/medical-devices/letters-health-care-providers/disruptions-availability-breast-biopsy-needles-letter-health-care-providers",
+      "published": "2026-06-16T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Masuu Global Solutions LLC, U.S. Agent for Extrovis AG, et al.; Withdrawal of Approval of 11 Abbreviated New Drug Applications; Correction",
       "summary": "The Food and Drug Administration (FDA) is correcting a notice that appeared in the Federal Register on February 20, 2026. The document announced the withdrawal of approval of 11 abbreviated new drug applications (ANDAs) from multiple applicants, withdrawn as of March 23, 2026. The document indicated that FDA was withdrawing approval of ANDAs 078022 for propranolol hydrochloride (HCl), extended- release capsule, 60 milligrams (mg), 80 mg, 120 mg, and 160 mg, and 090665 for lidocaine HCl,…",
       "link": "https://www.federalregister.gov/documents/2026/06/16/2026-12044/masuu-global-solutions-llc-us-agent-for-extrovis-ag-et-al-withdrawal-of-approval-of-11-abbreviated",
@@ -1169,6 +1392,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Western Mixers Produce & Nuts Issues Allergy Alert on Undeclared Peanuts in First Street Brand, Dark Chocolate Raisins",
+      "summary": "Western Mixers Produce &amp; Nuts, Inc., Ontario, California is recalling: First Street brand, Dark Chocolate Raisins, 9 oz., because the product may contain undeclared dark chocolate peanuts. People who have an allergy or severe sensitivity to peanuts run the risk of serious or life-threatening allergi",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/western-mixers-produce-nuts-issues-allergy-alert-undeclared-peanuts-first-street-brand-dark",
+      "published": "2026-06-15T18:52:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Field Safety Notices: 8 -12 June 2026",
@@ -1195,6 +1430,18 @@
       "source": "EMA News & Press Releases"
     },
     {
+      "title": "Anesthesia Machine Correction: Draeger, Inc. Issues Correction for Atlan A350 and A350XL Anesthesia Workstations",
+      "summary": "Draeger is correcting additional anesthesia workstations due to a manufacturing error that may cause the ventilator to fail before or during use.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/anesthesia-machine-correction-draeger-inc-issues-correction-atlan-a350-and-a350xl-anesthesia",
+      "published": "2026-06-15T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Amendment and Revocation of Organizational Information Regulations",
       "summary": "The Food and Drug Administration (FDA, the Agency, or we) is amending its regulations to direct the public to organizational and contact information available on the Agency's website. FDA is also revoking certain regulations that are no longer necessary in light of this amendment. These changes are appropriate to provide the public with a uniform source of Agency organizational and contact information that can be readily updated as needed in the future.",
       "link": "https://www.federalregister.gov/documents/2026/06/15/2026-11998/amendment-and-revocation-of-organizational-information-regulations",
@@ -1219,6 +1466,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "NARA ORGANICS RECALLS ALL LOTS OF NARA INFANT FORMULA BECAUSE OF POSSIBLE HEALTH RISK",
+      "summary": "Nara Organics of New York, NY, is voluntarily recalling all lots of Nara Organics Powdered Infant Formula currently on the market out of an abundance of caution due to the potential risk of Clostridium botulinum contamination. Infant botulism is a rare but potentially fatal illness that presents a s",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nara-organics-recalls-all-lots-nara-infant-formula-because-possible-health-risk",
+      "published": "2026-06-13T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "MHRA scientific leader recognised in 2026 King’s Birthday Honours",
       "summary": "Dr Nicola Rose, Executive Director of Science and Research at the Medicines and Healthcare products Regulatory Agency (MHRA), has been appointed an OBE in the 2026 King’s Birthday Honours, for services to science and public health.",
       "link": "https://www.gov.uk/government/news/mhra-scientific-leader-recognised-in-2026-kings-birthday-honours",
@@ -1229,6 +1488,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Fry Pie Factory Issues Voluntary Recall of Pepperoni Rolls for Undeclared Milk Allergen and Process Deviation",
+      "summary": "LANCASTER, Ohio (June 12, 2026) — Fry Pie Factory has issued a voluntary recall of its 5 ounce Pepperoni Rolls due to misbranding involving undeclared milk, a known allergen, and a process deviation related to refrigeration.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fry-pie-factory-issues-voluntary-recall-pepperoni-rolls-undeclared-milk-allergen-and-process",
+      "published": "2026-06-12T15:34:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Lower dose needle-free allergy treatment approved for younger children",
@@ -1253,6 +1524,54 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "Accolade Pacemaker Devices by Boston Scientific and Potential Need for Early Device Replacement - FDA Safety Communication",
+      "summary": "Read the FDA’s recommendations related to Accolade pacemaker devices by Boston Scientific and a potential need for early device replacement.",
+      "link": "http://www.fda.gov/medical-devices/safety-communications/accolade-pacemaker-devices-boston-scientific-and-potential-need-early-device-replacement-fda-safety",
+      "published": "2026-06-12T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Convenience Kit Correction: Medline Issues Correction for Kits Containing Huons Bupivacaine Hydrochloride in Dextrose Injection, USP",
+      "summary": "Medline is correcting affected convenience kits by removing recalled Bupivacaine Hydrochloride in Dextrose Injection components.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-correction-medline-issues-correction-kits-containing-huons-bupivacaine-hydrochloride",
+      "published": "2026-06-12T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Total Nutrition Inc. Expands Recall of TNVitamins and Doctor’s Pride Ultra Potent Complete Green Superfood Moringa Capsules Because of Possible Health Risk Following Further Supply Chain Review",
+      "summary": "Total Nutrition Inc. of Deer Park, NY is voluntarily expanding its recall of TNVitamins and Doctor's Pride Ultra Potent Complete Green Superfood Moringa Capsules due to the potential to be contaminated with Salmonella. This expansion follows an ongoing supply chain investigation that identified addi",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-expands-recall-tnvitamins-and-doctors-pride-ultra-potent-complete-green-0",
+      "published": "2026-06-11T22:09:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Beekeeper’s Naturals Issues Voluntary Nationwide Recall of Beekeeper’s Naturals Saline Nasal Spray Sold Through Amazon Due to Microbial Contamination",
+      "summary": "FOR IMMEDIATE RELEASE – June 11, 2026, Covina, CA - Beekeeper’s Naturals is voluntarily recalling lot # 5950, Exp. Date 02/2028 of Beekeeper’s Naturals Saline Nasal Spray, sold only through Amazon, to the consumer level. This lot, produced at a third-party manufacturer, tested above our acceptable",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/beekeepers-naturals-issues-voluntary-nationwide-recall-beekeepers-naturals-saline-nasal-spray-sold",
+      "published": "2026-06-11T16:43:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "First GLP-1 tablet for weight loss approved in the UK",
@@ -1375,6 +1694,42 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Early Alert: Positive Pressure Breathing Device Issue from Baxter",
+      "summary": "Volara system patient circuits may leak air and medication from the nebulizer cup during therapy, leading to reduced oxygenation and ineffective nebulization.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-positive-pressure-breathing-device-issue-baxter",
+      "published": "2026-06-11T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Heart Pump Correction: Abiomed Issues Correction for Automated Impella Controllers",
+      "summary": "Certain AIC units require hardware updates to address potential safety concerns that could lead to a delay or loss of hemodynamic support.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/heart-pump-correction-abiomed-issues-correction-automated-impella-controllers",
+      "published": "2026-06-11T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Azuma Foods International, Inc. Issues Allergy Alert on Undeclared Fish in Tako Wasabi",
+      "summary": "Azuma Foods International Inc., U.S.A. of Hayward, CA is recalling 545 cases of the 3 pack (5.3 oz.) Azuma Foods Brand Tako Wasabi- Seasoned Octopus with Wasabi retail packages, because they may contain undeclared fish. People who have an allergy or severe sensitivity to fish run the risk of serious",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/azuma-foods-international-inc-issues-allergy-alert-undeclared-fish-tako-wasabi",
+      "published": "2026-06-11T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Procedures for the Safe Processing and Importing of Fish and Fishery Products",
       "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
       "link": "https://www.federalregister.gov/documents/2026/06/11/2026-11762/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
@@ -1447,6 +1802,30 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "FDA Approves Labeling Changes for Over-the-Counter (OTC) Weight Loss Drug alli (Orlistat) to Warn of Risk of Kidney Stones and Kidney Injury",
+      "summary": "The FDA has approved changes to the Drugs Facts Label of the over-the-counter (OTC) weight loss drug, alli (orlistat) 60 mg capsules, to warn of risks of acute kidney injury, which is a rare side effect of the medication. The labeling now advises consumers to ask a health care provider before using",
+      "link": "http://www.fda.gov/safety/medical-product-safety-information/fda-approves-labeling-changes-over-counter-otc-weight-loss-drug-alli-orlistat-warn-risk-kidney",
+      "published": "2026-06-10T16:08:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Creon (pancreatic extract) capsules shortage extended",
+      "summary": "Supply constraints will continue until 31 January 2027.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/creon-pancreatic-extract-capsules-shortage-extended",
+      "published": "2026-06-10T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Selenia Dimensions 2D/3D Mammography Systems",
       "summary": "Hologic is initiating this voluntary field safety corrective action because the vertical travel assembly on 3Dimensions and Selenia Dimensions systems may experience internal bolt failure over time. The vertical travel assembly contains eight internal bolts that secure the c-arm to the assembly. Devices with loose, missing or broken bolts may exhibit shaking, vibration or uncommanded c-arm motion.",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/selenia-dimensions-2d3d-mammography-systems",
@@ -1505,6 +1884,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Clover Hill Dairy Recalls Soft Ricotta/Requeson Cheese Due to Possible Health Risk",
+      "summary": "June 5, 2026 - Clover Hill Dairy of Mechanicsville, Maryland is voluntarily recalling all Soft Ricotta/Requeson Cheese because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly p",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/clover-hill-dairy-recalls-soft-ricottarequeson-cheese-due-possible-health-risk",
+      "published": "2026-06-09T18:10:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "MHRA launches AI sandbox to accelerate medicines development and improve safety",
@@ -1579,6 +1970,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "GO Raw LLC. Expands Voluntary Recall to Include One Lot of Steve’s Real Food  Freeze-Dried Chicken Recipe Due to Low Thiamine (Vitamin B1) Levels",
+      "summary": "Cottonwood Heights, Utah (June 8, 2026) Go Raw LLC is expanding its February 17, 2026 recall to include an additional lot of Freeze-Dried Chicken Recipe product due to potentially low levels of thiamine (Vitamin B1).",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-expands-voluntary-recall-include-one-lot-steves-real-food-freeze-dried-chicken-recipe-due",
+      "published": "2026-06-08T19:11:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Decision: Advertising investigations: May 2026",
       "summary": "Decisions made by MHRA on adverts reported to have breached the legislation on advertising medicines.",
       "link": "https://www.gov.uk/government/publications/advertising-investigations-may-2026",
@@ -1639,6 +2042,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Early Alert: Breathing Circuit Set Issue from Hamilton Medical",
+      "summary": "The ventilator breathing circuits are intended to connect a ventilator to a patient tube or mask. Obstruction may result in inadequate ventilation",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-breathing-circuit-set-issue-hamilton-medical",
+      "published": "2026-06-08T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Determination That Protamine Sulfate (Protamine Sulfate) Intravenous; Solution, 50 Milligrams/5 Milliliters, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA or Agency) has determined that the drug products listed in this document were not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to these drug products, and it will allow FDA to continue to approve ANDAs that refer to the products as long as they meet relevant legal and regulatory requirements.",
       "link": "https://www.federalregister.gov/documents/2026/06/08/2026-11429/determination-that-protamine-sulfate-protamine-sulfate-intravenous-solution-50-milligrams5",
@@ -1649,6 +2064,30 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "BD Issues Nationwide Recall for Specific Lots of ChloraPrep™ Clear Single Sterile 1 mL and FREPP™ Clear 1.5 mL Applicators Due to Microbial Contamination",
+      "summary": "FRANKLIN LAKES, N.J. (June 06, 2026) – BD (Becton, Dickinson and Company) is voluntarily recalling lot 4032183 of ChloraPrep™ Clear 1 mL Single Sterile and lot 4073005 of FREPP™ Clear 1.5 mL applicators with paper lidding to the consumer level. These products are being recalled due to fungal contami",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bd-issues-nationwide-recall-specific-lots-chlorapreptm-clear-single-sterile-1-ml-and-frepptm-clear",
+      "published": "2026-06-06T15:50:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Nelson & Isa Lacteos LLC Recalls Requeson Cheese Due to Possible Health Risk",
+      "summary": "Nelson &amp; Isa Lacteos LLC. of Bayshore, NY, is recalling 1lb packages of Requeson Cheese because they may be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nelson-isa-lacteos-llc-recalls-requeson-cheese-due-possible-health-risk",
+      "published": "2026-06-05T18:11:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Decision: Human and veterinary medicines: register of licensed manufacturing sites",
@@ -1735,6 +2174,18 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Anesthesia Delivery Systems Recall: GE HealthCare Issues Correction for Certain Carestations due to Risk of Ineffective Ventilation When Used in Volume Control Ventilation (VCV) Mode",
+      "summary": "GE HealthCare is correcting Carestations that may not ventilate properly in VCV mode. The issue is clearly indicated by alarms; other modes remain effective.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/anesthesia-delivery-systems-recall-ge-healthcare-issues-correction-certain-carestations-due-risk",
+      "published": "2026-06-05T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Medical Devices; Orthopedic Devices; Classification of the Resorbable Calcium Salt Bone Void Filler Containing a Single Approved Aminoglycoside Antibacterial",
       "summary": "The Food and Drug Administration (FDA) is classifying the resorbable calcium salt bone void filler containing a single approved aminoglycoside antibacterial into class II (special controls). The special controls that apply to the product type are identified in this order and will be part of the codified language for classification of the resorbable calcium salt bone void filler containing a single approved aminoglycoside antibacterial. We are taking this action because we have determined that…",
       "link": "https://www.federalregister.gov/documents/2026/06/05/2026-11308/medical-devices-orthopedic-devices-classification-of-the-resorbable-calcium-salt-bone-void-filler",
@@ -1781,6 +2232,42 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Ballester Hermanos Realiza un Retiro por Contenido No Declarado de Soya y Leche en Pearl Milling Company Original Pancake & Waffles (MEZCLA PARA PANQUEQUES Y WAFFLES) Complete 5.99oz (170GR) Distribuido en Puerto Rico",
+      "summary": "Ballester Hermanos está retirando un número limitado de bolsas de 5.99 OZ (170GR) de PEARL MILLING COMPANY ORIGINAL PANCAKE &amp; WAFFLES (MEZCLA PARA PANQUEQUES Y WAFFLES) COMPLETE debido a la presencia no declarada de leche y soya. Las personas con alergia o sensibilidad grave a la leche y/o la soya c",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ballester-hermanos-realiza-un-retiro-por-contenido-no-declarado-de-soya-y-leche-en-pearl-milling",
+      "published": "2026-06-04T20:30:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Haleon Issues Voluntary Nationwide Recall of Gas-X Extra Strength Softgels 125mg, 120 ct. and 72 ct.",
+      "summary": "WARREN, N.J., June 4, 2026 — Haleon (NYSE: HLN) is voluntarily recalling four lots of Gas-X Extra Strength Softgels 125mg, 120 ct. and 72 ct. distributed on or about April 13, 2026 to the consumer level. The lots are being recalled due to potential contamination with a diluted propylene glycol-based",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/haleon-issues-voluntary-nationwide-recall-gas-x-extra-strength-softgels-125mg-120-ct-and-72-ct",
+      "published": "2026-06-04T19:53:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Ballester Hermanos Issues a Recall Due to Undeclared Soy and Milk in Pearl Milling Company Original Pancake & Waffles (MEZCLA PARA PANQUEQUES Y WAFFLES) Complete 5.99oz (170gr) Distributed in Puerto Rico",
+      "summary": "Ballester Hermanos is recalling a limited number of 5.99OZ (170GR) pouches of PEARL MILLING COMPANY ORIGINAL PANCAKE &amp; WAFFLES (MEZCLA PARA PANQUEQUES Y WAFFLES) COMPLETE due to undeclared milk and soy. People who have an allergy or severe sensitivity to milk and/or soy run the risk of a serious or",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ballester-hermanos-issues-recall-due-undeclared-soy-and-milk-pearl-milling-company-original-pancake",
+      "published": "2026-06-04T17:32:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Adjuvanted trivalent influenza vaccine authorised for adults aged 50 and over",
@@ -1855,6 +2342,18 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Early Alert: Insulin Pump Issue from Insulet",
+      "summary": "Certain Omnipod Pods may have a tear in the tubing that allows insulin to leak outside the Pod instead of being delivered to the body.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-insulin-pump-issue-insulet",
+      "published": "2026-06-04T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Resmetirom (Rezdiffra) authorised to treat metabolic dysfunction-associated steatohepatitis (MASH) in adults",
       "summary": "Resmetirom is used in adults who have experienced inflammation and cell damage, resulting in scarring.",
       "link": "https://www.gov.uk/government/news/resmetirom-rezdiffra-authorised-to-treat-metabolic-dysfunction-associated-steatohepatitis-mash-in-adults",
@@ -1865,6 +2364,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Unapproved ibutamoren capsules (MK-677) found to contain undisclosed anabolic steroid",
+      "summary": "We are advising consumers that ‘Pharmatech’ branded MK-677 capsules (containing ibutamoren) may pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/unapproved-ibutamoren-capsules-mk-677-found-contain-undisclosed-anabolic-steroid",
+      "published": "2026-06-03T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "EMA, AMA and African regulatory authorities join forces on Ebola outbreak response",
@@ -2011,6 +2522,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Nature’s Own Glucosamine Sulfate with Chondroitin and Nature’s Own Magnesium Glycinate 1150mg",
+      "summary": "Sanofi-Aventis Healthcare Pty Ltd T/A Sanofi Consumer Healthcare, is recalling the below products due to the potential presence of a glass fragment within the bottle (not within the tablets).",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/natures-own-glucosamine-sulfate-chondroitin-and-natures-own-magnesium-glycinate-1150mg",
+      "published": "2026-06-02T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Class 2 Medicines Recall: Becton Dickinson UK Ltd, ChloraPrep 2% 1mL and ChloraPrep Frepp 2% 1.5mL applicators, EL(26)A/26",
       "summary": "Becton Dickinson UK Ltd are recalling batches of ChloraPrep 2% 1mL applicators and ChloraPrep Frepp 2% 1.5 mL applicators due to a potential breach of sterility in the packaging process.",
       "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-becton-dickinson-uk-ltd-chloraprep-2-percent-1ml-and-chloraprep-frepp-2-percent-1-dot-5ml-applicators-el-26-a-slash-26",
@@ -2057,6 +2580,18 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "BeneHeart D1 AED: Non-rechargeable public automated external defibrillator",
+      "summary": "Mindray Medical Australia Pty Ltd is conducting a product correction for the BeneHeart D1 Automated External Defibrillator. The operator’s manual is being updated for the procedure of switching patient types.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/beneheart-d1-aed-non-rechargeable-public-automated-external-defibrillator",
+      "published": "2026-06-01T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Omnipod® Insulin Management System - Omnipod®",
@@ -2491,6 +3026,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Benpen (benzylpenicillin sodium) injection products to be discontinued",
+      "summary": "Progressive discontinuation of all products will start with the 600 mg strength from 30 November 2026.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/benpen-benzylpenicillin-sodium-injection-products-be-discontinued",
+      "published": "2026-05-26T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "EU recommendations for 2026/2027 seasonal flu vaccine composition",
       "summary": "This news announcement was updated on two occasions. On 7 May 2026, it was updated to include additional recommendations for strains for seasonal egg-derived and live-attenuated…",
       "link": "https://www.ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition",
@@ -2561,6 +3108,18 @@
       "feed_id": "imdrf-wg",
       "feed_label": "IMDRF Working Groups",
       "source": "IMDRF Working Groups"
+    },
+    {
+      "title": "Dexcom G7 Sensors",
+      "summary": "AA-Med Pty Ltd is recalling two lots of Dexcom G7 sensors. These lots were identified for disposal and destruction in the USA due to incomplete sterilisation and deployment failure during testing.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/dexcom-g7-sensors",
+      "published": "2026-05-25T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 19-21 May 2026",
@@ -2993,6 +3552,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "New Implementing Regulation sets out uniform requirements for conformity assessment and notified bodies",
+      "summary": "New Implementing Regulation sets out uniform requirements for conformity assessment and notified bodies",
+      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/75370",
+      "published": "2026-05-18T15:16:15+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
     },
     {
       "title": "Professor Joann Rhodes: The Rules Need to Bend – Why Flexible Policies and Real Partnership are the Keys to unlocking Life Sciences Potential",
@@ -3917,18 +4488,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Accolade Pacemaker Devices by Boston Scientific and Potential Need for Early Device Replacement - FDA Safety Communication",
-      "summary": "Read the FDA’s recommendations related to Accolade pacemaker devices by Boston Scientific and a potential need for early device replacement.",
-      "link": "http://www.fda.gov/medical-devices/safety-communications/accolade-pacemaker-devices-boston-scientific-and-potential-need-early-device-replacement-fda-safety",
-      "published": "2026-05-07T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Convenience Kit Recall: American Contract Systems Removes Convenience Kits Containing Namic RA Syringes",
