@@ -1,9 +1,9 @@
 name: Fetch regulatory feeds
 
-# Runs the feed fetcher every 30 minutes and commits the result.
+# Runs the feed fetcher every 120 minutes and commits the result.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
   push:
     branches: [main]
