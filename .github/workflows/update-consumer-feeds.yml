@@ -1,12 +1,12 @@
 name: Update consumer safety feeds
 
-# Runs nightly at 06:00 UTC, and can be triggered manually from the Actions tab.
+# Runs every 2 hrs, and can be triggered manually from the Actions tab.
 # Commits the refreshed feeds/consumer.json back to the repo, which GitHub Pages
 # then serves to consumer.html.
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # 06:00 UTC daily
+    - cron: '0 */2 * * *'   # every 2 hrs
   workflow_dispatch:       # manual trigger button in the Actions tab
 
 permissions:
