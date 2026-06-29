@@ -6,7 +6,7 @@ name: Update consumer safety feeds
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # 06:00 UTC daily
+    - cron: '0 */2 * * *'   # 06:00 UTC daily
   workflow_dispatch:       # manual trigger button in the Actions tab
 
 permissions:
@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-yylatest
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
