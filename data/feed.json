@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-30T02:38:47.864201+00:00",
-  "item_count": 599,
+  "generated_at": "2026-06-30T07:46:32.930753+00:00",
+  "item_count": 601,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -131,13 +131,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-06-30T02:35:39.155051+00:00",
+      "last_attempt": "2026-06-30T07:43:26.430701+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-06-30T02:35:39.155051+00:00",
+      "last_success": "2026-06-30T07:43:26.430701+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medical Devices; Anesthesiology Devices; Classification of the Monitor for Opioid Induced Impairment of Oxygenation",
+      "summary": "The Food and Drug Administration (FDA) is classifying the monitor for opioid induced impairment of oxygenation into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the monitor for opioid induced impairment of oxygenation. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and…",
+      "link": "https://www.federalregister.gov/documents/2026/06/30/2026-13140/medical-devices-anesthesiology-devices-classification-of-the-monitor-for-opioid-induced-impairment",
+      "published": "2026-06-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; General and Plastic Surgery Devices; Classification of the Skin Patch for Treatment of Hyperhidrosis",
+      "summary": "The Food and Drug Administration (FDA) is classifying the skin patch for treatment of hyperhidrosis into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the skin patch for treatment of hyperhidrosis. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device.…",
+      "link": "https://www.federalregister.gov/documents/2026/06/30/2026-13139/medical-devices-general-and-plastic-surgery-devices-classification-of-the-skin-patch-for-treatment",
+      "published": "2026-06-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Guidance: Borderline products: medical devices and other products",
       "summary": "How the MHRA makes decisions on whether a borderline product is a medical device and whether medical devices regulations should apply.",
