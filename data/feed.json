@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-01T12:31:22.111541+00:00",
-  "item_count": 608,
+  "generated_at": "2026-07-01T16:22:26.162061+00:00",
+  "item_count": 612,
   "feed_count": 12,
-  "new_this_run": 2,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -131,13 +131,73 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-01T12:28:15.530103+00:00",
+      "last_attempt": "2026-07-01T16:19:16.856823+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-01T12:28:15.530103+00:00",
+      "last_success": "2026-07-01T16:19:16.856823+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Guidance: MHRA Innovation Office: guidance and support",
+      "summary": "We can provide access to world-class regulatory knowledge, expertise and experience from within the MHRA.",
+      "link": "https://www.gov.uk/government/publications/mhra-innovation-office-guidance-and-support",
+      "published": "2026-07-01T15:26:45+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Medicines: packaging, labelling and patient information leaflets",
+      "summary": "How to package medicines for sale and what information you must provide to consumers and healthcare professionals.",
+      "link": "https://www.gov.uk/guidance/medicines-packaging-labelling-and-patient-information-leaflets",
+      "published": "2026-07-01T14:18:01+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: Warning statements for labels and leaflets of certain medicines",
+      "summary": "This guidance sets out the warning statements which should appear on the label and/or in the leaflet of certain medicines.",
+      "link": "https://www.gov.uk/government/publications/warning-statements-for-labels-and-leaflets-of-certain-medicines",
+      "published": "2026-07-01T14:17:56+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: Best practice guidance on patient information leaflets",
+      "summary": "This guidance sets out the legal framework for patient information leaflets as described in EU and national legislation and best practice in the area of information design.",
+      "link": "https://www.gov.uk/government/publications/best-practice-guidance-on-patient-information-leaflets",
+      "published": "2026-07-01T14:17:53+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA authorises gemcitabine delivery system for adults with BCG-unresponsive high-risk non-muscle invasive bladder cancer",
+      "summary": "As with any medicinal product, the MHRA will keep the safety and effectiveness of the intravesical delivery system containing gemcitabine under close review.",
+      "link": "https://www.gov.uk/government/news/mhra-authorises-gemcitabine-delivery-system-for-adults-with-bcg-unresponsive-high-risk-non-muscle-invasive-bladder-cancer",
+      "published": "2026-07-01T13:35:44+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "MHRA secures convictions after a decade-long investigation into falsely marked baby-feeding devices",
       "summary": "MHRA investigation secures fraud convictions linked to the supply of non-compliant medical devices.",
@@ -259,7 +319,7 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Guidance: Innovation Accelerator",
+      "title": "Guidance: Introduction to the Innovation Accelerator",
       "summary": "Provide innovators and developers of innovative products access to MHRA scientific expertise, regulatory guidance and an enhanced advice and signposting service.",
       "link": "https://www.gov.uk/government/publications/innovation-accelerator",
       "published": "2026-06-29T14:59:20+00:00",
@@ -629,18 +689,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "Guidance: MHRA Innovation Office: guidance and support",
-      "summary": "We can provide access to world-class regulatory knowledge, expertise and experience from within the MHRA.",
-      "link": "https://www.gov.uk/government/publications/mhra-innovation-office-guidance-and-support",
-      "published": "2026-06-25T09:16:18+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Sterigenics U.S., LLC; Filing of Food Additive Petition",
