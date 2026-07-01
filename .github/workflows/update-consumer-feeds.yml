@@ -6,7 +6,7 @@ name: Update consumer safety feeds
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # every 2 hrs
+    - cron: '0 6 * * *'  # every 2 hrs
   workflow_dispatch:       # manual trigger button in the Actions tab
 
 permissions:
