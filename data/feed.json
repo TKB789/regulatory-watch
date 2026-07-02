@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02T16:03:56.409731+00:00",
-  "item_count": 620,
+  "generated_at": "2026-07-02T19:15:01.579845+00:00",
+  "item_count": 624,
   "feed_count": 12,
   "new_this_run": 4,
   "pruned_this_run": 0,
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -131,13 +131,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-02T16:00:46.744898+00:00",
+      "last_attempt": "2026-07-02T19:11:54.797018+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-02T16:00:46.744898+00:00",
+      "last_success": "2026-07-02T19:11:54.797018+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medicines: apply for a variation to your marketing authorisation",
+      "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
+      "link": "https://www.gov.uk/guidance/medicines-apply-for-a-variation-to-your-marketing-authorisation",
+      "published": "2026-07-02T15:58:54+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Guidance: Medicines that you cannot export from the UK or hoard",
       "summary": "Sets out medicines that cannot be exported from the UK or hoarded because they are needed for UK patients.",
@@ -173,6 +185,42 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "NephroMax High Pressure Nephrostomy Balloon Catheter",
+      "summary": "Boston Scientific is notifying you that the renal sheath for certain NephroMax™ high pressure nephrostomy balloon catheters may be packaged in a reversed orientation.Between November 2025 and April 2026, seven (7) complaints reported reversed sheath orientation upon opening. In all cases, the issue was identified and corrected prior to patient use. If the sheath orientation is not corrected prior to use, the non-tapered end may be inserted in the patient, which could increase resistance and…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/nephromax-high-pressure-nephrostomy-balloon-catheter",
+      "published": "2026-07-02T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "LIFECODES LSA Class II",
+      "summary": "Werfen has identified that two beads within the LIFECODES LSA class II assay kit(s) may present different DQB1 specificities than previously understood:• Bead 42 / Antigen ID 242Previously associated with DQB1*02:01, this bead instead presents DQB1*02:02• Bead 44 / Antigen ID 244Previously associated with DQB1*02:02, this bead instead presents DQB1*02:01• Note: DQA1*02:01 is present on both beads and therefore not impacted.Due to this issue, certain reactivity patterns may appear differently…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/lifecodes-lsa-class-ii",
+      "published": "2026-07-02T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "WASPLab",
+      "summary": "Copan WASP SRL is performing a medical device product correction related to the WASPLab product. A software bug has been identified in the webapp software which, under specific conditions, may prevent the result suggested by phenomatrix from being overwritten by the result selected by the user. As a consequence, the result transmitted by WASPLab to the LIS may be the result suggested by phenomatrix, rather than the result selectedby the user.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/wasplab",
+      "published": "2026-07-02T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Glidesheath Slender® Introducer Sheath",
