@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-06T08:15:35.184753+00:00",
-  "item_count": 638,
+  "generated_at": "2026-07-06T13:42:04.018453+00:00",
+  "item_count": 641,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -33,7 +33,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -42,7 +42,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -51,7 +51,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -59,8 +59,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -68,8 +68,8 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -77,8 +77,8 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -86,8 +86,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -95,8 +95,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -104,8 +104,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -113,7 +113,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -122,8 +122,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -131,13 +131,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-06T08:12:28.794557+00:00",
+      "last_attempt": "2026-07-06T13:38:56.315201+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-06T08:12:28.794557+00:00",
+      "last_success": "2026-07-06T13:38:56.315201+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Hotline IV Fluid Warmer System & Accessories",
+      "summary": "ICU Medical became aware of an increased likelihood of leakage in specific lots of L-70 Hotline Fluid Warming sets due to potentially inadequate solvent application at the tubing to return connector bond. &nbsp;Three (3) lots of L-70 Hotline Fluid Warming sets have an increased likelihood of leakage due to this issue.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/hotline-iv-fluid-warmer-system-accessories",
+      "published": "2026-07-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Guidance: MHRA Innovation Office",
+      "summary": "The MHRA’s Innovation Office offers access to expert regulatory guidance for developers of innovative medicines and novel manufacturing processes that face regulatory challenges, uncertainties, or gaps in the current regulatory framework",
+      "link": "https://www.gov.uk/government/publications/mhra-innovation-office",
+      "published": "2026-07-06T11:48:14+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA approves Retifanlimab (ZYNYZ) for the treatment of advanced Merkel cell skin cancer",
+      "summary": "Merkel cell carcinoma (MCC) is a rare and aggressive type of skin cancer that develops from Merkel cells, specialised neuroendocrine cells found in the top layer of the skin.",
+      "link": "https://www.gov.uk/government/news/mhra-approvesretifanlimabzynyz-for-the-treatment-of-advanced-merkel-cell-skin-cancer",
+      "published": "2026-07-06T10:07:15+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Endo Operations Limited, et al.; Withdrawal of Approval of 34 New Drug Applications",
       "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of 34 new drug applications (NDAs) from multiple applicants. The applicants notified the Agency in writing that the drug products were no longer marketed and requested that the approval of the applications be withdrawn.",
