@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-09T10:54:38.226037+00:00",
-  "item_count": 657,
+  "generated_at": "2026-07-09T14:42:43.805812+00:00",
+  "item_count": 663,
   "feed_count": 12,
-  "new_this_run": 1,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
-      "last_success": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
+      "last_success": "2026-07-09T14:35:09.319515+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
-      "last_success": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
+      "last_success": "2026-07-09T14:35:09.319515+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
-      "last_success": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
+      "last_success": "2026-07-09T14:35:09.319515+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
-      "last_success": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
+      "last_success": "2026-07-09T14:35:09.319515+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
-      "last_success": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
+      "last_success": "2026-07-09T14:35:09.319515+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-09T10:47:03.765584+00:00",
+      "last_attempt": "2026-07-09T14:35:09.319515+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-09T10:47:03.765584+00:00",
+      "last_success": "2026-07-09T14:35:09.319515+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Access, new active substance and biosimilar work sharing initiatives",
+      "summary": "Information on applying for New Active Substance Work Sharing Initiative (NASWSI) and Biosimilar Work Sharing Initiative (BSWSI) assessments and list of approved products.",
+      "link": "https://www.gov.uk/guidance/access-new-active-substance-nas-work-sharing-initiative",
+      "published": "2026-07-09T13:33:57+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Phantom® Hindfoot TTC/TC Ball Tipped Guide Rod",
+      "summary": "Zimmer Biomet Canada on behalf of Paragon 28, Inc. is conducting a lot-specific medical device recall removal of ball tipped guide rods used in the Phantom® Hindfoot TTC/TC Ball System. Two (2) complaints were received involving breaches in the sterile barrier of the pouch packaging. No clinical impact has been reported. The defectiveness was discovered on February 24, 2026. Issue was identified through the complaints handling process. Then the subsequent investigation followed that a recall…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/phantomr-hindfoot-ttctc-ball-tipped-guide-rod",
+      "published": "2026-07-09T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Astral 150™",
+      "summary": "An internal electrical component (supercapacitor) may leak electrolyte over time. In rare cases, this may damage specific circuitry on the ventilator's Printed Circuit Board Assembly (\"PCBA\"), causing the ventilator to inadvertently enter a fail-safe state. In this state, the ventilator is no longer able to deliver therapy. Alternative means of ventilation must be provided.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/astral-150tm",
+      "published": "2026-07-09T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Research: Use of UK plasma for the manufacture of five further plasma derived medicinal products and vCJD risk",
+      "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) published a review of the safety of albumins manufactured from UK-sourced plasma with respect to variant Creutzfeldt-Jakob disease (vCJD) risk in August 2023. A further review of the safety of five additional plasma derived medicinal products (Fibrinogen, Prothrombin Complex Concentrates (PCCs), C1 Esterase Inhibitor, Factor X and Protein C) manufactured from UK-sourced plasma with respect to vCJD risk has now been completed, with…",
+      "link": "https://www.gov.uk/government/publications/use-of-uk-plasma-for-the-manufacture-of-five-further-plasma-derived-medicinal-products-and-vcjd-risk",
+      "published": "2026-07-09T11:55:12+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Heat, travel and late nights: How summer can affect your medicines and how to stay safe",
+      "summary": "The MHRA is urging people to “summer-proof your health” as warmer weather, travel, and changing routines can affect how medicines and medical devices work, with simple steps to help prevent avoidable harm.",
+      "link": "https://www.gov.uk/government/news/heat-travel-and-late-nights-how-summer-can-affect-your-medicines-and-how-to-stay-safe",
+      "published": "2026-07-09T11:36:50+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA safety review gives UK plasma donations go ahead",
+      "summary": "Medicines and Healthcare products Regulatory Agency (MHRA) has approved the use of UK‑donor plasma for five high‑priority plasma-derived medicinal products.",
+      "link": "https://www.gov.uk/government/news/mhra-safety-review-gives-uk-plasma-donations-go-ahead",
+      "published": "2026-07-09T10:57:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Class 2 Medicines Recall: Bristol Laboratories Limited, Phenoxymethylpenicillin 250 mg/5ml Sugar free Oral Solution BP, EL(26)A/33",
       "summary": "Bristol Laboratories Limited is recalling one batch (7124002) of Phenoxymethylpenicillin 250 mg/5 ml Oral Solution Sugar Free due to product labelling issues.",
