@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-16T10:16:52.303840+00:00",
-  "item_count": 689,
+  "generated_at": "2026-07-16T13:31:27.152229+00:00",
+  "item_count": 691,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
-      "last_success": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
+      "last_success": "2026-07-16T13:23:52.227455+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
-      "last_success": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
+      "last_success": "2026-07-16T13:23:52.227455+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
-      "last_success": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
+      "last_success": "2026-07-16T13:23:52.227455+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
-      "last_success": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
+      "last_success": "2026-07-16T13:23:52.227455+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
-      "last_success": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
+      "last_success": "2026-07-16T13:23:52.227455+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-16T10:09:19.384660+00:00",
+      "last_attempt": "2026-07-16T13:23:52.227455+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-16T10:09:19.384660+00:00",
+      "last_success": "2026-07-16T13:23:52.227455+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Orphan registered medicinal products",
+      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
+      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
+      "published": "2026-07-16T12:26:24+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Solar™ GI",
       "summary": "Under extended clinical use conditions (e.g., long-duration studies), moisture generated within the pneumatic circuit may accumulate inside the system's internal tubing or at the hydrophobic filter (part of MPP T/PC tubing set) and pressure sensors. Accumulated moisture may affect airflow or pressure measurement performance if not properly removed. Water ingress in the air compressor can cause inaccurate pressure readings, resulting in excess fluid being administered to the patient than what…",
@@ -159,6 +171,30 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "MHRA delivers record performance as 2025-26 Annual Report and Accounts confirms growing global influence",
+      "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) has published its 2025–26 Annual Report and Accounts highlighting a year of strong and consistent delivery as set out in the agency’s first Results and Forecast report earlier this year.",
+      "link": "https://www.gov.uk/government/news/mhra-delivers-record-performance-as-2025-26-annual-report-and-accounts-confirms-growing-global-influence",
+      "published": "2026-07-16T10:58:51+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Process for FDA Data Requests To Inform Certain Over-the-Counter Monograph Drug Activities; Procedure",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the process for FDA to issue Data Requests for the submission of data from the public to help inform certain future over-the counter (OTC) monograph drug activities, including development of FDA-initiated proposed orders to modify conditions described in an OTC monograph. FDA is issuing this notice to inform the public and interested parties of the process that FDA is implementing to issue these Data Requests.",
+      "link": "https://www.federalregister.gov/documents/2026/07/16/2026-14283/process-for-fda-data-requests-to-inform-certain-over-the-counter-monograph-drug-activities-procedure",
+      "published": "2026-07-16T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Updated warnings for botulinum toxin products following rare cases of botulism",
@@ -318,7 +354,7 @@
     },
     {
       "title": "Executive Director Emer Cooke's speech at the European Parliament's Committee on Public Health",
-      "summary": "Brussels, 14 July 2026Check against deliveryDear Ms Jerkovic, dear honourable members, thank you for the invitation today and for this opportunity to report on EMA’s…",
+      "summary": "Brussels, 14 July 2026Check against delivery (The published text is based on the prepared speech. Minor differences may have occurred during delivery)Dear Ms Jerkovic, dear…",
       "link": "https://www.ema.europa.eu/en/news/executive-director-emer-cookes-speech-european-parliaments-committee-public-health",
       "published": "2026-07-15T09:30:00+00:00",
       "agency": "EMA",
@@ -813,18 +849,6 @@
       "summary": "Decisions made by MHRA on adverts reported to have breached the legislation on advertising medicines.",
       "link": "https://www.gov.uk/government/publications/advertising-investigations-june-2026",
       "published": "2026-07-07T10:30:42+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Orphan registered medicinal products",
-      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
-      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
-      "published": "2026-07-07T10:30:12+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
