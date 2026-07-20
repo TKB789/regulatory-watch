@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-20T10:50:19.600555+00:00",
-  "item_count": 710,
+  "generated_at": "2026-07-20T13:57:37.249448+00:00",
+  "item_count": 711,
   "feed_count": 12,
-  "new_this_run": 2,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
-      "last_success": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
+      "last_success": "2026-07-20T13:50:05.604324+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
-      "last_success": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
+      "last_success": "2026-07-20T13:50:05.604324+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
-      "last_success": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
+      "last_success": "2026-07-20T13:50:05.604324+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
-      "last_success": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
+      "last_success": "2026-07-20T13:50:05.604324+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
-      "last_success": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
+      "last_success": "2026-07-20T13:50:05.604324+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-20T10:42:47.652629+00:00",
+      "last_attempt": "2026-07-20T13:50:05.604324+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-20T10:42:47.652629+00:00",
+      "last_success": "2026-07-20T13:50:05.604324+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Class 4 Medicines Defect Notification: Macarthys Laboratories Ltd T/A Martindale Pharma, Xaggitin XL Prolonged-release Tablets, EL(26)A/35",
+      "summary": "Macarthys Laboratories Ltd T/A Martindale Pharma has notified the MHRA of a manufacturing issue impacting several batches of Xaggitin XL Prolonged-release Tablets, due to the occurrence of incorrect tablet counts in the bott…",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-macarthys-laboratories-ltd-t-slash-a-martindale-pharma-xaggitin-xl-prolonged-release-tablets-el-26-a-slash-35",
+      "published": "2026-07-20T13:01:18+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
     {
       "title": "Register medical devices to place on the market",
       "summary": "How to register your medical devices with the MHRA for the markets in Great Britain and Northern Ireland.",
