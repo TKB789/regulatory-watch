@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-22T05:19:43.410154+00:00",
-  "item_count": 719,
+  "generated_at": "2026-07-22T08:18:19.621351+00:00",
+  "item_count": 721,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
-      "last_success": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
+      "last_success": "2026-07-22T08:10:43.710314+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
-      "last_success": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
+      "last_success": "2026-07-22T08:10:43.710314+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
-      "last_success": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
+      "last_success": "2026-07-22T08:10:43.710314+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
-      "last_success": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
+      "last_success": "2026-07-22T08:10:43.710314+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
-      "last_success": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
+      "last_success": "2026-07-22T08:10:43.710314+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-22T05:12:08.497801+00:00",
+      "last_attempt": "2026-07-22T08:10:43.710314+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-22T05:12:08.497801+00:00",
+      "last_success": "2026-07-22T08:10:43.710314+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Determination That RASUVO (Methotrexate) Solution, 27.5 Milligrams/0.55 Milliliter (27.5 Milligrams/0.55 Milliliter), Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that RASUVO (methotrexate) solution, 27.5 milligrams (mg)/ 0.55 milliliter (mL) (27.5 mg/0.55 mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for RASUVO (methotrexate) solution, 27.5 mg/0.55 mL (27.5 mg/0.55 mL), if all other legal and regulatory requirements are met.",
+      "link": "https://www.federalregister.gov/documents/2026/07/22/2026-14779/determination-that-rasuvo-methotrexate-solution-275-milligrams055-milliliter-275-milligrams055",
+      "published": "2026-07-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Premarket Notifications Submission",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/07/22/2026-14707/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-07-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Domperidone: new contraindication in patients with phaeochromocytoma due to the risk of severe hypertension",
       "summary": "The product information has been updated for all domperidone products, to include a contraindication for patients with confirmed or suspected phaeochromocytoma (a rare tumour of the adrenal gland), due to the risk of episodes of severe hypertension.",
