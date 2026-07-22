@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-22T21:03:49.372122+00:00",
-  "item_count": 724,
+  "generated_at": "2026-07-22T23:02:00.979780+00:00",
+  "item_count": 725,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
-      "last_success": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
+      "last_success": "2026-07-22T22:54:26.813878+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
-      "last_success": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
+      "last_success": "2026-07-22T22:54:26.813878+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
-      "last_success": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
+      "last_success": "2026-07-22T22:54:26.813878+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
-      "last_success": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
+      "last_success": "2026-07-22T22:54:26.813878+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
-      "last_success": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
+      "last_success": "2026-07-22T22:54:26.813878+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-22T20:56:12.758981+00:00",
+      "last_attempt": "2026-07-22T22:54:26.813878+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-22T20:56:12.758981+00:00",
+      "last_success": "2026-07-22T22:54:26.813878+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "HeartSine® Samaritan® PAD SAM 350P/SAM 360P/SAM 500P - Membrane Tail",
+      "summary": "Stryker has recently identified an issue with the membrane tail, an internal component, which could cause an intermittent fault. This failure could occur at any point when the device is holding a charge in preparation to deliver therapy, while delivering a shock, or after shock delivery. The device becomes inoperable after the failure occurs.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/heartsiner-samaritanr-pad-sam-350psam-360psam-500p-membrane-tail",
+      "published": "2026-07-23T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "HeartSine® Samaritan® PAD SAM 350P/SAM 360P/SAM 500P",
       "summary": "Stryker has identified a limited number of HeartSine samaritan PAD devices that were distributed without the required maintenance supplement. This supplement contains periodic maintenance instructions implemented as an additional risk-control measure. While most devices contain the maintenance supplement, this voluntary correction is being initiated to ensure all end users have access to supplemental maintenance information. This issue was identified through a customer complaint.",
