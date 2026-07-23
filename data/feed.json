@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-23T05:35:04.240697+00:00",
-  "item_count": 725,
+  "generated_at": "2026-07-23T08:21:36.245397+00:00",
+  "item_count": 729,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
-      "last_success": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
+      "last_success": "2026-07-23T08:14:00.908332+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
-      "last_success": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
+      "last_success": "2026-07-23T08:14:00.908332+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
-      "last_success": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
+      "last_success": "2026-07-23T08:14:00.908332+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
-      "last_success": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
+      "last_success": "2026-07-23T08:14:00.908332+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
-      "last_success": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
+      "last_success": "2026-07-23T08:14:00.908332+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,9 +141,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-23T05:27:27.390624+00:00",
+      "last_attempt": "2026-07-23T08:14:00.908332+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-23T05:27:27.390624+00:00",
+      "last_success": "2026-07-23T08:14:00.908332+00:00",
       "items_fetched": 0
     }
   ],
@@ -159,6 +159,54 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages",
+      "summary": "The Food and Drug Administration (FDA or we) is issuing an order to repeal the color additive regulation that allows for the use of Orange B for coloring the casings or surfaces of frankfurters and sausages. We have determined that the authorized use of Orange B has been abandoned, and we have concluded that this color additive regulation is outdated and unnecessary. Therefore, FDA is revoking the authorized use in food of Orange B in the color additive regulations.",
+      "link": "https://www.federalregister.gov/documents/2026/07/23/2026-14910/revocation-of-the-color-additive-listing-for-use-of-orange-b-on-casings-or-surfaces-of-frankfurters",
+      "published": "2026-07-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Proposal To Revoke the Color Additive Listing for Use of Citrus Red No. 2 on the Skins of Mature Oranges",
+      "summary": "The Food and Drug Administration (FDA or we) is proposing to issue an order that would repeal the color additive regulation that allows for the use of Citrus Red No. 2 for coloring the skins of mature oranges. Based on certification data, it appears that Citrus Red No. 2 is no longer used for coloring the skins of oranges and has not been certified for use as a color additive in food marketed in the United States since 2020. Because the authorized use of Citrus Red No. 2 appears to have been…",
+      "link": "https://www.federalregister.gov/documents/2026/07/23/2026-14909/proposal-to-revoke-the-color-additive-listing-for-use-of-citrus-red-no-2-on-the-skins-of-mature",
+      "published": "2026-07-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "FDA's Strategy Document on Facilitating Chemistry, Manufacturing, and Controls Readiness for Products With Accelerated Clinical Development",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the publication of FDA's Strategy Document on Facilitating Chemistry, Manufacturing, and Controls Readiness for Products With Accelerated Clinical Development (Strategy Document), which outlines actions FDA has taken and the Agency's plans for fiscal years 2026-2027 to facilitate chemistry, manufacturing, and controls (CMC) readiness for products with accelerated clinical development timelines. As part of the Prescription Drug User…",
+      "link": "https://www.federalregister.gov/documents/2026/07/23/2026-14898/fdas-strategy-document-on-facilitating-chemistry-manufacturing-and-controls-readiness-for-products",
+      "published": "2026-07-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Advisory Committee; Peripheral and Central Nervous System Drugs Advisory Committee; Termination and Reestablishment",
+      "summary": "The Food and Drug Administration (FDA) is announcing the termination and reestablishment of the Peripheral and Central Nervous System Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Peripheral and Central Nervous System Drugs Advisory Committee was terminated on June 4, 2026, because its charter was not renewed on or before that expiration date. The Commissioner has determined that it is in the public interest to reestablish the Peripheral and Central…",
+      "link": "https://www.federalregister.gov/documents/2026/07/23/2026-14829/advisory-committee-peripheral-and-central-nervous-system-drugs-advisory-committee-termination-and",
+      "published": "2026-07-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "HeartSine® Samaritan® PAD SAM 350P/SAM 360P/SAM 500P",
