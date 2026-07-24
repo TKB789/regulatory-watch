@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-24T08:17:41.293630+00:00",
-  "item_count": 743,
+  "generated_at": "2026-07-24T11:44:29.623601+00:00",
+  "item_count": 745,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
-      "last_success": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
+      "last_success": "2026-07-24T11:36:54.602495+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
-      "last_success": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
+      "last_success": "2026-07-24T11:36:54.602495+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
-      "last_success": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
+      "last_success": "2026-07-24T11:36:54.602495+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
-      "last_success": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
+      "last_success": "2026-07-24T11:36:54.602495+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,22 +132,46 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
-      "last_success": "2026-07-24T08:10:06.851092+00:00",
-      "items_fetched": 7,
-      "last_success_item_count": 7
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
+      "last_success": "2026-07-24T11:36:54.602495+00:00",
+      "items_fetched": 8,
+      "last_success_item_count": 8
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-24T08:10:06.851092+00:00",
+      "last_attempt": "2026-07-24T11:36:54.602495+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-24T08:10:06.851092+00:00",
+      "last_success": "2026-07-24T11:36:54.602495+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 20-23 July 2026",
+      "summary": "Twelve new medicines recommended for approvalEMA’s human medicines committee (CHMP) recommended twelve medicines for approval at its July 2026 meeting.The committee…, CHMP statistics Key figures from the July 2026&nbsp;CHMP&nbsp;meeting are represented in the graphic below. © European Medicines Agency&nbsp;, CHMP statistics:…, Positive recommendations on new medicines, Evlarco International non-proprietary name (INN) obicetrapib / ezetimibe&nbsp; Marketing authorisation applicant A. Menarini…",
+      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-july-2026",
+      "published": "2026-07-24T10:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "No Summer Shortcut for Safe Weight Loss",
+      "summary": "Healthy weight loss takes time, not shortcuts. As demand for weight-loss medicines continues to rise, the MHRA is reminding people how to use GLP-1 medicines safely, spot illegal sellers and avoid diet changes that could interfere with their medicines.",
+      "link": "https://www.gov.uk/government/news/no-summer-shortcut-for-safe-weight-loss",
+      "published": "2026-07-24T09:45:48+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Evonik Corporation, Filing of Food Additive Petition (Animal Use)",
       "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a food additive petition, submitted by Evonik Corporation, proposing that we amend our food additive regulations to provide for the safe use of ethyl cellulose as a binder and coating on amino acids incorporated into food for ruminant animals.",
