@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-29T01:57:32.289252+00:00",
-  "item_count": 762,
+  "generated_at": "2026-07-29T05:21:02.742284+00:00",
+  "item_count": 765,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
-      "last_success": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
+      "last_success": "2026-07-29T05:13:24.767296+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
-      "last_success": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
+      "last_success": "2026-07-29T05:13:24.767296+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
-      "last_success": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
+      "last_success": "2026-07-29T05:13:24.767296+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
-      "last_success": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
+      "last_success": "2026-07-29T05:13:24.767296+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
-      "last_success": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
+      "last_success": "2026-07-29T05:13:24.767296+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-29T01:49:55.870340+00:00",
+      "last_attempt": "2026-07-29T05:13:24.767296+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-29T01:49:55.870340+00:00",
+      "last_success": "2026-07-29T05:13:24.767296+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medical Devices; Radiology Devices; Classification of the Phase-Changing Fiducial Marker for Radiation Therapy",
+      "summary": "The Food and Drug Administration (FDA) is classifying the phase-changing fiducial marker for radiation therapy into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the phase-changing fiducial marker for radiation therapy. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and…",
+      "link": "https://www.federalregister.gov/documents/2026/07/29/2026-15303/medical-devices-radiology-devices-classification-of-the-phase-changing-fiducial-marker-for-radiation",
+      "published": "2026-07-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Statement of Organization, Functions, and Delegations of Authority",
+      "summary": "The Food and Drug Administration's (FDA) plans to centralize and enhance key functions across the agency. These changes will reduce redundancies, improve efficiency, and advance alignment to better serve the American public.",
+      "link": "https://www.federalregister.gov/documents/2026/07/29/2026-15297/statement-of-organization-functions-and-delegations-of-authority",
+      "published": "2026-07-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support abbreviated new drug applications (ANDAs). In the Federal Register of June 11, 2010, FDA announced the availability of a guidance for industry entitled &quot;Bioequivalence Recommendations for Specific Products&quot; that…",
+      "link": "https://www.federalregister.gov/documents/2026/07/29/2026-15285/product-specific-guidances-revised-draft-guidances-for-industry-availability",
+      "published": "2026-07-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Blanketrol® II 115V and Blanketrol® III 115V",
       "summary": "Gentherm Medical has received complaints of overheated circuit boards in 0.53% of distributed devices. Overheating can cause the circuit board to stop operating, which may result in a device that shuts down at startup or during use on a patient.Based on the low probability of harm, and absence of reported harm, associated with this issue, users may continue to use the device. In an abundance of caution, it is recommended to have an alternative means of providing therapy available.",
