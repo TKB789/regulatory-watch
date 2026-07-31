@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T08:44:13.595076+00:00",
-  "item_count": 788,
+  "generated_at": "2026-07-31T12:00:43.377471+00:00",
+  "item_count": 789,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
-      "last_success": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
+      "last_success": "2026-07-31T11:53:09.468161+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
-      "last_success": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
+      "last_success": "2026-07-31T11:53:09.468161+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
-      "last_success": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
+      "last_success": "2026-07-31T11:53:09.468161+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
-      "last_success": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
+      "last_success": "2026-07-31T11:53:09.468161+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
-      "last_success": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
+      "last_success": "2026-07-31T11:53:09.468161+00:00",
       "items_fetched": 8,
       "last_success_item_count": 8
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-07-31T08:36:40.291912+00:00",
+      "last_attempt": "2026-07-31T11:53:09.468161+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-07-31T08:36:40.291912+00:00",
+      "last_success": "2026-07-31T11:53:09.468161+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-07-31T10:58:07+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Clinical trials for medicines: MHRA phase I accreditation scheme",
+      "summary": "How to join the phase I accreditation scheme.",
+      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-mhra-phase-i-accreditation-scheme",
+      "published": "2026-07-31T09:31:24+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "New leadership team appointments",
       "summary": "EMA’s Head of the Stakeholders…, A new Head of the Veterinary…, Ivo Claassen joined EMA in 2018. Among many career highlights, Ivo and his team worked with the veterinary medicines network on the successful implementation of the 2019…",
@@ -735,18 +759,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-07-24T12:11:26+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 20-23 July 2026",
