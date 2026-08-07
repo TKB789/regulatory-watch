@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T14:53:33.441995+00:00",
-  "item_count": 813,
+  "generated_at": "2026-08-07T16:50:30.535831+00:00",
+  "item_count": 815,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -28,19 +28,20 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    },
-    {
-      "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "HTTP 403: Forbidden"
     }
   ],
-  "empty_feeds": [],
+  "empty_feeds": [
+    {
+      "name": "EUR-Lex — Recent regulations & directives",
+      "reason": "feed returned 0 entries"
+    }
+  ],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -49,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -58,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -66,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
-      "last_success": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
+      "last_success": "2026-08-07T16:42:56.040866+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -75,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -85,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -95,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
-      "last_success": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
+      "last_success": "2026-08-07T16:42:56.040866+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -104,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
-      "last_success": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
+      "last_success": "2026-08-07T16:42:56.040866+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -113,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
-      "last_success": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
+      "last_success": "2026-08-07T16:42:56.040866+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -122,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -131,22 +132,46 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
-      "last_success": "2026-08-07T14:45:55.311987+00:00",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
+      "last_success": "2026-08-07T16:42:56.040866+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "error",
-      "last_attempt": "2026-08-07T14:45:55.311987+00:00",
-      "last_attempt_reason": "HTTP 403: Forbidden",
-      "items_fetched": 0,
-      "last_success": "2026-08-07T10:43:23.008564+00:00"
+      "status": "empty",
+      "last_attempt": "2026-08-07T16:42:56.040866+00:00",
+      "last_attempt_reason": "feed returned 0 entries",
+      "last_success": "2026-08-07T16:42:56.040866+00:00",
+      "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Good laboratory practice (GLP) for safety tests on chemicals",
+      "summary": "Keep up to date with the latest information from the UK GLP monitoring authority.",
+      "link": "https://www.gov.uk/guidance/good-laboratory-practice-glp-for-safety-tests-on-chemicals",
+      "published": "2026-08-07T16:16:26+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Taking medication this summer? What you need to know about sun and heat exposure",
+      "summary": "Some medicines can make you more sensitive to the sun or increase the risk of dehydration without you realising it. The MHRA is encouraging people to know the risks and stay protected this summer.",
+      "link": "https://www.gov.uk/government/news/taking-medication-this-summer-what-you-need-to-know-about-sun-and-heat-exposure",
+      "published": "2026-08-07T16:12:39+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Guidance: Medicines that you cannot export from the UK or hoard",
       "summary": "Sets out medicines that cannot be exported from the UK or hoarded because they are needed for UK patients.",
@@ -158,6 +183,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Bravo - Capsule Delivery System",
+      "summary": "Medtronic has identified an increase in complaints involving the Bravo CF capsule delivery device where the capsule fails to attach to the esophagus or detach from the delivery device. Medtronic's preliminary root cause investigation has identified a potential condition impacting the component that controls the deployment of the capsule which can then be exacerbated by a failure to keep the delivery device straight as instructed in the user guide, as a potential cause. Risks associated with…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/bravo-capsule-delivery-system",
+      "published": "2026-08-07T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "MHRA approves remibrutinib for adults with chronic spontaneous urticaria",
@@ -7826,18 +7863,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Good laboratory practice (GLP) for safety tests on chemicals",
-      "summary": "Keep up to date with the latest information from the UK GLP monitoring authority.",
-      "link": "https://www.gov.uk/guidance/good-laboratory-practice-glp-for-safety-tests-on-chemicals",
-      "published": "2026-04-29T13:01:48+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Seven sentenced after MHRA investigation uncovers £1.8m illegal medicines and steroids network",
