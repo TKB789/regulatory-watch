@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T06:44:02.411697+00:00",
-  "item_count": 815,
+  "generated_at": "2026-08-08T08:37:15.104353+00:00",
+  "item_count": 820,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
-      "last_success": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
+      "last_success": "2026-08-08T08:29:42.468149+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
-      "last_success": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
+      "last_success": "2026-08-08T08:29:42.468149+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
-      "last_success": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
+      "last_success": "2026-08-08T08:29:42.468149+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
-      "last_success": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
+      "last_success": "2026-08-08T08:29:42.468149+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
-      "last_success": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
+      "last_success": "2026-08-08T08:29:42.468149+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -141,13 +141,73 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-08T06:36:29.454456+00:00",
+      "last_attempt": "2026-08-08T08:29:42.468149+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-08T06:36:29.454456+00:00",
+      "last_success": "2026-08-08T08:29:42.468149+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Determination That OZOBAX (Baclofen) Oral Solution, 5 Milligrams/5 Milliliters Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that OZOBAX (baclofen) oral solution, 5 milligrams (mg)/5 milliliters (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and…",
+      "link": "https://www.federalregister.gov/documents/2026/08/10/2026-16248/determination-that-ozobax-baclofen-oral-solution-5-milligrams5-milliliters-was-not-withdrawn-from",
+      "published": "2026-08-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; BRINSUPRI",
+      "summary": "The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for BRINSUPRI and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which claims that human drug product.",
+      "link": "https://www.federalregister.gov/documents/2026/08/10/2026-16247/determination-of-regulatory-review-period-for-purposes-of-patent-extension-brinsupri",
+      "published": "2026-08-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; DAYVIGO",
+      "summary": "The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for DAYVIGO and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which claims that human drug product.",
+      "link": "https://www.federalregister.gov/documents/2026/08/10/2026-16246/determination-of-regulatory-review-period-for-purposes-of-patent-extension-dayvigo",
+      "published": "2026-08-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-GRAIL, Inc. Galleri",
+      "summary": "The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Molecular and Clinical Genetics Panel of the Medical Devices Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA. The meeting will be open to the public. FDA is establishing a docket for public comment.",
+      "link": "https://www.federalregister.gov/documents/2026/08/10/2026-16245/molecular-and-clinical-genetics-panel-of-the-medical-devices-advisory-committee-notice-of-meeting",
+      "published": "2026-08-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Radiology Devices; Reclassification of Digital Breast Tomosynthesis System",
+      "summary": "The Food and Drug Administration (FDA) is proposing to reclassify digital breast tomosynthesis (DBT) systems, product code OTE, which are postamendments class III devices, from class III (premarket approval) into class II (special controls), subject to premarket notification. FDA is also proposing a new device classification regulation with the name &quot;Digital Breast Tomosynthesis System,&quot; to identify these devices along with special controls that FDA believes are necessary to provide…",
+      "link": "https://www.federalregister.gov/documents/2026/08/10/2026-16209/radiology-devices-reclassification-of-digital-breast-tomosynthesis-system",
+      "published": "2026-08-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Good laboratory practice (GLP) for safety tests on chemicals",
       "summary": "Keep up to date with the latest information from the UK GLP monitoring authority.",
