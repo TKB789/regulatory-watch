@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-11T06:59:43.576212+00:00",
-  "item_count": 823,
+  "generated_at": "2026-08-11T08:52:03.870111+00:00",
+  "item_count": 825,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
-      "last_success": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
+      "last_success": "2026-08-11T08:44:28.530167+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
-      "last_success": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
+      "last_success": "2026-08-11T08:44:28.530167+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
-      "last_success": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
+      "last_success": "2026-08-11T08:44:28.530167+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
-      "last_success": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
+      "last_success": "2026-08-11T08:44:28.530167+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
-      "last_success": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
+      "last_success": "2026-08-11T08:44:28.530167+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-11T06:52:09.198130+00:00",
+      "last_attempt": "2026-08-11T08:44:28.530167+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-11T06:52:09.198130+00:00",
+      "last_success": "2026-08-11T08:44:28.530167+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Reauthorization of the Generic Drug User Fee Amendments; Public Meeting; Request for Comments",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is hosting a public meeting to discuss proposed recommendations for the reauthorization of the Generic Drug User Fee Amendments (GDUFA) for fiscal years (FYs) 2028 to 2032. GDUFA amended the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) to authorize FDA to assess and collect fees to support human generic drug activities. The current legislative authority for GDUFA expires at the end of September 2027. At that time, new legislation…",
+      "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16353/reauthorization-of-the-generic-drug-user-fee-amendments-public-meeting-request-for-comments",
+      "published": "2026-08-11T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Substances Generally Recognized as Safe",
+      "summary": "The Food and Drug Administration (FDA or we) is proposing to require the submission of generally recognized as safe (GRAS) notices for the use of a human or animal food substance purported to be GRAS under the conditions of its intended use under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act).",
+      "link": "https://www.federalregister.gov/documents/2026/08/11/2026-16296/substances-generally-recognized-as-safe",
+      "published": "2026-08-11T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Find product information about medicines",
       "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
