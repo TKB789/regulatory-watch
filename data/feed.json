@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13T07:21:40.074751+00:00",
-  "item_count": 832,
+  "generated_at": "2026-08-13T09:11:14.971265+00:00",
+  "item_count": 835,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
-      "last_success": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
+      "last_success": "2026-08-13T09:03:39.754917+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
-      "last_success": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
+      "last_success": "2026-08-13T09:03:39.754917+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
-      "last_success": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
+      "last_success": "2026-08-13T09:03:39.754917+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
-      "last_success": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
+      "last_success": "2026-08-13T09:03:39.754917+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
-      "last_success": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
+      "last_success": "2026-08-13T09:03:39.754917+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-13T07:14:04.902353+00:00",
+      "last_attempt": "2026-08-13T09:03:39.754917+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-13T07:14:04.902353+00:00",
+      "last_success": "2026-08-13T09:03:39.754917+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "You've got the grades, but don't pass on your health",
+      "summary": "Medicines and medical devices regulator issues health advice for teens off to university.",
+      "link": "https://www.gov.uk/government/news/youve-got-the-grades-but-dont-pass-on-your-health",
+      "published": "2026-08-13T08:34:52+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Kremers Urban Pharmaceuticals, Inc.; Grant of Hearing Request Regarding a Proposal To Withdraw Approval of an Abbreviated New Drug Application for Extended-Release Methylphenidate Tablets",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing a formal evidentiary public hearing on the proposal to withdraw approval of the abbreviated new drug application (ANDA) 091695, submitted by Kremers Urban Pharmaceuticals, Inc. (Kremers) for methylphenidate hydrochloride extended-release tablets. On October 18, 2016, the Director of FDA's Center for Drug Evaluation and Research (CDER) published a notice of opportunity for hearing on a proposal to withdraw approval of ANDA…",
+      "link": "https://www.federalregister.gov/documents/2026/08/13/2026-16536/kremers-urban-pharmaceuticals-inc-grant-of-hearing-request-regarding-a-proposal-to-withdraw-approval",
+      "published": "2026-08-13T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Formal Meetings Between the Food and Drug Administration and Sponsors or Applicants of Prescription Drug User Fee Act Products; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Formal Meetings Between the FDA and Sponsors or Applicants of PDUFA Products.&quot; This guidance outlines the recommendations to industry on formal meetings between FDA and sponsors or applicants relating to the development and review of new drug or biological products regulated by the Center for Drug Evaluation and Research (CDER) and the Center for Biologics…",
+      "link": "https://www.federalregister.gov/documents/2026/08/13/2026-16452/formal-meetings-between-the-food-and-drug-administration-and-sponsors-or-applicants-of-prescription",
+      "published": "2026-08-13T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Unauthorized injectable health products sold online and seized from Dyosa Beauty & Wellness Lounge in Hamilton, ON, may pose serious health risks",
       "summary": "Health Canada has seized several unauthorized injectable health products—including counterfeit medical devices—from Dyosa Beauty &amp; Wellness Lounge (45 Wellington St. N.) in Hamilton, Ontario, because they may pose serious health risks. Unauthorized health products were also advertised for sale through the business' social media accounts.Many of the seized unauthorized injectable health products are used for cosmetic purposes. They include injectable drugs and medical devices (such as…",
