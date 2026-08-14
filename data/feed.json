@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T09:07:11.827433+00:00",
-  "item_count": 839,
+  "generated_at": "2026-08-14T10:57:31.882928+00:00",
+  "item_count": 843,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
-      "last_success": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
+      "last_success": "2026-08-14T10:49:59.008974+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
-      "last_success": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
+      "last_success": "2026-08-14T10:49:59.008974+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
-      "last_success": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
+      "last_success": "2026-08-14T10:49:59.008974+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
-      "last_success": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
+      "last_success": "2026-08-14T10:49:59.008974+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
-      "last_success": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
+      "last_success": "2026-08-14T10:49:59.008974+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,9 +141,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-14T08:59:30.625864+00:00",
+      "last_attempt": "2026-08-14T10:49:59.008974+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-14T08:59:30.625864+00:00",
+      "last_success": "2026-08-14T10:49:59.008974+00:00",
       "items_fetched": 0
     }
   ],
@@ -159,6 +159,54 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Determination That ANSAID (Flurbiprofen) Tablets, 50 Milligrams and 100 Milligrams, Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that ANSAID (flurbiprofen) tablets, 50 milligrams (mg) and 100 mg, were not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for flurbiprofen tablets, 50 mg and 100 mg, if all other legal and regulatory requirements are met.",
+      "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16666/determination-that-ansaid-flurbiprofen-tablets-50-milligrams-and-100-milligrams-were-not-withdrawn",
+      "published": "2026-08-14T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Reauthorization of the Prescription Drug User Fee Act; Public Meeting; Request for Comments",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is hosting a public meeting to discuss proposed recommendations for the reauthorization of the Prescription Drug User Fee Act (PDUFA) for fiscal years (FYs) 2028 through 2032. PDUFA authorizes FDA to collect user fees to support the process for the review of human drug applications. The current legislative authority for PDUFA expires in September 2027. At that time, new legislation will be required for FDA to continue collecting…",
+      "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16650/reauthorization-of-the-prescription-drug-user-fee-act-public-meeting-request-for-comments",
+      "published": "2026-08-14T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination That LASIX (Furosemide) Tablets, 20 Milligrams, 40 Milligrams, and 80 Milligrams, Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that LASIX (furosemide) tablets, 20 milligrams (mg), 40 mg, and 80 mg, were not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and regulatory…",
+      "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16648/determination-that-lasix-furosemide-tablets-20-milligrams-40-milligrams-and-80-milligrams-were-not",
+      "published": "2026-08-14T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Container Closure Systems for Human Drugs and Biological Products; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing the availability of a draft guidance for industry entitled &quot;Container Closure Systems for Human Drugs and Biological Products.&quot; This document provides guiding principles for evaluating the quality of container closure systems (CCSs) used to package drugs and biological products, for human use. This includes CCSs that are also device constituent parts of combination products and CCSs used to package the drug or…",
+      "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16638/container-closure-systems-for-human-drugs-and-biological-products-draft-guidance-for-industry",
+      "published": "2026-08-14T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "COVID-19 test approval: how to apply",
