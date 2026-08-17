@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17T06:43:19.304373+00:00",
-  "item_count": 856,
+  "generated_at": "2026-08-17T08:40:28.050099+00:00",
+  "item_count": 858,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
-      "last_success": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
+      "last_success": "2026-08-17T08:32:54.407797+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
-      "last_success": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
+      "last_success": "2026-08-17T08:32:54.407797+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
-      "last_success": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
+      "last_success": "2026-08-17T08:32:54.407797+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
-      "last_success": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
+      "last_success": "2026-08-17T08:32:54.407797+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,22 +132,46 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
-      "last_success": "2026-08-17T06:35:44.186606+00:00",
-      "items_fetched": 3,
-      "last_success_item_count": 3
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
+      "last_success": "2026-08-17T08:32:54.407797+00:00",
+      "items_fetched": 2,
+      "last_success_item_count": 2
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-17T06:35:44.186606+00:00",
+      "last_attempt": "2026-08-17T08:32:54.407797+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-17T06:35:44.186606+00:00",
+      "last_success": "2026-08-17T08:32:54.407797+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "National Patient Safety Alert: ResMed Astral 100 and 150 Ventilators: Potential for Patient Harm due to Unexpected Interruption of Ventilation Therapy (NatPSA/2026/004/MHRA)",
+      "summary": "ResMed has issued a Field Safety Notice regarding Astral 100 and 150 ventilators and associated Printed Circuit Board Assembly spare parts manufactured prior to October 2024. A fault in the device can cause unexpected interr…",
+      "link": "https://www.gov.uk/drug-device-alerts/national-patient-safety-alert-resmed-astral-100-and-150-ventilators-potential-for-patient-harm-due-to-unexpected-interruption-of-ventilation-therapy-natpsa-slash-2026-slash-004-slash-mhra",
+      "published": "2026-08-17T08:30:35+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Guidance: Clinical trials: Phase 1, 14-Day Pilot Programme",
+      "summary": "The pilot aims to deliver the first wave 1 regulatory assessment in 14 calendar days for qualifying applications by the end of 2026.",
+      "link": "https://www.gov.uk/government/publications/clinical-trials-phase-1-14-day-pilot-programme",
+      "published": "2026-08-17T08:00:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Medical Devices; Classification of Accessories Distinct From Other Devices; Proposed List of Accessories Suitable for Class I; Request for Comments",
       "summary": "As required by the FDA Reauthorization Act of 2017 (FDARA), the Food and Drug Administration (FDA or Agency) has identified a list of accessories for which the Agency believes general controls alone are sufficient to provide reasonable assurance of safety and effectiveness, making them appropriate for class I classification. FDA is publishing this document proposing to classify these accessories into class I and distinct from other devices, as well as seeking public comment in accordance with…",
