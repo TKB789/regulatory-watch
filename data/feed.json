@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-18T12:34:38.889414+00:00",
-  "item_count": 865,
+  "generated_at": "2026-08-18T14:32:00.500923+00:00",
+  "item_count": 867,
   "feed_count": 12,
-  "new_this_run": 1,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
-      "last_success": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
+      "last_success": "2026-08-18T14:24:23.687733+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
-      "last_success": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
+      "last_success": "2026-08-18T14:24:23.687733+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
-      "last_success": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
+      "last_success": "2026-08-18T14:24:23.687733+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
-      "last_success": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
+      "last_success": "2026-08-18T14:24:23.687733+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
-      "last_success": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
+      "last_success": "2026-08-18T14:24:23.687733+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-18T12:27:05.981170+00:00",
+      "last_attempt": "2026-08-18T14:24:23.687733+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-18T12:27:05.981170+00:00",
+      "last_success": "2026-08-18T14:24:23.687733+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "MHRA advises against the use of rectal catheters in infants",
+      "summary": "MHRA advises parents and healthcare professionals against the use of rectal catheters (known as gas and colic relievers) in babies.",
+      "link": "https://www.gov.uk/government/news/mhra-advises-against-the-use-of-rectal-catheters-in-infants",
+      "published": "2026-08-18T13:10:26+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "All rectal catheters (gas and colic relievers): Do not use in infants, including for the treatment of colic, gas-related discomfort or constipation (DSI/2026/008)",
+      "summary": "Do not use rectal catheters in infants, including for colic, gas-related discomfort or constipation. Stop using these products immediately and dispose of any unused devices.",
+      "link": "https://www.gov.uk/drug-device-alerts/all-rectal-catheters-gas-and-colic-relievers-do-not-use-in-infants-including-for-the-treatment-of-colic-gas-related-discomfort-or-constipation-dsi-slash-2026-slash-008",
+      "published": "2026-08-18T13:00:38+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
     {
       "title": "Field Safety Notices: 10 to 14 August 2026",
       "summary": "List of Field Safety Notices from 10 to 14 August 2026.",
