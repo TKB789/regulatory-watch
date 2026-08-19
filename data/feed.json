@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T04:36:27.508604+00:00",
-  "item_count": 867,
+  "generated_at": "2026-08-19T06:35:49.270535+00:00",
+  "item_count": 871,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
-      "last_success": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
+      "last_success": "2026-08-19T06:28:14.223057+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
-      "last_success": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
+      "last_success": "2026-08-19T06:28:14.223057+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
-      "last_success": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
+      "last_success": "2026-08-19T06:28:14.223057+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
-      "last_success": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
+      "last_success": "2026-08-19T06:28:14.223057+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
-      "last_success": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
+      "last_success": "2026-08-19T06:28:14.223057+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -141,13 +141,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-19T04:28:47.604778+00:00",
+      "last_attempt": "2026-08-19T06:28:14.223057+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-19T04:28:47.604778+00:00",
+      "last_success": "2026-08-19T06:28:14.223057+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Gardenia Blue Interest Group; Filing of Color Additive Petition",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a petition, submitted by Gardenia Blue Interest Group (GBIG or petitioner), c/o Exponent, Inc., proposing that we amend our color additive regulations to expand the safe use of gardenia (genipin) blue in various foods at levels consistent with good manufacturing practice. The petition also proposes to lower the specification for arsenic in gardenia (genipin) blue.",
+      "link": "https://www.federalregister.gov/documents/2026/08/19/2026-16944/gardenia-blue-interest-group-filing-of-color-additive-petition",
+      "published": "2026-08-19T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "International Association of Color Manufacturers; Filing of Color Additive Petition",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a petition, submitted by the International Association of Color Manufacturers, proposing that we amend our color additive regulations to provide for the safe use of acetone as a solvent in the manufacture of carrot oil. The petition also proposes to add heavy metal limits and secondary names for carrot oil. FDA may also consider other changes to the regulation, as appropriate, during the course of our review.",
+      "link": "https://www.federalregister.gov/documents/2026/08/19/2026-16943/international-association-of-color-manufacturers-filing-of-color-additive-petition",
+      "published": "2026-08-19T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Food Additives Permitted in Feed and Drinking Water of Animals; Chromium DL-methionine Chelate",
+      "summary": "The Food and Drug Administration (FDA, we, or the Agency) is amending the regulations for food additives permitted in feed and drinking water of animals to provide for the safe use of chromium DL- methionine chelate as a nutritional source of chromium in cattle feed. This action is in response to a food additive petition filed by Zinpro Corp.",
+      "link": "https://www.federalregister.gov/documents/2026/08/19/2026-16942/food-additives-permitted-in-feed-and-drinking-water-of-animals-chromium-dl-methionine-chelate",
+      "published": "2026-08-19T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "GNT USA, LLC.; Filing of Color Additive Petition",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a petition, submitted by GNT USA, LLC., c/o Exponent, Inc., proposing that we amend our color additive regulations to provide for the safe use of safflower (Carthamus tinctorius L.) extract as a color additive in various foods at levels consistent with good manufacturing practices.",
+      "link": "https://www.federalregister.gov/documents/2026/08/19/2026-16939/gnt-usa-llc-filing-of-color-additive-petition",
+      "published": "2026-08-19T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "MHRA advises against the use of rectal catheters in infants",
       "summary": "MHRA advises parents and healthcare professionals against the use of rectal catheters (known as gas and colic relievers) in babies.",
