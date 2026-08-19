@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T14:31:45.865969+00:00",
-  "item_count": 871,
+  "generated_at": "2026-08-19T16:28:18.666386+00:00",
+  "item_count": 872,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
-      "last_success": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
+      "last_success": "2026-08-19T16:20:41.318939+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
-      "last_success": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
+      "last_success": "2026-08-19T16:20:41.318939+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
-      "last_success": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
+      "last_success": "2026-08-19T16:20:41.318939+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
-      "last_success": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
+      "last_success": "2026-08-19T16:20:41.318939+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
-      "last_success": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
+      "last_success": "2026-08-19T16:20:41.318939+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-19T14:24:11.235879+00:00",
+      "last_attempt": "2026-08-19T16:20:41.318939+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-19T14:24:11.235879+00:00",
+      "last_success": "2026-08-19T16:20:41.318939+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Clinical trials for medicines: modifying a clinical trial approval",
+      "summary": "Guidance on the various types of modifications that can be made to a clinical trial approval.",
+      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-modifying-a-clinical-trial-approval",
+      "published": "2026-08-19T14:55:27+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "StatStrip® Glucose And Beta-Ketone Hospital Meter",
+      "summary": "A software issue in StatStrip (Gen 2) Glucose and Beta-Ketone Hospital Meters may retain previous patient information during barcode scanning, potentially assigning results to the wrong patient. Users should verify patient identification before accepting scanned data and follow the correction instructions provided by Nova Biomedical.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/statstripr-glucose-and-beta-ketone-hospital-meter",
+      "published": "2026-08-19T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Gardenia Blue Interest Group; Filing of Color Additive Petition",
       "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a petition, submitted by Gardenia Blue Interest Group (GBIG or petitioner), c/o Exponent, Inc., proposing that we amend our color additive regulations to expand the safe use of gardenia (genipin) blue in various foods at levels consistent with good manufacturing practice. The petition also proposes to lower the specification for arsenic in gardenia (genipin) blue.",
@@ -2757,18 +2781,6 @@
       "summary": "MHRA annual report and accounts 2025 to 2026.",
       "link": "https://www.gov.uk/government/publications/medicines-and-healthcare-products-regulatory-agency-annual-report-and-accounts-2025-to-2026",
       "published": "2026-07-15T10:04:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Clinical trials for medicines: modifying a clinical trial approval",
-      "summary": "Guidance on the various types of modifications that can be made to a clinical trial approval.",
-      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-modifying-a-clinical-trial-approval",
-      "published": "2026-07-15T09:58:11+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
