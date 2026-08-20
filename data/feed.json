@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T04:35:51.915232+00:00",
-  "item_count": 874,
+  "generated_at": "2026-08-20T06:37:24.337552+00:00",
+  "item_count": 878,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
-      "last_success": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
+      "last_success": "2026-08-20T06:29:50.142950+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
-      "last_success": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
+      "last_success": "2026-08-20T06:29:50.142950+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
-      "last_success": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
+      "last_success": "2026-08-20T06:29:50.142950+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
-      "last_success": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
+      "last_success": "2026-08-20T06:29:50.142950+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
-      "last_success": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
+      "last_success": "2026-08-20T06:29:50.142950+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
@@ -141,13 +141,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-08-20T04:28:17.207656+00:00",
+      "last_attempt": "2026-08-20T06:29:50.142950+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-20T04:28:17.207656+00:00",
+      "last_success": "2026-08-20T06:29:50.142950+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Advisory Committee; Cardiovascular and Renal Drugs Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Cardiovascular and Renal Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Cardiovascular and Renal Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the August 27, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/08/20/2026-16999/advisory-committee-cardiovascular-and-renal-drugs-advisory-committee-renewal",
+      "published": "2026-08-20T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Advisory Committee; Endocrinologic and Metabolic Drugs Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Endocrinologic and Metabolic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Endocrinologic and Metabolic Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the August 27, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/08/20/2026-16998/advisory-committee-endocrinologic-and-metabolic-drugs-advisory-committee-renewal",
+      "published": "2026-08-20T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Potency Assessment of Active Immunotherapy Products; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a draft document titled &quot;Potency Assessment of Active Immunotherapy Products.&quot; The draft guidance document provides recommendations for developing assays to assess potency as a part of a potency assurance strategy for active immunotherapy products (ACTIMPs). When finalized, this guidance will describe the FDA's current thinking regarding design, validation, and evaluation of potency tests for ACTIMPs.…",
+      "link": "https://www.federalregister.gov/documents/2026/08/20/2026-16960/potency-assessment-of-active-immunotherapy-products-draft-guidance-for-industry-availability",
+      "published": "2026-08-20T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Frequently Asked Questions-Developing Potential Cellular and Gene Therapy Products; Final Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Frequently asked Questions--Developing Potential Cellular and Gene Therapy Products.&quot; The guidance document provides industry with answers to frequently asked questions (FAQs) and commonly faced issues that arise during the development of cellular and gene therapy (CGT) products. The FAQs represent common questions directed to the Agency and span multiple disciplines, including…",
+      "link": "https://www.federalregister.gov/documents/2026/08/20/2026-16959/frequently-asked-questions-developing-potential-cellular-and-gene-therapy-products-final-guidance",
+      "published": "2026-08-20T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Clinical trials for medicines: modifying a clinical trial approval",
       "summary": "Guidance on the various types of modifications that can be made to a clinical trial approval.",
