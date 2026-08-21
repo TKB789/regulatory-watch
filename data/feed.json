@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T16:29:32.715133+00:00",
-  "item_count": 886,
+  "generated_at": "2026-08-21T18:33:42.894493+00:00",
+  "item_count": 887,
   "feed_count": 12,
   "new_this_run": 1,
   "pruned_this_run": 0,
@@ -28,20 +28,19 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    }
-  ],
-  "empty_feeds": [
+    },
     {
       "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "feed returned 0 entries"
+      "reason": "The read operation timed out"
     }
   ],
+  "empty_feeds": [],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -50,7 +49,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -59,7 +58,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +66,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
-      "last_success": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
+      "last_success": "2026-08-21T18:23:56.871837+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +75,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +85,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +95,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
-      "last_success": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
+      "last_success": "2026-08-21T18:23:56.871837+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +104,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
-      "last_success": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
+      "last_success": "2026-08-21T18:23:56.871837+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +113,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
-      "last_success": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
+      "last_success": "2026-08-21T18:23:56.871837+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +122,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-06-27T19:43:26.874427+00:00"
@@ -132,19 +131,19 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
-      "last_success": "2026-08-21T16:21:57.575794+00:00",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
+      "last_success": "2026-08-21T18:23:56.871837+00:00",
       "items_fetched": 2,
       "last_success_item_count": 2
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "empty",
-      "last_attempt": "2026-08-21T16:21:57.575794+00:00",
-      "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-21T16:21:57.575794+00:00",
-      "items_fetched": 0
+      "status": "error",
+      "last_attempt": "2026-08-21T18:23:56.871837+00:00",
+      "last_attempt_reason": "The read operation timed out",
+      "items_fetched": 0,
+      "last_success": "2026-08-21T16:21:57.575794+00:00"
     }
   ],
   "items": [
@@ -159,6 +158,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "iQ200 Series Analyzers and DxU 840m/850m Iris Analyzers",
+      "summary": "Beckman Coulter received customer complaints of lamina fluid leaks in iQ200 Series and DxU 840m/850m Analyzers. The investigation found that a structurally compromised rinse-line check valve may allow fluid to migrate internally and leak onto the table or floor, potentially resulting into exposure to physical or mechanical or chemical hazards.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/iq200-series-analyzers-and-dxu-840m850m-iris-analyzers",
+      "published": "2026-08-21T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "ForeSight™ Oximeter Cable",
