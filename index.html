@@ -192,6 +192,68 @@
   .lookup-filter:focus { outline: none; border-color: var(--ink); }
   .lookup-more-btn { width: 100%; margin: 20px 0 8px; }
 
+  .lookup-groupby-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .lookup-groupby-row label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .lookup-groupby-row select {
+    flex: 1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 7px 8px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .count-row {
+    display: grid;
+    grid-template-columns: 38px 1fr auto;
+    gap: 10px;
+    align-items: baseline;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .count-row .cr-rank {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+  }
+  .count-row .cr-term {
+    font-size: 14px;
+    line-height: 1.35;
+    color: var(--ink);
+  }
+  .count-row .cr-bar {
+    grid-column: 2 / 3;
+    height: 3px;
+    background: var(--accent, #c0392b);
+    opacity: 0.55;
+    margin-top: 5px;
+  }
+  .count-row .cr-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .count-row .cr-share {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    display: block;
+    text-align: right;
+  }
+
   .lookup-card {
     border-bottom: 1px solid var(--rule);
     padding: 18px 0;
@@ -2151,6 +2213,12 @@
         </div>
         <button class="lookup-go" id="lookup-go">Search</button>
       </div>
+      <div class="lookup-groupby-row">
+        <label for="lookup-count">Show</label>
+        <select id="lookup-count">
+          <option value="">Individual records</option>
+        </select>
+      </div>
       <div class="lookup-date-row" id="lookup-date-row">
         <div class="lookup-date-group">
           <label for="lookup-date-from">From</label>
@@ -3694,6 +3762,13 @@ const FDA_ENDPOINTS = {
       ['product_code', 'Product Code'],
       ['advisory_committee_description', 'Panel'],
     ],
+    countFields: [
+      ['applicant.exact', 'Applicant / manufacturer'],
+      ['product_code.exact', 'Product code'],
+      ['advisory_committee_description.exact', 'Advisory panel'],
+      ['state_code.exact', 'Applicant state'],
+      ['decision_description.exact', 'Decision'],
+    ],
     detailUrl: (item) => `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${encodeURIComponent(item.k_number || '')}`,
   },
   pma: {
@@ -3709,6 +3784,12 @@ const FDA_ENDPOINTS = {
       ['decision_code', 'Decision'],
       ['product_code', 'Product Code'],
       ['supplement_type', 'Type'],
+    ],
+    countFields: [
+      ['applicant.exact', 'Applicant / manufacturer'],
+      ['product_code.exact', 'Product code'],
+      ['advisory_committee_description.exact', 'Advisory panel'],
+      ['supplement_type.exact', 'Supplement type'],
     ],
     detailUrl: (item) => `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=${encodeURIComponent(item.pma_number || '')}`,
   },
@@ -3726,6 +3807,12 @@ const FDA_ENDPOINTS = {
       ['product_code', 'Product Code'],
       ['root_cause_description', 'Root Cause'],
     ],
+    countFields: [
+      ['recalling_firm.exact', 'Recalling firm'],
+      ['product_code.exact', 'Product code'],
+      ['root_cause_description.exact', 'Root cause'],
+      ['recall_status.exact', 'Status'],
+    ],
     detailUrl: (item) => 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=' + encodeURIComponent(item.cfres_id || ''),
   },
   event: {
@@ -3742,6 +3829,14 @@ const FDA_ENDPOINTS = {
       ['device.0.generic_name', 'Generic Name'],
       ['device.0.manufacturer_d_name', 'Manufacturer'],
     ],
+    countFields: [
+      ['device.manufacturer_d_name.exact', 'Manufacturer'],
+      ['device.brand_name.exact', 'Brand name'],
+      ['device.generic_name.exact', 'Generic device type'],
+      ['device.device_report_product_code.exact', 'Product code'],
+      ['event_type.exact', 'Event type'],
+      ['report_source_code.exact', 'Report source'],
+    ],
     detailUrl: (item) => 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfmaude/detail.cfm?mdrfoi__id=' + encodeURIComponent(item.mdr_report_key || ''),
   },
   classification: {
@@ -3757,6 +3852,11 @@ const FDA_ENDPOINTS = {
       ['medical_specialty_description', 'Specialty'],
       ['gmp_exempt_flag', 'GMP Exempt'],
       ['life_sustain_support_flag', 'Life-Sustaining'],
+    ],
+    countFields: [
+      ['medical_specialty_description.exact', 'Medical specialty'],
+      ['device_class.exact', 'Device class'],
+      ['regulation_number.exact', 'CFR regulation'],
     ],
     detailUrl: (item) => 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?id=' + encodeURIComponent(item.product_code || ''),
   },
@@ -3842,16 +3942,11 @@ let lookupState = {
 async function runFdaLookup() {
   const input = document.getElementById('lookup-input').value.trim();
   const resultsEl = document.getElementById('lookup-results');
+  const countField = document.getElementById('lookup-count').value;
 
   const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
   const textClause = buildFdaQuery(currentLookupEndpoint, input);
   const dateClause = buildDateClause(currentLookupEndpoint);
-
-  // Need at least one of the two
-  if (!textClause && !dateClause) {
-    resultsEl.innerHTML = '<div class="lookup-empty">Enter a search term or pick a date range above to query openFDA.</div>';
-    return;
-  }
 
   // Combine clauses with AND
   let search = '';
@@ -3861,16 +3956,72 @@ async function runFdaLookup() {
     search = textClause || dateClause;
   }
 
+  // ---- Count mode: one request returns every distinct value + its total ----
+  // Search terms are optional here — an empty search counts across the whole
+  // dataset. openFDA returns at most the top 1000 values and `skip` is not
+  // supported on count queries.
+  if (countField) {
+    const label = (cfg.countFields.find(f => f[0] === countField) || [, countField])[1];
+    const url = `${cfg.url}?${search ? 'search=' + search + '&' : ''}count=${countField}&limit=1000`;
+    await runFdaCount(url, cfg, label, search);
+    return;
+  }
+
+  // ---- Record mode: needs at least one clause -----------------------------
+  if (!textClause && !dateClause) {
+    resultsEl.innerHTML = '<div class="lookup-empty">Enter a search term or pick a date range above to query openFDA — or choose a grouping under "Show" to summarise the whole dataset.</div>';
+    return;
+  }
+
   // openFDA "sort by date desc" — only valid when the endpoint has a date field
   const sortParam = cfg.dateField ? `&sort=${cfg.dateField}:desc` : '';
 
   lookupState = {
     baseUrl: `${cfg.url}?search=${search}${sortParam}`,
     cfg, items: [], total: 0, loading: false, exhausted: false, filter: '',
+    mode: 'records', countLabel: '',
   };
 
   resultsEl.innerHTML = '<div class="lookup-status">Querying openFDA…</div>';
   await loadLookupPage(true);
+}
+
+async function runFdaCount(url, cfg, label, search) {
+  const resultsEl = document.getElementById('lookup-results');
+  const goBtn = document.getElementById('lookup-go');
+  goBtn.disabled = true;
+  resultsEl.innerHTML = '<div class="lookup-status">Aggregating across openFDA…</div>';
+
+  try {
+    const res = await fetch(url);
+    if (res.status === 404) {
+      resultsEl.innerHTML = '<div class="lookup-empty">No matching records to summarise.</div>';
+      return;
+    }
+    if (!res.ok) throw new Error('openFDA returned HTTP ' + res.status);
+    const data = await res.json();
+    const rows = data.results || [];
+    if (!rows.length) {
+      resultsEl.innerHTML = '<div class="lookup-empty">No matching records to summarise.</div>';
+      return;
+    }
+
+    rows.forEach(r => { r.__hay = String(r.term || '').toLowerCase(); });
+
+    lookupState = {
+      baseUrl: url, cfg, items: rows,
+      total: rows.reduce((sum, r) => sum + (r.count || 0), 0),
+      loading: false, exhausted: true, filter: '',
+      mode: 'count', countLabel: label, searchApplied: !!search,
+    };
+
+    renderLookupShell();
+    renderLookupList();
+  } catch (err) {
+    resultsEl.innerHTML = `<div class="lookup-error">Could not query openFDA: ${err.message || err}</div>`;
+  } finally {
+    goBtn.disabled = false;
+  }
 }
 
 async function loadLookupPage(isFirst) {
@@ -3936,7 +4087,7 @@ function renderLookupShell() {
   resultsEl.innerHTML = `
     <div class="lookup-status" id="lookup-status"></div>
     <div class="lookup-tools">
-      <input type="text" id="lookup-filter" class="lookup-filter" placeholder="Filter loaded results (device, firm, code…)" autocomplete="off">
+      <input type="text" id="lookup-filter" class="lookup-filter" placeholder="${lookupState.mode === 'count' ? 'Filter this list (e.g. medtronic)' : 'Filter loaded results (device, firm, code…)'}" autocomplete="off">
       <button class="lookup-preset" id="lookup-export">Export CSV</button>
     </div>
     <div id="lookup-list"></div>
@@ -3974,8 +4125,33 @@ function filteredLookupItems() {
 function renderLookupList() {
   const s = lookupState;
   const rows = filteredLookupItems();
-  const loaded = s.items.length;
 
+  if (s.mode === 'count') {
+    const shown = rows.reduce((sum, [r]) => sum + (r.count || 0), 0);
+    const max = Math.max(...s.items.map(r => r.count || 0), 1);
+    let status = `<strong>${s.items.length.toLocaleString()}</strong> distinct ${s.countLabel.toLowerCase()} value(s) across <strong>${s.total.toLocaleString()}</strong> ${s.cfg.label} record(s)`;
+    if (s.items.length >= 1000) status += ' · openFDA caps this at the top 1,000';
+    if (s.filter) status += ` · showing <strong>${rows.length.toLocaleString()}</strong> matching "${s.filter}" (${shown.toLocaleString()} records)`;
+    document.getElementById('lookup-status').innerHTML = status;
+
+    document.getElementById('lookup-list').innerHTML = rows.length
+      ? rows.map(([r], i) => {
+          const pct = s.total ? (r.count / s.total * 100) : 0;
+          return `
+            <div class="count-row">
+              <span class="cr-rank">${(i + 1).toString().padStart(3, '0')}</span>
+              <span class="cr-term">${r.term || '(blank)'}</span>
+              <span><span class="cr-count">${(r.count || 0).toLocaleString()}</span><span class="cr-share">${pct.toFixed(2)}%</span></span>
+              <span class="cr-bar" style="width:${Math.max(0.5, (r.count / max) * 100)}%"></span>
+            </div>`;
+        }).join('')
+      : '<div class="lookup-empty">Nothing matches that filter.</div>';
+
+    document.getElementById('lookup-more').innerHTML = '';
+    return;
+  }
+
+  const loaded = s.items.length;
   let status = `Found <strong>${s.total.toLocaleString()}</strong> ${s.cfg.label} record(s) — loaded <strong>${loaded.toLocaleString()}</strong>`;
   if (s.filter) status += ` · showing <strong>${rows.length.toLocaleString()}</strong> matching "${s.filter}"`;
   document.getElementById('lookup-status').innerHTML = status;
@@ -4001,8 +4177,18 @@ function exportLookupCsv() {
   const rows = filteredLookupItems().map(([item]) => item);
   if (!rows.length) return;
 
-  const headers = ['Number', 'Name'].concat(s.cfg.fields.map(([, label]) => label));
   const esc = (v) => `"${String(v == null ? '' : v).replace(/"/g, '""')}"`;
+
+  if (s.mode === 'count') {
+    const lines = [[s.countLabel, 'Records', 'Share %'].map(esc).join(',')];
+    rows.forEach(r => lines.push([
+      r.term, r.count, s.total ? (r.count / s.total * 100).toFixed(4) : ''
+    ].map(esc).join(',')));
+    downloadCsv(lines, `openfda-${currentLookupEndpoint}-by-${s.countLabel.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`);
+    return;
+  }
+
+  const headers = ['Number', 'Name'].concat(s.cfg.fields.map(([, label]) => label));
   const lines = [headers.map(esc).join(',')];
   rows.forEach(item => {
     const line = [getField(item, s.cfg.numField), getField(item, s.cfg.titleField)]
@@ -4010,10 +4196,14 @@ function exportLookupCsv() {
     lines.push(line.map(esc).join(','));
   });
 
+  downloadCsv(lines, `openfda-${currentLookupEndpoint}`);
+}
+
+function downloadCsv(lines, stem) {
   const blob = new Blob(['\ufeff' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `openfda-${currentLookupEndpoint}-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.download = `${stem}-${new Date().toISOString().slice(0, 10)}.csv`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -4040,6 +4230,17 @@ function renderLookupCard(item, cfg, idx) {
   `;
 }
 
+// Populate the "Show" dropdown with the groupings valid for this endpoint
+function populateCountOptions() {
+  const sel = document.getElementById('lookup-count');
+  const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
+  sel.innerHTML = '<option value="">Individual records</option>' +
+    (cfg.countFields || []).map(([field, label]) =>
+      `<option value="${field}">All ${label.toLowerCase()}s, ranked by record count</option>`
+    ).join('');
+}
+populateCountOptions();
+
 // Wire up endpoint tabs
 document.querySelectorAll('.lookup-endpoint').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -4048,6 +4249,7 @@ document.querySelectorAll('.lookup-endpoint').forEach(btn => {
     currentLookupEndpoint = btn.dataset.endpoint;
     // Clear results when switching endpoints
     document.getElementById('lookup-results').innerHTML = '';
+    populateCountOptions();
     // Update placeholder text
     const hints = {
       '510k': 'e.g. K230001, infusion pump, Medtronic',
@@ -4098,6 +4300,9 @@ document.querySelectorAll('.lookup-preset').forEach(btn => {
 });
 
 // Wire up search button + Enter key
+document.getElementById('lookup-count').addEventListener('change', () => {
+  if (document.getElementById('lookup-results').innerHTML.trim()) runFdaLookup();
+});
 document.getElementById('lookup-go').addEventListener('click', runFdaLookup);
 document.getElementById('lookup-input').addEventListener('keydown', e => {
   if (e.key === 'Enter') { e.preventDefault(); runFdaLookup(); }
