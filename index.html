@@ -174,6 +174,24 @@
   }
   .lookup-status strong { color: var(--ink); }
 
+  .lookup-tools {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .lookup-filter {
+    flex: 1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    padding: 8px 10px;
+    border: 1px solid var(--rule);
+    background: var(--paper);
+    color: var(--ink);
+  }
+  .lookup-filter:focus { outline: none; border-color: var(--ink); }
+  .lookup-more-btn { width: 100%; margin: 20px 0 8px; }
+
   .lookup-card {
     border-bottom: 1px solid var(--rule);
     padding: 18px 0;
@@ -3809,10 +3827,21 @@ function buildDateClause(endpoint) {
   return `${cfg.dateField}:[${lo}+TO+${hi}]`;
 }
 
+// --- Paging -----------------------------------------------------------------
+// openFDA hard limits: 1000 records max per request, and skip caps at 25,000
+// (so skip-based paging tops out around 26,000 matches). Past that the query
+// has to be narrowed. See https://open.fda.gov/apis/paging/
+const LOOKUP_PAGE_SIZE = 100;
+const LOOKUP_SKIP_CAP  = 25000;
+
+let lookupState = {
+  baseUrl: '', cfg: null, items: [], total: 0,
+  loading: false, exhausted: false, filter: '',
+};
+
 async function runFdaLookup() {
   const input = document.getElementById('lookup-input').value.trim();
   const resultsEl = document.getElementById('lookup-results');
-  const goBtn = document.getElementById('lookup-go');
 
   const cfg = FDA_ENDPOINTS[currentLookupEndpoint];
   const textClause = buildFdaQuery(currentLookupEndpoint, input);
@@ -3834,44 +3863,161 @@ async function runFdaLookup() {
 
   // openFDA "sort by date desc" — only valid when the endpoint has a date field
   const sortParam = cfg.dateField ? `&sort=${cfg.dateField}:desc` : '';
-  const url = `${cfg.url}?search=${search}&limit=25${sortParam}`;
 
-  goBtn.disabled = true;
+  lookupState = {
+    baseUrl: `${cfg.url}?search=${search}${sortParam}`,
+    cfg, items: [], total: 0, loading: false, exhausted: false, filter: '',
+  };
+
   resultsEl.innerHTML = '<div class="lookup-status">Querying openFDA…</div>';
+  await loadLookupPage(true);
+}
+
+async function loadLookupPage(isFirst) {
+  const s = lookupState;
+  if (s.loading || s.exhausted) return;
+
+  const skip = s.items.length;
+  if (skip > LOOKUP_SKIP_CAP) { s.exhausted = true; renderLookupList(); return; }
+
+  const goBtn = document.getElementById('lookup-go');
+  const moreBtn = document.getElementById('lookup-more-btn');
+  s.loading = true;
+  goBtn.disabled = true;
+  if (moreBtn) { moreBtn.disabled = true; moreBtn.textContent = 'Loading…'; }
+
+  const url = `${s.baseUrl}&limit=${LOOKUP_PAGE_SIZE}&skip=${skip}`;
+  const resultsEl = document.getElementById('lookup-results');
 
   try {
     const res = await fetch(url);
     if (!res.ok) {
       if (res.status === 404) {
-        resultsEl.innerHTML = '<div class="lookup-empty">No matching ' + cfg.label + ' records found.</div>';
+        if (isFirst) resultsEl.innerHTML = '<div class="lookup-empty">No matching ' + s.cfg.label + ' records found.</div>';
+        s.exhausted = true;
         return;
       }
       throw new Error('openFDA returned HTTP ' + res.status);
     }
     const data = await res.json();
-    if (!data.results || !data.results.length) {
-      resultsEl.innerHTML = '<div class="lookup-empty">No matching ' + cfg.label + ' records found.</div>';
+    const batch = (data.results || []);
+    if (isFirst && !batch.length) {
+      resultsEl.innerHTML = '<div class="lookup-empty">No matching ' + s.cfg.label + ' records found.</div>';
+      s.exhausted = true;
       return;
     }
 
-    const total = (data.meta && data.meta.results && data.meta.results.total) || data.results.length;
-    let html = `<div class="lookup-status">Found <strong>${total}</strong> ${cfg.label} record(s) — showing top ${data.results.length}.</div>`;
-
-    html += data.results.map((item, idx) => renderLookupCard(item, cfg, idx)).join('');
-    resultsEl.innerHTML = html;
-
-    // Wire up clicks
-    resultsEl.querySelectorAll('.lookup-card').forEach((el, idx) => {
-      el.addEventListener('click', () => {
-        const detailUrl = cfg.detailUrl(data.results[idx]);
-        if (detailUrl) window.open(detailUrl, '_blank', 'noopener');
-      });
+    // Cache a lowercase haystack per record so client-side filtering is cheap
+    batch.forEach(item => {
+      const parts = [getField(item, s.cfg.numField), getField(item, s.cfg.titleField)];
+      s.cfg.fields.forEach(([key]) => parts.push(getField(item, key)));
+      item.__hay = parts.filter(Boolean).join(' ').toLowerCase();
     });
+
+    s.items = s.items.concat(batch);
+    if (isFirst) s.total = (data.meta && data.meta.results && data.meta.results.total) || batch.length;
+    if (batch.length < LOOKUP_PAGE_SIZE || s.items.length >= s.total) s.exhausted = true;
+
+    if (isFirst) renderLookupShell();
+    renderLookupList();
   } catch (err) {
     resultsEl.innerHTML = `<div class="lookup-error">Could not query openFDA: ${err.message || err}</div>`;
+    s.exhausted = true;
   } finally {
+    s.loading = false;
     goBtn.disabled = false;
   }
+}
+
+// Build the results shell once per search, then only the list is re-rendered
+// (keeps focus/caret in the filter box while typing).
+function renderLookupShell() {
+  const resultsEl = document.getElementById('lookup-results');
+  resultsEl.innerHTML = `
+    <div class="lookup-status" id="lookup-status"></div>
+    <div class="lookup-tools">
+      <input type="text" id="lookup-filter" class="lookup-filter" placeholder="Filter loaded results (device, firm, code…)" autocomplete="off">
+      <button class="lookup-preset" id="lookup-export">Export CSV</button>
+    </div>
+    <div id="lookup-list"></div>
+    <div id="lookup-more"></div>
+  `;
+
+  const filterEl = document.getElementById('lookup-filter');
+  filterEl.addEventListener('input', () => {
+    lookupState.filter = filterEl.value.trim().toLowerCase();
+    renderLookupList();
+  });
+  document.getElementById('lookup-export').addEventListener('click', exportLookupCsv);
+
+  document.getElementById('lookup-more').addEventListener('click', (e) => {
+    if (e.target.id === 'lookup-more-btn') loadLookupPage(false);
+  });
+
+  document.getElementById('lookup-list').addEventListener('click', (e) => {
+    const card = e.target.closest('.lookup-card');
+    if (!card) return;
+    const detailUrl = lookupState.cfg.detailUrl(lookupState.items[Number(card.dataset.idx)]);
+    if (detailUrl) window.open(detailUrl, '_blank', 'noopener');
+  });
+}
+
+function filteredLookupItems() {
+  const s = lookupState;
+  if (!s.filter) return s.items.map((item, idx) => [item, idx]);
+  const terms = s.filter.split(/\s+/);
+  return s.items
+    .map((item, idx) => [item, idx])
+    .filter(([item]) => terms.every(t => item.__hay.includes(t)));
+}
+
+function renderLookupList() {
+  const s = lookupState;
+  const rows = filteredLookupItems();
+  const loaded = s.items.length;
+
+  let status = `Found <strong>${s.total.toLocaleString()}</strong> ${s.cfg.label} record(s) — loaded <strong>${loaded.toLocaleString()}</strong>`;
+  if (s.filter) status += ` · showing <strong>${rows.length.toLocaleString()}</strong> matching "${s.filter}"`;
+  document.getElementById('lookup-status').innerHTML = status;
+
+  document.getElementById('lookup-list').innerHTML = rows.length
+    ? rows.map(([item, idx]) => renderLookupCard(item, s.cfg, idx)).join('')
+    : '<div class="lookup-empty">No loaded records match that filter. Clear it or load more.</div>';
+
+  const moreEl = document.getElementById('lookup-more');
+  const remaining = Math.max(0, s.total - loaded);
+  if (!s.exhausted && remaining > 0) {
+    const next = Math.min(LOOKUP_PAGE_SIZE, remaining);
+    moreEl.innerHTML = `<button class="lookup-go lookup-more-btn" id="lookup-more-btn">Load ${next} more (${remaining.toLocaleString()} remaining)</button>`;
+  } else if (s.total > loaded) {
+    moreEl.innerHTML = `<div class="lookup-empty">openFDA caps paging at ~26,000 records per query. ${(s.total - loaded).toLocaleString()} more match — narrow the search with a date range, manufacturer, or product code to reach them.</div>`;
+  } else {
+    moreEl.innerHTML = '';
+  }
+}
+
+function exportLookupCsv() {
+  const s = lookupState;
+  const rows = filteredLookupItems().map(([item]) => item);
+  if (!rows.length) return;
+
+  const headers = ['Number', 'Name'].concat(s.cfg.fields.map(([, label]) => label));
+  const esc = (v) => `"${String(v == null ? '' : v).replace(/"/g, '""')}"`;
+  const lines = [headers.map(esc).join(',')];
+  rows.forEach(item => {
+    const line = [getField(item, s.cfg.numField), getField(item, s.cfg.titleField)]
+      .concat(s.cfg.fields.map(([key]) => getField(item, key)));
+    lines.push(line.map(esc).join(','));
+  });
+
+  const blob = new Blob(['\ufeff' + lines.join('\r\n')], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `openfda-${currentLookupEndpoint}-${new Date().toISOString().slice(0, 10)}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
 function renderLookupCard(item, cfg, idx) {
