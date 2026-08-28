@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-28T13:50:30.735654+00:00",
-  "item_count": 918,
+  "generated_at": "2026-08-28T16:46:05.137089+00:00",
+  "item_count": 966,
   "feed_count": 12,
-  "new_this_run": 7,
+  "new_this_run": 48,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -40,20 +40,20 @@
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
-      "status": "error",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0,
-      "last_success": "2026-06-27T19:43:26.874427+00:00"
+      "status": "ok",
+      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
+      "last_success": "2026-08-28T16:46:05.137089+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
-      "status": "error",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_attempt_reason": "HTTP 404: Not Found",
-      "items_fetched": 0,
-      "last_success": "2026-06-27T19:43:26.874427+00:00"
+      "status": "ok",
+      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
+      "last_success": "2026-08-28T16:46:05.137089+00:00",
+      "items_fetched": 20,
+      "source": "manual-fetch"
     },
     {
       "name": "FDA Press Announcements",
@@ -122,11 +122,11 @@
     {
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
-      "status": "error",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_attempt_reason": "The read operation timed out",
-      "items_fetched": 0,
-      "last_success": "2026-06-27T19:43:26.874427+00:00"
+      "status": "ok",
+      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
+      "last_success": "2026-08-28T16:46:05.137089+00:00",
+      "items_fetched": 50,
+      "source": "manual-fetch"
     },
     {
       "name": "EMA News & Press Releases",
@@ -140,12 +140,19 @@
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "empty",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-08-28T13:42:54.394668+00:00",
-      "items_fetched": 0
+      "status": "ok",
+      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
+      "last_success": "2026-08-28T16:46:05.137089+00:00",
+      "items_fetched": 30,
+      "source": "manual-fetch"
     }
+  ],
+  "manual_fetch_at": "2026-08-28T16:46:05.137089+00:00",
+  "manual_fetched_feeds": [
+    "eur-lex",
+    "fda-medwatch",
+    "fda-recalls",
+    "tga-news"
   ],
   "items": [
     {
@@ -245,6 +252,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "B. Braun Medical Inc. Issues Voluntary Nationwide Recall of 0.9% Sodium Chloride Injection USP, 100 mL, in a 150 mL PAB® Container Due to the Presence of Particulate Matter",
+      "summary": "FOR IMMEDIATE RELEASE – August 19, 2026– Bethlehem, PA, B. Braun Medical Inc (B. Braun) is voluntarily recalling three (3) lots of 0.9% Sodium Chloride Injection USP, 100 mL, in a 150 mL PAB® Container, to the hospital/healthcare facility/user level due to presence of particulate matter identified a",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-09-sodium-chloride-injection-usp-100-ml-150",
+      "published": "2026-08-27T14:21:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Transparency data: MHRA Performance Data",
       "summary": "Performance data for MHRA key performance indicators (KPIs) and information on the expected timeline to complete a specific regulatory function.",
       "link": "https://www.gov.uk/government/publications/mhra-performance-data",
@@ -293,6 +312,30 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Early Alert: Esophageal pH Monitoring Capsule Delivery Device Issue from Medtronic and Given Imaging",
+      "summary": "The Medtronic and Given Imaging Bravo CF esophageal pH monitoring capsule can fail to attach to the esophagus or detach from its delivery device.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-esophageal-ph-monitoring-capsule-delivery-device-issue-medtronic-and-given-imaging",
+      "published": "2026-08-27T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Convenience Kit Correction: AVID Medical Issues Correction for Kits Containing Medline Namic Star Off Handle Manifolds",
+      "summary": "AVID Medical is correcting convenience kits containing Manifolds affected by the Medline Namic Angiographic Star Off Handle Manifold Recall.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-correction-avid-medical-issues-correction-kits-containing-medline-namic-star-handle",
+      "published": "2026-08-27T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Second Extension of Effective Date of Final Resolution of Drug Efficacy Study Implementation 7661",
       "summary": "The Food and Drug Administration (FDA or Agency) is extending the effective date of the notice published in the Federal Register on May 27, 2026, entitled &quot;Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Syntest D.S. and Syntest H.S. Tablets; Withdrawal of Hearing Requests; Final Resolution of Drug Efficacy Study Implementation 7661&quot; (91 FR 31462) (the &quot;May 2026 Notice&quot;), as previously extended by the notice…",
       "link": "https://www.federalregister.gov/documents/2026/08/27/2026-17498/drugs-for-human-use-drug-efficacy-study-implementation-estrogen-androgen-fixed-combination-drug",
@@ -315,6 +358,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Revival Animal Health, LLC Voluntarily Recalls Feline Milk Replacers Due to Inconsistent Levels of Vitamins and Trace Minerals",
+      "summary": "Revival Animal Health of Orange City, IA is recalling Breeder’s Edge® and Shelter’s Choice® Feline Milk Replacers due to low, levels of potassium, copper, folic acid, choline and/or pyridoxine (vitamin B6).",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-feline-milk-replacers-due-inconsistent-levels-vitamins",
+      "published": "2026-08-26T13:50:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Increased risk of wear and corrosion identified with certain cobalt chrome modular neck hip replacements",
@@ -413,6 +468,30 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Percutaneous Catheter Recall: Boston Scientific Removes ENROUTE Transcarotid Neuroprotection System",
+      "summary": "ENROUTE Transcarotid Neuroprotection Systems may have arterial sheath tip separation or partial tip separation during use.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/percutaneous-catheter-recall-boston-scientific-removes-enroute-transcarotid-neuroprotection-system",
+      "published": "2026-08-26T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Heart Pump Controller Purge Cassette Issue from Abiomed",
+      "summary": "Abiomed is removing Automated Impella Controllers due to purge cassette recognition failures that may lead to prolonged delayed in mechanical circulatory support.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-purge-cassette-issue-abiomed",
+      "published": "2026-08-26T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Determination That CABAZITAXEL (Cabazitaxel) Solution (Injection), 60 Milligrams/6 Milliliters (10 Milligrams/Milliliter), Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that CABAZITAXEL (cabazitaxel) solution (injection), 60 milligrams (mg)/6 milliliters (mL) (10 mg/mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for Cabazitaxel (cabazitaxel) solution (injection), 60 mg/6 mL (10 mg/mL), if all other legal and regulatory requirements are met.",
       "link": "https://www.federalregister.gov/documents/2026/08/26/2026-17401/determination-that-cabazitaxel-cabazitaxel-solution-injection-60-milligrams6-milliliters-10",
@@ -447,6 +526,54 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of Anticoagulant Sodium Citrate Solution Due to Potential Presence of Particulate Matter",
+      "summary": "FOR IMMEDIATE RELEASE – AUG. 25, 2026 – DEERFIELD, Ill., Baxter International Inc. (NYSE:BAX) is voluntarily recalling one lot of Anticoagulant Sodium Citrate Solution due to the potential presence of particulate matter identified as fiberglass in the solution.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-anticoagulant-sodium-citrate-solution-due",
+      "published": "2026-08-26T00:51:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of 70% Dextrose Injection Due to Potential Presence of Particulate Matter",
+      "summary": "FOR IMMEDIATE RELEASE – AUG. 25, 2026 – DEERFIELD, Ill., Baxter International Inc. (NYSE:BAX) is voluntarily recalling one lot of 70% Dextrose Injection due to the potential presence of particulate matter identified as stainless steel particles in the solution.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-one-lot-70-dextrose-injection-due-potential-presence",
+      "published": "2026-08-25T19:24:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Baxter Issues Voluntary Nationwide Recall for Two Lots of 0.9% Sodium Chloride Injection Due to Potential Presence of Particulate Matter",
+      "summary": "FOR IMMEDIATE RELEASE – AUG. 25, 2026 – DEERFIELD, Ill., Baxter International Inc. (NYSE:BAX) is voluntarily recalling two lots of 0.9% Sodium Chloride Injection due to the potential presence of particulate matter identified as fiberglass in the solution.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/baxter-issues-voluntary-nationwide-recall-two-lots-09-sodium-chloride-injection-due-potential",
+      "published": "2026-08-25T14:50:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Jaime’s Foods ATX Issues Allergy Alert on Undeclared Egg Allergen in Jaime’s Spanish Village Jalapeno Ranch",
+      "summary": "Jaime’s Foods ATX of Austin, TEXAS is recalling Jaime’s Spanish Village Jalapeno Ranch because it contains undeclared eggs. People who have an allergy or severe sensitivity to eggs run the risk of serious or life-threatening allergic reaction if they consume this product.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jaimes-foods-atx-issues-allergy-alert-undeclared-egg-allergen-jaimes-spanish-village-jalapeno-ranch",
+      "published": "2026-08-25T14:22:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "MHRA Safety Roundup: August 2026",
@@ -509,6 +636,30 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "The Better Bakehouse Snack Company is Recalling Certain Lots of Donutful Chocolate Dipped Vanilla Cake Donuts to Undeclared Milk Allergen",
+      "summary": "Las Vegas, NV – August 24, 2026 – The Better Bakehouse Snack Company is recalling certain lots of Donutful Chocolate Dipped Vanilla Cake Donuts because the product may contain undeclared milk. People who have an allergy or severe sensitivity to milk run the risk of serious or life-threatening aller",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/better-bakehouse-snack-company-recalling-certain-lots-donutful-chocolate-dipped-vanilla-cake-donuts",
+      "published": "2026-08-25T00:36:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "CAROTONE skin-brightening products found to contain undeclared prescription-only medicine",
+      "summary": "We are advising consumers that CAROTONE products marketed for skin brightening may pose a serious risk to your health and should not be used.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/carotone-skin-brightening-products-found-contain-undeclared-prescription-only-medicine",
+      "published": "2026-08-24T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "NGPod pH testing device: quarantine and dispose of all devices (DSI/2026/009)",
       "summary": "The NGPod handheld device and NGPod sensor, used to test pH to aid the placement of nasogastric tubes, is being withdrawn from the UK market. The manufacturer has ceased trading in the UK. Users should quarantine all remaini…",
       "link": "https://www.gov.uk/drug-device-alerts/ngpod-ph-testing-device-quarantine-and-dispose-of-all-devices-dsi-slash-2026-slash-009",
@@ -531,6 +682,54 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Early Alert:  Convenience Kit Issue from AVID Medical",
+      "summary": "Certain AVID Medical convenience kits containing recalled BD ChloraPrep applicators should be removed from use due to potential fungal contamination",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-avid-medical",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Ventilator Issue from CooperSurgical",
+      "summary": "The cannula sets may exhibit a loose connection between the flexible tubing and the nasal cannula resulting in reduced effectiveness and decreased oxygenation.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-ventilator-issue-coopersurgical",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Nitric Oxide Delivery System Issue from NOxBOX",
+      "summary": "The NOxBOX NOxBOXi System may leak oxygen during inhaled nitric oxide therapy",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-nitric-oxide-delivery-system-issue-noxbox",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Convenience Kit Issue from Medline",
+      "summary": "Certain Medline convenience kits containing recalled BD ChloraPrep applicators should be removed from use due to potential fungal contamination",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-medline",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Food and Drug Administration Modernization Act of 1997: Modifications to the List of Recognized Standards, Recognition List Number: 066",
@@ -567,6 +766,42 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Everything Sprouts, LLC Recalls Alfalfa Sprouts Due to Potential E. Coli and Salmonella Risk",
+      "summary": "Everything Sprouts, LLC, based in Minneapolis, MN is recalling certain lots of Alfalfa Sprouts because it has the potential to be contaminated with Shiga toxin producing Escherichia coli (STEC) or Salmonella bacteria.Shiga toxin-producing Escherichia coli (STEC) are organisms that can cause serious",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/everything-sprouts-llc-recalls-alfalfa-sprouts-due-potential-e-coli-and-salmonella-risk",
+      "published": "2026-08-22T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Fromm Family Foods Voluntarily Recalls Turkey Pâté Wet Food For Dogs and Diner Classic Milo’s Meatloaf Pâté Wet Food For Dogs Due to Potential Metal Contamination",
+      "summary": "August 21, 2026, FROMM FAMILY FOODS of MEQUON, Wisconsin is recalling 3,852 cases of Fromm Turkey Pâté Wet canned dog food and 1,973 cases of Fromm Diner Classics Milo's Meatloaf Pâté Wet canned dog food due to potential metal contamination.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fromm-family-foods-voluntarily-recalls-turkey-pate-wet-food-dogs-and-diner-classic-milos-meatloaf",
+      "published": "2026-08-21T23:07:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Vitruvias Therapeutics, Inc Issues Nationwide Recall of One Lot of Thyroid Tablets, USP 30 mg Due to Potential Super Potency",
+      "summary": "AUBURN, Ala. (August 21, 2026) – Vitruvias Therapeutics, Inc. is voluntarily recalling one lot (Lot. No. 504950) of Thyroid Tablets, USP 30 mg to the consumer level. The product is being recalled because testing confirmed the potential for the product to be superpotent.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/vitruvias-therapeutics-inc-issues-nationwide-recall-one-lot-thyroid-tablets-usp-30-mg-due-potential",
+      "published": "2026-08-21T16:13:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Guidance: Guidance on pharmacovigilance procedures",
@@ -615,6 +850,42 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Early Alert: Epidural Kit Issue from Medical Action Industries",
+      "summary": "Medical Action Industries is correcting epidural kits containing recalled Huons Co. sodium chloride ampules.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-epidural-kit-issue-medical-action-industries",
+      "published": "2026-08-21T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Breathing Circuit Issue from Medline",
+      "summary": "Medline is recalling certain neonatal and infant heated wire breathing circuits due to failures involving the electrical connector.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-breathing-circuit-issue-medline",
+      "published": "2026-08-21T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Portrait Core Services Software Issue from GE HealthCare",
+      "summary": "Patients monitored on Portrait Mobile devices can be discharged (removed) from the Portrait monitoring system during an update to the Portrait Core Services software.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-portrait-core-services-software-issue-ge-healthcare",
+      "published": "2026-08-21T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Advisory Committee; Oncologic Drugs Advisory Committee; Renewal",
@@ -713,6 +984,18 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
+      "title": "Convenience Kit Recall: Medline Issues Correction for Convenience Kits Containing B. Braun Bupivacaine Hydrochloride Components",
+      "summary": "Medline is correcting affected convenience kits by removing included B. Braun components containing Huons Bupivacaine Hydrochloride in Dextrose Injection, USP.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-medline-issues-correction-convenience-kits-containing-b-braun-bupivacaine",
+      "published": "2026-08-20T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Advisory Committee; Cardiovascular and Renal Drugs Advisory Committee; Renewal",
       "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Cardiovascular and Renal Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Cardiovascular and Renal Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the August 27, 2028, expiration date.",
       "link": "https://www.federalregister.gov/documents/2026/08/20/2026-16999/advisory-committee-cardiovascular-and-renal-drugs-advisory-committee-renewal",
@@ -761,6 +1044,30 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "B. Braun Medical Inc. Issues Voluntary North American Recall of Excel® Lactated Ringers Injection, 1000mL Due to the Presence of Particulate Matter",
+      "summary": "FOR IMMEDIATE RELEASE – August 19, 2026– Bethlehem, PA, B. Braun Medical Inc (B. Braun), is voluntarily recalling one lot of Excel® Lactated Ringers Injection, 1000mL to the hospital/healthcare facility level, due to the presence of particulate matter in solution identified primarily as cellulose co",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-north-american-recall-excelr-lactated-ringers-injection-1000ml",
+      "published": "2026-08-19T21:07:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Prince Bakery Inc Issues Allergy Alert on Undeclared Milk and Sesame in Prince Bakery Breads",
+      "summary": "Prince Bakery of Bronx, New York is recalling Prince brand Sesame Italian Bread, Large Italian Bread, Large Sesame French Bread, Long Sesame French Bread and Pan de Manteca Spanish Style Bread because they may contain undeclared sesame or milk. People who have an allergy or severe sensitivity to s",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/prince-bakery-inc-issues-allergy-alert-undeclared-milk-and-sesame-prince-bakery-breads",
+      "published": "2026-08-19T19:57:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Clinical trials for medicines: modifying a clinical trial approval",
       "summary": "Guidance on the various types of modifications that can be made to a clinical trial approval.",
       "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-modifying-a-clinical-trial-approval",
@@ -771,6 +1078,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Optimal Balance Pharmacy Issues Voluntary Nationwide Recall of Certain Lots of Compounded Glutathione 200 mg/mL Multi-Dose Vials Due to Elevated Endotoxin Levels",
+      "summary": "FOR IMMEDIATE RELEASE – August 19, 2026 – Houston, Texas, Optimal Balance Pharmacy is voluntarily recalling one lot of Compounded Glutathione 200 MG/ML 30 ML Multi-Dose Vials to the patient level. The product is being recalled because pharmacy testing identified elevated bacterial endotoxin levels.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/optimal-balance-pharmacy-issues-voluntary-nationwide-recall-certain-lots-compounded-glutathione-200",
+      "published": "2026-08-19T14:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "SPECTRALIS® with Flex Module",
@@ -857,6 +1176,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Updated – Dreyer’s Grand Ice Cream, Inc. Issues Voluntary Recall on Select Outshine Fruit Bars Due to Possible Foreign Matter Contamination",
+      "summary": "August 18, 2026 - Dreyer’s Grand Ice Cream, Inc. is voluntarily recalling a limited number of select flavors of Outshine Fruit Bars due to possible foreign material contamination with glass. Products affected include Outshine Strawberry, Watermelon, Grape, Tangerine and Black Cherry 6-Count 2.5 ounc",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-dreyers-grand-ice-cream-inc-issues-voluntary-recall-select-outshine-fruit-bars-due-possible",
+      "published": "2026-08-18T22:35:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Field Safety Notices: 10 to 14 August 2026",
       "summary": "List of Field Safety Notices from 10 to 14 August 2026.",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-10-to-14-august-2026",
@@ -917,6 +1248,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Early Alert: Convenience Kit Issue from Becton Dickinson",
+      "summary": "BD is correcting convenience kits and procedural trays containing recalled Huons Co. sodium chloride ampules",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-becton-dickinson",
+      "published": "2026-08-18T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
       "title": "Determining Whether To Submit an ANDA or a 505(b)(2) Application; Draft Guidance for Industry; Availability",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a draft guidance for industry titled &quot;Determining Whether to Submit an ANDA or a 505(b)(2) Application.&quot; This draft guidance is intended to serve as a foundational guidance to assist applicants in determining which one of the abbreviated approval pathways under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) is appropriate for the submission of a marketing application to FDA. This draft…",
       "link": "https://www.federalregister.gov/documents/2026/08/18/2026-16837/determining-whether-to-submit-an-anda-or-a-505b2-application-draft-guidance-for-industry",
@@ -941,6 +1284,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "L-Nutra Issues Allergy Alert on Undeclared Tree Nuts in Prolon Brand Apulian Almond & Cocoa Spread",
+      "summary": "L-Nutra of Culver City, California is recalling Prolon brand Apulian Almond &amp; Cocoa Spread because it contains undeclared cashew, pistachio, and hazelnut. People who have an allergy or severe sensitivity to cashew, pistachio, and/or hazelnut run the risk of serious or life-threatening allergic react",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/l-nutra-issues-allergy-alert-undeclared-tree-nuts-prolon-brand-apulian-almond-cocoa-spread",
+      "published": "2026-08-18T00:02:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Corporate report: MHRA-NICE Real-World Evidence Scientific Dialogue",
       "summary": "A programme to help decision making across the lifecycle of products, benefitting both regulatory and health technology assessment (HTA) evaluations.",
       "link": "https://www.gov.uk/government/publications/mhra-nice-real-world-evidence-scientific-dialogue",
@@ -951,6 +1306,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "UPDATED: Oma's Pride Voluntarily Recalls One Lot of Woof Complete  Canine Chicken Recipe (6 Lb Bag) Because of Possible Salmonella Health Risk",
+      "summary": "Oma's Pride of Avon, Connecticut, is voluntarily recalling one lot of Woof Complete Canine Chicken Recipe, 6 lb bag (Lot BB012729) because it is contaminated with Salmonella.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-omas-pride-voluntarily-recalls-one-lot-woof-complete-canine-chicken-recipe-6-lb-bag-because",
+      "published": "2026-08-17T21:55:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "Decision: Suspended and revoked licences and registrations for manufacturers and wholesalers of medicines and ingredients",
@@ -1011,6 +1378,18 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Intraosseous Needle Set Recall: Becton Dickinson Removes Certain Intraosseous Vascular Access System Needle Sets",
+      "summary": "BD is recalling certain BD Intraosseous Vascular Access System Needle Sets due to difficulty removing the obturator (stylet) following placement.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/intraosseous-needle-set-recall-becton-dickinson-removes-certain-intraosseous-vascular-access-system",
+      "published": "2026-08-17T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Medical Devices; Classification of Accessories Distinct From Other Devices; Proposed List of Accessories Suitable for Class I; Request for Comments",
@@ -1121,6 +1500,42 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "Melanotan II tanning peptide products found to be inconsistently dosed",
+      "summary": "TGA is warning consumers against using Melanotan II tanning products.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/melanotan-ii-tanning-peptide-products-found-be-inconsistently-dosed",
+      "published": "2026-08-16T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "The Hampton Grocers, Inc . Recalls It’s 8 Ounce Packages of “Lacnola Lactation Granola” Because of Possible Health Risk",
+      "summary": "The Hampton Grocers, Inc. of Montauk, NY is recalling Lacnola Lactation Granola, 8oz, because it has the potential to be contaminated with Salmonella, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune system",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hampton-grocers-inc-recalls-its-8-ounce-packages-lacnola-lactation-granola-because-possible-health",
+      "published": "2026-08-14T23:07:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Exotique Foods Inc Recalls Momchipz Veggie Chips Broccoli Florets & Cauliflower Due to Undeclared Wheat",
+      "summary": "August 14, 2026, Exotique Foods Inc in Ontario, Canada is recalling Momchipz Veggie Chips Broccoli Florets &amp; Cauliflower because it may contain undeclared wheat. People who have an allergy or severe sensitivity to wheat run the risk of serious or life-threatening allergic reaction if they consume",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/exotique-foods-inc-recalls-momchipz-veggie-chips-broccoli-florets-cauliflower-due-undeclared-wheat",
+      "published": "2026-08-14T20:12:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
       "title": "Endotracheal Tube, Cuffed",
       "summary": "The 6FR suction catheter could not pass smoothly through the 2.5mm sizes of cuffed tracheal tube. This may lead to reintubations if the airway is unable to be suctioned.To date, there have been two complaints reported from united states customers where one required reintubation. No serious patient harm has occurred.",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/endotracheal-tube-cuffed",
@@ -1215,6 +1630,30 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Updated – Grand Central Bakery Seattle Recalls Potato Sourdough Bread Due to Possible Foreign Object",
+      "summary": "August 19, 2026, Grand Central Bakery of Seattle, WA is recalling loaves of Potato Sourdough bread due to the potential presence of pieces of metal.",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-grand-central-bakery-seattle-recalls-potato-sourdough-bread-due-possible-foreign-object",
+      "published": "2026-08-13T18:49:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
+    },
+    {
+      "title": "Substitutions available for shortage of Dapsone 25 mg tablets",
+      "summary": "Dapsone 50 mg tablets can be supplied and halved during the shortage.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitutions-available-shortage-dapsone-25-mg-tablets",
+      "published": "2026-08-13T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "COVID-19 test approval: how to apply",
@@ -1323,6 +1762,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Kettle Cuisine Recalls Marketside Tomato Bisque Soup Kit – Sold Exclusively at Walmart Stores Because of Possible Health Risk",
+      "summary": "Kettle Cuisine LLC of Savage, MD is recalling Marketside Tomato Bisque Soup Kit – 14oz (397g) because the product has the potential to be contaminated with Listeria monocytogenes, an organism that can cause serious and sometimes fatal infections in young children, frail or elderly people, and others",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kettle-cuisine-recalls-marketside-tomato-bisque-soup-kit-sold-exclusively-walmart-stores-because",
+      "published": "2026-08-12T20:43:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-recalls",
+      "feed_label": "FDA Recalls",
+      "source": "FDA Recalls"
     },
     {
       "title": "MHRA reaffirms the safety of childhood vaccination",
@@ -2777,6 +3228,18 @@
       "source": "Federal Register — FDA documents"
     },
     {
+      "title": "GLP-1 RAs and rare, but severe, eye disorders",
+      "summary": "Product warnings across the GLP-1 RA class of medicines have been updated due to the potential for these products to cause a rare, but severe, form of eye disorder.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/glp-1-ras-and-rare-severe-eye-disorders",
+      "published": "2026-07-22T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "HeartSine® Samaritan® PAD SAM 350P/SAM 360P/SAM 500P",
       "summary": "Stryker has identified a limited number of HeartSine samaritan PAD devices that were distributed without the required maintenance supplement. This supplement contains periodic maintenance instructions implemented as an additional risk-control measure. While most devices contain the maintenance supplement, this voluntary correction is being initiated to ensure all end users have access to supplemental maintenance information. This issue was identified through a customer complaint.",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/heartsiner-samaritanr-pad-sam-350psam-360psam-500p",
@@ -3389,6 +3852,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Publication of dashboard version 3.5 for the Study supporting the monitoring of availability of medical devices on the EU market",
+      "summary": "Publication of dashboard version 3.5 for the Study supporting the monitoring of availability of medical devices on the EU market",
+      "link": "https://health.ec.europa.eu/latest-updates/monitoring-availability-medical-devices-eu-market-2024-01-09_en",
+      "published": "2026-07-14T12:28:28+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
       "title": "Field Safety Notices: 6 to 10 July 2026",
       "summary": "List of Field Safety Notices from 6 to 10 July 2026.",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-6-to-10-july-2026",
@@ -3521,6 +3996,18 @@
       "source": "EMA News & Press Releases"
     },
     {
+      "title": "Key Sun Kids Homeopathic Products",
+      "summary": "Key Sun Laboratories Pty Ltd is recalling 13 batches of Key Sun Kids Homeopathic Products, due to the risk of a small metal wire being present in the lozenge.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/key-sun-kids-homeopathic-products",
+      "published": "2026-07-09T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Access, new active substance and biosimilar work sharing initiatives",
       "summary": "Information on applying for New Active Substance Work Sharing Initiative (NASWSI) and Biosimilar Work Sharing Initiative (BSWSI) assessments and list of approved products.",
       "link": "https://www.gov.uk/guidance/access-new-active-substance-nas-work-sharing-initiative",
@@ -3629,6 +4116,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Performance concerns identified with TouchBio Chlamydia and Gonorrhoea self-test",
+      "summary": "TGA reviewed the TouchBio Chlamydia &amp; Gonorrhoea self-test (for females) to verify its performance.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/performance-concerns-identified-touchbio-chlamydia-and-gonorrhoea-self-test",
+      "published": "2026-07-08T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Alice Le System - Sleepware Software",
       "summary": "Philips Respironics has become aware of a compliance issue with Sleepware G3 versions 4.0.0.0 and above, where the original 4.0 update was not licensed appropriately in Canada for a significant change in the software from the previous version. Therefore, all versions of Sleepware G3 distributed in Canada of versions 4.0.0.0 and above are not licensed for distribution in Canada.",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/alice-system-sleepware-software",
@@ -3713,6 +4212,18 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Counterfeit 'honey' sachets for sexual enhancement",
+      "summary": "We are advising consumers that sexual enhancement products labelled as ‘honey’ may pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/counterfeit-honey-sachets-sexual-enhancement",
+      "published": "2026-07-07T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "EMA fast tracks review of a medicine for metastatic pancreatic cancer",
       "summary": "EMA’s human medicines committee (CHMP) has started a phased review of data on daraxonrasib, a medicine intended for the treatment of metastatic pancreatic cancer. A phased…",
       "link": "https://www.ema.europa.eu/en/news/ema-fast-tracks-review-medicine-metastatic-pancreatic-cancer",
@@ -3771,6 +4282,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Herbal preparations containing Withania somnifera (Withania, Ashwagandha)",
+      "summary": "Cases of liver injury associated with herbal preparations containing Withania somnifera, commonly known as Ashwagandha, continue to be reported both in Australia and internationally.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/herbal-preparations-containing-withania-somnifera-withania-ashwagandha",
+      "published": "2026-07-06T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Hotline IV Fluid Warmer System & Accessories",
@@ -3879,6 +4402,30 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Unapproved SARMs found to be significantly underdosed",
+      "summary": "We are advising that Eagle Research Lab branded selective androgen receptor modulators (SARMs) pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/unapproved-sarms-found-be-significantly-underdosed",
+      "published": "2026-07-05T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
+      "title": "Aidacare Aspire A205 Aluminium Patient Lifter",
+      "summary": "Aidacare Pty Ltd has updated the Instructions for Use (IFU) for the Aspire A205 Aluminium Patient Lifter. The IFU has been enhanced to strengthen existing instructions around correct and incorrect sling attachment methods and pre-use checks.",
+      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/aidacare-aspire-a205-aluminium-patient-lifter",
+      "published": "2026-07-05T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "Semaglutide (Wegovy) approved to treat form of liver disease",
@@ -4157,6 +4704,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "ITCHA SSS capsules",
+      "summary": "We are advising consumers that ITCHA SSS capsules, marketed for weight management, have been found to contain oxedrine, an undisclosed prescription-only medicine.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/itcha-sss-capsules",
+      "published": "2026-07-01T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "MHRA authorises gemcitabine delivery system for adults with BCG-unresponsive high-risk non-muscle invasive bladder cancer",
       "summary": "As with any medicinal product, the MHRA will keep the safety and effectiveness of the intravesical delivery system containing gemcitabine under close review.",
       "link": "https://www.gov.uk/government/news/mhra-authorises-gemcitabine-delivery-system-for-adults-with-bcg-unresponsive-high-risk-non-muscle-invasive-bladder-cancer",
@@ -4301,6 +4860,30 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Medical Devices: Delegated acts on well-established technologies published",
+      "summary": "Medical Devices: Delegated acts on well-established technologies published",
+      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/77013",
+      "published": "2026-06-29T14:16:49+00:00",
+      "agency": "EU",
+      "region": "European Union",
+      "category": "prepub",
+      "feed_id": "eur-lex",
+      "feed_label": "EUR-Lex",
+      "source": "EUR-Lex — Recent regulations & directives"
+    },
+    {
+      "title": "Grakcu capsules",
+      "summary": "We are advising consumers that Grakcu capsules may pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/grakcu-capsules",
+      "published": "2026-06-29T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Abiomed Introducer Kits with Impella Heart Pumps",
       "summary": "Abiomed has initiated a voluntary medical device recall (correction) for all currently distributed Introducer kits that are used with Impella heart pumps to notify customers of a potential for unexpected introducer sheath leakage from the sidearm and under the sheath cap and along the hub score lines in the hub region. Introducer leakage may impair hemostasis and increase the risk of access-site bleeding, particularly in anticoagulated patients. This information is provided to support…",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/abiomed-introducer-kits-impella-heart-pumps",
@@ -4383,6 +4966,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Sexual enhancement supplements found to contain undeclared prescription medicines",
+      "summary": "The Therapeutic Goods Administration (TGA) is advising consumers that several sexual enhancement products have been found to contain undeclared ingredients and may pose a serious risk to your health.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/sexual-enhancement-supplements-found-contain-undeclared-prescription-medicines",
+      "published": "2026-06-28T14:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
     },
     {
       "title": "La Ceiba Foods Latin Market Inc. Recalls Cottage Cheese Products Because of Possible Health Risk",
@@ -9270,7 +9865,7 @@
     },
     {
       "title": "Extension of substitution approval for shortage of Catapres (clonidine) 150 mcg tablets",
-      "summary": "Serious Scarcity Substitution Instrument (SSSI) allows continuous access to Catapres (clonidine) 150 mcg tablets during an anticipated new shortage.",
+      "summary": "Serious Scarcity Substitution Instrument (SSSI) has lapsed and product is available.",
       "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/extension-substitution-approval-shortage-catapres-clonidine-150-mcg-tablets",
       "published": "2026-04-27T14:00:00+00:00",
       "agency": "TGA",
@@ -9891,18 +10486,6 @@
       "feed_id": "tga-news",
       "feed_label": "TGA News",
       "source": "TGA news & alerts"
-    },
-    {
-      "title": "Early Alert: Convenience Kit Issue from AVID Medical",
-      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-avid-medical",
-      "published": "2026-04-10T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Ventilator Correction: Baxter Updates Use Instructions for Volara Single-Patient Use Circuits",
@@ -10554,7 +11137,7 @@
     },
     {
       "title": "New Presolol (labetalol) tablet shortage: substitution instrument and overseas-registered alternative approved",
-      "summary": "Information and approvals to manage Presolol 200 tablet shortage",
+      "summary": "PRESOLOL 200 TABLET SHORTAGE HAS RESOLVED.",
       "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/new-presolol-labetalol-tablet-shortage-substitution-instrument-and-overseas-registered-alternative-approved",
       "published": "2026-01-27T13:00:00+00:00",
       "agency": "TGA",
@@ -10613,9 +11196,9 @@
       "source": "TGA news & alerts"
     },
     {
-      "title": "Changes to the supply of insulin products",
-      "summary": "Pharmaceutical companies Novo Nordisk and Eli Lilly are discontinuing some of their insulin products.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/changes-supply-insulin-products",
+      "title": "Substitutions approved for shortage of Catapres (clonidine) 150 mcg tablets",
+      "summary": "The&nbsp;initial Serious Scarcity Substitution Instrument (SSSI) has been extended - refer to new medicine shortage alert: \"Extension of substitution approval for shortage of Catapres (clonidine) 150 mcg tablets\"",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitutions-approved-shortage-catapres-clonidine-150-mcg-tablets",
       "published": "2025-12-21T13:00:00+00:00",
       "agency": "TGA",
       "region": "Australia",
@@ -10625,9 +11208,9 @@
       "source": "TGA news & alerts"
     },
     {
-      "title": "Substitutions approved for shortage of Catapres (clonidine) 150 mcg tablets",
-      "summary": "The&nbsp;initial Serious Scarcity Substitution Instrument (SSSI) has been extended - refer to new medicine shortage alert: \"Extension of substitution approval for shortage of Catapres (clonidine) 150 mcg tablets\"",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitutions-approved-shortage-catapres-clonidine-150-mcg-tablets",
+      "title": "Changes to the supply of insulin products",
+      "summary": "Pharmaceutical companies Novo Nordisk and Eli Lilly are discontinuing some of their insulin products.",
+      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/changes-supply-insulin-products",
       "published": "2025-12-21T13:00:00+00:00",
       "agency": "TGA",
       "region": "Australia",
@@ -10721,6 +11304,18 @@
       "source": "TGA news & alerts"
     },
     {
+      "title": "Manasamitra Vadakam tablets (Ayurvedic medicine)",
+      "summary": "Manasamitra Vakakam tablets pose a serious risk to your health and should not be taken.",
+      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/manasamitra-vadakam-tablets-ayurvedic-medicine",
+      "published": "2025-12-09T13:00:00+00:00",
+      "agency": "TGA",
+      "region": "Australia",
+      "category": "postmarket",
+      "feed_id": "tga-news",
+      "feed_label": "TGA News",
+      "source": "TGA news & alerts"
+    },
+    {
       "title": "Brahmi Vati tablets (Ayurvedic medicine)",
       "summary": "Brahmi Vati tablets pose a serious risk to your health and should not be taken.",
       "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/brahmi-vati-tablets-ayurvedic-medicine",
@@ -10736,18 +11331,6 @@
       "title": "Kumar Kalyan Rasa tablets (Ayurvedic medicine)",
       "summary": "Kumar Kalyan Rasa tablets pose a serious risk to your health and should not be taken.",
       "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/kumar-kalyan-rasa-tablets-ayurvedic-medicine",
-      "published": "2025-12-09T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Manasamitra Vadakam tablets (Ayurvedic medicine)",
-      "summary": "Manasamitra Vakakam tablets pose a serious risk to your health and should not be taken.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/manasamitra-vadakam-tablets-ayurvedic-medicine",
       "published": "2025-12-09T13:00:00+00:00",
       "agency": "TGA",
       "region": "Australia",
