@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-28T16:46:05.137089+00:00",
+  "generated_at": "2026-08-28T23:26:48.216489+00:00",
   "item_count": 966,
   "feed_count": 12,
-  "new_this_run": 48,
+  "new_this_run": 0,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -40,26 +40,26 @@
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
-      "status": "ok",
-      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
-      "last_success": "2026-08-28T16:46:05.137089+00:00",
-      "items_fetched": 20,
-      "source": "manual-fetch"
+      "status": "error",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_attempt_reason": "HTTP 404: Not Found",
+      "items_fetched": 0,
+      "last_success": "2026-08-28T16:46:05.137089+00:00"
     },
     {
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
-      "status": "ok",
-      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
-      "last_success": "2026-08-28T16:46:05.137089+00:00",
-      "items_fetched": 20,
-      "source": "manual-fetch"
+      "status": "error",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_attempt_reason": "HTTP 404: Not Found",
+      "items_fetched": 0,
+      "last_success": "2026-08-28T16:46:05.137089+00:00"
     },
     {
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_success": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_success": "2026-08-28T23:19:13.009193+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_success": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_success": "2026-08-28T23:19:13.009193+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_success": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_success": "2026-08-28T23:19:13.009193+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,51 +114,56 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_success": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_success": "2026-08-28T23:19:13.009193+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
     {
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
-      "status": "ok",
-      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
-      "last_success": "2026-08-28T16:46:05.137089+00:00",
-      "items_fetched": 50,
-      "source": "manual-fetch"
+      "status": "error",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_attempt_reason": "The read operation timed out",
+      "items_fetched": 0,
+      "last_success": "2026-08-28T16:46:05.137089+00:00"
     },
     {
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-08-28T13:42:54.394668+00:00",
-      "last_success": "2026-08-28T13:42:54.394668+00:00",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_success": "2026-08-28T23:19:13.009193+00:00",
       "items_fetched": 1,
       "last_success_item_count": 1
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "ok",
-      "last_attempt": "2026-08-28T16:46:05.137089+00:00",
-      "last_success": "2026-08-28T16:46:05.137089+00:00",
-      "items_fetched": 30,
-      "source": "manual-fetch"
+      "status": "empty",
+      "last_attempt": "2026-08-28T23:19:13.009193+00:00",
+      "last_attempt_reason": "feed returned 0 entries",
+      "last_success": "2026-08-28T23:19:13.009193+00:00",
+      "items_fetched": 0
     }
-  ],
-  "manual_fetch_at": "2026-08-28T16:46:05.137089+00:00",
-  "manual_fetched_feeds": [
-    "eur-lex",
-    "fda-medwatch",
-    "fda-recalls",
-    "tga-news"
   ],
   "items": [
     {
       "title": "Carestation 850",
       "summary": "Unexpected shutdown of Carestation 850 and 850C anesthesia systems when AC mains power is disconnected or AC mains power is lost.",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/carestation-850",
+      "published": "2026-08-28T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Blanketrol® II 115V and Blanketrol® III 115V",
+      "summary": "Gentherm Medical has received complaints of overheated circuit boards in 0.53% of distributed devices. Overheating can cause the circuit board to stop operating, which may result in a device that shuts down at startup or during use on a patient. Based on the low probability of harm, and absence of reported harm, associated with this issue, users may continue to use the device. In an abundance of caution, it is recommended to have an alternative means of providing therapy available.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/blanketrolr-ii-115v-and-blanketrolr-iii-115v",
       "published": "2026-08-28T12:00:00+00:00",
       "agency": "HC",
       "region": "Canada",
@@ -312,6 +317,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Second Extension of Effective Date of Final Resolution of Drug Efficacy Study Implementation 7661",
+      "summary": "The Food and Drug Administration (FDA or Agency) is extending the effective date of the notice published in the Federal Register on May 27, 2026, entitled &quot;Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Syntest D.S. and Syntest H.S. Tablets; Withdrawal of Hearing Requests; Final Resolution of Drug Efficacy Study Implementation 7661&quot; (91 FR 31462) (the &quot;May 2026 Notice&quot;), as previously extended by the notice…",
+      "link": "https://www.federalregister.gov/documents/2026/08/27/2026-17498/drugs-for-human-use-drug-efficacy-study-implementation-estrogen-androgen-fixed-combination-drug",
+      "published": "2026-08-27T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Early Alert: Esophageal pH Monitoring Capsule Delivery Device Issue from Medtronic and Given Imaging",
       "summary": "The Medtronic and Given Imaging Bravo CF esophageal pH monitoring capsule can fail to attach to the esophagus or detach from its delivery device.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-esophageal-ph-monitoring-capsule-delivery-device-issue-medtronic-and-given-imaging",
@@ -334,18 +351,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Second Extension of Effective Date of Final Resolution of Drug Efficacy Study Implementation 7661",
-      "summary": "The Food and Drug Administration (FDA or Agency) is extending the effective date of the notice published in the Federal Register on May 27, 2026, entitled &quot;Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Syntest D.S. and Syntest H.S. Tablets; Withdrawal of Hearing Requests; Final Resolution of Drug Efficacy Study Implementation 7661&quot; (91 FR 31462) (the &quot;May 2026 Notice&quot;), as previously extended by the notice…",
-      "link": "https://www.federalregister.gov/documents/2026/08/27/2026-17498/drugs-for-human-use-drug-efficacy-study-implementation-estrogen-androgen-fixed-combination-drug",
-      "published": "2026-08-27T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Opportunities for patients and the public to be involved in the work of the MHRA",
@@ -468,30 +473,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Percutaneous Catheter Recall: Boston Scientific Removes ENROUTE Transcarotid Neuroprotection System",
-      "summary": "ENROUTE Transcarotid Neuroprotection Systems may have arterial sheath tip separation or partial tip separation during use.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/percutaneous-catheter-recall-boston-scientific-removes-enroute-transcarotid-neuroprotection-system",
-      "published": "2026-08-26T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Early Alert: Heart Pump Controller Purge Cassette Issue from Abiomed",
-      "summary": "Abiomed is removing Automated Impella Controllers due to purge cassette recognition failures that may lead to prolonged delayed in mechanical circulatory support.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-purge-cassette-issue-abiomed",
-      "published": "2026-08-26T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Determination That CABAZITAXEL (Cabazitaxel) Solution (Injection), 60 Milligrams/6 Milliliters (10 Milligrams/Milliliter), Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that CABAZITAXEL (cabazitaxel) solution (injection), 60 milligrams (mg)/6 milliliters (mL) (10 mg/mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for Cabazitaxel (cabazitaxel) solution (injection), 60 mg/6 mL (10 mg/mL), if all other legal and regulatory requirements are met.",
       "link": "https://www.federalregister.gov/documents/2026/08/26/2026-17401/determination-that-cabazitaxel-cabazitaxel-solution-injection-60-milligrams6-milliliters-10",
@@ -526,6 +507,30 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Percutaneous Catheter Recall: Boston Scientific Removes ENROUTE Transcarotid Neuroprotection System",
+      "summary": "ENROUTE Transcarotid Neuroprotection Systems may have arterial sheath tip separation or partial tip separation during use.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/percutaneous-catheter-recall-boston-scientific-removes-enroute-transcarotid-neuroprotection-system",
+      "published": "2026-08-26T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Early Alert: Heart Pump Controller Purge Cassette Issue from Abiomed",
+      "summary": "Abiomed is removing Automated Impella Controllers due to purge cassette recognition failures that may lead to prolonged delayed in mechanical circulatory support.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-heart-pump-controller-purge-cassette-issue-abiomed",
+      "published": "2026-08-26T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Baxter Issues Voluntary Nationwide Recall for One Lot of Anticoagulant Sodium Citrate Solution Due to Potential Presence of Particulate Matter",
@@ -684,6 +689,42 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
+      "title": "Food and Drug Administration Modernization Act of 1997: Modifications to the List of Recognized Standards, Recognition List Number: 066",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing a publication containing modifications the Agency is making to the list of standards FDA recognizes for use in premarket reviews (FDA Recognized Consensus Standards). This publication, entitled &quot;Modifications to the List of Recognized Standards, Recognition List Number: 066&quot; (Recognition List Number: 066), will assist manufacturers who elect to declare conformity with consensus standards to meet certain requirements…",
+      "link": "https://www.federalregister.gov/documents/2026/08/24/2026-17229/food-and-drug-administration-modernization-act-of-1997-modifications-to-the-list-of-recognized",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support abbreviated new drug applications (ANDAs). In the Federal Register of June 11, 2010, FDA announced the availability of a guidance for industry titled &quot;Bioequivalence Recommendations for Specific Products&quot;…",
+      "link": "https://www.federalregister.gov/documents/2026/08/24/2026-17222/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Evaluation of Therapeutic Equivalence; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Evaluation of Therapeutic Equivalence.&quot; This guidance explains FDA's thinking on therapeutic equivalence evaluations and therapeutic equivalence codes (TE codes). FDA's therapeutic equivalence evaluations are listed for multisource prescription drug products approved under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) in the active section of the…",
+      "link": "https://www.federalregister.gov/documents/2026/08/24/2026-17215/evaluation-of-therapeutic-equivalence-guidance-for-industry-availability",
+      "published": "2026-08-24T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Early Alert:  Convenience Kit Issue from AVID Medical",
       "summary": "Certain AVID Medical convenience kits containing recalled BD ChloraPrep applicators should be removed from use due to potential fungal contamination",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-avid-medical",
@@ -730,42 +771,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Food and Drug Administration Modernization Act of 1997: Modifications to the List of Recognized Standards, Recognition List Number: 066",
-      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing a publication containing modifications the Agency is making to the list of standards FDA recognizes for use in premarket reviews (FDA Recognized Consensus Standards). This publication, entitled &quot;Modifications to the List of Recognized Standards, Recognition List Number: 066&quot; (Recognition List Number: 066), will assist manufacturers who elect to declare conformity with consensus standards to meet certain requirements…",
-      "link": "https://www.federalregister.gov/documents/2026/08/24/2026-17229/food-and-drug-administration-modernization-act-of-1997-modifications-to-the-list-of-recognized",
-      "published": "2026-08-24T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support abbreviated new drug applications (ANDAs). In the Federal Register of June 11, 2010, FDA announced the availability of a guidance for industry titled &quot;Bioequivalence Recommendations for Specific Products&quot;…",
-      "link": "https://www.federalregister.gov/documents/2026/08/24/2026-17222/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
-      "published": "2026-08-24T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Evaluation of Therapeutic Equivalence; Guidance for Industry; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Evaluation of Therapeutic Equivalence.&quot; This guidance explains FDA's thinking on therapeutic equivalence evaluations and therapeutic equivalence codes (TE codes). FDA's therapeutic equivalence evaluations are listed for multisource prescription drug products approved under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) in the active section of the…",
-      "link": "https://www.federalregister.gov/documents/2026/08/24/2026-17215/evaluation-of-therapeutic-equivalence-guidance-for-industry-availability",
-      "published": "2026-08-24T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Everything Sprouts, LLC Recalls Alfalfa Sprouts Due to Potential E. Coli and Salmonella Risk",
@@ -852,6 +857,18 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
+      "title": "Advisory Committee; Oncologic Drugs Advisory Committee; Renewal",
+      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Oncologic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Oncologic Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the September 1, 2028, expiration date.",
+      "link": "https://www.federalregister.gov/documents/2026/08/21/2026-17084/advisory-committee-oncologic-drugs-advisory-committee-renewal",
+      "published": "2026-08-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Early Alert: Epidural Kit Issue from Medical Action Industries",
       "summary": "Medical Action Industries is correcting epidural kits containing recalled Huons Co. sodium chloride ampules.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-epidural-kit-issue-medical-action-industries",
@@ -886,18 +903,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Advisory Committee; Oncologic Drugs Advisory Committee; Renewal",
-      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Oncologic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Oncologic Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the September 1, 2028, expiration date.",
-      "link": "https://www.federalregister.gov/documents/2026/08/21/2026-17084/advisory-committee-oncologic-drugs-advisory-committee-renewal",
-      "published": "2026-08-21T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     },
     {
       "title": "MHRA advises against using rectal catheters sold for personal use in infants",
@@ -984,18 +989,6 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
-      "title": "Convenience Kit Recall: Medline Issues Correction for Convenience Kits Containing B. Braun Bupivacaine Hydrochloride Components",
-      "summary": "Medline is correcting affected convenience kits by removing included B. Braun components containing Huons Bupivacaine Hydrochloride in Dextrose Injection, USP.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-medline-issues-correction-convenience-kits-containing-b-braun-bupivacaine",
-      "published": "2026-08-20T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Advisory Committee; Cardiovascular and Renal Drugs Advisory Committee; Renewal",
       "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Cardiovascular and Renal Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Cardiovascular and Renal Drugs Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the August 27, 2028, expiration date.",
       "link": "https://www.federalregister.gov/documents/2026/08/20/2026-16999/advisory-committee-cardiovascular-and-renal-drugs-advisory-committee-renewal",
@@ -1042,6 +1035,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Convenience Kit Recall: Medline Issues Correction for Convenience Kits Containing B. Braun Bupivacaine Hydrochloride Components",
+      "summary": "Medline is correcting affected convenience kits by removing included B. Braun components containing Huons Bupivacaine Hydrochloride in Dextrose Injection, USP.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-medline-issues-correction-convenience-kits-containing-b-braun-bupivacaine",
+      "published": "2026-08-20T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "B. Braun Medical Inc. Issues Voluntary North American Recall of Excel® Lactated Ringers Injection, 1000mL Due to the Presence of Particulate Matter",
@@ -1248,18 +1253,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Early Alert: Convenience Kit Issue from Becton Dickinson",
-      "summary": "BD is correcting convenience kits and procedural trays containing recalled Huons Co. sodium chloride ampules",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-becton-dickinson",
-      "published": "2026-08-18T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Determining Whether To Submit an ANDA or a 505(b)(2) Application; Draft Guidance for Industry; Availability",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a draft guidance for industry titled &quot;Determining Whether to Submit an ANDA or a 505(b)(2) Application.&quot; This draft guidance is intended to serve as a foundational guidance to assist applicants in determining which one of the abbreviated approval pathways under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) is appropriate for the submission of a marketing application to FDA. This draft…",
       "link": "https://www.federalregister.gov/documents/2026/08/18/2026-16837/determining-whether-to-submit-an-anda-or-a-505b2-application-draft-guidance-for-industry",
@@ -1282,6 +1275,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Early Alert: Convenience Kit Issue from Becton Dickinson",
+      "summary": "BD is correcting convenience kits and procedural trays containing recalled Huons Co. sodium chloride ampules",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-becton-dickinson",
+      "published": "2026-08-18T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "L-Nutra Issues Allergy Alert on Undeclared Tree Nuts in Prolon Brand Apulian Almond & Cocoa Spread",
@@ -1380,18 +1385,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Intraosseous Needle Set Recall: Becton Dickinson Removes Certain Intraosseous Vascular Access System Needle Sets",
-      "summary": "BD is recalling certain BD Intraosseous Vascular Access System Needle Sets due to difficulty removing the obturator (stylet) following placement.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/intraosseous-needle-set-recall-becton-dickinson-removes-certain-intraosseous-vascular-access-system",
-      "published": "2026-08-17T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Medical Devices; Classification of Accessories Distinct From Other Devices; Proposed List of Accessories Suitable for Class I; Request for Comments",
       "summary": "As required by the FDA Reauthorization Act of 2017 (FDARA), the Food and Drug Administration (FDA or Agency) has identified a list of accessories for which the Agency believes general controls alone are sufficient to provide reasonable assurance of safety and effectiveness, making them appropriate for class I classification. FDA is publishing this document proposing to classify these accessories into class I and distinct from other devices, as well as seeking public comment in accordance with…",
       "link": "https://www.federalregister.gov/documents/2026/08/17/2026-16729/medical-devices-classification-of-accessories-distinct-from-other-devices-proposed-list-of",
@@ -1402,6 +1395,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Intraosseous Needle Set Recall: Becton Dickinson Removes Certain Intraosseous Vascular Access System Needle Sets",
+      "summary": "BD is recalling certain BD Intraosseous Vascular Access System Needle Sets due to difficulty removing the obturator (stylet) following placement.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/intraosseous-needle-set-recall-becton-dickinson-removes-certain-intraosseous-vascular-access-system",
+      "published": "2026-08-17T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "postmarket",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Gastroenterology-Urology Devices; Reclassification of Diagnostic Endoscopic Light Source Systems To Be Renamed Cystoscopic Systems Intended as an Aid for Detection of Bladder Cancer",
@@ -2770,18 +2775,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Blanketrol® II 115V and Blanketrol® III 115V",
-      "summary": "Gentherm Medical has received complaints of overheated circuit boards in 0.53% of distributed devices. Overheating can cause the circuit board to stop operating, which may result in a device that shuts down at startup or during use on a patient.Based on the low probability of harm, and absence of reported harm, associated with this issue, users may continue to use the device. In an abundance of caution, it is recommended to have an alternative means of providing therapy available.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/blanketrolr-ii-115v-and-blanketrolr-iii-115v",
-      "published": "2026-07-28T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "IQecg® Digital ECG",
