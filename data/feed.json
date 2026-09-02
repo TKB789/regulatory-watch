@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T02:15:51.601339+00:00",
-  "item_count": 976,
+  "generated_at": "2026-09-02T08:22:57.500535+00:00",
+  "item_count": 982,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
-      "last_success": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
+      "last_success": "2026-09-02T08:15:21.714438+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
-      "last_success": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
+      "last_success": "2026-09-02T08:15:21.714438+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
-      "last_success": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
+      "last_success": "2026-09-02T08:15:21.714438+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
-      "last_success": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
+      "last_success": "2026-09-02T08:15:21.714438+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
-      "last_success": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
+      "last_success": "2026-09-02T08:15:21.714438+00:00",
       "items_fetched": 1,
       "last_success_item_count": 1
     },
@@ -141,13 +141,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-02T02:08:13.460179+00:00",
+      "last_attempt": "2026-09-02T08:15:21.714438+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-02T02:08:13.460179+00:00",
+      "last_success": "2026-09-02T08:15:21.714438+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Determination That CARAFATE (Sucralfate) Oral Suspension, 1 Gram/10 Milliliters, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that CARAFATE (sucralfate) oral suspension, 1 gram (g)/10 milliliters (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and…",
+      "link": "https://www.federalregister.gov/documents/2026/09/02/2026-17968/determination-that-carafate-sucralfate-oral-suspension-1-gram10-milliliters-was-not-withdrawn-from",
+      "published": "2026-09-02T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Pharmacokinetics in Patients With Impaired Hepatic Function: Study Design, Data Analysis, and Impact on Dosage; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA) is announcing the availability of a draft guidance for industry titled &quot;Pharmacokinetics in Patients with Impaired Hepatic Function: Study Design, Data Analysis, and Impact on Dosage.&quot; This guidance assists sponsors in the design and analysis of studies that assess the influence of hepatic impairment on the pharmacokinetics and, where appropriate, the pharmacodynamics of a drug, including therapeutic biological products. When final, this…",
+      "link": "https://www.federalregister.gov/documents/2026/09/02/2026-17961/pharmacokinetics-in-patients-with-impaired-hepatic-function-study-design-data-analysis-and-impact-on",
+      "published": "2026-09-02T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Dental Composite Resin Devices and Dental Curing Lights-Premarket Notification (510(k)) Submissions Guidances; Guidances for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of two final guidances titled &quot;Dental Composite Resin Devices--Premarket Notification (510(k)) Submissions&quot; and &quot;Dental Curing Lights--Premarket Notification (510(k)) Submissions.&quot; These guidance documents provide recommendations for device description, performance testing, and labeling to include in 510(k) submissions for dental composite resin devices and dental curing lights. These guidances…",
+      "link": "https://www.federalregister.gov/documents/2026/09/02/2026-17933/dental-composite-resin-devices-and-dental-curing-lights-premarket-notification-510k-submissions",
+      "published": "2026-09-02T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Issuance of Priority Review Voucher; Rare Pediatric Disease Product; GENGLYCOS (parisglasgene brecaparvovec-opnr)",
+      "summary": "The Food and Drug Administration (FDA) is announcing the issuance of a priority review voucher to the sponsor of a rare pediatric disease product application. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) authorizes FDA to award priority review vouchers to sponsors of approved rare pediatric disease product applications that meet certain criteria. FDA is required to publish notice of the award of the priority review voucher. FDA has determined that GENGLYCOS (parisglasgene…",
+      "link": "https://www.federalregister.gov/documents/2026/09/02/2026-17932/issuance-of-priority-review-voucher-rare-pediatric-disease-product-genglycos-parisglasgene",
+      "published": "2026-09-02T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "International Cooperation on Harmonisation of Technical Requirements for Registration of Veterinary Medicinal Products; Studies To Evaluate the Safety of Residues of Veterinary Drugs in Human Food: Genotoxicity Testing (Revision 2); Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry (GFI) #116 (VICH GL23(R2)) titled &quot;Studies to Evaluate the Safety of Residues of Veterinary Drugs in Human Food: Genotoxicity Testing (Revision 2).&quot; This guidance has been developed for veterinary use by the International Cooperation on Harmonisation of Technical Requirements for Registration of Veterinary Medicinal Products (VICH). The objective of this guidance is to…",
+      "link": "https://www.federalregister.gov/documents/2026/09/02/2026-17928/international-cooperation-on-harmonisation-of-technical-requirements-for-registration-of-veterinary",
+      "published": "2026-09-02T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "International Cooperation on Harmonisation of Technical Requirements for Registration of Veterinary Medicinal Products; Studies To Evaluate the Safety of Residues of Veterinary Drugs in Human Food: Reproduction Testing (Revision 1); Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry (GFI) #115 (VICH GL22(R)) titled &quot;Studies to Evaluate the Safety of Residues of Veterinary Drugs in Human Food: Reproduction Testing (Revision 1).&quot; This guidance has been developed for veterinary use by the International Cooperation on Harmonisation of Technical Requirements for Registration of Veterinary Medicinal Products (VICH). The objective of this guidance is to…",
+      "link": "https://www.federalregister.gov/documents/2026/09/02/2026-17927/international-cooperation-on-harmonisation-of-technical-requirements-for-registration-of-veterinary",
+      "published": "2026-09-02T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Guidance: Influenza (Flu) vaccine factsheet – Information for patients, parents and carers",
       "summary": "Patient factsheet providing information on influenza (flu) and flu vaccination.",
