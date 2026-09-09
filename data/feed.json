@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:10:31.345596+00:00",
+  "generated_at": "2026-09-09T19:04:42.737195+00:00",
   "item_count": 1000,
   "feed_count": 12,
   "new_this_run": 2,
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
-      "last_success": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
+      "last_success": "2026-09-09T18:57:10.757087+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
-      "last_success": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
+      "last_success": "2026-09-09T18:57:10.757087+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
-      "last_success": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
+      "last_success": "2026-09-09T18:57:10.757087+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
-      "last_success": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
+      "last_success": "2026-09-09T18:57:10.757087+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
-      "last_success": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
+      "last_success": "2026-09-09T18:57:10.757087+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-09T14:02:59.177879+00:00",
+      "last_attempt": "2026-09-09T18:57:10.757087+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-09T14:02:59.177879+00:00",
+      "last_success": "2026-09-09T18:57:10.757087+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-09-09T15:08:06+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Field Safety Notices: 31 August to 4 September 2026",
       "summary": "List of Field Safety Notices from 31 August to 4 September 2026.",
@@ -183,6 +195,30 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Veradius Unity and BV Pulsera Mobile C-Arm System-9in. and 12in. Versions",
+      "summary": "Air bubbles may develop in the monoblock oil when there is a prolonged period between manufacture and installation, for example due to storage, transportation, or other pre-installation holding time. During a clinical procedure, when the user activates X-ray imaging, if an air bubble becomes trapped in the high-voltage area of the monoblock, there could be an internal electrical discharge (flashover) resulting in X-rays not being generated and consequently no image being displayed on the…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/veradius-unity-and-bv-pulsera-mobile-c-arm-system-9in-and-12in-versions",
+      "published": "2026-09-09T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Philips Ingenia, Achieva and Intera MR Systems",
+      "summary": "Philips has become aware of a software issue affecting Philips Magnetic Resonance (MR) imaging systems operating with software versions R5 &amp; R11, which may terminate an examination during the image reconstruction process. If the scan parameters are manually adjusted such that reconstruction requirements exceed the available system memory, the system will freeze, preventing image generation and requiring a system re-start.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/philips-ingenia-achieva-and-intera-mr-systems",
+      "published": "2026-09-09T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Decision: Advertising investigations: August 2026",
@@ -305,6 +341,18 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
+      "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 31 August - 3 September 2026",
+      "summary": "Review will assess risk of low blood phosphate levels and related bone problems with injectable iron medicinesEMA’s safety committee, PRAC, has started a review of injectable…, Agenda Agenda of the PRAC meeting 31 August - 3 September 2026Draft Reference Number: EMA/PRAC/164465/2026 Corr.1…, PRAC statistics: September 2026 Monthly figures for PRAC outcomes based on the draft agenda. @ European Medicines Agency, PRAC statistics:…, Ongoing referrals Procedure: Parenteral iron-containing…",
+      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-31-august-3-september-2026",
+      "published": "2026-09-04T12:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
       "title": "GORE® VIABAHN® Endoprosthesis with PROPATEN Bioactive",
       "summary": "Gore has identified through quality control testing that some VIABAHN® devices were processed using equipment that was functioning outside of the validated range. This could potentially result in an incorrect bonding location of the distal tip onto the delivery catheter.",
       "link": "https://recalls-rappels.canada.ca/en/alert-recall/gorer-viabahnr-endoprosthesis-propaten-bioactive",
@@ -327,18 +375,6 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 31 August - 3 September 2026",
-      "summary": "Review will assess risk of low blood phosphate levels and related bone problems with injectable iron medicinesEMA’s safety committee, PRAC, has started a review of injectable…, Agenda Agenda of the PRAC meeting 31 August - 3 September 2026Draft Reference Number: EMA/PRAC/164465/2026 Corr.1…, PRAC statistics: September 2026 Monthly figures for PRAC outcomes based on the draft agenda. @ European Medicines Agency, PRAC statistics:…, Ongoing referrals Procedure: Parenteral iron-containing…",
-      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-31-august-3-september-2026",
-      "published": "2026-09-04T12:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
     },
     {
       "title": "Corporate report: MHRA-NICE Real-World Evidence Scientific Dialogue",
@@ -807,18 +843,6 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-08-28T09:10:02+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Qualitative Feedback on Agency Service Delivery",
@@ -12117,30 +12141,6 @@
       "summary": "Adoption of Decision (EU) 2025/1324 on expert panels in the field of medical devices",
       "link": "https://eur-lex.europa.eu/eli/dec_impl/2025/1324/oj/eng",
       "published": "2025-07-08T09:52:27+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "MDCG 2025-6 - FAQ on Interplay between the Medical Devices Regulation & In vitro Diagnostic Medical Devices Regulation and the Artificial Intelligence Act (June 2025)",
-      "summary": "MDCG 2025-6 - FAQ on Interplay between the Medical Devices Regulation (MDR) &amp; In vitro Diagnostic Medical Devices Regulation (IVDR) and the Artificial Intelligence Act (AIA) (June 2025)",
-      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-6-faq-interplay-between-medical-devices-regulation-vitro-diagnostic-medical-devices-2025-06-19_en",
-      "published": "2025-06-19T15:06:52+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "MDCG 2025-5 - Questions & Answers regarding performance studies of in vitro diagnostic medical devices under regulation (EU) 2017/746 (June 2025)",
-      "summary": "MDCG 2025-5 - Questions &amp; Answers regarding performance studies of in vitro diagnostic medical devices under regulation (EU) 2017/746 (June 2025)",
-      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-5-questions-answers-regarding-performance-studies-vitro-diagnostic-medical-devices-under-2025-06-18_en",
-      "published": "2025-06-18T07:36:21+00:00",
       "agency": "EU",
       "region": "European Union",
       "category": "prepub",
