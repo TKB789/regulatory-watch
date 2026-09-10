@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T08:38:55.161812+00:00",
+  "generated_at": "2026-09-10T14:05:21.578999+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 10,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
-      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
+      "last_success": "2026-09-10T13:57:50.627812+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
-      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
+      "last_success": "2026-09-10T13:57:50.627812+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
-      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
+      "last_success": "2026-09-10T13:57:50.627812+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
-      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
+      "last_success": "2026-09-10T13:57:50.627812+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
-      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
+      "last_success": "2026-09-10T13:57:50.627812+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt": "2026-09-10T13:57:50.627812+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "last_success": "2026-09-10T13:57:50.627812+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "IMN Screws System Advanced Locking Screw",
+      "summary": "Following a product complaint, and as part of its standard quality process, Stryker confirmed that one lot of T2 Alpha IMN advanced locking is incorrectly labeled. The product contains a 75mm length screw instead of 57.5mm.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/imn-screws-system-advanced-locking-screw",
+      "published": "2026-09-10T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Independent Commission led by NHS doctors sets out blueprint to accelerate safe AI adoption in healthcare",
       "summary": "New recommendations based on extensive public engagement set out how the NHS could give patients faster access to AI advances with proportionate safeguards to protect patient safety and maintain high levels of trust.",
@@ -473,18 +485,6 @@
       "source": "Federal Register — FDA documents"
     },
     {
-      "title": "LIFEPAK ® 35 Monitor/Defibrillator",
-      "summary": "During production of LP35, Stryker identified that certain printer and modem access port connectors may not have been fully seated within the rear housing assembly. As a result, the connectors may appear flush with or recessed relative to the retaining nut rather than extending beyond it as intended.&nbsp;",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/lifepak-r-35-monitordefibrillator-0",
-      "published": "2026-09-04T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
       "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 31 August - 3 September 2026",
       "summary": "Review will assess risk of low blood phosphate levels and related bone problems with injectable iron medicinesEMA’s safety committee, PRAC, has started a review of injectable…, Agenda Agenda of the PRAC meeting 31 August - 3 September 2026Draft Reference Number: EMA/PRAC/164465/2026 Corr.1…, PRAC statistics: September 2026 Monthly figures for PRAC outcomes based on the draft agenda. @ European Medicines Agency, PRAC statistics:…, Ongoing referrals Procedure: Parenteral iron-containing…",
       "link": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-31-august-3-september-2026",
@@ -495,6 +495,18 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "LIFEPAK ® 35 Monitor/Defibrillator",
+      "summary": "During production of LP35, Stryker identified that certain printer and modem access port connectors may not have been fully seated within the rear housing assembly. As a result, the connectors may appear flush with or recessed relative to the retaining nut rather than extending beyond it as intended.&nbsp;",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/lifepak-r-35-monitordefibrillator-0",
+      "published": "2026-09-04T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "GORE® VIABAHN® Endoprosthesis with PROPATEN Bioactive",
@@ -12129,18 +12141,6 @@
       "summary": "We have investigated 2 serious adverse event cases in young babies who had EMLA (prilocaine/lidocaine cream) applied to their skin for local anaesthesia. Both cases were likely to have involved overdose.",
       "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/risk-overdose-babies-when-using-prilocainelidocaine-cream-emla-and-generic-brands",
       "published": "2025-10-01T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Imported unregistered GLP-1 weight-loss products",
-      "summary": "TGA is issuing a safety advisory about the importation of unregistered GLP-1 products that are being promoted online for weight-loss.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/imported-unregistered-glp-1-weight-loss-products",
-      "published": "2025-09-28T14:00:00+00:00",
       "agency": "TGA",
       "region": "Australia",
       "category": "postmarket",
