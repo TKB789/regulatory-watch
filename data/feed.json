@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T02:25:17.974852+00:00",
+  "generated_at": "2026-09-10T08:38:55.161812+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 2,
+  "new_this_run": 10,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -28,19 +28,20 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    },
-    {
-      "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "HTTP 403: Forbidden"
     }
   ],
-  "empty_feeds": [],
+  "empty_feeds": [
+    {
+      "name": "EUR-Lex — Recent regulations & directives",
+      "reason": "feed returned 0 entries"
+    }
+  ],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -49,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -58,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -66,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
-      "last_success": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_success": "2026-09-10T08:31:22.612161+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -75,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -85,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -95,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
-      "last_success": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_success": "2026-09-10T08:31:22.612161+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -104,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
-      "last_success": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_success": "2026-09-10T08:31:22.612161+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -113,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
-      "last_success": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_success": "2026-09-10T08:31:22.612161+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -122,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -131,19 +132,19 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
-      "last_success": "2026-09-10T02:17:47.000601+00:00",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_success": "2026-09-10T08:31:22.612161+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "error",
-      "last_attempt": "2026-09-10T02:17:47.000601+00:00",
-      "last_attempt_reason": "HTTP 403: Forbidden",
-      "items_fetched": 0,
-      "last_success": "2026-09-09T22:07:15.210907+00:00"
+      "status": "empty",
+      "last_attempt": "2026-09-10T08:31:22.612161+00:00",
+      "last_attempt_reason": "feed returned 0 entries",
+      "last_success": "2026-09-10T08:31:22.612161+00:00",
+      "items_fetched": 0
     }
   ],
   "items": [
@@ -151,7 +152,7 @@
       "title": "Independent Commission led by NHS doctors sets out blueprint to accelerate safe AI adoption in healthcare",
       "summary": "New recommendations based on extensive public engagement set out how the NHS could give patients faster access to AI advances with proportionate safeguards to protect patient safety and maintain high levels of trust.",
       "link": "https://www.gov.uk/government/news/independent-commission-led-by-nhs-doctors-sets-out-blueprint-to-accelerate-safe-ai-adoption-in-healthcare",
-      "published": "2026-09-09T23:11:41+00:00",
+      "published": "2026-09-10T06:29:40+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -160,10 +161,130 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Green Innovation GmbH; Withdrawal of Food Additive Petition (Animal Use)",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing the withdrawal, without prejudice to a future filing, of a food additive petition (FAP 2323) proposing that the food additive regulations be amended to provide for the safe use of hydrolyzed lignin as a source of neutral detergent soluble fiber in food for broiler chickens, laying hens, turkeys, growing swine, sows, lactating dairy cows, beef cattle, sheep, goats, salmonids, and adult dogs at no more than 1% of the food on a weight…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18469/green-innovation-gmbh-withdrawal-of-food-additive-petition-animal-use",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Fee Rate for Using a Priority Review Voucher in Fiscal Year 2027",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing the fee rate for using a priority review voucher for fiscal year (FY) 2027. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act), as amended, authorizes FDA to determine and collect priority review user fees for certain applications for review of human drug or biological products when those applications use a tropical disease, rare pediatric disease, or material threat medical countermeasure (MCM) priority review voucher.…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18464/fee-rate-for-using-a-priority-review-voucher-in-fiscal-year-2027",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Cardiovascular Devices; Classification of the Mechanical Deviation Device for Esophageal Protection During Cardiac Ablation Procedures",
+      "summary": "The Food and Drug Administration (FDA) is classifying the mechanical deviation device for esophageal protection during cardiac ablation procedures into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the mechanical deviation device for esophageal protection during cardiac ablation procedures. We are taking this action because we have determined that classifying the…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18433/medical-devices-cardiovascular-devices-classification-of-the-mechanical-deviation-device-for",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Cardiovascular Devices; Classification of the Temperature Regulation Device for Esophageal Protection During Cardiac Ablation Procedures",
+      "summary": "The Food and Drug Administration (FDA) is classifying the temperature regulation device for esophageal protection during cardiac ablation procedures into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the temperature regulation device for esophageal protection during cardiac ablation procedures. We are taking this action because we have determined that classifying the…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18432/medical-devices-cardiovascular-devices-classification-of-the-temperature-regulation-device-for",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Cardiovascular Devices; Classification of the Extravascular Support for an Arteriovenous Fistula for Vascular Access",
+      "summary": "The Food and Drug Administration (FDA) is classifying the extravascular support for an arteriovenous fistula for vascular access into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the extravascular support for an arteriovenous fistula for vascular access. We are taking this action because we have determined that classifying the device into class II will provide a…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18431/medical-devices-cardiovascular-devices-classification-of-the-extravascular-support-for-an",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Clinical Chemistry and Clinical Toxicology Devices; Classification of the Anti-Tumor Necrosis Factor Alpha Monoclonal Antibody Test System for Inflammatory Bowel Disease",
+      "summary": "The Food and Drug Administration (FDA) is classifying the anti-tumor necrosis factor alpha monoclonal antibody test system for inflammatory bowel disease into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the anti-tumor necrosis factor alpha monoclonal antibody test system for inflammatory bowel disease. We are taking this action because we have determined that…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18430/medical-devices-clinical-chemistry-and-clinical-toxicology-devices-classification-of-the-anti-tumor",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Ear, Nose, and Throat Devices; Classification of the Cooperative Powered Surgical Assist Device for ENT Surgery",
+      "summary": "The Food and Drug Administration (FDA) is classifying the cooperative powered surgical assist device for ear, nose, and throat (ENT) surgery into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the cooperative powered surgical assist device for ENT surgery. We are taking this action because we have determined that classifying the device into class II will provide a…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18429/medical-devices-ear-nose-and-throat-devices-classification-of-the-cooperative-powered-surgical",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Gastroenterology-Urology Devices; Classification of the Implanted Tibial Electrical Urinary Continence Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the implanted tibial electrical urinary continence device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the implanted tibial electrical urinary continence device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18428/medical-devices-gastroenterology-urology-devices-classification-of-the-implanted-tibial-electrical",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Radiology Devices; Classification of the Vaginal Hydrogel Packing System",
+      "summary": "The Food and Drug Administration (FDA) is classifying the vaginal hydrogel packing system into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the vaginal hydrogel packing system. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe this…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18427/medical-devices-radiology-devices-classification-of-the-vaginal-hydrogel-packing-system",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; General Hospital and Personal Use Devices; Classification of the Whole Room Microbial Reduction Device",
+      "summary": "The Food and Drug Administration (FDA) is classifying the whole room microbial reduction device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the whole room microbial reduction device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We…",
+      "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18426/medical-devices-general-hospital-and-personal-use-devices-classification-of-the-whole-room-microbial",
+      "published": "2026-09-10T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Research: National Commission into the Regulation of AI in Healthcare: Recommendations for a future regulatory framework",
       "summary": "Recommendations from the National Commission into the Regulation of AI in Healthcare, which was established to advise government on a future regulatory framework for AI in healthcare.",
       "link": "https://www.gov.uk/government/publications/national-commission-into-the-regulation-of-ai-in-healthcare-recommendations-for-a-future-regulatory-framework",
-      "published": "2026-09-09T23:01:26+00:00",
+      "published": "2026-09-09T23:01:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -12026,126 +12147,6 @@
       "feed_id": "tga-news",
       "feed_label": "TGA News",
       "source": "TGA news & alerts"
-    },
-    {
-      "title": "Multiple sunscreens recall: Lower than claimed SPF levels",
-      "summary": "Consumers are advised that several sunscreen products are being recalled by sponsors. This follows preliminary testing evidence indicating that the SPF levels of their products may be lower than what is claimed on their labels.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/multiple-sunscreens-recall-lower-claimed-spf-levels",
-      "published": "2025-09-25T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Safety concerns over imported melatonin products",
-      "summary": "We are issuing a safety advisory regarding imported unregistered melatonin products following testing by TGA Laboratories.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/safety-concerns-over-imported-melatonin-products",
-      "published": "2025-09-25T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Update on Vyvanse (lisdexamfetamine dimesilate) investigation",
-      "summary": "Our investigation into concerns about Vyvanse’s potential lack of effectiveness, quality and safety found no issues of concern.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/update-vyvanse-lisdexamfetamine-dimesilate-investigation",
-      "published": "2025-09-25T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Imported unregistered methylene blue products",
-      "summary": "We are issuing a safety advisory about the increasing importation and use of unregistered oral methylene blue (methylthioninium chloride) products in Australia.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/imported-unregistered-methylene-blue-products",
-      "published": "2025-09-24T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Pad-Pak for HeartSine samaritan Public Access Defibrillator (PAD)",
-      "summary": "Stryker is conducting a Critical Product Correction of Pad-Paks used with the HeartSine samaritan Public Access Defibrillator (PAD), with an expiry date range between 17 April 2025 to 01 August 2029.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/pad-pak-heartsine-samaritan-public-access-defibrillator-pad",
-      "published": "2025-09-18T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 - September 2025",
-      "summary": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 - September 2025",
-      "link": "https://health.ec.europa.eu/latest-updates/update-manual-borderline-and-classification-under-regulations-eu-2017745-and-2017746-september-2025-2025-09-12_en",
-      "published": "2025-09-12T13:33:11+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "ACCOLADE single chamber (SR), dual chamber (DR) standard life (SL) and DR extended life (EL) pacemakers; and VISIONIST cardiac resynchronization therapy pacemakers (CRT-Ps)",
-      "summary": "Product correction and Product alert. This update includes new information regarding the software correction, actions for healthcare professionals and inclusion of the single chamber (SR) pacemaker.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/accolade-single-chamber-sr-dual-chamber-dr-standard-life-sl-and-dr-extended-life-el-pacemakers-and-visionist-cardiac-resynchronization-therapy-pacemakers-crt-ps",
-      "published": "2025-09-10T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Imported Ayurvedic products found to contain dangerous heavy metals",
-      "summary": "We continue to receive reports of lead poisoning linked to imported or unregistered Ayurvedic medicines contaminated with heavy metals.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/imported-ayurvedic-products-found-contain-dangerous-heavy-metals",
-      "published": "2025-09-09T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "MDCG 2024-14 - rev.1 - Guidance on the implementation of the Master UDI-DI solution for contact lenses (August 2025)",
-      "summary": "MDCG 2024-14 - rev.1 - Guidance on the implementation of the Master UDI-DI solution for contact lenses (August 2025)",
-      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2024-14-rev1-guidance-implementation-master-udi-di-solution-contact-lenses-august-2025-2025-08-26_en",
-      "published": "2025-08-26T09:12:14+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Adoption of Commission Delegated Regulation (EU) 2025/788 amending Delegated Regulation (EU) 2023/2197 as regards the date of application",
-      "summary": "Adoption of Commission Delegated Regulation (EU) 2025/788 amending Delegated Regulation (EU) 2023/2197 as regards the date of application",
-      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations_en#Delegated",
-      "published": "2025-07-29T09:42:12+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
     }
   ]
 }
