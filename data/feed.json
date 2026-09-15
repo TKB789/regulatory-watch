@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T13:07:48.572627+00:00",
+  "generated_at": "2026-09-15T17:58:11.347894+00:00",
   "item_count": 1000,
   "feed_count": 12,
   "new_this_run": 1,
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
-      "last_success": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
+      "last_success": "2026-09-15T17:50:38.115666+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
-      "last_success": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
+      "last_success": "2026-09-15T17:50:38.115666+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
-      "last_success": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
+      "last_success": "2026-09-15T17:50:38.115666+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
-      "last_success": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
+      "last_success": "2026-09-15T17:50:38.115666+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
-      "last_success": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
+      "last_success": "2026-09-15T17:50:38.115666+00:00",
       "items_fetched": 4,
       "last_success_item_count": 4
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-15T13:00:14.671392+00:00",
+      "last_attempt": "2026-09-15T17:50:38.115666+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-15T13:00:14.671392+00:00",
+      "last_success": "2026-09-15T17:50:38.115666+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Official Statistics: Quarterly reports on the import of unlicensed medicines",
+      "summary": "Details and statistics on the import of unlicensed medicines from March 2014 onwards.",
+      "link": "https://www.gov.uk/government/statistics/quarterly-reports-on-the-import-of-unlicensed-medicines",
+      "published": "2026-09-15T15:57:35+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "MHRA and Malaysia strengthen partnership on healthcare innovation and research",
       "summary": "The MHRA has reaffirmed its commitment to strengthening regulatory collaboration with Malaysia following high-level discussions in Kuala Lumpur.",
@@ -12128,18 +12140,6 @@
       "title": "Manasamitra Vadakam tablets (Ayurvedic medicine)",
       "summary": "Manasamitra Vakakam tablets pose a serious risk to your health and should not be taken.",
       "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/manasamitra-vadakam-tablets-ayurvedic-medicine",
-      "published": "2025-12-09T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Brahmi Vati tablets (Ayurvedic medicine)",
-      "summary": "Brahmi Vati tablets pose a serious risk to your health and should not be taken.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/brahmi-vati-tablets-ayurvedic-medicine",
       "published": "2025-12-09T13:00:00+00:00",
       "agency": "TGA",
       "region": "Australia",
