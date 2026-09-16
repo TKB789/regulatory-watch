@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-16T09:04:48.796974+00:00",
+  "generated_at": "2026-09-16T14:36:21.310598+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 2,
+  "new_this_run": 7,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
-      "last_success": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
+      "last_success": "2026-09-16T14:28:50.225692+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
-      "last_success": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
+      "last_success": "2026-09-16T14:28:50.225692+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
-      "last_success": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
+      "last_success": "2026-09-16T14:28:50.225692+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
-      "last_success": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
+      "last_success": "2026-09-16T14:28:50.225692+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
-      "last_success": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
+      "last_success": "2026-09-16T14:28:50.225692+00:00",
       "items_fetched": 4,
       "last_success_item_count": 4
     },
@@ -141,13 +141,133 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-16T08:57:17.117193+00:00",
+      "last_attempt": "2026-09-16T14:28:50.225692+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-16T08:57:17.117193+00:00",
+      "last_success": "2026-09-16T14:28:50.225692+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Pre-submission Advice & Support for Innovative Medicines",
+      "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) offer a pre-submission service before applying for medicines Marketing Authorisations and clinical variations innovative medicines.",
+      "link": "https://www.gov.uk/guidance/pre-submission-advice-support",
+      "published": "2026-09-16T13:16:15+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "National assessment procedure for medicines",
+      "summary": "Guidance on the MHRA’s national assessment procedure for marketing authorisation applications.",
+      "link": "https://www.gov.uk/guidance/national-assessment-procedure-for-medicines",
+      "published": "2026-09-16T13:15:35+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Medicines: apply for a variation to your marketing authorisation",
+      "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
+      "link": "https://www.gov.uk/guidance/medicines-apply-for-a-variation-to-your-marketing-authorisation",
+      "published": "2026-09-16T13:14:52+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: COVID-19 test validation approved products",
+      "summary": "Find out which COVID-19 test products have been approved.",
+      "link": "https://www.gov.uk/government/publications/covid-19-test-validation-approved-products",
+      "published": "2026-09-16T12:17:31+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA sets out steps to prevent avoidable harm from patient hoists",
+      "summary": "A National Patient Safety Alert has been issued setting out practical steps to reduce the risk of harm when using patient hoists through improved checks and maintenance.",
+      "link": "https://www.gov.uk/government/news/mhra-sets-out-steps-to-prevent-avoidable-harm-from-patient-hoists",
+      "published": "2026-09-16T12:11:41+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Opportunities for patients and the public to be involved in the work of the MHRA",
+      "summary": "How we engage and involve patients and the public in our regulatory decision-making.",
+      "link": "https://www.gov.uk/guidance/opportunities-for-patients-and-the-public-to-be-involved-in-the-work-of-the-mhra",
+      "published": "2026-09-16T11:27:49+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: National Patient Safety Alert Supporting Information. Patient hoists and slings: incidents and case examples.",
+      "summary": "Supporting information to accompany the National Patient Safety Alert on patient hoists and slings NatPSA/2026/005/MHRA.",
+      "link": "https://www.gov.uk/government/publications/national-patient-safety-alert-supporting-information-patient-hoists-and-slings-incidents-and-case-examples",
+      "published": "2026-09-16T11:04:57+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "National Patient Safety Alert: Patient hoists and slings (all types): risk of death and serious harm from falls (NatPSA/2026/005/MHRA)",
+      "summary": "Fatal and serious harm continues to occur when patients fall from hoists or slings during transfers and repositioning. A review of recent incidents with a fatal outcome and wider surveillance data shows an average of two dea…",
+      "link": "https://www.gov.uk/drug-device-alerts/national-patient-safety-alert-patient-hoists-and-slings-all-types-risk-of-death-and-serious-harm-from-falls-natpsa-slash-2026-slash-005-slash-mhra",
+      "published": "2026-09-16T11:01:57+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Beyond ADMET: AI for medicines safety stakeholder survey",
+      "summary": "The MHRA and the Regulatory Innovation Office (RIO) invite organisations to share their views on the use of artificial intelligence (AI) in medicines development.",
+      "link": "https://www.gov.uk/government/calls-for-evidence/beyond-admet-ai-for-medicines-safety-stakeholder-survey",
+      "published": "2026-09-16T10:08:02+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Clinical trials for medicines: Good clinical practice inspections",
+      "summary": "Information relating to good clinical practice (GCP) inspections.",
+      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
+      "published": "2026-09-16T09:36:23+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Biological Products: Reporting of Biological Product Deviations and Human Cells, Tissues, and Cellular and Tissue-Based Product Deviations in Manufacturing",
       "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
@@ -1371,18 +1491,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Opportunities for patients and the public to be involved in the work of the MHRA",
-      "summary": "How we engage and involve patients and the public in our regulatory decision-making.",
-      "link": "https://www.gov.uk/guidance/opportunities-for-patients-and-the-public-to-be-involved-in-the-work-of-the-mhra",
-      "published": "2026-08-26T15:37:10+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Revival Animal Health, LLC Voluntarily Recalls Feline Milk Replacers Due to Inconsistent Levels of Vitamins and Trace Minerals",
@@ -5369,18 +5477,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Medicines: apply for a variation to your marketing authorisation",
-      "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
-      "link": "https://www.gov.uk/guidance/medicines-apply-for-a-variation-to-your-marketing-authorisation",
-      "published": "2026-07-02T15:58:54+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
       "title": "Making regulation a catalyst, not a barrier, for UK life sciences",
       "summary": "MHRA CEO argues that for the UK’s long-term health and prosperity, regulation should help lead, rather than follow, innovation",
       "link": "https://www.gov.uk/government/news/making-regulation-a-catalyst-not-a-barrier-for-uk-life-sciences",
@@ -6087,18 +6183,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Guidance: COVID-19 test validation approved products",
-      "summary": "Find out which COVID-19 test products have been approved.",
-      "link": "https://www.gov.uk/government/publications/covid-19-test-validation-approved-products",
-      "published": "2026-06-24T12:16:57+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Notice: Register of authorised online sellers of medicines in Northern Ireland",
@@ -12063,90 +12147,6 @@
       "feed_id": "tga-news",
       "feed_label": "TGA News",
       "source": "TGA news & alerts"
-    },
-    {
-      "title": "Changes to the supply of insulin products",
-      "summary": "Pharmaceutical companies Novo Nordisk and Eli Lilly are discontinuing some of their insulin products.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/changes-supply-insulin-products",
-      "published": "2025-12-21T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "MDCG 2025–10: Guidance on post-market surveillance of medical devices and in vitro diagnostic medical devices (December 2025)",
-      "summary": "MDCG 2025–10: Guidance on post-market surveillance of medical devices and in vitro diagnostic medical devices (December 2025)",
-      "link": "https://health.ec.europa.eu/latest-updates/mdcg-2025-10-guidance-post-market-surveillance-medical-devices-and-vitro-diagnostic-medical-devices-2025-12-19_en",
-      "published": "2025-12-19T15:14:43+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "CellAED: Non-rechargeable public automated external defibrillator",
-      "summary": "The company which has supplied the CellAED devices, RRR Manufacturing Pty Ltd, has gone into liquidation. The liquidators for RRR Manufacturing, are conducting a Critical Recall for all lots of the CellAED device.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/cellaed-non-rechargeable-public-automated-external-defibrillator",
-      "published": "2025-12-18T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "MDCG 2025-7 - Rev. 1:  Timelines of the implementation of ‘Master UDI-DI’ to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
-      "summary": "MDCG 2025-7 - Rev. 1: Timelines of the implementation of ‘Master UDI-DI’ to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
-      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec18",
-      "published": "2025-12-17T15:33:58+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "New measures to make EU health sector more innovative, competitive and resilient",
-      "summary": "New measures to make EU health sector more innovative, competitive and resilient",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_3077",
-      "published": "2025-12-16T16:50:00+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Shortage of Creon (pancreatic extract) capsules extended",
-      "summary": "Supply constraints will apply to Creon 25,000 unit and 35,000 unit capsules until 30 June 2026.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/shortage-creon-pancreatic-extract-capsules-extended",
-      "published": "2025-12-16T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "MDCG 2025-9: Guidance on Breakthrough Devices (BtX) under Regulations 2017/745 & 2017/746",
-      "summary": "MDCG 2025-9: Guidance on Breakthrough Devices (BtX) under Regulations 2017/745 &amp; 2017/746",
-      "link": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec13",
-      "published": "2025-12-15T15:52:12+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
     }
   ]
 }
