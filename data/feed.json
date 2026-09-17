@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-17T02:45:00.720710+00:00",
+  "generated_at": "2026-09-17T09:09:59.130840+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
-      "last_success": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
+      "last_success": "2026-09-17T09:02:28.217722+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
-      "last_success": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
+      "last_success": "2026-09-17T09:02:28.217722+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
-      "last_success": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
+      "last_success": "2026-09-17T09:02:28.217722+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
-      "last_success": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
+      "last_success": "2026-09-17T09:02:28.217722+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
-      "last_success": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
+      "last_success": "2026-09-17T09:02:28.217722+00:00",
       "items_fetched": 4,
       "last_success_item_count": 4
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-17T02:37:30.022836+00:00",
+      "last_attempt": "2026-09-17T09:02:28.217722+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-17T02:37:30.022836+00:00",
+      "last_success": "2026-09-17T09:02:28.217722+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Recommendations for the Development of Blood Collection, Processing, and Storage Systems for the Manufacture of Blood Components Using the Buffy Coat Method; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Recommendations for the Development of Blood Collection, Processing, and Storage Systems for the Manufacture of Blood Components Using the Buffy Coat Method.&quot; The guidance document provides recommendations on the development of blood collection, processing, and storage systems (e.g., blood bags with anticoagulant and additive solutions, empty bags for platelet pooling) intended…",
+      "link": "https://www.federalregister.gov/documents/2026/09/17/2026-19080/recommendations-for-the-development-of-blood-collection-processing-and-storage-systems-for-the",
+      "published": "2026-09-17T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Exemption From Premarket Notification: Radiology Computer-Aided Detection and/or Diagnosis Devices and Computer-Aided Triage and Notification Devices",
+      "summary": "The Food and Drug Administration (FDA) is publishing an order setting forth its final determination regarding a partial exemption from the premarket notification requirements for radiology computer- aided detection and/or diagnosis devices and computer-aided triage and notification devices that was the subject of a notice published in the Federal Register of December 29, 2025. That notice announced FDA's receipt of a petition that requested exemption from the premarket notification…",
+      "link": "https://www.federalregister.gov/documents/2026/09/17/2026-19074/medical-devices-exemption-from-premarket-notification-radiology-computer-aided-detection-andor",
+      "published": "2026-09-17T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Pre-submission Advice & Support for Innovative Medicines",
       "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) offer a pre-submission service before applying for medicines Marketing Authorisations and clinical variations innovative medicines.",
@@ -12123,30 +12147,6 @@
       "feed_id": "tga-news",
       "feed_label": "TGA News",
       "source": "TGA news & alerts"
-    },
-    {
-      "title": "Substitution approval extended for HRT patch shortages",
-      "summary": "Serious Scarcity Substitution Instrument extended due to continued shortages of HRT patch products.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/substitution-approval-extended-hrt-patch-shortages",
-      "published": "2026-01-22T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Factsheet - Better rules for medical devices, better outcomes for EU patients",
-      "summary": "Factsheet - Better rules for medical devices, better outcomes for EU patients",
-      "link": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_3072",
-      "published": "2026-01-19T08:17:48+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
     }
   ]
 }
