@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T08:44:40.771195+00:00",
+  "generated_at": "2026-09-18T14:07:16.491166+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
-      "last_success": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_success": "2026-09-18T13:59:45.093769+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
-      "last_success": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_success": "2026-09-18T13:59:45.093769+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
-      "last_success": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_success": "2026-09-18T13:59:45.093769+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
-      "last_success": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_success": "2026-09-18T13:59:45.093769+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,22 +132,106 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
-      "last_success": "2026-09-18T08:37:07.859035+00:00",
-      "items_fetched": 4,
-      "last_success_item_count": 4
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "items_fetched": 5,
+      "last_success_item_count": 5
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-18T08:37:07.859035+00:00",
+      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-18T08:37:07.859035+00:00",
+      "last_success": "2026-09-18T13:59:45.093769+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 14-17 September 2026",
+      "summary": "12 new medicines recommended for approvalEMA’s human medicines committee (CHMP) recommended 12 medicines for approval at its September 2026 meeting.The committee recommended…, CHMP statistics Key figures from the September 2026&nbsp;CHMP&nbsp;meeting are represented in the graphic below. © European Medicines Agency, CHMP statistics:…, Positive recommendations on new medicines, Frehemgo International non-proprietary name (INN) denecimig Marketing authorisation applicant Novo Nordisk A/S…",
+      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-14-17-september-2026",
+      "published": "2026-09-18T10:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "Decision: Marketing authorisations Granted in 2026",
+      "summary": "Marketing authorisations granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+      "published": "2026-09-18T08:52:31+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Parallel import licences granted in 2026",
+      "summary": "Parallel import licences granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
+      "published": "2026-09-18T08:52:27+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA consultation on statutory fees (2026)",
+      "summary": "Proposals for ongoing cost-recovery and to fund higher value services.",
+      "link": "https://www.gov.uk/government/consultations/mhra-consultation-on-statutory-fees-2026",
+      "published": "2026-09-18T08:45:02+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Electronic Submission Template for Medical Device Premarket Approval Applications (PMAs); Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of the draft guidance entitled &quot;Electronic Submission Template for Medical Device Premarket Approval Applications (PMAs).&quot; FDA is issuing this draft guidance for submitters of certain PMAs to the Center for Devices and Radiological Health (CDRH) and Center for Biologics Evaluation and Research (CBER). It introduces those submitters to the current publicly available resources and associated content…",
+      "link": "https://www.federalregister.gov/documents/2026/09/18/2026-19181/electronic-submission-template-for-medical-device-premarket-approval-applications-pmas-draft",
+      "published": "2026-09-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Biosimilar User Fee Act III Future Needs in the Development of Interchangeable Products Post-Workshop; Draft Strategy Document",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the publication of a draft strategy document titled &quot;BsUFA III Future Needs in the Development of Interchangeable Products Post-Workshop Strategy Document&quot; (Strategy Document). This draft Strategy Document is intended to summarize the discussion that occurred at the FDA public workshop, &quot;Advancing the Development of Interchangeable Products: Identifying Future Needs,&quot; held on September 19, 2025, and to describe…",
+      "link": "https://www.federalregister.gov/documents/2026/09/18/2026-19166/biosimilar-user-fee-act-iii-future-needs-in-the-development-of-interchangeable-products",
+      "published": "2026-09-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Target Animal Safety Evaluation for Veterinary Monoclonal Antibody Products; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a draft guidance for industry (GFI) #298 (VICH GL62) titled &quot;Target Animal Safety Evaluation for Veterinary Monoclonal Antibody Products.&quot; This draft guidance has been developed for veterinary use by the International Cooperation on Harmonisation of Technical Requirements for Registration of Veterinary Medicinal Products (VICH). This draft guidance contributes to the international harmonization of…",
+      "link": "https://www.federalregister.gov/documents/2026/09/18/2026-19141/target-animal-safety-evaluation-for-veterinary-monoclonal-antibody-products-draft-guidance-for",
+      "published": "2026-09-18T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Radiofrequency (RF) Safety Considerations for Wireless Cardiotocography (CTG) Monitoring Systems (DSI/2026/012)",
       "summary": "The MHRA has conducted a review into the use of wireless cardiotocography (CTG) systems that use radiofrequency (RF) telemetry channels. Signal crossover, erroneous CTG traces and signal dropouts have been identified as pati…",
@@ -1059,30 +1143,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Marketing authorisations Granted in 2026",
-      "summary": "Marketing authorisations granted in 2026.",
-      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
-      "published": "2026-09-03T14:49:37+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Parallel import licences granted in 2026",
-      "summary": "Parallel import licences granted in 2026.",
-      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
-      "published": "2026-09-03T14:49:34+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Field Safety Notices: 24 to 28 August 2026",
@@ -2511,18 +2571,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "MHRA consultation on statutory fees (2026)",
-      "summary": "Proposals for ongoing cost-recovery and to fund higher value services.",
-      "link": "https://www.gov.uk/government/consultations/mhra-consultation-on-statutory-fees-2026",
-      "published": "2026-08-17T13:00:36+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Cook Medical Hemospray Kit",
@@ -12093,54 +12141,6 @@
       "summary": "The Therapeutic Goods Administration (TGA) is advising consumers that Natures Valley Collagen Builder tablets may pose a serious risk to your health and should not be taken.",
       "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/natures-valley-collagen-builder-tablets",
       "published": "2026-02-15T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "H3 Hintermann Ankle Replacement System",
-      "summary": "The TGA has concerns about an increased risk of revision as shown in the Australian Orthopaedic Association National Joint Replacement Registry (AOANJRR) data when compared to other fixed and mobile bearing systems.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/h3-hintermann-ankle-replacement-system",
-      "published": "2026-02-11T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Medical Devices: Register now for high-level conference on 16 March 2026",
-      "summary": "Medical Devices: Register now for high-level conference on 16 March 2026",
-      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/71729",
-      "published": "2026-02-03T08:36:46+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Registration - High-level Conference on Medical Devices: Innovation and Patient Safety - 16 March 2026, 9.00 - 17.00 CET",
-      "summary": "Registration - High-level Conference on Medical Devices: Innovation and Patient Safety - 16 March 2026, 9.00 - 17.00 CET",
-      "link": "https://health.ec.europa.eu/events/high-level-conference-medical-devices-innovation-and-patient-safety-16-march-2026-brussels-belgium-2026-03-16_en",
-      "published": "2026-02-02T14:17:03+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Banana Boat Baby Zinc Sunscreen Lotion SPF 50+ and Hawaiian Tropic Mineral Zinc Sunscreen Lotion SPF 50+",
-      "summary": "Edgewell Personal Care Australia Pty Ltd is recalling all unexpired batches (nine in total) due to the potential for the lotions to become separated.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/banana-boat-baby-zinc-sunscreen-lotion-spf-50-and-hawaiian-tropic-mineral-zinc-sunscreen-lotion-spf-50",
-      "published": "2026-02-02T13:00:00+00:00",
       "agency": "TGA",
       "region": "Australia",
       "category": "postmarket",
