@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T14:07:16.491166+00:00",
+  "generated_at": "2026-09-18T17:42:58.458740+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 4,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
-      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
+      "last_success": "2026-09-18T17:35:24.305875+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
-      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
+      "last_success": "2026-09-18T17:35:24.305875+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
-      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
+      "last_success": "2026-09-18T17:35:24.305875+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
-      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
+      "last_success": "2026-09-18T17:35:24.305875+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
-      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
+      "last_success": "2026-09-18T17:35:24.305875+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-18T13:59:45.093769+00:00",
+      "last_attempt": "2026-09-18T17:35:24.305875+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-18T13:59:45.093769+00:00",
+      "last_success": "2026-09-18T17:35:24.305875+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Guidance: COVID-19 test validation approved products",
+      "summary": "Find out which COVID-19 test products have been approved.",
+      "link": "https://www.gov.uk/government/publications/covid-19-test-validation-approved-products",
+      "published": "2026-09-18T14:38:10+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "SIGNA™ Artist and SIGNA™ Artist Evo",
+      "summary": "GE Healthcare has become aware of an exposed sharp edge inside the SIGNA™ Artist Evo and SIGNA™ Artist electronics cabinet that could damage power cables, which may potentially cause an electrical fault. If the electrical fault is present and the cabinet door is opened while the system is powered, this could potentially result in an arc flash that could lead to serious injury to service personnel in immediate proximity.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/signatm-artist-and-signatm-artist-evo",
+      "published": "2026-09-18T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 14-17 September 2026",
       "summary": "12 new medicines recommended for approvalEMA’s human medicines committee (CHMP) recommended 12 medicines for approval at its September 2026 meeting.The committee recommended…, CHMP statistics Key figures from the September 2026&nbsp;CHMP&nbsp;meeting are represented in the graphic below. © European Medicines Agency, CHMP statistics:…, Positive recommendations on new medicines, Frehemgo International non-proprietary name (INN) denecimig Marketing authorisation applicant Novo Nordisk A/S…",
@@ -345,18 +369,6 @@
       "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
       "link": "https://www.gov.uk/guidance/medicines-apply-for-a-variation-to-your-marketing-authorisation",
       "published": "2026-09-16T13:14:52+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Guidance: COVID-19 test validation approved products",
-      "summary": "Find out which COVID-19 test products have been approved.",
-      "link": "https://www.gov.uk/government/publications/covid-19-test-validation-approved-products",
-      "published": "2026-09-16T12:17:31+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -12135,18 +12147,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Natures Valley Collagen Builder tablets",
-      "summary": "The Therapeutic Goods Administration (TGA) is advising consumers that Natures Valley Collagen Builder tablets may pose a serious risk to your health and should not be taken.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/natures-valley-collagen-builder-tablets",
-      "published": "2026-02-15T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
     }
   ]
 }
