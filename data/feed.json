@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20T17:17:54.077848+00:00",
+  "generated_at": "2026-09-20T20:09:32.267876+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
-      "last_success": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
+      "last_success": "2026-09-20T20:02:00.056038+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
-      "last_success": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
+      "last_success": "2026-09-20T20:02:00.056038+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
-      "last_success": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
+      "last_success": "2026-09-20T20:02:00.056038+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
-      "last_success": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
+      "last_success": "2026-09-20T20:02:00.056038+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
-      "last_success": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
+      "last_success": "2026-09-20T20:02:00.056038+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,73 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-20T17:10:19.821344+00:00",
+      "last_attempt": "2026-09-20T20:02:00.056038+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-20T17:10:19.821344+00:00",
+      "last_success": "2026-09-20T20:02:00.056038+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Orphan Drugs",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/09/21/2026-19284/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-09-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Temporary Marketing Permit Applications",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/09/21/2026-19283/agency-information-collection-activities-proposed-collection-comment-request-temporary-marketing",
+      "published": "2026-09-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; State Petitions for Exemption From Preemption",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/09/21/2026-19282/agency-information-collection-activities-proposed-collection-comment-request-state-petitions-for",
+      "published": "2026-09-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Prior Notice of Imported Food Under the Public Health Security and Bioterrorism Preparedness and Response Act of 2002",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/09/21/2026-19281/agency-information-collection-activities-proposed-collection-comment-request-prior-notice-of",
+      "published": "2026-09-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Chemistry, Manufacturing, and Controls Development and Readiness Pilot Program; Program Announcement",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing year five of the Chemistry, Manufacturing, and Controls (CMC) Development and Readiness Pilot (CDRP). This program facilitates the expedited CMC development of products under an investigational new drug application (IND) based on the anticipated clinical benefit of earlier patient access to the products. FDA has implemented this pilot program to assist with CMC readiness for products regulated by both the Center for Biologics…",
+      "link": "https://www.federalregister.gov/documents/2026/09/21/2026-19277/chemistry-manufacturing-and-controls-development-and-readiness-pilot-program-program-announcement",
+      "published": "2026-09-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Guidance: COVID-19 test validation approved products",
       "summary": "Find out which COVID-19 test products have been approved.",
@@ -12087,66 +12147,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Field Safety Notices: 23-27 February 2026",
-      "summary": "List of Field Safety Notices from 23-27 February 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-23-27-february-2026",
-      "published": "2026-03-03T10:42:25+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Counterfeit weight loss products claiming to contain GLP-1",
-      "summary": "We are issuing an updated safety advisory after testing confirmed counterfeit imported weight loss products.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/counterfeit-weight-loss-products-claiming-contain-glp-1",
-      "published": "2026-03-01T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Shortage of Zimstat (simvastatin) 5 mg tablets and substitution approval extended",
-      "summary": "We have extended the SSSI in response to the ongoing shortage",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/shortage-zimstat-simvastatin-5-mg-tablets-and-substitution-approval-extended",
-      "published": "2026-02-26T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Clinical Evidence for IVD Medical Devices – Definitions and Principles of Performance Evaluation",
-      "summary": "Clinical Evidence for IVD Medical Devices – Definitions and Principles of Performance Evaluation",
-      "link": "https://www.imdrf.org/consultations/clinical-evidence-ivd-medical-devices-definitions-and-principles-performance-evaluation",
-      "published": "2026-02-26T03:39:07+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-consult",
-      "feed_label": "IMDRF Consultations",
-      "source": "IMDRF Consultations"
-    },
-    {
-      "title": "Comvita MediHoney Antibacterial Wound Gel 25g & 50g",
-      "summary": "Comvita Australia Pty Ltd is recalling certain batches of Comvita MediHoney Antibacterial Wound Gel due to problems with the packaging.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/comvita-medihoney-antibacterial-wound-gel-25g-50g",
-      "published": "2026-02-25T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
     }
   ]
 }
