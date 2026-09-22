@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-22T07:12:39.058881+00:00",
+  "generated_at": "2026-09-22T13:05:05.671694+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
-      "last_success": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
+      "last_success": "2026-09-22T12:57:35.196137+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
-      "last_success": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
+      "last_success": "2026-09-22T12:57:35.196137+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
-      "last_success": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
+      "last_success": "2026-09-22T12:57:35.196137+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
-      "last_success": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
+      "last_success": "2026-09-22T12:57:35.196137+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
-      "last_success": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
+      "last_success": "2026-09-22T12:57:35.196137+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,73 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-22T07:05:04.599144+00:00",
+      "last_attempt": "2026-09-22T12:57:35.196137+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-22T07:05:04.599144+00:00",
+      "last_success": "2026-09-22T12:57:35.196137+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Clinical trials for medicines: Good clinical practice inspections",
+      "summary": "Information relating to good clinical practice (GCP) inspections.",
+      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
+      "published": "2026-09-22T10:42:26+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Beyond ADMET: AI for medicines safety - survey",
+      "summary": "The MHRA and the Regulatory Innovation Office (RIO) invite organisations to share their views on the use of artificial intelligence (AI) in medicines development.",
+      "link": "https://www.gov.uk/government/calls-for-evidence/beyond-admet-ai-for-medicines-safety-survey",
+      "published": "2026-09-22T10:00:05+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Funding opportunity launched to strengthen UK regulatory science and support healthcare innovation",
+      "summary": "Four new centres of excellence will bring together expertise across academia, industry, healthcare and regulation to keep pace with advances in healthcare and life sciences",
+      "link": "https://www.gov.uk/government/news/funding-opportunity-launched-to-strengthen-uk-regulatory-science-and-support-healthcare-innovation--2",
+      "published": "2026-09-22T09:24:03+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Nonclinical Testing Terminology",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is issuing a direct final rule that substitutes references to &quot;animal&quot; tests or studies with &quot;nonclinical&quot; tests or studies, adds a definition of the terms &quot;nonclinical test&quot; and &quot;nonclinical study,&quot; and makes other comparable or conforming amendments in certain safety and reporting sections of its regulations. The direct final rule also substitutes &quot;nonclinical&quot; for &quot;preclinical&quot;…",
+      "link": "https://www.federalregister.gov/documents/2026/09/22/2026-19350/nonclinical-testing-terminology",
+      "published": "2026-09-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Nonclinical Testing Terminology",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is proposing to substitute references to &quot;animal&quot; tests or studies with &quot;nonclinical&quot; tests or studies, add a definition of the terms &quot;nonclinical test&quot; and &quot;nonclinical study,&quot; and make other comparable or conforming amendments in certain safety and reporting sections of its regulations. The proposed rule would also substitute &quot;nonclinical&quot; for &quot;preclinical&quot; and &quot;in…",
+      "link": "https://www.federalregister.gov/documents/2026/09/22/2026-19349/nonclinical-testing-terminology",
+      "published": "2026-09-22T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Medicines: apply for a variation to your marketing authorisation",
       "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
@@ -525,18 +585,6 @@
       "summary": "The MHRA and the Regulatory Innovation Office (RIO) invite organisations to share their views on the use of artificial intelligence (AI) in medicines development.",
       "link": "https://www.gov.uk/government/calls-for-evidence/beyond-admet-ai-for-medicines-safety-stakeholder-survey",
       "published": "2026-09-16T10:08:02+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Clinical trials for medicines: Good clinical practice inspections",
-      "summary": "Information relating to good clinical practice (GCP) inspections.",
-      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-clinical-practice-inspections",
-      "published": "2026-09-16T09:36:23+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -12099,54 +12147,6 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "TRUE METRIX® Blood Glucose Monitoring Systems",
-      "summary": "The former liquidator for Trividia Health Australia Pty Ltd (deregistered) is facilitating a product correction for TRUE METRIX® Blood Glucose Monitoring Systems.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/true-metrixr-blood-glucose-monitoring-systems",
-      "published": "2026-03-11T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Rifton TRAM and E-Pacer patient transfer and gait training devices",
-      "summary": "Apex Mobility is conducting a product correction on the Rifton TRAM and E-Pacer patient transfer and gait training mobility devices.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/rifton-tram-and-e-pacer-patient-transfer-and-gait-training-devices",
-      "published": "2026-03-11T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Field Safety Notices: 02 to 06 March 2026",
-      "summary": "List of Field Safety Notices from 2 March to 6 March 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-02-to-06-march-2026",
-      "published": "2026-03-09T16:01:47+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 5mg capsules, EL(26)A/11",
-      "summary": "Crescent Pharma Limited is recalling one batch of Ramipril 5 mg Capsules as a precautionary measure due to a potential error at the manufacturing site.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-crescent-pharma-limited-ramipril-5mg-capsules-el-26-a-slash-11",
-      "published": "2026-03-06T15:27:24+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
     }
   ]
 }
