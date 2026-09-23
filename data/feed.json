@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:41:34.969038+00:00",
+  "generated_at": "2026-09-23T19:28:24.964169+00:00",
   "item_count": 1000,
   "feed_count": 12,
   "new_this_run": 3,
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
-      "last_success": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
+      "last_success": "2026-09-23T19:20:51.204119+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
-      "last_success": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
+      "last_success": "2026-09-23T19:20:51.204119+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
-      "last_success": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
+      "last_success": "2026-09-23T19:20:51.204119+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
-      "last_success": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
+      "last_success": "2026-09-23T19:20:51.204119+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
-      "last_success": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
+      "last_success": "2026-09-23T19:20:51.204119+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-23T14:34:01.079558+00:00",
+      "last_attempt": "2026-09-23T19:20:51.204119+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-23T14:34:01.079558+00:00",
+      "last_success": "2026-09-23T19:20:51.204119+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "MHRA approves lurbinectedin for adults with extensive-stage small cell lung cancer",
+      "summary": "As with all licensed medicines, the MHRA will keep the safety and effectiveness of lurbinectedin under close review.",
+      "link": "https://www.gov.uk/government/news/mhra-approves-lurbinectedin-for-adults-with-extensive-stage-small-cell-lung-cancer",
+      "published": "2026-09-23T16:09:01+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Class 4 Medicines Defect Notification: B. Braun Melsungen AG, Meropenem 1000 mg powder and solvent for solution for infusion, EL(26)A/39",
       "summary": "B. Braun Melsungen AG has notified the MHRA that errors have been identified in the Patient Information Leaflet (PIL) included in some batches of Meropenem 1000 mg powder and solvent for solution for infusion.",
@@ -159,6 +171,30 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Williams Cystoscopic Injection Needle",
+      "summary": "Cook Medical identified that products supplied in the affected device lots may have been manufactured out of specification. Specifically, the female luer lock adapter component may not have been correctly seated due to misalignment and inadequate torquing during manufacturing.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/williams-cystoscopic-injection-needle",
+      "published": "2026-09-23T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "OmniaSecure™ MRI SureScan™",
+      "summary": "The model 3930M is a transvenous DF4 lead labelled for use in the RV and left bundle branch area (LBBA). It uses a fixed helix design, so the lead must be rotated as a whole for fixation. It's design transfers torque from the connector and lead body to the distal tip, supporting deep septal placement. To support this function, the lead incorporates interlocking mechanical features between the helix and tip to ring (tr) spacer, along with an adhesive bond applied during manufacturing. The…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/omniasecuretm-mri-surescantm",
+      "published": "2026-09-23T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Field Safety Notices: 14 to 18 September 2026",
@@ -12105,42 +12141,6 @@
       "summary": "Recording available - Commissioner Várhelyi to open high-level event on medical devices",
       "link": "https://health.ec.europa.eu/events/medical-devices-innovation-and-patient-safety-2026-03-16_en",
       "published": "2026-03-18T14:52:18+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "FDA Releases Draft Guidance on Alternatives to Animal Testing in Drug Development",
-      "summary": "The U.S. Food and Drug Administration today issued draft guidance intended to help drug developers validate new approach methodologies (NAMs) to be used instead of animal testing in drug development, and to bring safe, effective drugs to market sooner based on human-centric data.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-releases-draft-guidance-alternatives-animal-testing-drug-development",
-      "published": "2026-03-18T12:51:21+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Class 4 Medicines Defect Notification: Baxter Healthcare Corporation, Onkotrone Injection 2 mg/ml concentrate for solution for infusion, EL(26)A/14",
-      "summary": "Baxter Healthcare Corporation have informed the MHRA that the Patient Information Leaflet (PIL) packed in specified batches does not contain up to date information relating to the duration of contraception required for femal…",
-      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-baxter-healthcare-corporation-onkotrone-injection-2-mg-slash-ml-concentrate-for-solution-for-infusion-el-26-a-slash-14",
-      "published": "2026-03-17T11:00:03+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Commissioner Várhelyi to open high-level event on medical devices",
-      "summary": "Commissioner Várhelyi to open high-level event on medical devices",
-      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/73104",
-      "published": "2026-03-13T13:37:27+00:00",
       "agency": "EU",
       "region": "European Union",
       "category": "prepub",
