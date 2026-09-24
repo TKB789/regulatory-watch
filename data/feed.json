@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T09:00:20.979520+00:00",
+  "generated_at": "2026-09-24T14:39:45.558311+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 1,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
-      "last_success": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
+      "last_success": "2026-09-24T14:32:11.287376+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
-      "last_success": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
+      "last_success": "2026-09-24T14:32:11.287376+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
-      "last_success": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
+      "last_success": "2026-09-24T14:32:11.287376+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
-      "last_success": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
+      "last_success": "2026-09-24T14:32:11.287376+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
-      "last_success": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
+      "last_success": "2026-09-24T14:32:11.287376+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,73 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_attempt": "2026-09-24T14:32:11.287376+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-24T08:52:46.342668+00:00",
+      "last_success": "2026-09-24T14:32:11.287376+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Professor Dame Anna Dominiczak, Professor Alison Strath, and Fiona Cohrane: Catalysing the medicines ecosystem in Scotland",
+      "summary": "Scotland’s growing commercial research infrastructure and strong NHS, academic and industry partnerships are helping widen access to clinical trials, accelerate adoption and strengthen the UK life sciences ecosystem.",
+      "link": "https://www.gov.uk/government/news/professor-dame-anna-dominiczak-professor-alison-strath-and-fiona-cohrane-catalysing-the-medicines-ecosystem-in-scotland",
+      "published": "2026-09-24T13:45:21+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Five new commissioners appointed to the Commission on Human Medicines (CHM)",
+      "summary": "The CHM provides independent expert advice to ministers on the safety, quality and efficacy of medicines.",
+      "link": "https://www.gov.uk/government/news/five-new-commissioners-appointed-to-the-commission-on-human-medicines-chm",
+      "published": "2026-09-24T12:53:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Likorall™ Patient Lift Systems",
+      "summary": "Baxter Corporation is issuing an urgent medical device correction for the Likorall™ ceiling-mounted overhead patient lift system due to a potential issue involving motor shaft breakage combined with reduced performance of the single fault safety (SFS) system. In rare cases where a double fault failure occurs simultaneously, with both a motor shaft breakage and reduced SFS system performance, customers have reported instances of the lift strap lowering more quickly than expected during use.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/likoralltm-patient-lift-systems",
+      "published": "2026-09-24T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "InterStim™ Systems",
+      "summary": "Medtronic has received 15 complaints involving the selection of an incompatible component based on the intended system configuration between 01-Jan-2020 through 12-Aug-2026. Use of an incompatible lead or percutaneous extension has resulted in a delay of surgery or the need for surgical replacement of the component. Review of complaint data confirmed that the product is functioning as designed and there are no device or product performance issues.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/interstimtm-systems",
+      "published": "2026-09-24T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "MHRA welcomes sentencing after fraud convictions over falsely certified medical devices",
+      "summary": "Following convictions related to falsely certified medical devices, the MHRA has welcomed the sentencing in a long-running enforcement investigation.",
+      "link": "https://www.gov.uk/government/news/mhra-welcomes-sentencing-after-fraud-convictions-over-falsely-certified-medical-devices",
+      "published": "2026-09-24T11:32:46+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Improving Patient Access to Deceased Donor Islet Cells and Cell Products; Request for Information",
       "summary": "The Department of Health and Human Services (HHS) is opening a public docket to solicit input, supporting data, and comments to assist HHS as it considers how best to regulate deceased donor islet cells and/or deceased donor islet cell products for the treatment of Type 1 diabetes (T1D). The purpose of this information is to allow HHS agencies to better understand how best to regulate these therapies, including whether and how regulation could differ between isolated and otherwise unmodified…",
@@ -12087,66 +12147,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Recording available - Second training on EMDN: structure, consultation process, and practical application",
-      "summary": "Recording available - Second training on EMDN: structure, consultation process, and practical application",
-      "link": "https://health.ec.europa.eu/medical-devices-topics-interest/european-medical-devices-nomenclature-emdn_en#second-training-2025",
-      "published": "2026-03-24T08:16:10+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Class 2 Medicines Recall: Regent Medical Limited / Mölnlycke Health Care, Hibiwash 500ml, EL(26)A/15",
-      "summary": "Mölnlycke Health Care are recalling specific batches of Hibiwash due to microbial contamination at the manufacturing facility, following routine weekly microbiological monitoring.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-regent-medical-limited-slash-molnlycke-health-care-hibiwash-500ml-el-26-a-slash-15",
-      "published": "2026-03-23T16:32:53+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Field Safety Notices: 9 - 13 March 2026",
-      "summary": "A list of Field Safety Notice for 9 - 13 March 2026",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-9-13-march-2026",
-      "published": "2026-03-20T14:43:34+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "FDA Schedules Public Meeting on the Commissioner’s National Priority Voucher Pilot Program",
-      "summary": "As part of the U.S. Food and Drug Administration’s continuous quality improvement efforts, the agency today published a Federal Register Notice seeking public comment on the Commissioner’s National Priority Voucher pilot program.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-schedules-public-meeting-commissioners-national-priority-voucher-pilot-program",
-      "published": "2026-03-20T13:09:38+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "FDA Approves Fourth Product Under National Priority Voucher Program, Higher Dose Semaglutide",
-      "summary": "The U.S. Food and Drug Administration today approved a new higher dose (7.2 mg) of Wegovy (semaglutide) injection for weight loss and long-term maintenance of weight loss for certain adult patients.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-fourth-product-under-national-priority-voucher-program-higher-dose-semaglutide",
-      "published": "2026-03-19T16:54:56+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
     }
   ]
 }
