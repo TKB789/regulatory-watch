@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T02:31:52.415320+00:00",
+  "generated_at": "2026-09-24T09:00:20.979520+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
-      "last_success": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_success": "2026-09-24T08:52:46.342668+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
-      "last_success": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_success": "2026-09-24T08:52:46.342668+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
-      "last_success": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_success": "2026-09-24T08:52:46.342668+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
-      "last_success": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_success": "2026-09-24T08:52:46.342668+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
-      "last_success": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
+      "last_success": "2026-09-24T08:52:46.342668+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-24T02:24:21.345034+00:00",
+      "last_attempt": "2026-09-24T08:52:46.342668+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-24T02:24:21.345034+00:00",
+      "last_success": "2026-09-24T08:52:46.342668+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Improving Patient Access to Deceased Donor Islet Cells and Cell Products; Request for Information",
+      "summary": "The Department of Health and Human Services (HHS) is opening a public docket to solicit input, supporting data, and comments to assist HHS as it considers how best to regulate deceased donor islet cells and/or deceased donor islet cell products for the treatment of Type 1 diabetes (T1D). The purpose of this information is to allow HHS agencies to better understand how best to regulate these therapies, including whether and how regulation could differ between isolated and otherwise unmodified…",
+      "link": "https://www.federalregister.gov/documents/2026/09/24/2026-19563/improving-patient-access-to-deceased-donor-islet-cells-and-cell-products-request-for-information",
+      "published": "2026-09-24T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "MHRA approves lurbinectedin for adults with extensive-stage small cell lung cancer",
       "summary": "As with all licensed medicines, the MHRA will keep the safety and effectiveness of lurbinectedin under close review.",
@@ -12135,18 +12147,6 @@
       "feed_id": "fda-press",
       "feed_label": "FDA Press",
       "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Recording available - Commissioner Várhelyi to open high-level event on medical devices",
-      "summary": "Recording available - Commissioner Várhelyi to open high-level event on medical devices",
-      "link": "https://health.ec.europa.eu/events/medical-devices-innovation-and-patient-safety-2026-03-16_en",
-      "published": "2026-03-18T14:52:18+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
     }
   ]
 }
