@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T09:21:04.959731+00:00",
+  "generated_at": "2026-09-25T15:00:17.689301+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 6,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
-      "last_success": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
+      "last_success": "2026-09-25T14:52:45.778355+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
-      "last_success": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
+      "last_success": "2026-09-25T14:52:45.778355+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
-      "last_success": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
+      "last_success": "2026-09-25T14:52:45.778355+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
-      "last_success": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
+      "last_success": "2026-09-25T14:52:45.778355+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
-      "last_success": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
+      "last_success": "2026-09-25T14:52:45.778355+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-25T09:13:32.357799+00:00",
+      "last_attempt": "2026-09-25T14:52:45.778355+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-25T09:13:32.357799+00:00",
+      "last_success": "2026-09-25T14:52:45.778355+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Amplatzer™ Amulet™ Left Atrial Appendage Occluder",
+      "summary": "The current Amulet™ IFU contains a contraindication against use \"where placement of the device would interfere with any intracardiac or intravascular structures.\" Abbott is updating this contraindication to specifically identify the pulmonary artery as one of the adjacent structures. In addition, Abbott is updating the IFU to include additional guidance about assessing the distance between the device landing zone and the pulmonary artery. Abbott recently completed additional physician training…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/amplatzertm-amulettm-left-atrial-appendage-occluder",
+      "published": "2026-09-25T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "PERMA-HAND™ Silk Suture",
+      "summary": "Ethicon determined that PERMA-HAND™ Silk Suture subject to this recall (removal) was incorrectly manufactured with an alcohol-based tubing fluid in the primary packaging. This tubing fluid is an isopropyl alcohol (IPA), diethylaminoethanol (DEAE), and sodium benzoate solution previously used in the manufacture of a different suture product. Up to 80% of the impacted lot may have had the alcohol-based tubing fluid. Tubing fluid is not a material approved for use in the manufacture of…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/perma-handtm-silk-suture",
+      "published": "2026-09-25T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Find product information about medicines",
+      "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
+      "link": "https://www.gov.uk/guidance/find-product-information-about-medicines",
+      "published": "2026-09-25T10:32:59+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Robotically-Assisted Surgical Devices-Premarket Submissions; Draft Guidance for Industry and Food and Drug Administration Staff; Availability",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of the draft guidance titled &quot;Robotically-Assisted Surgical Devices--Premarket Submissions.&quot; This draft guidance provides draft recommendations for premarket submissions for robotically- assisted surgical devices (RASDs). This draft guidance is not final nor is it for implementation at this time.",
@@ -176,6 +212,18 @@
       "title": "Reauthorization of the Biosimilar User Fee Act; Public Meeting; Request for Comments",
       "summary": "The Food and Drug Administration (FDA, the Agency, or we) is hosting a hybrid public meeting to discuss proposed recommendations for the reauthorization of the Biosimilar User Fee Act (BsUFA) for fiscal years (FYs) 2028 through 2032. The BsUFA authorizes FDA to collect user fees to support the process for the review of biosimilar biological product applications. The current legislative authority for BsUFA expires in September 2027. At that time, new legislation will be required for FDA to…",
       "link": "https://www.federalregister.gov/documents/2026/09/25/2026-19660/reauthorization-of-the-biosimilar-user-fee-act-public-meeting-request-for-comments",
+      "published": "2026-09-25T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Filing of Color Additive Petition From Doehler GmbH; Request To Amend the Color Additive Regulations To Provide for the Safe Use of Calcium Sulfate in Various Foods at Levels Consistent With Good Manufacturing Practice",
+      "summary": "The Food and Drug Administration (FDA or we) is announcing that we have filed a color additive petition, submitted by Doehler GmbH, c/o Hogan Lovells Cadwalader, proposing that we amend our color additive regulations to provide for the safe use of calcium sulfate in various foods at levels consistent with good manufacturing practice.",
+      "link": "https://www.federalregister.gov/documents/2026/09/25/2026-19658/filing-of-color-additive-petition-from-doehler-gmbh-request-to-amend-the-color-additive-regulations",
       "published": "2026-09-25T04:00:00+00:00",
       "agency": "FR",
       "region": "United States",
@@ -3483,18 +3531,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Find product information about medicines",
-      "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
-      "link": "https://www.gov.uk/guidance/find-product-information-about-medicines",
-      "published": "2026-08-10T16:44:49+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "MHRA advises quarantine of medical devices supplied without appropriate conformity markings",
@@ -12105,42 +12141,6 @@
       "summary": "Summary of the latest safety advice for medicines and medical device users",
       "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-march-2026",
       "published": "2026-03-31T13:01:53+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Medik8 Physical Sunscreen SPF50+ 60mL, 60mL Professional and 15mL",
-      "summary": "AC Newco Pty Ltd (Advanced Cosmeceuticals), on behalf of Medik8, is recalling all unexpired batches of Medik8 Physical Sunscreen SPF50+ 60mL, 60mL Professional, &amp; 15mL due to the product being unlikely to meet its labelled Sun Protection Factor (SPF) rating.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/medik8-physical-sunscreen-spf50-60ml-60ml-professional-and-15ml",
-      "published": "2026-03-31T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "ACCOLADE single chamber (SR), dual chamber (DR) standard life (SL) and DR extended life (EL) pacemakers; and VISIONIST cardiac resynchronization therapy pacemakers (CRT-Ps)",
-      "summary": "Boston Scientific is conducting a Product correction and Product alert for ACCOLADE and VISIONIST pacemakers.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/accolade-single-chamber-sr-dual-chamber-dr-standard-life-sl-and-dr-extended-life-el-pacemakers-and-visionist-cardiac-resynchronization-therapy-pacemakers-crt-ps-0",
-      "published": "2026-03-31T13:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Field Safety Notices: 23-27 March 2026",
-      "summary": "List of field Safety Notices for 23-27 March 2026",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-23-27-march-2026",
-      "published": "2026-03-31T08:07:32+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "recall",
