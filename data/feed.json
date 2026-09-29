@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T03:34:59.152656+00:00",
+  "generated_at": "2026-09-29T10:23:37.546550+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
-      "last_success": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
+      "last_success": "2026-09-29T10:16:06.758664+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
-      "last_success": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
+      "last_success": "2026-09-29T10:16:06.758664+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
-      "last_success": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
+      "last_success": "2026-09-29T10:16:06.758664+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
-      "last_success": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
+      "last_success": "2026-09-29T10:16:06.758664+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
-      "last_success": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
+      "last_success": "2026-09-29T10:16:06.758664+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -141,13 +141,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-09-29T03:27:27.929784+00:00",
+      "last_attempt": "2026-09-29T10:16:06.758664+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-09-29T03:27:27.929784+00:00",
+      "last_success": "2026-09-29T10:16:06.758664+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Determination That SULFADIAZINE (Sulfadiazine) Tablet, 500 Milligrams, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA or Agency) has determined that SULFADIAZINE (sulfadiazine) tablet, 500 milligrams (mg), was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for SULFADIAZINE (sulfadiazine) tablet, 500 mg, if all other legal and regulatory requirements are met.",
+      "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19921/determination-that-sulfadiazine-sulfadiazine-tablet-500-milligrams-was-not-withdrawn-from-sale-for",
+      "published": "2026-09-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "FHTA LLC; Withdrawal of Approval of New Drug Application for MYSOLINE (Primidone) Suspension, 250 Milligrams/5 Milliliters",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of new drug application (NDA) 010401 for MYSOLINE (primidone) suspension, 250 milligrams (mg)/5 milliliters (mL), held by FHTA LLC (FHTA). FHTA agreed to withdrawal of approval of this application and has waived its opportunity for a hearing.",
+      "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19912/fhta-llc-withdrawal-of-approval-of-new-drug-application-for-mysoline-primidone-suspension-250",
+      "published": "2026-09-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Submission of Petitions: Food Additive, Color Additive (Including Labeling), Submission of Information to a Master File in Support of Petitions; and Electronic Submission Using Food and Drug Administration Form 3503",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19850/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-09-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Protection of Human Subjects and Institutional Review Boards",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice…",
+      "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19849/agency-information-collection-activities-proposed-collection-comment-request-protection-of-human",
+      "published": "2026-09-29T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Decision: Medical devices given exceptional use authorisations",
       "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
@@ -12099,54 +12147,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "Tops Issues Recall of Christopher Ranch Peeled Garlic & Garland Fresh Peeled Garlic Because of Possible Health Risk",
-      "summary": "Tops Friendly Markets of Williamsville, NY is recalling all codes of Christopher Ranch Peeled Garlic and Garland Peeled Garlic because it has the potential to be contaminated with Clostridium botulinum due to the product being kept at insufficient temperatures. Clostridium botulinum is a bacterium w",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tops-issues-recall-christopher-ranch-peeled-garlic-garland-fresh-peeled-garlic-because-possible",
-      "published": "2026-04-01T20:49:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "FDA Approves First New Molecular Entity Under National Priority Voucher Program",
-      "summary": "The U.S. Food and Drug Administration today approved Foundayo (orforglipron) marking the fifth approval under the Commissioner's National Priority Voucher (CNPV) pilot program.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program",
-      "published": "2026-04-01T15:23:52+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Article 10a Decision tree",
-      "summary": "Article 10a Decision tree",
-      "link": "https://health.ec.europa.eu/latest-updates/article-10a-decision-tree-2026-04-01_en",
-      "published": "2026-04-01T12:36:14+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Rev.2 - Q&A Obligation to inform in case of interruption or discontinuation of supply",
-      "summary": "Rev.2 - Q&amp;A Obligation to inform in case of interruption or discontinuation of supply",
-      "link": "https://health.ec.europa.eu/latest-updates/rev2-qa-obligation-inform-case-interruption-or-discontinuation-supply-2026-04-01_en",
-      "published": "2026-04-01T12:34:13+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
     }
   ]
 }
