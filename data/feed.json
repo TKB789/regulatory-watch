@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T16:55:35.276789+00:00",
+  "generated_at": "2026-10-01T22:17:34.141042+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 9,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
-      "last_success": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
+      "last_success": "2026-10-01T22:10:03.136534+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
-      "last_success": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
+      "last_success": "2026-10-01T22:10:03.136534+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
-      "last_success": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
+      "last_success": "2026-10-01T22:10:03.136534+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
-      "last_success": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
+      "last_success": "2026-10-01T22:10:03.136534+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
-      "last_success": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
+      "last_success": "2026-10-01T22:10:03.136534+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,9 +141,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-01T16:48:00.774037+00:00",
+      "last_attempt": "2026-10-01T22:10:03.136534+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-01T16:48:00.774037+00:00",
+      "last_success": "2026-10-01T22:10:03.136534+00:00",
       "items_fetched": 0
     }
   ],
@@ -195,6 +195,30 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Medline Sterile Surgical Kits containing Medline C-Section Drape w/Incise",
+      "summary": "A recall correction notice for Medline Sterile Surgical Kits containing Medline C-Section Drape w/Incise is being issued due to reports of the drapes being difficult to remove from patients, leaving adhesive residue on their skin. In these cases, patients may experience temporary redness, irritation, or superficial skin injury during removal. When using these devices, customers should follow the mitigation strategies outlined in the notice.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/medline-sterile-surgical-kits-containing-medline-c-section-drape-wincise",
+      "published": "2026-10-01T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "CareLink™ SmartSync™ Device Manager",
+      "summary": "A complaint from the CareLink network reported a sudden decrease in the Remaining Longevity of a patient's Micra VR CIED from 3 years to 6 months following a remote transmission, which was later found to be incorrect. Analysis revealed a calculation issue in SmartSync and CareLink for Micra VR2 and Micra AV2 devices, occurring under specific conditions. This miscalculation stems from a software error where a function received an integer instead of a real data type, defaulting the average…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/carelinktm-smartsynctm-device-manager",
+      "published": "2026-10-01T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Medline Convenience Kits Containing Cannula Components with Female Luer Lock Connectors",
@@ -12123,30 +12147,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "FDA Takes Step Forward on Testosterone Therapy for Men",
-      "summary": "FDA is taking an initial step to advance treatment options for men’s health by encouraging sponsors of approved testosterone replacement therapy products to contact FDA for information if they are interested in pursuing a potential new indication for low libido in men with idiopathic hypogonadism.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-takes-step-forward-testosterone-therapy-men",
-      "published": "2026-04-16T15:24:16+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Early Alert: Convenience Kit Issue from American Contract Systems",
-      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-convenience-kit-issue-american-contract-systems",
-      "published": "2026-04-16T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
     }
   ]
 }
