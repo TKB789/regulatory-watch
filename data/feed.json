@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T10:17:55.842105+00:00",
+  "generated_at": "2026-10-02T17:14:04.239181+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 5,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
-      "last_success": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
+      "last_success": "2026-10-02T17:06:31.399361+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
-      "last_success": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
+      "last_success": "2026-10-02T17:06:31.399361+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
-      "last_success": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
+      "last_success": "2026-10-02T17:06:31.399361+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
-      "last_success": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
+      "last_success": "2026-10-02T17:06:31.399361+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
-      "last_success": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
+      "last_success": "2026-10-02T17:06:31.399361+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,13 +141,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_attempt": "2026-10-02T17:06:31.399361+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-02T10:10:21.471656+00:00",
+      "last_success": "2026-10-02T17:06:31.399361+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-10-02T12:03:16+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Automated Impella® Controllers (AIC)",
+      "summary": "Abiomed has decided to initiate a voluntary medical device recall (removal) for design changes that were previously implemented through the Abiomed field service process. Abiomed performed a retrospective review of Field Change Notices (FCN) and determined that certain AIC consoles in the field did not receive the updates introduced by FCN 113.Failure to implement the applicable FCN 113 updates may result in the screen freezing during the Purge Cassette Change Wizard and the display of a false…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/automated-impellar-controllers-aic",
+      "published": "2026-10-02T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "hCG Cassettes",
+      "summary": "Product may detect low levels of HCG below the stated assay sensitivity which may result in false positive test results in samples from non-pregnant individuals. The package insert is being updated to note that low HCG levels can occur at or after onset of perimenopause. Customers should consider this when interpreting results.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/hcg-cassettes",
+      "published": "2026-10-02T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "hCG One Step Pregnancy Tests",
+      "summary": "Product may detect low levels of HCG below the stated assay sensitivity which may result in false positive test results in samples from non-pregnant individuals. The package insert is being updated to note that low HCG levels can occur at or after onset of perimenopause. Customers should consider this when interpreting results.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/hcg-one-step-pregnancy-tests",
+      "published": "2026-10-02T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 28 September - 1 October",
       "summary": "At its monthly meeting, EMA’s safety committee (PRAC) carried out its broad range of responsibilities to manage the safety of medicines, including the assessment of&nbsp;safety…, Agenda Agenda of the PRAC meeting 28 September - 1 October 2026Draft Reference Number: EMA/PRAC/204838/2026…, PRAC statistics: October 2026 Monthly figures for PRAC outcomes based on the draft agenda. © European Medicines Agency, PRAC statistics:…, Glossary Safety signal assessments. A safety signal is information…",
@@ -639,18 +687,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-09-28T12:48:57+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "OmniaSecure™ MRI SureScan™",
@@ -12111,42 +12147,6 @@
       "feed_id": "tga-news",
       "feed_label": "TGA News",
       "source": "TGA news & alerts"
-    },
-    {
-      "title": "FDA Achieves Year 1 Goals in Reducing Animal Testing in Drug Development",
-      "summary": "Since publishing roadmap last April, agency has successfully launched several key initiatives to replace animal testing with better alternatives",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-achieves-year-1-goals-reducing-animal-testing-drug-development",
-      "published": "2026-04-20T15:12:37+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Shortage of methylphenidate hydrochloride products is resolving",
-      "summary": "The overall supply of methylphenidate modified-release products continues to improve and stabilise.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/shortage-methylphenidate-hydrochloride-products-resolving",
-      "published": "2026-04-20T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Update - MDCG 2021-24 rev.1 - Guidance on classification of medical devices (April 2026)",
-      "summary": "Update - MDCG 2021-24 rev.1 - Guidance on classification of medical devices (April 2026)",
-      "link": "https://health.ec.europa.eu/latest-updates/update-mdcg-2021-24-rev1-guidance-classification-medical-devices-april-2026-2026-04-20_en",
-      "published": "2026-04-20T13:23:27+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
     }
   ]
 }
