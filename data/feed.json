@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T03:26:01.173783+00:00",
+  "generated_at": "2026-10-02T10:17:55.842105+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
-      "last_success": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_success": "2026-10-02T10:10:21.471656+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
-      "last_success": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_success": "2026-10-02T10:10:21.471656+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
-      "last_success": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_success": "2026-10-02T10:10:21.471656+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
-      "last_success": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_success": "2026-10-02T10:10:21.471656+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
-      "last_success": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
+      "last_success": "2026-10-02T10:10:21.471656+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,13 +141,97 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-02T03:18:28.676410+00:00",
+      "last_attempt": "2026-10-02T10:10:21.471656+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-02T03:18:28.676410+00:00",
+      "last_success": "2026-10-02T10:10:21.471656+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Meeting highlights from the Pharmacovigilance Risk Assessment Committee (PRAC) 28 September - 1 October",
+      "summary": "At its monthly meeting, EMA’s safety committee (PRAC) carried out its broad range of responsibilities to manage the safety of medicines, including the assessment of&nbsp;safety…, Agenda Agenda of the PRAC meeting 28 September - 1 October 2026Draft Reference Number: EMA/PRAC/204838/2026…, PRAC statistics: October 2026 Monthly figures for PRAC outcomes based on the draft agenda. © European Medicines Agency, PRAC statistics:…, Glossary Safety signal assessments. A safety signal is information…",
+      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-28-september-1-october",
+      "published": "2026-10-02T11:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "Renewing marketing authorisations for medicines",
+      "summary": "How to renew marketing authorisations for products granted through different routes and at different times.",
+      "link": "https://www.gov.uk/guidance/renewing-marketing-authorisations-for-medicines",
+      "published": "2026-10-02T09:55:42+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Medicines: apply for a variation to your marketing authorisation",
+      "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
+      "link": "https://www.gov.uk/guidance/medicines-apply-for-a-variation-to-your-marketing-authorisation",
+      "published": "2026-10-02T09:55:41+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Apply for a licence to market a medicine in the UK",
+      "summary": "An overview of the process to get a marketing authorisation (MA), including submitting, fast-tracking an application, naming your medicine and paying fees.",
+      "link": "https://www.gov.uk/guidance/apply-for-a-licence-to-market-a-medicine-in-the-uk",
+      "published": "2026-10-02T09:55:40+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Electronic Application Forms (eAF) for UK medicines licensing applications",
+      "summary": "Current eAF forms are available for applicants to download and use. Existing submission routes, validation requirements and assessment processes remain unchanged.",
+      "link": "https://www.gov.uk/guidance/electronic-application-forms-eaf-for-uk-medicines-licensing-applications",
+      "published": "2026-10-02T09:55:39+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Advertising investigations: September 2026",
+      "summary": "Decisions made by MHRA on adverts reported to have breached the legislation on advertising medicines.",
+      "link": "https://www.gov.uk/government/publications/advertising-investigations-september-2026",
+      "published": "2026-10-02T08:56:22+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Human medicines: register of electronic export certificates",
+      "summary": "Department of Health and Social Care and MHRA register of electronic export certificates (human).",
+      "link": "https://www.gov.uk/government/publications/human-medicines-register-of-electronic-export-certificates",
+      "published": "2026-10-02T08:49:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "MHRA joins global regulators in call to advance alternatives to animal testing",
       "summary": "International statement co-developed by UK medicines regulator",
@@ -597,18 +681,6 @@
       "summary": "How manufacturers or distributors of Coronavirus (COVID-19) test devices can apply for approval of their tests to be placed on the UK market.",
       "link": "https://www.gov.uk/guidance/covid-19-test-approval-how-to-apply",
       "published": "2026-09-28T11:15:19+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Medicines: apply for a variation to your marketing authorisation",
-      "summary": "Apply for changes to your marketing authorisation, including minor variations type IA and IB, major variations type II and extensions.",
-      "link": "https://www.gov.uk/guidance/medicines-apply-for-a-variation-to-your-marketing-authorisation",
-      "published": "2026-09-28T08:25:33+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -1683,18 +1755,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Decision: Human medicines: register of electronic export certificates",
-      "summary": "Department of Health and Social Care and MHRA register of electronic export certificates (human).",
-      "link": "https://www.gov.uk/government/publications/human-medicines-register-of-electronic-export-certificates",
-      "published": "2026-09-09T13:03:01+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Decision: Suspended and revoked licences and registrations for manufacturers and wholesalers of medicines and ingredients",
@@ -12087,66 +12147,6 @@
       "feed_id": "eur-lex",
       "feed_label": "EUR-Lex",
       "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Class 2 Medicines Recall: Crescent Pharma Limited, Ramipril 10mg capsules, EL(26)A/19",
-      "summary": "Crescent Pharma Limited is recalling one batch of Ramipril 10mg Capsules as a precautionary measure due to a potential error at the manufacturing site.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-crescent-pharma-limited-ramipril-10mg-capsules-el-26-a-slash-19",
-      "published": "2026-04-20T12:06:09+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Windstone Medical Packaging dba Aligned Medical Solutions Issues Nationwide Recall of Namic Angiographic Rotating Adapter 10CC Control Syringe Placed into the Following Kits; AMS6908E Angio Pack, and AMS6908F Angio Pack",
-      "summary": "On April 02, 2026, Aligned Medical Solutions, Billings, MT, initiated a nationwide recall of two convenience kits that contain the Medline Namic Angiographic Rotating Adapter(RA) 10CC Syringe. Associated kits are AMS6908E Angio Pack and AMS6908F Angio Pack.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/windstone-medical-packaging-dba-aligned-medical-solutions-issues-nationwide-recall-namic",
-      "published": "2026-04-20T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 14-16 April 2026",
-      "summary": "CVMP opinions on veterinary medicinal productsThe Committee adopted a positive opinion for a marketing authorisation for Nobivac NXT HCPChFeLV, for the active immunisation of…",
-      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-14-16-april-2026",
-      "published": "2026-04-17T13:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "EMA recommends authorisation of first veterinary vaccine using RNA technology",
-      "summary": "EMA has recommended granting a marketing authorisation in the EU for&nbsp;Nobivac NXT HCPChFeLV, a vaccine for protecting cats against common infectious diseases.The vaccine…",
-      "link": "https://www.ema.europa.eu/en/news/ema-recommends-authorisation-first-veterinary-vaccine-using-rna-technology",
-      "published": "2026-04-17T12:59:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Silver Moon LP DBA Loard’s Ice Cream Issues Allergy Alert on Undeclared Milk, Eggs, Tree Nuts, Peanuts, Soy, Wheat, Sulfites, and Food Color Additives in Ice Cream Products",
-      "summary": "Silver Moon, LP dba Loard’s Ice Cream of San Leandro, CA is voluntarily recalling all products sold in retail-sized packaging because they were distributed without ingredient labeling and therefore they contain undeclared allergens, sulfites, and added colors. People who have an allergy or severe se",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/silver-moon-lp-dba-loards-ice-cream-issues-allergy-alert-undeclared-milk-eggs-tree-nuts-peanuts-soy",
-      "published": "2026-04-17T03:38:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
     }
   ]
 }
