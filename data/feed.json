@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T17:02:35.076608+00:00",
+  "generated_at": "2026-10-05T23:37:59.242874+00:00",
   "item_count": 1000,
   "feed_count": 12,
   "new_this_run": 3,
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
-      "last_success": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
+      "last_success": "2026-10-05T23:30:28.221599+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
-      "last_success": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
+      "last_success": "2026-10-05T23:30:28.221599+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
-      "last_success": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
+      "last_success": "2026-10-05T23:30:28.221599+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
-      "last_success": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
+      "last_success": "2026-10-05T23:30:28.221599+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
-      "last_success": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
+      "last_success": "2026-10-05T23:30:28.221599+00:00",
       "items_fetched": 8,
       "last_success_item_count": 8
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-05T16:55:02.218300+00:00",
+      "last_attempt": "2026-10-05T23:30:28.221599+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-05T16:55:02.218300+00:00",
+      "last_success": "2026-10-05T23:30:28.221599+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Guidance: What the National Commission’s recommendations mean for you",
+      "summary": "How new recommendations could make healthcare AI safer, clearer and fairer for patients, professionals, providers and developers across the UK.",
+      "link": "https://www.gov.uk/government/publications/what-the-national-commissions-recommendations-mean-for-you",
+      "published": "2026-10-05T23:02:16+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: AI Airlock Phase 3 application",
+      "summary": "The call for applications for phase 3 of the AI Airlock is now open.",
+      "link": "https://www.gov.uk/government/publications/ai-airlock-phase-3-application",
+      "published": "2026-10-05T23:02:07+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Policy paper: Government Response to the National Commission's Recommendations on the Regulation of AI in Healthcare.",
+      "summary": "The government's response published on the 6 October 2026 to provide clarity to stakeholders on how the government intends to take forward the recommendations made by the independent National Commission.",
+      "link": "https://www.gov.uk/government/publications/government-response-to-the-national-commissions-recommendations-on-the-regulation-of-ai-in-healthcare",
+      "published": "2026-10-05T23:01:28+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Guidance: Good machine learning practice for medical device development",
       "summary": "10 guiding principles that can inform the development of good machine learning practice (GMLP).",
@@ -12111,42 +12147,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 v5",
-      "summary": "Update - Manual on borderline and classification under Regulations (EU) 2017/745 and 2017/746 v5",
-      "link": "https://health.ec.europa.eu/latest-updates/update-manual-borderline-and-classification-under-regulations-eu-2017745-and-2017746-v5-2026-04-22_en",
-      "published": "2026-04-22T08:02:36+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Insulin Pump Correction: Tandem Diabetes Care Issues Correction for Tandem Mobi Insulin Pumps",
-      "summary": "Tandem is correcting Mobi insulin pumps operating on affected software versions (7.6.0.1, 7.6.0.3, and 7.7.0.1) which may incorrectly detect a motor issue.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/insulin-pump-correction-tandem-diabetes-care-issues-correction-tandem-mobi-insulin-pumps",
-      "published": "2026-04-22T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Medical Devices; Clinical Chemistry and Clinical Toxicology Devices; Classification of the Setmelanotide Eligibility Gene Variant Detection System",
-      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is classifying the setmelanotide eligibility gene variant detection system into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the setmelanotide eligibility gene variant detection system. We are taking this action because we have determined that classifying the device into class II will provide a reasonable…",
-      "link": "https://www.federalregister.gov/documents/2026/04/22/2026-07863/medical-devices-clinical-chemistry-and-clinical-toxicology-devices-classification-of-the",
-      "published": "2026-04-22T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
