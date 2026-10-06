@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T12:36:35.692662+00:00",
+  "generated_at": "2026-10-06T19:22:35.104394+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 9,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
-      "last_success": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
+      "last_success": "2026-10-06T19:15:01.387584+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
-      "last_success": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
+      "last_success": "2026-10-06T19:15:01.387584+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
-      "last_success": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
+      "last_success": "2026-10-06T19:15:01.387584+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
-      "last_success": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
+      "last_success": "2026-10-06T19:15:01.387584+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
-      "last_success": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
+      "last_success": "2026-10-06T19:15:01.387584+00:00",
       "items_fetched": 8,
       "last_success_item_count": 8
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-06T12:29:01.825172+00:00",
+      "last_attempt": "2026-10-06T19:15:01.387584+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-06T12:29:01.825172+00:00",
+      "last_success": "2026-10-06T19:15:01.387584+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Fluoroplastic Vent Tube",
+      "summary": "Vent tube devices across lot 0231048280 were identified to have been released to customers without undergoing sterilization. the issue is currently understood to originate from manufacturing (load preparation) and represents a fault condition: the product does not meet its specification for sterility (SAL 10-6) or its labeled sterile state.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/fluoroplastic-vent-tube",
+      "published": "2026-10-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Cardinal Health General Procedure Tray",
+      "summary": "Cardinal Health was recently informed of a medical device recall from Becton Dickinson concerning the BD Alaris™ Pump Infusion sets used with BD Alaris™ pump module model 8100 referenced.Tthe recall is being issued due to BD requesting the discontinuation of sets.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/cardinal-health-general-procedure-tray",
+      "published": "2026-10-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Embletta MPR PG",
+      "summary": "Natus has become aware of complaints related to certain Embletta MPR devices where the device is unable to correctly format its internal memory. When the internal memory cannot be correctly formatted, previously recorded studies may remain on the device and may be updated with incorrect patient information from a subsequent study. &nbsp;The issue may also prevent studies from initiating recording successfully or may cause recordings to end prematurely, resulting in incomplete or unavailable…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/embletta-mpr-pg",
+      "published": "2026-10-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Government backs recommendations of NHS doctors-led AI Commission",
       "summary": "Ministers back independent Commission's blueprint in full, while the MHRA's AI Airlock opens its next phase,",
@@ -12111,42 +12147,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Ferris Coffee & Nut Co. Issues Allergy Alert on Undeclared Wheat and Soy in Frederik’s By Meijer Vanilla Bourbon Trail Mix",
-      "summary": "Ferris Coffee &amp; Nut Co., Grand Rapids, Michigan is recalling a single lot of Frederik’s by Meijer Vanilla Bourbon Trail Mix 9 oz. because it may contain undeclared wheat and soy. People who have an allergy or severe sensitivity to wheat or soy run the risk of serious or life-threatening allergic re",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ferris-coffee-nut-co-issues-allergy-alert-undeclared-wheat-and-soy-frederiks-meijer-vanilla-bourbon",
-      "published": "2026-04-23T20:16:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "FDA Approves First-Ever Gene Therapy for Treatment of Genetic Hearing Loss Under National Priority Voucher Program",
-      "summary": "The U.S. Food and Drug Administration today approved Otarmeni (lunsotogene parvec-cwha), the first-ever dual adeno-associated virus (AAV) vector-based gene therapy.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher",
-      "published": "2026-04-23T19:25:59+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Field Safety Notices: 13 to 17 April 2026",
-      "summary": "List of Field Safety Notices from 13 to 17 April 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-13-to-17-april-2026",
-      "published": "2026-04-23T15:26:18+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
     }
   ]
 }
