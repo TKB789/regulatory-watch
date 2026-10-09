@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-09T00:11:14.443261+00:00",
+  "generated_at": "2026-10-09T08:20:23.648851+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 13,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -28,19 +28,20 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    },
-    {
-      "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "HTTP 403: Forbidden"
     }
   ],
-  "empty_feeds": [],
+  "empty_feeds": [
+    {
+      "name": "EUR-Lex — Recent regulations & directives",
+      "reason": "feed returned 0 entries"
+    }
+  ],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -49,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -58,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -66,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
-      "last_success": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
+      "last_success": "2026-10-09T08:12:51.945501+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -75,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -85,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -95,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
-      "last_success": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
+      "last_success": "2026-10-09T08:12:51.945501+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -104,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
-      "last_success": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
+      "last_success": "2026-10-09T08:12:51.945501+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -113,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
-      "last_success": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
+      "last_success": "2026-10-09T08:12:51.945501+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -122,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -131,22 +132,178 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
-      "last_success": "2026-10-09T00:03:41.460748+00:00",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
+      "last_success": "2026-10-09T08:12:51.945501+00:00",
       "items_fetched": 9,
       "last_success_item_count": 9
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "error",
-      "last_attempt": "2026-10-09T00:03:41.460748+00:00",
-      "last_attempt_reason": "HTTP 403: Forbidden",
-      "items_fetched": 0,
-      "last_success": "2026-10-08T19:34:43.291585+00:00"
+      "status": "empty",
+      "last_attempt": "2026-10-09T08:12:51.945501+00:00",
+      "last_attempt_reason": "feed returned 0 entries",
+      "last_success": "2026-10-09T08:12:51.945501+00:00",
+      "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Issuance of Priority Review Voucher; Rare Pediatric Disease Product; ZANVASTRO (Zilganersen)",
+      "summary": "The Food and Drug Administration (FDA) is announcing the issuance of a priority review voucher to the sponsor of a rare pediatric disease product application. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) authorizes FDA to award priority review vouchers to sponsors of approved rare pediatric disease product applications that meet certain criteria. FDA is required to publish notice of the award of the priority review voucher. FDA has determined that ZANVASTRO (zilganersen), approved…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20769/issuance-of-priority-review-voucher-rare-pediatric-disease-product-zanvastro-zilganersen",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Biologics License Applications, Procedures and Requirements",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20768/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; MONOFERRIC",
+      "summary": "The Food and Drug Administration (FDA or the Agency) has determined the regulatory review period for MONOFERRIC and is publishing this notice of that determination as required by law. FDA has made the determination because of the submission of an application to the Director of the U.S. Patent and Trademark Office (USPTO), Department of Commerce, for the extension of a patent which claims that human drug product.",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20766/determination-of-regulatory-review-period-for-purposes-of-patent-extension-monoferric",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Expanded Access to Investigational Drugs for Treatment Use",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20765/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination That LASIX (Furosemide) Oral Solution, 10 Milligrams/Milliliter, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that LASIX (furosemide) oral solution, 10 milligrams (mg)/ milliliter (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20764/determination-that-lasix-furosemide-oral-solution-10-milligramsmilliliter-was-not-withdrawn-from",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Par Health USA LLC, U.S. Agent for PH Health Limited, et al.; Withdrawal of Approval of 37 Abbreviated New Drug Applications",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of 37 abbreviated new drug applications (ANDAs) from multiple applicants. The applicants notified the Agency in writing that the drug products were no longer marketed and requested that the approval of the applications be withdrawn.",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20762/par-health-usa-llc-us-agent-for-ph-health-limited-et-al-withdrawal-of-approval-of-37-abbreviated-new",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Amneal Pharmaceuticals of New York, LLC; Withdrawal of Approval of Abbreviated New Drug Application for Celecoxib Capsules, 50 Milligrams, 100 Milligrams, 200 Milligrams, and 400 Milligrams",
+      "summary": "The Food and Drug Administration (FDA or Agency) is withdrawing approval of abbreviated new drug application (ANDA) 208833 for Celecoxib capsules, 50 milligrams (mg), 100 mg, 200 mg, and 400 mg, held by Amneal Pharmaceuticals of New York, LLC, 50 Horseblock Rd., Brookhaven, NY 11719 (Amneal). Amneal requested withdrawal of approval of this application and has waived its opportunity for a hearing.",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20758/amneal-pharmaceuticals-of-new-york-llc-withdrawal-of-approval-of-abbreviated-new-drug-application",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Elite Laboratories, Inc. et al.; Withdrawal of Approval of 16 Abbreviated New Drug Applications; Correction",
+      "summary": "The Food and Drug Administration (FDA) is correcting a notice that appeared in the Federal Register on June 3, 2026. The document announced the withdrawal of approval of 16 abbreviated new drug applications (ANDAs) from multiple applicants, withdrawn as of July 6, 2026. The document indicated that FDA was withdrawing approval of ANDA 207366 for ribavirin solution, 6 grams/vial, held by Navinta LLC, 1499 Lower Ferry Rd., Ewing, NJ 08618; ANDA 212957 for fosaprepitant dimeglumine powder,…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20730/elite-laboratories-inc-et-al-withdrawal-of-approval-of-16-abbreviated-new-drug-applications",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Immunology and Microbiology Devices; Classification of the System for Detection of Nucleic Acid From Non-Viral Microorganism(s) Causing Sexually Transmitted Infections Using Home-Collected Specimens",
+      "summary": "The Food and Drug Administration (FDA) is classifying the system for detection of nucleic acid from non-viral microorganism(s) causing sexually transmitted infections using home-collected specimens into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the system for detection of nucleic acid from non-viral microorganism(s) causing sexually transmitted infections using…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20727/medical-devices-immunology-and-microbiology-devices-classification-of-the-system-for-detection-of",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Cardiovascular Devices; Classification of the Infant Pulse Rate and Oxygen Saturation Monitor for Over-the-Counter Use",
+      "summary": "The Food and Drug Administration (FDA) is classifying the infant pulse rate and oxygen saturation monitor for over-the-counter use into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the infant pulse rate and oxygen saturation monitor for over-the-counter use. We are taking this action because we have determined that classifying the device into class II will provide a…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20726/medical-devices-cardiovascular-devices-classification-of-the-infant-pulse-rate-and-oxygen-saturation",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Immunology and Microbiology Devices; Classification of the Hematopoietic Cell Enrichment Kit",
+      "summary": "The Food and Drug Administration (FDA) is classifying the hematopoietic cell enrichment kit into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the hematopoietic cell enrichment kit. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20725/medical-devices-immunology-and-microbiology-devices-classification-of-the-hematopoietic-cell",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Requirements for Additional Traceability Records for Certain Foods: Enforcement Policy for Certain Retail Food Establishments and Restaurants; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA, we, or the Agency) is announcing the availability of a draft guidance for industry titled &quot;Requirements for Additional Traceability Records for Certain Foods: Enforcement Policy for Certain Retail Food Establishments and Restaurants.&quot; The draft guidance states that, at this time and based on our current understanding of the risks, FDA does not intend to enforce certain regulatory requirements as they apply to certain entities and/or activities.…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20721/requirements-for-additional-traceability-records-for-certain-foods-enforcement-policy-for-certain",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Challenges and Solutions in Lot-Level Food Traceability; Public Meeting",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing a public meeting titled &quot;Challenges and Solutions in Lot- Level Food Traceability.&quot; The purpose of the meeting is to provide a forum for the public to share information on continued implementation of the &quot;Requirements for Additional Traceability Records for Certain Foods&quot; final rule and areas of concern, especially as they relate to lot-level tracking, and identify potential flexibilities to support…",
+      "link": "https://www.federalregister.gov/documents/2026/10/09/2026-20720/challenges-and-solutions-in-lot-level-food-traceability-public-meeting",
+      "published": "2026-10-09T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Find product information about medicines",
       "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
@@ -11990,162 +12147,6 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request for Information",
-      "summary": "The Food and Drug Administration (FDA or the Agency) is issuing this request for information to solicit input on a proposed pilot program to assess how artificial intelligence (AI)-enabled technologies can improve efficiency, speed, and quality of decision- making in early phase clinical trials. Early-phase clinical trials represent a critical bottleneck in drug development, often characterized by high uncertainty, limited patient populations, and inefficient decision- making processes. This…",
-      "link": "https://www.federalregister.gov/documents/2026/04/29/2026-08281/ai-enabled-optimization-of-early-phase-clinical-trials-pilot-program-request-for-information",
-      "published": "2026-04-29T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "FDA Announces Major Steps to Implement Real-Time Clinical Trials",
-      "summary": "The U.S. Food and Drug Administration today announced two major steps as part of an initiative to advance the implementation of real-time clinical trials (RTCT).",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-announces-major-steps-implement-real-time-clinical-trials",
-      "published": "2026-04-28T17:33:24+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "Precautionary recall of antidepressant medication due to manufacturing error",
-      "summary": "The MHRA has advised healthcare professionals to stop supplying the affected batch of Sertraline 100mg and return all remaining stock to their suppliers.",
-      "link": "https://www.gov.uk/government/news/precautionaryrecall-of-antidepressant-medication-due-to-manufacturing-error",
-      "published": "2026-04-28T11:03:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Class 2 Medicines Recall: Amarox Limited, Sertraline 100mg film-coated tablets, EL(26)A/22",
-      "summary": "Amarox Limited is recalling one batch of Sertraline 100 mg film-coated tablets as a precautionary measure due to an error at the manufacturing site.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-amarox-limited-sertraline-100mg-film-coated-tablets-el-26-a-slash-22",
-      "published": "2026-04-28T10:00:11+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "New pilot to support development of ‘breakthrough’ medical devices",
-      "summary": "EMA has launched a pilot programme to support the development of breakthrough medical devices in the European Union (EU). The purpose of the pilot is to test a new regulatory…",
-      "link": "https://www.ema.europa.eu/en/news/new-pilot-support-development-breakthrough-medical-devices",
-      "published": "2026-04-28T09:26:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Corporate report: MHRA Results and Forecast 2025/26; 2026/27",
-      "summary": "MHRA achievements and highlights for 2025/26 and key projections for 2026/2027.",
-      "link": "https://www.gov.uk/government/publications/mhra-results-and-forecast-202526-202627",
-      "published": "2026-04-28T08:30:01+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Early Alert: Thoracic Stent Graft Issue from Bolton Medical",
-      "summary": "Affected grafts may not unclasp from the delivery system, which may require conversion to open surgical repair and can result in patient death",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-thoracic-stent-graft-issue-bolton-medical",
-      "published": "2026-04-28T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Risks of Using TRUE METRIX Blood Glucose Monitoring Systems by Trividia Health: FDA Safety Communication",
-      "summary": "FDA alerts of risks with use TRUE METRIX Blood Glucose Monitoring Systems by Trividia Health.",
-      "link": "http://www.fda.gov/medical-devices/safety-communications/risks-using-true-metrix-blood-glucose-monitoring-systems-trividia-health-fda-safety-communication",
-      "published": "2026-04-28T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "B. Braun Medical, Inc. Issues Voluntary Nationwide Recall of Lactated Ringer’s Injection, 1L, E7500 Due to the Presence of Particulate Matter in Solution",
-      "summary": "For Immediate Release - BETHLEHEM, PA – APRIL 28, 2026 – B. Braun Medical Inc. is voluntarily recalling two lots of Lactated Ringer’s Injection, E7500, 1L, to the hospital/healthcare facility level. The product has been found to have particulate matter in solution.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/b-braun-medical-inc-issues-voluntary-nationwide-recall-lactated-ringers-injection-1l-e7500-due",
-      "published": "2026-04-28T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Blood Glucose Monitor Recall: Trividia Health Issues Correction for TRUE METRIX Blood Glucose Monitoring Systems",
-      "summary": "Trividia recommends that device users who receive an E-5 error code and are experiencing symptoms of high glucose should seek medical care immediately.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/blood-glucose-monitor-recall-trividia-health-issues-correction-true-metrix-blood-glucose-monitoring",
-      "published": "2026-04-28T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Clinical trials for medicines: good manufacturing practice and radiopharmaceutical investigational medicinal products",
-      "summary": "Guidance on good manufacturing practice and the use of radiopharmaceutical investigational medicinal products in clinical trials.",
-      "link": "https://www.gov.uk/guidance/clinical-trials-for-medicines-good-manufacturing-practice-and-radiopharmaceutical-investigational-medicinal-products",
-      "published": "2026-04-27T23:01:01+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Ghirardelli Chocolate Company Recalls Powdered Beverage Mixes Because of Possible Health Risk",
-      "summary": "Ghirardelli Chocolate Company of San Leandro, California is voluntarily recalling certain powdered beverage mixes because they have the potential to be contaminated with Salmonella. This action follows a California Dairies, Inc. milk powder recall due to a concern of potential Salmonella contaminati",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ghirardelli-chocolate-company-recalls-powdered-beverage-mixes-because-possible-health-risk",
-      "published": "2026-04-27T17:07:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Extension of substitution approval for shortage of Catapres (clonidine) 150 mcg tablets",
-      "summary": "Serious Scarcity Substitution Instrument (SSSI) has lapsed and product is available.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/extension-substitution-approval-shortage-catapres-clonidine-150-mcg-tablets",
-      "published": "2026-04-27T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
     }
   ]
 }
