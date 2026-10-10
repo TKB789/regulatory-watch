@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T03:40:15.529495+00:00",
+  "generated_at": "2026-10-10T10:25:22.362375+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -28,19 +28,20 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    },
-    {
-      "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "HTTP 403: Forbidden"
     }
   ],
-  "empty_feeds": [],
+  "empty_feeds": [
+    {
+      "name": "EUR-Lex — Recent regulations & directives",
+      "reason": "feed returned 0 entries"
+    }
+  ],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -49,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -58,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -66,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
-      "last_success": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
+      "last_success": "2026-10-10T10:17:48.990024+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -75,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -85,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -95,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
-      "last_success": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
+      "last_success": "2026-10-10T10:17:48.990024+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -104,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
-      "last_success": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
+      "last_success": "2026-10-10T10:17:48.990024+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -113,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
-      "last_success": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
+      "last_success": "2026-10-10T10:17:48.990024+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -122,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -131,22 +132,46 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
-      "last_success": "2026-10-10T03:32:43.785817+00:00",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
+      "last_success": "2026-10-10T10:17:48.990024+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "error",
-      "last_attempt": "2026-10-10T03:32:43.785817+00:00",
-      "last_attempt_reason": "HTTP 403: Forbidden",
-      "items_fetched": 0,
-      "last_success": "2026-10-09T16:43:13.279661+00:00"
+      "status": "empty",
+      "last_attempt": "2026-10-10T10:17:48.990024+00:00",
+      "last_attempt_reason": "feed returned 0 entries",
+      "last_success": "2026-10-10T10:17:48.990024+00:00",
+      "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
+      "summary": "The Food and Drug Administration (FDA or we) is issuing a final rule to amend our standard of identity regulations that specify salt (sodium chloride) as a required or optional ingredient to permit the use of salt substitutes in standardized foods, to reduce the sodium content. Reducing sodium may help reduce the risk of hypertension, a major risk factor for heart disease and stroke. The rule will help support a healthier food supply by providing flexibility to facilitate industry innovation…",
+      "link": "https://www.federalregister.gov/documents/2026/10/13/2026-20848/use-of-salt-substitutes-to-reduce-the-sodium-content-in-standardized-foods",
+      "published": "2026-10-13T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Postapproval Manufacturing Changes to Biosimilar and Interchangeable Biosimilar Products: Questions and Answers; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry entitled &quot;Postapproval Manufacturing Changes to Biosimilar and Interchangeable Biosimilar Products: Questions and Answers.&quot; This guidance provides answers to commonly asked questions from applicants and other interested parties regarding postapproval manufacturing changes made to biosimilar and interchangeable biosimilar products licensed under the Public Health Service…",
+      "link": "https://www.federalregister.gov/documents/2026/10/13/2026-20817/postapproval-manufacturing-changes-to-biosimilar-and-interchangeable-biosimilar-products-questions",
+      "published": "2026-10-13T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Nova Biomedical StatStrip ketone test strips: risk of disruption to blood ketone testing due to quality-control failures and supply interruption DSI/2026/013",
       "summary": "Nova Biomedical has identified quality issues affecting specified lots of StatStrip ketone test strips. The affected lots have been associated with quality-control (QC) failures and Nova Biomedical has initiated a recall, ad…",
@@ -12115,30 +12140,6 @@
       "title": "Medical Devices; Cardiovascular Devices; Classification of the Laser-Powered Inferior Vena Cava Filter Retrieval Catheter",
       "summary": "The Food and Drug Administration (FDA) is classifying the laser-powered inferior vena cava filter retrieval catheter into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the laser-powered inferior vena cava filter retrieval catheter. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of…",
       "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08426/medical-devices-cardiovascular-devices-classification-of-the-laser-powered-inferior-vena-cava-filter",
-      "published": "2026-04-30T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Medical Devices; Neurological Devices; Classification of the Brain Temperature Measurement System",
-      "summary": "The Food and Drug Administration (FDA) is classifying the brain temperature measurement system into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the brain temperature measurement system. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We…",
-      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08425/medical-devices-neurological-devices-classification-of-the-brain-temperature-measurement-system",
-      "published": "2026-04-30T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Medical Devices; Radiology Devices; Classification of the Radiation Therapy Marking Device",
-      "summary": "The Food and Drug Administration (FDA) is classifying the radiation therapy marking device into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the radiation therapy marking device. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the device. We believe this…",
-      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08424/medical-devices-radiology-devices-classification-of-the-radiation-therapy-marking-device",
       "published": "2026-04-30T00:00:00+00:00",
       "agency": "FR",
       "region": "United States",
