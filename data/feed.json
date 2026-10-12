@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T08:27:17.968700+00:00",
+  "generated_at": "2026-10-12T19:38:55.923302+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
-      "last_success": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
+      "last_success": "2026-10-12T19:31:23.039632+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
-      "last_success": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
+      "last_success": "2026-10-12T19:31:23.039632+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
-      "last_success": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
+      "last_success": "2026-10-12T19:31:23.039632+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
-      "last_success": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
+      "last_success": "2026-10-12T19:31:23.039632+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,18 +132,18 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
-      "last_success": "2026-10-12T08:19:47.193506+00:00",
-      "items_fetched": 10,
-      "last_success_item_count": 10
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
+      "last_success": "2026-10-12T19:31:23.039632+00:00",
+      "items_fetched": 9,
+      "last_success_item_count": 9
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-12T08:19:47.193506+00:00",
+      "last_attempt": "2026-10-12T19:31:23.039632+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-12T08:19:47.193506+00:00",
+      "last_success": "2026-10-12T19:31:23.039632+00:00",
       "items_fetched": 0
     }
   ],
@@ -171,6 +171,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Class 2 Medicines Recall: Norgine Pharmaceuticals Limited, Pedmarqsi 80 mg/mL solution for infusion, EL(26)A/42",
+      "summary": "Norgine Pharmaceuticals Limited is recalling the batches listed in the table due to risk of particulate matter being present in the product identified during routine stability investigations.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-2-medicines-recall-norgine-pharmaceuticals-limited-pedmarqsi-80-mg-slash-ml-solution-for-infusion-el-26-a-slash-42",
+      "published": "2026-10-12T10:00:23+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
     },
     {
       "title": "Nova Biomedical StatStrip ketone test strips: risk of disruption to blood ketone testing due to quality-control failures and supply interruption DSI/2026/013",
@@ -12128,18 +12140,6 @@
       "title": "Determination That OZEMPIC (Semaglutide) Solution, 2 Milligrams Per 1.5 Milliliters Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA or Agency) has determined that OZEMPIC (semaglutide) solution, 2 milligrams (mg)/1.5 milliliter (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and regulatory…",
       "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08435/determination-that-ozempic-semaglutide-solution-2-milligrams-per-15-milliliters-was-not-withdrawn",
-      "published": "2026-04-30T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Medical Devices; Cardiovascular Devices; Classification of the Laser-Powered Inferior Vena Cava Filter Retrieval Catheter",
-      "summary": "The Food and Drug Administration (FDA) is classifying the laser-powered inferior vena cava filter retrieval catheter into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the laser-powered inferior vena cava filter retrieval catheter. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of…",
-      "link": "https://www.federalregister.gov/documents/2026/04/30/2026-08426/medical-devices-cardiovascular-devices-classification-of-the-laser-powered-inferior-vena-cava-filter",
       "published": "2026-04-30T00:00:00+00:00",
       "agency": "FR",
       "region": "United States",
