@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T08:50:14.503683+00:00",
+  "generated_at": "2026-10-15T14:41:25.753388+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 6,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
-      "last_success": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
+      "last_success": "2026-10-15T14:33:52.138441+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
-      "last_success": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
+      "last_success": "2026-10-15T14:33:52.138441+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
-      "last_success": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
+      "last_success": "2026-10-15T14:33:52.138441+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
-      "last_success": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
+      "last_success": "2026-10-15T14:33:52.138441+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,22 +132,70 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
-      "last_success": "2026-10-15T08:42:38.875437+00:00",
-      "items_fetched": 9,
-      "last_success_item_count": 9
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
+      "last_success": "2026-10-15T14:33:52.138441+00:00",
+      "items_fetched": 10,
+      "last_success_item_count": 10
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_attempt": "2026-10-15T14:33:52.138441+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-15T08:42:38.875437+00:00",
+      "last_success": "2026-10-15T14:33:52.138441+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police",
+      "summary": "Fake weight loss medicines worth approximately £2 million were seized last night in a raid executed by the Medicines and Healthcare products Regulatory Agency (MHRA) and West Midlands Police.",
+      "link": "https://www.gov.uk/government/news/counterfeit-weight-loss-pens-worth-2-million-seized-by-mhra-and-west-mids-police",
+      "published": "2026-10-15T13:36:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "EMA recommends authorisation of Rasonque for metastatic pancreatic cancer",
+      "summary": "EMA’s human medicines committee (CHMP) has recommended granting a marketing authorisation in the European Union for Rasonque (daraxonrasib), an oral treatment for adults with…",
+      "link": "https://www.ema.europa.eu/en/news/ema-recommends-authorisation-rasonque-metastatic-pancreatic-cancer",
+      "published": "2026-10-15T13:30:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "cobas® c 303 analytical unit",
+      "summary": "An issue has been identified where vacuum tubing of the cell rinse unit of the cobas c 303 analytical unit prematurely deteriorated. Investigations confirmed the issue. In the event of small pinholes or cracks, no impact on analytical performance was identified. However, in case of tubing rupture, the following can occur as a result of the issue: Undetected leakage: Fluid may drip into random reaction cells. Result impact: Increased risk of erroneous patient and QC results.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/cobasr-c-303-analytical-unit",
+      "published": "2026-10-15T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Decision: Suspended and revoked licences and registrations for manufacturers and wholesalers of medicines and ingredients",
+      "summary": "Public list of companies in the UK who have had their licence/registration to manufacture or wholesale medicines/ingredients revoked or suspended.",
+      "link": "https://www.gov.uk/government/publications/suspended-licences-for-manufacturers-and-wholesalers-of-medicines",
+      "published": "2026-10-15T11:52:47+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "MHRA introduces new safeguards to strengthen antidepressant safety information following major review",
       "summary": "New and updated patient information for antidepressant medicines to be introduced following an extensive review involving patients, families and independent experts.",
@@ -570,7 +618,7 @@
     },
     {
       "title": "Field Safety Notices: 28 September 2026 to 2 October 2026",
-      "summary": "List of Field Safety Notices: 21 to 25 September 2026",
+      "summary": "List of Field Safety Notices: 28 September 2026 to 2 October 2026",
       "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-28-september-2026-to-2-october-2026",
       "published": "2026-10-09T10:36:22+00:00",
       "agency": "MHRA",
@@ -2763,18 +2811,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Decision: Suspended and revoked licences and registrations for manufacturers and wholesalers of medicines and ingredients",
-      "summary": "Public list of companies in the UK who have had their licence/registration to manufacture or wholesale medicines/ingredients revoked or suspended.",
-      "link": "https://www.gov.uk/government/publications/suspended-licences-for-manufacturers-and-wholesalers-of-medicines",
-      "published": "2026-09-09T12:42:29+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Veradius Unity and BV Pulsera Mobile C-Arm System-9in. and 12in. Versions",
@@ -12111,42 +12147,6 @@
       "feed_id": "imdrf-consult",
       "feed_label": "IMDRF Consultations",
       "source": "IMDRF Consultations"
-    },
-    {
-      "title": "Ocinet, Inc., Recalls “…And Kimchi” Branded Sliced Kimchi Because the Product Contains Undeclared Fish (Anchovies)",
-      "summary": "Ocinet, Inc., of Downey, California, is recalling all “…And Kimchi” branded sliced kimchi, UPC 8541200408, UPC 8541200409, and UPC 8541200411 (the “Product”) because the Product contains undeclared fish (anchovies). People who have an allergy or severe sensitivity to fish run the risk of a serious o",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ocinet-inc-recalls-and-kimchi-branded-sliced-kimchi-because-product-contains-undeclared-fish",
-      "published": "2026-05-04T16:04:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Utz Quality Foods, LLC Issues Voluntary Recall of Certain Limited Varieties of  Zapp’s and Dirty Potato Chips",
-      "summary": "HANOVER, PA -- (BUSINESS WIRE) – Utz Quality Foods, LLC, a subsidiary of Utz Brands, Inc., is issuing a voluntary recall in the United States of certain limited varieties of Zapp’s® and Dirty® potato chips. This voluntary recall follows notification to Utz that a seasoning containing dry milk powder",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/utz-quality-foods-llc-issues-voluntary-recall-certain-limited-varieties-zapps-and-dirty-potato-chips",
-      "published": "2026-05-04T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; National Youth Tobacco Survey",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
-      "link": "https://www.federalregister.gov/documents/2026/05/04/2026-08604/agency-information-collection-activities-proposed-collection-comment-request-national-youth-tobacco",
-      "published": "2026-05-04T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
