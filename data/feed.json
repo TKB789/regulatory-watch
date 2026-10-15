@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T02:38:28.956226+00:00",
+  "generated_at": "2026-10-15T08:50:14.503683+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
-      "last_success": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_success": "2026-10-15T08:42:38.875437+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
-      "last_success": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_success": "2026-10-15T08:42:38.875437+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
-      "last_success": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_success": "2026-10-15T08:42:38.875437+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
-      "last_success": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_success": "2026-10-15T08:42:38.875437+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
-      "last_success": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
+      "last_success": "2026-10-15T08:42:38.875437+00:00",
       "items_fetched": 9,
       "last_success_item_count": 9
     },
@@ -141,13 +141,97 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-15T02:30:51.704773+00:00",
+      "last_attempt": "2026-10-15T08:42:38.875437+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-15T02:30:51.704773+00:00",
+      "last_success": "2026-10-15T08:42:38.875437+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "MHRA introduces new safeguards to strengthen antidepressant safety information following major review",
+      "summary": "New and updated patient information for antidepressant medicines to be introduced following an extensive review involving patients, families and independent experts.",
+      "link": "https://www.gov.uk/government/news/mhra-introduces-new-safeguards-to-strengthen-antidepressant-safety-information-following-major-review",
+      "published": "2026-10-15T08:30:26+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Antidepressants: new safety measures for all patients to improve communication of the risk of suicidal thoughts and behaviours and persistent sexual dysfunction",
+      "summary": "New safety measures are now being implemented to improve how the risks of suicidal thoughts and behaviours and persistent sexual dysfunction are communicated to patients taking antidepressant medications.",
+      "link": "https://www.gov.uk/drug-safety-update/antidepressants-new-safety-measures-for-all-patients-to-improve-communication-of-the-risk-of-suicidal-thoughts-and-behaviours-and-persistent-sexual-dysfunction",
+      "published": "2026-10-15T08:30:08+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Safety Public Assessment Reports",
+      "summary": "These reports explain our assessment of the scientific evidence used to lead to regulatory decisions on the safety of medicines or medicines classes.",
+      "link": "https://www.gov.uk/guidance/safety-public-assessment-reports",
+      "published": "2026-10-15T08:30:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Research: Antidepressants – updated safety communications",
+      "summary": "Public Assessment Report on the review of antidepressants. How the risks of suicidal thoughts and behaviours and sexual dysfunction (where symptoms continue after stopping treatment), are communicated to patients.",
+      "link": "https://www.gov.uk/government/publications/antidepressants-updated-safety-communications",
+      "published": "2026-10-15T08:30:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: Antidepressants: use and safety",
+      "summary": "Guidance on the use and side effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin and noradrenaline reuptake inhibitors (SNRIs), their safety, use in pregnancy and the risk of suicidal behaviour.",
+      "link": "https://www.gov.uk/government/publications/antidepressants-use-and-safety--2",
+      "published": "2026-10-15T08:30:03+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Authorization of Emergency Use for Four Animal Drugs for the Prevention and Treatment of New World Screwworm; Availability",
+      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing the issuance of four Emergency Use Authorizations (EUA or Authorization) under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) for new animal products. FDA has issued one EUA for an animal product as requested by Elanco US Inc. for application on or around wounds for the prevention of infestations caused by New World screwworm (Cochliomyia hominivorax; NWS) larvae (myiasis) in sheep, cattle, goats, swine, camelids, and…",
+      "link": "https://www.federalregister.gov/documents/2026/10/15/2026-21084/authorization-of-emergency-use-for-four-animal-drugs-for-the-prevention-and-treatment-of-new-world",
+      "published": "2026-10-15T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Request for Nominations for Voting Members on a Public Advisory Committee; Tobacco Products Scientific Advisory Committee (TPSAC)",
+      "summary": "The Food and Drug Administration (FDA) is requesting nominations for members to serve on the Tobacco Products Scientific Advisory Committee (TPSAC), in the Center for Tobacco Products. FDA seeks to include the views of qualified individuals on its advisory committees and therefore encourages nominations of appropriately qualified candidates. Specifically, TPSAC is seeking to fill 2 voting member vacancies with physicians, dentists, scientists, or health care professionals practicing in the…",
+      "link": "https://www.federalregister.gov/documents/2026/10/15/2026-21027/request-for-nominations-for-voting-members-on-a-public-advisory-committee-tobacco-products",
+      "published": "2026-10-15T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Access, new active substance and biosimilar work sharing initiatives",
       "summary": "Information on applying for New Active Substance Work Sharing Initiative (NASWSI) and Biosimilar Work Sharing Initiative (BSWSI) assessments and list of approved products.",
@@ -5661,18 +5745,6 @@
       "summary": "The MHRA’s AI Airlock second phase ran between April 2025 and May 2026. This report does not constitute formal MHRA guidance.",
       "link": "https://www.gov.uk/government/publications/ai-airlock-sandbox-phase-2-programme-report",
       "published": "2026-07-27T15:02:06+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Safety Public Assessment Reports",
-      "summary": "These reports explain our assessment of the scientific evidence used to lead to regulatory decisions on the safety of medicines or medicines classes.",
-      "link": "https://www.gov.uk/guidance/safety-public-assessment-reports",
-      "published": "2026-07-27T13:00:03+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -12075,78 +12147,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Intravenous (IV) fluids supply is stable",
-      "summary": "The acute national shortages of IV fluids have resolved.",
-      "link": "https://www.tga.gov.au/safety/shortages-and-supply-disruptions/medicine-shortages/medicine-shortage-alerts/intravenous-iv-fluids-supply-stable",
-      "published": "2026-05-03T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "a2 Platinum USA Label Infant Formula Recalled Because of Possible Health Risk",
-      "summary": "Boulder, CO – May 2, 2026 – The a2 Milk Company (“a2MC”) has voluntarily recalled three specific batches of its imported a2 Platinum Premium USA label infant formula 0-12 months (“Product”) due to the presence of cereulide. The Product is sold only in the United States. Cereulide is a heat-stable t",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/a2-platinum-usa-label-infant-formula-recalled-because-possible-health-risk",
-      "published": "2026-05-02T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "FDA Permits Expanded Access for Investigational Pancreatic Cancer Drug",
-      "summary": "FDA is announcing that it issued a “safe to proceed” letter to Revolution Medicines, allowing the sponsor to initiate an expanded access treatment protocol (EAP) for its experimental pancreatic cancer drug, daraxonrasib.",
-      "link": "http://www.fda.gov/news-events/press-announcements/fda-permits-expanded-access-investigational-pancreatic-cancer-drug",
-      "published": "2026-05-01T15:49:59+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "guidance",
-      "feed_id": "fda-press",
-      "feed_label": "FDA Press",
-      "source": "FDA Press Announcements"
-    },
-    {
-      "title": "MHRA approves Linerixibat (Lynavoy) for the treatment of itch due to biliary tract disease",
-      "summary": "As with all medicines, we will continue to closely monitor the safety and effectiveness of linerixibat as it is used more widely.",
-      "link": "https://www.gov.uk/government/news/mhra-approves-linerixibat-lynavoy-for-the-treatment-of-itch-due-to-biliary-tract-disease",
-      "published": "2026-05-01T13:26:42+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Second Nature Brands Issues Allergy Alert on Undeclared Cashews, Pistachios, and Cherries in Keto Crunch Smart Mix",
-      "summary": "Second Nature Brands of Madison Heights, MI, is voluntarily recalling certain 10-ounce packages of SECOND NATURE KETO CRUNCH SMART MIXTM because the product may contain undeclared cashews, pistachios, and cherries. Individuals who have an allergy or severe sensitivity to tree nuts, including cashe",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachios-and-cherries-keto-crunch",
-      "published": "2026-05-01T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Second Nature Brands Issues Allergy Alert on Undeclared Cashews, Pistachois, and Cherries in Keto Crunch Smart Mix",
-      "summary": "Second Nature Brands of Madison Heights, MI, is voluntarily recalling certain 10-ounce packages of SECOND NATURE KETO CRUNCH SMART MIXTM because the product may contain undeclared cashews, pistachios, and cherries. Individuals who have an allergy or severe sensitivity to tree nuts, including cashe",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/second-nature-brands-issues-allergy-alert-undeclared-cashews-pistachois-and-cherries-keto-crunch",
-      "published": "2026-05-01T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
     }
   ]
 }
