@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T02:33:01.946174+00:00",
+  "generated_at": "2026-10-16T08:44:48.046027+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
-      "last_success": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_success": "2026-10-16T08:37:14.241237+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
-      "last_success": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_success": "2026-10-16T08:37:14.241237+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
-      "last_success": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_success": "2026-10-16T08:37:14.241237+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
-      "last_success": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_success": "2026-10-16T08:37:14.241237+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
-      "last_success": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_success": "2026-10-16T08:37:14.241237+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-16T02:25:29.730387+00:00",
+      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-16T02:25:29.730387+00:00",
+      "last_success": "2026-10-16T08:37:14.241237+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Electronic Common Technical Document (eCTD); Data Standards; Supporting Forward Compatibility for eCTD 4.0",
+      "summary": "The Food and Drug Administration's (FDA or Agency) Center for Drug Evaluation and Research and Center for Biologics Evaluation and Research are announcing support for Forward Compatibility for Electronic Common Technical Document (eCTD) Version 4.0 (v4.0)-based electronic submissions.",
+      "link": "https://www.federalregister.gov/documents/2026/10/16/2026-21197/electronic-common-technical-document-ectd-data-standards-supporting-forward-compatibility-for-ectd",
+      "published": "2026-10-16T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Electronic Common Technical Document; Data Standards; Center for Drug Evaluation and Research and Center for Biologics Evaluation and Research Supporting Electronic Common Technical Document Version 3.2.2 and Version 4.0",
+      "summary": "The Food and Drug Administration's (FDA or Agency) Center for Drug Evaluation and Research and Center for Biologics Evaluation and Research are announcing the date FDA will begin rejecting electronic submissions that fail new Electronic Common Technical Document (eCTD) Version 3.22 (v3.22) and Version 4.0 (v4.0) based validations. The new eCTD v3.2.2 validations are 2024 and 2025, which are high-severity validation errors as described in the Specifications for eCTD Validation Criteria. The new…",
+      "link": "https://www.federalregister.gov/documents/2026/10/16/2026-21195/electronic-common-technical-document-data-standards-center-for-drug-evaluation-and-research-and",
+      "published": "2026-10-16T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Fit-for-Purpose Rare Disease Framework Initiative; Public Meeting; Request for Information and Comments",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing a public meeting entitled &quot;Fit-for-Purpose Rare Disease Framework Initiative&quot;. Convened by the Reagan-Udall Foundation for, and in collaboration with FDA, the meeting will focus on developing a fit-for-purpose framework for the development and regulatory review of rare disease therapies. There will be an opportunity to request to provide public comments at the meeting. In addition, FDA is establishing a public…",
+      "link": "https://www.federalregister.gov/documents/2026/10/16/2026-21142/fit-for-purpose-rare-disease-framework-initiative-public-meeting-request-for-information-and",
+      "published": "2026-10-16T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police",
       "summary": "Fake weight loss medicines worth approximately £2 million were seized last night in a raid executed by the Medicines and Healthcare products Regulatory Agency (MHRA) and West Midlands Police.",
@@ -12111,42 +12147,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "Winfield’s Chocolate Bar Recalls Dark Chocolate Products Due to Undeclared Milk",
-      "summary": "HOUSTON, TX, May 5, 2026 — CBSL Commissary LLC, operating as Winfield’s Chocolate Bar, is voluntarily recalling five dark chocolate products sold at its three Houston, Texas locations because the word “milk” was omitted from the ingredient label. Milk is a known major food allergen under the Food Al",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/winfields-chocolate-bar-recalls-dark-chocolate-products-due-undeclared-milk",
-      "published": "2026-05-05T16:40:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Implementing Regulation (EU) 2026/977 – uniform requirements for conformity assessment and notified bodies (Annex VII)",
-      "summary": "Implementing Regulation (EU) 2026/977 – uniform requirements for conformity assessment and notified bodies (Annex VII)",
-      "link": "https://eur-lex.europa.eu/eli/reg_impl/2026/977/oj",
-      "published": "2026-05-05T08:37:44+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Sizing Catheter Recall: Cook Medical Removes Various Centimeter Sizing Catheters",
-      "summary": "When the sizing catheters are used during angiographic procedures the marker bands may be at an increased risk of cracking/breakage.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/sizing-catheter-recall-cook-medical-removes-various-centimeter-sizing-catheters",
-      "published": "2026-05-05T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
     }
   ]
 }
