@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T08:44:48.046027+00:00",
+  "generated_at": "2026-10-16T14:32:40.686067+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 3,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
-      "last_success": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
+      "last_success": "2026-10-16T14:25:07.798706+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
-      "last_success": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
+      "last_success": "2026-10-16T14:25:07.798706+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
-      "last_success": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
+      "last_success": "2026-10-16T14:25:07.798706+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
-      "last_success": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
+      "last_success": "2026-10-16T14:25:07.798706+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,22 +132,46 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
-      "last_success": "2026-10-16T08:37:14.241237+00:00",
-      "items_fetched": 10,
-      "last_success_item_count": 10
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
+      "last_success": "2026-10-16T14:25:07.798706+00:00",
+      "items_fetched": 11,
+      "last_success_item_count": 11
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-16T08:37:14.241237+00:00",
+      "last_attempt": "2026-10-16T14:25:07.798706+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-16T08:37:14.241237+00:00",
+      "last_success": "2026-10-16T14:25:07.798706+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Register medical devices to place on the market",
+      "summary": "How to register your medical devices with the MHRA for the markets in Great Britain and Northern Ireland.",
+      "link": "https://www.gov.uk/guidance/register-medical-devices-to-place-on-the-market",
+      "published": "2026-10-16T14:15:46+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 12-15 October 2026",
+      "summary": "Six new medicines recommended for approvalEMA’s human medicines committee (CHMP) recommended six medicines for approval at its October 2026 meeting.Rasonque (daraxonrasib)…, CHMP statistics Key figures from the October 2026&nbsp;CHMP&nbsp;meeting are represented in the graphic below. © European Medicines Agency&nbsp;, CHMP statistics:…, Positive recommendations on new medicines, Foundayo International non-proprietary name (INN) orforglipron Marketing authorisation applicant Eli Lilly Nederland…",
+      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-12-15-october-2026",
+      "published": "2026-10-16T10:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
     {
       "title": "Electronic Common Technical Document (eCTD); Data Standards; Supporting Forward Compatibility for eCTD 4.0",
       "summary": "The Food and Drug Administration's (FDA or Agency) Center for Drug Evaluation and Research and Center for Biologics Evaluation and Research are announcing support for Forward Compatibility for Electronic Common Technical Document (eCTD) Version 4.0 (v4.0)-based electronic submissions.",
@@ -6353,18 +6377,6 @@
       "source": "Health Canada Medical Device Recalls"
     },
     {
-      "title": "Register medical devices to place on the market",
-      "summary": "How to register your medical devices with the MHRA for the markets in Great Britain and Northern Ireland.",
-      "link": "https://www.gov.uk/guidance/register-medical-devices-to-place-on-the-market",
-      "published": "2026-07-20T08:06:20+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
       "title": "Guidance: Medical devices: legal requirements for specific medical products",
       "summary": "Information for manufacturers on the regulations that apply to prosthetic, orthotic and ophthalmic devices.",
       "link": "https://www.gov.uk/government/publications/medical-devices-legal-requirements-for-specific-medical-devices",
@@ -12129,18 +12141,6 @@
       "summary": "Shining Sea Fish Co. of Detroit MI, is recalling its catch weight packages of \"Ma Cohen’s Kippered Herring\" smoked fish because this product consists of, uneviscerated fish longer than five inches, which has the potential to be contaminated with Clostridium botulinum, a bacterium which can cause li",
       "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shining-sea-fish-co-recalls-ma-cohens-kippered-herring-because-possible-health-risk",
       "published": "2026-05-05T21:08:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "John B. Sanfilippo & Son, Inc. Voluntarily Recalls Snack Mix Products Due to  Possible Health Risk",
-      "summary": "FOR IMMEDIATE RELEASE – ELGIN, IL - [May 5, 2026] – As a follow up to the voluntary recall of dry milk powder by California Dairies, Inc., John B. Sanfilippo &amp; Son, Inc. (Nasdaq: JBSS) (the “Company”) announced today that it is voluntarily recalling snack mix products flavored with a seasoning manuf",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/john-b-sanfilippo-son-inc-voluntarily-recalls-snack-mix-products-due-possible-health-risk",
-      "published": "2026-05-05T18:22:00+00:00",
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
