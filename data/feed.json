@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T09:34:36.983660+00:00",
+  "generated_at": "2026-10-19T16:50:36.156864+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
-      "last_success": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
+      "last_success": "2026-10-19T16:43:05.370943+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
-      "last_success": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
+      "last_success": "2026-10-19T16:43:05.370943+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
-      "last_success": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
+      "last_success": "2026-10-19T16:43:05.370943+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
-      "last_success": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
+      "last_success": "2026-10-19T16:43:05.370943+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
-      "last_success": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
+      "last_success": "2026-10-19T16:43:05.370943+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,13 +141,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-19T09:27:02.044464+00:00",
+      "last_attempt": "2026-10-19T16:43:05.370943+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-19T09:27:02.044464+00:00",
+      "last_success": "2026-10-19T16:43:05.370943+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "MHRA authorises plozasiran (Redemplo) for adults with familial chylomicronaemia syndrome",
+      "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) has today, 19 October 2026, authorised plozasiran (Redemplo)",
+      "link": "https://www.gov.uk/government/news/mhra-authorises-plozasiran-redemplo-for-adults-with-familial-chylomicronaemia-syndrome",
+      "published": "2026-10-19T15:42:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "UK regulator brings new AI and MedTech agenda to AdvaMed",
+      "summary": "UK’s Medicines and Healthcare products Regulatory Agency (MHRA) sets out its next phase of MedTech and AI regulation to US industry leaders at AdvaMed 2026.",
+      "link": "https://www.gov.uk/government/news/uk-regulator-brings-new-ai-and-medtech-agenda-to-advamed",
+      "published": "2026-10-19T15:06:00+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Field Safety Notices: 5 to 9 October 2026",
+      "summary": "List of Field Safety Notices from 5 to 9 October 2026.",
+      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-5-to-9-october-2026",
+      "published": "2026-10-19T14:44:24+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Field Safety Notices: 12 to 16 October 2026",
+      "summary": "List of Field Safety Notices from 12 to 16 October 2026.",
+      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-12-october-2026-to-16-october-2026",
+      "published": "2026-10-19T11:07:29+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
     {
       "title": "Consultation on schools holding Adrenaline Nasal Sprays for anaphylaxis",
       "summary": "The MHRA are seeking feedback on proposals to amend the Human Medicines Regulations 2012 to allow schools to hold Adrenaline Nasal Sprays to treat anaphylaxis in pupils.",
@@ -12099,54 +12147,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Disruptions in Availability of Neurosurgical Patties, Sponges, and Strips - Letter to Health Care Providers",
-      "summary": "The FDA issued a LHCP to notify providers that Neurosurgical Patties, Sponges, and Strips (product code HBA) are experiencing a supply disruption.",
-      "link": "http://www.fda.gov/medical-devices/letters-health-care-providers/disruptions-availability-neurosurgical-patties-sponges-and-strips-letter-health-care-providers",
-      "published": "2026-05-06T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Determination That DEXAMETHASONE (Dexamethasone) Elixir, 0.5 Milligrams/5 Milliliters, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
-      "summary": "The Food and Drug Administration (FDA or Agency) has determined that DEXAMETHASONE (dexamethasone) elixir, 0.5 milligrams (mg)/5 milliliters (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to this drug product, and it will allow FDA to continue to approve ANDAs that refer to the product as long as they meet relevant legal and…",
-      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08939/determination-that-dexamethasone-dexamethasone-elixir-05-milligrams5-milliliters-was-not-withdrawn",
-      "published": "2026-05-06T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Issuance of Priority Review Voucher; Rare Pediatric Disease Product; OTARMENI (lunsotogene parvec-cwha)",
-      "summary": "The Food and Drug Administration (FDA) is announcing the issuance of a priority review voucher to the sponsor of a rare pediatric disease product application. The Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) authorizes FDA to award priority review vouchers to sponsors of approved rare pediatric disease product applications that meet certain criteria. FDA is required to publish notice of the award of the priority review voucher. FDA has determined that OTARMENI (lunsotogene parvec-cwha),…",
-      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08913/issuance-of-priority-review-voucher-rare-pediatric-disease-product-otarmeni-lunsotogene-parvec-cwha",
-      "published": "2026-05-06T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Modification of Certain Terminology in Title 21",
-      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is issuing a proposed rule to modify certain terminology in Title 21 of the Code of Federal Regulations (CFR) to comply with Executive Order (E.O.) 14168, &quot;Defending Women From Gender Ideology Extremism and Restoring Biological Truth to the Federal Government,&quot; issued on January 20, 2025. Specifically, this proposed rule, if finalized, will remove the term &quot;gender&quot; wherever it appears and either replace it with the…",
-      "link": "https://www.federalregister.gov/documents/2026/05/06/2026-08826/modification-of-certain-terminology-in-title-21",
-      "published": "2026-05-06T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
