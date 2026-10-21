@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-21T02:47:12.458362+00:00",
+  "generated_at": "2026-10-21T09:07:52.296904+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
-      "last_success": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
+      "last_success": "2026-10-21T09:00:17.362840+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
-      "last_success": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
+      "last_success": "2026-10-21T09:00:17.362840+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
-      "last_success": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
+      "last_success": "2026-10-21T09:00:17.362840+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
-      "last_success": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
+      "last_success": "2026-10-21T09:00:17.362840+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
-      "last_success": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
+      "last_success": "2026-10-21T09:00:17.362840+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-21T02:39:38.579057+00:00",
+      "last_attempt": "2026-10-21T09:00:17.362840+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-21T02:39:38.579057+00:00",
+      "last_success": "2026-10-21T09:00:17.362840+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Government confirms indefinite recognition of CE marked medical devices",
+      "summary": "Patients across Great Britain will have continued access to medical devices and in vitro diagnostic devices (IVDs) already approved for the EU market.",
+      "link": "https://www.gov.uk/government/news/government-confirms-indefinite-recognition-of-ce-marked-medical-devices",
+      "published": "2026-10-21T08:26:46+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Medical devices regulations: targeted consultation on the indefinite recognition of CE marked devices",
+      "summary": "This consultation invites views on proposals for recognising CE marked medical devices in Great Britain.",
+      "link": "https://www.gov.uk/government/consultations/medical-devices-regulations-targeted-consultation-on-the-indefinite-recognition-of-ce-marked-devices",
+      "published": "2026-10-21T08:00:08+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Regulatory Considerations for Prescription Drug Use-Related Software; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry titled &quot;Regulatory Considerations for Prescription Drug Use-Related Software.&quot; This final guidance describes FDA's application of its drug labeling authorities to certain software outputs that are disseminated by or on behalf of a drug sponsor for use with a prescription drug product or a prescription drug-led, drug-device combination product that is assigned to the Center…",
+      "link": "https://www.federalregister.gov/documents/2026/10/21/2026-21516/regulatory-considerations-for-prescription-drug-use-related-software-guidance-for-industry",
+      "published": "2026-10-21T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Decision: Parallel import licences granted in 2026",
       "summary": "Parallel import licences granted in 2026.",
@@ -12111,42 +12147,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Determination That MICARDIS (Telmisartan), Tablets, 20 Milligrams and 80 Milligrams, Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
-      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that MICARDIS (telmisartan), tablets, 20 milligrams (mg) and 80 mg, were not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to these drug products, and it will allow FDA to continue to approve ANDAs that refer to these products as long as they meet relevant legal and regulatory…",
-      "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09011/determination-that-micardis-telmisartan-tablets-20-milligrams-and-80-milligrams-were-not-withdrawn",
-      "published": "2026-05-07T00:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "JCB Flavors, LLC Issues Voluntary Recall of Topical Seasonings Due to Potential Health Risk",
-      "summary": "JCB Flavors, LLC of Watertown, Wisconsin, is voluntarily recalling select topical seasoning products due to the potential presence of Salmonella, an organism that can cause serious and sometimes fatal infections in young children, elderly individuals, and those with weakened immune systems.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jcb-flavors-llc-issues-voluntary-recall-topical-seasonings-due-potential-health-risk",
-      "published": "2026-05-06T18:50:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "TGA warning on the risks of importing unapproved peptide products",
-      "summary": "We are warning consumers about the risks of importing and using unapproved peptide products that are promoted online.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/tga-warning-risks-importing-unapproved-peptide-products",
-      "published": "2026-05-06T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
     }
   ]
 }
