@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T02:49:26.407851+00:00",
+  "generated_at": "2026-10-23T09:04:50.350397+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 7,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
-      "last_success": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
+      "last_success": "2026-10-23T08:57:17.028203+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
-      "last_success": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
+      "last_success": "2026-10-23T08:57:17.028203+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
-      "last_success": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
+      "last_success": "2026-10-23T08:57:17.028203+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
-      "last_success": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
+      "last_success": "2026-10-23T08:57:17.028203+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
-      "last_success": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
+      "last_success": "2026-10-23T08:57:17.028203+00:00",
       "items_fetched": 10,
       "last_success_item_count": 10
     },
@@ -141,13 +141,97 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-23T02:41:49.632495+00:00",
+      "last_attempt": "2026-10-23T08:57:17.028203+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-23T02:41:49.632495+00:00",
+      "last_success": "2026-10-23T08:57:17.028203+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Export Certificates for FDA Regulated Products",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21714/agency-information-collection-activities-proposed-collection-comment-request-export-certificates-for",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Product Jurisdiction and Combination Products",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21713/agency-information-collection-activities-proposed-collection-comment-request-product-jurisdiction",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Accreditation Scheme for Conformity Assessment Program",
+      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21712/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination of Regulatory Review Period for Purposes of Patent Extension; Correction of Notices-ANDEMBRY; ANZUPGO; ANKTIVA; BIZENGRI; BRINSUPRI; DAYVIGO",
+      "summary": "The Food and Drug Administration (FDA) is announcing corrections to the notices of Determination of Regulatory Review Period for Purposes of Patent Extension for ANDEMBRY; ANZUPGO; ANKTIVA; BIZENGRI; BRINSUPRI; and DAYVIGO. The original determinations were announced in the Federal Registers of August 10, 2026 (BRINSUPRI, DAYVIGO), August 17, 2026 (BIZENGRI), and September 9, 2026 (ANDEMBRY, ANZUPGO, ANKTIVA). Those notices correctly identified the dates on which the testing and approval phases…",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21711/determination-of-regulatory-review-period-for-purposes-of-patent-extension-correction-of",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Questions and Answers Regarding Mandatory Cosmetics Recalls; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance entitled &quot;Questions and Answers Regarding Mandatory Cosmetics Recalls: Guidance for Industry.&quot; The guidance document provides answers to common questions that might arise about FDA's mandatory recall authority for cosmetics. It is intended to inform regulated industry about the Agency's current thinking on implementation of certain aspects, including the criteria, process, and…",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21679/questions-and-answers-regarding-mandatory-cosmetics-recalls-guidance-for-industry-availability",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Action Levels for Cadmium in Processed Food Intended for Babies and Young Children; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing the availability of a draft guidance for industry entitled &quot;Action Levels for Cadmium in Processed Food Intended for Babies and Young Children.&quot; The draft guidance, when finalized, will establish action levels for cadmium in certain processed foods intended for babies and young children less than 2 years old. The draft guidance is intended to set achievable action levels that will help further reduce cadmium in…",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21670/action-levels-for-cadmium-in-processed-food-intended-for-babies-and-young-children-draft-guidance",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Hazard Analysis and Risk-Based Preventive Controls for Human Food; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA, the Agency, or we) is announcing the availability of one additional draft chapter of a multichapter draft guidance for industry titled &quot;Hazard Analysis and Risk-Based Preventive Controls for Human Food.&quot; This multichapter draft guidance, when finalized, will explain FDA's current thinking on how to comply with the requirements for hazard analysis and risk-based preventive controls under FDA's regulation titled &quot;Current Good Manufacturing…",
+      "link": "https://www.federalregister.gov/documents/2026/10/23/2026-21669/hazard-analysis-and-risk-based-preventive-controls-for-human-food-draft-guidance-for-industry",
+      "published": "2026-10-23T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Guidance: COVID-19 test validation approved products",
       "summary": "Find out which COVID-19 test products have been approved.",
@@ -12063,90 +12147,6 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
-    },
-    {
-      "title": "TCN™ and CSK Reusable RF electrodes",
-      "summary": "Boston Scientific has determined that the TCN™, and CSK reusable RF electrodes may not consistently meet the expected performance levels throughout the specified 20 sterilization cycles for re-use. &nbsp;This determination was based on recent review of internal laboratory testing.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/tcntm-and-csk-reusable-rf-electrodes",
-      "published": "2026-05-07T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada — Medical devices recalls & alerts"
-    },
-    {
-      "title": "Azurion Systems",
-      "summary": "Philips has identified that the float tabletop control on the control module of Azurion systems may experience mechanical wear over time. The float tabletop control is located on the control module at the table-side. When the control is actuated, the table brakes disengage, allowing adjustment of the longitudinal or transverse position of the table. Over time, mechanical wear may lead to detachment, cracking, or breakage of the float tabletop control, which may lead to reduced availability or…",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/azurion-systems",
-      "published": "2026-05-07T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada — Medical devices recalls & alerts"
-    },
-    {
-      "title": "Stay safe when buying health products online",
-      "summary": "As part of&nbsp;Operation Pangea XVIII&nbsp;—an international effort led by INTERPOL to disrupt the online sale of counterfeit and other illegal health products around the world—Health Canada is reminding consumers to be careful when buying health products online. During Operation Pangea, Health Canada continues to work with the Royal Canadian Mounted Police and the Canada Border Services Agency to stop counterfeit and other illegal health products from reaching the Canadian market. During…",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/stay-safe-when-buying-health-products-online",
-      "published": "2026-05-07T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada — Medical devices recalls & alerts"
-    },
-    {
-      "title": "Operation Pangea XVIII: UK Border operation intercepts millions of dangerous medicines across two weeks",
-      "summary": "MHRA and UK Border Force crack down on the illegal medicines trade in intensive 14-day international operation.",
-      "link": "https://www.gov.uk/government/news/operation-pangea-xviii-uk-border-operation-intercepts-millions-of-dangerous-medicines-across-two-weeks",
-      "published": "2026-05-07T06:02:43+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Advisory Committee; Blood Products Advisory Committee; Renewal",
-      "summary": "The Food and Drug Administration (FDA) is announcing the renewal of the Blood Products Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Blood Products Advisory Committee for an additional 2 years beyond the charter expiration date. The new charter will be in effect until the May 13, 2028, expiration date.",
-      "link": "https://www.federalregister.gov/documents/2026/05/07/2026-09108/advisory-committee-blood-products-advisory-committee-renewal",
-      "published": "2026-05-07T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Convenience Kit Recall: American Contract Systems Removes Convenience Kits Containing Namic RA Syringes",
-      "summary": "The adaptor on Namic RA syringes may unwind during use. The resulting loose connection or disconnection may lead to infection, blood loss, or air embolism.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-recall-american-contract-systems-removes-convenience-kits-containing-namic-ra",
-      "published": "2026-05-07T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Pacemaker Correction: Boston Scientific Issues Correction for ACCOLADE Pacemakers and CRT-Ps",
-      "summary": "Brady SMR6 is now available for ACCOLADE pacemakers and CRT-Ps; correction expanded to include CRT-P and DR-EL devices.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/pacemaker-correction-boston-scientific-issues-correction-accolade-pacemakers-and-crt-ps",
-      "published": "2026-05-07T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
     }
   ]
 }
