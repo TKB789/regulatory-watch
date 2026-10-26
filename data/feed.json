@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T16:30:34.111428+00:00",
+  "generated_at": "2026-10-26T22:15:04.087385+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 3,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
-      "last_success": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
+      "last_success": "2026-10-26T22:07:33.211405+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
-      "last_success": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
+      "last_success": "2026-10-26T22:07:33.211405+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
-      "last_success": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
+      "last_success": "2026-10-26T22:07:33.211405+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
-      "last_success": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
+      "last_success": "2026-10-26T22:07:33.211405+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
-      "last_success": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
+      "last_success": "2026-10-26T22:07:33.211405+00:00",
       "items_fetched": 11,
       "last_success_item_count": 11
     },
@@ -141,9 +141,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-26T16:23:00.427557+00:00",
+      "last_attempt": "2026-10-26T22:07:33.211405+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-26T16:23:00.427557+00:00",
+      "last_success": "2026-10-26T22:07:33.211405+00:00",
       "items_fetched": 0
     }
   ],
@@ -159,6 +159,30 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Abre Venous Self-Expanding Stent System",
+      "summary": "Medtronic is initiating this recall to inform customers of an update to the Instructions For Use (IFU) for the Abre™ Venous Self-Expanding Stent System (herein referred to as Abre). This update provides a validated manual deployment workaround method to help mitigate potential harms in the rare event customers experience a partial stent deployment; the method is included in the notification &nbsp;letter and the Abre IFU will be updated, pending regulatory approvals, to reflect this…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/abre-venous-self-expanding-stent-system",
+      "published": "2026-10-26T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "DxC 500i Clinical Analyzer and DxC 500 AU Clinical Chemistry Analyzer",
+      "summary": "Beckman Coulter has determined that a modification made by operators to 25 predefined calculated rules, which are included as part of the parameter package, will revert to the default expression following parameter package or software upgrades.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/dxc-500i-clinical-analyzer-and-dxc-500-au-clinical-chemistry-analyzer-0",
+      "published": "2026-10-26T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "FreeStyle Libre 3 App",
@@ -12123,30 +12147,6 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Determination That Leucovorin Calcium, Oral Solution, Equivalent to 60 Milligrams Base/Vial, Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
-      "summary": "The Food and Drug Administration (FDA or Agency) has determined that leucovorin calcium, oral solution, equivalent to (EQ) 60 milligrams (mg) base/vial, was not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for leucovorin calcium, oral solution, EQ 60 mg, if all other legal and regulatory requirements are met.",
-      "link": "https://www.federalregister.gov/documents/2026/05/08/2026-09199/determination-that-leucovorin-calcium-oral-solution-equivalent-to-60-milligrams-basevial-was-not",
-      "published": "2026-05-08T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Medical Devices; Obstetrical and Gynecological Devices; Classification of the External Condom for Anal Intercourse or Vaginal Intercourse",
-      "summary": "The Food and Drug Administration (FDA) is classifying the external condom for anal intercourse or vaginal intercourse into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the external condom for anal intercourse or vaginal intercourse. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of…",
-      "link": "https://www.federalregister.gov/documents/2026/05/08/2026-09152/medical-devices-obstetrical-and-gynecological-devices-classification-of-the-external-condom-for-anal",
-      "published": "2026-05-08T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
