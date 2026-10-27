@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-27T09:35:08.180105+00:00",
+  "generated_at": "2026-10-27T15:45:09.293326+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 2,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
-      "last_success": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
+      "last_success": "2026-10-27T15:37:35.850625+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
-      "last_success": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
+      "last_success": "2026-10-27T15:37:35.850625+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
-      "last_success": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
+      "last_success": "2026-10-27T15:37:35.850625+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
-      "last_success": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
+      "last_success": "2026-10-27T15:37:35.850625+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
-      "last_success": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
+      "last_success": "2026-10-27T15:37:35.850625+00:00",
       "items_fetched": 11,
       "last_success_item_count": 11
     },
@@ -141,13 +141,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-27T09:27:36.892009+00:00",
+      "last_attempt": "2026-10-27T15:37:35.850625+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-27T09:27:36.892009+00:00",
+      "last_success": "2026-10-27T15:37:35.850625+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "MHRA Safety Roundup: October 2026",
+      "summary": "Summary of the latest safety advice for medicines and medical device users",
+      "link": "https://www.gov.uk/drug-device-alerts/mhra-safety-roundup-october-2026",
+      "published": "2026-10-27T14:19:45+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-10-27T13:46:22+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Transparency data: MHRA Performance Data",
+      "summary": "Performance data for MHRA key performance indicators (KPIs) and information on the expected timeline to complete a specific regulatory function.",
+      "link": "https://www.gov.uk/government/publications/mhra-performance-data",
+      "published": "2026-10-27T13:30:29+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "New MHRA research puts needle-free Strep A vaccine within reach",
+      "summary": "Pioneering study by MHRA scientists advances innovative approach to vaccination and promise of vaccine against Strep A.",
+      "link": "https://www.gov.uk/government/news/new-mhra-researchputs-needle-free-strep-a-vaccinewithin-reach",
+      "published": "2026-10-27T12:32:41+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Siemens Healthcare GmbH Magnetom Systems",
+      "summary": "The service pack NX VA60A-SP04 is a bug fix update (full installation) that solves/improves the following: Latest it security deliveries and increase in overall stability (syngo MR XA60A-SD12 content included) &nbsp;Installation of multiple SW delta packages now possible at the same time EU DataAact (EY) 2023/2854 implementation:access to all machine data Solved image loading errors for MR Breast Biopsy General MR Protocol Manager improvements Coil specifications adjusted for BM Body 18 Pilot…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/siemens-healthcare-gmbh-magnetom-systems",
+      "published": "2026-10-27T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Echo Wireless Fetal Doppler With Earphones",
+      "summary": "Certain terms and statements in the instruction manual caused confusion regarding the nature of the product and its intended use. As a result, changes were made to clarify the instructions, improve consumer understanding and ensure the product's safe and proper use.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/echo-wireless-fetal-doppler-earphones",
+      "published": "2026-10-27T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Determination That PEPCID RPD (Famotidine) Orally Disintegrating Tablets, 20 Milligrams and 40 Milligrams Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that PEPCID RPD (famotidine) orally disintegrating tablets, 20 milligrams (mg) and 40 mg, were not withdrawn from sale for reasons of safety or effectiveness. This determination will allow FDA to approve abbreviated new drug applications (ANDAs) for famotidine) orally disintegrating tablets, 20 mg and 40 mg, if all other legal and regulatory requirements are met.",
@@ -1185,18 +1257,6 @@
       "summary": "How to use the procedure for medicines licensing applications.",
       "link": "https://www.gov.uk/government/publications/international-recognition-procedure",
       "published": "2026-10-09T13:01:22+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-10-09T12:55:46+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -2595,18 +2655,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Transparency data: MHRA Performance Data",
-      "summary": "Performance data for MHRA key performance indicators (KPIs) and information on the expected timeline to complete a specific regulatory function.",
-      "link": "https://www.gov.uk/government/publications/mhra-performance-data",
-      "published": "2026-09-23T09:00:20+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Sanjay Kumar: Final Debarment Order",
@@ -12099,54 +12147,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "XD Investments LLC Recalls Better Weather Fix Elixir Products Due to Undeclared Mitragynine and Mitragynine Pseuoindoxyl",
-      "summary": "XD Investments LLC of Houston, TX, is voluntarily recalling approximately 448 Boxes of Better Weather Fix Elixir products, including all flavors and variations, because FDA analysis found the products to contain undeclared Mitragynine and Mitragynine Pseudoindoxyl. (MP) is a more potent derivative o",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/xd-investments-llc-recalls-better-weather-fix-elixir-products-due-undeclared-mitragynine-and",
-      "published": "2026-05-09T14:13:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Spring & Mulberry Expands Voluntary Recall of Select Chocolate Bars Because of Possible Health Risk",
-      "summary": "RALEIGH, NC, UNITED STATES, May 8, 2026 -- Spring &amp; Mulberry is voluntarily expanding its previously announced recall of select chocolate bars due to possible contamination from Salmonella.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/spring-mulberry-expands-voluntary-recall-select-chocolate-bars-because-possible-health-risk",
-      "published": "2026-05-08T21:28:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Pharmacal Issues Nationwide Recall of MG217 Multi-Symptom Treatment  Cream & Skin Protectant Eczema Cream Due to Microbial Contamination",
-      "summary": "- May/8/2026- Jackson, WI, Pharmacal is recalling one lot of MG217 Multi-symptom Treatment Cream &amp; Skin Protectant Eczema Cream, 6oz tube to the consumer level. The product has been found to be contaminated with Staphylococcus aureus.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/pharmacal-issues-nationwide-recall-mg217-multi-symptom-treatment-cream-skin-protectant-eczema-cream",
-      "published": "2026-05-08T16:08:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "MHRA delivers its targets to increase access to medicines and reinforce UK position as a global destination for life sciences",
-      "summary": "The MHRA continues to speed up access to medicines for patients, increase efficiency of regulation and help to attract innovation and investment in the UK’s thriving £100 billion life sciences industry.",
-      "link": "https://www.gov.uk/government/news/mhra-delivers-its-targets-to-increase-access-to-medicines-and-reinforce-uk-position-as-a-global-destination-for-life-sciences",
-      "published": "2026-05-08T13:26:41+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     }
   ]
 }
