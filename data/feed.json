@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-29T14:57:05.249631+00:00",
+  "generated_at": "2026-10-29T20:52:55.559663+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 4,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
-      "last_success": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
+      "last_success": "2026-10-29T20:45:21.101574+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
-      "last_success": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
+      "last_success": "2026-10-29T20:45:21.101574+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
-      "last_success": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
+      "last_success": "2026-10-29T20:45:21.101574+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
-      "last_success": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
+      "last_success": "2026-10-29T20:45:21.101574+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
-      "last_success": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
+      "last_success": "2026-10-29T20:45:21.101574+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -141,9 +141,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-29T14:49:18.588295+00:00",
+      "last_attempt": "2026-10-29T20:45:21.101574+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-29T14:49:18.588295+00:00",
+      "last_success": "2026-10-29T20:45:21.101574+00:00",
       "items_fetched": 0
     }
   ],
@@ -171,6 +171,42 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "RotaFlow Console",
+      "summary": "During internal validation of new replacement batteries, MCP identified an issue on the RotaFlow console. This issue can cause the device to stop battery charging after the battery operation mode has been utilized. Further investigation identified a software problem as root cause. Because of this, all devices on the market are considered affected by this issue.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/rotaflow-console",
+      "published": "2026-10-29T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "OptiCross Intravascular Ultrasond Imagine Catheters",
+      "summary": "Boston Scientific is providing this advisory regarding the OptiCross™ family of intravascular ultrasound (IVUs) imaging catheters to communicate an update to the flushing instructions, reinforce device preparation and air-management practices, and inform users of upcoming updates to the Instructions For Use (IFU). This advisory applies only to the products listed in attachment 1 from the customer letter.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/opticross-intravascular-ultrasond-imagine-catheters",
+      "published": "2026-10-29T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Philips Azurion System",
+      "summary": "Philips has identified a safety issue affecting certain Azurion systems potentially leading to loss of imaging functionality.&nbsp;The power distribution unit is an internal assembly of the Philips Azurion system that contains multiple power supplies. Philips has identified that, in certain Azurion systems, one or more of these power supplies can fail due to energy peaks (surge voltages) during start or restart of the system.When a power supply failure occurs during a start or restart, the…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/philips-azurion-system-0",
+      "published": "2026-10-29T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Vitros Chemistry Products A1c Slides",
@@ -12105,42 +12141,6 @@
       "summary": "EMA is actively monitoring the ongoing hantavirus outbreak linked to a cruise ship, in coordination with other EU bodies.The virus has been identified as Andes hantavirus, the…",
       "link": "https://www.ema.europa.eu/en/news/ema-actively-monitoring-cruise-ship-hantavirus-outbreak",
       "published": "2026-05-12T12:19:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "EMA business hours over Ascension Day holidays, 14 and 15 May",
-      "summary": "EMA's office is closed from 18:00 on 13 May 2026 until 08:30 on 18 May 2026.The product emergency hotline is available outside working hours and on public holidays. To reach…",
-      "link": "https://www.ema.europa.eu/en/news/ema-business-hours-over-ascension-day-holidays-14-15-may",
-      "published": "2026-05-12T12:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Harmonyair A-Series Surgical Lighting System",
-      "summary": "Steris identified through customer complaints that paint from the lighting system's light head may begin to peel or chip over time as a result of routine cleaning procedures. While Steris has not received any reports of paint falling from a lighting system during use, if paint particles were to enter the sterile field or fall onto a patient, this could disrupt the procedure resulting in a procedure delay and/or may present a risk of patient infection.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/harmonyair-series-surgical-lighting-system",
-      "published": "2026-05-12T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada — Medical devices recalls & alerts"
-    },
-    {
-      "title": "EMA welcomes political agreement on Critical Medicines Act",
-      "summary": "EMA welcomes the provisional agreement reached by the European Parliament and the Council of the European Union on the proposed Critical Medicines Act (CMA), which represents an…, “At a time of increasing global disruptions, resilient and secure supply chains for critical medicines are essential to protect public health across the EU. Today’s…, In recent years, EU Member States have faced serious medicine shortages and global challenges such as the COVID-19 pandemic and geopolitical tensions…",
-      "link": "https://www.ema.europa.eu/en/news/ema-welcomes-political-agreement-critical-medicines-act",
-      "published": "2026-05-12T08:16:00+00:00",
       "agency": "EMA",
       "region": "European Union",
       "category": "guidance",
