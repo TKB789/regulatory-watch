@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T01:35:08.442518+00:00",
+  "generated_at": "2026-10-30T08:02:20.850531+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
-      "last_success": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
+      "last_success": "2026-10-30T07:54:49.480812+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
-      "last_success": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
+      "last_success": "2026-10-30T07:54:49.480812+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
-      "last_success": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
+      "last_success": "2026-10-30T07:54:49.480812+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
-      "last_success": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
+      "last_success": "2026-10-30T07:54:49.480812+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
-      "last_success": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
+      "last_success": "2026-10-30T07:54:49.480812+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -141,13 +141,85 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-30T01:27:37.406227+00:00",
+      "last_attempt": "2026-10-30T07:54:49.480812+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-30T01:27:37.406227+00:00",
+      "last_success": "2026-10-30T07:54:49.480812+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Essential Drug Delivery Performance Characteristics for Devices Intended To Deliver Drugs and Biological Products; Revised Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a revised draft guidance for industry entitled &quot;Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products.&quot; This revised draft guidance revises and replaces the draft guidance entitled &quot;Essential Drug Delivery Outputs Intended to Deliver Drugs and Biological Products&quot; announced in the Federal Register on July 1, 2024 (89 FR 54470). In…",
+      "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22203/essential-drug-delivery-performance-characteristics-for-devices-intended-to-deliver-drugs-and",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Anesthesiology Devices; Classification of the Over-the-Counter Device To Assess Risk of Sleep Apnea",
+      "summary": "The Food and Drug Administration (FDA) is classifying the over-the-counter device to assess risk of sleep apnea into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the over-the-counter device to assess risk of sleep apnea. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and…",
+      "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22182/medical-devices-anesthesiology-devices-classification-of-the-over-the-counter-device-to-assess-risk",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Anesthesiology Devices; Classification of the Spinal Imaging System for Neuraxial Procedures",
+      "summary": "The Food and Drug Administration (FDA) is classifying the spinal imaging system for neuraxial procedures into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the spinal imaging system for neuraxial procedures. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness…",
+      "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22181/medical-devices-anesthesiology-devices-classification-of-the-spinal-imaging-system-for-neuraxial",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Radiology Devices; Classification of the Radiology Software for Referral of Findings Related to Fibrotic Lung Disease",
+      "summary": "The Food and Drug Administration (FDA) is classifying the radiology software for referral of findings related to fibrotic lung disease into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the radiology software for referral of findings related to fibrotic lung disease. We are taking this action because we have determined that classifying the device into class II will…",
+      "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22180/medical-devices-radiology-devices-classification-of-the-radiology-software-for-referral-of-findings",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; General and Plastic Surgery Devices; Classification of the Software-Aided Adjunctive Diagnostic Device for Use by Physicians on Lesions Suspicious for Skin Cancer",
+      "summary": "The Food and Drug Administration (FDA) is classifying the software-aided adjunctive diagnostic device for use by physicians on lesions suspicious for skin cancer into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the software-aided adjunctive diagnostic device for use by physicians on lesions suspicious for skin cancer. We are taking this action because we have…",
+      "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22179/medical-devices-general-and-plastic-surgery-devices-classification-of-the-software-aided-adjunctive",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Third Extension of Effective Date of Final Resolution of Drug Efficacy Study Implementation 7661",
+      "summary": "The Food and Drug Administration (FDA or Agency) is extending the effective date of the notice published in the Federal Register on May 27, 2026, titled Drugs for Human Use; Drug Efficacy Study Implementation: Estrogen-Androgen Fixed-Combination Drug Products; Syntest D.S. and Syntest H.S. Tablets; Withdrawal of Hearing Requests; Final Resolution of Drug Efficacy Study Implementation 7661 (91 FR. 31462) (the &quot;May 2026 Notice&quot;), as previously extended by the notice published in the…",
+      "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22175/drugs-for-human-use-drug-efficacy-study-implementation-estrogen-androgen-fixed-combination-drug",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Class 2 Medicines Recall: Accord-UK Ltd, Lercanidipine Hydrochloride 10mg Film-Coated Tablets, EL(26)A/45",
       "summary": "Accord-UK Ltd is recalling one batch of Lercanidipine Hydrochloride 10mg Tablets due to a packaging mix-up involving the incorrect strength.",
@@ -12075,78 +12147,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Butylated Hydroxytoluene (BHT); Request for Information",
-      "summary": "The Food and Drug Administration (FDA or we) is requesting information on the current uses and safety data for butylated hydroxytoluene (BHT) in human food and as a food contact substance. We are requesting this information as part of our systematic process for conducting post-market assessments of chemicals in food. We are conducting a post-market assessment of the safety of BHT in food, considering the latest state of the science. We intend to use the information received and any other…",
-      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09507/butylated-hydroxytoluene-bht-request-for-information",
-      "published": "2026-05-13T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; The Real Cost Campaign Outcomes Evaluation Study: Cohort 3",
-      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
-      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09448/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
-      "published": "2026-05-13T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Fly By Jing Issues Voluntary Recall of Creamy Sesame  Noodles Due to Potential Cross-Contact with Peanuts",
-      "summary": "LOS ANGELES, CA — May 12 2026 Fly By Jing is voluntarily recalling certain lots of Fly By Jing Creamy Sesame Noodles (single pack and 4-pack) because the products may have been exposed to cross-contact from peanuts. People who have allergies to peanuts run the risk of a serious or life-threatening a",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fly-jing-issues-voluntary-recall-creamy-sesame-noodles-due-potential-cross-contact-peanuts",
-      "published": "2026-05-12T15:42:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Field Safety Notices: 27 April to 1 May 2026",
-      "summary": "List of Field Safety Notices from 27 April to 1 May 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-27-april-to-1-may-2026",
-      "published": "2026-05-12T14:15:24+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Field Safety Notices: 4 to 8 May 2026",
-      "summary": "List of Field Safety Notices from 4 to 8 May 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-4-to-8-may-2026",
-      "published": "2026-05-12T12:46:01+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "EMA actively monitoring cruise ship Hantavirus outbreak",
-      "summary": "EMA is actively monitoring the ongoing hantavirus outbreak linked to a cruise ship, in coordination with other EU bodies.The virus has been identified as Andes hantavirus, the…",
-      "link": "https://www.ema.europa.eu/en/news/ema-actively-monitoring-cruise-ship-hantavirus-outbreak",
-      "published": "2026-05-12T12:19:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
     }
   ]
 }
