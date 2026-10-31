@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-31T07:54:54.066177+00:00",
+  "generated_at": "2026-10-31T14:13:11.771514+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 1,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
-      "last_success": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
+      "last_success": "2026-10-31T14:05:34.324590+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
-      "last_success": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
+      "last_success": "2026-10-31T14:05:34.324590+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
-      "last_success": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
+      "last_success": "2026-10-31T14:05:34.324590+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
-      "last_success": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
+      "last_success": "2026-10-31T14:05:34.324590+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
-      "last_success": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
+      "last_success": "2026-10-31T14:05:34.324590+00:00",
       "items_fetched": 12,
       "last_success_item_count": 12
     },
@@ -141,13 +141,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-10-31T07:47:18.656887+00:00",
+      "last_attempt": "2026-10-31T14:05:34.324590+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-10-31T07:47:18.656887+00:00",
+      "last_success": "2026-10-31T14:05:34.324590+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Infant Formula Nutrient Requirements",
+      "summary": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum levels of four required nutrients, change the unit of measure for certain nutrients, change the permitted source to meet one of the nutrient requirements, and amend the content of the required labeling. This action also…",
+      "link": "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements",
+      "published": "2026-11-02T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Triheptanoin (Dojolvi) approved to treat adults and children with a group of rare inherited disorders",
       "summary": "MHRA approves triheptanoin to treat adult and paediatric patients with a group of rare inherited disorders.",
@@ -12135,18 +12147,6 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Modified Risk Tobacco Product Application: Renewal Applications for VLN® King and VLN® Menthol King, Cigarette Products Submitted by 22nd Century Group Inc.",
-      "summary": "The Food and Drug Administration (FDA or the Agency) is announcing the availability for public comment of modified risk tobacco product applications (MRTPAs) for renewal of existing MRTP orders for two cigarette products submitted by 22nd Century Group Inc.",
-      "link": "https://www.federalregister.gov/documents/2026/05/13/2026-09544/modified-risk-tobacco-product-application-renewal-applications-for-vln-king-and-vln-menthol-king",
-      "published": "2026-05-13T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
