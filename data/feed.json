@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03T02:03:18.554681+00:00",
+  "generated_at": "2026-11-03T09:00:07.816089+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
-      "last_success": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
+      "last_success": "2026-11-03T08:52:37.194290+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
-      "last_success": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
+      "last_success": "2026-11-03T08:52:37.194290+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
-      "last_success": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
+      "last_success": "2026-11-03T08:52:37.194290+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
-      "last_success": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
+      "last_success": "2026-11-03T08:52:37.194290+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
-      "last_success": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
+      "last_success": "2026-11-03T08:52:37.194290+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-03T01:55:43.060561+00:00",
+      "last_attempt": "2026-11-03T08:52:37.194290+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-03T01:55:43.060561+00:00",
+      "last_success": "2026-11-03T08:52:37.194290+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Potency Assurance for Cellular and Gene Therapy Products; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Potency Assurance for Cellular and Gene Therapy Products.&quot; The guidance document provides recommendations to help assure the potency of human cellular therapy or gene therapy (CGT) products at all stages of the product lifecycle. FDA is recommending a comprehensive approach to potency assurance of CGT products that is grounded in quality risk management. For investigational…",
+      "link": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability",
+      "published": "2026-11-03T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus; Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Recommendations for Reducing the Risk of Transfusion-Transmitted Hepatitis B Virus.&quot; The guidance document provides blood establishments that collect blood and blood components, including Source Plasma, with FDA's recommendations for testing blood and blood components for hepatitis B virus (HBV) to reduce the risk of transfusion-transmitted HBV. The recommendations contained in…",
+      "link": "https://www.federalregister.gov/documents/2026/11/03/2026-22369/recommendations-for-reducing-the-risk-of-transfusion-transmitted-hepatitis-b-virus-guidance-for",
+      "published": "2026-11-03T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Decision: Orphan registered medicinal products",
       "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
@@ -12123,30 +12147,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "Medical devices: conformity assessment and the UKCA mark",
-      "summary": "How to conform with the legal requirements for placing medical devices on the market.",
-      "link": "https://www.gov.uk/guidance/medical-devices-conformity-assessment-and-the-ukca-mark",
-      "published": "2026-05-13T12:38:36+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Octopus Nuvo, Octopus Evo AS and Octopus 4",
-      "summary": "On 7-January-2026, Medtronic identified that the canister tubing set had been misassembled while performing final inspection. The short tube was attached to the bottom of the canister, and the long tube was attached to the top, which is in reverse order than the design specification.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/octopus-nuvo-octopus-evo-and-octopus-4",
-      "published": "2026-05-13T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
     }
   ]
 }
