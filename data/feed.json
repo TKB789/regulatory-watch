@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-04T04:12:18.674505+00:00",
+  "generated_at": "2026-11-04T13:38:08.108924+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
-      "last_success": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
+      "last_success": "2026-11-04T13:30:36.562459+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
-      "last_success": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
+      "last_success": "2026-11-04T13:30:36.562459+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
-      "last_success": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
+      "last_success": "2026-11-04T13:30:36.562459+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
-      "last_success": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
+      "last_success": "2026-11-04T13:30:36.562459+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
-      "last_success": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
+      "last_success": "2026-11-04T13:30:36.562459+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-04T04:04:45.047451+00:00",
+      "last_attempt": "2026-11-04T13:30:36.562459+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-04T04:04:45.047451+00:00",
+      "last_success": "2026-11-04T13:30:36.562459+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Field Safety Notices: 26 to 30 October 2026",
+      "summary": "List of Field Safety Notices from 26 to 30 October 2026.",
+      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-26-to-30-october-2026",
+      "published": "2026-11-04T12:22:28+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Decision: Advertising investigations: October 2026",
+      "summary": "Decisions made by MHRA on adverts reported to have breached the legislation on advertising medicines.",
+      "link": "https://www.gov.uk/government/publications/advertising-investigations-october-2026",
+      "published": "2026-11-04T12:18:08+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Clinical trials for medicines: Inclusion and Diversity Plan pilot findings published",
       "summary": "The Health Research Authority (HRA) has published the findings from its pilot on researchers and sponsors of clinical trials and clinical investigations developing and submitting an Inclusion and Diversity Plan.",
@@ -12117,30 +12141,6 @@
       "summary": "FOR IMMEDIATE RELEASE MUMBAI, INDIA and PRINCETON, NJ - May 13, 2026 – Sun Pharma is voluntarily recalling within the U.S. to the hospital/user level, one batch of DOXOrubicin Hydrochloride Liposome Injection 50mg/25 mL, Lot # HAG2581B, Expiration 05/2027 (675 vials). The single batch of 675 vials i",
       "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sun-pharmaceutical-industries-inc-sun-pharma-initiates-voluntary-us-nationwide-recall-doxorubicin",
       "published": "2026-05-13T22:21:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Terra Medi LLC Recalls Karagounis Bros – Hellas Meze Golden Smoked Whole Herring Due to Improper Evisceration",
-      "summary": "Terra Medi LLC of Long Island City, NY is recalling all of the imported Hellas Meze Golden Smoked Whole herring vacuum packaged because of improper evisceration of the fish. The sale of uneviscerated fish is prohibited under New York State Agriculture and Markets regulation because Clostridium Botul",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/terra-medi-llc-recalls-karagounis-bros-hellas-meze-golden-smoked-whole-herring-due-improper",
-      "published": "2026-05-13T18:49:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "IQ Produce LCC. Recalls Enoki Mushrooms Because of Possible Health Risk",
-      "summary": "IQ PRODUCE of VERNON, CA is recalling 528 CASES/ MUSHROOM ENOKI 150g, because it has the potential to be contaminated with Listeria monocytogenes, an organism which can cause serious and sometimes fatal infections in young children, frail or elderly people, and others with weakened immune systems.",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/iq-produce-lcc-recalls-enoki-mushrooms-because-possible-health-risk",
-      "published": "2026-05-13T18:35:00+00:00",
       "agency": "FDA",
       "region": "United States",
       "category": "recall",
