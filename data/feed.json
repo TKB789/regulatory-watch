@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T08:53:49.011712+00:00",
+  "generated_at": "2026-11-05T17:53:54.003224+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 3,
+  "new_this_run": 7,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
-      "last_success": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_success": "2026-11-05T17:46:18.018940+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
-      "last_success": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_success": "2026-11-05T17:46:18.018940+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
-      "last_success": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_success": "2026-11-05T17:46:18.018940+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
-      "last_success": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_success": "2026-11-05T17:46:18.018940+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
-      "last_success": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_success": "2026-11-05T17:46:18.018940+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,145 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-05T08:46:18.379729+00:00",
+      "last_success": "2026-11-05T17:46:18.018940+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-11-05T16:50:33+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Orphan registered medicinal products",
+      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
+      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
+      "published": "2026-11-05T16:24:58+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Corporate report: Patient and Public Involvement and Engagement Plan 2026-2030",
+      "summary": "This plan sets out the MHRA’s approach to place meaningful involvement and engagement at the heart of the agency’s work for 2026-2030.",
+      "link": "https://www.gov.uk/government/publications/patient-and-public-involvement-and-engagement-plan-2026-2030",
+      "published": "2026-11-05T16:00:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA sets out approach to strengthen patient and public involvement and engagement in medicines and medical device regulation",
+      "summary": "New plan will broaden participation and make clearer how patient experience informs regulatory decisions, safety and innovation",
+      "link": "https://www.gov.uk/government/news/mhra-sets-out-approach-to-strengthen-patient-and-public-involvement-and-engagement-in-medicines-and-medical-device-regulation",
+      "published": "2026-11-05T16:00:04+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use Guidelines",
+      "summary": "Directory of current ICH Guidelines which have been implemented by the Medicines and Healthcare products Regulatory Agency.",
+      "link": "https://www.gov.uk/guidance/international-council-for-harmonisation-of-technical-requirements-for-pharmaceuticals-for-human-use-guidelines",
+      "published": "2026-11-05T12:56:19+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Class 4 Medicines Defect Notification: Sandoz Limited, Co-Amoxiclav powder for oral suspension 250/62.5 mg/5mL, EL(26)A/46",
+      "summary": "Sandoz Limited have informed the MHRA of errors in the dosing table in the Summary of Product Characteristics (SmPC) for Co-amoxiclav 250/62.5 mg/5 ml Powder for Oral Suspension.",
+      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-sandoz-limited-co-amoxiclav-powder-for-oral-suspension-250-slash-62-dot-5-mg-slash-ml-el-26-a-slash-46",
+      "published": "2026-11-05T12:03:40+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Duvyzat®▼ (givinostat): interim advice on risk mitigation measures following reports of deaths in patients while taking givinostat",
+      "summary": "There have been several reports internationally of deaths in patients with Duchenne muscular dystrophy (DMD) while being treated with Duvyzat® (givinostat). Following a review of these cases and associated evidence, the MHRA has proposed updates to the product information.",
+      "link": "https://www.gov.uk/drug-safety-update/duvyzat-r-v-givinostat-interim-advice-on-risk-mitigation-measures-following-reports-of-deaths-in-patients-while-taking-givinostat",
+      "published": "2026-11-05T12:00:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "HF-Cables (Reusable)",
+      "summary": "Following the Medical Device Recall for WA00014A, Olympus identified 19 additional models that may experience the same failure. Olympus is reminding customers of the Instructions and Caution related to service life from the HF cable IFU to reduce the likelihood of cable failure.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/hf-cables-reusable",
+      "published": "2026-11-05T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Class 3 Medicines Recall: Aspire Pharma Limited, Tropicamide 1% Eye Drops, solution in single dose containers 20 x 0.5ml , EL(26)A/47",
+      "summary": "Aspire Pharma Ltd is recalling specific batches of Tropicamide 1% Eye Drops, solution in single dose containers 0.5ml x 20, due to them being labelled with the incorrect expiry date. The correct expiry date for these batches…",
+      "link": "https://www.gov.uk/drug-device-alerts/class-3-medicines-recall-aspire-pharma-limited-tropicamide-1-percent-eye-drops-solution-in-single-dose-containers-20-x-0-dot-5ml-el-26-a-slash-47",
+      "published": "2026-11-05T11:00:55+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "recall",
+      "feed_id": "uk-alerts",
+      "feed_label": "UK Drug & Device Alerts",
+      "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "Corporate report: MHRA-NICE Real-World Evidence Scientific Dialogue",
+      "summary": "Supporting decision making across the product lifecycle to benefit both regulatory and health technology assessment (HTA) evaluations.",
+      "link": "https://www.gov.uk/government/publications/mhra-nice-real-world-evidence-scientific-dialogue",
+      "published": "2026-11-05T09:30:06+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Digital Mental Health Technologies (DMHT): Phase 1 evaluation survey",
+      "summary": "The MHRA and the NICE are seeking feedback on the resources developed through the Wellcome Digital Mental Health Technologies (DMHT) programme.",
+      "link": "https://www.gov.uk/government/calls-for-evidence/digital-mental-health-technologies-dmht-phase-1-evaluation-survey",
+      "published": "2026-11-05T09:00:02+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
       "summary": "The Food and Drug Administration (FDA) is classifying the digital cervical cytology slide imaging system with artificial intelligence algorithm into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the digital cervical cytology slide imaging system with artificial intelligence algorithm. We are taking this action because we have determined that classifying the device into…",
@@ -291,18 +423,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Orphan registered medicinal products",
-      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
-      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
-      "published": "2026-11-02T15:36:10+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Guidance: Herbal medicines granted a traditional herbal registration (THR)",
@@ -729,18 +849,6 @@
       "summary": "Information on applying for New Active Substance Work Sharing Initiative (NASWSI) and Biosimilar Work Sharing Initiative (BSWSI) assessments and list of approved products.",
       "link": "https://www.gov.uk/guidance/access-new-active-substance-nas-work-sharing-initiative",
       "published": "2026-10-27T17:57:40+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-10-27T13:46:22+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -4143,18 +4251,6 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Corporate report: MHRA-NICE Real-World Evidence Scientific Dialogue",
-      "summary": "A programme to help decision making across the lifecycle of products, benefitting both regulatory and health technology assessment (HTA) evaluations.",
-      "link": "https://www.gov.uk/government/publications/mhra-nice-real-world-evidence-scientific-dialogue",
-      "published": "2026-09-04T10:18:23+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "New EU supply chain to end Visudyne shortage",
@@ -12005,18 +12101,6 @@
       "source": "EMA News & Press Releases"
     },
     {
-      "title": "International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use Guidelines",
-      "summary": "Directory of current ICH Guidelines which have been implemented by the Medicines and Healthcare products Regulatory Agency.",
-      "link": "https://www.gov.uk/guidance/international-council-for-harmonisation-of-technical-requirements-for-pharmaceuticals-for-human-use-guidelines",
-      "published": "2026-05-19T11:12:03+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
       "title": "Transparency data: Medicines and Healthcare products Regulatory Agency spending over £25,000: 2025 to 2026",
       "summary": "Information on Medicines and Healthcare products Regulatory Agency spending over £25,000.",
       "link": "https://www.gov.uk/government/publications/medicines-and-healthcare-products-regulatory-agency-spending-over-25000-2025-to-2026",
@@ -12063,90 +12147,6 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
-    },
-    {
-      "title": "MHRA approves beremagene geperpavec (Vyjuvek) for the treatment of dystrophic epidermolysis bullosa",
-      "summary": "As with any medicine, the MHRA will keep the safety and effectiveness of Vyjuvek under close review.",
-      "link": "https://www.gov.uk/government/news/mhra-approves-beremagene-geperpavec-vyjuvek-for-the-treatment-of-dystrophic-epidermolysis-bullosa",
-      "published": "2026-05-15T18:09:20+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Blackstone Products Recalls Parmesan Ranch Seasoning Because of Possible Salmonella Health Risk",
-      "summary": "Blackstone Products of Providence, Utah is voluntarily recalling certain lots of Blackstone Parmesan Ranch seasoning products because they have the potential to be contaminated with Salmonella. Blackstone’s action is based on a California Dairies, Inc. recall of dry milk powder due to potential Sal",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blackstone-products-recalls-parmesan-ranch-seasoning-because-possible-salmonella-health-risk",
-      "published": "2026-05-15T15:59:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "ApexPro Carescape Telemetry Server",
-      "summary": "Potential loss of ECG and SPo2 monitoring involving ApexPro Carescape Telemetry Server V5.0 and V6.0 can result from a persistent no comm or off network condition at the Carescape Central Station or CIC Pro Clinical Information Center.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/apexpro-carescape-telemetry-server",
-      "published": "2026-05-15T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Hard Disk Drives in Azurion and Allura Systems",
-      "summary": "Philips has identified that Hard Disk Drives (HDDs) used in the PCS of Azurion and Allura systems may show a decrease in performance as they age, particularly beyond six years of service. Issues with an HDD may, depending on the specific system PC in which the affected HDD is installed, result in loss of imaging functionality. Additionally, in Allura systems, this may lead to loss of motorized movement, or loss of data. In some cases, a system restart may temporarily restore functionality.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/hard-disk-drives-azurion-and-allura-systems",
-      "published": "2026-05-15T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Oscar Bobo: Final Debarment Order",
-      "summary": "The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act) debarring Oscar Bobo for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a finding that Mr. Bobo engaged in a pattern of importing or offering for import misbranded drugs (i.e., in an amount, frequency, or dosage that is inconsistent with his personal or household use) that are not designated in…",
-      "link": "https://www.federalregister.gov/documents/2026/05/15/2026-09767/oscar-bobo-final-debarment-order",
-      "published": "2026-05-15T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Early Alert: Anesthesia Machine Issue from Draeger, Inc.",
-      "summary": "Draeger is correcting additional anesthesia workstations due to a manufacturing error that may cause the ventilator to fail before or during use.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-anesthesia-machine-issue-draeger-inc",
-      "published": "2026-05-15T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Straus Family Creamery Voluntarily Recalls Select Flavors of  Organic Ice Cream Due to Potential Presence of Foreign Material",
-      "summary": "May 14, 2026; Petaluma, CA; — Straus Family Creamery is voluntarily recalling a small number of production runs of select flavors and sizes of its Organic Ice Cream due to the potential presence of metal foreign material. Only the production runs (noted by the “best by” date on package) specified l",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/straus-family-creamery-voluntarily-recalls-select-flavors-organic-ice-cream-due-potential-presence",
-      "published": "2026-05-14T15:43:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
     }
   ]
 }
