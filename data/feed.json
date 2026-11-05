@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T17:53:54.003224+00:00",
+  "generated_at": "2026-11-05T23:11:15.748159+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 7,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
-      "last_success": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
+      "last_success": "2026-11-05T23:03:42.233839+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
-      "last_success": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
+      "last_success": "2026-11-05T23:03:42.233839+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
-      "last_success": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
+      "last_success": "2026-11-05T23:03:42.233839+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
-      "last_success": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
+      "last_success": "2026-11-05T23:03:42.233839+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
-      "last_success": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
+      "last_success": "2026-11-05T23:03:42.233839+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,9 +141,9 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-05T17:46:18.018940+00:00",
+      "last_attempt": "2026-11-05T23:03:42.233839+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-05T17:46:18.018940+00:00",
+      "last_success": "2026-11-05T23:03:42.233839+00:00",
       "items_fetched": 0
     }
   ],
@@ -231,6 +231,42 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MAGNETOM Flow.Ace",
+      "summary": "Siemens Healthineers is advising customers of a software issue affecting syngo.via MR Cardiac Analysis MRFlow Quantification when used with Beat Sensor triggering for retrospectively gated 2D cardiac flowexaminations.The issue affects the MAGNETOM MR scanner model MAGNETOM Flow.Ace when operated with one of thesoftware versions and both licenses specified as follows :. Software Versions Numaris/X VA51A, VA60A, VA61A, VA70A, VB10A, VB20A/NX2510;. Beat Sensor / Pilot Tone Cardiac License…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/magnetom-flowace",
+      "published": "2026-11-05T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Nova Statstrip® Ketone Test Strips",
+      "summary": "Certain lots of StatStrip Ketone Test Strips were found to have an increased rate of quality control (QC) test failures during use. While patient whole-blood testing performance is not affected, the affected lots are being recalled to prevent delays in obtaining ketone test results. Users should immediately identify and discontinue their use, and follow the instructions provided in the recall notification.&nbsp;",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/nova-statstripr-ketone-test-strips",
+      "published": "2026-11-05T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Horizon Medical Imaging System",
+      "summary": "It was identified that certain replacement monitors for Horizon W/WI systems released into production beginning in January 2025 were shipped without the VGA cable required to connect the monitor to the computer. As a result, field service engineers may have installed the systems using VGA cables from unknown origin. This created a nonconformance related to the use of unapproved components and a potential risk of increased electromagnetic interference (EMI) emissions from VGA cables that have…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/horizon-medical-imaging-system",
+      "published": "2026-11-05T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "HF-Cables (Reusable)",
@@ -12105,42 +12141,6 @@
       "summary": "Information on Medicines and Healthcare products Regulatory Agency spending over £25,000.",
       "link": "https://www.gov.uk/government/publications/medicines-and-healthcare-products-regulatory-agency-spending-over-25000-2025-to-2026",
       "published": "2026-05-19T11:09:51+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "MHRA to support local life sciences sector in Wales",
-      "summary": "MHRA announces new programme of events and greater engagement with industries, researchers, local NHS and government in Wales.",
-      "link": "https://www.gov.uk/government/news/mhra-to-support-local-life-sciences-sector-in-wales",
-      "published": "2026-05-19T10:11:59+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "New Implementing Regulation sets out uniform requirements for conformity assessment and notified bodies",
-      "summary": "New Implementing Regulation sets out uniform requirements for conformity assessment and notified bodies",
-      "link": "https://ec.europa.eu/newsroom/sante/newsletter-archives/75370",
-      "published": "2026-05-18T15:16:15+00:00",
-      "agency": "EU",
-      "region": "European Union",
-      "category": "prepub",
-      "feed_id": "eur-lex",
-      "feed_label": "EUR-Lex",
-      "source": "EUR-Lex — Recent regulations & directives"
-    },
-    {
-      "title": "Professor Joann Rhodes: The Rules Need to Bend – Why Flexible Policies and Real Partnership are the Keys to unlocking Life Sciences Potential",
-      "summary": "Innovation doesn’t wait for the rules to catch up. The question is whether we can build a system agile and flexible enough to keep pace.",
-      "link": "https://www.gov.uk/government/news/professor-joann-rhodes-the-rules-need-to-bend-why-flexible-policies-and-real-partnership-are-the-keys-to-unlocking-life-sciences-potential",
-      "published": "2026-05-18T09:27:32+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
