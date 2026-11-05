@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-05T02:02:16.626005+00:00",
+  "generated_at": "2026-11-05T08:53:49.011712+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
-      "last_success": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_success": "2026-11-05T08:46:18.379729+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
-      "last_success": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_success": "2026-11-05T08:46:18.379729+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
-      "last_success": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_success": "2026-11-05T08:46:18.379729+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
-      "last_success": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_success": "2026-11-05T08:46:18.379729+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
-      "last_success": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
+      "last_success": "2026-11-05T08:46:18.379729+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-05T01:54:40.658142+00:00",
+      "last_attempt": "2026-11-05T08:46:18.379729+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-05T01:54:40.658142+00:00",
+      "last_success": "2026-11-05T08:46:18.379729+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
+      "summary": "The Food and Drug Administration (FDA) is classifying the digital cervical cytology slide imaging system with artificial intelligence algorithm into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the digital cervical cytology slide imaging system with artificial intelligence algorithm. We are taking this action because we have determined that classifying the device into…",
+      "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology",
+      "published": "2026-11-05T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Neurological Devices; Classification of the Prognostic Assessment Software of Mild Cognitive Impairment",
+      "summary": "The Food and Drug Administration (FDA) is classifying the prognostic assessment software of mild cognitive impairment into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the prognostic assessment software of mild cognitive impairment. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the…",
+      "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22590/medical-devices-neurological-devices-classification-of-the-prognostic-assessment-software-of-mild",
+      "published": "2026-11-05T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medical Devices; Orthopedic Devices; Classification of the Wearable Vibration Device for Orthopedic Use",
+      "summary": "The Food and Drug Administration (FDA) is classifying the wearable vibration device for orthopedic use into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the wearable vibration device for orthopedic use. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of…",
+      "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22589/medical-devices-orthopedic-devices-classification-of-the-wearable-vibration-device-for-orthopedic",
+      "published": "2026-11-05T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "MHRA guidance on its assessment of non-clinical data generated outside OECD system",
       "summary": "MHRA issues new guidance on its approach to clinical trial applications that rely on non-clinical safety data generated outside the OECD Mutual Acceptance of Data system.",
@@ -12111,42 +12147,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "CASE Cardiac Testing System - Parts",
-      "summary": "Potential for electrical sparking at the printer head of CASE V7 systems.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/case-cardiac-testing-system-parts",
-      "published": "2026-05-14T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Endoflip System",
-      "summary": "The issue concerns a problem affecting EF and ES catheters used with EF-100 systems after 1-January-2026. Following this date will be incorrectly flagged as expired due to the system's 24-hour usage limit, rendering the catheter unavailable for clinical procedures.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/endoflip-system",
-      "published": "2026-05-14T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "directCHECK™ Whole Blood Control",
-      "summary": "Instances of consistently elevated results were identified when using directCHECK™ Whole Blood Control DCGLR‑2, lot A6DLA001. A process error led to testing the lot on the wrong instrument platform, which resulted in the creation and release of incorrect Quality Control (QC) ranges on the performance range card distributed with this lot.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/directchecktm-whole-blood-control",
-      "published": "2026-05-14T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
     }
   ]
 }
