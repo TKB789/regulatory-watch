@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-06T13:37:01.686504+00:00",
+  "generated_at": "2026-11-06T20:17:40.689699+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 4,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
-      "last_success": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
+      "last_success": "2026-11-06T20:10:05.776692+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
-      "last_success": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
+      "last_success": "2026-11-06T20:10:05.776692+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
-      "last_success": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
+      "last_success": "2026-11-06T20:10:05.776692+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
-      "last_success": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
+      "last_success": "2026-11-06T20:10:05.776692+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
-      "last_success": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
+      "last_success": "2026-11-06T20:10:05.776692+00:00",
       "items_fetched": 8,
       "last_success_item_count": 8
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-06T13:29:27.960658+00:00",
+      "last_attempt": "2026-11-06T20:10:05.776692+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-06T13:29:27.960658+00:00",
+      "last_success": "2026-11-06T20:10:05.776692+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Medical devices given exceptional use authorisations",
+      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
+      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
+      "published": "2026-11-06T17:15:46+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Guidance: International Recognition Procedure",
+      "summary": "How to use the procedure for medicines licensing applications.",
+      "link": "https://www.gov.uk/government/publications/international-recognition-procedure",
+      "published": "2026-11-06T14:30:35+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Orphan registered medicinal products",
+      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
+      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
+      "published": "2026-11-06T13:55:29+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 3-5 November 2026",
       "summary": "CVMP opinions on veterinary medicinal products&nbsp;Further to the re-examination of the opinion adopted by the Committee during its June 2026 meeting, the&nbsp;Committee adopted a…",
@@ -171,6 +207,42 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Automated Blood Coagulation Analyzers",
+      "summary": "In October 2026, the legal manufacturer Sysmex notified Siemens Healthineers of an urgent field safety notice for the analyzer CN series systems.Sysmex identified that deposits may accumulate on the sample arm B probe of the CN-series analyzers.The deposits may affect sample dispensing, potentially resulting in the delivery of a lower sample volume to the reaction cuvette than defined, which and may cause falsely decreased results. Based on the manufacturer’s investigation, the accumulation of…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/automated-blood-coagulation-analyzers",
+      "published": "2026-11-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Smoothbore Breathing System",
+      "summary": "During manufacturing, insufficient tetrahydrofuran (THF) solvent is used to bond the soft connectors onto the Smoothbore tube. Following reports received from the market of disconnection of the soft connectors from the tube, our investigation and testing of internal stock has identified insufficient amount of solvent used to ensure a secure connection.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/smoothbore-breathing-system",
+      "published": "2026-11-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "ROTOFIX 32A Centrifuge",
+      "summary": "The lid lock on some ROTOFIX 32A Centrifuges may not always engage securely. In these instances, the handle bar/lid latch could be open during a centrifuge run.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/rotofix-32a-centrifuge",
+      "published": "2026-11-06T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Clinical trials for medicines: Good clinical practice inspections",
@@ -219,30 +291,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Medical devices given exceptional use authorisations",
-      "summary": "List of manufacturers and their medical devices granted an exemption by MHRA. The list also includes manufacturers whose exemption expired or was cancelled.",
-      "link": "https://www.gov.uk/government/publications/medical-devices-given-exceptional-use-authorisations",
-      "published": "2026-11-05T16:50:33+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Orphan registered medicinal products",
-      "summary": "A list of authorised orphan medicinal products registered by the UK licensing authority.",
-      "link": "https://www.gov.uk/government/publications/orphan-registered-medicinal-products",
-      "published": "2026-11-05T16:24:58+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Corporate report: Patient and Public Involvement and Engagement Plan 2026-2030",
@@ -2043,18 +2091,6 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Guidance: International Recognition Procedure",
-      "summary": "How to use the procedure for medicines licensing applications.",
-      "link": "https://www.gov.uk/government/publications/international-recognition-procedure",
-      "published": "2026-10-09T13:01:22+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Guidance: MHRA Real-World Evidence: knowledge and guidance",
@@ -12105,42 +12141,6 @@
       "summary": "MHRA are seeking feedback on a proposed framework for rare disease therapies.",
       "link": "https://www.gov.uk/government/consultations/draft-rare-disease-therapies-regulatory-framework",
       "published": "2026-05-20T23:01:03+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Landmark new plans bring treatments for rare diseases a step closer",
-      "summary": "The MHRA launches public consultation on new framework that could lead to earlier licensing for therapies for up to 3.5 million people in the UK.",
-      "link": "https://www.gov.uk/government/news/landmark-new-plans-bring-treatments-for-rare-diseases-a-step-closer",
-      "published": "2026-05-20T23:01:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "MHRA consults on new regulatory framework to make UK a global leader in rare disease therapy development",
-      "summary": "Proposed Rare Disease Therapies Framework introduces Investigational Marketing Authorisation and compressed development pathways – industry urged to respond",
-      "link": "https://www.gov.uk/government/news/mhra-consults-on-new-regulatory-framework-to-make-uk-a-global-leader-in-rare-disease-therapy-development",
-      "published": "2026-05-20T23:01:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Amiodarone: reminder of risks of treatment and need for patient monitoring and supervision",
-      "summary": "Amiodarone has been associated with serious and potentially life-threatening side effects, particularly of the lung, liver, and thyroid gland. We remind healthcare professionals that patients should be supervised and reviewed regularly during treatment. Lung problems may have slow onset but then progress rapidly. Computerised tomography scans may help to confirm a suspected diagnosis of pulmonary toxicity.",
-      "link": "https://www.gov.uk/drug-safety-update/amiodarone-cordarone-x-reminder-of-risks-of-treatment-and-need-for-patient-monitoring-and-supervision",
-      "published": "2026-05-20T14:48:04+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
