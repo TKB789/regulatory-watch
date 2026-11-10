@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T12:05:06.910419+00:00",
+  "generated_at": "2026-11-10T19:26:46.802645+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 1,
+  "new_this_run": 5,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
-      "last_success": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
+      "last_success": "2026-11-10T19:19:12.737421+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
-      "last_success": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
+      "last_success": "2026-11-10T19:19:12.737421+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
-      "last_success": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
+      "last_success": "2026-11-10T19:19:12.737421+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
-      "last_success": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
+      "last_success": "2026-11-10T19:19:12.737421+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
-      "last_success": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
+      "last_success": "2026-11-10T19:19:12.737421+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -141,13 +141,97 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-10T11:57:36.219372+00:00",
+      "last_attempt": "2026-11-10T19:19:12.737421+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-10T11:57:36.219372+00:00",
+      "last_success": "2026-11-10T19:19:12.737421+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Decision: Human and veterinary medicines: register of licensed manufacturing sites",
+      "summary": "The MHRA register of licensed manufacturing sites: manufacturer specials - human (MS) and manufacturer specials authorisation - veterinary (MANSA) only.",
+      "link": "https://www.gov.uk/government/publications/human-and-veterinary-medicines-register-of-licensed-manufacturing-sites",
+      "published": "2026-11-10T14:50:33+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Notice: Register of brokers authorised to deal in human medicines",
+      "summary": "Current listing of UK brokers authorised to broker human medicines, including company name, registration and address.",
+      "link": "https://www.gov.uk/government/publications/register-of-brokers-authorised-to-deal-in-human-medicines",
+      "published": "2026-11-10T14:50:21+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Medicines: new manufacturing and wholesale dealer licences",
+      "summary": "List of sites granted a manufacturer or wholesale dealer licence.",
+      "link": "https://www.gov.uk/government/publications/medicines-new-manufacturing-and-wholesale-dealer-licences",
+      "published": "2026-11-10T14:50:12+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Notice: Medicines: terminated and cancelled manufacturing and wholesale dealer licences",
+      "summary": "UK companies who have their licence to manufacture or wholesale medicines terminated and cancelled.",
+      "link": "https://www.gov.uk/government/publications/medicines-terminated-and-cancelled-manufacturing-and-wholesale-dealer-licences",
+      "published": "2026-11-10T14:50:02+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Human medicines: register of licensed wholesale distribution sites",
+      "summary": "Department of Health and Social Care and MHRA register of licensed wholesale distribution sites (human).",
+      "link": "https://www.gov.uk/government/publications/human-and-veterinary-medicines-register-of-licensed-wholesale-distribution-sites",
+      "published": "2026-11-10T14:49:52+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Accell Connexus®",
+      "summary": "Voluntary product removal due to potential particulate contamination resulting from contact between the ball spring and mixing container during manufacturing. The affected products include specific lots of Accell Connexus® (IsoTis OrthoBiologics) distributed in Canada.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/accell-connexusr",
+      "published": "2026-11-10T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Carestation 850",
+      "summary": "Carestation 850 and 850c Anesthesia Systems can deliver reduced concentration of anesthetic agent.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/carestation-850-0",
+      "published": "2026-11-10T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Decision: Marketing authorisations granted in 2026",
       "summary": "Marketing authorisations granted in 2026.",
@@ -195,6 +279,42 @@
       "feed_id": "mhra-news",
       "feed_label": "MHRA News",
       "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency.&quot; The guidance describes general recommendations for the validation of in vitro diagnostic devices (IVDs) for emerging pathogens during an applicable declaration of public health emergency (PHE). This guidance and the associated template include the recommendations…",
+      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22883/validation-of-certain-in-vitro-diagnostic-devices-for-emerging-pathogens-during-a-section-564",
+      "published": "2026-11-10T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Color Additive Petition From the International Association of Color Manufacturers; Request To Amend the Color Additive Regulations To Remove the Solvents Methylene Chloride, Trichloroethylene, and Ethylene Dichloride",
+      "summary": "The Food and Drug Administration (FDA or we) is partially granting a color additive petition submitted by the International Association of Color Manufacturers (IACM or petitioner), by amending our color additive regulations, on the basis of abandonment, to remove the authorized uses of methylene chloride, trichloroethylene, and ethylene dichloride from the list of authorized extraction solvents for annatto extract, paprika oleoresin, and turmeric oleoresin. The petitioner provided data…",
+      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22866/color-additive-petition-from-the-international-association-of-color-manufacturers-request-to-amend",
+      "published": "2026-11-10T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Color Additive Petition From Environmental Defense Fund et al.; Request To Amend the Color Additive Regulations To Remove the Solvents Ethylene Dichloride, Methylene Chloride, and Trichloroethylene",
+      "summary": "The Food and Drug Administration (FDA or we) is partially granting a color additive petition submitted by Environmental Defense Fund et al. (petitioners), by amending our color additive regulations, on the basis of the Delaney Clause, to remove the authorized use of methylene chloride as a diluent in color additive mixtures in inks for marking fruit and vegetables. The petitioners provided data demonstrating that this additive induces cancer in laboratory animals. We are denying the remaining…",
+      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22865/color-additive-petition-from-environmental-defense-fund-et-al-request-to-amend-the-color-additive",
+      "published": "2026-11-10T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Guidance: Innovative Licensing and Access Pathway (ILAP)",
@@ -2451,66 +2571,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Decision: Human and veterinary medicines: register of licensed manufacturing sites",
-      "summary": "The MHRA register of licensed manufacturing sites: manufacturer specials - human (MS) and manufacturer specials authorisation - veterinary (MANSA) only.",
-      "link": "https://www.gov.uk/government/publications/human-and-veterinary-medicines-register-of-licensed-manufacturing-sites",
-      "published": "2026-10-07T15:17:48+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Notice: Register of brokers authorised to deal in human medicines",
-      "summary": "Current listing of UK brokers authorised to broker human medicines, including company name, registration and address.",
-      "link": "https://www.gov.uk/government/publications/register-of-brokers-authorised-to-deal-in-human-medicines",
-      "published": "2026-10-07T15:17:39+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Medicines: new manufacturing and wholesale dealer licences",
-      "summary": "List of sites granted a manufacturer or wholesale dealer licence.",
-      "link": "https://www.gov.uk/government/publications/medicines-new-manufacturing-and-wholesale-dealer-licences",
-      "published": "2026-10-07T15:17:32+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Notice: Medicines: terminated and cancelled manufacturing and wholesale dealer licences",
-      "summary": "UK companies who have their licence to manufacture or wholesale medicines terminated and cancelled.",
-      "link": "https://www.gov.uk/government/publications/medicines-terminated-and-cancelled-manufacturing-and-wholesale-dealer-licences",
-      "published": "2026-10-07T15:17:26+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Human medicines: register of licensed wholesale distribution sites",
-      "summary": "Department of Health and Social Care and MHRA register of licensed wholesale distribution sites (human).",
-      "link": "https://www.gov.uk/government/publications/human-and-veterinary-medicines-register-of-licensed-wholesale-distribution-sites",
-      "published": "2026-10-07T15:17:16+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "MHRA approves catumaxomab to treat cancer-related fluid build-up in the abdomen",
@@ -12087,66 +12147,6 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Neurological Sponges",
-      "summary": "During an internal review, Medicom has identified the potential for unexpected variability of endotoxin levels on the products. While the products have been demonstrated to consistently meet the endotoxin specification for blood contacting or implantable products, variability has been observed indicating that products in the market potentially may not consistently meet the more stringent endotoxin specification for devices that contact the cerebrospinal fluid.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/neurological-sponges",
-      "published": "2026-05-21T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "HarmonyAIR A-Series Surgical Lighting System AND ALYON Surgical Lighting System",
-      "summary": "Steris identified through customer complaints that on Harmonyair A-Series Lighting System and Alyon Surgical Lighting System the plus/minus (+/-) buttons that control light intensity on the light heads may detach. If detachment occurs during a patient procedure, the buttons could enter the sterile field and disrupt the procedure resulting in a procedure delay. Users can continue to use their lighting system(s) prior to completion of the correction. Users are reminded to ensure no excess fluids…",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/harmonyair-series-surgical-lighting-system-and-alyon-surgical-lighting-system",
-      "published": "2026-05-21T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Patent Term Restoration; Due Diligence Petitions; Filing, Format, and Content of Petitions",
-      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
-      "link": "https://www.federalregister.gov/documents/2026/05/21/2026-10190/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
-      "published": "2026-05-21T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Adverse Experience/Events With Approved New Animal Drugs",
-      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
-      "link": "https://www.federalregister.gov/documents/2026/05/21/2026-10189/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
-      "published": "2026-05-21T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Agency Information Collection Activities; Submission for Office of Management and Budget Review; Comment Request; Current Good Manufacturing Practice (CGMP): Manufacturing, Processing, Packing, and Holding of Drugs; GMP for Finished Pharmaceuticals (Including Active Pharmaceutical Ingredients) and the Advanced Manufacturing Technologies Designation Program",
-      "summary": "The Food and Drug Administration (FDA) is announcing that a proposed collection of information has been submitted to the Office of Management and Budget (OMB) for review and clearance under the Paperwork Reduction Act of 1995.",
-      "link": "https://www.federalregister.gov/documents/2026/05/21/2026-10188/agency-information-collection-activities-submission-for-office-of-management-and-budget-review",
-      "published": "2026-05-21T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
