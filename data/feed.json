@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-11T08:47:30.995343+00:00",
+  "generated_at": "2026-11-11T17:42:34.846399+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 6,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
-      "last_success": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
+      "last_success": "2026-11-11T17:35:03.857579+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
-      "last_success": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
+      "last_success": "2026-11-11T17:35:03.857579+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
-      "last_success": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
+      "last_success": "2026-11-11T17:35:03.857579+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
-      "last_success": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
+      "last_success": "2026-11-11T17:35:03.857579+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
-      "last_success": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
+      "last_success": "2026-11-11T17:35:03.857579+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -141,13 +141,97 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-11T08:39:57.468827+00:00",
+      "last_attempt": "2026-11-11T17:35:03.857579+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-11T08:39:57.468827+00:00",
+      "last_success": "2026-11-11T17:35:03.857579+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Hematology and Pathology Devices; Reclassification of Immunohistochemistry Test Systems for Use With a Corresponding Approved Oncology Therapeutic Product",
+      "summary": "The Food and Drug Administration (FDA) is proposing to reclassify immunohistochemistry (IHC) test systems indicated for use with a corresponding approved oncology therapeutic product (product codes MVC, NKF, QQT, NQF, PLS, PKW, QUL, QNH, QZJ, SBL, SER, and SHF), which are postamendments class III devices, from class III (premarket approval) into class II (special controls), subject to premarket notification. FDA is proposing minor revisions to an existing classification regulation and also…",
+      "link": "https://www.federalregister.gov/documents/2026/11/12/2026-23005/hematology-and-pathology-devices-reclassification-of-immunohistochemistry-test-systems-for-use-with",
+      "published": "2026-11-12T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Patient-Level Data for Drugs and Biological Products Submissions Containing Real-World Data and Real-World Evidence; Request for Information",
+      "summary": "The Food and Drug Administration (FDA or Agency), is announcing a request for information (RFI) from interested parties to share perspectives on patient-level data access related to the use of real-world evidence (RWE) in regulatory decision-making for drugs and biological product submissions. The purpose of this RFI is to solicit input from interested parties on innovative solutions to address the challenges in submitting patient-level data for real-world data (RWD) analyzed in clinical…",
+      "link": "https://www.federalregister.gov/documents/2026/11/12/2026-22996/patient-level-data-for-drugs-and-biological-products-submissions-containing-real-world-data-and",
+      "published": "2026-11-12T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Early-Phase IND Protocol Recommendations for Solid Tumors; Draft Guidance for Industry; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a draft guidance for industry titled &quot;Early-Phase IND Protocol Recommendations for Solid Tumors.&quot; The purpose of this draft guidance is to provide recommendations to sponsors and clinical investigators developing early-phase trials, which include first-in- human (FIH) protocols or protocols for drugs and biologic products with limited human experience, submitted under an Investigational New Drug…",
+      "link": "https://www.federalregister.gov/documents/2026/11/12/2026-22970/early-phase-ind-protocol-recommendations-for-solid-tumors-draft-guidance-for-industry-availability",
+      "published": "2026-11-12T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Voluntary Qualified Importer Program",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed reinstatement of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice…",
+      "link": "https://www.federalregister.gov/documents/2026/11/12/2026-22965/agency-information-collection-activities-proposed-collection-comment-request-voluntary-qualified",
+      "published": "2026-11-12T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Veterinary Feed Directive",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing an opportunity for public comment on the proposed collection of certain information by the Agency. Under the Paperwork Reduction Act of 1995 (PRA), Federal Agencies are required to publish notice in the Federal Register concerning each proposed collection of information, including each proposed extension of an existing collection of information, and to allow 60 days for public comment in response to the notice. This notice solicits…",
+      "link": "https://www.federalregister.gov/documents/2026/11/12/2026-22964/agency-information-collection-activities-proposed-collection-comment-request-veterinary-feed",
+      "published": "2026-11-12T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "MHRA approves Retifanlimab (ZYNYZ) for the treatment of advanced anal cancer",
+      "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) has approved retifanlimab (ZYNYZ) for the treatment of adults with squamous cell carcinoma of the anal canal (SCAC).",
+      "link": "https://www.gov.uk/government/news/mhra-approves-retifanlimab-zynyz-for-the-treatment-of-advanced-anal-cancer",
+      "published": "2026-11-11T16:39:21+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Register medical devices to place on the market",
+      "summary": "How to register your medical devices with the MHRA for the markets in Great Britain and Northern Ireland.",
+      "link": "https://www.gov.uk/guidance/register-medical-devices-to-place-on-the-market",
+      "published": "2026-11-11T15:21:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Decision: Human and veterinary medicines: register of licensed manufacturing sites",
       "summary": "The MHRA register of licensed manufacturing sites: manufacturer specials - human (MS) and manufacturer specials authorisation - veterinary (MANSA) only.",
@@ -1743,18 +1827,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Register medical devices to place on the market",
-      "summary": "How to register your medical devices with the MHRA for the markets in Great Britain and Northern Ireland.",
-      "link": "https://www.gov.uk/guidance/register-medical-devices-to-place-on-the-market",
-      "published": "2026-10-16T14:15:46+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "SIGNA™ Architect",
@@ -12075,78 +12147,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "M11 Clinical Electronic Structured Harmonised Protocol (CeSHarP); International Council for Harmonisation; Guidance for Industry; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance for industry entitled &quot;M11 Clinical Electronic Structured Harmonised Protocol (CeSHarP).&quot; The guidance was prepared under the auspices of the International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use (ICH). The guidance includes three documents: a guidance, a template, and a technical specification document. The guidance provides the rationale…",
-      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10295/m11-clinical-electronic-structured-harmonised-protocol-cesharp-international-council-for",
-      "published": "2026-05-22T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Protein Efficiency Ratio Rat Bioassay Studies To Demonstrate That a New Infant Formula Supports the Quality Factor of Sufficient Biological Quality of Protein; Guidance for Industry; Availability",
-      "summary": "The Food and Drug Administration (FDA or we) is announcing the availability of a guidance entitled &quot;Protein Efficiency Ratio (PER) Rat Bioassay Studies to Demonstrate That a New Infant Formula Supports the Quality Factor of Sufficient Biological Quality of Protein.&quot; The guidance provides information for manufacturers and contract laboratories that perform PER studies to assist in designing, conducting, evaluating, and reporting PER studies. The guidance explains &quot;appropriate…",
-      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10284/protein-efficiency-ratio-rat-bioassay-studies-to-demonstrate-that-a-new-infant-formula-supports-the",
-      "published": "2026-05-22T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support abbreviated new drug applications (ANDAs). In the Federal Register of June 11, 2010, FDA announced the availability of a guidance for industry entitled &quot;Bioequivalence Recommendations for Specific…",
-      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10277/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
-      "published": "2026-05-22T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Notice of Decision Not To Designate Hepatitis Delta Virus Diseases as an Addition to the Current List of Tropical Diseases in the Federal Food, Drug, and Cosmetic Act",
-      "summary": "In response to a suggestion by Gilead Sciences, Inc. (Gilead) that was submitted to the public docket FDA-2008-N-0567 on February 14, 2022, the Food and Drug Administration (FDA or Agency) has analyzed whether hepatitis delta virus (HDV) infection meets the statutory criteria for designation as a &quot;tropical disease&quot; under Section 524 of the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act). Specifically, the Agency has analyzed whether there is &quot;no significant market in…",
-      "link": "https://www.federalregister.gov/documents/2026/05/22/2026-10268/notice-of-decision-not-to-designate-hepatitis-delta-virus-diseases-as-an-addition-to-the-current",
-      "published": "2026-05-22T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "EMA closed on Whit Monday, 25 May",
-      "summary": "EMA’s office is closed on 25 May, to mark Whit Monday. The office reopens 08:30 on Tuesday, 26 May.The product emergency hotline is available outside working hours and on…",
-      "link": "https://www.ema.europa.eu/en/news/ema-closed-whit-monday-25-may",
-      "published": "2026-05-21T12:00:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "LIFEPAK 15 V4 SpCO/SpMet Sensors",
-      "summary": "Stryker received complaints indicating that the LIFEPAK 15 V4 displayed an error where “SpO2: Sensor does not support SpCO or SpMET.” The error results in preventing users from utilizing LIFEPAK 15 V4 SpCO and SpMet functionalities when connected to specific lots of Masimo Rainbow Sensors. The specific sensor lots are compatible with the LIFEPAK 15 V1 and V2 devices.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/lifepak-15-v4-spcospmet-sensors",
-      "published": "2026-05-21T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
     }
   ]
 }
