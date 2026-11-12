@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T14:28:17.421146+00:00",
+  "generated_at": "2026-11-12T22:05:56.134551+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 1,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +50,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +59,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +67,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
-      "last_success": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
+      "last_success": "2026-11-12T21:58:24.586468+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +76,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +86,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +96,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
-      "last_success": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
+      "last_success": "2026-11-12T21:58:24.586468+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +105,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
-      "last_success": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
+      "last_success": "2026-11-12T21:58:24.586468+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +114,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
-      "last_success": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
+      "last_success": "2026-11-12T21:58:24.586468+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +123,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,8 +132,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
-      "last_success": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
+      "last_success": "2026-11-12T21:58:24.586468+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -141,13 +141,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-12T14:20:43.559754+00:00",
+      "last_attempt": "2026-11-12T21:58:24.586468+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-12T14:20:43.559754+00:00",
+      "last_success": "2026-11-12T21:58:24.586468+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Beaver-Visitec International Mini Blades",
+      "summary": "BVI identified a potential seal integrity issue affecting certain units of the products listed in this Voluntary Medical Device Recall notice. The issue may result in an \"open seal\" condition, in which sterility cannot be guaranteed. the condition has been confirmed through physical investigation, including visual inspection and dye penetration testing. Based on the investigation and sampling performed to date, the condition is intermittent and does not affect all units within the affected lots.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/beaver-visitec-international-mini-blades",
+      "published": "2026-11-12T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Centricity® Universal Viewer",
+      "summary": "Cybersecurity vulnerability affecting Centricity Universal Viewer (UV) and Centricity PACS-IW (PACS-IW) when launched from third-party applications via an unencrypted URL method. This vulnerability could allow an unauthorized individual to access the system and potentially view and manipulate patient data. Unauthorized access could also result in exposure of protected health information.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/centricityr-universal-viewer",
+      "published": "2026-11-12T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "MAGNETOM Flow.Elite MR XB20A-HF02",
+      "summary": "Hotfix syngo MR XB20A-HF02 (NX2510-WSMW) is a bug fix update (delta installation) which includes:• BioMatrix Head/Neck Pro Coil elements detection fixed for the system configurations with Tim[108x24]and Tim[108x48]• Improved data logging to improve error case detection• Improved general system stability during and after start-up• Improved stability and reliability of the patient table",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/magnetom-flowelite-mr-xb20a-hf02",
+      "published": "2026-11-12T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Corporate report: MHRA quarterly Results and Forecast: 2026 to 2027",
       "summary": "Quarterly reports to provide performance information and projections across 2026/2027.",
@@ -12111,42 +12147,6 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Kimal Procedure Packs containing recalled components: Namic Angiographic Syringe with the risk of syringe disconnection; Namic Manifolds with the risk of foreign particulates. Important guidance for use in urgent procedures where there are no alternatives. (DSI/2026/002)",
-      "summary": "Medline Industries LP and Kimal PLC have identified safety issues with the Namic Angiographic Control Syringes with RA and Namic White Star Off Handle Manifold devices, and have issued field safety notices to affected UK hos…",
-      "link": "https://www.gov.uk/drug-device-alerts/kimal-procedure-packs-containing-recalled-components-namic-angiographic-syringe-with-the-risk-of-syringe-disconnection-namic-manifolds-with-the-risk-of-foreign-particulates-important-guidance-for-use-in-emergency-situations-dsi-sl",
-      "published": "2026-05-22T10:10:41+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "New medicine for two types of pulmonary fibrosis",
-      "summary": "EMA has recommended granting a marketing authorisation in the European Union (EU) for Jascayd (nerandomilast) to treat adults with idiopathic pulmonary fibrosis (IPF) or…",
-      "link": "https://www.ema.europa.eu/en/news/new-medicine-two-types-pulmonary-fibrosis",
-      "published": "2026-05-22T10:00:01+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Field Safety Notices: 11 to 15 May 2026",
-      "summary": "List of Field Safety Notices from 11 to 15 May 2026.",
-      "link": "https://www.gov.uk/drug-device-alerts/field-safety-notices-11-to-15-may-2026",
-      "published": "2026-05-22T09:24:43+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
     }
   ]
 }
