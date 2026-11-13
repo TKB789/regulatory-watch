@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T11:52:18.002270+00:00",
+  "generated_at": "2026-11-13T19:06:57.414667+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 4,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -28,20 +28,19 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    }
-  ],
-  "empty_feeds": [
+    },
     {
       "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "feed returned 0 entries"
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
     }
   ],
+  "empty_feeds": [],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -50,7 +49,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -59,7 +58,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0
     },
@@ -67,8 +66,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
-      "last_success": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
+      "last_success": "2026-11-13T18:59:10.506993+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -76,7 +75,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -86,7 +85,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -96,8 +95,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
-      "last_success": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
+      "last_success": "2026-11-13T18:59:10.506993+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -105,8 +104,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
-      "last_success": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
+      "last_success": "2026-11-13T18:59:10.506993+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -114,8 +113,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
-      "last_success": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
+      "last_success": "2026-11-13T18:59:10.506993+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -123,7 +122,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -132,27 +131,63 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
-      "last_success": "2026-11-13T11:44:45.858197+00:00",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
+      "last_success": "2026-11-13T18:59:10.506993+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "empty",
-      "last_attempt": "2026-11-13T11:44:45.858197+00:00",
-      "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-13T11:44:45.858197+00:00",
-      "items_fetched": 0
+      "status": "error",
+      "last_attempt": "2026-11-13T18:59:10.506993+00:00",
+      "last_attempt_reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+      "items_fetched": 0,
+      "last_success": "2026-11-13T11:44:45.858197+00:00"
     }
   ],
   "items": [
     {
+      "title": "Find product information about medicines",
+      "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
+      "link": "https://www.gov.uk/guidance/find-product-information-about-medicines",
+      "published": "2026-11-13T17:01:16+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Clinician Programmer for Vercise™ Deep Brain Stimulation (DBS) systems",
+      "summary": "Boston Scientific is initiating a Product Correction (IFU update) to provide additional guidance in the use of the Clinician Programmer feature for Implantable Pulse Generator (IPG) battery recharge interval and non-rechargeable IPG battery longevity estimates.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/clinician-programmer-vercisetm-deep-brain-stimulation-dbs-systems",
+      "published": "2026-11-13T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Azurion 7 M20",
+      "summary": "Philips has identified two software issues affecting Azurion R3.1 systems that may result in loss of imaging (X-ray) functionality, and/or loss of motorized movement. Issue 1 - System remains in continuous restart mode after the start-up:Due to a software issue, the License Manager - which verifies installed licenses and enables optional functionality in the Azurion system based on the available licenses - expands the Windows registry database at every system start or restart. Over time, the…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/azurion-7-m20-3",
+      "published": "2026-11-13T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
       "title": "MHRA: services during Microsoft outage",
-      "summary": "We are experiencing problems sending and receiving emails.",
+      "summary": "We have been experiencing problems sending and receiving emails.",
       "link": "https://www.gov.uk/government/news/mhra-services-during-microsoft-outage",
-      "published": "2026-11-13T11:19:12+00:00",
+      "published": "2026-11-13T11:19:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -195,6 +230,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Spectra Optia™ Apheresis System-Main Unit Software V 12.1",
+      "summary": "Customer notification for Spectra Optia Systems running software version 12.1 is intended to ensure awareness of the issue and support informed software management decisions. The general patient population being treated with plasma exchange is unlikely to experience issues with the AIM system. The population at greatest risk can experience a delay in treatment if the aim system cannot be disabled.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/spectra-optiatm-apheresis-system-main-unit-software-v-121",
+      "published": "2026-11-12T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Beaver-Visitec International Mini Blades",
@@ -2667,18 +2714,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Find product information about medicines",
-      "summary": "How to get information including patient information leaflets (PILs), details on how the medicine can be used (SPCs) and scientific reports (PARs).",
-      "link": "https://www.gov.uk/guidance/find-product-information-about-medicines",
-      "published": "2026-10-08T17:09:36+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Clinical trial applications advice pilot becomes permanent",
@@ -12111,42 +12146,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Foundational Documents",
-      "summary": "Seeking to establish a comprehensive set of IMDRF documents as a reference for members and stakeholders in developing their regulatory frameworks, while supporting continued global harmonisation",
-      "link": "https://www.imdrf.org/working-groups/foundational-documents",
-      "published": "2026-05-26T03:05:15+00:00",
-      "agency": "IMDRF",
-      "region": "International",
-      "category": "guidance",
-      "feed_id": "imdrf-wg",
-      "feed_label": "IMDRF Working Groups",
-      "source": "IMDRF Working Groups"
-    },
-    {
-      "title": "Dexcom G7 Sensors",
-      "summary": "AA-Med Pty Ltd is recalling two lots of Dexcom G7 sensors. These lots were identified for disposal and destruction in the USA due to incomplete sterilisation and deployment failure during testing.",
-      "link": "https://www.tga.gov.au/safety/recalls-and-other-market-actions/market-actions/dexcom-g7-sensors",
-      "published": "2026-05-25T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 19-21 May 2026",
-      "summary": "CVMP opinions on veterinary medicinal productsThe Committee adopted a positive opinion for a marketing authorisation for Nobivac NXT HC, for the active immunisation of&nbsp;cats…",
-      "link": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-veterinary-medicinal-products-cvmp-19-21-may-2026",
-      "published": "2026-05-22T13:12:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
     }
   ]
 }
