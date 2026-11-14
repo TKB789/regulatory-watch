@@ -1,10 +1,22 @@
 {
-  "generated_at": "2026-11-14T08:27:29.658869+00:00",
+  "generated_at": "2026-11-14T16:22:26.589439+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 56,
+  "new_this_run": 0,
   "pruned_this_run": 0,
   "failed_feeds": [
+    {
+      "name": "FDA Recalls",
+      "reason": "HTTP 404: Not Found"
+    },
+    {
+      "name": "FDA MedWatch Safety Alerts",
+      "reason": "HTTP 404: Not Found"
+    },
+    {
+      "name": "FDA Press Announcements",
+      "reason": "HTTP 404: Not Found"
+    },
     {
       "name": "IMDRF Working Groups",
       "reason": "The read operation timed out"
@@ -16,47 +28,51 @@
     {
       "name": "TGA news & alerts",
       "reason": "The read operation timed out"
-    },
-    {
-      "name": "EUR-Lex — Recent regulations & directives",
-      "reason": "HTTP 403: Forbidden"
     }
   ],
-  "empty_feeds": [],
+  "empty_feeds": [
+    {
+      "name": "EUR-Lex — Recent regulations & directives",
+      "reason": "feed returned 0 entries"
+    }
+  ],
   "feed_status": [
     {
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
-      "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
+      "status": "error",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_attempt_reason": "HTTP 404: Not Found",
+      "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
-      "items_fetched": 20,
       "last_success_item_count": 20
     },
     {
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
-      "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
+      "status": "error",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_attempt_reason": "HTTP 404: Not Found",
+      "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
-      "items_fetched": 20,
       "last_success_item_count": 20
     },
     {
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
-      "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
+      "status": "error",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_attempt_reason": "HTTP 404: Not Found",
+      "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
-      "items_fetched": 20,
       "last_success_item_count": 20
     },
     {
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
-      "last_success": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_success": "2026-11-14T16:14:53.731984+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -64,7 +80,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -74,7 +90,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -84,8 +100,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
-      "last_success": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_success": "2026-11-14T16:14:53.731984+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -93,8 +109,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
-      "last_success": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_success": "2026-11-14T16:14:53.731984+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -102,8 +118,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
-      "last_success": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_success": "2026-11-14T16:14:53.731984+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -111,7 +127,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -120,19 +136,19 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
-      "last_success": "2026-11-14T08:20:46.585231+00:00",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_success": "2026-11-14T16:14:53.731984+00:00",
       "items_fetched": 7,
       "last_success_item_count": 7
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
-      "status": "error",
-      "last_attempt": "2026-11-14T08:20:46.585231+00:00",
-      "last_attempt_reason": "HTTP 403: Forbidden",
-      "items_fetched": 0,
-      "last_success": "2026-11-13T11:44:45.858197+00:00"
+      "status": "empty",
+      "last_attempt": "2026-11-14T16:14:53.731984+00:00",
+      "last_attempt_reason": "feed returned 0 entries",
+      "last_success": "2026-11-14T16:14:53.731984+00:00",
+      "items_fetched": 0
     }
   ],
   "items": [
@@ -209,18 +225,6 @@
       "source": "EMA News & Press Releases"
     },
     {
-      "title": "Medline Updates Customers and Patients on Repair and Replace Program for Recall of Medline Brand Beds, Rails, Mattresses and Accessories",
-      "summary": "On October 14, 2026, Medline initiated a product recall, market exit and discontinuation of all Medline Brand beds, rails, mattresses, and accessories (e.g., pendants and motor boxes) due to a potential fire hazard and entrapment risk, which may result in patient injury or death. As of November 8, 2",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medline-updates-customers-and-patients-repair-and-replace-program-recall-medline-brand-beds-rails",
-      "published": "2026-11-13T05:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Determination That DIBENZYLINE (Phenoxybenzamine Hydrochloride) Oral Capsule, 10 Milligrams, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
       "summary": "The Food and Drug Administration (FDA or Agency) has determined that the drug products listed in this document were not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to these drug products, and it will allow FDA to continue to approve ANDAs that refer to the products as long as they meet relevant legal and regulatory requirements.",
       "link": "https://www.federalregister.gov/documents/2026/11/13/2026-23141/determination-that-dibenzyline-phenoxybenzamine-hydrochloride-oral-capsule-10-milligrams-and-other",
@@ -243,6 +247,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Medline Updates Customers and Patients on Repair and Replace Program for Recall of Medline Brand Beds, Rails, Mattresses and Accessories",
+      "summary": "On October 14, 2026, Medline initiated a product recall, market exit and discontinuation of all Medline Brand beds, rails, mattresses, and accessories (e.g., pendants and motor boxes) due to a potential fire hazard and entrapment risk, which may result in patient injury or death. As of November 8, 2",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/medline-updates-customers-and-patients-repair-and-replace-program-recall-medline-brand-beds-rails",
+      "published": "2026-11-13T05:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Eros Apothecary Issues Recall of Candy Power For Man Organic Honey Due to Undeclared Tadalafil",
@@ -329,18 +345,6 @@
       "source": "UK Drug & Medical Device Alerts"
     },
     {
-      "title": "Game Changer Products LLC Issues Voluntary Nationwide Recall of 10 Day Forecast Capsules Due to the Presence of Undeclared Sildenafil and Acetaminophen",
-      "summary": "FOR IMMEDIATE RELEASE – November 12, 2026 - Tampa, Florida. Game Changer Products LLC is voluntarily recalling all lots of 10 Day Forecast capsules to the consumer level. FDA analysis has found the product to be tainted with sildenafil and acetaminophen. Sildenafil is an active ingredient in an FDA",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/game-changer-products-llc-issues-voluntary-nationwide-recall-10-day-forecast-capsules-due-presence",
-      "published": "2026-11-12T05:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Hematology and Pathology Devices; Reclassification of Immunohistochemistry Test Systems for Use With a Corresponding Approved Oncology Therapeutic Product",
       "summary": "The Food and Drug Administration (FDA) is proposing to reclassify immunohistochemistry (IHC) test systems indicated for use with a corresponding approved oncology therapeutic product (product codes MVC, NKF, QQT, NQF, PLS, PKW, QUL, QNH, QZJ, SBL, SER, and SHF), which are postamendments class III devices, from class III (premarket approval) into class II (special controls), subject to premarket notification. FDA is proposing minor revisions to an existing classification regulation and also…",
       "link": "https://www.federalregister.gov/documents/2026/11/12/2026-23005/hematology-and-pathology-devices-reclassification-of-immunohistochemistry-test-systems-for-use-with",
@@ -399,6 +403,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Game Changer Products LLC Issues Voluntary Nationwide Recall of 10 Day Forecast Capsules Due to the Presence of Undeclared Sildenafil and Acetaminophen",
+      "summary": "FOR IMMEDIATE RELEASE – November 12, 2026 - Tampa, Florida. Game Changer Products LLC is voluntarily recalling all lots of 10 Day Forecast capsules to the consumer level. FDA analysis has found the product to be tainted with sildenafil and acetaminophen. Sildenafil is an active ingredient in an FDA",
+      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/game-changer-products-llc-issues-voluntary-nationwide-recall-10-day-forecast-capsules-due-presence",
+      "published": "2026-11-12T05:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "MHRA approves Retifanlimab (ZYNYZ) for the treatment of advanced anal cancer",
@@ -569,6 +585,42 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency; Guidance for Industry and Food and Drug Administration Staff; Availability",
+      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency.&quot; The guidance describes general recommendations for the validation of in vitro diagnostic devices (IVDs) for emerging pathogens during an applicable declaration of public health emergency (PHE). This guidance and the associated template include the recommendations…",
+      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22883/validation-of-certain-in-vitro-diagnostic-devices-for-emerging-pathogens-during-a-section-564",
+      "published": "2026-11-10T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Color Additive Petition From the International Association of Color Manufacturers; Request To Amend the Color Additive Regulations To Remove the Solvents Methylene Chloride, Trichloroethylene, and Ethylene Dichloride",
+      "summary": "The Food and Drug Administration (FDA or we) is partially granting a color additive petition submitted by the International Association of Color Manufacturers (IACM or petitioner), by amending our color additive regulations, on the basis of abandonment, to remove the authorized uses of methylene chloride, trichloroethylene, and ethylene dichloride from the list of authorized extraction solvents for annatto extract, paprika oleoresin, and turmeric oleoresin. The petitioner provided data…",
+      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22866/color-additive-petition-from-the-international-association-of-color-manufacturers-request-to-amend",
+      "published": "2026-11-10T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Color Additive Petition From Environmental Defense Fund et al.; Request To Amend the Color Additive Regulations To Remove the Solvents Ethylene Dichloride, Methylene Chloride, and Trichloroethylene",
+      "summary": "The Food and Drug Administration (FDA or we) is partially granting a color additive petition submitted by Environmental Defense Fund et al. (petitioners), by amending our color additive regulations, on the basis of the Delaney Clause, to remove the authorized use of methylene chloride as a diluent in color additive mixtures in inks for marking fruit and vegetables. The petitioners provided data demonstrating that this additive induces cancer in laboratory animals. We are denying the remaining…",
+      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22865/color-additive-petition-from-environmental-defense-fund-et-al-request-to-amend-the-color-additive",
+      "published": "2026-11-10T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Laub's Feeding & Cubing, Inc. Voluntary Recalls Grade A Mini Hay Cubes Because of Potential Clostridium Botulinum Contamination",
       "summary": "Laub’s Feeding and Cubing, Inc. of Beryl, Utah is voluntary recalling up 89 ton of Grade A Mini Hay Cubes sold from October 3 – October 31 because the product has the potential to be contaminated with Clostridium botulinum, a bacterium that can cause botulism, leading to severe and potentially fatal",
       "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/laubs-feeding-cubing-inc-voluntary-recalls-grade-mini-hay-cubes-because-potential-clostridium",
@@ -615,42 +667,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency; Guidance for Industry and Food and Drug Administration Staff; Availability",
-      "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Validation of Certain In Vitro Diagnostic Devices for Emerging Pathogens During a Section 564 Declared Emergency.&quot; The guidance describes general recommendations for the validation of in vitro diagnostic devices (IVDs) for emerging pathogens during an applicable declaration of public health emergency (PHE). This guidance and the associated template include the recommendations…",
-      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22883/validation-of-certain-in-vitro-diagnostic-devices-for-emerging-pathogens-during-a-section-564",
-      "published": "2026-11-10T05:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Color Additive Petition From the International Association of Color Manufacturers; Request To Amend the Color Additive Regulations To Remove the Solvents Methylene Chloride, Trichloroethylene, and Ethylene Dichloride",
-      "summary": "The Food and Drug Administration (FDA or we) is partially granting a color additive petition submitted by the International Association of Color Manufacturers (IACM or petitioner), by amending our color additive regulations, on the basis of abandonment, to remove the authorized uses of methylene chloride, trichloroethylene, and ethylene dichloride from the list of authorized extraction solvents for annatto extract, paprika oleoresin, and turmeric oleoresin. The petitioner provided data…",
-      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22866/color-additive-petition-from-the-international-association-of-color-manufacturers-request-to-amend",
-      "published": "2026-11-10T05:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Color Additive Petition From Environmental Defense Fund et al.; Request To Amend the Color Additive Regulations To Remove the Solvents Ethylene Dichloride, Methylene Chloride, and Trichloroethylene",
-      "summary": "The Food and Drug Administration (FDA or we) is partially granting a color additive petition submitted by Environmental Defense Fund et al. (petitioners), by amending our color additive regulations, on the basis of the Delaney Clause, to remove the authorized use of methylene chloride as a diluent in color additive mixtures in inks for marking fruit and vegetables. The petitioners provided data demonstrating that this additive induces cancer in laboratory animals. We are denying the remaining…",
-      "link": "https://www.federalregister.gov/documents/2026/11/10/2026-22865/color-additive-petition-from-environmental-defense-fund-et-al-request-to-amend-the-color-additive",
-      "published": "2026-11-10T05:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     },
     {
       "title": "FDA Approves First Factor Xla Inhibitor to Help Prevent Stroke in Certain Adults at High Risk",
@@ -881,18 +897,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "MedWatch Alert: FDA Investigating Serious Risk of Malignancy Linked to Zolgensma Gene Therapy",
-      "summary": "FDA Investigating Serious Risk of Malignancy Linked to Zolgensma Gene Therapy: FDA Safety Communication",
-      "link": "http://www.fda.gov/safety/medical-product-safety-information/medwatch-alert-fda-investigating-serious-risk-malignancy-linked-zolgensma-gene-therapy",
-      "published": "2026-11-06T05:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Food Additive Petitions; Change of Address",
       "summary": "The Food and Drug Administration (FDA or the Agency) is amending the regulations for food additive petitions (FAPs) to update addresses and simplify notification procedures. These technical amendments are being made to improve the accuracy of the Agency's regulations and are non-substantive.",
       "link": "https://www.federalregister.gov/documents/2026/11/06/2026-22663/food-additive-petitions-change-of-address",
@@ -915,6 +919,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "MedWatch Alert: FDA Investigating Serious Risk of Malignancy Linked to Zolgensma Gene Therapy",
+      "summary": "FDA Investigating Serious Risk of Malignancy Linked to Zolgensma Gene Therapy: FDA Safety Communication",
+      "link": "http://www.fda.gov/safety/medical-product-safety-information/medwatch-alert-fda-investigating-serious-risk-malignancy-linked-zolgensma-gene-therapy",
+      "published": "2026-11-06T05:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "FDA Grants Accelerated Approval to a New Treatment for Head and Neck Squamous Cell Carcinoma",
@@ -1193,18 +1209,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Early Alert: Compact Medical Removes and Updates Use Instructions for ButterflyBVM Bag-Valve-Mask Resuscitators",
-      "summary": "Compact Medical removes and updates use instructions for certain ButterflyBVM devices due to development of holes in bellows.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask",
-      "published": "2026-11-03T05:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Potency Assurance for Cellular and Gene Therapy Products; Guidance for Industry; Availability",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a final guidance titled &quot;Potency Assurance for Cellular and Gene Therapy Products.&quot; The guidance document provides recommendations to help assure the potency of human cellular therapy or gene therapy (CGT) products at all stages of the product lifecycle. FDA is recommending a comprehensive approach to potency assurance of CGT products that is grounded in quality risk management. For investigational…",
       "link": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability",
@@ -1227,6 +1231,18 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Early Alert: Compact Medical Removes and Updates Use Instructions for ButterflyBVM Bag-Valve-Mask Resuscitators",
+      "summary": "Compact Medical removes and updates use instructions for certain ButterflyBVM devices due to development of holes in bellows.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-compact-medical-removes-and-updates-use-instructions-butterflybvm-bag-valve-mask",
+      "published": "2026-11-03T05:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "Snack Right Super Foods, Inc. dba Brad's Raw Chips Recalls Brad's Crunchy Kale & Veggie Chips Due to Potential Thallium Contamination",
@@ -1289,6 +1305,18 @@
       "source": "MHRA news & alerts"
     },
     {
+      "title": "Infant Formula Nutrient Requirements",
+      "summary": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum levels of four required nutrients, change the unit of measure for certain nutrients, change the permitted source to meet one of the nutrient requirements, and amend the content of the required labeling. This action also…",
+      "link": "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements",
+      "published": "2026-11-02T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
       "title": "Early Alert: B. Braun Medical Inc. Removes Streamline Bloodline Set for Dialog+",
       "summary": "The dialyzer connector may not be attached appropriately, resulting in leaking and potential blood loss.",
       "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-b-braun-medical-inc-removes-streamline-bloodline-set-dialog",
@@ -1311,18 +1339,6 @@
       "feed_id": "fda-medwatch",
       "feed_label": "FDA MedWatch",
       "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Infant Formula Nutrient Requirements",
-      "summary": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum levels of four required nutrients, change the unit of measure for certain nutrients, change the permitted source to meet one of the nutrient requirements, and amend the content of the required labeling. This action also…",
-      "link": "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements",
-      "published": "2026-11-02T05:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     },
     {
       "title": "Once Upon A Farm Recalls All Lots and Varieties of Tractor Wheels Organic Toddler Soft-Baked Bars Due to Potential Choking Hazard",
@@ -1409,30 +1425,6 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Platelet Factor 4 (PF4) Radioimmunoassay Recall: Instrumentation Laboratories Removes HemosIL AcuStar HIT-IgG(PF4-H)",
-      "summary": "Product performance issue may lead to a false negative result which will delay recognition of heparin-induced thrombocytopenia.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/platelet-factor-4-pf4-radioimmunoassay-recall-instrumentation-laboratories-removes-hemosil-acustar",
-      "published": "2026-10-30T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Hospital Glucose Meter Correction: Nova Biomedical Updates Use Instructions for StatStrip Glucose Hospital Meter Systems",
-      "summary": "Update use instructions for StatStrip Glucose Hospital Meter Systems due to the potential for glucose results to be assigned to the incorrect patient.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/hospital-glucose-meter-correction-nova-biomedical-updates-use-instructions-statstrip-glucose",
-      "published": "2026-10-30T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
       "title": "Essential Drug Delivery Performance Characteristics for Devices Intended To Deliver Drugs and Biological Products; Revised Draft Guidance for Industry; Availability",
       "summary": "The Food and Drug Administration (FDA or Agency) is announcing the availability of a revised draft guidance for industry entitled &quot;Essential Drug Delivery Performance Characteristics for Devices Intended to Deliver Drugs and Biological Products.&quot; This revised draft guidance revises and replaces the draft guidance entitled &quot;Essential Drug Delivery Outputs Intended to Deliver Drugs and Biological Products&quot; announced in the Federal Register on July 1, 2024 (89 FR 54470). In…",
       "link": "https://www.federalregister.gov/documents/2026/10/30/2026-22203/essential-drug-delivery-performance-characteristics-for-devices-intended-to-deliver-drugs-and",
@@ -1503,6 +1495,30 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Platelet Factor 4 (PF4) Radioimmunoassay Recall: Instrumentation Laboratories Removes HemosIL AcuStar HIT-IgG(PF4-H)",
+      "summary": "Product performance issue may lead to a false negative result which will delay recognition of heparin-induced thrombocytopenia.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/platelet-factor-4-pf4-radioimmunoassay-recall-instrumentation-laboratories-removes-hemosil-acustar",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
+    },
+    {
+      "title": "Hospital Glucose Meter Correction: Nova Biomedical Updates Use Instructions for StatStrip Glucose Hospital Meter Systems",
+      "summary": "Update use instructions for StatStrip Glucose Hospital Meter Systems due to the potential for glucose results to be assigned to the incorrect patient.",
+      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/hospital-glucose-meter-correction-nova-biomedical-updates-use-instructions-statstrip-glucose",
+      "published": "2026-10-30T04:00:00+00:00",
+      "agency": "FDA",
+      "region": "United States",
+      "category": "recall",
+      "feed_id": "fda-medwatch",
+      "feed_label": "FDA MedWatch",
+      "source": "FDA MedWatch Safety Alerts"
     },
     {
       "title": "SLR Food Distribution Inc. Recalls Wise Wife Brand Ground Cinnamon Due to Elevated Lead Levels",
