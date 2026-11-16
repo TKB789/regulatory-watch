@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16T04:06:19.402342+00:00",
+  "generated_at": "2026-11-16T12:36:47.982962+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 2,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -51,7 +51,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -61,7 +61,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -71,8 +71,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
-      "last_success": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
+      "last_success": "2026-11-16T12:29:16.034039+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -80,7 +80,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -90,7 +90,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -100,8 +100,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
-      "last_success": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
+      "last_success": "2026-11-16T12:29:16.034039+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -109,8 +109,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
-      "last_success": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
+      "last_success": "2026-11-16T12:29:16.034039+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -118,8 +118,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
-      "last_success": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
+      "last_success": "2026-11-16T12:29:16.034039+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -127,7 +127,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -136,8 +136,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
-      "last_success": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
+      "last_success": "2026-11-16T12:29:16.034039+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -145,13 +145,49 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-16T03:58:48.113834+00:00",
+      "last_attempt": "2026-11-16T12:29:16.034039+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-16T03:58:48.113834+00:00",
+      "last_success": "2026-11-16T12:29:16.034039+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Corporate report: MHRA Strategy 2030",
+      "summary": "How the MHRA Strategy to 2030 sets out to deliver health and prosperity for all, through scientific excellence.",
+      "link": "https://www.gov.uk/government/publications/mhra-strategy-2030",
+      "published": "2026-11-16T12:19:09+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "MHRA launches new programme to tackle evidence gaps on women’s health",
+      "summary": "Women’s Health Programme aims to support innovation in women’s health and better understand how the risks and benefits of medicines and medical devices may differ for women.",
+      "link": "https://www.gov.uk/government/news/mhra-launches-new-programme-to-tackle-evidence-gaps-on-womens-health",
+      "published": "2026-11-16T08:00:11+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Corporate report: MHRA Women’s Health Programme 2026-2030",
+      "summary": "The Women’s Health Programme supports better evidence and regulation of medicines and medical devices to improve health outcomes for women.",
+      "link": "https://www.gov.uk/government/publications/mhra-womens-health-programme-2026-2030",
+      "published": "2026-11-16T08:00:02+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "bioQuad Life Sciences Issues Allergy Alert on Undeclared Milk in OsteoDenx® Dietary Supplement",
       "summary": "bioQuad Life Sciences of Yorba Linda, California is recalling two lots of OsteoDenx® dietary supplement capsules because they contain undeclared milk. People who have an allergy or severe sensitivity to milk run the risk of a serious or life-threatening allergic reaction if they consume this product",
@@ -2869,18 +2905,6 @@
       "summary": "The Medicines and Healthcare products Regulatory Agency (MHRA) has set out ambitious plans to translate cutting-edge scientific and technological innovation into better health outcomes for patients across all four nations of the UK, in its 2030 Strategy published today.",
       "link": "https://www.gov.uk/government/news/mhra-2030-strategy-to-modernise-patient-centred-regulation-for-the-era-of-ai-and-personalised-medicines",
       "published": "2026-10-14T09:00:03+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Corporate report: MHRA Strategy 2030",
-      "summary": "How the MHRA Strategy to 2030 sets out to deliver health and prosperity for all, through scientific excellence.",
-      "link": "https://www.gov.uk/government/publications/mhra-strategy-2030",
-      "published": "2026-10-14T09:00:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -12127,30 +12151,6 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "ARTIS Icono Ceiling, Floor and Biplane Systems",
-      "summary": "In very rare situations, after increasing the detector lift height to its maximum or minimum, the system may lose its movement capability. A reboot may not reestablish movement control. This failure can be resolved only by qualified service personnel.",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/artis-icono-ceiling-floor-and-biplane-systems",
-      "published": "2026-06-03T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Dexcom G7 Sensor 1 Pack",
-      "summary": "Unauthorized third-party distribution of 2 Dexcom G7 sensor lots in Canada that were intended for destruction as they did not meet Dexcom product standards",
-      "link": "https://recalls-rappels.canada.ca/en/alert-recall/dexcom-g7-sensor-1-pack",
-      "published": "2026-06-03T12:00:00+00:00",
-      "agency": "HC",
-      "region": "Canada",
-      "category": "recall",
-      "feed_id": "hc-recalls",
-      "feed_label": "Health Canada Recalls",
-      "source": "Health Canada Medical Device Recalls"
     }
   ]
 }
