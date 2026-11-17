@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17T05:58:29.785005+00:00",
+  "generated_at": "2026-11-17T15:21:44.404407+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 0,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -51,7 +51,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -61,7 +61,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -71,8 +71,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
-      "last_success": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
+      "last_success": "2026-11-17T15:14:10.187422+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -80,7 +80,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -90,7 +90,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -100,8 +100,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
-      "last_success": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
+      "last_success": "2026-11-17T15:14:10.187422+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -109,8 +109,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
-      "last_success": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
+      "last_success": "2026-11-17T15:14:10.187422+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -118,8 +118,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
-      "last_success": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
+      "last_success": "2026-11-17T15:14:10.187422+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -127,7 +127,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -136,22 +136,94 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
-      "last_success": "2026-11-17T05:50:57.866362+00:00",
-      "items_fetched": 5,
-      "last_success_item_count": 5
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
+      "last_success": "2026-11-17T15:14:10.187422+00:00",
+      "items_fetched": 6,
+      "last_success_item_count": 6
     },
     {
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-17T05:50:57.866362+00:00",
+      "last_attempt": "2026-11-17T15:14:10.187422+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-17T05:50:57.866362+00:00",
+      "last_success": "2026-11-17T15:14:10.187422+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "EU recommendations for 2026/2027 seasonal flu vaccine composition",
+      "summary": "The recommendations were updated and published on the following dates: 17 November 2026: to include a recommendation for mRNA (nucleic acid) influenza vaccines. Annex I…",
+      "link": "https://www.ema.europa.eu/en/news/eu-recommendations-2026-2027-seasonal-flu-vaccine-composition",
+      "published": "2026-11-17T13:00:00+00:00",
+      "agency": "EMA",
+      "region": "European Union",
+      "category": "guidance",
+      "feed_id": "eu-health",
+      "feed_label": "EMA News",
+      "source": "EMA News & Press Releases"
+    },
+    {
+      "title": "Decision: Parallel import licences granted in 2026",
+      "summary": "Parallel import licences granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
+      "published": "2026-11-17T10:42:57+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Decision: Marketing authorisations granted in 2026",
+      "summary": "Marketing authorisations granted in 2026.",
+      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
+      "published": "2026-11-17T10:42:45+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "Determination That M.V.I. PEDIATRIC (Multiple Vitamins for Injection) Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that M.V.I. PEDIATRIC (ascorbic acid 80 milligrams (mg)/ vial; biotin 0.02 mg/vial; cyanocobalamin 0.001 mg/vial; dexpanthenol 5 mg/vial; ergocalciferol 0.01 mg/vial; folic acid 0.14 mg/vial; niacinamide 17 mg/vial; phytonadione 0.2 mg/vial; pyridoxine hydrochloride 1 mg/vial; riboflavin 5'-phosphate sodium 1.4 mg/vial; thiamine hydrochloride equivalent (EQ) 1.2 mg base/vial; vitamin A 0.7 mg/vial; vitamin E 7 mg/vial), for…",
+      "link": "https://www.federalregister.gov/documents/2026/11/17/2026-23367/determination-that-mvi-pediatric-multiple-vitamins-for-injection-was-not-withdrawn-from-sale-for",
+      "published": "2026-11-17T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Determination That M.V.I. ADULT (Multiple Vitamins for Injection) Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+      "summary": "The Food and Drug Administration (FDA, Agency, or we) has determined that M.V.I. ADULT (ascorbic acid 200 milligrams (mg)/vial; biotin 0.06 mg/vial; cyanocobalamin 0.005 mg/vial; dexpanthenol 15 mg/ vial; ergocalciferol 0.005 mg/vial; folic acid 0.6 mg/vial; niacinamide 40 mg/vial; pyridoxine hydrochloride 6 mg/vial; riboflavin 5'-phosphate sodium 3.6 mg/vial; thiamine hydrochloride 6 mg/vial; vitamin A 1 mg/ vial; vitamin E 10 mg/vial; vitamin K 0.15 mg/vial), for injection, was not withdrawn…",
+      "link": "https://www.federalregister.gov/documents/2026/11/17/2026-23366/determination-that-mvi-adult-multiple-vitamins-for-injection-was-not-withdrawn-from-sale-for-reasons",
+      "published": "2026-11-17T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
+    {
+      "title": "Rulemaking To Provide That N-acetyl-L-cysteine Is Not Excluded From the Dietary Supplement Definition",
+      "summary": "The Food and Drug Administration (FDA or we) is proposing to issue a regulation finding that N-acetyl-L-cysteine (NAC) is not excluded from the dietary supplement definition in the Federal Food, Drug, and Cosmetic Act (FD&amp;C Act). This action, if finalized, would allow products containing NAC to be lawfully marketed as dietary supplements, provided that such products are not otherwise in violation of the FD&amp;C Act. We also propose to provide that the addition of NAC to a dietary…",
+      "link": "https://www.federalregister.gov/documents/2026/11/17/2026-23351/rulemaking-to-provide-that-n-acetyl-l-cysteine-is-not-excluded-from-the-dietary-supplement",
+      "published": "2026-11-17T05:00:00+00:00",
+      "agency": "FR",
+      "region": "United States",
+      "category": "prepub",
+      "feed_id": "federal-register",
+      "feed_label": "Federal Register",
+      "source": "Federal Register — FDA documents"
+    },
     {
       "title": "Corporate report: MHRA Strategy 2030",
       "summary": "How the MHRA Strategy to 2030 sets out to deliver health and prosperity for all, through scientific excellence.",
@@ -165,10 +237,10 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "MHRA launches new programme to tackle evidence gaps on women’s health",
-      "summary": "Women’s Health Programme aims to support innovation in women’s health and better understand how the risks and benefits of medicines and medical devices may differ for women.",
-      "link": "https://www.gov.uk/government/news/mhra-launches-new-programme-to-tackle-evidence-gaps-on-womens-health",
-      "published": "2026-11-16T08:00:11+00:00",
+      "title": "Corporate report: MHRA Women’s Health Programme 2026-2030",
+      "summary": "The Women’s Health Programme supports better evidence and regulation of medicines and medical devices to improve health outcomes for women.",
+      "link": "https://www.gov.uk/government/publications/mhra-womens-health-programme-2026-2030",
+      "published": "2026-11-16T08:00:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
       "category": "postmarket",
@@ -177,9 +249,9 @@
       "source": "MHRA news & alerts"
     },
     {
-      "title": "Corporate report: MHRA Women’s Health Programme 2026-2030",
-      "summary": "The Women’s Health Programme supports better evidence and regulation of medicines and medical devices to improve health outcomes for women.",
-      "link": "https://www.gov.uk/government/publications/mhra-womens-health-programme-2026-2030",
+      "title": "MHRA launches new programme to tackle evidence gaps on women’s health",
+      "summary": "Women’s Health Programme aims to support innovation in women’s health and better understand how the risks and benefits of medicines and medical devices may differ for women.",
+      "link": "https://www.gov.uk/government/news/mhra-launches-new-programme-to-tackle-evidence-gaps-on-womens-health",
       "published": "2026-11-16T08:00:00+00:00",
       "agency": "MHRA",
       "region": "United Kingdom",
@@ -571,30 +643,6 @@
       "feed_id": "hc-recalls",
       "feed_label": "Health Canada Recalls",
       "source": "Health Canada Medical Device Recalls"
-    },
-    {
-      "title": "Decision: Marketing authorisations granted in 2026",
-      "summary": "Marketing authorisations granted in 2026.",
-      "link": "https://www.gov.uk/government/publications/marketing-authorisations-granted-in-2026",
-      "published": "2026-11-10T11:27:10+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Decision: Parallel import licences granted in 2026",
-      "summary": "Parallel import licences granted in 2026.",
-      "link": "https://www.gov.uk/government/publications/parallel-import-licences-granted-in-2026",
-      "published": "2026-11-10T11:26:59+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Field Safety Notices from 02 to 06 November2026.",
@@ -12103,54 +12151,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Early Alert: Insulin Pump Issue from Insulet",
-      "summary": "Certain Omnipod Pods may have a tear in the tubing that allows insulin to leak outside the Pod instead of being delivered to the body.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-insulin-pump-issue-insulet",
-      "published": "2026-06-04T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Resmetirom (Rezdiffra) authorised to treat metabolic dysfunction-associated steatohepatitis (MASH) in adults",
-      "summary": "Resmetirom is used in adults who have experienced inflammation and cell damage, resulting in scarring.",
-      "link": "https://www.gov.uk/government/news/resmetirom-rezdiffra-authorised-to-treat-metabolic-dysfunction-associated-steatohepatitis-mash-in-adults",
-      "published": "2026-06-03T15:26:00+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
-    },
-    {
-      "title": "Unapproved ibutamoren capsules (MK-677) found to contain undisclosed anabolic steroid",
-      "summary": "We are advising consumers that ‘Pharmatech’ branded MK-677 capsules (containing ibutamoren) may pose a serious risk to your health and should not be taken.",
-      "link": "https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/unapproved-ibutamoren-capsules-mk-677-found-contain-undisclosed-anabolic-steroid",
-      "published": "2026-06-03T14:00:00+00:00",
-      "agency": "TGA",
-      "region": "Australia",
-      "category": "postmarket",
-      "feed_id": "tga-news",
-      "feed_label": "TGA News",
-      "source": "TGA news & alerts"
-    },
-    {
-      "title": "EMA, AMA and African regulatory authorities join forces on Ebola outbreak response",
-      "summary": "EMA’s Emergency Task Force (ETF) is engaging with the African Medicines Agency (AMA) and its national regulatory authorities (NRAs), leveraging expertise from the WHO-AFRO…",
-      "link": "https://www.ema.europa.eu/en/news/ema-ama-african-regulatory-authorities-join-forces-ebola-outbreak-response",
-      "published": "2026-06-03T12:52:00+00:00",
-      "agency": "EMA",
-      "region": "European Union",
-      "category": "guidance",
-      "feed_id": "eu-health",
-      "feed_label": "EMA News",
-      "source": "EMA News & Press Releases"
     }
   ]
 }
