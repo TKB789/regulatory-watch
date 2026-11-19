@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:54:40.830350+00:00",
+  "generated_at": "2026-11-19T05:20:37.620491+00:00",
   "item_count": 1000,
   "feed_count": 12,
   "new_this_run": 2,
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -51,7 +51,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -61,7 +61,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -71,8 +71,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
-      "last_success": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
+      "last_success": "2026-11-19T05:13:04.450614+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -80,7 +80,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -90,7 +90,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -100,8 +100,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
-      "last_success": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
+      "last_success": "2026-11-19T05:13:04.450614+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -109,8 +109,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
-      "last_success": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
+      "last_success": "2026-11-19T05:13:04.450614+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -118,8 +118,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
-      "last_success": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
+      "last_success": "2026-11-19T05:13:04.450614+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -127,7 +127,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -136,8 +136,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
-      "last_success": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
+      "last_success": "2026-11-19T05:13:04.450614+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -145,13 +145,37 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-18T22:47:06.278514+00:00",
+      "last_attempt": "2026-11-19T05:13:04.450614+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-18T22:47:06.278514+00:00",
+      "last_success": "2026-11-19T05:13:04.450614+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Spring-Wire Guide, Pressure Injectable PICC Kit, Arrow PICC With Arrowg+ard Blue Advance® Technology, No Placement Wire",
+      "summary": "Teleflex has initiated a voluntary recall for specific lots of the above-listed products because there is a potential quality issue affecting the supplied hydrophilic coated spring wire guide (SWG) components. Teleflex has confirmed the coating may swell inconsistently when hydrated with saline leading to clumping of the coating and potential for detachment.",
+      "link": "http://rsams-drupal-nginx/en/alert-recall/spring-wire-guide-pressure-injectable-picc-kit-arrow-picc-arrowgard-blue-advancer",
+      "published": "2026-11-18T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Blueprint®",
+      "summary": "Stryker has identified the following software bugs with Blueprint® versions 4.2.2 and 4.3.1:&nbsp;---Version 4.3.1 only:&nbsp;PSI guides generated using the incorrect axis when planning with a perform monopost standard &nbsp;baseplate and a BIO-RSA® Angled graft&nbsp;---Version 4.2.2 &amp; 4.3.1:&nbsp;Pyrocarbon humeral heads selectable with hrs flex procedures. Pyrocarbon heads are labeled for use with Tornier Flex only.",
+      "link": "http://rsams-drupal-nginx/en/alert-recall/blueprintr",
+      "published": "2026-11-18T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Spring-Wire Guide, Pressure Injectable PICC Kit, Arrow PICC With Arrowg+ard Blue Advance® Technology, No Placement Wire",
       "summary": "Teleflex has initiated a voluntary recall for specific lots of the above-listed products because there is a potential quality issue affecting the supplied hydrophilic coated spring wire guide (SWG) components. Teleflex has confirmed the coating may swell inconsistently when hydrated with saline leading to clumping of the coating and potential for detachment.",
@@ -12127,30 +12151,6 @@
       "feed_id": "federal-register",
       "feed_label": "Federal Register",
       "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Medical Devices; Orthopedic Devices; Classification of the Absorbable Metallic Bone Fixation Fastener",
-      "summary": "The Food and Drug Administration (FDA) is classifying the absorbable metallic bone fixation fastener into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the absorbable metallic bone fixation fastener. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of safety and effectiveness of the…",
-      "link": "https://www.federalregister.gov/documents/2026/06/05/2026-11302/medical-devices-orthopedic-devices-classification-of-the-absorbable-metallic-bone-fixation-fastener",
-      "published": "2026-06-05T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
-    },
-    {
-      "title": "Ballester Hermanos Realiza un Retiro por Contenido No Declarado de Soya y Leche en Pearl Milling Company Original Pancake & Waffles (MEZCLA PARA PANQUEQUES Y WAFFLES) Complete 5.99oz (170GR) Distribuido en Puerto Rico",
-      "summary": "Ballester Hermanos está retirando un número limitado de bolsas de 5.99 OZ (170GR) de PEARL MILLING COMPANY ORIGINAL PANCAKE &amp; WAFFLES (MEZCLA PARA PANQUEQUES Y WAFFLES) COMPLETE debido a la presencia no declarada de leche y soya. Las personas con alergia o sensibilidad grave a la leche y/o la soya c",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ballester-hermanos-realiza-un-retiro-por-contenido-no-declarado-de-soya-y-leche-en-pearl-milling",
-      "published": "2026-06-04T20:30:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
     }
   ]
 }
