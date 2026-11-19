@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T15:04:43.886833+00:00",
+  "generated_at": "2026-11-19T22:57:34.882117+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 8,
+  "new_this_run": 3,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -51,7 +51,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -61,7 +61,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-14T08:20:46.585231+00:00",
@@ -71,8 +71,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
-      "last_success": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
+      "last_success": "2026-11-19T22:50:03.045520+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -80,7 +80,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -90,7 +90,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -100,8 +100,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
-      "last_success": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
+      "last_success": "2026-11-19T22:50:03.045520+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -109,8 +109,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
-      "last_success": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
+      "last_success": "2026-11-19T22:50:03.045520+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -118,8 +118,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
-      "last_success": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
+      "last_success": "2026-11-19T22:50:03.045520+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -127,7 +127,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -136,8 +136,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
-      "last_success": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
+      "last_success": "2026-11-19T22:50:03.045520+00:00",
       "items_fetched": 6,
       "last_success_item_count": 6
     },
@@ -145,13 +145,61 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-19T14:57:10.740508+00:00",
+      "last_attempt": "2026-11-19T22:50:03.045520+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-19T14:57:10.740508+00:00",
+      "last_success": "2026-11-19T22:50:03.045520+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "Guidance: International Recognition Procedure",
+      "summary": "How to use the procedure for medicines licensing applications.",
+      "link": "https://www.gov.uk/government/publications/international-recognition-procedure",
+      "published": "2026-11-19T15:00:42+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
+    {
+      "title": "CARDIOSAVE® Hybrid And CARDIOSAVE® Rescue Intra-Aortic Balloon Pumps",
+      "summary": "Getinge has identified that some CARDIOSAVE® devices may contain a power management board (PMB) and/or solenoid control board (SCB) with one or more capacitors installed with reversed polarity. These capacitors may degrade over time, potentially causing CARDIOSAVE® device battery charging failures, an inability to power on, interruption of therapy, or unexpected shutdown. The device may continue to function as intended, since the component degradation is not an immediate effect. Continued…",
+      "link": "http://rsams-drupal-nginx/en/alert-recall/cardiosaver-hybrid-and-cardiosaver-rescue-intra-aortic-balloon-pumps",
+      "published": "2026-11-19T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Philips Bridge Prep Kit",
+      "summary": "Potential device interaction issue associated with the use of the bridge prep kit with the bridge occlusion balloon catheter. Specifically, in some cases, the catheters may experience resistance when being advanced over the 0.035\" InQwire® Amplatz Guide Wire supplied in the bridge prep kit. &nbsp;This impacts unexpired lots of the bridge prep kit. &nbsp;Note: the bridge occlusion balloon is within specifications and does not present any issues when used with a conforming 0.035\" guidewire.",
+      "link": "http://rsams-drupal-nginx/en/alert-recall/philips-bridge-prep-kit",
+      "published": "2026-11-19T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Olympus Endoscopic Ultrasound System and Ultrasonic Gastrovideoscopes For Aloka Ultrasound Processors",
+      "summary": "Olympus is providing customers with updated manual reprocessing instructions and trainings regarding the update. The reprocessing instructions were updated to provide greater clarity and specificity for reprocessing of complex device features in alignment with current reprocessing guidelines.",
+      "link": "http://rsams-drupal-nginx/en/alert-recall/olympus-endoscopic-ultrasound-system-and-ultrasonic-gastrovideoscopes-aloka-ultrasound",
+      "published": "2026-11-19T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
     {
       "title": "Portex™ Endotracheal Tubes",
       "summary": "ICU Medical has identified a lot-specific manufacturing issue affecting certain Portex™ endotracheal tubes that were manufactured with a resin that has variability in the percentage of plasticizer, potentially contributing to a softer material in some units.",
@@ -1111,18 +1159,6 @@
       "feed_id": "fda-recalls",
       "feed_label": "FDA Recalls",
       "source": "FDA Recalls"
-    },
-    {
-      "title": "Guidance: International Recognition Procedure",
-      "summary": "How to use the procedure for medicines licensing applications.",
-      "link": "https://www.gov.uk/government/publications/international-recognition-procedure",
-      "published": "2026-11-06T14:30:35+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "postmarket",
-      "feed_id": "mhra-news",
-      "feed_label": "MHRA News",
-      "source": "MHRA news & alerts"
     },
     {
       "title": "Meeting highlights from the Committee for Veterinary Medicinal Products (CVMP) 3-5 November 2026",
@@ -12115,42 +12151,6 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Class 4 Medicines Defect Notification: Cadila Pharmaceuticals Limited, Mirtazapine 30mg Tablets, EL(26)A/28",
-      "summary": "Cadila Pharmaceuticals Limited has informed the MHRA of an error with the European Article Number (EAN) barcode on the cartons of a batch of Mirtazapine 30mg Film-Coated Tablets distributed in Crescent Pharma Limited livery.",
-      "link": "https://www.gov.uk/drug-device-alerts/class-4-medicines-defect-notification-cadila-pharmaceuticals-limited-mirtazapine-30mg-tablets-el-26-a-slash-28",
-      "published": "2026-06-08T10:02:33+00:00",
-      "agency": "MHRA",
-      "region": "United Kingdom",
-      "category": "recall",
-      "feed_id": "uk-alerts",
-      "feed_label": "UK Drug & Device Alerts",
-      "source": "UK Drug & Medical Device Alerts"
-    },
-    {
-      "title": "Early Alert: Breathing Circuit Set Issue from Hamilton Medical",
-      "summary": "The ventilator breathing circuits are intended to connect a ventilator to a patient tube or mask. Obstruction may result in inadequate ventilation",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-breathing-circuit-set-issue-hamilton-medical",
-      "published": "2026-06-08T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Determination That Protamine Sulfate (Protamine Sulfate) Intravenous; Solution, 50 Milligrams/5 Milliliters, and Other Drug Products Were Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
-      "summary": "The Food and Drug Administration (FDA or Agency) has determined that the drug products listed in this document were not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw approval of abbreviated new drug applications (ANDAs) that refer to these drug products, and it will allow FDA to continue to approve ANDAs that refer to the products as long as they meet relevant legal and regulatory requirements.",
-      "link": "https://www.federalregister.gov/documents/2026/06/08/2026-11429/determination-that-protamine-sulfate-protamine-sulfate-intravenous-solution-50-milligrams5",
-      "published": "2026-06-08T04:00:00+00:00",
-      "agency": "FR",
-      "region": "United States",
-      "category": "prepub",
-      "feed_id": "federal-register",
-      "feed_label": "Federal Register",
-      "source": "Federal Register — FDA documents"
     }
   ]
 }
