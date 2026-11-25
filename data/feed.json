@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T14:33:31.858124+00:00",
+  "generated_at": "2026-11-25T00:22:10.955976+00:00",
   "item_count": 1000,
   "feed_count": 12,
-  "new_this_run": 3,
+  "new_this_run": 4,
   "pruned_this_run": 0,
   "failed_feeds": [
     {
@@ -41,7 +41,7 @@
       "name": "FDA Recalls",
       "feed_id": "fda-recalls",
       "status": "error",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-22T09:07:13.390990+00:00",
@@ -51,7 +51,7 @@
       "name": "FDA MedWatch Safety Alerts",
       "feed_id": "fda-medwatch",
       "status": "error",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-22T09:07:13.390990+00:00",
@@ -61,7 +61,7 @@
       "name": "FDA Press Announcements",
       "feed_id": "fda-press",
       "status": "error",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "HTTP 404: Not Found",
       "items_fetched": 0,
       "last_success": "2026-11-22T09:07:13.390990+00:00",
@@ -71,8 +71,8 @@
       "name": "Federal Register — FDA documents",
       "feed_id": "federal-register",
       "status": "ok",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
-      "last_success": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
+      "last_success": "2026-11-25T00:14:39.152659+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -80,7 +80,7 @@
       "name": "IMDRF Working Groups",
       "feed_id": "imdrf-wg",
       "status": "error",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -90,7 +90,7 @@
       "name": "IMDRF Consultations",
       "feed_id": "imdrf-consult",
       "status": "error",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-07-07T02:13:20.130537+00:00",
@@ -100,8 +100,8 @@
       "name": "MHRA news & alerts",
       "feed_id": "mhra-news",
       "status": "ok",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
-      "last_success": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
+      "last_success": "2026-11-25T00:14:39.152659+00:00",
       "items_fetched": 20,
       "last_success_item_count": 20
     },
@@ -109,8 +109,8 @@
       "name": "UK Drug & Medical Device Alerts",
       "feed_id": "uk-alerts",
       "status": "ok",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
-      "last_success": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
+      "last_success": "2026-11-25T00:14:39.152659+00:00",
       "items_fetched": 25,
       "last_success_item_count": 25
     },
@@ -118,8 +118,8 @@
       "name": "Health Canada Medical Device Recalls",
       "feed_id": "hc-recalls",
       "status": "ok",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
-      "last_success": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
+      "last_success": "2026-11-25T00:14:39.152659+00:00",
       "items_fetched": 3,
       "last_success_item_count": 3
     },
@@ -127,7 +127,7 @@
       "name": "TGA news & alerts",
       "feed_id": "tga-news",
       "status": "error",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "The read operation timed out",
       "items_fetched": 0,
       "last_success": "2026-08-28T16:46:05.137089+00:00"
@@ -136,8 +136,8 @@
       "name": "EMA News & Press Releases",
       "feed_id": "eu-health",
       "status": "ok",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
-      "last_success": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
+      "last_success": "2026-11-25T00:14:39.152659+00:00",
       "items_fetched": 5,
       "last_success_item_count": 5
     },
@@ -145,13 +145,25 @@
       "name": "EUR-Lex — Recent regulations & directives",
       "feed_id": "eur-lex",
       "status": "empty",
-      "last_attempt": "2026-11-24T14:25:59.764798+00:00",
+      "last_attempt": "2026-11-25T00:14:39.152659+00:00",
       "last_attempt_reason": "feed returned 0 entries",
-      "last_success": "2026-11-24T14:25:59.764798+00:00",
+      "last_success": "2026-11-25T00:14:39.152659+00:00",
       "items_fetched": 0
     }
   ],
   "items": [
+    {
+      "title": "MHRA sets out regulatory approach to next generation innovation",
+      "summary": "A round-up of the agency's announcements during London Life Sciences Week 2026, including at the inaugural DIA-MHRA Global Summit.",
+      "link": "https://www.gov.uk/government/news/mhra-sets-out-regulatory-approach-to-next-generation-innovation",
+      "published": "2026-11-24T15:02:39+00:00",
+      "agency": "MHRA",
+      "region": "United Kingdom",
+      "category": "postmarket",
+      "feed_id": "mhra-news",
+      "feed_label": "MHRA News",
+      "source": "MHRA news & alerts"
+    },
     {
       "title": "Class 4 Medicines Defect Notification: Atnahs Pharma UK Limited, Toradol 30 mg/mL Solution for Injection, EL(26)A/50",
       "summary": "Atnahs Pharma UK Ltd has informed the MHRA that safety information relating to gastrointestinal anastomotic leakage was omitted from the Patient Information Leaflets (PILs) supplied with certain batches of Toradol 30 mg/mL s…",
@@ -175,6 +187,42 @@
       "feed_id": "uk-alerts",
       "feed_label": "UK Drug & Device Alerts",
       "source": "UK Drug & Medical Device Alerts"
+    },
+    {
+      "title": "QinFlow Warrior Lite Base Unit",
+      "summary": "The warrior lite base unit operates in conjunction with a battery and a disposable unit to warm blood and IV fluids prior to administration to patients.Following a technical root-cause investigation into field complaints involving thermal deformation of disposable units, quality in flow determined that an internal mechanical shield was incorrectly assembled on the Printed Circuit Board Assembly (PCBA) during manufacturing. Under harsh environmental conditions or significant mechanical impact,…",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/qinflow-warrior-lite-base-unit",
+      "published": "2026-11-24T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "Teleflex™ Loss Of Resistance Syringe",
+      "summary": "Teleflex™ has initiated a voluntary recall for certain lots of the above-mentioned product due to an incorrect expiration on the device labelling.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/teleflextm-loss-resistance-syringe",
+      "published": "2026-11-24T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
+    },
+    {
+      "title": "CARESITE Micro® Luer Access Device and Extension Sets",
+      "summary": "B. Braun Medical Inc. (BBMI) is conducting a voluntary medical device correction for lots of CARESITE Micro® Luer Access Devices due to the piston remaining depressed following disconnection from the male luer. The depressed piston conidition may prevent valve closure and result in leakage.",
+      "link": "https://recalls-rappels.canada.ca/en/alert-recall/caresite-micror-luer-access-device-and-extension-sets",
+      "published": "2026-11-24T12:00:00+00:00",
+      "agency": "HC",
+      "region": "Canada",
+      "category": "recall",
+      "feed_id": "hc-recalls",
+      "feed_label": "Health Canada Recalls",
+      "source": "Health Canada Medical Device Recalls"
     },
     {
       "title": "Transparency data: MHRA Performance Data",
@@ -12103,54 +12151,6 @@
       "feed_id": "eu-health",
       "feed_label": "EMA News",
       "source": "EMA News & Press Releases"
-    },
-    {
-      "title": "Accolade Pacemaker Devices by Boston Scientific and Potential Need for Early Device Replacement - FDA Safety Communication",
-      "summary": "Read the FDA’s recommendations related to Accolade pacemaker devices by Boston Scientific and a potential need for early device replacement.",
-      "link": "http://www.fda.gov/medical-devices/safety-communications/accolade-pacemaker-devices-boston-scientific-and-potential-need-early-device-replacement-fda-safety",
-      "published": "2026-06-12T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Convenience Kit Correction: Medline Issues Correction for Kits Containing Huons Bupivacaine Hydrochloride in Dextrose Injection, USP",
-      "summary": "Medline is correcting affected convenience kits by removing recalled Bupivacaine Hydrochloride in Dextrose Injection components.",
-      "link": "http://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/convenience-kit-correction-medline-issues-correction-kits-containing-huons-bupivacaine-hydrochloride",
-      "published": "2026-06-12T04:00:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "postmarket",
-      "feed_id": "fda-medwatch",
-      "feed_label": "FDA MedWatch",
-      "source": "FDA MedWatch Safety Alerts"
-    },
-    {
-      "title": "Total Nutrition Inc. Expands Recall of TNVitamins and Doctor’s Pride Ultra Potent Complete Green Superfood Moringa Capsules Because of Possible Health Risk Following Further Supply Chain Review",
-      "summary": "Total Nutrition Inc. of Deer Park, NY is voluntarily expanding its recall of TNVitamins and Doctor's Pride Ultra Potent Complete Green Superfood Moringa Capsules due to the potential to be contaminated with Salmonella. This expansion follows an ongoing supply chain investigation that identified addi",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/total-nutrition-inc-expands-recall-tnvitamins-and-doctors-pride-ultra-potent-complete-green-0",
-      "published": "2026-06-11T22:09:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
-    },
-    {
-      "title": "Beekeeper’s Naturals Issues Voluntary Nationwide Recall of Beekeeper’s Naturals Saline Nasal Spray Sold Through Amazon Due to Microbial Contamination",
-      "summary": "FOR IMMEDIATE RELEASE – June 11, 2026, Covina, CA - Beekeeper’s Naturals is voluntarily recalling lot # 5950, Exp. Date 02/2028 of Beekeeper’s Naturals Saline Nasal Spray, sold only through Amazon, to the consumer level. This lot, produced at a third-party manufacturer, tested above our acceptable",
-      "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/beekeepers-naturals-issues-voluntary-nationwide-recall-beekeepers-naturals-saline-nasal-spray-sold",
-      "published": "2026-06-11T16:43:00+00:00",
-      "agency": "FDA",
-      "region": "United States",
-      "category": "recall",
-      "feed_id": "fda-recalls",
-      "feed_label": "FDA Recalls",
-      "source": "FDA Recalls"
     }
   ]
 }
